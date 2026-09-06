@@ -1,26 +1,10 @@
 'use client'
-
-import { useEffect } from 'react'
-
 import { Button } from '@/components/ui/button'
-
-interface ErrorProps {
-  error: Error & { digest?: string }
-  reset: () => void
-}
-
-export default function ErrorBoundary({ error, reset }: ErrorProps) {
-  useEffect(() => {
-    console.error(error)
-  }, [error])
-
+export default function ErrorPage({ reset }: { reset: () => void }) {
   return (
-    <section className="flex min-h-[99vh] flex-col items-start gap-3 px-2 py-8">
-      <div>
-        <h2 className="text-5xl font-bold">Oops!</h2>
-        <p className="text-muted-foreground">Something went wrong!</p>
-      </div>
-      <Button onClick={() => reset()}>Try again</Button>
-    </section>
+    <div className="standard-page">
+      <h1>This page could not load</h1>
+      <Button onClick={reset}>Try again</Button>
+    </div>
   )
 }

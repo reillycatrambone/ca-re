@@ -1,17 +1,6 @@
-import { type MetadataRoute } from 'next/types'
-
-import { Settings } from '@/types/settings'
-
-export default async function robots(): Promise<MetadataRoute.Robots> {
-  const rules = [
-    {
-      userAgent: '*',
-      allow: '/',
-    },
-  ]
-
-  return {
-    rules,
-    sitemap: `${Settings.metadataBase}/sitemap.xml`,
-  }
+import type { MetadataRoute } from 'next'
+import { siteUrl } from '@/lib/site'
+export const dynamic = 'force-static'
+export default function robots(): MetadataRoute.Robots {
+  return { rules: { userAgent: '*', allow: '/' }, sitemap: `${siteUrl}/sitemap.xml` }
 }

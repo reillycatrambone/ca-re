@@ -58,10 +58,8 @@ representative at an online or offline event.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-hello@rubixstudios.com.au.
-All complaints will be reviewed and investigated promptly and fairly.
+Use GitHub's reporting tools for abusive, harassing, or otherwise unacceptable
+behavior. Do not post private information in public issues or discussions.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.

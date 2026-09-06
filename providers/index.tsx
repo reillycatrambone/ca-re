@@ -1,12 +1,12 @@
-import { type ReactNode } from 'react'
+'use client'
+
 import { ThemeProvider } from 'next-themes'
+import { StudyProvider } from '@/components/study/study-provider'
 
-import { ViewTransitions } from '@/lib/transition'
-
-export function Providers({ children }: { children: ReactNode }) {
+export function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      <ViewTransitions>{children}</ViewTransitions>
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+      <StudyProvider>{children}</StudyProvider>
     </ThemeProvider>
   )
 }

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "transfer-001",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "A competent owner signs a sufficient gift deed, delivers it with present transfer intent, and the grantee accepts. No price is paid. Which statement is correct?",
+    "options": [
+      {
+        "text": "The absence of a purchase price does not alone invalidate the deed.",
+        "explanation": "A valid gift conveyance need not have monetary consideration."
+      },
+      {
+        "text": "The deed is always void without consideration.",
+        "explanation": "That incorrectly applies a purchase-contract assumption to a gift deed."
+      },
+      {
+        "text": "The grantee must become the grantor's agent.",
+        "explanation": "Receiving property does not require an agency relationship."
+      },
+      {
+        "text": "The gift becomes valid only after the grantee resells.",
+        "explanation": "A later sale is not necessary to complete the stated conveyance."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-002",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "An owner gives a signed deed to a friend solely for safekeeping and expressly retains control without present transfer intent. What is missing?",
+    "options": [
+      {
+        "text": "The friend's payment of a commission.",
+        "explanation": "Commission payment is not a deed-delivery requirement."
+      },
+      {
+        "text": "A lender's policy.",
+        "explanation": "Title insurance does not supply the missing conveyance intent."
+      },
+      {
+        "text": "A tenant's estoppel certificate.",
+        "explanation": "That document does not establish delivery by the owner."
+      },
+      {
+        "text": "Effective delivery of the conveyance.",
+        "explanation": "Physical custody alone is not delivery when present operative intent is absent."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-003",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "What does a quitclaim deed ordinarily convey?",
+    "options": [
+      {
+        "text": "Only the grantor's future inherited interests automatically.",
+        "explanation": "Quitclaim deeds do not ordinarily assure after-acquired title."
+      },
+      {
+        "text": "Only possession for one year.",
+        "explanation": "A quitclaim is not limited to a one-year leasehold."
+      },
+      {
+        "text": "Whatever present interest the grantor has, without the grant deed's implied covenants.",
+        "explanation": "The grantee receives the grantor's existing interest, which may be none."
+      },
+      {
+        "text": "A guaranteed fee simple title free of every defect.",
+        "explanation": "A quitclaim does not provide that guarantee."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-004",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "A later purchaser knows a seller already conveyed the property by an unrecorded deed. The later purchaser records first. Which statement is best?",
+    "options": [
+      {
+        "text": "The recorder decides which buyer acted fairly.",
+        "explanation": "The recorder does not adjudicate every ownership dispute."
+      },
+      {
+        "text": "Recording first alone does not establish good-faith purchaser protection.",
+        "explanation": "Actual notice of the earlier transfer defeats the claimed innocent-purchaser premise."
+      },
+      {
+        "text": "Recording always cures knowledge of the earlier conveyance.",
+        "explanation": "Race-notice protection requires more than winning the recording race."
+      },
+      {
+        "text": "The first deed is automatically void solely because unrecorded.",
+        "explanation": "Recording is distinct from validity between the original parties."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-005",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "Two owners hold unequal undivided shares, and each share can pass by inheritance rather than automatic survivorship. The described vesting is:",
+    "options": [
+      {
+        "text": "Tenancy in common.",
+        "explanation": "Tenancy in common permits unequal shares and no inherent survivorship."
+      },
+      {
+        "text": "Joint tenancy with all traditional unities intact.",
+        "explanation": "Joint tenancy includes equal interests and survivorship under its usual requirements."
+      },
+      {
+        "text": "Sole ownership.",
+        "explanation": "Two owners hold interests, so ownership is not sole."
+      },
+      {
+        "text": "A deed-of-trust beneficiary's interest.",
+        "explanation": "The description concerns cotenant ownership rather than a lender's security."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-006",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "A buyer pays for a lender's title policy but no owner's policy. Which interest is insured by the lender's policy?",
+    "options": [
+      {
+        "text": "The buyer's entire equity automatically.",
+        "explanation": "A lender's policy is not an owner's policy."
+      },
+      {
+        "text": "Every future tenant's personal property.",
+        "explanation": "Title insurance does not insure tenant belongings."
+      },
+      {
+        "text": "The seller's future purchase in another county.",
+        "explanation": "The policy concerns its identified insured interest and property."
+      },
+      {
+        "text": "The lender's security interest according to that policy.",
+        "explanation": "The borrower does not obtain separate owner protection merely by paying the lender's premium."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-007",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "A preliminary title report lists an easement that the proposed policy will except. What is the best interpretation?",
+    "options": [
+      {
+        "text": "The report guarantees the easement will never affect use.",
+        "explanation": "An exception is not a use guarantee."
+      },
+      {
+        "text": "The buyer now owns the easement holder's land.",
+        "explanation": "Listing an easement does not convey another parcel."
+      },
+      {
+        "text": "The proposed insurance excludes that identified matter unless the coverage terms change.",
+        "explanation": "The report must be read for requirements, exceptions, and proposed protection."
+      },
+      {
+        "text": "The easement is automatically removed by issuance of the report.",
+        "explanation": "A report does not release property rights."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-008",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "Buyer and seller give conflicting demands for a disputed deposit. Escrow's role is to:",
+    "options": [
+      {
+        "text": "Rewrite the purchase contract to settle the disagreement.",
+        "explanation": "Escrow lacks unilateral authority to change the parties' bargain."
+      },
+      {
+        "text": "Follow applicable instructions and legal procedures without unilaterally adjudicating their dispute.",
+        "explanation": "Escrow is a limited neutral holder, not the court deciding contractual default."
+      },
+      {
+        "text": "Pay whichever party contacts escrow first.",
+        "explanation": "Priority of demands does not determine entitlement."
+      },
+      {
+        "text": "Keep the money as an additional escrow fee.",
+        "explanation": "Disputed entrusted money does not become the holder's compensation."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-009",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "An independent California escrow company, operating without a specific professional exemption, is licensed under the Escrow Law by:",
+    "options": [
+      {
+        "text": "The Department of Financial Protection and Innovation.",
+        "explanation": "DFPI licenses independent escrow companies under the Escrow Law."
+      },
+      {
+        "text": "The county assessor.",
+        "explanation": "The assessor's property valuation role is not escrow licensing."
+      },
+      {
+        "text": "The local multiple listing service.",
+        "explanation": "An MLS is not the state escrow licensing agency."
+      },
+      {
+        "text": "The Internal Revenue Service.",
+        "explanation": "Federal tax administration does not supply the California escrow license."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-010",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "A property sells for $700,000 with $35,000 of qualifying selling costs. Adjusted basis is $465,000. Ignoring exclusions, what is realized gain?",
+    "options": [
+      {
+        "text": "$235,000.",
+        "explanation": "That omits the qualifying selling-cost reduction."
+      },
+      {
+        "text": "$665,000.",
+        "explanation": "That is amount realized before subtracting basis."
+      },
+      {
+        "text": "$465,000.",
+        "explanation": "That is the stated basis, not gain."
+      },
+      {
+        "text": "$200,000.",
+        "explanation": "Amount realized is $665,000; subtracting $465,000 produces $200,000."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-011",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "Assume only a county transfer tax of $0.55 per $500 or fraction applies. The stated taxable value is $500,100. What is the tax?",
+    "options": [
+      {
+        "text": "$500.10.",
+        "explanation": "That applies an unstated rate rather than $0.55 per $500."
+      },
+      {
+        "text": "$1,100.00.",
+        "explanation": "That doubles the tax on the first $500,000 and omits the actual rounding rule."
+      },
+      {
+        "text": "$550.55.",
+        "explanation": "$500,100 requires 1,001 taxable $500 units; multiplying by $0.55 gives $550.55."
+      },
+      {
+        "text": "$550.00.",
+        "explanation": "That ignores the additional fractional $500 unit."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-012",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "An exam problem uses a 360-day year and annual taxes of $9,000. The seller owes 20 unpaid days that the buyer will pay. What proration is appropriate?",
+    "options": [
+      {
+        "text": "No proration because the annual tax has not been paid.",
+        "explanation": "Unpaid expenses can still be allocated between the parties."
+      },
+      {
+        "text": "Debit seller and credit buyer $500.",
+        "explanation": "$9,000 divided by 360 is $25 per day; 20 days cost $500 owed by the seller."
+      },
+      {
+        "text": "Debit buyer and credit seller $500.",
+        "explanation": "That reverses responsibility for the seller's unpaid period."
+      },
+      {
+        "text": "Debit seller and credit buyer $250.",
+        "explanation": "That counts only ten days at the stated daily rate."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-013",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "A qualifying taxpayer excludes gain from a main-home sale under federal law. That exclusion:",
+    "options": [
+      {
+        "text": "Concerns qualifying gain and does not require buying a replacement home.",
+        "explanation": "The main-home exclusion is not the old replacement-home rollover rule."
+      },
+      {
+        "text": "Applies to the entire sale price rather than gain.",
+        "explanation": "The exclusion limits qualifying gain, not gross price."
+      },
+      {
+        "text": "Automatically prevents California property-tax reassessment for the buyer.",
+        "explanation": "Income-tax exclusion and property-tax assessment are different systems."
+      },
+      {
+        "text": "Is available only to people over age 55.",
+        "explanation": "The current federal main-home exclusion does not impose that general age requirement."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-014",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "A transaction requires real estate tax withholding. What is withholding's basic function?",
+    "options": [
+      {
+        "text": "A final fixed tax equal to the seller's exact gain liability.",
+        "explanation": "The withholding computation does not necessarily match final liability."
+      },
+      {
+        "text": "Additional compensation earned by escrow.",
+        "explanation": "The funds are remitted as tax, not retained as a service fee."
+      },
+      {
+        "text": "An automatic substitute for all tax returns.",
+        "explanation": "Withholding does not generally eliminate reporting obligations."
+      },
+      {
+        "text": "Prepayment toward the seller's tax liability under the applicable system.",
+        "explanation": "Withholding collected at transfer can differ from the final tax due."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-015",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "A decedent left a valid will. Which conclusion is correct?",
+    "options": [
+      {
+        "text": "The named executor automatically owns all estate property personally.",
+        "explanation": "Representative authority is distinct from beneficial ownership."
+      },
+      {
+        "text": "Intestate succession necessarily overrides every valid devise.",
+        "explanation": "A valid will can control property it effectively disposes of."
+      },
+      {
+        "text": "The will does not by itself guarantee avoidance of probate.",
+        "explanation": "The required administration depends on assets, title, and available procedures."
+      },
+      {
+        "text": "Every asset transfers immediately without administration.",
+        "explanation": "A will alone does not complete every transfer."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-016",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "A probate sale has an accepted $400,000 bid and requires the statutory first-overbid calculation of 10% on the first $10,000 plus 5% on the remainder. What is the minimum calculated overbid?",
+    "options": [
+      {
+        "text": "$410,000.",
+        "explanation": "That does not apply the stated two-part statutory calculation."
+      },
+      {
+        "text": "$420,500.",
+        "explanation": "Add $1,000 and $19,500 to the original $400,000."
+      },
+      {
+        "text": "$440,000.",
+        "explanation": "That incorrectly applies 10% to the entire original bid."
+      },
+      {
+        "text": "$420,000.",
+        "explanation": "That applies 5% uniformly and omits the extra first-segment amount."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-017",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "A successor trustee plans to sell property held in a trust. Which statement is best?",
+    "options": [
+      {
+        "text": "Authority must be verified under the trust and applicable law; probate confirmation is not automatic.",
+        "explanation": "A trust administration sale differs from a court-confirmed estate sale."
+      },
+      {
+        "text": "Every trust sale requires the probate overbid procedure.",
+        "explanation": "The presence of a trust does not automatically impose that process."
+      },
+      {
+        "text": "Any beneficiary may sign the deed solely because named.",
+        "explanation": "Beneficiary status does not establish trustee authority."
+      },
+      {
+        "text": "The trustee personally owns the sale proceeds without duties.",
+        "explanation": "The trustee acts in a fiduciary capacity under the trust."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-018",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "A lender accepts a deed in lieu of foreclosure from the borrower. Which statement about junior liens is most accurate?",
+    "options": [
+      {
+        "text": "Every junior lien disappears as soon as the deed is signed.",
+        "explanation": "Voluntary conveyance does not automatically extinguish those interests."
+      },
+      {
+        "text": "The county recorder must pay all junior liens.",
+        "explanation": "Recording duties do not include paying secured creditors."
+      },
+      {
+        "text": "Junior liens automatically become the borrower's title insurance.",
+        "explanation": "Liens and insurance coverage are different legal interests."
+      },
+      {
+        "text": "They are not automatically eliminated merely by that voluntary conveyance.",
+        "explanation": "A deed in lieu does not itself perform a foreclosure's lien-priority effects."
+      }
+    ],
+    "answer": 3
+  }
+]

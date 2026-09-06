@@ -1,0 +1,677 @@
+[
+  {
+    "id": "contracts-001",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A buyer and seller exchange enforceable promises to buy and sell a parcel, but no earnest money is required. Which statement is correct?",
+    "options": [
+      {
+        "text": "Only the seller's deed can supply consideration.",
+        "explanation": "A future conveyance promise can support the bargain before delivery."
+      },
+      {
+        "text": "Consideration exists only if price equals appraised value.",
+        "explanation": "Consideration need not equal market value."
+      },
+      {
+        "text": "The exchanged promises can supply consideration.",
+        "explanation": "Consideration can consist of promises; a cash deposit is not universally necessary."
+      },
+      {
+        "text": "No contract can exist without a 3% deposit.",
+        "explanation": "There is no universal 3% deposit requirement for contract formation."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-002",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A seller signs an offer but changes the closing date as a condition of agreement. The response is ordinarily:",
+    "options": [
+      {
+        "text": "A rescission of a completed sale.",
+        "explanation": "The facts concern formation, not unwinding an already completed sale."
+      },
+      {
+        "text": "A counteroffer requiring the buyer's acceptance.",
+        "explanation": "A qualified acceptance changing a material term proposes a new bargain."
+      },
+      {
+        "text": "An unconditional acceptance of the original offer.",
+        "explanation": "The added condition prevents an unconditional matching acceptance."
+      },
+      {
+        "text": "A deed transferring title immediately.",
+        "explanation": "A negotiation response does not itself convey the property."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-003",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "An agreement has an unlawful object. It is most appropriately classified as:",
+    "options": [
+      {
+        "text": "Void.",
+        "explanation": "An illegal object prevents the agreement from having ordinary contractual force."
+      },
+      {
+        "text": "Fully enforceable if both parties sign.",
+        "explanation": "Signatures do not legalize an unlawful purpose."
+      },
+      {
+        "text": "Executed solely because consideration was promised.",
+        "explanation": "Executed performance does not describe this formation defect."
+      },
+      {
+        "text": "Automatically valid after notarization.",
+        "explanation": "Acknowledgment does not cure illegality."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-004",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A purchase contract obtained through legally significant fraud may be avoided by the protected party. This illustrates:",
+    "options": [
+      {
+        "text": "An agreement that no party can ever affirm.",
+        "explanation": "Voidability can allow the protected party to choose affirmation where permitted."
+      },
+      {
+        "text": "A contract requiring no consent.",
+        "explanation": "Consent remains essential; the fraud undermines its legal quality."
+      },
+      {
+        "text": "A mandatory transfer to the state.",
+        "explanation": "Fraud in formation does not create escheat."
+      },
+      {
+        "text": "A voidable agreement.",
+        "explanation": "The protected party can avoid an agreement that otherwise may have effect."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-005",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "Which agreement most clearly falls within the real estate lease provision of California's statute of frauds?",
+    "options": [
+      {
+        "text": "An agreement to water plants tomorrow.",
+        "explanation": "The stated service is not a real property lease."
+      },
+      {
+        "text": "A one-day equipment rental solely because rent is charged.",
+        "explanation": "Rent alone does not make a transaction a qualifying real property lease."
+      },
+      {
+        "text": "A lease for two years.",
+        "explanation": "A lease longer than one year ordinarily requires a sufficient signed writing."
+      },
+      {
+        "text": "A completed two-week vacation rental solely because it involves land.",
+        "explanation": "That duration does not satisfy the longer-than-one-year lease rule."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-006",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "An offer expressly requires the buyer to receive signed acceptance by 5 p.m. Friday. The seller signs Friday but delivery occurs Saturday. Which point is decisive?",
+    "options": [
+      {
+        "text": "The deposit amount extends the deadline automatically.",
+        "explanation": "A deposit does not silently amend the specified acceptance deadline."
+      },
+      {
+        "text": "The stated receipt requirement was not met.",
+        "explanation": "The offer's required acceptance method and deadline govern the stated facts."
+      },
+      {
+        "text": "The seller's private signature always binds the buyer immediately.",
+        "explanation": "Signing alone does not satisfy an express delivery-and-receipt condition."
+      },
+      {
+        "text": "Any acceptance within three days is automatically timely.",
+        "explanation": "There is no universal three-day grace period for accepting offers."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-007",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A signed purchase agreement still requires financing approval, payment, and delivery of title. In the performance sense, it is:",
+    "options": [
+      {
+        "text": "Executory.",
+        "explanation": "Material contractual duties remain to be performed."
+      },
+      {
+        "text": "Fully executed.",
+        "explanation": "Signing does not mean all performance is complete."
+      },
+      {
+        "text": "Void for lacking immediate title transfer.",
+        "explanation": "Purchase agreements can validly require later performance."
+      },
+      {
+        "text": "An oral agreement.",
+        "explanation": "The facts expressly describe a signed agreement."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-008",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A buyer assigns a purchase contract to another buyer. The seller has not agreed to release the original buyer. Which statement is best?",
+    "options": [
+      {
+        "text": "The original buyer is always released immediately.",
+        "explanation": "Release ordinarily requires agreement or another legal basis."
+      },
+      {
+        "text": "The seller has automatically agreed to a novation.",
+        "explanation": "Assignment alone does not establish consent to substitution and discharge."
+      },
+      {
+        "text": "Assignment automatically cancels the purchase contract.",
+        "explanation": "A permitted assignment can continue the agreement with transferred rights."
+      },
+      {
+        "text": "The original buyer may remain liable for performance.",
+        "explanation": "Assignment or delegation does not automatically discharge the original obligor."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-009",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "All necessary parties agree to substitute a new buyer and discharge the original buyer's obligation. This is:",
+    "options": [
+      {
+        "text": "An acknowledgment of a deed signature.",
+        "explanation": "Notarial acknowledgment serves a different purpose."
+      },
+      {
+        "text": "A subordination agreement.",
+        "explanation": "Subordination changes priority rather than substitutes and releases an obligor."
+      },
+      {
+        "text": "A novation.",
+        "explanation": "The agreed substitution includes discharge of the replaced obligation."
+      },
+      {
+        "text": "Only a unilateral assignment.",
+        "explanation": "The express release and consent distinguish novation."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-010",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A buyer properly cancels under an unremoved inspection contingency according to the contract. The cancellation is:",
+    "options": [
+      {
+        "text": "Effective only if the property has already transferred.",
+        "explanation": "Contingencies normally operate before completing the transfer."
+      },
+      {
+        "text": "Not necessarily a breach because the contract provides that right.",
+        "explanation": "A valid exercise of an agreed contingency must be distinguished from default."
+      },
+      {
+        "text": "Automatically a breach because the buyer signed the offer.",
+        "explanation": "A signed contract can include enforceable cancellation rights."
+      },
+      {
+        "text": "Always subject to automatic loss of 3% of the price.",
+        "explanation": "The 3% liquidated-damages rules do not erase contingency rights."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-011",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A court orders a seller to convey land under an enforceable purchase agreement. The remedy is:",
+    "options": [
+      {
+        "text": "Specific performance.",
+        "explanation": "The order requires the promised act rather than merely paying money."
+      },
+      {
+        "text": "Liquidated damages.",
+        "explanation": "Liquidated damages involve an agreed damages measure, not an order to convey."
+      },
+      {
+        "text": "Rescission.",
+        "explanation": "Rescission unwinds the agreement rather than compels its performance."
+      },
+      {
+        "text": "Mediation.",
+        "explanation": "A mediator ordinarily helps negotiate rather than imposes this order."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-012",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A qualifying owner-occupied residential sale is priced at $900,000. What is 3% of that price for the statutory liquidated-damages analysis?",
+    "options": [
+      {
+        "text": "$9,000.",
+        "explanation": "That is 1%, not 3%, of the purchase price."
+      },
+      {
+        "text": "$30,000.",
+        "explanation": "That is 3% of $1 million, a different price."
+      },
+      {
+        "text": "$270,000.",
+        "explanation": "That is 30%, a decimal-place error."
+      },
+      {
+        "text": "$27,000.",
+        "explanation": "Multiplying $900,000 by 0.03 yields $27,000; other statutory requirements still apply."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-013",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A qualifying residential contract includes a liquidated-damages provision and a deposit below 3%. The buyer and seller dispute whether the buyer defaulted. Escrow should:",
+    "options": [
+      {
+        "text": "Automatically pay the broker's commission from the deposit.",
+        "explanation": "The disputed trust funds do not automatically belong to the broker."
+      },
+      {
+        "text": "Divide the deposit equally without consent.",
+        "explanation": "Escrow cannot invent a settlement allocation."
+      },
+      {
+        "text": "Follow authorized instructions and applicable dispute procedures rather than decide default itself.",
+        "explanation": "A liquidated-damages clause does not turn escrow into the adjudicator of disputed rights."
+      },
+      {
+        "text": "Automatically give the seller the deposit.",
+        "explanation": "The clause alone does not resolve the disputed default."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-014",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "The parties agree to unwind their purchase contract and restore exchanged benefits. This most closely describes:",
+    "options": [
+      {
+        "text": "A novation continuing the same sale with a new buyer.",
+        "explanation": "No substituted buyer or continuing obligation is described."
+      },
+      {
+        "text": "Rescission with restitution.",
+        "explanation": "Rescission unwinds the contract, and restitution addresses returning benefits."
+      },
+      {
+        "text": "Specific performance.",
+        "explanation": "Specific performance requires completion rather than unwinding."
+      },
+      {
+        "text": "An offer that was never accepted.",
+        "explanation": "The parties are ending an existing agreement."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-015",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "Under an exclusive right to sell listing with no applicable exception, the owner personally finds the buyer during the term. The agreed listing compensation is generally:",
+    "options": [
+      {
+        "text": "Still governed by the exclusive right to sell fee provision.",
+        "explanation": "That listing ordinarily covers sales during the term regardless of who produces the buyer."
+      },
+      {
+        "text": "Automatically waived whenever the owner finds the buyer.",
+        "explanation": "That resembles an exclusive-agency owner-sale exception, not the stated listing."
+      },
+      {
+        "text": "Fixed by DRE at a statutory percentage.",
+        "explanation": "No statutory commission percentage applies."
+      },
+      {
+        "text": "Paid only if the buyer separately hired the listing broker.",
+        "explanation": "The seller's listing obligation does not require that separate relationship."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-016",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "Which feature most distinguishes an exclusive agency listing from an exclusive right to sell listing?",
+    "options": [
+      {
+        "text": "Only an exclusive agency listing must identify a property.",
+        "explanation": "Both must adequately identify their subject and scope."
+      },
+      {
+        "text": "An exclusive right to sell automatically conveys title.",
+        "explanation": "Neither listing is a deed."
+      },
+      {
+        "text": "An exclusive agency permits competing brokers to hold identical exclusive listings.",
+        "explanation": "It grants exclusivity to one brokerage, subject to the owner's reserved right."
+      },
+      {
+        "text": "An owner's independent-sale exception ordinarily exists in the exclusive agency listing.",
+        "explanation": "The distinction concerns the owner's ability to produce the buyer without owing listing compensation."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-017",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "Under California regulations operative January 1, 2026, what is the ordinary maximum term represented by three months for a covered individual buyer agreement?",
+    "options": [
+      {
+        "text": "One year unless the buyer objects.",
+        "explanation": "That exceeds the applicable maximum."
+      },
+      {
+        "text": "An unlimited term with automatic monthly renewal.",
+        "explanation": "Covered agreements cannot renew automatically."
+      },
+      {
+        "text": "90 calendar days, with counting governed by the regulation and any agreed delayed effective date.",
+        "explanation": "The regulation defines the statutory term as 90 calendar days."
+      },
+      {
+        "text": "Exactly 90 business days.",
+        "explanation": "The rule uses calendar days, not business days."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-018",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "For a buyer's agent preparing an in-person property showing in 2026, the DRE timing regulation creates:",
+    "options": [
+      {
+        "text": "A requirement only for buyers using FHA loans.",
+        "explanation": "The rule is not limited to a particular loan program."
+      },
+      {
+        "text": "A rebuttable presumption that obtaining the signed buyer agreement before showing is practicable.",
+        "explanation": "The regulation addresses what is practicable before in-person and defined virtual showings."
+      },
+      {
+        "text": "An exception allowing every agreement to wait until closing.",
+        "explanation": "The statute requires execution much earlier, and the regulation addresses showings."
+      },
+      {
+        "text": "A rule that every open-house visitor is automatically represented.",
+        "explanation": "A seller-only agent's showing does not itself establish buyer representation."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-019",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "A covered buyer representation agreement is approaching expiration. The parties wish to renew. Which method complies with the stated renewal rules?",
+    "options": [
+      {
+        "text": "A written, dated renewal signed by the parties before expiration within the applicable term limit.",
+        "explanation": "The current rules require affirmative written renewal and prohibit automatic renewal."
+      },
+      {
+        "text": "An automatic extension printed in the original agreement.",
+        "explanation": "Automatic renewal is prohibited."
+      },
+      {
+        "text": "The broker silently continues the agreement for a year.",
+        "explanation": "Silence does not satisfy the signing or duration requirements."
+      },
+      {
+        "text": "An undated oral understanding recorded only in the agent's notes.",
+        "explanation": "The renewal must be written, dated, and signed by the parties."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-020",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "A broker plans to collect a regulated advance fee for future marketing services. Which statement is correct?",
+    "options": [
+      {
+        "text": "The broker may collect immediately upon mailing materials to DRE.",
+        "explanation": "The required prior review and no-objection process must be completed."
+      },
+      {
+        "text": "Calling the fee nonrefundable eliminates trust obligations.",
+        "explanation": "The label does not override refundable unexpended funds and accounting requirements."
+      },
+      {
+        "text": "Only the salesperson must approve the agreement.",
+        "explanation": "DRE review and broker responsibilities are not replaced by salesperson approval."
+      },
+      {
+        "text": "The required materials must be submitted in advance and DRE's no-objection communication received before use or collection.",
+        "explanation": "Submission alone does not authorize immediate use, and DRE does not endorse the services."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-021",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "A broker offers to collect an advance fee for covered residential mortgage loan modification services. A general advance-fee agreement:",
+    "options": [
+      {
+        "text": "Makes the fee lawful if the borrower is late on payments.",
+        "explanation": "Financial distress does not create the claimed exception."
+      },
+      {
+        "text": "Eliminates the prohibition after notarization.",
+        "explanation": "Notarial acknowledgment does not change the substantive rule."
+      },
+      {
+        "text": "Does not override the prohibition on those advance fees.",
+        "explanation": "The service-specific prohibition controls even if a general form is available."
+      },
+      {
+        "text": "Automatically makes the fee lawful.",
+        "explanation": "A contract cannot legalize a prohibited charge."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-022",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A buyer pays for a valid option to purchase by a stated deadline. Before exercising, the buyer ordinarily has:",
+    "options": [
+      {
+        "text": "A right to change the price unilaterally.",
+        "explanation": "Exercise must comply with the agreed terms."
+      },
+      {
+        "text": "The right, but not the obligation, to buy on the option terms.",
+        "explanation": "The optionee has a choice while the optionor's commitment is binding under the option."
+      },
+      {
+        "text": "An unconditional duty to buy regardless of exercise.",
+        "explanation": "That confuses an option with an already binding purchase obligation."
+      },
+      {
+        "text": "Ownership of the fee immediately.",
+        "explanation": "An unexercised option does not itself complete the conveyance."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-023",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A right of first refusal generally differs from a purchase option because it:",
+    "options": [
+      {
+        "text": "Typically depends on a sale-related trigger specified in the agreement.",
+        "explanation": "The holder's opportunity commonly arises when the owner decides to sell or receives a qualifying offer."
+      },
+      {
+        "text": "Always transfers title when signed.",
+        "explanation": "Neither label alone describes an immediate deed conveyance."
+      },
+      {
+        "text": "Always allows an immediate forced sale at any chosen price.",
+        "explanation": "That is not the ordinary first-refusal right."
+      },
+      {
+        "text": "Can never appear in a lease.",
+        "explanation": "Lease agreements can contain purchase-related rights."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-024",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "Which instrument primarily evidences the borrower's promise to repay money?",
+    "options": [
+      {
+        "text": "A grant deed from the seller.",
+        "explanation": "The grant deed conveys an ownership interest."
+      },
+      {
+        "text": "A preliminary title report.",
+        "explanation": "The report proposes title-insurance terms."
+      },
+      {
+        "text": "A lease.",
+        "explanation": "The lease principally grants possession under rental terms."
+      },
+      {
+        "text": "A promissory note.",
+        "explanation": "The note states the debt obligation and its payment terms."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-025",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A tenant receives a fixed six-month lease. The duration most clearly creates:",
+    "options": [
+      {
+        "text": "A mandatory periodic tenancy.",
+        "explanation": "A fixed expiration differs from automatically recurring periods."
+      },
+      {
+        "text": "An easement by prescription.",
+        "explanation": "The tenant's possession comes from a lease, not adverse use."
+      },
+      {
+        "text": "An estate for years.",
+        "explanation": "A fixed term is an estate for years even when shorter than one year."
+      },
+      {
+        "text": "A fee simple estate.",
+        "explanation": "A leasehold does not convey the owner's fee."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-026",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A seller finances a purchase using a land sale contract and retains legal title until required installments are paid. The buyer generally holds:",
+    "options": [
+      {
+        "text": "Only a right of first refusal.",
+        "explanation": "The buyer has agreed to purchase, not merely to receive a future opportunity."
+      },
+      {
+        "text": "An equitable interest under the contract.",
+        "explanation": "The buyer's contractual interest differs from the seller's retained legal title."
+      },
+      {
+        "text": "No enforceable interest until the final payment in every case.",
+        "explanation": "The contract can create significant equitable rights before final payment."
+      },
+      {
+        "text": "The lender's beneficial interest under an already recorded deed of trust automatically.",
+        "explanation": "The stated arrangement is a land sale contract, not necessarily deed-of-trust financing."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-027",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A lease option credits a $4,000 option payment plus $250 from each of twelve timely rent payments toward the price at a completed purchase. What is the stated credit?",
+    "options": [
+      {
+        "text": "$7,000.",
+        "explanation": "Twelve times $250 is $3,000; adding the $4,000 option credit gives $7,000."
+      },
+      {
+        "text": "$3,000.",
+        "explanation": "That omits the option payment expressly credited."
+      },
+      {
+        "text": "$4,250.",
+        "explanation": "That counts only one monthly credit."
+      },
+      {
+        "text": "The entire year's rent regardless of the clause.",
+        "explanation": "Only the specified portion of rent receives the contractual credit."
+      }
+    ],
+    "answer": 0
+  }
+]

@@ -1,66 +1,42 @@
-import { type ReactNode } from 'react'
-import { type Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { GoogleTagManager } from '@next/third-parties/google'
-
-import { Footer } from '@/components/navigation/footer'
-import { Navbar } from '@/components/navigation/navbar'
+import type { Metadata } from 'next'
 import { Providers } from '@/providers'
-import { Settings } from '@/types/settings'
-
+import { BookShell } from '@/components/book/shell'
+import { getLessonSummaries } from '@/lib/content'
+import { siteUrl } from '@/lib/site'
+import '@fontsource-variable/inter'
+import 'katex/dist/katex.min.css'
 import '@/styles/globals.css'
 
-const inter = Inter({
-  adjustFontFallback: true,
-  display: 'swap',
-  preload: true,
-  subsets: ['latin'],
-  variable: '--font-inter',
-})
-
-const baseUrl = Settings.metadataBase
-
 export const metadata: Metadata = {
-  title: Settings.title,
-  metadataBase: new URL(baseUrl),
-  description: Settings.description,
-  keywords: Settings.keywords,
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'California Real Estate | Salesperson Exam Textbook',
+    template: '%s | California Real Estate',
+  },
+  description:
+    'An original California real estate salesperson exam textbook, with worked examples, chapter quizzes, flashcards, and timed practice exams.',
+  robots: { index: true, follow: true },
   openGraph: {
-    type: Settings.openGraph.type,
-    url: baseUrl,
-    title: Settings.openGraph.title,
-    description: Settings.openGraph.description,
-    siteName: Settings.openGraph.siteName,
-    images: Settings.openGraph.images.map((image) => ({
-      ...image,
-      url: `${baseUrl}${image.url}`,
-    })),
-  },
-  twitter: {
-    card: Settings.twitter.card,
-    title: Settings.twitter.title,
-    description: Settings.twitter.description,
-    site: Settings.twitter.site,
-    images: Settings.twitter.images.map((image) => ({
-      ...image,
-      url: `${baseUrl}${image.url}`,
-    })),
-  },
-  publisher: Settings.name,
-  alternates: {
-    canonical: baseUrl,
+    type: 'website',
+    title: 'California Real Estate',
+    description: 'An original salesperson exam textbook and study workspace.',
+    images: [
+      {
+        url: '/images/residential-parcel.png',
+        width: 1200,
+        height: 800,
+        alt: 'California residential parcel illustration',
+      },
+    ],
   },
 }
 
-export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html data-scroll-behavior="smooth" lang="en" suppressHydrationWarning>
-      {Settings.gtmconnected && <GoogleTagManager gtmId={Settings.gtm} />}
-      <body className={`${inter.variable} font-regular antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body>
         <Providers>
-          <Navbar />
-          <main className="h-auto px-5 sm:px-8">{children}</main>
-          <Footer />
+          <BookShell lessons={getLessonSummaries()}>{children}</BookShell>
         </Providers>
       </body>
     </html>

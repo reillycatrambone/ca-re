@@ -1,0 +1,952 @@
+[
+  {
+    "id": "agency-001",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A seller agrees to pay part of a buyer's brokerage fee. The buyer has retained a separate broker. What determines whom that broker represents?",
+    "options": [
+      {
+        "text": "The title company's choice of payee.",
+        "explanation": "Escrow payment instructions do not create client representation."
+      },
+      {
+        "text": "The representation agreement and actual agency relationship.",
+        "explanation": "Payment source does not by itself change the represented principal."
+      },
+      {
+        "text": "Who writes the commission check.",
+        "explanation": "Compensation source alone does not establish agency."
+      },
+      {
+        "text": "The property's listing price.",
+        "explanation": "Price is a contract term, not an agency designation."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-002",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A listing authorizes a broker to market a home and find a buyer. It contains no authority to sign for the owner. May the broker accept an offer for the seller?",
+    "options": [
+      {
+        "text": "No, marketing authority does not ordinarily include signing authority.",
+        "explanation": "A listing employs brokerage services without automatically authorizing execution of the seller's contract."
+      },
+      {
+        "text": "Yes, whenever the price equals the asking price.",
+        "explanation": "Matching price does not supply missing authority or resolve other terms."
+      },
+      {
+        "text": "Yes, if the broker holds the keys.",
+        "explanation": "Access to the property is not authority to bind its owner."
+      },
+      {
+        "text": "Only if the earnest money exceeds 3%.",
+        "explanation": "Deposit size has no bearing on the broker's signing authority."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-003",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "An owner hires a manager to collect rents, arrange authorized repairs, and administer leases continuously. Within that business, the manager most closely resembles which agent?",
+    "options": [
+      {
+        "text": "A universal agent without limits.",
+        "explanation": "Management authority does not grant power over all the owner's affairs."
+      },
+      {
+        "text": "A grantee.",
+        "explanation": "A grantee receives a property interest; management alone conveys none."
+      },
+      {
+        "text": "An escrow holder only.",
+        "explanation": "Property management involves continuing duties beyond conditional custody."
+      },
+      {
+        "text": "A general agent.",
+        "explanation": "The appointment covers an ongoing class of management activities."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-004",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "Which fact most strongly supports ostensible authority?",
+    "options": [
+      {
+        "text": "The tenant wishes the manager could approve a sale.",
+        "explanation": "A third party's preference is not authority created by the principal."
+      },
+      {
+        "text": "The manager earns a monthly fee.",
+        "explanation": "Compensation alone does not establish the scope of apparent authority."
+      },
+      {
+        "text": "The principal repeatedly represents to others that the manager may authorize routine repairs.",
+        "explanation": "Ostensible authority rests on appearances attributable to the principal and reasonable reliance."
+      },
+      {
+        "text": "The manager privately claims unlimited power without the owner's knowledge.",
+        "explanation": "An agent cannot create authority solely through unsupported assertions."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-005",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A principal learns all material facts about an unauthorized transaction and adopts it in the legally required manner. This is:",
+    "options": [
+      {
+        "text": "Novation automatically releasing every agent.",
+        "explanation": "Ratification does not itself substitute parties or release liability."
+      },
+      {
+        "text": "Ratification.",
+        "explanation": "The principal has adopted an initially unauthorized act."
+      },
+      {
+        "text": "Revocation.",
+        "explanation": "Revocation withdraws authority rather than adopts a transaction."
+      },
+      {
+        "text": "Subordination.",
+        "explanation": "Subordination changes priority, commonly among liens."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-006",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A brokerage signs a written agreement to represent a buyer in a defined search. How was this agency most clearly created?",
+    "options": [
+      {
+        "text": "Express agreement.",
+        "explanation": "The parties expressly stated and documented the representation."
+      },
+      {
+        "text": "Adverse possession.",
+        "explanation": "Possession of land does not create this employment relationship."
+      },
+      {
+        "text": "Recording a deed.",
+        "explanation": "No conveyance is needed to create buyer representation."
+      },
+      {
+        "text": "Escheat.",
+        "explanation": "Escheat concerns succession to property by the state."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-007",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "An attorney-in-fact signs a deed under a valid power of attorney. Which statement is correct?",
+    "options": [
+      {
+        "text": "The attorney-in-fact must hold a law license.",
+        "explanation": "An attorney-in-fact need not be an attorney-at-law."
+      },
+      {
+        "text": "Every listing salesperson is automatically an attorney-in-fact.",
+        "explanation": "A listing does not automatically confer power to sign deeds."
+      },
+      {
+        "text": "The instrument grants ownership to the attorney-in-fact.",
+        "explanation": "Authority to act is distinct from ownership of the property."
+      },
+      {
+        "text": "The signing authority depends on the powers granted and applicable law.",
+        "explanation": "A power of attorney must cover the act and be effective when used."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-008",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A salesperson from one brokerage shows another brokerage's listing to a represented buyer. Which conclusion is justified?",
+    "options": [
+      {
+        "text": "The listing broker automatically becomes the buyer's agent.",
+        "explanation": "A showing by another firm does not establish that relationship."
+      },
+      {
+        "text": "No fiduciary duties can arise until closing.",
+        "explanation": "Representation duties can arise well before the transaction closes."
+      },
+      {
+        "text": "The cooperating brokerage may represent the buyer; cooperation alone does not establish subagency.",
+        "explanation": "Determine the actual agency rather than inferring seller representation from cooperation."
+      },
+      {
+        "text": "The showing automatically creates seller subagency.",
+        "explanation": "A cooperating broker need not be the seller's subagent."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-009",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "Which appointment best illustrates a special agency?",
+    "options": [
+      {
+        "text": "Naming someone as the future heir to a house.",
+        "explanation": "An inheritance designation is not an appointment to act as an agent."
+      },
+      {
+        "text": "Retaining a brokerage to market one identified parcel.",
+        "explanation": "The appointment has a particular transaction or purpose."
+      },
+      {
+        "text": "Granting unlimited power over all business and personal affairs.",
+        "explanation": "That describes a far broader scope than special agency."
+      },
+      {
+        "text": "Appointing a manager for all ongoing operations of an apartment portfolio.",
+        "explanation": "That is ordinarily general agency within the management business."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-010",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A seller instructs the listing agent to conceal a known recurring roof leak. What should the agent do?",
+    "options": [
+      {
+        "text": "Refuse concealment and address the required disclosure through the responsible broker.",
+        "explanation": "Lawful disclosure duties take precedence over an unlawful client instruction."
+      },
+      {
+        "text": "Obey because loyalty requires following every instruction.",
+        "explanation": "Obedience applies to lawful instructions, not concealment of material defects."
+      },
+      {
+        "text": "Disclose only if the buyer is also the agent's client.",
+        "explanation": "Required material disclosure extends to nonclients."
+      },
+      {
+        "text": "Keep the information secret until after recording.",
+        "explanation": "Delayed disclosure does not satisfy the transaction duty."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-011",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A buyer asks the seller's agent for the seller's undisclosed minimum acceptable price. The seller has not authorized disclosure. What is the best response?",
+    "options": [
+      {
+        "text": "Reveal it because all facts must be shared equally.",
+        "explanation": "Material-property disclosure does not require revealing every private bargaining fact."
+      },
+      {
+        "text": "Invent a higher minimum.",
+        "explanation": "Confidentiality does not authorize a false statement."
+      },
+      {
+        "text": "Require the buyer to waive inspection before answering.",
+        "explanation": "Trading away inspection does not authorize disclosure of the seller's confidence."
+      },
+      {
+        "text": "Protect that bargaining information while presenting any offer to the seller.",
+        "explanation": "A private negotiating limit is different from a disclosable property defect."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-012",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "An agent chooses a weaker offer for a seller because it pays the agent more, without telling the seller. Which duty is most directly implicated?",
+    "options": [
+      {
+        "text": "Escheat.",
+        "explanation": "Escheat has no relation to selecting offers."
+      },
+      {
+        "text": "Reconveyance.",
+        "explanation": "Reconveyance concerns release of deed-of-trust security."
+      },
+      {
+        "text": "Loyalty.",
+        "explanation": "The agent placed a conflicting personal financial interest ahead of the client."
+      },
+      {
+        "text": "Constructive notice.",
+        "explanation": "That concerns legally attributed notice, not the agent's preference for a fee."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-013",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A listing agent receives an offer the agent thinks is too low. The seller has given no instruction to withhold offers. What is the appropriate action?",
+    "options": [
+      {
+        "text": "Return it unless the buyer raises the deposit.",
+        "explanation": "The agent cannot invent a deposit condition for presentation."
+      },
+      {
+        "text": "Promptly present it and advise the seller about its terms.",
+        "explanation": "The principal should make the informed decision; the agent should not silently discard it."
+      },
+      {
+        "text": "Reject it in the seller's name.",
+        "explanation": "The facts grant no authority to substitute the agent's acceptance decision."
+      },
+      {
+        "text": "Wait until a higher offer arrives.",
+        "explanation": "Delay deprives the principal of timely transaction information."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-014",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "An agent asserts that a lot can be subdivided despite having no reasonable basis for the statement. Which risk is most directly raised?",
+    "options": [
+      {
+        "text": "Negligent misrepresentation.",
+        "explanation": "A factual assertion made without reasonable grounds can create liability."
+      },
+      {
+        "text": "Automatic creation of subdivision approval.",
+        "explanation": "An agent's assertion cannot grant governmental approval."
+      },
+      {
+        "text": "A valid warranty from the planning department.",
+        "explanation": "The statement does not establish any planning-agency promise."
+      },
+      {
+        "text": "No liability unless the agent admits an intent to lie.",
+        "explanation": "Negligent misrepresentation does not require deliberate deceit."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-015",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "An unrepresented buyer asks a listing agent about a known material foundation defect. The agent owes the buyer:",
+    "options": [
+      {
+        "text": "Fiduciary loyalty identical to the seller's, automatically.",
+        "explanation": "Single agency does not automatically make the buyer a represented principal."
+      },
+      {
+        "text": "No duties because the buyer hired nobody.",
+        "explanation": "Important duties extend beyond the represented client."
+      },
+      {
+        "text": "Only duties after the buyer pays a fee.",
+        "explanation": "A separate fee is not required for these duties."
+      },
+      {
+        "text": "Honest dealing and the required material disclosure.",
+        "explanation": "Nonclient status does not remove duties of honesty and material disclosure."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-016",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A salesperson receives a buyer's deposit and wants to use it for listing photographs. Which principle controls?",
+    "options": [
+      {
+        "text": "A future commission gives the salesperson ownership now.",
+        "explanation": "Expected compensation does not transfer ownership of the deposit."
+      },
+      {
+        "text": "Only cash deposits require accounting.",
+        "explanation": "Accounting duties are not limited to physical currency."
+      },
+      {
+        "text": "The money must be handled under trust-fund rules and authorized instructions.",
+        "explanation": "Transaction funds are not unrestricted brokerage operating money."
+      },
+      {
+        "text": "Advertising always benefits the transaction, so use is permitted.",
+        "explanation": "A useful expense does not authorize spending someone else's entrusted money."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-017",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A buyer needs a property suitable for a specific industrial process. The agent lacks technical knowledge. The best course is to:",
+    "options": [
+      {
+        "text": "Assume the seller's casual assurance is conclusive.",
+        "explanation": "Unverified assurances may be inadequate for the known issue."
+      },
+      {
+        "text": "Identify necessary specialized verification and assist the buyer in obtaining it.",
+        "explanation": "Reasonable care includes recognizing limits and addressing the client's stated needs."
+      },
+      {
+        "text": "Guarantee suitability from the building's size.",
+        "explanation": "Size alone does not establish zoning, systems, or operational suitability."
+      },
+      {
+        "text": "Treat all technical questions as irrelevant to representation.",
+        "explanation": "A stated material objective cannot simply be ignored."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-018",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "After a listing ends, the former agent receives a request for the seller's confidential financial information. Which statement is best?",
+    "options": [
+      {
+        "text": "Confidentiality can continue after the agency ends.",
+        "explanation": "Termination does not automatically release protected client information."
+      },
+      {
+        "text": "All information becomes public on expiration.",
+        "explanation": "Expiration does not convert private information into public records."
+      },
+      {
+        "text": "Only an unpaid commission preserves confidentiality.",
+        "explanation": "The duty does not depend on an outstanding fee."
+      },
+      {
+        "text": "The former agent may disclose it whenever a new client benefits.",
+        "explanation": "A new relationship does not erase the former client's protection."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-019",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "In a covered residential sale, an agent sees an unexplained ceiling stain during the required visual inspection. What should the agent do?",
+    "options": [
+      {
+        "text": "Ignore it because the agent is not an engineer.",
+        "explanation": "Lack of engineering expertise does not eliminate the visual inspection duty."
+      },
+      {
+        "text": "State that the structure is sound.",
+        "explanation": "The observation does not support a structural guarantee."
+      },
+      {
+        "text": "Remove it from photographs and make no mention of it.",
+        "explanation": "Concealing evidence does not satisfy care or disclosure duties."
+      },
+      {
+        "text": "Disclose the observation appropriately and address the need for further investigation.",
+        "explanation": "Visible warning signs should not be ignored because another inspector may later examine them."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-020",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "Two salespersons affiliated with the same broker represent opposite sides of one sale. At the brokerage level, this is generally:",
+    "options": [
+      {
+        "text": "Illegal in every California transaction.",
+        "explanation": "California permits properly disclosed and consented dual agency."
+      },
+      {
+        "text": "Only subagency because the staff members differ.",
+        "explanation": "The firm represents both principals, not merely another agent's principal."
+      },
+      {
+        "text": "Dual agency requiring the appropriate knowledge and consent.",
+        "explanation": "Different affiliated salespersons do not turn one broker into separate firms."
+      },
+      {
+        "text": "Two unrelated single agencies with no dual role.",
+        "explanation": "The common brokerage represents both opposing principals."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-021",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "What is the primary function of agency confirmation?",
+    "options": [
+      {
+        "text": "Establishing a government-fixed commission.",
+        "explanation": "Compensation is not fixed by an agency confirmation or by law."
+      },
+      {
+        "text": "Identifying the actual representation relationships in the particular transaction.",
+        "explanation": "Confirmation records who represents whom in this transaction."
+      },
+      {
+        "text": "Explaining every possible relationship without identifying the actual one.",
+        "explanation": "That is the educational function of the general disclosure."
+      },
+      {
+        "text": "Transferring ownership to the buyer.",
+        "explanation": "A confirmation is not a deed."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-022",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "Before entering a listing agreement, the seller's agent must provide the seller with:",
+    "options": [
+      {
+        "text": "The required statutory agency disclosure.",
+        "explanation": "California requires seller-side disclosure before the listing agreement."
+      },
+      {
+        "text": "A final closing statement.",
+        "explanation": "The transaction has not reached closing."
+      },
+      {
+        "text": "A signed deed of reconveyance.",
+        "explanation": "That instrument releases secured debt and is unrelated to hiring the broker."
+      },
+      {
+        "text": "A guarantee of the final sales price.",
+        "explanation": "Agency disclosure does not require a price guarantee."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-023",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A buyer signs an acknowledgment of receiving an agency disclosure. That acknowledgment alone:",
+    "options": [
+      {
+        "text": "Automatically hires every brokerage named in it.",
+        "explanation": "An acknowledgment is not an unlimited employment contract."
+      },
+      {
+        "text": "Eliminates the need to confirm actual agency.",
+        "explanation": "Disclosure and transaction-specific confirmation have separate functions."
+      },
+      {
+        "text": "Authorizes disclosure of every financial fact.",
+        "explanation": "Receipt does not supply blanket confidentiality consent."
+      },
+      {
+        "text": "Does not necessarily create a buyer-broker employment agreement.",
+        "explanation": "Receipt of an explanation differs from entering the representation contract."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-024",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A dual agent knows the buyer would pay $20,000 above the offer. Without the buyer's express permission, the agent should:",
+    "options": [
+      {
+        "text": "Reveal it only after obtaining the seller's permission.",
+        "explanation": "The information belongs to the buyer; seller permission is insufficient."
+      },
+      {
+        "text": "Add $20,000 to the offer without asking.",
+        "explanation": "The agent lacks authority to rewrite the buyer's offer."
+      },
+      {
+        "text": "Keep that confidential negotiating limit from the seller.",
+        "explanation": "A dual agent cannot disclose the buyer's protected bargaining information without permission."
+      },
+      {
+        "text": "Reveal it to maximize the seller's price.",
+        "explanation": "Dual agency does not authorize favoring one client through the other's confidence."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-025",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A listing agent's wholly owned LLC offers to purchase the listing. The seller does not know the connection. What is required?",
+    "options": [
+      {
+        "text": "Only disclosure after the LLC resells.",
+        "explanation": "Post-sale disclosure is too late for the seller's informed decision."
+      },
+      {
+        "text": "Disclosure of the agent's material ownership interest and proper treatment of the conflict.",
+        "explanation": "An indirect purchase still creates a personal-interest conflict."
+      },
+      {
+        "text": "No disclosure because an LLC is a separate legal entity.",
+        "explanation": "Entity status does not eliminate the agent's economic interest."
+      },
+      {
+        "text": "No disclosure if the offer equals the asking price.",
+        "explanation": "An acceptable price does not excuse hiding a fiduciary conflict."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-026",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A dual agent receives a seller's instruction to hide a known structural defect. Both parties previously consented to dual agency. Which result follows?",
+    "options": [
+      {
+        "text": "The material disclosure duty remains.",
+        "explanation": "Consent to dual agency does not authorize concealment of required property facts."
+      },
+      {
+        "text": "Dual-agency consent makes the instruction lawful.",
+        "explanation": "Consent does not waive statutory and fiduciary disclosure duties."
+      },
+      {
+        "text": "The agent must hide the defect to remain neutral.",
+        "explanation": "Neutral treatment does not mean withholding material facts."
+      },
+      {
+        "text": "Only the buyer's lender may receive the information.",
+        "explanation": "The lender is not a substitute for required disclosure to the buyer."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-027",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A seller refuses to sign the acknowledgment of receipt of the required agency disclosure. The agent should:",
+    "options": [
+      {
+        "text": "Sign the seller's name to complete the file.",
+        "explanation": "Forgery is not a lawful compliance method."
+      },
+      {
+        "text": "Assume all disclosure duties are waived.",
+        "explanation": "Refusal to acknowledge receipt does not erase substantive duties."
+      },
+      {
+        "text": "Remove the disclosure from the transaction file.",
+        "explanation": "The refusal should be documented, not concealed."
+      },
+      {
+        "text": "Follow the statutory procedure documenting the refusal in writing.",
+        "explanation": "A declaration of refusal documents the event without fabricating acknowledgment."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-028",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "An agent recommends a service business in which the agent has a material ownership interest. The best approach is to:",
+    "options": [
+      {
+        "text": "Assume disclosure legalizes any referral fee.",
+        "explanation": "Disclosure does not override laws prohibiting particular payments."
+      },
+      {
+        "text": "Wait until a client complains.",
+        "explanation": "The client needs material conflict information before deciding."
+      },
+      {
+        "text": "Disclose the interest and comply with any additional referral-payment restrictions.",
+        "explanation": "Transparency addresses the conflict, while other laws may separately limit payments."
+      },
+      {
+        "text": "Describe the recommendation as independent without qualification.",
+        "explanation": "An undisclosed ownership benefit can make that description misleading."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-029",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A listing agent shows an open house solely on behalf of the seller. The visitor remains unrepresented. The showing alone means:",
+    "options": [
+      {
+        "text": "The agent may withhold all known defects.",
+        "explanation": "Duties to nonclients still include required material disclosures."
+      },
+      {
+        "text": "The agent has not necessarily become the visitor's buyer's agent.",
+        "explanation": "Seller-only showing activity does not itself establish buyer representation."
+      },
+      {
+        "text": "A mandatory dual agency has arisen.",
+        "explanation": "Representation of both sides does not automatically arise from opening the door."
+      },
+      {
+        "text": "The visitor owes the agent a buyer commission.",
+        "explanation": "A showing alone does not establish that compensation obligation."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-030",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A $700,000 sale carries a negotiated brokerage fee of 2%. The salesperson receives 65% of that fee. What is the salesperson's gross share?",
+    "options": [
+      {
+        "text": "$9,100.",
+        "explanation": "The fee is $14,000; multiplying by 65% produces $9,100."
+      },
+      {
+        "text": "$14,000.",
+        "explanation": "That is the entire brokerage fee before the internal split."
+      },
+      {
+        "text": "$455,000.",
+        "explanation": "That incorrectly applies 65% to the sale price."
+      },
+      {
+        "text": "$4,900.",
+        "explanation": "That is the brokerage's retained 35%, not the salesperson's share."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-031",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "Which statement about California real estate commission rates is correct?",
+    "options": [
+      {
+        "text": "DRE sets the minimum permissible rate.",
+        "explanation": "DRE does not impose a standard commission rate."
+      },
+      {
+        "text": "Competing brokers may agree on one community rate.",
+        "explanation": "Agreements among competitors to fix prices raise antitrust concerns."
+      },
+      {
+        "text": "The rate depends only on assessed value.",
+        "explanation": "The parties' compensation agreement supplies the basis."
+      },
+      {
+        "text": "Rates are independently set by brokers and negotiable with clients.",
+        "explanation": "No statewide standard rate is fixed by DRE or an MLS."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-032",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A seller offers a salesperson a direct bonus for licensed work performed under the responsible broker. The salesperson should:",
+    "options": [
+      {
+        "text": "Accept it if paid after recording.",
+        "explanation": "Timing after closing does not change the responsible-broker rule."
+      },
+      {
+        "text": "Deposit it into the buyer's trust account.",
+        "explanation": "Client trust funds are not a substitute route for personal compensation."
+      },
+      {
+        "text": "Handle compensation through the responsible broker.",
+        "explanation": "California requires salesperson compensation for that activity to flow through the responsible broker."
+      },
+      {
+        "text": "Accept it privately because the amount is small.",
+        "explanation": "A small amount does not remove the compensation restriction."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-033",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A seller revokes a broker's authority after the broker has earned a fee under the agreement. Which statement is best?",
+    "options": [
+      {
+        "text": "The buyer now owes the seller's fee by law.",
+        "explanation": "The debt does not automatically shift to the buyer."
+      },
+      {
+        "text": "Authority can end while the contractual fee obligation remains.",
+        "explanation": "Revocation and compensation liability are separate questions."
+      },
+      {
+        "text": "The broker may continue acting indefinitely until paid.",
+        "explanation": "An unpaid fee does not preserve revoked ordinary authority."
+      },
+      {
+        "text": "Revocation automatically erases the earned fee.",
+        "explanation": "Ending authority does not automatically cancel contractual liability."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-034",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A broker expects a commission from a listing. Does that expectation alone create an agency coupled with an interest?",
+    "options": [
+      {
+        "text": "No; an expected commission is not the required interest in the subject matter.",
+        "explanation": "The exceptional agency requires more than an interest in compensation."
+      },
+      {
+        "text": "Yes; every paid agency is irrevocable.",
+        "explanation": "Compensation does not make ordinary agency irrevocable."
+      },
+      {
+        "text": "Yes, after the first advertisement is purchased.",
+        "explanation": "Advertising expense alone does not create the necessary ownership interest."
+      },
+      {
+        "text": "Only when the fee is a percentage.",
+        "explanation": "The fee's calculation method does not create the exception."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-035",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "Which event most clearly ends an ordinary listing agency according to its agreed duration?",
+    "options": [
+      {
+        "text": "A prospective buyer asks a question.",
+        "explanation": "An inquiry does not end the employment relationship."
+      },
+      {
+        "text": "The seller receives a tax bill.",
+        "explanation": "An ordinary tax bill does not terminate a listing."
+      },
+      {
+        "text": "The broker changes an advertisement's photograph.",
+        "explanation": "Routine marketing changes do not end agency."
+      },
+      {
+        "text": "Expiration of the listing term.",
+        "explanation": "The agreed endpoint ends authority unless properly renewed or otherwise continued."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-036",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A protection clause in an expired listing should be analyzed as:",
+    "options": [
+      {
+        "text": "A guarantee that every later sale owes a fee.",
+        "explanation": "The clause must actually apply to the transaction."
+      },
+      {
+        "text": "A transfer of the property to the brokerage.",
+        "explanation": "A fee-protection provision is not a conveyance."
+      },
+      {
+        "text": "A possible surviving compensation provision subject to its stated conditions.",
+        "explanation": "Protected prospects, time limits, notice, and exceptions depend on the clause."
+      },
+      {
+        "text": "An automatic perpetual renewal of all agency powers.",
+        "explanation": "Protection clauses do not inherently renew authority indefinitely."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-037",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A purchase fails to close. To decide whether the listing broker earned compensation, first examine:",
+    "options": [
+      {
+        "text": "The seller's opinion after the dispute.",
+        "explanation": "The agreement and legally relevant facts control."
+      },
+      {
+        "text": "The brokerage agreement's earning conditions and the cause of nonclosing.",
+        "explanation": "Closing failure alone does not resolve every fee claim."
+      },
+      {
+        "text": "Only whether the broker bought advertisements.",
+        "explanation": "Effort does not necessarily satisfy the contractual earning event."
+      },
+      {
+        "text": "Only the amount of the buyer's deposit.",
+        "explanation": "Deposit size does not alone determine the broker's employment rights."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-038",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "An agent withdraws from a management agency. Which obligation can remain?",
+    "options": [
+      {
+        "text": "Accounting for entrusted funds and protecting confidential information.",
+        "explanation": "Termination does not erase duties concerning funds and protected information."
+      },
+      {
+        "text": "Unlimited authority to sign new leases.",
+        "explanation": "Withdrawal ends ordinary authority to undertake new acts."
+      },
+      {
+        "text": "Ownership of tenant deposits as unpaid compensation.",
+        "explanation": "Entrusted deposits do not become the former agent's money."
+      },
+      {
+        "text": "A right to destroy all records immediately.",
+        "explanation": "Record obligations are not eliminated by ending representation."
+      }
+    ],
+    "answer": 0
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "practice-001",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "An owner offers to pay a salesperson directly for negotiating a sale handled through the salesperson's broker. What is the proper arrangement?",
+    "options": [
+      {
+        "text": "Compensation for the licensed work should be handled through the responsible broker.",
+        "explanation": "A salesperson's licensed compensation belongs within the responsible-broker relationship."
+      },
+      {
+        "text": "The salesperson may accept it if the amount is under $500.",
+        "explanation": "There is no general small-payment exception allowing direct compensation for licensed work."
+      },
+      {
+        "text": "The salesperson may accept it if called a consulting fee.",
+        "explanation": "Changing the label does not change the licensed activity."
+      },
+      {
+        "text": "The owner must pay an unlicensed assistant instead.",
+        "explanation": "Paying an assistant does not cure the compensation problem and cannot reward licensed acts."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-002",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "A salesperson's license expired yesterday, but late renewal remains available. Which activity must stop until the license is effective again?",
+    "options": [
+      {
+        "text": "Preparing the renewal application.",
+        "explanation": "Applying to renew is not licensed brokerage activity."
+      },
+      {
+        "text": "Negotiating a buyer's counteroffer.",
+        "explanation": "Negotiation is licensed activity, and a late-renewal opportunity does not authorize practice during expiration."
+      },
+      {
+        "text": "Organizing nonconfidential office supplies.",
+        "explanation": "Ordinary clerical work does not itself require a real estate license."
+      },
+      {
+        "text": "Studying approved continuing education.",
+        "explanation": "Education can be completed without performing licensed transactions."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-003",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "Which task is most clearly appropriate for an unlicensed assistant under supervision?",
+    "options": [
+      {
+        "text": "Negotiating a seller's minimum acceptable price.",
+        "explanation": "Negotiation is a licensed act."
+      },
+      {
+        "text": "Explaining why a counteroffer should be accepted.",
+        "explanation": "Recommending acceptance is substantive transaction advice."
+      },
+      {
+        "text": "Confirming when an inspection report will be delivered.",
+        "explanation": "Obtaining delivery status is administrative support when kept within authorized limits."
+      },
+      {
+        "text": "Advising a buyer to waive an inspection contingency.",
+        "explanation": "Advice about transaction rights requires licensed judgment and may require legal assistance."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-004",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "A broker calls all salespersons independent contractors and stops reviewing their advertising. What follows?",
+    "options": [
+      {
+        "text": "Only employees require supervision.",
+        "explanation": "The duty covers affiliated licensed activity, not merely employment-law classification."
+      },
+      {
+        "text": "Supervision passes automatically to DRE.",
+        "explanation": "DRE regulates the business but does not manage its day-to-day activities."
+      },
+      {
+        "text": "Clients become responsible for checking advertisements.",
+        "explanation": "Consumer review does not replace the broker's duty."
+      },
+      {
+        "text": "The broker still has a duty of reasonable supervision.",
+        "explanation": "Contractor classification does not remove licensing-law supervision obligations."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-005",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "What is the ordinary total continuing-education requirement for renewal of a California real estate license, subject to applicable exemptions?",
+    "options": [
+      {
+        "text": "45 hours of DRE-approved education.",
+        "explanation": "The ordinary renewal total is 45 hours, with content requirements varying by renewal category."
+      },
+      {
+        "text": "Three college courses every year.",
+        "explanation": "Initial qualifying courses are different from periodic continuing education."
+      },
+      {
+        "text": "15 hours regardless of license category.",
+        "explanation": "Fifteen hours does not satisfy the ordinary 45-hour total."
+      },
+      {
+        "text": "No coursework after passing the salesperson exam.",
+        "explanation": "Initial examination does not eliminate renewal education."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-006",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "A broker closes a sale. Which statement best describes the general transaction-record retention minimum?",
+    "options": [
+      {
+        "text": "Only the deed must be retained.",
+        "explanation": "The obligation extends to multiple categories of transaction records."
+      },
+      {
+        "text": "Three years from closing for the completed transaction.",
+        "explanation": "Section 10148 generally uses three years from closing, with different treatment for unconsummated transactions and possible longer requirements."
+      },
+      {
+        "text": "Until the commission check clears.",
+        "explanation": "Payment of compensation does not end the retention duty."
+      },
+      {
+        "text": "One year from the first showing.",
+        "explanation": "Neither that period nor that trigger is the general completed-transaction rule."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-007",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "An eligible victim seeks Consumer Recovery Account payment after licensee fraud. What is the current transaction maximum?",
+    "options": [
+      {
+        "text": "$250,000 for each victim in every transaction.",
+        "explanation": "$250,000 is the aggregate licensee cap, not an unlimited individual transaction award."
+      },
+      {
+        "text": "Any amount the broker's insurer denies.",
+        "explanation": "Insurance denial alone does not establish account eligibility or amount."
+      },
+      {
+        "text": "$50,000, subject to eligibility and the aggregate licensee limit.",
+        "explanation": "The statutory transaction maximum is $50,000, with a $250,000 aggregate maximum per licensee."
+      },
+      {
+        "text": "The entire contract price without a limit.",
+        "explanation": "The account is limited and does not insure every transaction price."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-008",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "Which distinction between DRE discipline and a private damages claim is correct?",
+    "options": [
+      {
+        "text": "DRE automatically awards the requested damages whenever it receives a complaint.",
+        "explanation": "A complaint does not produce an automatic civil damages award."
+      },
+      {
+        "text": "A civil dispute can never involve a licensing violation.",
+        "explanation": "Fraud and other conduct can create both civil and regulatory issues."
+      },
+      {
+        "text": "Every commission disagreement requires license revocation.",
+        "explanation": "An ordinary fee dispute does not automatically establish grounds for revocation."
+      },
+      {
+        "text": "DRE can address licensing violations, while monetary civil remedies require their own basis and process.",
+        "explanation": "Regulatory enforcement and recovery of private damages are distinct, although facts may overlap."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-009",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A salesperson receives a buyer's deposit check on behalf of the broker. What is the general first obligation?",
+    "options": [
+      {
+        "text": "Immediately deliver it to the broker or follow the broker's authorized placement direction.",
+        "explanation": "The salesperson's rule is immediate delivery or authorized placement, not an independent holding period."
+      },
+      {
+        "text": "Keep it for three business days before informing the broker.",
+        "explanation": "The broker's ordinary placement deadline is not a salesperson's permission to delay delivery."
+      },
+      {
+        "text": "Deposit it into the salesperson's personal account.",
+        "explanation": "Personal deposit improperly mixes entrusted funds with personal funds."
+      },
+      {
+        "text": "Treat it as an advance against commission.",
+        "explanation": "The buyer's deposit does not become earned compensation upon receipt."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-010",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A broker receives trust money without contrary valid instructions or an applicable exception. What is the ordinary placement deadline?",
+    "options": [
+      {
+        "text": "Only after closing.",
+        "explanation": "Trust money requires protection and accounting before closing."
+      },
+      {
+        "text": "No later than three business days after receipt.",
+        "explanation": "The broker ordinarily must place the money with its owner, neutral escrow, or a proper trust account by that deadline."
+      },
+      {
+        "text": "Thirty calendar days after receipt.",
+        "explanation": "Thirty days is not the ordinary trust-fund placement period."
+      },
+      {
+        "text": "When the buyer removes all contingencies.",
+        "explanation": "Contingency removal does not generally postpone the statutory placement duty."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-011",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A broker properly holds an offer check uncashed before acceptance. What is needed to continue holding it undeposited after acceptance?",
+    "options": [
+      {
+        "text": "An oral promise by the salesperson to deposit it eventually.",
+        "explanation": "That promise does not satisfy the required written authority."
+      },
+      {
+        "text": "No additional authority if the check is less than $10,000.",
+        "explanation": "The exception is not based on that dollar threshold."
+      },
+      {
+        "text": "Written authorization from the offeree.",
+        "explanation": "Continued holding after acceptance requires the offeree's written authorization under the specific exception."
+      },
+      {
+        "text": "Only the buyer's original preacceptance request.",
+        "explanation": "The original instruction alone does not authorize indefinite postacceptance holding."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-012",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "How much of the broker's own money may ordinarily remain in the trust account to cover bank service charges and related charges or fees?",
+    "options": [
+      {
+        "text": "Ten percent of total trust deposits.",
+        "explanation": "The allowance is not a percentage of client funds."
+      },
+      {
+        "text": "Any amount approved by the bookkeeper.",
+        "explanation": "The bookkeeper cannot waive the regulatory limit."
+      },
+      {
+        "text": "A month's office payroll.",
+        "explanation": "Trust accounts are not operating accounts for payroll."
+      },
+      {
+        "text": "Up to $200.",
+        "explanation": "The regulation permits a limited amount for account charges, not unrestricted operating cash."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-013",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A manager pays Owner A's $1,500 repair from trust when A has only $1,000, using Owner B's balance for the difference. What is the problem?",
+    "options": [
+      {
+        "text": "Owner A's payment improperly uses $500 belonging to another beneficiary.",
+        "explanation": "A positive total bank balance does not authorize one owner's shortage."
+      },
+      {
+        "text": "There is no problem if the overall bank balance stays positive.",
+        "explanation": "Beneficiary ownership matters independently of the bank total."
+      },
+      {
+        "text": "The payment becomes lawful because the repair benefits real property.",
+        "explanation": "The purpose of the expense does not authorize use of another owner's money."
+      },
+      {
+        "text": "Only the contractor is responsible.",
+        "explanation": "The broker remains responsible for authorized handling and accounting."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-014",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "The bank shows $12,000, with a $2,000 deposit in transit and $3,000 of outstanding checks. What is the adjusted bank balance?",
+    "options": [
+      {
+        "text": "$7,000.",
+        "explanation": "The deposit in transit is added, not subtracted."
+      },
+      {
+        "text": "$11,000.",
+        "explanation": "Add the unposted deposit and subtract checks not yet cleared: $12,000 + $2,000 - $3,000."
+      },
+      {
+        "text": "$17,000.",
+        "explanation": "Outstanding checks reduce, rather than increase, the adjusted balance."
+      },
+      {
+        "text": "$13,000.",
+        "explanation": "This reverses the adjustments or omits part of the calculation."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-015",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "What should agree in a sound three-way trust reconciliation?",
+    "options": [
+      {
+        "text": "Bank statement alone and the broker's estimated commission.",
+        "explanation": "The statement needs timing adjustments and comparison with ownership records."
+      },
+      {
+        "text": "Only total deposits and total withdrawals.",
+        "explanation": "Those totals do not by themselves establish the remaining balance or its ownership."
+      },
+      {
+        "text": "Adjusted bank balance, control-record balance, and total beneficiary-ledger balances.",
+        "explanation": "These three views test bank timing, account activity, and ownership of funds."
+      },
+      {
+        "text": "Property value, mortgage balance, and annual rent.",
+        "explanation": "Those are investment measures, not trust-account balances."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-016",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "Buyer and seller both demand a disputed deposit after a failed sale. What should the broker do?",
+    "options": [
+      {
+        "text": "Pay the seller because the listing broker represents the seller.",
+        "explanation": "Agency loyalty does not authorize deciding a disputed ownership claim in the client's favor."
+      },
+      {
+        "text": "Keep the funds as compensation for time spent.",
+        "explanation": "The broker cannot convert disputed client funds into a fee without entitlement."
+      },
+      {
+        "text": "Divide the deposit equally without asking either party.",
+        "explanation": "A unilateral compromise lacks the required authority."
+      },
+      {
+        "text": "Protect the funds and obtain proper authority for disbursement.",
+        "explanation": "Conflicting claims require appropriate instructions or legal direction, not unilateral preference for a client."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-017",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "An agent shows buyers only neighborhoods where residents share the buyers' ethnicity, although other homes meet their criteria. What is this?",
+    "options": [
+      {
+        "text": "Steering.",
+        "explanation": "The agent is directing housing choices based on a protected characteristic rather than the buyers' stated needs."
+      },
+      {
+        "text": "Blockbusting.",
+        "explanation": "Blockbusting pressures owners to transact by exploiting fears of demographic change."
+      },
+      {
+        "text": "A required cultural accommodation.",
+        "explanation": "The buyers choose their preferences; the agent cannot impose an ethnic housing restriction."
+      },
+      {
+        "text": "A lawful substitute for asking about location.",
+        "explanation": "Assumptions about identity cannot replace the client's stated criteria."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-018",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A broker urges owners to sell quickly because a protected group is moving nearby. Which term applies?",
+    "options": [
+      {
+        "text": "A comparative market analysis.",
+        "explanation": "A market analysis does not justify using discriminatory fear to solicit sales."
+      },
+      {
+        "text": "Blockbusting.",
+        "explanation": "The conduct induces transactions through fear of demographic change."
+      },
+      {
+        "text": "Redemption.",
+        "explanation": "Redemption concerns recovery of property or satisfaction of secured debt, not discriminatory solicitation."
+      },
+      {
+        "text": "Subordination.",
+        "explanation": "Subordination changes interest priority."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-019",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A California landlord rejects all applicants with Section 8 vouchers. What is the key issue?",
+    "options": [
+      {
+        "text": "A lawful rule whenever applied consistently.",
+        "explanation": "Consistency does not legalize a criterion that is itself prohibited."
+      },
+      {
+        "text": "A valid substitute for evaluating the tenant's rent share.",
+        "explanation": "The applicant's relevant financial circumstances should be evaluated under lawful criteria."
+      },
+      {
+        "text": "Unlawful source-of-income discrimination.",
+        "explanation": "California protects qualifying rental assistance and does not permit a blanket voucher ban."
+      },
+      {
+        "text": "A required method of avoiding federal loans.",
+        "explanation": "Rental vouchers are not mortgage loans, and the proposed policy is not required."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-020",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A tenant requests a reserved parking space because of a disability. What category best describes the request?",
+    "options": [
+      {
+        "text": "Reasonable modification in every case.",
+        "explanation": "A physical alteration is a modification; this request concerns assignment policy."
+      },
+      {
+        "text": "A transfer of title.",
+        "explanation": "Parking accommodation does not convey ownership."
+      },
+      {
+        "text": "An automatic request to reduce rent.",
+        "explanation": "The stated request concerns access, not rent amount."
+      },
+      {
+        "text": "Reasonable accommodation.",
+        "explanation": "Changing a parking policy or assignment is a change in a rule or service."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-021",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A tenant seeks permission to install a necessary grab bar. What is the most accurate description?",
+    "options": [
+      {
+        "text": "A potential reasonable modification.",
+        "explanation": "The request concerns a physical alteration to support use of the dwelling."
+      },
+      {
+        "text": "A mortgage modification.",
+        "explanation": "There is no change to loan terms."
+      },
+      {
+        "text": "Steering.",
+        "explanation": "The tenant is not being directed toward or away from a neighborhood."
+      },
+      {
+        "text": "An unlawful request because all tenants must have identical fixtures.",
+        "explanation": "Equal opportunity may require reasonable physical modifications."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-022",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "The disability and need for a requested accommodation are obvious. What should a housing provider ordinarily avoid?",
+    "options": [
+      {
+        "text": "Documenting the agreed implementation.",
+        "explanation": "Appropriate records can support consistent administration without exposing unnecessary medical details."
+      },
+      {
+        "text": "Demanding full medical records as a routine condition.",
+        "explanation": "When the need is apparent, intrusive medical documentation is not ordinarily appropriate."
+      },
+      {
+        "text": "Considering the request promptly.",
+        "explanation": "Prompt consideration is appropriate."
+      },
+      {
+        "text": "Discussing an effective accommodation when clarification is needed.",
+        "explanation": "A timely interactive process can help resolve the request."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-023",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "Which advertisement is the clearest fair-housing concern for an ordinary rental that does not qualify for an exemption?",
+    "options": [
+      {
+        "text": "Near a bus route and public park.",
+        "explanation": "Location features are ordinarily appropriate factual descriptions."
+      },
+      {
+        "text": "Rent is $2,100 per month.",
+        "explanation": "Stating the rent is not inherently discriminatory."
+      },
+      {
+        "text": "Adults only; no children.",
+        "explanation": "The advertisement expresses a familial-status limitation."
+      },
+      {
+        "text": "Two bedrooms with an accessible entrance.",
+        "explanation": "This describes property features without expressing a prohibited resident preference."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-024",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "What does qualification as housing for older persons generally provide?",
+    "options": [
+      {
+        "text": "Permission to discriminate by race.",
+        "explanation": "Senior-housing status does not waive racial protections."
+      },
+      {
+        "text": "Automatic exemption merely by posting a senior-community sign.",
+        "explanation": "A label alone does not meet statutory requirements."
+      },
+      {
+        "text": "Exemption from every California housing law.",
+        "explanation": "Other protections and obligations continue to apply."
+      },
+      {
+        "text": "A limited familial-status exemption when the applicable requirements are met.",
+        "explanation": "The exemption is specific and depends on qualifying age and operational conditions."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-025",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "Which listing statement most clearly requires factual verification rather than being ordinary promotional opinion?",
+    "options": [
+      {
+        "text": "The garage conversion has all required permits.",
+        "explanation": "Permit status is a concrete factual and legal claim that needs an appropriate basis."
+      },
+      {
+        "text": "The living room is charming.",
+        "explanation": "That is generally subjective promotional opinion."
+      },
+      {
+        "text": "The garden feels inviting.",
+        "explanation": "That is an aesthetic opinion rather than a specific verified condition."
+      },
+      {
+        "text": "The home has a pleasant atmosphere.",
+        "explanation": "The description is ordinarily subjective, though context can still matter."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-026",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "A salesperson's website presents the salesperson as a standalone brokerage and omits required broker identification. What is the central issue?",
+    "options": [
+      {
+        "text": "A team logo automatically replaces the responsible broker's identity.",
+        "explanation": "A logo does not automatically satisfy the required identification."
+      },
+      {
+        "text": "The advertising can mislead consumers about professional identity and authority.",
+        "explanation": "Covered advertising must satisfy identification requirements and cannot imply independent brokerage authority that does not exist."
+      },
+      {
+        "text": "Websites are exempt from real estate advertising rules.",
+        "explanation": "Digital media are not categorically exempt."
+      },
+      {
+        "text": "The problem disappears if the website has no prices.",
+        "explanation": "Professional identification duties are not limited to price advertisements."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-027",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "Competing brokers agree that none will accept listings below the same minimum commission. What is the concern?",
+    "options": [
+      {
+        "text": "An ordinary management budget.",
+        "explanation": "The agreement concerns competitors' fees, not one property's operating budget."
+      },
+      {
+        "text": "A permissible agreement whenever clients are told about it.",
+        "explanation": "Disclosure does not legalize prohibited price coordination."
+      },
+      {
+        "text": "An anticompetitive agreement concerning price.",
+        "explanation": "Competitors must make independent pricing decisions rather than coordinate a minimum fee."
+      },
+      {
+        "text": "A mandatory DRE fee schedule.",
+        "explanation": "DRE does not impose the assumed standard brokerage commission."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-028",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "An AI tool invents an extra permitted bedroom in listing copy. Who must address the error before publication?",
+    "options": [
+      {
+        "text": "Only the software developer.",
+        "explanation": "The advertiser remains responsible for representations made to consumers."
+      },
+      {
+        "text": "Only prospective buyers after their inspections.",
+        "explanation": "Consumer investigation does not excuse misleading advertising."
+      },
+      {
+        "text": "Nobody if the text includes the word estimated.",
+        "explanation": "A vague qualifier does not justify a fabricated permitted bedroom."
+      },
+      {
+        "text": "The licensee and responsible broker through appropriate review and supervision.",
+        "explanation": "Use of software does not transfer professional responsibility for factual claims."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-029",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "Covered digitally altered property images are used in California sale advertising in 2026. Which approach matches the current rule?",
+    "options": [
+      {
+        "text": "Provide the required alteration disclosure and access to original images in the prescribed manner.",
+        "explanation": "The statute requires transparency and original-image availability for covered alterations."
+      },
+      {
+        "text": "Remove the original files after publishing.",
+        "explanation": "Discarding originals defeats the required comparison and access."
+      },
+      {
+        "text": "Disclose only if a buyer asks whether the image is real.",
+        "explanation": "The rule requires disclosure in the advertising context, not merely an answer after inquiry."
+      },
+      {
+        "text": "Assume all AI images are exempt because no photographer made them.",
+        "explanation": "Technology does not create that exemption."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-030",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "A buyer receives urgent emailed instructions changing escrow's bank account. What is the best immediate response?",
+    "options": [
+      {
+        "text": "Forward the password for the transaction account.",
+        "explanation": "Sharing credentials increases the risk and does not verify payment instructions."
+      },
+      {
+        "text": "Verify independently through a previously established trusted contact method.",
+        "explanation": "Independent verification avoids relying on contact information controlled by the sender of the suspicious message."
+      },
+      {
+        "text": "Call only the new number supplied in that email.",
+        "explanation": "That number may belong to the person attempting the fraud."
+      },
+      {
+        "text": "Send a small transfer to test whether the account accepts funds.",
+        "explanation": "Acceptance does not prove the account belongs to escrow and still risks loss."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-031",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "Which statement about electronic signatures is most accurate?",
+    "options": [
+      {
+        "text": "They automatically authorize an employee to bind any company.",
+        "explanation": "Signing authority is a separate question."
+      },
+      {
+        "text": "They are never effective for real estate agreements.",
+        "explanation": "Electronic signatures are not categorically invalid in real estate."
+      },
+      {
+        "text": "They can have legal effect, but identity, authority, consent, and applicable requirements still matter.",
+        "explanation": "Electronic execution does not eliminate the need for a valid agreement and authorized signer."
+      },
+      {
+        "text": "They prove the signer understood every clause.",
+        "explanation": "A signature alone does not prove comprehension."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-032",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "An agent uploads a client's complete financial file into an unapproved public AI service. What duty is most directly implicated?",
+    "options": [
+      {
+        "text": "The right to prepay a mortgage.",
+        "explanation": "The issue is information handling, not loan payoff."
+      },
+      {
+        "text": "The seller's right to select a paint color.",
+        "explanation": "That does not address the disclosure of financial records."
+      },
+      {
+        "text": "Automatic transfer of the agent's fiduciary duty to the service.",
+        "explanation": "Professional duties do not transfer simply because software is used."
+      },
+      {
+        "text": "Safeguarding confidential information and supervising technology use.",
+        "explanation": "Sensitive client information requires appropriate controls over access, sharing, and retention."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-033",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A management agreement authorizes repairs up to $600 without owner approval. A nonemergency $8,000 upgrade is proposed. What should the manager do?",
+    "options": [
+      {
+        "text": "Obtain the required owner authorization before committing to the upgrade.",
+        "explanation": "The proposed expense exceeds the granted authority, and no emergency exception is stated."
+      },
+      {
+        "text": "Approve it because any improvement increases value.",
+        "explanation": "Possible benefit does not create authority."
+      },
+      {
+        "text": "Pay from another owner's reserve and request approval later.",
+        "explanation": "That would improperly use other entrusted money and still exceed authority."
+      },
+      {
+        "text": "Assume every management agreement grants unlimited spending power.",
+        "explanation": "Authority depends on the agreement and law."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-034",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "For a new deposit governed by the general California rule effective July 1, 2024, an ordinary landlord rents a home for $2,200. What is the usual maximum security deposit?",
+    "options": [
+      {
+        "text": "Any amount if the tenant signs a waiver.",
+        "explanation": "A lease waiver does not create unrestricted authority to exceed the statute."
+      },
+      {
+        "text": "$2,200, apart from first month's rent.",
+        "explanation": "The general cap is one month's rent, subject to specific exceptions."
+      },
+      {
+        "text": "$4,400 whenever the home is unfurnished.",
+        "explanation": "That reflects the old general unfurnished rule rather than the current ordinary cap."
+      },
+      {
+        "text": "$6,600 whenever the home is furnished.",
+        "explanation": "The old furnished distinction does not supply the current general cap."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-035",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A landlord subject to the one-month cap requests one month's rent as security plus a separate cleaning deposit. How should the charges be analyzed?",
+    "options": [
+      {
+        "text": "Treat all deposits as earned management fees.",
+        "explanation": "Deposits remain subject to tenant-security rules."
+      },
+      {
+        "text": "Apply the cap only to deposits paid by check.",
+        "explanation": "Payment method does not create the proposed exception."
+      },
+      {
+        "text": "Combine the security charges when applying the cap.",
+        "explanation": "Different labels do not remove cleaning security from the total."
+      },
+      {
+        "text": "Ignore the cleaning deposit because it has a separate name.",
+        "explanation": "The law looks at the nature of the payment."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-036",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "Which landlord may potentially use the higher small-landlord deposit limit, subject to all other statutory conditions?",
+    "options": [
+      {
+        "text": "A corporation owning twenty apartment buildings.",
+        "explanation": "That does not fit the specified small-landlord category."
+      },
+      {
+        "text": "Any landlord who calls the business family owned.",
+        "explanation": "A marketing description does not establish statutory eligibility."
+      },
+      {
+        "text": "Any owner whose tenant earns a high income.",
+        "explanation": "Tenant income alone does not create the small-landlord exception."
+      },
+      {
+        "text": "A natural person owning two rental properties containing four total rental units.",
+        "explanation": "That ownership and unit count can fit the small-landlord definition, subject to other conditions and exceptions."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-037",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "What is the ordinary deadline for returning residential security or the balance with a required accounting after move-out?",
+    "options": [
+      {
+        "text": "21 calendar days.",
+        "explanation": "The ordinary California deposit-return period is 21 days, with specified documentation and estimate procedures."
+      },
+      {
+        "text": "Three business days.",
+        "explanation": "That is associated with other rules, not the ordinary residential deposit return."
+      },
+      {
+        "text": "The next annual tax filing date.",
+        "explanation": "Tax filing is unrelated to the required return period."
+      },
+      {
+        "text": "Whenever a new tenant moves in.",
+        "explanation": "Finding a replacement tenant does not set the statutory deadline."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-038",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "Which proposed deduction is least likely to be lawful?",
+    "options": [
+      {
+        "text": "Necessary cleaning to restore the initial level of cleanliness.",
+        "explanation": "That can be permitted when appropriately supported and not excessive."
+      },
+      {
+        "text": "Replacing an old carpet solely because of normal wear.",
+        "explanation": "Ordinary wear and tear is not a tenant-damage charge."
+      },
+      {
+        "text": "Reasonable repair of tenant-caused damage beyond ordinary wear.",
+        "explanation": "Such damage can support a properly documented lawful deduction."
+      },
+      {
+        "text": "Eligible unpaid rent actually owed.",
+        "explanation": "Unpaid rent can be deductible, subject to statutory exceptions."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-039",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A tenant has not paid rent. May the owner simply change the locks to recover possession?",
+    "options": [
+      {
+        "text": "Yes, if the manager witnesses the lock change.",
+        "explanation": "A witness does not make the lockout lawful."
+      },
+      {
+        "text": "Yes, after refunding half the deposit.",
+        "explanation": "Deposit payment does not authorize bypassing eviction law."
+      },
+      {
+        "text": "No; the owner must use the applicable lawful possession process.",
+        "explanation": "Self-help lockouts do not replace required notices and court proceedings."
+      },
+      {
+        "text": "Yes, if the owner has a deed.",
+        "explanation": "Ownership does not eliminate the tenant's procedural rights."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-040",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "What is the primary purpose of preventive maintenance?",
+    "options": [
+      {
+        "text": "Avoid all legally required repairs.",
+        "explanation": "Maintenance does not excuse habitability obligations."
+      },
+      {
+        "text": "Convert client reserves into broker income.",
+        "explanation": "Reserves remain entrusted money until properly applied."
+      },
+      {
+        "text": "Guarantee the property will never require capital work.",
+        "explanation": "Prevention reduces risk but cannot guarantee no future replacement."
+      },
+      {
+        "text": "Reduce the likelihood of failures and larger future damage.",
+        "explanation": "Scheduled service addresses foreseeable deterioration before it becomes a major failure."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-041",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "Which document most directly summarizes tenants, occupied spaces, rents, and lease dates?",
+    "options": [
+      {
+        "text": "A rent roll.",
+        "explanation": "A rent roll organizes rental and occupancy information that should be verified against supporting records."
+      },
+      {
+        "text": "A deed of reconveyance.",
+        "explanation": "Reconveyance releases a deed-of-trust security interest."
+      },
+      {
+        "text": "A loan rescission notice.",
+        "explanation": "That concerns cancellation rights for certain credit transactions."
+      },
+      {
+        "text": "A natural hazard map.",
+        "explanation": "A hazard map does not summarize leases and rents."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-042",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A lease requires base rent plus specified taxes, insurance, and maintenance expenses. What is the likely general classification?",
+    "options": [
+      {
+        "text": "A loan assumption.",
+        "explanation": "The facts concern a lease, not assumption of debt."
+      },
+      {
+        "text": "A net lease, with actual obligations controlled by its terms.",
+        "explanation": "Shifting specified expenses in addition to base rent is characteristic of net leasing."
+      },
+      {
+        "text": "A lease that necessarily transfers title.",
+        "explanation": "Expense allocation does not convey ownership."
+      },
+      {
+        "text": "A rent-free license.",
+        "explanation": "Base rent and possession terms contradict that description."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-043",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A retail lease requires $36,000 annual base rent plus 5% of sales above $600,000. Sales are $800,000. What is annual rent before other charges?",
+    "options": [
+      {
+        "text": "$76,000.",
+        "explanation": "That adds 5% of total sales rather than only sales above the breakpoint."
+      },
+      {
+        "text": "$10,000.",
+        "explanation": "That is only percentage rent and omits base rent."
+      },
+      {
+        "text": "$46,000.",
+        "explanation": "Excess sales are $200,000; 5% is $10,000, added to $36,000 base rent."
+      },
+      {
+        "text": "$40,000.",
+        "explanation": "That applies 5% to all sales and omits the stated base-plus-excess structure."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-044",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "Why would a purchaser request tenant estoppel certificates?",
+    "options": [
+      {
+        "text": "To guarantee future tenant profitability.",
+        "explanation": "An estoppel does not insure a tenant's business results."
+      },
+      {
+        "text": "To replace all environmental investigation.",
+        "explanation": "Lease confirmation does not evaluate contamination."
+      },
+      {
+        "text": "To transfer the tenant's business to the buyer.",
+        "explanation": "An estoppel confirms facts rather than selling the business."
+      },
+      {
+        "text": "To confirm lease facts and identify inconsistencies or claims.",
+        "explanation": "Tenant confirmation can reveal amendments, concessions, defaults, or disagreements not evident in the seller's summary."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-045",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "Which statement best describes a Phase I environmental site assessment?",
+    "options": [
+      {
+        "text": "A professional review of records, site conditions, and related information to identify environmental concerns.",
+        "explanation": "Phase I generally evaluates potential concerns without being equivalent to laboratory sampling."
+      },
+      {
+        "text": "A guarantee that no hazardous substance exists.",
+        "explanation": "It is not an absolute clean-property guarantee."
+      },
+      {
+        "text": "The same as a title insurance policy.",
+        "explanation": "Title coverage and environmental investigation serve different purposes."
+      },
+      {
+        "text": "A mandatory excavation of every part of the site.",
+        "explanation": "Intrusive sampling is not the defining feature of Phase I."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-046",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A buyer purchases a restaurant business but not the building. Which due-diligence item most directly establishes the buyer's right to continue at the current leased location?",
+    "options": [
+      {
+        "text": "Whether goodwill is always a recorded land easement.",
+        "explanation": "Goodwill is a business asset, not necessarily an interest recorded against land."
+      },
+      {
+        "text": "Whether the lease can be assigned or suitable occupancy rights obtained.",
+        "explanation": "The business may depend on continued lawful use of leased premises."
+      },
+      {
+        "text": "Whether real estate-related issues automatically disappear.",
+        "explanation": "A business transaction can involve leasehold, zoning, and premises issues without a land sale."
+      },
+      {
+        "text": "Whether a business sale automatically conveys the building's fee title.",
+        "explanation": "The stated sale excludes the building; acquiring business assets does not automatically convey fee title."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-047",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "What does a DRE subdivision public report establish?",
+    "options": [
+      {
+        "text": "A waiver of all construction defects.",
+        "explanation": "A disclosure document does not waive or erase every defect claim."
+      },
+      {
+        "text": "Automatic zoning approval for any future use.",
+        "explanation": "The report does not supply unlimited local land-use approval."
+      },
+      {
+        "text": "Required disclosure information about a regulated offering.",
+        "explanation": "The report informs buyers about the offering and obligations; it is not an investment endorsement."
+      },
+      {
+        "text": "A guaranteed resale profit.",
+        "explanation": "DRE does not guarantee investment performance."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-048",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A warehouse buyer needs heavy truck access and unusual electrical capacity. What is the most appropriate approach?",
+    "options": [
+      {
+        "text": "Assume industrial zoning guarantees every proposed operation.",
+        "explanation": "Specific uses and physical capacity can still be limited."
+      },
+      {
+        "text": "Rely only on the building's attractive exterior.",
+        "explanation": "Appearance does not establish loading access or electrical capacity."
+      },
+      {
+        "text": "Treat the seller's informal assurance as a permit.",
+        "explanation": "A representation does not replace verification with appropriate sources."
+      },
+      {
+        "text": "Verify that the property's physical systems and legal use permissions support the proposed operation.",
+        "explanation": "Industrial suitability depends on both operational features and legal approvals."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-049",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A home is sold as is, and the seller knows of recurring basement flooding. What follows?",
+    "options": [
+      {
+        "text": "The known material flooding condition still requires appropriate disclosure.",
+        "explanation": "As-is terms do not authorize concealment of known material facts."
+      },
+      {
+        "text": "The seller may hide the flooding because no repairs are promised.",
+        "explanation": "Repair obligations and disclosure duties are distinct."
+      },
+      {
+        "text": "Only the buyer's lender needs to be told.",
+        "explanation": "Material information must reach the appropriate transaction parties, not only the lender."
+      },
+      {
+        "text": "The defect becomes immaterial once the price is reduced.",
+        "explanation": "A lower price does not automatically remove disclosure duties."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-050",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "Which statement about a TDS exemption is correct?",
+    "options": [
+      {
+        "text": "Only owner-occupants ever have disclosure duties.",
+        "explanation": "Nonoccupancy does not erase known-material-fact obligations."
+      },
+      {
+        "text": "It does not automatically eliminate other disclosures or duties concerning known material facts.",
+        "explanation": "An exemption from one form is not blanket permission to conceal."
+      },
+      {
+        "text": "Every property held in a trust is automatically exempt.",
+        "explanation": "Trust ownership alone does not establish every statutory exemption."
+      },
+      {
+        "text": "An exempt seller may intentionally misstate the property's condition.",
+        "explanation": "Fraud is not authorized by a form exemption."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-051",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A required material TDS amendment is personally delivered after acceptance. What statutory termination period generally applies?",
+    "options": [
+      {
+        "text": "Five days because every amendment uses the mail rule.",
+        "explanation": "Personal delivery has its own stated period."
+      },
+      {
+        "text": "No termination opportunity can arise after acceptance.",
+        "explanation": "Late required disclosures and material amendments can trigger the statutory right."
+      },
+      {
+        "text": "Three days after personal delivery.",
+        "explanation": "Section 1102.3 distinguishes three days for personal delivery from five for mail or agreed electronic delivery."
+      },
+      {
+        "text": "Three business days for every delivery method.",
+        "explanation": "The rule is not universally three business days."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-052",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A completed required TDS is delivered after acceptance through agreed electronic means. What period generally applies under section 1102.3?",
+    "options": [
+      {
+        "text": "Three days because email is always personal delivery.",
+        "explanation": "The statute distinguishes electronic delivery from personal delivery."
+      },
+      {
+        "text": "Thirty days after recording.",
+        "explanation": "Recording does not establish that deadline."
+      },
+      {
+        "text": "Until the mortgage is fully repaid.",
+        "explanation": "The right is a defined transaction period, not a loan-term right."
+      },
+      {
+        "text": "Five days after electronic delivery.",
+        "explanation": "The current statute specifies five days for agreed electronic delivery."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-053",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "Which statement best describes the Natural Hazard Disclosure?",
+    "options": [
+      {
+        "text": "It reports specified mapped hazard locations without guaranteeing future safety.",
+        "explanation": "NHD mapping is informative but not a prediction that disaster will or will not occur."
+      },
+      {
+        "text": "It guarantees no flood will occur outside a mapped zone.",
+        "explanation": "Absence from a mapped zone is not a guarantee."
+      },
+      {
+        "text": "It replaces all roof and foundation inspections.",
+        "explanation": "Mapped hazards do not establish the condition of every building system."
+      },
+      {
+        "text": "It concerns only earthquake risk.",
+        "explanation": "The form also addresses specified flood and fire-related areas."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-054",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "During a covered residential visual inspection, an agent sees a ceiling stain. What is the best response?",
+    "options": [
+      {
+        "text": "Paint over it before the buyer visits.",
+        "explanation": "Concealment does not satisfy the disclosure duty."
+      },
+      {
+        "text": "Disclose the observation and recommend suitable further investigation.",
+        "explanation": "The agent should identify the warning sign without making an unsupported technical diagnosis."
+      },
+      {
+        "text": "Ignore it because agents are not roof contractors.",
+        "explanation": "Limits on technical expertise do not excuse ignoring visible material indicators."
+      },
+      {
+        "text": "Guarantee that the roof needs complete replacement.",
+        "explanation": "The observation alone does not establish that diagnosis."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-055",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "What is generally required by the federal lead disclosure rule for a covered pre-1978 home sale?",
+    "options": [
+      {
+        "text": "No disclosure unless the buyer has children.",
+        "explanation": "Coverage is not limited to buyers with children."
+      },
+      {
+        "text": "A guarantee that no lead exists if the seller has no report.",
+        "explanation": "Lack of knowledge or records is not a guarantee of absence."
+      },
+      {
+        "text": "Known lead information and records, required disclosures, and the buyer's inspection opportunity unless properly modified or waived.",
+        "explanation": "The rule addresses known information, required materials, and the generally ten-day opportunity subject to agreement or waiver."
+      },
+      {
+        "text": "A seller-funded lead test in every transaction.",
+        "explanation": "The disclosure rule itself does not generally require every seller to test."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-056",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A property report identifies the adjacent parcel rather than the listed parcel. What should the agent do?",
+    "options": [
+      {
+        "text": "Deliver it as correct because the provider is licensed.",
+        "explanation": "Qualifications do not cure an obvious parcel error."
+      },
+      {
+        "text": "Change only the street address without verifying the underlying data.",
+        "explanation": "Cosmetic correction does not establish that the investigation concerns the right property."
+      },
+      {
+        "text": "Assume neighboring parcels have identical hazards and title.",
+        "explanation": "Nearby properties can have different risks and interests."
+      },
+      {
+        "text": "Resolve the mismatch before treating the report as the property's disclosure.",
+        "explanation": "Known errors cannot be ignored merely because a third party prepared the report."
+      }
+    ],
+    "answer": 3
+  }
+]

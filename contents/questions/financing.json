@@ -1,0 +1,577 @@
+[
+  {
+    "id": "financing-001",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A buyer obtains a $360,000 first loan on a property valued for lending purposes at $450,000. What is the LTV?",
+    "options": [
+      {
+        "text": "80%.",
+        "explanation": "Divide $360,000 by $450,000 to obtain 0.80."
+      },
+      {
+        "text": "20%.",
+        "explanation": "That is the equity percentage under the stated simple structure, not the loan percentage."
+      },
+      {
+        "text": "125%.",
+        "explanation": "That reverses value and loan in the ratio."
+      },
+      {
+        "text": "8%.",
+        "explanation": "The decimal conversion is off by a factor of ten."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-002",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A borrower has $7,500 qualifying gross monthly income, $2,000 housing expense, and $1,000 other qualifying monthly debt. What is total DTI?",
+    "options": [
+      {
+        "text": "250%.",
+        "explanation": "That reverses income and debt in the ratio."
+      },
+      {
+        "text": "40%.",
+        "explanation": "Total qualifying debt is $3,000; $3,000 divided by $7,500 is 40%."
+      },
+      {
+        "text": "26.67%.",
+        "explanation": "That is the housing ratio alone and excludes the other monthly debt."
+      },
+      {
+        "text": "13.33%.",
+        "explanation": "That considers only the other debt and omits housing."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-003",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A lender charges two discount points on a $300,000 loan for a $375,000 purchase. What is the charge?",
+    "options": [
+      {
+        "text": "$600.",
+        "explanation": "That uses 0.2% rather than 2%."
+      },
+      {
+        "text": "$75,000.",
+        "explanation": "That confuses the down payment with the point charge."
+      },
+      {
+        "text": "$6,000.",
+        "explanation": "Two points are 2% of the loan amount: $300,000 multiplied by 0.02."
+      },
+      {
+        "text": "$7,500.",
+        "explanation": "That incorrectly applies the percentage to the purchase price."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-004",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A monthly payment is $2,100, and $1,600 is interest. Ignoring other charges, how much principal is repaid?",
+    "options": [
+      {
+        "text": "$2,100.",
+        "explanation": "The interest portion does not reduce principal."
+      },
+      {
+        "text": "$1,600.",
+        "explanation": "That is the interest charge, not principal reduction."
+      },
+      {
+        "text": "$3,700.",
+        "explanation": "Adding payment and interest does not identify principal reduction."
+      },
+      {
+        "text": "$500.",
+        "explanation": "Subtract interest from the payment: $2,100 - $1,600."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-005",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "Which activity occurs in the secondary mortgage market?",
+    "options": [
+      {
+        "text": "An investor purchases an existing mortgage from its originating lender.",
+        "explanation": "The secondary market trades existing loans or mortgage-backed interests."
+      },
+      {
+        "text": "A buyer submits an initial loan application to a bank.",
+        "explanation": "That is part of primary-market origination."
+      },
+      {
+        "text": "A seller chooses a listing price.",
+        "explanation": "Listing activity does not constitute a mortgage-market transaction."
+      },
+      {
+        "text": "A tenant pays a refundable security deposit.",
+        "explanation": "That is rental trust-fund activity, not mortgage trading."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-006",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "What is FHA's usual role in a standard FHA purchase mortgage?",
+    "options": [
+      {
+        "text": "Paying all of the buyer's closing expenses as a grant.",
+        "explanation": "The program does not universally grant every closing expense."
+      },
+      {
+        "text": "Insuring a qualifying loan made by an approved lender.",
+        "explanation": "FHA provides mortgage insurance; an approved lender ordinarily originates the loan."
+      },
+      {
+        "text": "Acting as the buyer's real estate broker.",
+        "explanation": "FHA does not represent the buyer in brokerage."
+      },
+      {
+        "text": "Guaranteeing that the home has no physical defects.",
+        "explanation": "FHA insurance and appraisal do not replace a home inspection or guarantee condition."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-007",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "Which statement about a VA-backed purchase loan is accurate?",
+    "options": [
+      {
+        "text": "No down payment always means no closing costs.",
+        "explanation": "Borrowers can still have costs and funding requirements."
+      },
+      {
+        "text": "The VA certificate of eligibility proves the home passed a complete inspection.",
+        "explanation": "Eligibility and property inspection answer different questions."
+      },
+      {
+        "text": "It is commonly made by a private lender with a VA guaranty, and monthly PMI is not required.",
+        "explanation": "VA support differs from conventional PMI, while qualification and possible funding fees still matter."
+      },
+      {
+        "text": "Every eligible veteran is guaranteed credit approval.",
+        "explanation": "Benefit eligibility does not replace underwriting."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-008",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "An ARM uses an index of 3.25% and a margin of 2.5%. What is the fully indexed rate before caps or other terms?",
+    "options": [
+      {
+        "text": "0.75%.",
+        "explanation": "Subtracting the margin does not produce the fully indexed rate."
+      },
+      {
+        "text": "8.125%.",
+        "explanation": "Multiplying the two percentages is not the ARM formula."
+      },
+      {
+        "text": "2.5%.",
+        "explanation": "The margin alone omits the index."
+      },
+      {
+        "text": "5.75%.",
+        "explanation": "Add the index and margin: 3.25% + 2.5%."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-009",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "A homeowner takes a reverse mortgage. Which obligation ordinarily remains important?",
+    "options": [
+      {
+        "text": "Meeting property tax, insurance, occupancy, and maintenance requirements.",
+        "explanation": "Reverse financing does not eliminate these ownership and loan obligations."
+      },
+      {
+        "text": "Transferring unrestricted ownership to the loan officer.",
+        "explanation": "The homeowner ordinarily retains ownership."
+      },
+      {
+        "text": "Making the property immune from all future loan defaults.",
+        "explanation": "Failure to satisfy applicable obligations can still trigger default or repayment."
+      },
+      {
+        "text": "Repaying no money under any circumstances.",
+        "explanation": "Repayment generally becomes due upon specified events."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-010",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "CalHFA assistance is described as a deferred-payment junior loan. What should the buyer understand?",
+    "options": [
+      {
+        "text": "Deferred means the borrower can ignore all program conditions.",
+        "explanation": "Eligibility, occupancy, and repayment conditions still apply."
+      },
+      {
+        "text": "Repayment is postponed under the terms; the assistance is not automatically a grant.",
+        "explanation": "A deferred debt can become payable upon events such as sale or refinancing."
+      },
+      {
+        "text": "The loan never affects sale proceeds.",
+        "explanation": "Repayment can reduce the net proceeds available at sale."
+      },
+      {
+        "text": "Junior means the lender cannot have a lien.",
+        "explanation": "Junior describes a subordinate priority position, not the absence of security."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-011",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "In a typical deed-of-trust transaction, who is the trustor?",
+    "options": [
+      {
+        "text": "The party conducting an authorized trustee sale.",
+        "explanation": "That function belongs to the trustee."
+      },
+      {
+        "text": "The title insurer in every transaction.",
+        "explanation": "A title insurer is not automatically the trustor."
+      },
+      {
+        "text": "The borrower or owner giving the security.",
+        "explanation": "The trustor conveys the limited security interest; the beneficiary receives its benefit."
+      },
+      {
+        "text": "The lender receiving the security benefit.",
+        "explanation": "That is ordinarily the beneficiary."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-012",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "What is the main distinction between a promissory note and a deed of trust?",
+    "options": [
+      {
+        "text": "Both documents always convey unrestricted ownership to the lender.",
+        "explanation": "Security does not confer unrestricted ownership, and the note is a promise."
+      },
+      {
+        "text": "The note is only an inspection report.",
+        "explanation": "It documents an obligation to repay."
+      },
+      {
+        "text": "The deed of trust is the borrower's payment receipt.",
+        "explanation": "It creates security and is not merely proof of a payment."
+      },
+      {
+        "text": "The note states the debt promise; the deed of trust provides real-property security.",
+        "explanation": "They serve related but different functions."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-013",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "A buyer acquires property subject to the seller's existing loan without assuming it. Which statement is best?",
+    "options": [
+      {
+        "text": "The loan remains against the property, and the transfer does not automatically release the seller.",
+        "explanation": "Subject-to acquisition does not itself create lender consent or release of the original borrower."
+      },
+      {
+        "text": "The lender must immediately forgive the balance.",
+        "explanation": "Title transfer does not compel debt forgiveness."
+      },
+      {
+        "text": "The buyer necessarily made a formal assumption promise to the lender.",
+        "explanation": "Subject to and assumption are different arrangements."
+      },
+      {
+        "text": "All due-on-sale issues disappear.",
+        "explanation": "Transfer restrictions and applicable exceptions still require analysis."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-014",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "A seller's recorded carryback lien becomes junior to a later construction loan by agreement. What occurred?",
+    "options": [
+      {
+        "text": "A transfer of the construction lender's debt to the seller.",
+        "explanation": "Priority change does not itself make the seller the borrower."
+      },
+      {
+        "text": "Subordination.",
+        "explanation": "The agreement changes priority so that the construction lender's interest is senior."
+      },
+      {
+        "text": "Reconveyance of every lien.",
+        "explanation": "Subordination does not necessarily release either security interest."
+      },
+      {
+        "text": "Automatic satisfaction of the seller's note.",
+        "explanation": "The debt remains unless separately paid or discharged."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-015",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "Which statement about California deficiency law is most accurate?",
+    "options": [
+      {
+        "text": "Every refinance automatically destroys all purchase-money protection.",
+        "explanation": "Qualifying refinances can retain protection for covered amounts under section 580b."
+      },
+      {
+        "text": "A senior trustee sale always forgives every unrelated debt of the borrower.",
+        "explanation": "The effect on other obligations requires separate analysis."
+      },
+      {
+        "text": "The debt's character and foreclosure method affect whether a deficiency can be collected.",
+        "explanation": "Sections 580b and 580d protect specified obligations and remedies, with qualifications."
+      },
+      {
+        "text": "Every real-estate-secured loan permits an unlimited deficiency.",
+        "explanation": "California anti-deficiency rules restrict collection in important circumstances."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-016",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "For a covered mortgage, the lender receives all six items defining an application. When must the Loan Estimate ordinarily be delivered or mailed?",
+    "options": [
+      {
+        "text": "Only after the property inspection is complete.",
+        "explanation": "Inspection completion does not replace the application trigger."
+      },
+      {
+        "text": "At any time before the first loan payment.",
+        "explanation": "That would be far later than the early-disclosure requirement."
+      },
+      {
+        "text": "Thirty days after recording the deed.",
+        "explanation": "Postrecording delivery does not satisfy the Loan Estimate timing rule."
+      },
+      {
+        "text": "Within three business days after receipt.",
+        "explanation": "The defined application triggers the early disclosure deadline even if further verification will be needed."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-017",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "Which change to a covered loan generally requires a new three-business-day Closing Disclosure waiting period?",
+    "options": [
+      {
+        "text": "Adding a prepayment penalty.",
+        "explanation": "Addition of a prepayment penalty is one of the specified changes that restarts the waiting period."
+      },
+      {
+        "text": "Correcting a minor typographical error that does not change the triggering terms.",
+        "explanation": "Not every correction requires a new waiting period."
+      },
+      {
+        "text": "Changing the seller's forwarding address.",
+        "explanation": "That is not one of the specified loan-term triggers."
+      },
+      {
+        "text": "Any change in any fee, regardless of its effect.",
+        "explanation": "Many fee corrections can be made without restarting the period."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-018",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A borrower closes a standard loan used to purchase the principal home. Which federal rescission statement is correct?",
+    "options": [
+      {
+        "text": "The borrower can rescind until the first property tax bill arrives.",
+        "explanation": "Property tax billing does not define rescission."
+      },
+      {
+        "text": "The ordinary federal three-day rescission right generally does not apply to the purchase-money mortgage.",
+        "explanation": "Purchase financing is generally outside the rescission right applicable to certain nonpurchase principal-dwelling credit."
+      },
+      {
+        "text": "Every home purchase can be canceled for three business days after signing.",
+        "explanation": "There is no such universal purchase cancellation rule."
+      },
+      {
+        "text": "The Closing Disclosure waiting period creates a post-closing rescission right.",
+        "explanation": "The preconsummation review period and rescission are separate protections."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-019",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "An escrow company gives an agent money solely for referring a covered settlement transaction. The payment is disclosed. What is the concern?",
+    "options": [
+      {
+        "text": "RESPA applies only to physical property defects.",
+        "explanation": "RESPA addresses settlement practices, including covered referrals."
+      },
+      {
+        "text": "Calling the payment a gift necessarily avoids the rule.",
+        "explanation": "Things of value can include gifts and other nontraditional compensation."
+      },
+      {
+        "text": "Disclosure alone does not make a prohibited referral payment lawful under RESPA.",
+        "explanation": "Section 8 examines the payment and referral arrangement, not merely whether it was disclosed."
+      },
+      {
+        "text": "All disclosed payments are automatically permitted.",
+        "explanation": "That incorrectly treats disclosure as a complete exception."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-020",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A California DRE salesperson wants to perform covered residential mortgage origination. What is ordinarily required in addition to the real estate license?",
+    "options": [
+      {
+        "text": "Only an NMLS number, regardless of license status.",
+        "explanation": "An identifier alone does not establish active authorization."
+      },
+      {
+        "text": "No additional requirements because all loans are real estate.",
+        "explanation": "Covered residential origination has specific endorsement requirements."
+      },
+      {
+        "text": "Permission from the first borrower instead of licensing.",
+        "explanation": "Consumer consent cannot substitute for required professional authorization."
+      },
+      {
+        "text": "The appropriate active MLO endorsement and required broker sponsorship or affiliation.",
+        "explanation": "Covered origination requires the additional authorization and proper supervised relationship."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-021",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A lender denies credit because an applicant receives public assistance, without an appropriate individual credit evaluation. Which law most directly addresses this discrimination?",
+    "options": [
+      {
+        "text": "The Equal Credit Opportunity Act.",
+        "explanation": "ECOA includes protection concerning receipt of public assistance, alongside other protected grounds."
+      },
+      {
+        "text": "A deed's recording statute only.",
+        "explanation": "Recording rules do not primarily govern discriminatory credit decisions."
+      },
+      {
+        "text": "The law of fixture removal.",
+        "explanation": "Fixture classification is unrelated to the stated discrimination."
+      },
+      {
+        "text": "The broker's commission agreement only.",
+        "explanation": "A compensation contract does not replace federal credit protections."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-022",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A California broker arranging a business-purpose warehouse loan receives the completed written application Monday. The borrower will become obligated on the note Tuesday. When must the broker deliver the required Mortgage Loan Disclosure Statement?",
+    "options": [
+      {
+        "text": "No statement is required because the collateral is commercial property.",
+        "explanation": "Section 10240 covers broker-arranged loans secured by any real property, including commercial property; consumer-loan limitations under federal law do not erase this state duty."
+      },
+      {
+        "text": "Before the borrower becomes obligated Tuesday, because that occurs before the three-business-day deadline.",
+        "explanation": "The MLDS is due within three business days after receipt of a completed written application or before obligation on the note, whichever occurs earlier."
+      },
+      {
+        "text": "Three business days after Monday, even if the borrower becomes obligated earlier.",
+        "explanation": "That ignores the earlier-obligation trigger; the broker cannot use the full three-day period when the borrower will become obligated sooner."
+      },
+      {
+        "text": "Only after the lender advances the loan proceeds.",
+        "explanation": "The borrower disclosure must precede the applicable deadline, not wait until funding. A later lender disclosure does not replace the borrower's MLDS."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-023",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A broker lawfully holds a nonexempt private lender's money in trust with express permission while awaiting investment instructions. The broker now proposes a particular real-property-secured loan. Under the LPDS custody exception, what is required before disbursing the money?",
+    "options": [
+      {
+        "text": "Nothing further, because permission to hold the funds authorizes every investment.",
+        "explanation": "Permission to maintain custody is not blanket investment authority; the lender must receive the required information and consent to the proposed disbursement."
+      },
+      {
+        "text": "Only the borrower's signed Mortgage Loan Disclosure Statement.",
+        "explanation": "The MLDS addresses the borrower's loan costs and terms. It does not replace the disclosure owed to the covered lender or note purchaser."
+      },
+      {
+        "text": "Provide the Lender/Purchaser Disclosure Statement and obtain the owner's written consent to the proposed disbursement.",
+        "explanation": "Section 10232.4(c) permits disclosure after receipt of funds in this specified custody situation, but requires disclosure and the owner's written disbursement consent before those funds are disbursed."
+      },
+      {
+        "text": "Disburse first and send the disclosure within three business days afterward.",
+        "explanation": "The custody exception does not authorize disclosure after disbursement. The MLDS three-business-day application deadline is a different rule for a different recipient."
+      }
+    ],
+    "answer": 2
+  }
+]

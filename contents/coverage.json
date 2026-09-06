@@ -1,0 +1,450 @@
+[
+  {
+    "domain": "ownership",
+    "items": [
+      {
+        "topic": "Classes of Property",
+        "lessonSlugs": [
+          "ownership-property-rights"
+        ]
+      },
+      {
+        "topic": "Property Characteristics",
+        "lessonSlugs": [
+          "ownership-property-rights"
+        ]
+      },
+      {
+        "topic": "Encumbrances",
+        "lessonSlugs": [
+          "ownership-encumbrances"
+        ]
+      },
+      {
+        "topic": "Types of Ownership",
+        "lessonSlugs": [
+          "ownership-estates-title"
+        ]
+      },
+      {
+        "topic": "Descriptions of Property",
+        "lessonSlugs": [
+          "ownership-legal-descriptions"
+        ]
+      },
+      {
+        "topic": "Government Rights in Land",
+        "lessonSlugs": [
+          "ownership-land-use-controls"
+        ]
+      },
+      {
+        "topic": "Public Controls",
+        "lessonSlugs": [
+          "ownership-land-use-controls"
+        ]
+      },
+      {
+        "topic": "Environmental Hazards and Regulations",
+        "lessonSlugs": [
+          "ownership-water-environment",
+          "ownership-land-use-controls"
+        ]
+      },
+      {
+        "topic": "Private Controls",
+        "lessonSlugs": [
+          "ownership-land-use-controls",
+          "ownership-encumbrances"
+        ]
+      },
+      {
+        "topic": "Water Rights",
+        "lessonSlugs": [
+          "ownership-water-environment"
+        ]
+      },
+      {
+        "topic": "Special Categories of Land",
+        "lessonSlugs": [
+          "ownership-water-environment"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "agency",
+    "items": [
+      {
+        "topic": "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents",
+        "lessonSlugs": [
+          "agency-relationships"
+        ]
+      },
+      {
+        "topic": "Creation of Agency and Agency Agreements",
+        "lessonSlugs": [
+          "agency-relationships",
+          "contracts-representation-agreements"
+        ]
+      },
+      {
+        "topic": "Responsibilities of Agent to Seller/Buyer as Principal",
+        "lessonSlugs": [
+          "agency-fiduciary-duties"
+        ]
+      },
+      {
+        "topic": "Disclosure of Agency",
+        "lessonSlugs": [
+          "agency-disclosure-and-conflicts"
+        ]
+      },
+      {
+        "topic": "Disclosure of Acting as Principal or Other Interest",
+        "lessonSlugs": [
+          "agency-disclosure-and-conflicts"
+        ]
+      },
+      {
+        "topic": "Termination of Agency",
+        "lessonSlugs": [
+          "agency-compensation-and-termination"
+        ]
+      },
+      {
+        "topic": "Commission and Fees",
+        "lessonSlugs": [
+          "agency-compensation-and-termination",
+          "contracts-representation-agreements"
+        ]
+      },
+      {
+        "topic": "Responsibilities of Agent to Non-Client Third Parties",
+        "lessonSlugs": [
+          "agency-fiduciary-duties"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "valuation",
+    "items": [
+      {
+        "topic": "Value",
+        "lessonSlugs": [
+          "valuation-value-principles"
+        ]
+      },
+      {
+        "topic": "Methods of Estimating Value",
+        "lessonSlugs": [
+          "valuation-sales-comparison",
+          "valuation-cost-approach",
+          "valuation-income-analysis"
+        ]
+      },
+      {
+        "topic": "Financial Analysis",
+        "lessonSlugs": [
+          "valuation-income-analysis",
+          "valuation-cost-approach"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "financing",
+    "items": [
+      {
+        "topic": "General Concepts",
+        "lessonSlugs": [
+          "financing-loan-fundamentals"
+        ]
+      },
+      {
+        "topic": "Types of Loans",
+        "lessonSlugs": [
+          "financing-loan-types-programs"
+        ]
+      },
+      {
+        "topic": "Sources of Financing",
+        "lessonSlugs": [
+          "financing-loan-fundamentals"
+        ]
+      },
+      {
+        "topic": "Government Programs",
+        "lessonSlugs": [
+          "financing-loan-types-programs"
+        ]
+      },
+      {
+        "topic": "Mortgages/Deeds of Trust/Notes",
+        "lessonSlugs": [
+          "financing-notes-security"
+        ]
+      },
+      {
+        "topic": "Financing/Credit Laws",
+        "lessonSlugs": [
+          "financing-credit-law-originators"
+        ]
+      },
+      {
+        "topic": "Loan Brokerage",
+        "lessonSlugs": [
+          "financing-credit-law-originators",
+          "financing-loan-fundamentals"
+        ]
+      },
+      {
+        "topic": "Types of Loan Originators",
+        "lessonSlugs": [
+          "financing-credit-law-originators"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "transfer",
+    "items": [
+      {
+        "topic": "Title Insurance",
+        "lessonSlugs": [
+          "transfer-title-and-escrow"
+        ]
+      },
+      {
+        "topic": "Deeds",
+        "lessonSlugs": [
+          "transfer-deeds-and-vesting"
+        ]
+      },
+      {
+        "topic": "Escrow",
+        "lessonSlugs": [
+          "transfer-title-and-escrow"
+        ]
+      },
+      {
+        "topic": "Tax Aspects",
+        "lessonSlugs": [
+          "transfer-taxes-and-prorations"
+        ]
+      },
+      {
+        "topic": "Special Processes",
+        "lessonSlugs": [
+          "transfer-special-transfers",
+          "transfer-deeds-and-vesting"
+        ]
+      },
+      {
+        "topic": "Transfer through Court Supervision",
+        "lessonSlugs": [
+          "transfer-special-transfers"
+        ]
+      },
+      {
+        "topic": "Types of Vesting",
+        "lessonSlugs": [
+          "transfer-deeds-and-vesting",
+          "ownership-estates-title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "practice",
+    "items": [
+      {
+        "topic": "Trust Account Management",
+        "lessonSlugs": [
+          "practice-trust-funds"
+        ]
+      },
+      {
+        "topic": "Fair Housing Laws",
+        "lessonSlugs": [
+          "practice-fair-housing"
+        ]
+      },
+      {
+        "topic": "Truth in Advertising",
+        "lessonSlugs": [
+          "practice-ethics-advertising-technology",
+          "practice-fair-housing"
+        ]
+      },
+      {
+        "topic": "Record Keeping Requirements",
+        "lessonSlugs": [
+          "practice-licensing-supervision",
+          "practice-trust-funds"
+        ]
+      },
+      {
+        "topic": "Agency Supervision",
+        "lessonSlugs": [
+          "practice-licensing-supervision"
+        ]
+      },
+      {
+        "topic": "Permitted Activities of Unlicensed Sales Assistants",
+        "lessonSlugs": [
+          "practice-licensing-supervision"
+        ]
+      },
+      {
+        "topic": "DRE Jurisdiction and Disciplinary Actions",
+        "lessonSlugs": [
+          "practice-licensing-supervision"
+        ]
+      },
+      {
+        "topic": "Licensing, and Continuing Education Requirements and Procedures",
+        "lessonSlugs": [
+          "practice-licensing-supervision"
+        ]
+      },
+      {
+        "topic": "California Real Estate Recovery Fund",
+        "lessonSlugs": [
+          "practice-licensing-supervision"
+        ]
+      },
+      {
+        "topic": "General Ethics",
+        "lessonSlugs": [
+          "practice-ethics-advertising-technology",
+          "agency-fiduciary-duties"
+        ]
+      },
+      {
+        "topic": "Technology",
+        "lessonSlugs": [
+          "practice-ethics-advertising-technology"
+        ]
+      },
+      {
+        "topic": "Property Management",
+        "lessonSlugs": [
+          "practice-property-management"
+        ]
+      },
+      {
+        "topic": "Commercial/Industrial/Income Properties",
+        "lessonSlugs": [
+          "practice-commercial-specialties",
+          "valuation-income-analysis"
+        ]
+      },
+      {
+        "topic": "Specialty Areas",
+        "lessonSlugs": [
+          "practice-commercial-specialties"
+        ]
+      },
+      {
+        "topic": "Transfer Disclosure Statement",
+        "lessonSlugs": [
+          "practice-disclosures-inspections"
+        ]
+      },
+      {
+        "topic": "Natural Hazard Disclosure Statements",
+        "lessonSlugs": [
+          "practice-disclosures-inspections"
+        ]
+      },
+      {
+        "topic": "Disclosure of Material Facts Affecting Property Value",
+        "lessonSlugs": [
+          "practice-disclosures-inspections",
+          "agency-fiduciary-duties"
+        ]
+      },
+      {
+        "topic": "Need for Inspection and Obtaining/Verifying Information",
+        "lessonSlugs": [
+          "practice-disclosures-inspections",
+          "practice-commercial-specialties"
+        ]
+      },
+      {
+        "topic": "Reports",
+        "lessonSlugs": [
+          "practice-disclosures-inspections",
+          "transfer-title-and-escrow",
+          "practice-commercial-specialties"
+        ]
+      },
+      {
+        "topic": "Servicing Diverse Populations",
+        "lessonSlugs": [
+          "practice-fair-housing"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "contracts",
+    "items": [
+      {
+        "topic": "General",
+        "lessonSlugs": [
+          "contracts-formation",
+          "contracts-performance-and-remedies"
+        ]
+      },
+      {
+        "topic": "Listing Agreements",
+        "lessonSlugs": [
+          "contracts-representation-agreements"
+        ]
+      },
+      {
+        "topic": "Buyer Broker Agreements",
+        "lessonSlugs": [
+          "contracts-representation-agreements"
+        ]
+      },
+      {
+        "topic": "Offers/Purchase Contracts",
+        "lessonSlugs": [
+          "contracts-formation",
+          "contracts-purchase-options-and-leases"
+        ]
+      },
+      {
+        "topic": "Agreements",
+        "lessonSlugs": [
+          "contracts-performance-and-remedies",
+          "contracts-purchase-options-and-leases"
+        ]
+      },
+      {
+        "topic": "Promissory Notes/Securities",
+        "lessonSlugs": [
+          "contracts-purchase-options-and-leases",
+          "financing-notes-security",
+          "financing-loan-fundamentals"
+        ]
+      },
+      {
+        "topic": "Purchase/Lease Options",
+        "lessonSlugs": [
+          "contracts-purchase-options-and-leases"
+        ]
+      },
+      {
+        "topic": "Advanced Fee",
+        "lessonSlugs": [
+          "contracts-representation-agreements"
+        ]
+      }
+    ]
+  }
+]

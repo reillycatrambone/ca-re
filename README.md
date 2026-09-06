@@ -1,144 +1,73 @@
-# Documents
+# California Real Estate
 
-Documents is a modern documentation starter kit built with **Next.js**, **React**, **Tailwind CSS**, and **TypeScript**. Designed for businesses, product teams, and technical writers, it provides a scalable and efficient foundation for building documentation websites, product manuals, and knowledge bases.
+An original, exam-focused California real estate salesperson textbook and study website. Built with Next.js, shadcn/ui, Radix, and MDX, adapting the Rubix Documents reading layout.
 
-> **Demo**: [https://rubix-documents.vercel.app](https://rubix-documents.vercel.app)
+## Run locally
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents)
+Requires Node.js 24 and pnpm 11 (the version is pinned in package.json).
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rubixvi/rubix-documents)
-[![Last Commit](https://img.shields.io/github/last-commit/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents/commits)
-[![GitHub issues](https://img.shields.io/github/issues/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents/pulls)
-
-[![GitHub stars](https://img.shields.io/github/stars/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents/network)
-[![GitHub repo size](https://img.shields.io/github/repo-size/rubixvi/rubix-documents)](https://github.com/rubixvi/rubix-documents)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents&project-name=my-documents&repository-name=my-documents&demo-title=Documents&demo-description=This%20Document%20Starter%20Kit%20is%20developed%20with%20Next.js%2C%20Tailwind%20CSS%20and%20TypeScript.%20It%20serves%20as%20a%20flexible%20and%20scalable%20foundation%20for%20building%20documentation%20websites%20or%20content-driven%20projects.&demo-url=https%3A%2F%2Frubix-documents.vercel.app%2F&demo-image=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents%2Fblob%2Fmain%2Fpublic%2Fscreens%2Fscreen-1.png)
-
----
-
-## Overview
-
-Documents enables businesses to deliver clear, structured, and accessible product documentation — with a focus on performance, usability, and maintainability.
-
-Built for technical and content-driven projects, this starter kit supports Markdown (MDX), React components, and a flexible content architecture designed for scale.
-
----
-
-## Features
-
-### Content Management
-
-- MDX support (Markdown with React components)
-- Reusable custom components
-- Mermaid.js for diagrams and flowcharts
-- Tables and LaTeX math support
-
-### Navigation & Structure
-
-- Multi-level navigation
-- Auto-generated table of contents
-- Content pagination
-- Code snippet switcher with copy functionality
-
-### Development Experience
-
-- Syntax highlighting with theme support
-- Enhanced code blocks with titles and line highlighting
-- Built-in light/dark mode with auto-detection
-- SEO-ready with dynamic meta tags
-
-### Search & Future Enhancements
-
-- Fuzzy search with term highlighting
-- Planned: AI-powered knowledgebase tools
-
----
-
-## Quick Start
-
-### Installation
-
-```bash
-git clone https://github.com/rubixvi/rubix-documents.git
-cd rubix-documents
+```sh
 pnpm install
-pnpm generate-content-json
-pnpm run dev
+pnpm dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view your project locally.
+Open http://localhost:3000. For a different port, run `pnpm dev --port 3001`.
 
-**For production:**
+To inspect the production static build:
 
-```bash
-pnpm run build
-pnpm run start
+```sh
+pnpm build
+pnpm start
 ```
 
-Deploy to Vercel for automated builds and hosting.
+The production server uses port 3000, so stop the development server first. The build emits `out/` and needs no application API keys or server database.
 
----
+## Content and study tools
 
-## Usage
+- 33 substantial chapters across all seven DRE examination domains.
+- Original questions with explanations for every answer choice.
+- Chapter quizzes and topic practice.
+- A 150-question, three-hour mock exam with approximate DRE domain weighting, flags, navigation, saved answers, expiry enforcement, and domain-level results.
+- Flashcards generated from the textbook glossary, with known/to-review states.
+- Browser-local bookmarks, completed chapters, study history, and current sessions.
+- Section-level full-text search, original diagrams, a generated architectural illustration, and print styles.
+- All 65 published DRE subtopics mapped in `contents/coverage.json`.
 
-Documents is designed to support:
+This is independent exam preparation, not a DRE-approved licensing course. The text and questions were authored with AI assistance and checked against cited primary sources. They are not actual DRE exam questions. The initial source review is dated September 6, 2026; later legal changes require editorial updates.
 
-- Product documentation
-- Technical manuals
-- Internal guides
-- Business knowledge bases
+## Verification
 
----
+```sh
+pnpm check:content
+pnpm typecheck
+pnpm test
+pnpm build
+pnpm exec playwright install chromium
+pnpm test:browser
+```
 
-## Screenshots
+Browser tests use an existing server at port 3000, or start the production server after a build. Set `PLAYWRIGHT_BASE_URL` to test another local URL. They use isolated browser contexts and do not change a reader's saved study data.
 
-![Main Screen](./public/screens/screen-1.png)
-_Main Screen_
+The content validator checks metadata, source links' structure, chapter coverage, question uniqueness and references, and sufficient question pools. It does not prove factual accuracy; source review remains an editorial task. Unit tests cover exam allocation, grading, mathematical calculations, search, and heading IDs. Browser tests cover responsive layouts, rendered images, persistence, accessibility interactions, deadlines, and reset controls.
 
-![Document Screen](./public/screens/screen-2.png)
-_Document Screen_
+## Structure
 
-![Document Footer](./public/screens/screen-3.png)
-_Document Footer_
+- `contents/textbook/<domain>/*.mdx`: original lessons and source metadata.
+- `contents/questions/<domain>.json`: original question banks.
+- `contents/coverage.json`: published DRE topic-to-chapter mapping.
+- `lib/curriculum.ts`: shared lesson, domain, and question contracts.
+- `components/book/`: reading layout, search, and custom diagrams.
+- `components/study/`: quizzes, exams, flashcards, and progress.
+- `scripts/`: content validation and automatic search-index generation.
 
-![Document Search](./public/screens/screen-4.png)
-_Document Search_
+Read [AUTHORING.md](AUTHORING.md) before editing educational content. Legal revisions should update the relevant text, questions, glossary, sources, and review date together. Search is rebuilt at development startup and with each production build; run `pnpm build:search` after content edits during an existing development session.
 
-![Main Dark Screen](./public/screens/screen-5.png)
-_Main Dark Mode Screen_
+## Privacy and hosting
 
-![Document Dark Screen](./public/screens/screen-6.png)
-_Document Dark Mode Screen_
+There are no application credentials, analytics integrations, accounts, or personal-data fields. Study data uses the `ca-re:study:v1` browser storage key and never goes to an application backend. Hosting services may process ordinary request data. The Progress page provides a reset control.
 
----
+The project can be hosted as a static Next.js export. Optional Sites project metadata is retained in `.openai/hosting.json`; it contains no credentials. The current working run is local. No production deployment is required to use the textbook.
 
-## Contributing
+## Attribution
 
-We welcome contributions to improve this project.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
----
-
-## Contact
-
-For support or inquiries:
-
-Vincent Vu — [@rubixvi](https://x.com/rubixvi)
-
-Rubix Studios — [https://rubixstudios.com.au](https://rubixstudios.com.au)
-
-**Project:** [https://github.com/rubixvi/rubix-documents](https://github.com/rubixvi/rubix-documents)
+The original [Rubix Documents](https://github.com/rubixvi/rubix-documents) MIT license is preserved in [LICENSE](LICENSE). UI primitives originate from shadcn/ui and Radix. See [visual asset notes](public/images/README.md) for the original illustration's generation record. Chapter-level citations appear on the website and in each MDX file.
