@@ -26,14 +26,14 @@ The production server uses port 3000, so stop the development server first. The 
 
 - 33 chapters across all seven DRE examination domains, approximately 67,000 chapter-body words.
 - 426 original questions with explanations for every answer choice.
-- Focused and full-chapter reading modes, with a concise takeaway for every H2 section.
+- Continuous chapter reading, with visible subsections and a concise takeaway for every H2 section.
 - 33 chapter guides with core distinctions, pitfalls, related concepts, and original contrast, decision, sequence, or calculation labs.
 - Chapter quizzes and topic practice.
 - A 150-question, three-hour mock exam with approximate DRE domain weighting, flags, navigation, saved answers, expiry enforcement, and domain-level results.
-- Flashcards generated from the textbook glossary, with known/to-review states.
-- Browser-local bookmarks, completed chapters, study history, and current sessions.
-- 42 teaching visuals: 33 in-text figures plus nine earlier chapter visuals, including an interactive capitalization-rate example.
-- Section-level search across chapters, figures, and guides; matching anchors remain accessible when focused reading has collapsed a section.
+- Flashcards generated from the textbook glossary, with topic filters, shuffle, and answer reveal.
+- Browser-local current practice sessions, with no reading or flashcard tracking.
+- 75 teaching visuals: two in-text figures per chapter plus nine earlier chapter visuals, including custom relationship maps and an interactive capitalization-rate example.
+- Section-level search across chapters, figures, and guides, with direct links to the matching passage.
 - Responsive and print layouts.
 - All 65 published DRE subtopics mapped in `contents/coverage.json`.
 - Seven domain audits documenting 33 specific gaps and the teaching or source updates used to address them.
@@ -68,14 +68,14 @@ Unit and browser tests exercise study calculations, exam behavior, search and an
 - `lib/learning-figures/`: typed, domain-organized teaching figures and validation.
 - `lib/study-guides/`: guide and audit contracts, validation, and search integration.
 - `components/book/`: reading layout, search, and custom diagrams.
-- `components/study/`: quizzes, exams, flashcards, and progress.
+- `components/study/`: quizzes, exams, and flashcards.
 - `scripts/`: content validation and automatic search-index generation.
 
 Read [AUTHORING.md](AUTHORING.md) before editing educational content. Legal revisions should update the relevant text, questions, glossary, sources, and review date together. Search is rebuilt at development startup and with each production build; run `pnpm build:search` after content edits during an existing development session.
 
 ## Privacy and hosting
 
-There are no application credentials, analytics integrations, accounts, or personal-data fields. Study data uses the `ca-re:study:v1` browser storage key and never goes to an application backend. Hosting services may process ordinary request data. The Progress page provides a reset control.
+There are no application credentials, analytics integrations, accounts, or personal-data fields. The current practice session uses the `ca-re:study:v1` browser storage key and never goes to an application backend. Earlier records are migrated without completion, bookmark, known-term, or history fields. Hosting services may process ordinary request data.
 
 The project can be hosted as a static Next.js export. Optional Sites project metadata is retained in `.openai/hosting.json`; it contains no credentials. The current working run is local. No production deployment is required to use the textbook.
 

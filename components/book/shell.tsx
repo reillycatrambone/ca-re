@@ -7,9 +7,6 @@ import { useEffect, useState } from 'react'
 import {
   ArrowUpRight,
   BookOpen,
-  Bookmark,
-  ChartNoAxesColumnIncreasing,
-  Check,
   ChevronDown,
   ClipboardList,
   Layers,
@@ -34,12 +31,10 @@ const views = [
   { href: '/', label: 'Textbook', icon: BookOpen },
   { href: '/practice/', label: 'Practice', icon: ClipboardList },
   { href: '/flashcards/', label: 'Flashcards', icon: Layers },
-  { href: '/progress/', label: 'Progress', icon: ChartNoAxesColumnIncreasing },
 ]
 
 function BookNavigation({ lessons, close }: { lessons: LessonMeta[]; close?: () => void }) {
   const path = usePathname()
-  const { state } = useStudy()
   return (
     <nav className="book-navigation" aria-label="Textbook navigation">
       <Link onClick={close} className={cn('sidebar-link', path === '/' && 'active')} href="/">
@@ -70,9 +65,6 @@ function BookNavigation({ lessons, close }: { lessons: LessonMeta[]; close?: () 
                   aria-current={path.includes(lesson.slug) ? 'page' : undefined}
                 >
                   {lesson.title}
-                  {state.completed.includes(lesson.slug) && (
-                    <Check size={12} aria-label="Completed" />
-                  )}
                 </Link>
               ))}
           </div>
@@ -99,10 +91,6 @@ function BookNavigation({ lessons, close }: { lessons: LessonMeta[]; close?: () 
         className={cn('sidebar-link', path.startsWith('/sources') && 'active')}
       >
         Sources & editorial notes
-      </Link>
-      <Link onClick={close} href="/progress/#bookmarks" className="sidebar-link">
-        <Bookmark size={14} />
-        Bookmarks<span className="nav-count">{state.bookmarks.length}</span>
       </Link>
       <div className="sidebar-bottom">
         <span>California salesperson exam</span>
@@ -146,6 +134,7 @@ export function BookShell({
                 size="icon"
                 variant="ghost"
                 aria-label="Open navigation"
+                title="Open navigation"
               >
                 <Menu />
               </Button>

@@ -38,17 +38,15 @@ test('desktop and mobile textbook remain readable with rendered assets', async (
   expect(errors).toEqual([])
 })
 
-test('chapter completion, bookmarks, quiz explanations, and theme persist', async ({ page }) => {
+test('chapters have no tracking controls while quiz explanations and theme still work', async ({
+  page,
+}) => {
   await page.goto('/docs/ownership-property-rights/')
-  await page.getByRole('button', { name: 'Mark complete', exact: true }).first().click()
-  await page.getByRole('button', { name: 'Bookmark lesson', exact: true }).first().click()
-  await page.reload()
-  await expect(
-    page.getByRole('button', { name: 'Completed', exact: true }).first()
-  ).toHaveAttribute('aria-pressed', 'true')
-  await expect(
-    page.getByRole('button', { name: 'Remove bookmark', exact: true }).first()
-  ).toHaveAttribute('aria-pressed', 'true')
+  await expect(page.getByRole('button', { name: /Mark complete|Completed|bookmark/i })).toHaveCount(
+    0
+  )
+  await expect(page.locator('a[href^="/progress"]')).toHaveCount(0)
+  await expect(page.getByRole('button', { name: 'Print lesson', exact: true })).toHaveCount(1)
   await page.locator('.chapter-quiz input[type=radio]').first().check({ force: true })
   await page.getByRole('button', { name: 'Check answer', exact: true }).click()
   await expect(page.locator('.option-explanation')).toHaveCount(4)
@@ -56,8 +54,7 @@ test('chapter completion, bookmarks, quiz explanations, and theme persist', asyn
   await expect(page.locator('html')).toHaveClass(/dark/)
   await page.reload()
   await expect(page.locator('html')).toHaveClass(/dark/)
-  await page.goto('/progress/')
-  await expect(page.locator('.bookmark-row')).toHaveCount(1)
+  expect(await page.evaluate(() => localStorage.getItem('ca-re:study:v1'))).toBeNull()
 })
 
 test('search supports keyboard selection and punctuation', async ({ page }) => {
@@ -115,14 +112,16 @@ test('timed exam resumes, supports flagging and grades after expiry', async ({ p
   await expect(page.locator('.exam-results')).toBeVisible()
   await expect(page.locator('.page-description')).toContainText('1 of 150')
   const result = await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))
-  expect(result.attempts).toHaveLength(1)
+  expect(Object.keys(result)).toEqual(['session'])
+  expect(result.session.finishedAt).not.toBeNull()
   await page.reload()
-  expect(
-    await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!).attempts.length)
-  ).toBe(1)
+  await expect(page.locator('.page-description')).toContainText('1 of 150')
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))).toEqual(
+    result
+  )
 })
 
-test('flashcard review, glossary filtering, calculator and data reset work', async ({ page }) => {
+test('flashcards, glossary filtering, and calculator work without tracking', async ({ page }) => {
   await page.goto('/flashcards/')
   await expect(page.locator('.flashcard')).toBeVisible()
   await page.getByRole('button', { name: 'Show answer', exact: true }).click()
@@ -131,12 +130,9 @@ test('flashcard review, glossary filtering, calculator and data reset work', asy
   await expect(page.locator('.flashcard-face')).toHaveAccessibleName(
     new RegExp(definition.slice(0, 15).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
   )
-  await page.getByRole('button', { name: 'Mark known', exact: true }).click()
-  await page.getByRole('tab', { name: 'Known', exact: true }).click()
-  await expect(page.locator('.flashcard-meta')).toContainText('1 / 1')
-  await page.reload()
-  await page.getByRole('tab', { name: 'Known', exact: true }).click()
-  await expect(page.locator('.flashcard')).toBeVisible()
+  await page.getByRole('button', { name: 'Next flashcard', exact: true }).click()
+  await expect(page.locator('.flashcard-face')).not.toHaveClass(/is-back/)
+  await expect(page.getByRole('button', { name: /Mark known|Review again/ })).toHaveCount(0)
   await page.goto('/glossary/')
   await page.getByRole('searchbox', { name: 'Filter glossary' }).fill('fiduciary')
   await expect(page.locator('.glossary-entry').first()).toBeVisible()
@@ -146,12 +142,7 @@ test('flashcard review, glossary filtering, calculator and data reset work', asy
   await page.getByLabel('Annual interest rate (%)').fill('0')
   await page.getByLabel('Term (years)').fill('1')
   await expect(page.locator('.calculator-result')).toContainText('$1,000.00')
-  await page.goto('/progress/')
-  await page.getByRole('button', { name: 'Reset study data' }).click()
-  await page.getByRole('button', { name: 'Reset data', exact: true }).click()
-  expect(
-    await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!).knownTerms)
-  ).toEqual([])
+  expect(await page.evaluate(() => localStorage.getItem('ca-re:study:v1'))).toBeNull()
 })
 
 test('expired exams reject an answer even before the timer callback runs', async ({ page }) => {
@@ -167,12 +158,13 @@ test('expired exams reject an answer even before the timer callback runs', async
   await expect(page.locator('.exam-results')).toBeVisible()
   const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))
   expect(stored.session.answers).toEqual({})
-  expect(stored.attempts[0].score).toBe(0)
+  expect(Object.keys(stored)).toEqual(['session'])
+  await expect(page.locator('.page-description')).toContainText('0 of 150')
 })
 
 test('all study and reference views fit a narrow mobile viewport', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 740 })
-  for (const route of ['practice', 'flashcards', 'progress', 'glossary', 'math', 'sources']) {
+  for (const route of ['practice', 'flashcards', 'glossary', 'math', 'sources']) {
     await page.goto(`/${route}/`)
     await expect(page.locator('main h1')).toBeVisible()
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)

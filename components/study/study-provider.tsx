@@ -1,7 +1,7 @@
 'use client'
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
-import type { Attempt, StudySession } from '@/lib/exam'
+import type { StudySession } from '@/lib/exam'
 import { z } from 'zod'
 
 const sessionSchema = z.object({
@@ -16,33 +16,13 @@ const sessionSchema = z.object({
   expiresAt: z.number().nullable(),
   finishedAt: z.number().nullable(),
 })
-const attemptSchema = z.object({
-  id: z.string(),
-  mode: z.enum(['practice', 'exam']),
-  date: z.number(),
-  score: z.number(),
-  total: z.number(),
-  domains: z.record(z.string(), z.object({ correct: z.number(), total: z.number() })),
-})
 const schema = z.object({
-  completed: z.array(z.string()),
-  bookmarks: z.array(z.string()),
-  knownTerms: z.array(z.string()),
-  attempts: z.array(attemptSchema),
   session: sessionSchema.nullable(),
 })
 export interface StudyState {
-  completed: string[]
-  bookmarks: string[]
-  knownTerms: string[]
-  attempts: Attempt[]
   session: StudySession | null
 }
 export const emptyStudy: StudyState = {
-  completed: [],
-  bookmarks: [],
-  knownTerms: [],
-  attempts: [],
   session: null,
 }
 export const storageKey = 'ca-re:study:v1'
@@ -59,21 +39,32 @@ export function StudyProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false)
   const [storageError, setStorageError] = useState<string | null>(null)
   useEffect(() => {
+    const restore = (stored: string | null) => {
+      const restored = stored ? schema.parse(JSON.parse(stored)) : emptyStudy
+      setState(restored)
+      // Rewrite older records without retaining their retired tracking fields.
+      if (stored && JSON.stringify(restored) !== stored) {
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(restored))
+        } catch {
+          setStorageError(
+            'Browser storage is unavailable. This session will last for this visit only.'
+          )
+        }
+      }
+    }
     try {
-      const stored = localStorage.getItem(storageKey)
-      if (stored) setState(schema.parse(JSON.parse(stored)) as StudyState)
+      restore(localStorage.getItem(storageKey))
     } catch {
       setStorageError(
-        'Saved study data could not be loaded. This session starts with a clean record.'
+        'The saved practice session could not be loaded. You can start a new session.'
       )
     }
     setReady(true)
     const sync = (event: StorageEvent) => {
       if (event.key !== storageKey) return
       try {
-        setState(
-          event.newValue ? (schema.parse(JSON.parse(event.newValue)) as StudyState) : emptyStudy
-        )
+        restore(event.newValue)
       } catch {
         /* Keep the valid in-memory record. */
       }

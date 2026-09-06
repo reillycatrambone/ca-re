@@ -9,10 +9,42 @@ import { capitalizedValue } from '../lib/calculations'
 import { learningFigures, figureSearchText } from '../lib/learning-figures'
 import { validateLearningFigures } from '../lib/learning-figures/validation'
 import { rehypeLearningFigures } from '../lib/rehype-learning-figures'
+import { RelationshipFigure } from '../components/book/relationship-figure'
 
-test('every chapter has a labeled in-text figure with a valid, nonconflicting section anchor', () => {
-  assert.equal(learningFigures.length, 33)
+test('every chapter has two labeled figures with distinct, valid section anchors', () => {
+  assert.equal(learningFigures.length, 66)
+  for (const lesson of getLessons()) {
+    const figures = learningFigures.filter((figure) => figure.lessonSlug === lesson.slug)
+    assert.equal(figures.length, 2, lesson.slug)
+    assert.equal(new Set(figures.map((figure) => figure.afterSection)).size, 2, lesson.slug)
+  }
   assert.deepEqual(validateLearningFigures(getLessons(), learningFigures), [])
+})
+
+test('relationship maps expose every connection in both diagram and text and validate label geometry', () => {
+  const maps = learningFigures.filter((figure) => figure.kind === 'relationship')
+  assert.ok(maps.length >= 10)
+  for (const figure of maps) {
+    const html = renderToStaticMarkup(createElement(RelationshipFigure, { figure }))
+    assert.equal((html.match(/class="relationship-node"/g) ?? []).length, figure.nodes.length)
+    assert.equal((html.match(/<dt>/g) ?? []).length, figure.nodes.length)
+    const searchable = figureSearchText(figure)
+    assert.ok(searchable.includes(figure.center.detail))
+    for (const node of figure.nodes) {
+      assert.ok(searchable.includes(node.label))
+      assert.ok(searchable.includes(node.connection))
+      assert.ok(searchable.includes(node.detail))
+    }
+    const changed = structuredClone(learningFigures)
+    const invalid = changed.find((item) => item.id === figure.id)!
+    if (invalid.kind !== 'relationship') throw new Error('Missing relationship fixture')
+    invalid.nodes[0].label = 'A label too long for a readable diagram node'
+    assert.ok(
+      validateLearningFigures(getLessons(), changed).some((error) =>
+        error.includes('Invalid relationship map')
+      )
+    )
+  }
 })
 
 test('figure validation rejects stale anchors, duplicate IDs, and incorrect arithmetic', () => {

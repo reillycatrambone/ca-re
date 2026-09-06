@@ -24,6 +24,25 @@ export function validateLearningFigures(lessons: Lesson[], figures: LearningFigu
       errors.push(`Figure ID conflicts with an existing anchor: ${figure.id}`)
     if (!figure.title.trim() || !figure.caption.trim())
       errors.push(`Unlabeled figure: ${figure.id}`)
+    if (figure.kind === 'relationship') {
+      if (
+        figure.nodes.length < 3 ||
+        figure.nodes.length > 4 ||
+        !figure.center.label.trim() ||
+        figure.center.label.length > 26 ||
+        !figure.center.detail.trim() ||
+        new Set(figure.nodes.map((node) => node.label)).size !== figure.nodes.length ||
+        figure.nodes.some(
+          (node) =>
+            !node.label.trim() ||
+            node.label.length > 24 ||
+            !node.detail.trim() ||
+            !node.connection.trim() ||
+            node.connection.length > 20
+        )
+      )
+        errors.push(`Invalid relationship map: ${figure.id}`)
+    }
     if (figure.kind === 'calculation') {
       const sum = figure.rows.reduce((total, row) => total + row.amount, 0)
       if (!Number.isFinite(sum) || Math.abs(sum - figure.result.amount) > 0.001)

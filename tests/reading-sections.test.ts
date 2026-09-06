@@ -56,7 +56,6 @@ test('reading sections preserve introductory nodes, heading text, IDs, and secti
   assert.deepEqual(first.properties, {
     id: 'a-bold-heading',
     label: 'A bold heading',
-    number: 1,
     takeaway: 'The first matching takeaway.',
   })
   assert.deepEqual(first.children, [firstBody])
@@ -65,7 +64,6 @@ test('reading sections preserve introductory nodes, heading text, IDs, and secti
   assert.deepEqual(last.properties, {
     id: 'final-section',
     label: 'Final section',
-    number: 2,
     takeaway: 'The last matching takeaway.',
   })
   assert.deepEqual(last.children, [lastBody])
@@ -105,7 +103,7 @@ test('each H3 starts its own detail and preserves nested content in the final H2
   assert.equal(section.children.length, 3)
 })
 
-test('a section figure ends an optional detail and remains a direct section child', () => {
+test('a section figure ends a subsection and remains a direct section child', () => {
   const figure = element('learning-figure', [], { id: 'section-figure' })
   const detailText = paragraph('Optional explanation.')
   const afterFigure = paragraph('Visible after the figure.')

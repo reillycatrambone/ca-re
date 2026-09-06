@@ -1,6 +1,7 @@
 import type { CSSProperties } from 'react'
 import { learningFigures } from '@/lib/learning-figures'
 import { CapitalizationFigure } from './capitalization-figure'
+import { RelationshipFigure } from './relationship-figure'
 
 const currency = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -109,6 +110,7 @@ export function LearningFigure({ id }: { id: string }) {
         </div>
       )}
       {figure.kind === 'capitalization' && <CapitalizationFigure />}
+      {figure.kind === 'relationship' && <RelationshipFigure figure={figure} />}
       <figcaption>
         {figure.caption} <a href="#sources">Chapter sources</a>
       </figcaption>

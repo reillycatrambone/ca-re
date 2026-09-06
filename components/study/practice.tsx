@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { ArrowLeft, ArrowRight, Clock3, Flag, Grid2X2, Play, X } from 'lucide-react'
 import { domains, examSpec, type Question } from '@/lib/curriculum'
-import { buildExam, shuffle, summarizeSession, type StudySession } from '@/lib/exam'
+import { buildExam, shuffle, type StudySession } from '@/lib/exam'
 import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import {
@@ -24,6 +24,8 @@ export function Practice({ bank }: { bank: Question[] }) {
   const [count, setCount] = useState('10')
   const [confirmFinish, setConfirmFinish] = useState(false)
   const [mapOpen, setMapOpen] = useState(false)
+  const navigatorTrigger = useRef<HTMLButtonElement>(null)
+  const finishTrigger = useRef<HTMLButtonElement>(null)
   const [now, setNow] = useState(0)
   const [startError, setStartError] = useState('')
   const session = state.session
@@ -42,17 +44,8 @@ export function Practice({ bank }: { bank: Question[] }) {
     update((s) => {
       if (!s.session || s.session.finishedAt) return s
       const finished = { ...s.session, finishedAt: Date.now() }
-      const attempt = summarizeSession(
-        finished,
-        finished.questionIds.flatMap((id) => {
-          const q = bankMap.get(id)
-          return q ? [q] : []
-        })
-      )
       return {
-        ...s,
         session: finished,
-        attempts: [attempt, ...s.attempts.filter((a) => a.id !== finished.id)].slice(0, 50),
       }
     })
     setConfirmFinish(false)
@@ -104,11 +97,8 @@ export function Practice({ bank }: { bank: Question[] }) {
       if (!s.session || s.session.finishedAt) return s
       if (s.session.expiresAt && Date.now() >= s.session.expiresAt) {
         const finished = { ...s.session, finishedAt: s.session.expiresAt }
-        const attempt = summarizeSession(finished, questions)
         return {
-          ...s,
           session: finished,
-          attempts: [attempt, ...s.attempts.filter((a) => a.id !== finished.id)].slice(0, 50),
         }
       }
       return { ...s, session: fn(s.session) }
@@ -155,16 +145,6 @@ export function Practice({ bank }: { bank: Question[] }) {
               {clock}
             </span>
           )}
-        </div>
-        <div
-          className="progress-track"
-          role="progressbar"
-          aria-valuemin={0}
-          aria-valuemax={questions.length}
-          aria-valuenow={answered}
-          aria-label="Questions answered"
-        >
-          <div style={{ width: `${(answered / questions.length) * 100}%` }} />
         </div>
         <div className="session-question-meta">
           <span>
@@ -214,6 +194,7 @@ export function Practice({ bank }: { bank: Question[] }) {
               variant="outline"
               size="icon"
               aria-label="Question navigator"
+              ref={navigatorTrigger}
               title="Question navigator"
               onClick={() => setMapOpen(true)}
             >
@@ -221,7 +202,7 @@ export function Practice({ bank }: { bank: Question[] }) {
             </Button>
           </div>
           <div>
-            <Button variant="ghost" onClick={() => setConfirmFinish(true)}>
+            <Button ref={finishTrigger} variant="ghost" onClick={() => setConfirmFinish(true)}>
               Finish
             </Button>
             {current < questions.length - 1 && (
@@ -233,7 +214,14 @@ export function Practice({ bank }: { bank: Question[] }) {
           </div>
         </div>
         <Dialog open={confirmFinish} onOpenChange={setConfirmFinish}>
-          <DialogContent>
+          <DialogContent
+            onCloseAutoFocus={(event) => {
+              if (finishTrigger.current) {
+                event.preventDefault()
+                finishTrigger.current.focus({ preventScroll: true })
+              }
+            }}
+          >
             <DialogTitle>Finish this session?</DialogTitle>
             <DialogDescription>
               {answered === questions.length
@@ -250,7 +238,14 @@ export function Practice({ bank }: { bank: Question[] }) {
           </DialogContent>
         </Dialog>
         <Dialog open={mapOpen} onOpenChange={setMapOpen}>
-          <DialogContent>
+          <DialogContent
+            onCloseAutoFocus={(event) => {
+              if (navigatorTrigger.current) {
+                event.preventDefault()
+                navigatorTrigger.current.focus({ preventScroll: true })
+              }
+            }}
+          >
             <div className="section-heading">
               <DialogTitle>Questions</DialogTitle>
               <Button

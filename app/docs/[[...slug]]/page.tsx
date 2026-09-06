@@ -18,7 +18,7 @@ import { LessonActions } from '@/components/study/lesson-actions'
 import { ChapterQuiz } from '@/components/study/chapter-quiz'
 import { getStudyGuide } from '@/lib/study-guides/content'
 import { rehypeReadingSections } from '@/lib/rehype-reading-sections'
-import { ChapterReader } from '@/components/book/reader/reader-context'
+import { ChapterReader } from '@/components/book/reader/chapter-reader'
 import { ReadingSection, ReadingDetail } from '@/components/book/reader/reading-section'
 import { GuideOverview } from '@/components/book/guide-overview'
 import { GuideReview } from '@/components/book/guide-review'
@@ -67,7 +67,6 @@ export default async function Chapter({ params }: Props) {
         <ReadingSection
           id={String(props.id)}
           label={String(props.label)}
-          number={Number(props.number)}
           takeaway={String(props.takeaway ?? '')}
         >
           {props.children}
@@ -103,15 +102,10 @@ export default async function Chapter({ params }: Props) {
         </div>
         <h1>{lesson.title}</h1>
         <p className="page-description">{lesson.description}</p>
-        <LessonActions slug={lesson.slug} />
+        <LessonActions />
         {guide && <GuideOverview points={guide.overview} />}
         <ConceptDiagram slug={lesson.slug} />
-        <ChapterReader
-          key={lesson.slug}
-          sectionIds={headings
-            .filter((heading) => heading.depth === 2)
-            .map((heading) => heading.id)}
-        >
+        <ChapterReader key={lesson.slug}>
           <ReadingDetail id="learning-objectives" label="Learning objectives">
             <ul className="objective-list">
               {lesson.objectives.map((objective) => (
@@ -140,9 +134,6 @@ export default async function Chapter({ params }: Props) {
             ))}
           </ol>
         </section>
-        <div className="chapter-end-actions">
-          <LessonActions slug={lesson.slug} />
-        </div>
         <nav className="chapter-pagination" aria-label="Chapter navigation">
           {previous ? (
             <Link href={`/docs/${previous.slug}/`}>

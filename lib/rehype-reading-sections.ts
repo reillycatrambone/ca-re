@@ -18,7 +18,7 @@ function wrapDetails(nodes: ElementContent[]): ElementContent[] {
       }
       output.push(detail)
     } else if (node.type === 'element' && node.tagName === 'learning-figure') {
-      // A section figure belongs to the section, not to its final optional detail.
+      // A section figure belongs to the section, not to its final subsection.
       detail = undefined
       output.push(node)
     } else if (detail) detail.children.push(node)
@@ -35,7 +35,6 @@ export function rehypeReadingSections({
   return (tree: Root) => {
     const output: RootContent[] = []
     let section: Element | undefined
-    let index = 0
     const finish = () => {
       if (section) section.children = wrapDetails(section.children)
     }
@@ -49,7 +48,6 @@ export function rehypeReadingSections({
           properties: {
             id,
             label: nodeText(node),
-            number: ++index,
             takeaway: takeaways.find((entry) => entry.id === id)?.takeaway ?? '',
           },
           children: [],

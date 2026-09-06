@@ -55,29 +55,13 @@ export interface StudySession {
   finishedAt: number | null
 }
 
-export interface Attempt {
-  id: string
-  mode: 'practice' | 'exam'
-  date: number
-  score: number
-  total: number
-  domains: Partial<Record<DomainId, { correct: number; total: number }>>
-}
-
-export function summarizeSession(session: StudySession, questions: Question[]): Attempt {
-  const domainScores: Attempt['domains'] = {}
+export function gradeByDomain(questions: Question[], answers: Record<string, number>) {
+  const domainScores: Partial<Record<DomainId, { correct: number; total: number }>> = {}
   for (const q of questions) {
     const d = domainScores[q.domain] ?? { correct: 0, total: 0 }
     d.total++
-    if (session.answers[q.id] === q.answer) d.correct++
+    if (answers[q.id] === q.answer) d.correct++
     domainScores[q.domain] = d
   }
-  return {
-    id: session.id,
-    mode: session.mode,
-    date: session.finishedAt ?? Date.now(),
-    score: gradeQuestions(questions, session.answers).score,
-    total: questions.length,
-    domains: domainScores,
-  }
+  return domainScores
 }

@@ -1,13 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import {
-  buildExam,
-  examAllocation,
-  gradeQuestions,
-  shuffle,
-  summarizeSession,
-  type StudySession,
-} from '../lib/exam'
+import { buildExam, examAllocation, gradeQuestions, shuffle, gradeByDomain } from '../lib/exam'
 import { domains, type Question } from '../lib/curriculum'
 import { monthlyPayment } from '../lib/calculations'
 import { createSearch } from '../lib/search'
@@ -52,24 +45,11 @@ test('unanswered questions count against the score; passing uses the unrounded f
     passed: true,
   })
 })
-test('session summary attributes unanswered questions to the correct domains', () => {
+test('domain scores attribute unanswered questions to the correct domains', () => {
   const questions = [bank[0], bank[80]]
-  const session: StudySession = {
-    id: 'test',
-    mode: 'exam',
-    questionIds: questions.map((q) => q.id),
-    answers: { [questions[0].id]: questions[0].answer },
-    checked: [],
-    flags: [],
-    current: 0,
-    startedAt: 1,
-    expiresAt: 100,
-    finishedAt: 100,
-  }
-  const result = summarizeSession(session, questions)
-  assert.deepEqual(result.domains.ownership, { correct: 1, total: 1 })
-  assert.deepEqual(result.domains.agency, { correct: 0, total: 1 })
-  assert.equal(result.date, 100)
+  const result = gradeByDomain(questions, { [questions[0].id]: questions[0].answer })
+  assert.deepEqual(result.ownership, { correct: 1, total: 1 })
+  assert.deepEqual(result.agency, { correct: 0, total: 1 })
 })
 test('amortization supports zero interest and rejects invalid figures', () => {
   assert.ok(Math.abs(monthlyPayment(400000, 6, 30)! - 2398.2021) < 0.001)

@@ -7,7 +7,7 @@ const guides = getStudyGuides()
 const lessons = getLessons()
 const sample = (kind: string) => guides.find((guide) => guide.lab.kind === kind)!
 
-test('focused reading, nested anchors, same-hash links, and full-mode preference', async ({
+test('legacy reading preferences never hide chapter content or add reading controls', async ({
   page,
 }) => {
   const lesson = lessons.find((lesson) =>
@@ -15,39 +15,32 @@ test('focused reading, nested anchors, same-hash links, and full-mode preference
   )!
   const headings = getHeadings(lesson.body)
   const sections = headings.filter((heading) => heading.depth === 2)
-  await page.goto(`/docs/${lesson.slug}/`)
-  await expect(page.locator('.reading-section-content:visible')).toHaveCount(1)
-  await expect(page.locator('.reading-detail-content:visible')).toHaveCount(0)
-  await page.locator('.next-reading-section:visible').click()
-  await expect(page.locator(`[data-reading-section="${sections[1].id}"]`)).toHaveAttribute(
-    'data-expanded',
-    'true'
-  )
-  await expect(page.locator('.reading-section-content:visible')).toHaveCount(1)
   const nested = headings.find((heading) => heading.depth === 3)!
-  await page.goto(`/docs/${lesson.slug}/#${nested.id}`)
-  await expect(
-    page.locator(`[data-reading-detail="${nested.id}"] .reading-detail-content`)
-  ).toBeVisible()
-  const toggle = page.locator(`[id="${nested.id}"] button`)
-  await toggle.click()
-  await expect(toggle).toHaveAttribute('aria-expanded', 'false')
-  const sectionLink = page.locator(`.lesson-toc a[href="#${sections[1].id}"]`)
-  await sectionLink.click()
-  const sectionToggle = page.locator(`[id="${sections[1].id}"] button`)
-  await sectionToggle.click()
-  await expect(sectionToggle).toHaveAttribute('aria-expanded', 'false')
-  await sectionLink.click()
-  await expect(sectionToggle).toHaveAttribute('aria-expanded', 'true')
-  await page.getByRole('radio', { name: 'Full chapter', exact: true }).click()
-  await expect(page.locator('.reading-section-content:visible')).toHaveCount(sections.length)
-  await expect(page.locator('.reading-detail-content[hidden]')).toHaveCount(0)
-  await page.reload()
-  await expect(page.locator('.chapter-reader')).toHaveAttribute('data-reading-mode', 'full')
-  await page.goto(`/docs/${lessons.find((item) => item.slug !== lesson.slug)!.slug}/`)
-  await expect(page.locator('.chapter-reader')).toHaveAttribute('data-reading-mode', 'full')
-  await page.getByRole('radio', { name: 'Focused', exact: true }).click()
-  await expect(page.locator('.reading-section-content:visible')).toHaveCount(1)
+  await page.goto('/')
+  for (const preference of ['focused', 'full']) {
+    await page.evaluate((value) => localStorage.setItem('ca-re:reading-mode:v1', value), preference)
+    await page.goto(`/docs/${lesson.slug}/#${nested.id}`)
+    await expect(page.locator('.reading-section-content:visible')).toHaveCount(sections.length)
+    await expect(page.locator('#learning-objectives-detail')).toBeVisible()
+    await expect(page.locator('.reading-detail-content[hidden]')).toHaveCount(0)
+    await expect(page.locator('.chapter-reader h2 button, .chapter-reader h3 button')).toHaveCount(
+      0
+    )
+    await expect(
+      page.locator('.reader-toolbar, .next-reading-section, .reading-section-number')
+    ).toHaveCount(0)
+    await expect(page.getByRole('radio', { name: /^(Focused|Full chapter)$/ })).toHaveCount(0)
+    await expect(page.locator('[data-reading-mode]')).toHaveCount(0)
+    await expect(page.locator(`[id="${nested.id}-detail"]`)).toBeVisible()
+    await expect(page.locator(`[id="${nested.id}"]`)).toBeInViewport()
+    await page.goto(`/docs/${lesson.slug}/#${sections[1].id}`)
+    await expect(page.locator(`[id="${sections[1].id}-body"]`)).toBeVisible()
+    await expect(page.locator(`[id="${sections[1].id}"]`)).toBeInViewport()
+    await expect(page.locator('.reading-section-content:visible')).toHaveCount(sections.length)
+    expect(await page.evaluate(() => localStorage.getItem('ca-re:reading-mode:v1'))).toBe(
+      preference
+    )
+  }
 })
 
 test('all 33 guides render complete section summaries, labs, pitfalls and unique anchors', async ({
@@ -58,10 +51,29 @@ test('all 33 guides render complete section summaries, labs, pitfalls and unique
   page.on('pageerror', (error) => errors.push(error.message))
   for (const width of [1440, 320]) {
     await page.setViewportSize({ width, height: 1000 })
+    await page.goto('/')
+    await page.evaluate(
+      (value) => localStorage.setItem('ca-re:reading-mode:v1', value),
+      width === 1440 ? 'focused' : 'full'
+    )
     for (const guide of guides) {
       await page.goto(`/docs/${guide.lessonSlug}/#case-lab`)
       await expect(page.locator('.case-lab')).toBeVisible()
       await expect(page.locator('.section-takeaway')).toHaveCount(guide.sections.length)
+      await expect(page.locator('.reading-section-content:visible')).toHaveCount(
+        guide.sections.length
+      )
+      const details = page.locator('.reading-detail-content')
+      await expect(page.locator('.reading-detail-content:visible')).toHaveCount(
+        await details.count()
+      )
+      await expect(
+        page.locator('.reading-section-content[hidden], .reading-detail-content[hidden]')
+      ).toHaveCount(0)
+      await expect(page.locator('#learning-objectives-detail')).toBeVisible()
+      await expect(
+        page.locator('.chapter-reader h2 button, .chapter-reader h3 button')
+      ).toHaveCount(0)
       await expect(page.locator('.guide-overview dt')).toHaveCount(3)
       await expect(page.locator('#exam-pitfalls .reading-detail')).toHaveCount(3)
       const duplicateIds = await page.locator('[id]').evaluateAll((elements) => {
@@ -160,6 +172,7 @@ test('new case and pitfall search results reveal their exact explanations', asyn
   await page.getByRole('option').filter({ hasText: title }).click()
   await expect(page).toHaveURL(new RegExp(`${guide.lessonSlug}/#calculation-step-2$`))
   await expect(page.locator('#calculation-step-2')).toBeVisible()
+  await expect(page.locator('#calculation-step-2')).toBeFocused()
   for (let repeat = 0; repeat < 2; repeat++) {
     await page.locator('.case-lab [role="tab"]').first().click()
     await expect(page.locator('#calculation-step-2')).toBeHidden()
@@ -167,29 +180,36 @@ test('new case and pitfall search results reveal their exact explanations', asyn
     await page.getByRole('combobox', { name: 'Search textbook' }).fill(title)
     await page.getByRole('combobox', { name: 'Search textbook' }).press('Enter')
     await expect(page.locator('#calculation-step-2')).toBeVisible()
+    await expect(page.locator('#calculation-step-2')).toBeFocused()
   }
   await page.getByRole('button', { name: 'Search textbook', exact: true }).click()
   await page.getByRole('combobox', { name: 'Search textbook' }).fill(guide.pitfalls[1].trap)
   await page.getByRole('option').filter({ hasText: guide.pitfalls[1].trap }).click()
   await expect(page.locator('#pitfall-2-detail')).toBeVisible()
-  await page.locator('#pitfall-2 button').click()
+  await expect(page.locator('#pitfall-2')).toBeFocused()
+  await page.locator('#exam-pitfalls').scrollIntoViewIfNeeded()
   await page.getByRole('button', { name: 'Search textbook', exact: true }).click()
   await page.getByRole('combobox', { name: 'Search textbook' }).fill(guide.pitfalls[1].trap)
   await page.getByRole('option').filter({ hasText: guide.pitfalls[1].trap }).click()
   await expect(page.locator('#pitfall-2-detail')).toBeVisible()
+  await expect(page.locator('#pitfall-2')).toBeFocused()
 })
 
-test('same-chapter search opens a nested explanation and repeats the current anchor', async ({
+test('same-chapter search focuses visible nested explanations and repeats the current anchor', async ({
   page,
 }) => {
   const lesson = lessons.find((lesson) =>
     getHeadings(lesson.body).some((heading) => heading.depth === 3)
   )!
   const heading = getHeadings(lesson.body).find((heading) => heading.depth === 3)!
+  const otherSection = getHeadings(lesson.body)
+    .filter((heading) => heading.depth === 2)
+    .at(-1)!
   await page.goto(`/docs/${lesson.slug}/`)
   const explanation = page.locator(`[id="${heading.id}-detail"]`)
   for (let repeat = 0; repeat < 2; repeat++) {
-    await expect(explanation).toBeHidden()
+    await expect(explanation).toBeVisible()
+    await page.locator(`[id="${otherSection.id}"]`).scrollIntoViewIfNeeded()
     await page.getByRole('button', { name: 'Search textbook', exact: true }).click()
     await page.getByRole('combobox', { name: 'Search textbook' }).fill(heading.text)
     await page
@@ -197,11 +217,32 @@ test('same-chapter search opens a nested explanation and repeats the current anc
       .filter({ has: page.locator('strong', { hasText: heading.text }) })
       .click()
     await expect(explanation).toBeVisible()
-    await page.locator(`[id="${heading.id}"] button`).click()
+    await expect(page.locator(`[id="${heading.id}"]`)).toBeFocused()
+    await expect(page.locator(`[id="${heading.id}"] button`)).toHaveCount(0)
   }
 })
 
-test('all lab families have complete full-reference, print, and no-JavaScript views', async ({
+test('search focuses chapter titles and plain section headings', async ({ page }) => {
+  const lesson = lessons[0]
+  const heading = getHeadings(lesson.body).find((heading) => heading.depth === 2)!
+  await page.goto('/')
+  const search = async (title: string) => {
+    await page.getByRole('button', { name: 'Search textbook', exact: true }).click()
+    await page.getByRole('combobox', { name: 'Search textbook' }).fill(title)
+    await page
+      .getByRole('option')
+      .filter({ has: page.locator('strong').and(page.getByText(title, { exact: true })) })
+      .click()
+  }
+  await search(lesson.title)
+  await expect(page.locator('main h1')).toHaveText(lesson.title)
+  await expect(page.locator('main h1')).toBeFocused()
+  await search(heading.text)
+  await expect(page.locator(`[id="${heading.id}"]`)).toBeFocused()
+  await expect(page.locator(`[id="${heading.id}-body"]`)).toBeVisible()
+})
+
+test('labs remain interactive on screen and complete in print and no-JavaScript views', async ({
   page,
   browser,
 }) => {
@@ -219,16 +260,12 @@ test('all lab families have complete full-reference, print, and no-JavaScript vi
         '.case-lab .lab-panel, .case-lab .decision-feedback, .case-lab .calculation-step'
       )
     ).toHaveCount(expectedPanels)
-    await page.getByRole('radio', { name: 'Full chapter', exact: true }).click()
     await expect(page.locator('.reading-section-content[hidden]')).toHaveCount(0)
-    expect(
-      await page
-        .locator('.case-lab .lab-panel, .case-lab .decision-feedback, .case-lab .calculation-step')
-        .evaluateAll((elements) =>
-          elements.every((element) => element.getBoundingClientRect().height > 0)
-        )
-    ).toBe(true)
-    await page.getByRole('radio', { name: 'Focused', exact: true }).click()
+    await expect(
+      page.locator(
+        '.case-lab .lab-panel:visible, .case-lab .decision-feedback:visible, .case-lab .calculation-step:visible'
+      )
+    ).toHaveCount(kind === 'decision' ? 0 : 1)
     await page.emulateMedia({ media: 'print' })
     expect(
       await page

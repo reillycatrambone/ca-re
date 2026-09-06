@@ -1,7 +1,7 @@
 .learning-figure {
   margin: 32px 0;
   padding: 22px 0;
-  border-block: 1px solid var(--border);
+  border-top: 1px solid var(--border);
   font-size: 13px;
   line-height: 1.65;
   scroll-margin-top: 100px;
@@ -133,6 +133,9 @@
   padding: 11px 0;
   border-bottom: 1px solid var(--border);
 }
+.figure-calculation dl > div:last-child {
+  border-bottom: 0;
+}
 .figure-calculation dd,
 .figure-result > span {
   font-variant-numeric: tabular-nums;
@@ -259,7 +262,99 @@
   height: 18px;
   background: var(--foreground);
 }
+.relationship-center {
+  font-size: 13px;
+}
+.relationship-center > strong {
+  font-weight: 650;
+}
+.learning-figure .relationship-center > p {
+  margin: 6px 0 0;
+  color: var(--muted-foreground);
+}
+.relationship-map {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 12px auto;
+  fill: var(--foreground);
+  font-size: 14px;
+  font-weight: 550;
+}
+.relationship-edge {
+  stroke: var(--muted-foreground);
+  stroke-width: 1.25;
+}
+.relationship-edge-label {
+  fill: var(--background);
+}
+.relationship-connection {
+  font-size: 11px;
+  font-weight: 400;
+  fill: var(--muted-foreground);
+}
+.relationship-node {
+  fill: var(--muted);
+  stroke: var(--border);
+}
+.relationship-hub {
+  fill: var(--foreground);
+}
+.relationship-hub-label {
+  fill: var(--background);
+}
+.relationship-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 32px;
+}
+.relationship-details dt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 10px;
+  font-weight: 650;
+}
+.relationship-details dt span {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted-foreground);
+}
+.relationship-details dd {
+  margin-top: 6px;
+  color: var(--muted-foreground);
+}
 @media (max-width: 600px) {
+  .relationship-map {
+    display: none;
+  }
+  .relationship-center {
+    padding: 16px;
+    background: var(--foreground);
+    color: var(--background);
+  }
+  .learning-figure .relationship-center > p {
+    color: inherit;
+  }
+  .relationship-details {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-left: 18px;
+  }
+  .relationship-details > div {
+    position: relative;
+    padding: 22px 0 0 23px;
+    border-left: 1px solid var(--muted-foreground);
+  }
+  .relationship-details > div::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 32px;
+    width: 14px;
+    border-top: 1px solid var(--muted-foreground);
+  }
   .learning-figure .figure-process {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -329,7 +424,9 @@
     margin-bottom: 16px;
   }
   .cap-rate-bar,
-  .figure-allocation-bar {
+  .figure-allocation-bar,
+  .relationship-map,
+  .relationship-center {
     print-color-adjust: exact;
   }
 }

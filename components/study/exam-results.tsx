@@ -4,9 +4,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ArrowRight, RotateCcw } from 'lucide-react'
 import { domains, type Question } from '@/lib/curriculum'
-import { gradeQuestions, summarizeSession, type StudySession } from '@/lib/exam'
+import { gradeQuestions, gradeByDomain, type StudySession } from '@/lib/exam'
 import { Button } from '@/components/ui/button'
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 import { QuestionCard } from './question-card'
 
 export function ExamResults({
@@ -20,7 +20,7 @@ export function ExamResults({
 }) {
   const [filter, setFilter] = useState('missed')
   const result = gradeQuestions(questions, session.answers)
-  const summary = summarizeSession(session, questions)
+  const domainScores = gradeByDomain(questions, session.answers)
   const shown = questions.filter((q) => filter === 'all' || session.answers[q.id] !== q.answer)
   return (
     <div className="exam-results">
@@ -38,24 +38,15 @@ export function ExamResults({
           <RotateCcw />
           New session
         </Button>
-        <Button asChild variant="outline">
-          <Link href="/progress/">
-            View progress
-            <ArrowRight />
-          </Link>
-        </Button>
       </div>
       <div className="result-breakdown">
         {domains
-          .filter((d) => summary.domains[d.id])
+          .filter((d) => domainScores[d.id])
           .map((domain) => {
-            const score = summary.domains[domain.id]!
+            const score = domainScores[domain.id]!
             return (
               <div key={domain.id}>
                 <span>{domain.shortTitle}</span>
-                <div className="progress-track">
-                  <div style={{ width: `${(score.correct / score.total) * 100}%` }} />
-                </div>
                 <span>
                   {score.correct} / {score.total}
                 </span>
@@ -65,12 +56,17 @@ export function ExamResults({
       </div>
       <div className="section-heading">
         <h2>Answer review</h2>
-        <Tabs value={filter} onValueChange={setFilter}>
-          <TabsList>
-            <TabsTrigger value="missed">Missed</TabsTrigger>
-            <TabsTrigger value="all">All</TabsTrigger>
-          </TabsList>
-        </Tabs>
+        <ToggleGroup
+          type="single"
+          aria-label="Answer review filter"
+          value={filter}
+          onValueChange={(value) => {
+            if (value) setFilter(value)
+          }}
+        >
+          <ToggleGroupItem value="missed">Missed</ToggleGroupItem>
+          <ToggleGroupItem value="all">All</ToggleGroupItem>
+        </ToggleGroup>
       </div>
       {shown.length === 0 ? (
         <p className="empty-state">No missed questions in this session.</p>

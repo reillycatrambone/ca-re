@@ -22,5 +22,10 @@ export type LearningFigureSpec = FigureBase &
         result: FigureItem & { amount: number }
       }
     | { kind: 'allocation'; total: number; segments: (FigureItem & { amount: number })[] }
+    | {
+        kind: 'relationship'
+        center: FigureItem
+        nodes: (FigureItem & { connection: string })[]
+      }
     | { kind: 'capitalization' }
   )

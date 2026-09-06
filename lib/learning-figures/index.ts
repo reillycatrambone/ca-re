@@ -5,6 +5,7 @@ import { financingFigures } from './financing'
 import { transferFigures } from './transfer'
 import { practiceFigures } from './practice'
 import { contractsFigures } from './contracts'
+import { supplementalFigures } from './supplemental'
 import type { LearningFigureSpec } from './types'
 
 export const learningFigures: LearningFigureSpec[] = [
@@ -15,6 +16,7 @@ export const learningFigures: LearningFigureSpec[] = [
   ...transferFigures,
   ...practiceFigures,
   ...contractsFigures,
+  ...supplementalFigures,
 ]
 
 export function getLearningFigures(lessonSlug: string) {
@@ -24,6 +26,13 @@ export function getLearningFigures(lessonSlug: string) {
 export function figureSearchText(figure: LearningFigureSpec): string {
   const text = [figure.title, figure.caption]
   switch (figure.kind) {
+    case 'relationship':
+      text.push(
+        figure.center.label,
+        figure.center.detail,
+        ...figure.nodes.flatMap((node) => [node.label, node.connection, node.detail])
+      )
+      break
     case 'process':
       text.push(...figure.steps.flatMap((step) => [step.label, step.detail]))
       break

@@ -2,8 +2,6 @@ import Link from 'next/link'
 import { ArrowRight, ArrowUpRight, Clock3 } from 'lucide-react'
 import { getLessons, getQuestions } from '@/lib/content'
 import { domains } from '@/lib/curriculum'
-import { Button } from '@/components/ui/button'
-import { ContinueReading } from '@/components/book/continue-reading'
 
 export default function Home() {
   const lessons = getLessons()
@@ -21,7 +19,6 @@ export default function Home() {
           <span>{lessons.length} chapters</span>
           <span>{questions.length} practice questions</span>
         </div>
-        <ContinueReading lessons={lessons.map(({ body: _body, ...lesson }) => lesson)} />
         <div className="section-heading curriculum-heading">
           <h2>Contents</h2>
           <span>Exam weight</span>

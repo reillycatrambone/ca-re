@@ -105,7 +105,7 @@ test('figure-specific search opens its in-text anchor', async ({ page }) => {
   await expect(page.locator('#fixture-evidence')).toBeVisible()
 })
 
-test('a saved first-edition session retains its question IDs, answer, and bookmark', async ({
+test('legacy study records retain the active session and remove all retired tracking', async ({
   page,
 }) => {
   await page.goto('/')
@@ -115,8 +115,8 @@ test('a saved first-edition session retains its question IDs, answer, and bookma
       JSON.stringify({
         completed: ['ownership-property-rights'],
         bookmarks: ['ownership-property-rights'],
-        knownTerms: [],
-        attempts: [],
+        knownTerms: ['fixture'],
+        attempts: [{ id: 'old-result', score: 10, total: 10 }],
         session: {
           id: 'first-edition-session',
           mode: 'practice',
@@ -136,12 +136,15 @@ test('a saved first-edition session retains its question IDs, answer, and bookma
   await expect(page.locator('.session-question-meta')).toContainText('Question 1 of 2')
   await expect(page.locator('.question-option input').first()).toBeChecked()
   await expect(page.locator('.question-option').first()).toContainText('80%.')
+  const migrated = await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))
+  expect(Object.keys(migrated)).toEqual(['session'])
+  expect(migrated.session.questionIds).toEqual(['financing-001', 'financing-002'])
+  expect(migrated.session.flags).toEqual(['financing-001'])
   await page.getByRole('button', { name: 'Next', exact: true }).click()
   await page.reload()
   await expect(page.locator('.session-question-meta')).toContainText('Question 2 of 2')
-  await page.goto('/progress/')
-  await expect(page.locator('.bookmark-row')).toHaveCount(1)
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))
   expect(saved.session.answers).toEqual({ 'financing-001': 0 })
-  expect(saved.completed).toEqual(['ownership-property-rights'])
+  expect(saved.session.startedAt).toBe(migrated.session.startedAt)
+  expect(Object.keys(saved)).toEqual(['session'])
 })

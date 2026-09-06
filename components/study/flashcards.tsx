@@ -2,30 +2,21 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, Check, RotateCcw, Shuffle } from 'lucide-react'
+import { ArrowLeft, ArrowRight, RotateCcw, Shuffle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { domains } from '@/lib/curriculum'
 import { shuffle } from '@/lib/exam'
 import type { StudyTerm } from '@/lib/terms'
-import { useStudy, toggleItem } from './study-provider'
 
 export function Flashcards({ terms }: { terms: StudyTerm[] }) {
-  const { state, update, ready } = useStudy()
   const [domain, setDomain] = useState('all')
-  const [filter, setFilter] = useState('review')
   const [order, setOrder] = useState(terms.map((term) => term.id))
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const termMap = useMemo(() => new Map(terms.map((term) => [term.id, term])), [terms])
   const cards = order.flatMap((id) => {
     const term = termMap.get(id)
-    return term &&
-      (domain === 'all' || term.domain === domain) &&
-      (filter === 'all' ||
-        (filter === 'known' ? state.knownTerms.includes(id) : !state.knownTerms.includes(id)))
-      ? [term]
-      : []
+    return term && (domain === 'all' || term.domain === domain) ? [term] : []
   })
   const cursor = cards.length ? index % cards.length : 0
   const card = cards[cursor]
@@ -58,20 +49,6 @@ export function Flashcards({ terms }: { terms: StudyTerm[] }) {
             ))}
           </select>
         </div>
-        <Tabs
-          value={filter}
-          onValueChange={(value) => {
-            setFilter(value)
-            setIndex(0)
-            setFlipped(false)
-          }}
-        >
-          <TabsList>
-            <TabsTrigger value="review">To review</TabsTrigger>
-            <TabsTrigger value="known">Known</TabsTrigger>
-            <TabsTrigger value="all">All</TabsTrigger>
-          </TabsList>
-        </Tabs>
         <Button
           variant="outline"
           size="icon"
@@ -86,21 +63,13 @@ export function Flashcards({ terms }: { terms: StudyTerm[] }) {
           <Shuffle />
         </Button>
       </div>
-      {!ready ? (
-        <p className="empty-state" role="status">
-          Loading flashcards...
-        </p>
-      ) : !card ? (
+      {!card ? (
         <div className="empty-state">
-          <p>
-            {filter === 'review'
-              ? 'No cards left to review in this selection.'
-              : 'No cards in this selection.'}
-          </p>
+          <p>No cards in this selection.</p>
           <Button
             variant="link"
             onClick={() => {
-              setFilter('all')
+              setDomain('all')
               setIndex(0)
             }}
           >
@@ -139,6 +108,7 @@ export function Flashcards({ terms }: { terms: StudyTerm[] }) {
                 variant="outline"
                 size="icon"
                 aria-label="Previous flashcard"
+                title="Previous flashcard"
                 onClick={() => go(-1)}
               >
                 <ArrowLeft />
@@ -147,6 +117,7 @@ export function Flashcards({ terms }: { terms: StudyTerm[] }) {
                 variant="outline"
                 size="icon"
                 aria-label="Next flashcard"
+                title="Next flashcard"
                 onClick={() => go(1)}
               >
                 <ArrowRight />
@@ -156,15 +127,6 @@ export function Flashcards({ terms }: { terms: StudyTerm[] }) {
               <Button variant="outline" onClick={() => setFlipped(!flipped)}>
                 <RotateCcw />
                 {flipped ? 'Show term' : 'Show answer'}
-              </Button>
-              <Button
-                onClick={() => {
-                  update((s) => ({ ...s, knownTerms: toggleItem(s.knownTerms, card.id) }))
-                  setFlipped(false)
-                }}
-              >
-                <Check />
-                {state.knownTerms.includes(card.id) ? 'Review again' : 'Mark known'}
               </Button>
             </div>
           </div>

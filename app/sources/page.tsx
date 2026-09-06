@@ -60,9 +60,9 @@ export default function SourcesPage() {
         <h2>Privacy</h2>
         <p>
           The application does not require an account or application API keys and contains no
-          analytics integration. Bookmarks, completed chapters, known terms, and practice sessions
-          are saved only in your browser. The hosting provider may process ordinary web request data
-          to deliver the site. The Progress page can reset the browser's study record.
+          analytics integration. Only the current practice session and color-theme preference are
+          saved in your browser; there is no reading history or study profile. The hosting provider
+          may process ordinary web request data to deliver the site.
         </p>
         <h2>Attribution</h2>
         <p>
