@@ -448,5 +448,405 @@
       }
     ],
     "answer": 3
+  },
+  {
+    "id": "transfer-019",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "A deed conveys an undivided one-half interest in a parcel. The buyer assumes that means exclusive ownership of the northern half. What should the agent explain?",
+    "options": [
+      {
+        "text": "The deed automatically creates two equal legal lots because it conveys a one-half interest.",
+        "explanation": "A transfer of an undivided share does not itself accomplish a lawful parcel subdivision."
+      },
+      {
+        "text": "The buyer owns the northern half whenever the fractional share equals half the acreage.",
+        "explanation": "A fraction of ownership does not select a geographic half of the land."
+      },
+      {
+        "text": "An undivided fractional interest is not itself a conveyance of a separately bounded northern parcel.",
+        "explanation": "Fractional cotenancy concerns an ownership share in the whole; a geographic subdivision or different estate requires its own valid arrangement."
+      },
+      {
+        "text": "The buyer owns the northern half only after recording, because recording supplies the missing boundary.",
+        "explanation": "Recording gives notice of the described interest; it does not invent a different legal description."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-020",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "A grantor executes a qualifying instrument purporting to grant a fee simple interest the grantor does not yet own. The grantor later acquires that title. Under California's after-acquired-title doctrine, what generally occurs?",
+    "options": [
+      {
+        "text": "The earlier grant is necessarily treated as a quitclaim limited to the original date's interest.",
+        "explanation": "The doctrine distinguishes qualifying fee grants from instruments merely releasing an existing interest."
+      },
+      {
+        "text": "The later-acquired interest passes only if the original deed is recorded again after the grantor acquires title.",
+        "explanation": "Under the qualifying doctrine, passage occurs by operation of law; rerecording is not the event that creates that passage."
+      },
+      {
+        "text": "The grantor always retains the newly acquired title unless the grantee pays a second purchase price.",
+        "explanation": "The qualifying doctrine operates by law and does not generally require a second sale price to pass the later-acquired title."
+      },
+      {
+        "text": "The later-acquired title passes to the grantee by operation of law under the qualifying grant.",
+        "explanation": "Civil Code section 1106 addresses later-acquired title under an instrument purporting to grant the fee; this differs from an ordinary quitclaim of present interests."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-021",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "Two people originally acquire as joint tenants. Before advising that the survivor automatically owns everything at the first owner's death, what additional title issue should be checked?",
+    "options": [
+      {
+        "text": "Whether the joint tenancy remained unsevered and covered the interest at death.",
+        "explanation": "The original acquisition label is not conclusive if later events changed the estate; survivorship depends on the valid interest existing at death."
+      },
+      {
+        "text": "Whether the deceased owner left a will naming someone else, which necessarily overrides an intact joint tenancy.",
+        "explanation": "A will does not ordinarily redirect an intact joint tenancy's survivorship interest."
+      },
+      {
+        "text": "Whether a probate court has first converted the property to tenancy in common.",
+        "explanation": "An intact joint tenancy does not ordinarily require such a conversion before survivorship can operate."
+      },
+      {
+        "text": "Whether the surviving owner has already paid all estate creditors, which is the act creating joint tenancy.",
+        "explanation": "Joint tenancy is not created by paying estate creditors; creditor and title issues require their own analysis."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-022",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "An effective deed conveys property to Jordan while expressly reserving a life estate to the grantor. Which statement best describes Jordan's interest immediately after delivery?",
+    "options": [
+      {
+        "text": "Jordan has only an unenforceable expectation because no interest can transfer until the grantor dies.",
+        "explanation": "A deed can create a present remainder interest even though possession follows the life estate's termination."
+      },
+      {
+        "text": "Jordan holds the conveyed remainder, subject to the grantor's reserved life estate.",
+        "explanation": "The reservation divides present possession from the future possessory interest; the grantee does not receive an immediately unburdened possessory fee."
+      },
+      {
+        "text": "Jordan immediately has exclusive possession because every delivered deed extinguishes the grantor's reserved rights.",
+        "explanation": "Delivery does not erase an express reservation contained in the deed."
+      },
+      {
+        "text": "Jordan and the grantor necessarily become joint tenants with equal present possession.",
+        "explanation": "A life estate and remainder are successive interests, not automatically equal cotenancy interests."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-023",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "A buyer needs commercial delivery access. The proposed title policy excepts an easement that appears limited to residential use. The lender accepts the policy. What should the buyer's agent recognize?",
+    "options": [
+      {
+        "text": "The lender's approval necessarily expands the easement to cover commercial deliveries.",
+        "explanation": "Loan approval cannot alter the legal scope of an easement."
+      },
+      {
+        "text": "An exception means the title insurer promises to remove the easement after closing.",
+        "explanation": "An exception identifies a matter outside the stated coverage; it is not an undertaking to eliminate the property right."
+      },
+      {
+        "text": "Issuance of any title policy guarantees that all proposed property uses are legally permitted.",
+        "explanation": "Title insurance is subject to its coverage terms and is not a universal land-use guarantee."
+      },
+      {
+        "text": "The lender's acceptance does not establish that the access or policy meets the buyer's intended-use needs.",
+        "explanation": "The lender's collateral protection and the buyer's operating requirements differ; an accepted exception can still defeat the buyer's plan."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-024",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "Escrow holds all required buyer funds and the seller's signed deed. An instruction requires a lien release that is still missing, and no authorized amendment permits closing without it. What should escrow do?",
+    "options": [
+      {
+        "text": "Close because depositing the deed automatically waives all title-clearance conditions.",
+        "explanation": "Depositing a document subject to conditions is not necessarily a waiver of those conditions."
+      },
+      {
+        "text": "Record the deed now and treat the required release as only a post-closing clerical task.",
+        "explanation": "A required release cannot be reclassified unilaterally merely to expedite closing."
+      },
+      {
+        "text": "Release the funds on the listing agent's assurance that the buyer will probably accept the lien.",
+        "explanation": "The agent's prediction does not replace the required authorization or amendment."
+      },
+      {
+        "text": "Continue holding the conditional deliveries until the applicable closing requirements are satisfied.",
+        "explanation": "Possession of funds and a deed does not itself authorize ignoring an unfulfilled instruction."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-025",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "An $800,000 buyer has already deposited $24,000, will receive $600,000 in loan proceeds, and is entitled to a $900 proration from the seller. Ignoring all other items, what additional cash must the buyer provide?",
+    "options": [
+      {
+        "text": "$175,100.",
+        "explanation": "The buyer owes $800,000 minus $24,000 minus $600,000 minus the $900 credit."
+      },
+      {
+        "text": "$176,900.",
+        "explanation": "This treats the buyer's proration credit as an additional debit."
+      },
+      {
+        "text": "$199,100.",
+        "explanation": "This fails to credit the $24,000 deposit already supplied."
+      },
+      {
+        "text": "$176,000.",
+        "explanation": "This computes the remaining price but omits the stated proration credit."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-026",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "A preliminary report issued three months ago contains no judgment lien. Before closing, the agent learns of a newly recorded judgment affecting the seller's interest. What is the appropriate response?",
+    "options": [
+      {
+        "text": "Assume the eventual owner's policy must cover the known new lien without disclosure.",
+        "explanation": "Coverage and underwriting requirements cannot be presumed, particularly for newly known matters affecting title."
+      },
+      {
+        "text": "Rely exclusively on the old report because it permanently fixes which liens can affect the property.",
+        "explanation": "A report does not prevent later liens or make intervening events irrelevant."
+      },
+      {
+        "text": "Notify the appropriate transaction professionals and obtain current title review and requirements.",
+        "explanation": "A preliminary report has a relevant date; new events can affect the transaction before the insured closing."
+      },
+      {
+        "text": "Remove the new lien from the closing statement because it was absent when the price was negotiated.",
+        "explanation": "Negotiating a price before a lien appears does not erase the lien or establish how it must be handled."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-027",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "A property sells for $900,000 with $45,000 of qualifying selling expenses. Adjusted basis is $520,000, and the seller pays off a $350,000 loan. Ignoring exclusions, deferral, and withholding, what is realized gain?",
+    "options": [
+      {
+        "text": "$505,000.",
+        "explanation": "This is the simplified cash after selling expenses and debt payoff, not gain after subtracting basis."
+      },
+      {
+        "text": "$335,000.",
+        "explanation": "Amount realized is $855,000; subtract the $520,000 adjusted basis. The loan payoff affects closing cash, not this gain calculation."
+      },
+      {
+        "text": "$380,000.",
+        "explanation": "This subtracts basis from gross price but omits qualifying selling expenses."
+      },
+      {
+        "text": "A $15,000 loss.",
+        "explanation": "This wrongly subtracts the loan payoff in addition to adjusted basis when calculating gain."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-028",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "For a stated 30-day month, the seller collected $3,000 rent and prepaid a $600 charge. The contract assigns 10 days to the seller and 20 to the buyer. What is the net proration?",
+    "options": [
+      {
+        "text": "Credit the buyer and debit the seller $2,400.",
+        "explanation": "This adds the buyer's expense share as another credit instead of subtracting it from the rent credit."
+      },
+      {
+        "text": "Credit the buyer and debit the seller $1,600.",
+        "explanation": "The buyer receives $2,000 of collected rent but owes $400 for the prepaid charge, leaving a $1,600 net credit."
+      },
+      {
+        "text": "Credit the seller and debit the buyer $1,600.",
+        "explanation": "This reverses the net result: the seller holds more buyer-period income than the buyer owes for prepaid expenses."
+      },
+      {
+        "text": "Credit the buyer and debit the seller $800.",
+        "explanation": "This uses the seller's one-third share rather than the buyer's two-thirds share of the net income and expense."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-029",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "Spouses file jointly. Only one satisfies the ownership test for their main home; both satisfy the use test, neither is disqualified by a recent prior exclusion, and all other conditions for the full exclusion are met. Which statement is correct?",
+    "options": [
+      {
+        "text": "They may qualify for the full $500,000 exclusion because either spouse may satisfy the ownership test.",
+        "explanation": "For the stated joint-return framework, ownership and use have different spouse-specific requirements; both need not have identical ownership histories."
+      },
+      {
+        "text": "They must buy another home of equal or greater value to obtain the $500,000 exclusion.",
+        "explanation": "The current main-home exclusion does not impose that replacement-purchase condition."
+      },
+      {
+        "text": "They exclude $500,000 of the sale price rather than $500,000 of qualifying gain.",
+        "explanation": "The exclusion applies to qualifying gain, not directly to gross selling price."
+      },
+      {
+        "text": "They are limited to $250,000 solely because only one spouse satisfies the ownership test.",
+        "explanation": "The ownership test for the full joint exclusion can generally be met by either spouse when the other conditions are met."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-030",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "A foreign seller transfers U.S. real property for $800,000. The individual buyer satisfies the FIRPTA residence-use category for the 10% rate, and no other exception or certificate applies. What is federal withholding?",
+    "options": [
+      {
+        "text": "$26,664.",
+        "explanation": "This uses a California-style percentage rather than the applicable federal FIRPTA rate."
+      },
+      {
+        "text": "$120,000.",
+        "explanation": "This applies the general 15% rate instead of the specifically stated 10% residence category."
+      },
+      {
+        "text": "$0.",
+        "explanation": "The residence exception eliminating federal withholding is not available solely because an $800,000 purchase will be a residence."
+      },
+      {
+        "text": "$80,000.",
+        "explanation": "The stated residence-use category applies 10% to the $800,000 amount realized in this simplified transaction."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-031",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "An ordinary probate private sale requiring confirmation has a $600,000 appraisal and an accepted $550,000 bid. Apply the first-overbid formula of 10% on the first $10,000 plus 5% on the remainder. What is the minimum calculated overbid?",
+    "options": [
+      {
+        "text": "$630,500.",
+        "explanation": "This applies the overbid formula to the appraisal rather than to the accepted $550,000 bid."
+      },
+      {
+        "text": "$577,500.",
+        "explanation": "This applies 5% to the entire accepted bid and omits the higher percentage on the first $10,000."
+      },
+      {
+        "text": "$578,000.",
+        "explanation": "Add $1,000 plus 5% of $540,000, or $27,000, to the accepted $550,000 bid."
+      },
+      {
+        "text": "$540,000.",
+        "explanation": "This is 90% of the appraisal, an appraisal-based threshold rather than an overbid of the accepted offer."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-032",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "A will leaves a house to a niece and names a nephew as executor. The nephew has not yet been appointed or received the needed authority. Who can sign a binding estate sale solely because of those facts?",
+    "options": [
+      {
+        "text": "Neither person has established sale authority solely from the stated beneficiary or nomination status.",
+        "explanation": "Being named beneficiary or nominated executor does not itself demonstrate the currently required authority to convey estate property."
+      },
+      {
+        "text": "The nephew, because nomination in the will is identical to court appointment and sufficient sale authority.",
+        "explanation": "Nomination identifies the decedent's choice; appointment and the scope of authority still must be established."
+      },
+      {
+        "text": "The niece, because a specific devise immediately gives the beneficiary unrestricted authority to sell estate assets.",
+        "explanation": "A beneficiary's expected entitlement does not bypass estate administration and authority requirements."
+      },
+      {
+        "text": "Either person, provided the sale price is at least the probate appraisal.",
+        "explanation": "An adequate price does not supply missing authority to act for the estate."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-033",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "A grantor previously conveyed a remainder to Casey while retaining a life estate measured by the grantor's life. The grantor dies, leaving a will purporting to give the property to Morgan. Which interest controls ordinary possession after death?",
+    "options": [
+      {
+        "text": "The executor sells Casey's remainder before either person can possess the property.",
+        "explanation": "The remainder was already conveyed and does not automatically become an estate asset for sale."
+      },
+      {
+        "text": "Casey and Morgan become equal tenants in common because the deed and will each name a beneficiary.",
+        "explanation": "The instruments do not automatically create equal shares; the grantor's remaining interest and its termination control."
+      },
+      {
+        "text": "Casey's remainder becomes possessory when the reserved life estate ends.",
+        "explanation": "The grantor's life estate expires rather than continuing as a fee interest that the will can redirect to Morgan."
+      },
+      {
+        "text": "Morgan receives the fee because a later will always overrides an earlier delivered deed.",
+        "explanation": "A will ordinarily disposes of the decedent's transferable interest, not an interest already conveyed away."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-034",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "An estate representative has full authority under the Independent Administration of Estates Act and proposes an otherwise authorized real property sale. Which statement best avoids overgeneralizing that authority?",
+    "options": [
+      {
+        "text": "Every estate sale must use court confirmation and statutory overbidding despite full authority.",
+        "explanation": "Some properly conducted independently administered sales do not require the ordinary confirmation process."
+      },
+      {
+        "text": "A confirmation hearing may not be required, but applicable notice, objection, and fiduciary requirements still matter.",
+        "explanation": "Independent administration changes the procedure without eliminating all oversight, conditions, or the representative's obligations."
+      },
+      {
+        "text": "Full authority means notice can always be omitted because the will names a sole beneficiary.",
+        "explanation": "The scope of authority does not categorically eliminate applicable notice requirements."
+      },
+      {
+        "text": "Full authority makes the estate representative the beneficial owner of all sale proceeds.",
+        "explanation": "Authority to administer and sell does not convert estate assets into the representative's personal property."
+      }
+    ],
+    "answer": 1
   }
 ]

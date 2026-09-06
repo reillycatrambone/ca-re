@@ -1,0 +1,335 @@
+.learning-figure {
+  margin: 32px 0;
+  padding: 22px 0;
+  border-block: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 1.65;
+  scroll-margin-top: 100px;
+  break-inside: avoid;
+}
+.learning-figure-heading {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 650;
+}
+.learning-figure figcaption {
+  margin-top: 22px;
+  color: var(--muted-foreground);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.learning-figure figcaption a {
+  white-space: nowrap;
+}
+.learning-figure .figure-process {
+  display: grid;
+  grid-template-columns: repeat(var(--steps), minmax(0, 1fr));
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.learning-figure .figure-process li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.figure-process li:not(:last-child)::before {
+  position: absolute;
+  content: "";
+  top: 14px;
+  left: 35px;
+  width: calc(100% - 35px);
+  border-top: 1px solid var(--border);
+}
+.figure-step-number {
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  margin-bottom: 12px;
+  border: 1px solid var(--foreground);
+  border-radius: 50%;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.figure-process strong,
+.figure-process li > span:last-child {
+  display: block;
+}
+.figure-process strong {
+  margin-bottom: 7px;
+}
+.figure-process li > span:last-child {
+  color: var(--muted-foreground);
+}
+.figure-comparison,
+.figure-branches,
+.figure-allocation-legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
+  gap: 22px;
+}
+.figure-comparison > div {
+  border-top: 2px solid var(--foreground);
+  padding-top: 12px;
+}
+.figure-comparison dt,
+.figure-branches dt,
+.figure-allocation dt {
+  font-weight: 650;
+}
+.learning-figure .figure-comparison ul {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+.learning-figure .figure-comparison li {
+  margin: 0 0 12px;
+  padding: 0;
+  color: var(--muted-foreground);
+}
+.learning-figure .figure-question {
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 18px;
+}
+.figure-branches {
+  gap: 0;
+  border-top: 1px solid var(--foreground);
+}
+.figure-branches > div {
+  position: relative;
+  padding: 26px 18px 0 0;
+}
+.figure-branches > div::before {
+  content: "";
+  height: 17px;
+  border-left: 1px solid var(--foreground);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.figure-branches dd {
+  margin-top: 8px;
+}
+.figure-branches dd > span {
+  display: block;
+  color: var(--muted-foreground);
+}
+.figure-branches dd > strong {
+  display: block;
+  margin-top: 12px;
+  font-weight: 500;
+}
+.figure-calculation dl > div,
+.figure-result {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: baseline;
+}
+.figure-calculation dl > div {
+  padding: 11px 0;
+  border-bottom: 1px solid var(--border);
+}
+.figure-calculation dd,
+.figure-result > span {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.figure-result {
+  padding-top: 14px;
+  border-top: 2px solid var(--foreground);
+  margin-top: 4px;
+}
+.figure-result > span {
+  font-size: 24px;
+  font-weight: 600;
+}
+.learning-figure .figure-result-detail {
+  font-size: 12px;
+  color: var(--muted-foreground);
+  margin: 8px 0 0;
+}
+.figure-allocation-bar {
+  display: flex;
+  height: 44px;
+  border: 1px solid var(--foreground);
+}
+.figure-allocation-bar > span:first-child,
+.allocation-swatch-0 {
+  background: var(--foreground);
+}
+.figure-allocation-bar > span:nth-child(2),
+.allocation-swatch-1 {
+  background: repeating-linear-gradient(135deg, transparent 0 4px, var(--foreground) 4px 5px);
+}
+.figure-allocation-bar > span:nth-child(3),
+.allocation-swatch-2 {
+  background: var(--background);
+}
+.figure-allocation-bar > span + span {
+  border-left: 1px solid var(--foreground);
+}
+.figure-allocation-legend {
+  margin-top: 17px;
+  gap: 16px;
+}
+.figure-allocation dt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.figure-allocation dd {
+  color: var(--muted-foreground);
+  margin-top: 5px;
+}
+.allocation-swatch {
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--foreground);
+  flex: 0 0 10px;
+}
+.cap-rate-figure {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px 40px;
+}
+.cap-rate-input label {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+.cap-rate-input input {
+  width: 100%;
+  height: 32px;
+  accent-color: var(--foreground);
+  cursor: pointer;
+}
+.cap-rate-input input:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 4px;
+}
+.cap-rate-range {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted-foreground);
+  font-size: 11px;
+}
+.cap-rate-output {
+  display: grid;
+  align-content: start;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.cap-rate-output > span,
+.cap-rate-output small {
+  color: var(--muted-foreground);
+  font-size: 12px;
+}
+.cap-rate-output strong {
+  font-size: 28px;
+  line-height: 1.5;
+}
+.cap-rate-comparison {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 12px;
+}
+.cap-rate-comparison > div {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  align-items: center;
+  gap: 15px;
+}
+.cap-rate-comparison dd {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 90px;
+  align-items: center;
+  gap: 18px;
+}
+.cap-rate-comparison dd > span:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.cap-rate-bar {
+  display: block;
+  height: 18px;
+  background: var(--foreground);
+}
+@media (max-width: 600px) {
+  .learning-figure .figure-process {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .learning-figure .figure-process li {
+    padding-left: 44px;
+  }
+  .figure-step-number {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .figure-process li:not(:last-child)::before {
+    left: 14px;
+    top: 36px;
+    height: calc(100% - 22px);
+    width: 0;
+    border-top: 0;
+    border-left: 1px solid var(--border);
+  }
+  .figure-comparison,
+  .figure-branches {
+    grid-template-columns: 1fr;
+  }
+  .figure-branches {
+    border-top: 0;
+    gap: 20px;
+  }
+  .figure-branches > div {
+    border-left: 1px solid var(--foreground);
+    padding: 0 0 0 18px;
+  }
+  .figure-branches > div::before {
+    border-left: 0;
+    border-top: 1px solid var(--foreground);
+    width: 10px;
+    height: 0;
+    top: 11px;
+  }
+  .figure-calculation dl > div,
+  .figure-result {
+    gap: 12px;
+  }
+  .figure-result > span {
+    font-size: 20px;
+  }
+  .cap-rate-figure {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .cap-rate-output {
+    text-align: left;
+  }
+}
+@media print {
+  .learning-figure {
+    font-size: 10pt;
+  }
+  .cap-rate-input {
+    display: none;
+  }
+  .cap-rate-figure {
+    display: block;
+  }
+  .cap-rate-output {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .cap-rate-bar,
+  .figure-allocation-bar {
+    print-color-adjust: exact;
+  }
+}

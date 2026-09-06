@@ -2,10 +2,13 @@ import { getLessons, getQuestions } from '../lib/content'
 import { validateContent } from '../lib/content-validation'
 import { domains } from '../lib/curriculum'
 import coverage from '../contents/coverage.json'
+import { learningFigures } from '../lib/learning-figures'
+import { validateLearningFigures } from '../lib/learning-figures/validation'
 
 const lessons = getLessons()
 const questions = getQuestions()
 const errors = validateContent(lessons, questions)
+errors.push(...validateLearningFigures(lessons, learningFigures))
 for (const domain of domains) {
   const group = coverage.find((entry) => entry.domain === domain.id)
   if (!group?.items.length) errors.push(`Missing coverage map: ${domain.id}`)
@@ -30,5 +33,5 @@ console.table(
   }))
 )
 console.log(
-  `${lessons.length} chapters, ${lessons.reduce((sum, lesson) => sum + lesson.body.split(/\s+/).length, 0).toLocaleString()} chapter words, ${questions.length} original questions. Content validation passed.`
+  `${lessons.length} chapters, ${lessons.reduce((sum, lesson) => sum + lesson.body.split(/\s+/).length, 0).toLocaleString()} chapter words, ${questions.length} original questions, ${learningFigures.length} in-text figures. Content validation passed.`
 )

@@ -24,13 +24,14 @@ The production server uses port 3000, so stop the development server first. The 
 
 ## Content and study tools
 
-- 33 substantial chapters across all seven DRE examination domains.
-- Original questions with explanations for every answer choice.
+- 33 expanded chapters across all seven DRE examination domains, approximately 66,000 chapter-body words.
+- 360 original questions with explanations for every answer choice.
 - Chapter quizzes and topic practice.
 - A 150-question, three-hour mock exam with approximate DRE domain weighting, flags, navigation, saved answers, expiry enforcement, and domain-level results.
 - Flashcards generated from the textbook glossary, with known/to-review states.
 - Browser-local bookmarks, completed chapters, study history, and current sessions.
-- Section-level full-text search, original diagrams, a generated architectural illustration, and print styles.
+- 33 original in-text teaching figures, in addition to the nine existing chapter visuals, including an interactive capitalization-rate example.
+- Section-level full-text search that also indexes figure labels and captions, plus responsive and print layouts.
 - All 65 published DRE subtopics mapped in `contents/coverage.json`.
 
 This is independent exam preparation, not a DRE-approved licensing course. The text and questions were authored with AI assistance and checked against cited primary sources. They are not actual DRE exam questions. The initial source review is dated September 6, 2026; later legal changes require editorial updates.
@@ -48,7 +49,7 @@ pnpm test:browser
 
 Browser tests use an existing server at port 3000, or start the production server after a build. Set `PLAYWRIGHT_BASE_URL` to test another local URL. They use isolated browser contexts and do not change a reader's saved study data.
 
-The content validator checks metadata, source links' structure, chapter coverage, question uniqueness and references, and sufficient question pools. It does not prove factual accuracy; source review remains an editorial task. Unit tests cover exam allocation, grading, mathematical calculations, search, and heading IDs. Browser tests cover responsive layouts, rendered images, persistence, accessibility interactions, deadlines, and reset controls.
+The content validator checks metadata, source links' structure, chapter coverage and minimum depth, question uniqueness and references, and sufficient question pools. It also checks every figure's chapter and section anchor, unique ID, and numeric reconciliation. It does not prove factual accuracy; source review remains an editorial task. Unit tests cover exam allocation, grading, mathematical calculations, search, heading IDs, and MDX figure placement. Browser tests cover all 33 figure routes, responsive layouts, rendered assets, keyboard-driven examples, print and dark-mode behavior, persistence, deadlines, and reset controls.
 
 ## Structure
 
@@ -56,6 +57,7 @@ The content validator checks metadata, source links' structure, chapter coverage
 - `contents/questions/<domain>.json`: original question banks.
 - `contents/coverage.json`: published DRE topic-to-chapter mapping.
 - `lib/curriculum.ts`: shared lesson, domain, and question contracts.
+- `lib/learning-figures/`: typed, domain-organized teaching figures and validation.
 - `components/book/`: reading layout, search, and custom diagrams.
 - `components/study/`: quizzes, exams, flashcards, and progress.
 - `scripts/`: content validation and automatic search-index generation.

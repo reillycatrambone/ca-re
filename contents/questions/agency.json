@@ -948,5 +948,405 @@
       }
     ],
     "answer": 0
+  },
+  {
+    "id": "agency-039",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A property manager may arrange routine repairs up to $800, and a contractor has received that written limit. The manager alone orders a $7,000 elective remodel. Which fact most directly defeats the contractor's reliance on ostensible authority?",
+    "options": [
+      {
+        "text": "The proposed price exceeds the amount that routine repairs ordinarily cost.",
+        "explanation": "The stated, known authority limit is decisive here; an industry comparison of typical repair prices is not a substitute for that evidence."
+      },
+      {
+        "text": "The contractor knew the owner's relevant limit on the manager's authority.",
+        "explanation": "Known limits undermine a claim of reasonable reliance on an appearance of greater authority; the manager's contrary assertion does not erase that knowledge."
+      },
+      {
+        "text": "The work improves the owner's property rather than a tenant's property.",
+        "explanation": "The work's location or benefit does not establish that the principal authorized it or created a reasonable appearance of authority."
+      },
+      {
+        "text": "The manager is a general agent rather than a special agent.",
+        "explanation": "General agency describes continuing scope but does not itself defeat or establish authority for this particular expenditure."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-040",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "An owner lets a manager repeatedly arrange repairs and tells a new vendor to coordinate with the manager. The owner privately imposes a new spending cap without informing that vendor. The manager exceeds the cap. What should be examined first in assessing ostensible authority?",
+    "options": [
+      {
+        "text": "Whether the owner will ultimately make a profit from the completed repairs.",
+        "explanation": "A favorable result is not the test for authority; later ratification would require a separate analysis."
+      },
+      {
+        "text": "Whether the owner's conduct reasonably caused the vendor to believe this work was authorized.",
+        "explanation": "Ostensible authority turns on the principal's manifestations and qualifying reliance, so the communicated arrangement and undisclosed change matter."
+      },
+      {
+        "text": "Whether the manager's compensation agreement classified the manager as an independent contractor.",
+        "explanation": "A tax or compensation classification does not alone determine actual or ostensible authority toward a vendor."
+      },
+      {
+        "text": "Whether the manager personally believed the new cap was commercially reasonable.",
+        "explanation": "The agent's opinion of the restriction does not establish the third party's reasonable reliance on the principal."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-041",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A buyer's agent receives a timely notice concerning the client's purchase and leaves it unread until the response deadline passes. The buyer says personal ignorance should always prevent any consequences. Which analysis is best?",
+    "options": [
+      {
+        "text": "The agent's notice and duty to communicate can matter even though the buyer did not personally read it.",
+        "explanation": "Civil Code section 2332 addresses notice attributed between principal and agent when it ought to be communicated; personal ignorance is not an automatic defense."
+      },
+      {
+        "text": "Any communication received by any affiliated salesperson is conclusively notice for every client of the firm.",
+        "explanation": "Attribution requires attention to the agency and relevant notice; this answer extends it indiscriminately to unrelated matters and clients."
+      },
+      {
+        "text": "The buyer's personal ignorance automatically extends every contractual response deadline.",
+        "explanation": "The deadline depends on the contract and applicable law; an agent's communication failure does not automatically rewrite it."
+      },
+      {
+        "text": "Notice to the agent matters only if the agent has authority to sign the deed.",
+        "explanation": "Authority to receive and communicate transaction information is not limited to authority to execute a conveyance."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-042",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A seller authorizes an agent to deliver the seller's signed acceptance of an offer. Before delivery, the buyer requests a different possession date. The agent agrees for the seller without further authorization. Which distinction controls?",
+    "options": [
+      {
+        "text": "Authority to communicate the seller's decision does not necessarily include authority to change its terms.",
+        "explanation": "Transmitting an authorized decision and making a new contractual decision are different acts; the agent must verify authority for the change."
+      },
+      {
+        "text": "A listing agent's power to deliver documents automatically includes power to sign all amendments.",
+        "explanation": "Document delivery does not confer unlimited contractual signing authority."
+      },
+      {
+        "text": "The requested change is ineffective solely because a buyer, rather than a seller, proposed it.",
+        "explanation": "Either party may propose an amendment; assent and proper authority, not which side proposed it, determine its effect."
+      },
+      {
+        "text": "The agent may amend possession because price and property remain unchanged.",
+        "explanation": "Possession is a material contractual term even when the purchase price and property description stay the same."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-043",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A seller prioritizes closing before a relocation. One offer is $710,000 with a lengthy home-sale contingency; another is $700,000 with a shorter, less conditional close. What should the agent do?",
+    "options": [
+      {
+        "text": "Recommend the higher offer as necessarily superior because fiduciary duty requires the maximum stated price.",
+        "explanation": "Fiduciary duty concerns the client's interests, which include timing and risk as well as price."
+      },
+      {
+        "text": "Treat both offers as economically identical because contingencies have no value until they are exercised.",
+        "explanation": "Contingencies affect risk and the probability and timing of performance before any cancellation occurs."
+      },
+      {
+        "text": "Select the lower offer without consulting the seller because its closing terms fit the relocation.",
+        "explanation": "The agent should advise and communicate, not replace the principal's decision without authority."
+      },
+      {
+        "text": "Explain the price, conditions, timing, and risks so the seller can choose according to the seller's priorities.",
+        "explanation": "Loyal advice compares the whole bargain against the client's objectives; the higher nominal price need not be the client's best choice."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-044",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "An agent cannot access an attic during the statutory visual inspection but already possesses a reliable report identifying a material roof defect. Which response best fits the agent's duties?",
+    "options": [
+      {
+        "text": "Describe the attic as satisfactory because no defect was visible from accessible areas.",
+        "explanation": "Lack of access is not evidence that a condition is satisfactory, particularly when contrary information is known."
+      },
+      {
+        "text": "Omit the report because the statutory inspection did not independently confirm it.",
+        "explanation": "The inspection limitation does not erase knowledge obtained through a credible report."
+      },
+      {
+        "text": "Disclose the known material information and recommend appropriate follow-up despite the inspection-access limitation.",
+        "explanation": "A limit on the physical inspection's scope does not authorize withholding material information already known from another source."
+      },
+      {
+        "text": "Disclose only that the attic was inaccessible, leaving the buyer to discover the report through an inspection contingency.",
+        "explanation": "An access notation does not substitute for disclosure of known material facts, and a contingency does not transfer that duty away."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-045",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A listing advertises 2,100 square feet. Before closing, the agent receives credible records indicating approximately 1,850 square feet. What is the most appropriate next step?",
+    "options": [
+      {
+        "text": "Wait until the buyer specifically asks about square footage because the buyer already visited the property.",
+        "explanation": "A visit does not reliably reveal the measurement discrepancy or excuse withholding known material information."
+      },
+      {
+        "text": "Retain the advertised number because the seller originally supplied it in writing.",
+        "explanation": "Identifying the original source does not justify repeating a representation after credible contrary information emerges."
+      },
+      {
+        "text": "Replace the figure with the average of the two measurements without explanation.",
+        "explanation": "A mathematical compromise is not a verified measurement and conceals the material discrepancy."
+      },
+      {
+        "text": "Promptly communicate the discrepancy, correct unsupported representations, and help arrange reliable verification.",
+        "explanation": "New contradictory evidence requires a reasoned response rather than continued reliance on an earlier unsupported figure."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-046",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A broker conceals a material personal interest in the buyer of a listing. The seller nevertheless receives a profitable price. How does that favorable result affect the fiduciary analysis?",
+    "options": [
+      {
+        "text": "It proves the seller knowingly consented to the interest by accepting the proceeds.",
+        "explanation": "Accepting proceeds without knowing the material conflict is not the same as informed consent to that conflict."
+      },
+      {
+        "text": "It converts the brokerage relationship into an arm's-length sale and ends fiduciary duties.",
+        "explanation": "A favorable price does not change the agency relationship or automatically remove its duties."
+      },
+      {
+        "text": "It does not itself cure the undisclosed conflict; conduct and resulting harm require separate analysis.",
+        "explanation": "A profitable transaction does not retroactively make undisclosed self-interest informed or loyal, although damages and remedies depend on their own requirements."
+      },
+      {
+        "text": "It establishes that the broker fulfilled loyalty because the seller earned a profit.",
+        "explanation": "The client's profit alone does not establish proper disclosure or faithful handling of a conflict."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-047",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "Both clients of a disclosed dual agent have received the same report estimating $12,000 of roof work. The seller's private minimum price remains confidential. Which act is most consistent with these facts?",
+    "options": [
+      {
+        "text": "Reveal the seller's minimum because discussing repairs has already made price information public.",
+        "explanation": "A shared repair report does not authorize disclosure of private negotiating limits."
+      },
+      {
+        "text": "Transmit a buyer-proposed roof credit based on the shared report without revealing the seller's private minimum.",
+        "explanation": "Communicating a proposal based on shared material information is distinct from using a client's undisclosed bargaining limit."
+      },
+      {
+        "text": "Refuse to transmit any repair proposal because a dual agent cannot communicate matters affecting price.",
+        "explanation": "Dual agency limits conflicting advocacy and confidential disclosures; it does not prohibit transmitting the parties' proposals."
+      },
+      {
+        "text": "Set a compromise price midway between both clients' undisclosed limits and state that both will accept it.",
+        "explanation": "The agent cannot use private limits as an authorized shared settlement range or commit either client without authority."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-048",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "An agent tells a seller that the agent is licensed but omits a promised share of the purchaser's resale profit. What remains missing?",
+    "options": [
+      {
+        "text": "Only disclosure to the purchaser, because the promised profit comes from that purchaser.",
+        "explanation": "The seller-client needs material conflict information regardless of which party promises the agent a benefit."
+      },
+      {
+        "text": "Only disclosure of the exact resale closing date, because license status already reveals all financial conflicts.",
+        "explanation": "The undisclosed economic arrangement is material even if the eventual resale date is unknown."
+      },
+      {
+        "text": "Nothing further if an appraisal supports the seller's price.",
+        "explanation": "An appraisal can address value but does not disclose the agent's financial participation or substitute for informed conflict treatment."
+      },
+      {
+        "text": "Disclosure of the material economic interest and resulting conflict, not merely professional status.",
+        "explanation": "License disclosure identifies status; it does not explain a separate profit participation affecting the agent's incentives."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-049",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A broker begins as the seller's sole agent. Later, the buyer asks that brokerage to advise and negotiate for the buyer, and the broker proposes to agree. Which step is required before treating the new role as established?",
+    "options": [
+      {
+        "text": "Keep the seller-only confirmation unchanged if a different salesperson handles the buyer.",
+        "explanation": "Different affiliated salespersons do not remove dual agency at the brokerage level."
+      },
+      {
+        "text": "Treat the seller's original disclosure acknowledgment as advance approval of every later agency arrangement.",
+        "explanation": "Acknowledgment of an explanatory disclosure is not blanket consent to every later relationship or conflict."
+      },
+      {
+        "text": "Address the changed representation, required agreements, and informed dual-agency consent of both principals.",
+        "explanation": "The proposed buyer engagement changes the actual relationship; an earlier general disclosure does not by itself resolve the new dual role."
+      },
+      {
+        "text": "Classify the broker as the buyer's sole agent because the buyer requested advice most recently.",
+        "explanation": "Taking on a second client does not silently terminate the existing seller agency."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-050",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A seller pays a negotiated contribution toward an independently represented buyer's brokerage fee. Separately, the buyer's broker has an ownership interest in a recommended settlement provider. Which analysis is best?",
+    "options": [
+      {
+        "text": "Determine agency from representation, then separately evaluate and disclose the provider affiliation under applicable law.",
+        "explanation": "Payment source does not by itself define agency, and an affiliation presents a distinct conflict and regulatory question."
+      },
+      {
+        "text": "Approve both arrangements solely because the broker discloses the amounts in writing.",
+        "explanation": "Disclosure may be required but does not establish legality or compliance with all governing conditions."
+      },
+      {
+        "text": "Treat both arrangements as identical referral fees subject to exactly the same conditions.",
+        "explanation": "A negotiated compensation contribution and an ownership-related benefit are different arrangements requiring classification before applying their rules."
+      },
+      {
+        "text": "Treat the seller contribution as proof the buyer's broker represents the seller, making affiliation disclosure unnecessary.",
+        "explanation": "Neither inference follows: compensation source alone does not establish seller agency or eliminate a separate conflict."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-051",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A brokerage collects an $18,000 fee. A referral broker receives 25% first; the salesperson receives 60% of the remainder. What is the salesperson's gross share?",
+    "options": [
+      {
+        "text": "$13,500.",
+        "explanation": "This is the amount remaining after the referral, before the salesperson and brokerage split it."
+      },
+      {
+        "text": "$10,800.",
+        "explanation": "This applies 60% before the stated referral deduction and therefore uses the wrong base."
+      },
+      {
+        "text": "$8,100.",
+        "explanation": "The referral is $4,500, leaving $13,500; 60% of $13,500 is $8,100."
+      },
+      {
+        "text": "$6,300.",
+        "explanation": "This subtracts both percentages from the original fee rather than applying the salesperson split to the remainder."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-052",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "The seller and broker terminate a listing after the seller has entered an enforceable purchase agreement. No buyer cancellation or release occurs. Which conclusion follows?",
+    "options": [
+      {
+        "text": "The listing must remain in force until closing even if seller and broker both agree to terminate it.",
+        "explanation": "The existence of a purchase contract does not necessarily prevent termination of the separate agency, although surviving duties remain."
+      },
+      {
+        "text": "The buyer must sign a new purchase agreement with any replacement listing brokerage.",
+        "explanation": "The buyer's purchase agreement is with the seller, not ordinarily with the listing brokerage as seller."
+      },
+      {
+        "text": "The purchase agreement terminates because the listing was the source of the buyer introduction.",
+        "explanation": "The source of the introduction does not make the purchase contract dependent on continuing listing authority."
+      },
+      {
+        "text": "The listing termination does not itself release the seller from the purchase agreement.",
+        "explanation": "The employment agreement and purchase contract have different parties and obligations; terminating one does not automatically terminate the other."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-053",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "An agreement earns a fee upon producing a ready, willing, and able buyer on the seller's specified $600,000 cash terms. A financially capable buyer offers $600,000 only if the seller carries most of the financing. Which fact is most important?",
+    "options": [
+      {
+        "text": "The offer changes the financing terms, so matching the price alone does not establish the stated earning condition.",
+        "explanation": "Read all authorized terms; a seller-financing condition differs materially from the specified cash purchase."
+      },
+      {
+        "text": "The buyer's financial capacity makes every other term irrelevant to earning the fee.",
+        "explanation": "Ability is one part of the condition and does not eliminate the requirement to match the seller's stated terms."
+      },
+      {
+        "text": "A signed offer always earns compensation before any other contractual condition can matter.",
+        "explanation": "Signing does not automatically satisfy all the employment agreement's earning conditions."
+      },
+      {
+        "text": "The seller must accept because the offer equals the advertised price.",
+        "explanation": "An asking price is not an obligation to accept any offer at that figure, particularly one changing other material terms."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-054",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A buyer's contractual brokerage fee is $12,000. A seller pays $8,000 credited toward it, and the buyer pays the $4,000 balance. The buyer's broker owes a referral broker 20% of the total fee collected. What is the referral amount?",
+    "options": [
+      {
+        "text": "$1,600.",
+        "explanation": "This incorrectly applies the percentage only to the seller's $8,000 contribution."
+      },
+      {
+        "text": "$2,400.",
+        "explanation": "The stipulated base is the full $12,000 collected, so the referral is 20% of $12,000."
+      },
+      {
+        "text": "$4,000.",
+        "explanation": "This is the buyer's unpaid balance before payment, not 20% of the total collected fee."
+      },
+      {
+        "text": "$800.",
+        "explanation": "This incorrectly applies the percentage only to the buyer's remaining $4,000 payment."
+      }
+    ],
+    "answer": 1
   }
 ]

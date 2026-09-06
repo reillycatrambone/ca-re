@@ -673,5 +673,405 @@
       }
     ],
     "answer": 0
+  },
+  {
+    "id": "contracts-028",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A buyer offers $620,000. The seller counters at $635,000, and the buyer rejects that counteroffer. The seller then announces acceptance of the original $620,000 offer, which was never renewed. What is the best analysis?",
+    "options": [
+      {
+        "text": "A contract arose at $620,000 because the buyer initially demonstrated willingness to pay that amount.",
+        "explanation": "The buyer's original willingness does not make a displaced offer continuously available despite intervening rejection."
+      },
+      {
+        "text": "The counteroffer displaced the original offer; the seller's later statement does not automatically revive it.",
+        "explanation": "After rejection by counteroffer, the original proposal ordinarily requires renewal or new assent rather than unilateral revival."
+      },
+      {
+        "text": "The original offer automatically revives whenever the counteroffer is rejected.",
+        "explanation": "Rejection of a counteroffer does not ordinarily restore a previously rejected original offer."
+      },
+      {
+        "text": "A contract arose at $635,000 when the seller signed the counteroffer.",
+        "explanation": "A counteroffer requires acceptance; the stated facts say the buyer rejected it."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-029",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A seller receives a buyer's offer and asks, 'Would you consider a shorter closing?' The seller does not reject the offer or condition acceptance on the change. What distinction matters most?",
+    "options": [
+      {
+        "text": "Every question about a term rejects the offer even without an expressed condition.",
+        "explanation": "An inquiry and a counteroffer must be distinguished rather than treating all negotiation language identically."
+      },
+      {
+        "text": "The requested shorter closing automatically becomes part of the buyer's offer unless the buyer objects.",
+        "explanation": "A proposed possibility does not unilaterally amend the other party's terms."
+      },
+      {
+        "text": "An inquiry about possible terms is not necessarily a rejecting counteroffer.",
+        "explanation": "The legal effect depends on what was communicated; asking about flexibility differs from insisting on a substitute bargain."
+      },
+      {
+        "text": "The question constitutes unconditional acceptance because no price change was requested.",
+        "explanation": "The seller has not necessarily accepted anything merely by asking about timing."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-030",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "An individual negotiates to purchase for an LLC. The draft names the individual as buyer, but the signature is intended to be on the LLC's behalf. What should the agent resolve before execution?",
+    "options": [
+      {
+        "text": "The identity of the contracting buyer, the signature capacity, and authority to bind that buyer.",
+        "explanation": "Party identification and representative authority should agree; they affect whose obligations the contract creates."
+      },
+      {
+        "text": "Only whether the individual owns a majority of the LLC.",
+        "explanation": "Ownership percentage alone does not establish that the draft identifies the intended buyer or that the signer has the needed authority."
+      },
+      {
+        "text": "Only whether the LLC's name appears somewhere in the agent's transaction notes.",
+        "explanation": "Private notes do not necessarily resolve a mismatch in the actual agreement and signature capacity."
+      },
+      {
+        "text": "Nothing, because every contract negotiated by an LLC member automatically binds the LLC instead of the member.",
+        "explanation": "Entity membership does not automatically correct party identification or establish authority for every transaction."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-031",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "A signed purchase agreement contains an integration clause. The buyer later alleges a legally significant fraudulent statement that induced the purchase. What is the soundest conclusion from the clause alone?",
+    "options": [
+      {
+        "text": "The clause makes all outside statements enforceable as additional contractual promises.",
+        "explanation": "Integration generally addresses the scope of the agreement; it does not automatically incorporate all prior statements."
+      },
+      {
+        "text": "The clause conclusively establishes that no statement outside the document could have affected consent.",
+        "explanation": "A statement about the integrated writing does not necessarily resolve every question about how consent was obtained."
+      },
+      {
+        "text": "The clause matters to interpretation, but it does not automatically eliminate every fraud claim.",
+        "explanation": "Read the entire agreement and applicable law; an integration clause is not a blanket license for fraudulent inducement."
+      },
+      {
+        "text": "The clause automatically makes the written agreement void rather than voidable.",
+        "explanation": "An integration clause does not itself invalidate the agreement; defects in consent require their own analysis."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-032",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A $750,000 purchase anticipates a loan equal to 80% of the price. The lender instead offers 80% of a $700,000 appraisal. The contract has separate appraisal and financing contingencies. What should the buyer's agent identify?",
+    "options": [
+      {
+        "text": "A $50,000 cash gap and an automatic right to cancel regardless of contingency status.",
+        "explanation": "The price-appraisal difference is $50,000, but the loan shortfall is $40,000; cancellation is not automatic from the arithmetic alone."
+      },
+      {
+        "text": "A $150,000 cash gap because the original down payment is the amount missing.",
+        "explanation": "The original down payment was already expected; the new issue is the additional $40,000 caused by the reduced loan."
+      },
+      {
+        "text": "No cash gap because the lender is still offering the same 80% percentage.",
+        "explanation": "The percentage is applied to a lower base, so the dollar amount available changes."
+      },
+      {
+        "text": "A $40,000 additional cash gap and the distinct requirements of each contingency.",
+        "explanation": "The expected loan is $600,000 and the offered loan is $560,000; cancellation or other rights depend separately on the contract's contingencies."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-033",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "The parties sign an amendment extending closing by seven days. It does not change the earlier deposit deadline or any other term. What is the safest contractual reading?",
+    "options": [
+      {
+        "text": "Every performance deadline automatically shifts seven days because closing controls the entire schedule.",
+        "explanation": "Deadlines may be separately fixed, so an extension of one does not necessarily alter all others."
+      },
+      {
+        "text": "The buyer may postpone the deposit until closing because a later amendment outranks all earlier provisions.",
+        "explanation": "A later amendment controls inconsistent provisions within its scope; silence does not necessarily create an inconsistency."
+      },
+      {
+        "text": "The original agreement is automatically rescinded and replaced by a wholly new contract.",
+        "explanation": "A limited amendment does not necessarily unwind the entire transaction or discharge unchanged terms."
+      },
+      {
+        "text": "The closing date changes; the deposit deadline remains unchanged unless the documents or applicable law establish otherwise.",
+        "explanation": "An amendment should be read for what it actually modifies, not as a blanket extension of every related obligation."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-034",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "Buyer and seller sign escrow instructions splitting a disputed $15,000 deposit. The instructions contain no broader release. The seller says this necessarily waives every unrelated contractual claim. What is the best response?",
+    "options": [
+      {
+        "text": "Escrow decides which remaining claims are waived whenever the instructions omit that issue.",
+        "explanation": "Escrow's limited role does not confer authority to determine the parties' broader disputed contractual rights."
+      },
+      {
+        "text": "Neither party can ever release contract claims until a court enters judgment.",
+        "explanation": "Parties can agree to releases without litigation, but the agreement must actually address the rights being relinquished."
+      },
+      {
+        "text": "Any instruction distributing earnest money conclusively releases all known and unknown claims.",
+        "explanation": "Distribution alone does not establish the scope of a release, particularly for unrelated or unknown matters."
+      },
+      {
+        "text": "The disposition of the deposit and the scope of any release are separate questions.",
+        "explanation": "Instructions can settle custody or allocation of funds without necessarily releasing every substantive claim; examine the actual language and applicable law."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-035",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A qualifying sale of an existing detached home intended for buyer occupancy is priced at $1,000,000. The proposed liquidated damages are the $35,000 actually paid as a deposit. Assuming the statutory requirements otherwise apply, what changes because the amount exceeds 3%?",
+    "options": [
+      {
+        "text": "Exactly $30,000 must be released to the seller immediately, even if default is disputed.",
+        "explanation": "The threshold is not a direction to escrow to decide default or disburse disputed funds."
+      },
+      {
+        "text": "The entire $35,000 is automatically enforceable because the buyer paid it voluntarily.",
+        "explanation": "Payment alone does not resolve the statutory reasonableness analysis or other requirements."
+      },
+      {
+        "text": "The party seeking enforcement must establish that the amount is reasonable under the statutory framework.",
+        "explanation": "The amount exceeds the $30,000 threshold; above that level the relevant statutory burden differs rather than the entire sum automatically becoming valid."
+      },
+      {
+        "text": "The provision is automatically enforceable for $5,000 because only the amount above the threshold counts.",
+        "explanation": "The excess is not the only amount subject to the provision; this subtraction misunderstands the threshold's function."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-036",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "An individual buyer and broker complete the last signature on September 10, 2026, with no delayed effective date. What is the 90th calendar day under the ordinary maximum-term counting rule?",
+    "options": [
+      {
+        "text": "December 8, 2026.",
+        "explanation": "This incorrectly counts the last-signature date as day one instead of beginning on the following day."
+      },
+      {
+        "text": "December 31, 2026.",
+        "explanation": "The agreement does not run automatically through the end of the third later calendar month."
+      },
+      {
+        "text": "December 9, 2026.",
+        "explanation": "Counting begins September 11: 20 September days plus 31 October days plus 30 November days equals 81, followed by nine December days."
+      },
+      {
+        "text": "December 10, 2026.",
+        "explanation": "Three named calendar months is not the regulation's 90-calendar-day calculation in these circumstances."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-037",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "An individual purchases rentals in the individual's own name and requests a six-month buyer representation agreement, claiming to be an investment business. Which statement is best?",
+    "options": [
+      {
+        "text": "Investment use alone does not qualify the individual for the corporation, LLC, or partnership maximum-term exception.",
+        "explanation": "The exception depends on the actual contracting entity, not simply the economic purpose of an individual's purchase."
+      },
+      {
+        "text": "Any income-producing purchase qualifies for the entity exception regardless of the buyer's legal identity.",
+        "explanation": "Investment purpose and entity status are separate facts; one does not substitute for the other."
+      },
+      {
+        "text": "The 24-month residential listing limit controls because the purchase concerns a residential rental.",
+        "explanation": "Seller listing duration rules and buyer representation duration rules govern different agreements."
+      },
+      {
+        "text": "A six-month term is valid whenever the buyer, rather than the broker, proposes it.",
+        "explanation": "The source of the request does not override the applicable statutory duration limit."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-038",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "An individual owner signs a new exclusive listing for a covered California single-family residence with a 36-month initial term. No entity exception applies. Which rule addresses the defect?",
+    "options": [
+      {
+        "text": "The listing is valid because only renewals, not initial terms, have a maximum duration.",
+        "explanation": "The Act regulates both ordinary initial terms and renewals, with different maximums."
+      },
+      {
+        "text": "The Residential Exclusive Listing Agreements Act generally caps that initial term at 24 months.",
+        "explanation": "The covered residential listing exceeds the ordinary initial limit; these listing restrictions are distinct from buyer-agreement rules."
+      },
+      {
+        "text": "The listing becomes enforceable if the broker records a memorandum giving public notice.",
+        "explanation": "The Act prohibits recording the listing or a memorandum or notice; recording is not a cure for an impermissible term."
+      },
+      {
+        "text": "The buyer representation rule caps the seller's listing at 90 days.",
+        "explanation": "The 90-day maximum concerns covered buyer agreements, not this seller's exclusive listing."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-039",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "A broker receives a regulated $2,000 advance fee. Before cancellation, only $600 is properly expended for the specified services, and no other earned or permitted charges apply. What is the unexpended refundable amount?",
+    "options": [
+      {
+        "text": "$2,000, because advance fees can never be applied to services that were actually performed.",
+        "explanation": "Proper expenditures for the specified services matter; the entire advance is not necessarily unexpended."
+      },
+      {
+        "text": "$1,400, supported by the required accounting of the $600 expenditure.",
+        "explanation": "Subtract properly expended funds from the advance; the unused balance remains subject to refund and accounting requirements."
+      },
+      {
+        "text": "$600, because that is the amount of performance completed before cancellation.",
+        "explanation": "This reverses the analysis by refunding the expended portion instead of the remaining balance."
+      },
+      {
+        "text": "$0, if the agreement labels the payment a nonrefundable marketing package.",
+        "explanation": "A label cannot remove the governing trust, refund, and verified-accounting protections."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-040",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A $640,000 purchase uses a $16,000 deposit already paid and a $496,000 loan. Buyer closing costs are $12,000, offset by a permitted $5,000 seller credit. How much additional buyer cash is needed?",
+    "options": [
+      {
+        "text": "$145,000.",
+        "explanation": "This adds the seller credit as an expense instead of subtracting it from the buyer's cash requirement."
+      },
+      {
+        "text": "$135,000.",
+        "explanation": "Compute $640,000 minus $16,000 minus $496,000 plus $12,000 minus $5,000."
+      },
+      {
+        "text": "$151,000.",
+        "explanation": "This fails to credit the $16,000 deposit already supplied by the buyer."
+      },
+      {
+        "text": "$128,000.",
+        "explanation": "This covers the price balance but omits the net $7,000 in buyer closing costs."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-041",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "An option permits purchase for $520,000 through a stated deadline. Before that deadline, the optionee sends a notice saying, 'I exercise only if you reduce the price to $510,000.' The owner does not agree. What is the best characterization?",
+    "options": [
+      {
+        "text": "A conditional proposal that does not match the option's exercise terms.",
+        "explanation": "An option must be exercised according to its terms; conditioning acceptance on a new price is not an unqualified exercise."
+      },
+      {
+        "text": "A valid exercise at $520,000 because the word exercise appears in the notice.",
+        "explanation": "The express condition prevents treating the statement as unconditional assent to the existing bargain."
+      },
+      {
+        "text": "A valid exercise at $510,000 because the notice was timely.",
+        "explanation": "Timeliness does not authorize the optionee to alter the fixed price unilaterally."
+      },
+      {
+        "text": "An automatic extension of the option while the owner considers the requested reduction.",
+        "explanation": "A conditional proposal does not automatically extend the option deadline."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-042",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A tenant has three years remaining on a lease and transfers possession for two years while retaining the final year, subject to applicable lease restrictions. This retained portion of the term most directly supports which classification?",
+    "options": [
+      {
+        "text": "An assignment solely because the new occupant receives exclusive possession during the two years.",
+        "explanation": "Exclusive possession during a shorter period does not eliminate the original tenant's retained reversion in the leasehold."
+      },
+      {
+        "text": "A sale of the landlord's fee interest because the new occupant pays the original tenant.",
+        "explanation": "Payment to a tenant for possession does not convey ownership the tenant does not hold."
+      },
+      {
+        "text": "A novation that automatically releases the original tenant from the landlord's contract.",
+        "explanation": "A substitute occupant does not automatically create the landlord's agreement to discharge the original tenant."
+      },
+      {
+        "text": "A sublease rather than a transfer of the entire remaining leasehold.",
+        "explanation": "The tenant retains part of the existing term, distinguishing the arrangement from an assignment of the entire remainder."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-043",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A written repayment promise expressly makes payment dependent on a development project's profits. Which distinction should the agent recognize?",
+    "options": [
+      {
+        "text": "The condition can affect negotiability without necessarily making every contractual promise unenforceable.",
+        "explanation": "Negotiable-instrument requirements and general contract enforceability are different analyses; a conditional promise needs examination under both as relevant."
+      },
+      {
+        "text": "A note that is not negotiable can never support any contractual obligation.",
+        "explanation": "Failure to qualify as a negotiable instrument does not itself eliminate ordinary contract rights."
+      },
+      {
+        "text": "Every signed repayment promise is negotiable regardless of express conditions.",
+        "explanation": "Negotiability has substantive requirements; a signature alone does not satisfy them."
+      },
+      {
+        "text": "Recording a deed of trust automatically removes the condition from the repayment promise.",
+        "explanation": "Security for an obligation does not rewrite the underlying note's payment terms."
+      }
+    ],
+    "answer": 0
   }
 ]

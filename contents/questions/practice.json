@@ -1398,5 +1398,705 @@
       }
     ],
     "answer": 3
+  },
+  {
+    "id": "practice-057",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "An unlicensed assistant types a buyer's information into a form, then independently chooses the inspection-contingency length based on the buyer's concerns. Which statement best identifies the boundary crossed?",
+    "options": [
+      {
+        "text": "The choice becomes authorized if a licensee reads the document after delivery.",
+        "explanation": "Later review does not retroactively authorize the assistant's independent licensed activity."
+      },
+      {
+        "text": "All work remains clerical because the assistant is using a standard form.",
+        "explanation": "A standard form does not remove the distinction between entering instructions and deciding terms."
+      },
+      {
+        "text": "Choosing the substantive term goes beyond clerical preparation and should be handled by an authorized licensee.",
+        "explanation": "Typing supplied information can be administrative; independently selecting transaction terms involves substantive judgment."
+      },
+      {
+        "text": "Choosing from a form's preprinted contingency periods is clerical even when the assistant selects the period.",
+        "explanation": "Preprinted choices do not eliminate the substantive judgment involved in choosing a term for the buyer."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-058",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "A responsible broker appoints a remote branch manager but ignores repeated warnings about late deposit handling, assuming the appointment transferred all responsibility. What is the best analysis?",
+    "options": [
+      {
+        "text": "A signed office manual proves every transaction complied.",
+        "explanation": "A manual documents policies or training, not actual compliance with later transactions."
+      },
+      {
+        "text": "The broker must respond to the warning signs and maintain reasonable supervision despite delegation.",
+        "explanation": "Repeated money-handling problems call for investigation and effective controls, not reliance on a title."
+      },
+      {
+        "text": "The manager's title completely releases the responsible broker.",
+        "explanation": "Delegating tasks does not automatically eliminate the responsible broker's supervisory accountability."
+      },
+      {
+        "text": "The broker may postpone investigation until the next annual review if no loss has been reported.",
+        "explanation": "Known warning signs require a timely supervisory response; periodic review does not justify ignoring an active problem."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-059",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "A client wants DRE to resolve an ordinary dispute about the amount of a negotiated commission and automatically pay that amount from the Consumer Recovery Account. Which response is most accurate?",
+    "options": [
+      {
+        "text": "DRE can award the disputed contractual commission whenever the respondent holds a real estate license.",
+        "explanation": "DRE's licensing authority is distinct from adjudicating an ordinary contract damages claim."
+      },
+      {
+        "text": "Any negligence damages awarded against a licensee qualify for recovery-account payment.",
+        "explanation": "A damages award alone does not establish the account's specified fraud or conversion basis and other statutory requirements."
+      },
+      {
+        "text": "Filing a civil complaint immediately establishes entitlement to recovery-account payment.",
+        "explanation": "A filed complaint is not the qualifying final determination and satisfaction of collection and eligibility requirements."
+      },
+      {
+        "text": "Licensing discipline, civil dispute resolution, and recovery-account eligibility are separate questions.",
+        "explanation": "An ordinary fee dispute does not automatically establish a licensing violation or an eligible fraud or conversion loss."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-060",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "A salesperson negotiated a counteroffer during a license lapse and later successfully renewed before closing. Which approach correctly addresses the earlier negotiations?",
+    "options": [
+      {
+        "text": "Classify the earlier negotiations as clerical work because title transferred after renewal.",
+        "explanation": "The nature of negotiation does not become clerical because closing occurs later."
+      },
+      {
+        "text": "Preserve accurate records and address the unauthorized activity with the responsible broker.",
+        "explanation": "Truthful documentation and appropriate corrective action are required; fabrication adds another violation."
+      },
+      {
+        "text": "Renewal automatically validates all negotiations during the lapse.",
+        "explanation": "A later renewal does not retroactively authorize earlier licensed acts."
+      },
+      {
+        "text": "Treat the negotiations as authorized once the responsible broker approves the terms.",
+        "explanation": "Broker approval does not substitute for the salesperson's required active authority at the time of the licensed act."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-061",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A trust account holds $12,000: $9,000 for A and $3,000 for B. The broker pays B's $4,000 bill without authority to use A's funds. With no other transactions, what shortage results?",
+    "options": [
+      {
+        "text": "$9,000, because any unauthorized payment removes A's entire balance.",
+        "explanation": "A's entitlement remains $9,000, but $8,000 is still in the account; the shortfall is $1,000."
+      },
+      {
+        "text": "$4,000, the entire bill paid.",
+        "explanation": "The shortage is the excess beyond B's available $3,000, not necessarily the full disbursement."
+      },
+      {
+        "text": "None, because the bank still has a positive balance.",
+        "explanation": "A positive bank balance can be less than the aggregate positive beneficiary liabilities."
+      },
+      {
+        "text": "$1,000, because $8,000 remains against A's $9,000 positive entitlement.",
+        "explanation": "B's negative balance cannot reduce the amount owed to A or authorize using A's funds."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-062",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A broker refunds a buyer's $5,000 deposit before confirming collection. The original deposit check is returned unpaid. What risk did the broker overlook?",
+    "options": [
+      {
+        "text": "A canceled transaction no longer needs trust accounting once the refund check is issued.",
+        "explanation": "Cancellation does not erase the receipt, refund, or responsibility for a resulting shortage."
+      },
+      {
+        "text": "Written authority to refund is the only fact needed before disbursement.",
+        "explanation": "Proper authority is necessary but does not establish sufficient collected funds for that beneficiary."
+      },
+      {
+        "text": "The bank's provisional credit establishes that the deposit has been finally collected.",
+        "explanation": "Temporary availability and final collection are different; a returned check can reverse the credit."
+      },
+      {
+        "text": "The refund can consume other beneficiaries' money when the original payment fails.",
+        "explanation": "A temporary bank credit does not establish collected funds available for a refund."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-063",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "An owner asks a broker to use a qualifying interest-bearing trust account under Business and Professions Code section 10145(d) and offers the broker all interest as a thank-you. May the broker accept the interest?",
+    "options": [
+      {
+        "text": "Yes, whenever the owner gives oral permission.",
+        "explanation": "Owner permission does not remove the statutory restriction on broker benefit."
+      },
+      {
+        "text": "No; interest under this arrangement cannot benefit the broker or an affiliated licensee even with permission.",
+        "explanation": "The interest-bearing exception has specific conditions and expressly restricts direct or indirect broker benefit."
+      },
+      {
+        "text": "Yes, provided principal is never reduced.",
+        "explanation": "Preserving principal does not override the separate rule governing who may receive the interest."
+      },
+      {
+        "text": "Yes, if the interest is less than $200.",
+        "explanation": "The bank-charge allowance concerns specified broker funds in a trust account, not entitlement to client interest."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-064",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A manager receives $2,000 rent and has earned a $160 fee. Which method best preserves the distinction between trust funds and the broker's operating money?",
+    "options": [
+      {
+        "text": "Record and deposit the receipt intact, then properly document and transfer earned compensation to the broker.",
+        "explanation": "This preserves the receipt trail, establishes entitlement, and separates compensation from client balances."
+      },
+      {
+        "text": "Use the trust account to pay a $160 personal phone bill.",
+        "explanation": "Personal obligations should not be paid directly from the trust account as a draw against fees."
+      },
+      {
+        "text": "Leave the earned fee indefinitely in the trust account as a reserve for future management expenses.",
+        "explanation": "Earned broker funds should be withdrawn within the applicable period; they are not an unlimited operating reserve."
+      },
+      {
+        "text": "Deposit only the $1,840 net amount and divert the earned $160 before recording the full trust receipt.",
+        "explanation": "The receipt should be deposited and recorded intact; earned compensation is then properly identified and disbursed."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-065",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "An applicant with a mobility disability requests information about available ground-floor units within a stated price range. What is the best response?",
+    "options": [
+      {
+        "text": "Provide accurate options meeting those criteria and ask about any needed access arrangements.",
+        "explanation": "This respects the applicant's stated choices without substituting assumptions about where the person belongs."
+      },
+      {
+        "text": "Direct the applicant only to a building where other residents have disabilities.",
+        "explanation": "That substitutes protected-characteristic steering for the applicant's housing criteria."
+      },
+      {
+        "text": "Limit the applicant to ground-floor housing permanently, regardless of later preferences, as a safety measure.",
+        "explanation": "The agent should follow the individual's needs and choices rather than impose an unsupported categorical restriction."
+      },
+      {
+        "text": "Provide accommodation-related service only after the applicant uses the provider's formal request form.",
+        "explanation": "An accommodation request need not use preferred legal terminology or the provider's specific form."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-066",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A California rental applicant uses a qualifying government subsidy and has no credit score. The provider ordinarily uses credit history. What should the provider consider before automatically rejecting the applicant?",
+    "options": [
+      {
+        "text": "Review alternative income evidence only after the applicant first supplies the otherwise required credit score.",
+        "explanation": "That condition can defeat the statutory alternative-evidence process rather than provide a meaningful opportunity."
+      },
+      {
+        "text": "Measure income against the full contract rent because subsidy renewal is not guaranteed indefinitely.",
+        "explanation": "The stated subsidy cannot be disregarded when applying the relevant standard to the applicant's rent share."
+      },
+      {
+        "text": "The required opportunity to provide lawful, verifiable alternative evidence of ability to pay.",
+        "explanation": "Applicable California protections require the opportunity and reasonable consideration of alternative evidence in this setting."
+      },
+      {
+        "text": "Use the missing credit score as a final denial because the same automated screen is used for everyone.",
+        "explanation": "Consistent screening does not cure failure to provide the applicable alternative-evidence opportunity."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-067",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A community meets the federal requirements for qualifying 55-and-older housing. It now proposes rejecting otherwise qualified applicants because of religion. How does its age qualification affect that proposal?",
+    "options": [
+      {
+        "text": "It does not authorize religious discrimination; the exemption concerns familial status.",
+        "explanation": "The protected ground and particular exemption must match."
+      },
+      {
+        "text": "The community can apply religious preferences to the units outside the 80% age-occupied group.",
+        "explanation": "The remaining occupancy percentage does not create a separate religious-discrimination exemption."
+      },
+      {
+        "text": "A religious selection rule becomes permissible if it was adopted before this applicant applied.",
+        "explanation": "A longstanding policy does not turn an otherwise discriminatory religious qualification into a lawful one."
+      },
+      {
+        "text": "Meeting the 80% age-occupancy test exempts the entire community from the Act's other protected categories.",
+        "explanation": "The age-occupancy condition is part of a familial-status exemption, not removal of unrelated protections."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-068",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A housing advertisement describes only price and property features, but its online targeting excludes people because of a protected characteristic. What is the best analysis?",
+    "options": [
+      {
+        "text": "A platform's default audience settings establish compliance unless the advertiser writes discriminatory text.",
+        "explanation": "Default vendor settings do not eliminate the need to evaluate discriminatory audience restrictions."
+      },
+      {
+        "text": "Neutral visible wording conclusively establishes compliance.",
+        "explanation": "The audience restrictions can deny opportunities even when the displayed text is neutral."
+      },
+      {
+        "text": "Only the final applicant-screening criteria matter because advertising precedes an application.",
+        "explanation": "Discriminatory access to housing information can occur before the application stage."
+      },
+      {
+        "text": "Evaluate the targeting as well as the text, because discriminatory delivery can restrict housing opportunity.",
+        "explanation": "Fair housing analysis concerns access and treatment, not just words printed on the advertisement."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-069",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "A seller describes an enclosed patio as permitted living space, but the agent finds conflicting area records and no supporting approval. What is the best advertising response?",
+    "options": [
+      {
+        "text": "Identify and investigate the discrepancy rather than present the larger permitted-area claim as established.",
+        "explanation": "The factual assertion requires a reasonable basis, and known conflicting information warrants attention."
+      },
+      {
+        "text": "Choose the newest floor plan as controlling without resolving why it conflicts with the other records.",
+        "explanation": "Recency alone does not establish measurement accuracy or legal approval for the enclosed area."
+      },
+      {
+        "text": "Repeat the claim without qualification because it came from the seller.",
+        "explanation": "Attribution does not excuse ignoring a known discrepancy."
+      },
+      {
+        "text": "Call the area approximate while continuing to guarantee its permit status.",
+        "explanation": "Approximate measurement does not resolve a separate factual claim about legal approval."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-070",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "An agent discovers a material error in listing copy and corrects the firm's website, but knows the same claim remains in syndicated advertisements and was sent to an interested buyer. What further action is appropriate?",
+    "options": [
+      {
+        "text": "Keep the original claim in syndicated listings but add a general buyer-verification disclaimer.",
+        "explanation": "A general disclaimer does not resolve a known material misrepresentation."
+      },
+      {
+        "text": "Correct public listings but omit notice to the buyer because the buyer can search for updates.",
+        "explanation": "A silent public edit may not correct a material claim already communicated directly to an interested buyer."
+      },
+      {
+        "text": "Correct the relevant distributed materials and communications, notifying appropriate recipients and preserving the correction record.",
+        "explanation": "The aim is to correct the consumer's understanding, not merely the latest local draft."
+      },
+      {
+        "text": "Wait until final disclosures to correct earlier advertisements because only closing documents control.",
+        "explanation": "Material inaccurate advertising can influence decisions before closing and should not knowingly remain uncorrected."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-071",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "Competing brokers agree on a minimum listing fee and then disclose that fee accurately in every client contract. Which statement is best?",
+    "options": [
+      {
+        "text": "Accurate client disclosure does not remove the antitrust concern created by coordinated minimum pricing.",
+        "explanation": "Competing firms must make independent pricing decisions rather than agree to a floor."
+      },
+      {
+        "text": "The agreement is equivalent to one firm independently setting its own prices because clients remain free to decline.",
+        "explanation": "Consumer choice does not eliminate the distinction between independent pricing and coordination among competing firms."
+      },
+      {
+        "text": "Disclosure makes every pricing agreement lawful.",
+        "explanation": "Disclosure does not cure a prohibited agreement restricting competition."
+      },
+      {
+        "text": "The agreement is harmless unless the percentage is unusually high.",
+        "explanation": "The coordinated restraint matters independently of whether the price appears high."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-072",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "An electronic-signature record shows that someone using a company's email address signed its purchase agreement. Which remaining issue may require verification?",
+    "options": [
+      {
+        "text": "Whether the signer had identity, consent, and authority sufficient to bind the company.",
+        "explanation": "Platform evidence can be useful without conclusively establishing those separate matters."
+      },
+      {
+        "text": "An audit trail eliminates authority questions whenever the signature shows the user's full legal name.",
+        "explanation": "Recording a name and signing event does not by itself establish identity or corporate authorization."
+      },
+      {
+        "text": "The broker can establish corporate authority by approving the agreement's business terms after signature.",
+        "explanation": "The broker's approval of terms does not supply authority on behalf of the company."
+      },
+      {
+        "text": "Only the buyer's funding ability needs review because a corporate email address establishes signing authority.",
+        "explanation": "A company email address is not conclusive proof that the user may bind the entity."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-073",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A building has $12,000 scheduled monthly rent, $1,000 vacancy and collection loss, and $4,000 operating expenses. Debt service is $3,500. What is monthly NOI under these assumptions?",
+    "options": [
+      {
+        "text": "$11,000.",
+        "explanation": "This is effective gross income before operating expenses."
+      },
+      {
+        "text": "$7,000.",
+        "explanation": "Effective gross income is $11,000; subtracting $4,000 operating expenses yields $7,000 before debt service."
+      },
+      {
+        "text": "$3,500.",
+        "explanation": "That is cash after the stated debt service, not property NOI."
+      },
+      {
+        "text": "$8,000.",
+        "explanation": "This subtracts operating expenses but omits vacancy and collection loss."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-074",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "An individual owns two duplex rental properties containing four total units offered for rent and otherwise qualifies for California's small-landlord deposit exception. A qualifying service member applies. Which statement is correct?",
+    "options": [
+      {
+        "text": "Splitting the higher amount into cleaning and key deposits avoids the limit.",
+        "explanation": "Security is combined regardless of the labels assigned to its components."
+      },
+      {
+        "text": "The service-member limitation prevents use of the higher small-landlord cap against this applicant.",
+        "explanation": "Meeting the property and unit counts does not eliminate the exception's service-member restriction."
+      },
+      {
+        "text": "The owner may automatically demand two months' security from this applicant.",
+        "explanation": "The higher small-landlord cap does not apply to a qualifying prospective service member."
+      },
+      {
+        "text": "The owner may refuse solely because the higher cap is unavailable.",
+        "explanation": "The statute prohibits refusal on that basis."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-075",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A tenant properly requests California's pre-move-out initial inspection. No notice waiver is signed. Which timing statement best fits that procedure?",
+    "options": [
+      {
+        "text": "The landlord can inspect one month before termination and rely only on the ordinary entry presumption.",
+        "explanation": "The initial-inspection statute has its own timing and notice rules."
+      },
+      {
+        "text": "The inspection must occur only after possession has been returned.",
+        "explanation": "Its purpose is to allow an opportunity to remedy identified conditions before move-out."
+      },
+      {
+        "text": "The tenant's request eliminates all notice requirements.",
+        "explanation": "A request alone does not replace the statutory notice or a signed waiver."
+      },
+      {
+        "text": "It occurs no earlier than two weeks before termination and generally requires at least 48 hours' written notice.",
+        "explanation": "These are the specific initial-inspection rules, subject to the statute's conditions and exceptions."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-076",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A tenant causes a burn in an old carpet already near the end of its useful life. Which approach best evaluates a deduction?",
+    "options": [
+      {
+        "text": "Treat all deterioration in a carpet near the end of its life as ordinary wear, including the burn.",
+        "explanation": "Age matters to reasonable loss, but does not automatically reclassify tenant-caused burns as ordinary wear."
+      },
+      {
+        "text": "Use the photograph alone as proof that any invoiced amount is reasonable.",
+        "explanation": "Condition evidence does not independently establish the reasonable charge attributable to the tenant."
+      },
+      {
+        "text": "Separate chargeable damage from ordinary wear and preexisting condition, considering a reasonable loss rather than automatic new replacement cost.",
+        "explanation": "The tenant is responsible for legally chargeable damage, not the owner's entire improvement program."
+      },
+      {
+        "text": "Charge the full replacement invoice whenever the contractor concludes that patching is impractical.",
+        "explanation": "A need to replace does not automatically make the tenant responsible for the full cost without accounting for age and ordinary wear."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-077",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A 36-month commercial lease has $4,000 monthly base rent and three free base-rent months. Ignoring time value and all other charges, what base rent is collected over the term?",
+    "options": [
+      {
+        "text": "$48,000.",
+        "explanation": "That is one year's face rent, not the total over the stated term."
+      },
+      {
+        "text": "$132,000.",
+        "explanation": "Thirty-three paying months multiplied by $4,000 equals $132,000."
+      },
+      {
+        "text": "$144,000.",
+        "explanation": "That is the face rent for all 36 months and ignores the concession."
+      },
+      {
+        "text": "$12,000.",
+        "explanation": "That is the value of the three free months, not the collected rent."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "practice-078",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A rent roll and lease show $5,000 monthly rent, but the tenant's estoppel reports a continuing $500 credit for unfinished work. What should a buyer's agent do?",
+    "options": [
+      {
+        "text": "Deduct the credit from one month's rent only because an estoppel is dated once.",
+        "explanation": "The certificate's date does not make an ongoing claimed credit a one-month adjustment."
+      },
+      {
+        "text": "Use the signed lease amount until the tenant produces a recorded amendment.",
+        "explanation": "Commercial lease credits need investigation; recording is not a universal prerequisite to a relevant amendment or offset."
+      },
+      {
+        "text": "Treat the credit as a one-time concession without checking how long it continues.",
+        "explanation": "The prompt describes a continuing credit; its duration and supporting terms affect effective income."
+      },
+      {
+        "text": "Reconcile the credit, work obligation, amendments, and collection history before relying on income.",
+        "explanation": "The tenant's reported offset may materially change effective revenue and obligations."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-079",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A long-term commercial tenant has an enforceable renewal option at rent below the buyer's forecast market rent. What is a reasonable investment concern?",
+    "options": [
+      {
+        "text": "Use projected market rent because a renewal option always requires a new rent negotiation.",
+        "explanation": "The option can fix rent or a formula; new negotiation cannot be assumed contrary to the enforceable terms."
+      },
+      {
+        "text": "Assume the buyer can reset option rent on acquisition if the lease was signed by the former owner.",
+        "explanation": "A change in ownership does not automatically rewrite enforceable renewal terms."
+      },
+      {
+        "text": "The option may limit rental upside even while supporting continued occupancy.",
+        "explanation": "A below-market option can trade some income growth potential for occupancy continuity."
+      },
+      {
+        "text": "Treat the below-market option as irrelevant until the tenant actually exercises it.",
+        "explanation": "A presently enforceable option can affect projected income and valuation before exercise."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-080",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A buyer purchases a cafe's equipment and goodwill, but the seller leases the storefront and the lease requires consent to assignment. What issue is most important to resolve?",
+    "options": [
+      {
+        "text": "Treat the bill of sale for equipment as sufficient evidence that the storefront lease also transfers.",
+        "explanation": "A business asset conveyance does not by itself satisfy the lease's assignment and consent provisions."
+      },
+      {
+        "text": "Assume paying the same rent after closing cures any missing assignment consent.",
+        "explanation": "Tendering rent does not automatically satisfy the stated consent condition or resolve the parties' rights."
+      },
+      {
+        "text": "Whether the necessary assignment consent and occupancy rights can be obtained for the business transfer.",
+        "explanation": "The buyer's ability to operate at the location may depend on the lease and required consent."
+      },
+      {
+        "text": "Rely on the seller's promise of uninterrupted operations instead of reviewing the lease.",
+        "explanation": "The seller's assurance does not establish the buyer's legal right to occupy under the existing lease."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-081",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "An inherited property's seller never lived there but possesses a contractor's letter describing recurring foundation movement. What is the best analysis?",
+    "options": [
+      {
+        "text": "Treat the contractor's letter as irrelevant because the seller did not personally observe the movement.",
+        "explanation": "Known documentary information can be material even without firsthand occupancy or observation."
+      },
+      {
+        "text": "If a TDS exemption applies, omit other known condition information unless the buyer specifically requests it.",
+        "explanation": "A particular form exemption does not necessarily eliminate other disclosure duties concerning known material facts."
+      },
+      {
+        "text": "Nonoccupancy does not justify concealing known material information; evaluate any specific form exemption separately.",
+        "explanation": "Knowledge-based disclosure duties and eligibility for a particular statutory form exemption are distinct."
+      },
+      {
+        "text": "A buyer's ability to hire an inspector removes all seller duties.",
+        "explanation": "The buyer's investigation responsibility does not erase existing seller or agent duties."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "practice-082",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "An agent sees a diagonal wall crack but lacks structural expertise. Which statement best separates observation from unsupported diagnosis?",
+    "options": [
+      {
+        "text": "Describe the crack as a foundation defect based solely on its diagonal shape.",
+        "explanation": "That turns a limited visual observation into a diagnosis not established by the agent's expertise or evidence."
+      },
+      {
+        "text": "Defer all disclosure until a specialist establishes the exact cause.",
+        "explanation": "The agent can disclose a material visible observation without waiting for a final technical diagnosis."
+      },
+      {
+        "text": "Describe it as cosmetic unless the seller confirms a structural problem.",
+        "explanation": "The absence of seller confirmation does not establish that the condition is harmless."
+      },
+      {
+        "text": "Disclose the visible crack and recommend qualified evaluation of its cause and significance.",
+        "explanation": "This accurately reports the observation without promising a diagnosis or harmlessness."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "practice-083",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A buyer waives the federal lead inspection opportunity in a covered pre-1978 purchase. What follows regarding known lead information and available reports?",
+    "options": [
+      {
+        "text": "Required disclosure of known lead information and available reports still applies.",
+        "explanation": "The inspection opportunity and information-delivery obligations are separate components."
+      },
+      {
+        "text": "The waiver also excuses delivering existing reports because the buyer declined further investigation.",
+        "explanation": "Existing-information duties remain distinct from the buyer's decision about additional testing."
+      },
+      {
+        "text": "The seller need only provide a general pamphlet even when specific lead reports are available.",
+        "explanation": "The pamphlet does not replace required delivery of known information and available reports."
+      },
+      {
+        "text": "The seller must replace the waived inspection with a seller-funded test.",
+        "explanation": "The federal disclosure rule does not generally impose testing as a substitute for the buyer's waiver."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "practice-084",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A buyer receives a materially amended TDS by agreed electronic delivery after offer execution, while the contract's inspection deadline is different. How should the agent analyze the deadlines?",
+    "options": [
+      {
+        "text": "Assume every real estate disclosure uses three business days.",
+        "explanation": "Delivery method and the governing statute determine the actual period."
+      },
+      {
+        "text": "Evaluate the statutory five-day electronic-delivery termination opportunity separately from the contractual inspection deadline.",
+        "explanation": "The two rights can have different triggers and consequences; one does not automatically replace the other."
+      },
+      {
+        "text": "Use only the contract's inspection deadline because statute never adds rights.",
+        "explanation": "Statutory disclosure rights can coexist with contractual contingencies."
+      },
+      {
+        "text": "Apply the federal mortgage rescission period to the TDS.",
+        "explanation": "Loan rescission and transfer-disclosure termination arise from different laws."
+      }
+    ],
+    "answer": 1
   }
 ]

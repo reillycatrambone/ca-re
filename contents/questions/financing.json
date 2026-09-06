@@ -573,5 +573,405 @@
       }
     ],
     "answer": 2
+  },
+  {
+    "id": "financing-024",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A buyer pays $600,000. The lender limits its loan to 80% of the lower of price or appraised value, and the appraisal is $560,000. Ignoring closing costs and other financing, how much cash must the buyer supply?",
+    "options": [
+      {
+        "text": "$152,000.",
+        "explanation": "The loan is 80% of $560,000, or $448,000; subtracting that from the unchanged $600,000 price leaves $152,000."
+      },
+      {
+        "text": "$120,000.",
+        "explanation": "That assumes an 80% loan on the price and ignores the lower appraisal."
+      },
+      {
+        "text": "$112,000.",
+        "explanation": "That is 20% of appraised value, not the amount needed to bridge the actual price less the permitted loan."
+      },
+      {
+        "text": "$40,000.",
+        "explanation": "That is the appraisal shortfall, not the buyer's total required cash."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-025",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A $200,000 loan at 6% has a $1,300 monthly principal-and-interest payment. Using annual rate divided by 12, the first payment reduces principal by $300. What interest is due for the next month before any other changes?",
+    "options": [
+      {
+        "text": "$1,000 forever.",
+        "explanation": "Interest on an amortizing loan generally changes as the outstanding principal changes."
+      },
+      {
+        "text": "$1,300.",
+        "explanation": "The entire payment is not interest; part reduces principal."
+      },
+      {
+        "text": "$998.50.",
+        "explanation": "The remaining balance is $199,700, multiplied by 0.5% monthly interest."
+      },
+      {
+        "text": "$300.",
+        "explanation": "That was the first payment's principal reduction, not next month's interest."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-026",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "Loan A costs $6,000 more upfront than Loan B and saves $150 monthly. Using only simple cash break-even, what does a planned sale in 24 months suggest?",
+    "options": [
+      {
+        "text": "The extra upfront cost is fully recovered in 24 months if the loan is a fixed-rate product.",
+        "explanation": "A fixed rate does not change the stated $150 monthly savings or the $6,000 initial difference."
+      },
+      {
+        "text": "The upfront difference is recovered because the lower payment begins with the first installment.",
+        "explanation": "Savings begin immediately, but cumulative savings do not recover the larger upfront amount until the break-even point."
+      },
+      {
+        "text": "The $3,600 payment savings would not recover the $6,000 additional upfront cost by then.",
+        "explanation": "Twenty-four payments times $150 equals $3,600; this limited analysis excludes other financial differences."
+      },
+      {
+        "text": "The simple break-even is 24 months.",
+        "explanation": "Dividing $6,000 by $150 gives 40 months, not 24."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-027",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A borrower receives a valid notice that another company will service the existing fixed-rate mortgage. What is the best conclusion?",
+    "options": [
+      {
+        "text": "The company collecting payments must also be the investor that owns the loan.",
+        "explanation": "Servicing rights and ownership of the loan can be held by different parties."
+      },
+      {
+        "text": "Payment administration may change while the note's contractual terms remain in effect.",
+        "explanation": "Servicing, loan ownership, and property ownership are distinct functions and interests."
+      },
+      {
+        "text": "The borrower can suspend scheduled payments until the original lender signs a new note.",
+        "explanation": "A servicing transfer does not discharge the existing note or automatically suspend scheduled obligations."
+      },
+      {
+        "text": "The borrower must renegotiate the note rate before paying the new servicer.",
+        "explanation": "A valid servicing transfer does not itself require renegotiating the existing loan terms."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-028",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "An ARM's current rate is 4%. At adjustment, the index is 4.5% and the margin is 2%. The applicable periodic cap allows a one-percentage-point increase, and no other provision changes the result. What rate applies at this adjustment?",
+    "options": [
+      {
+        "text": "6.5%.",
+        "explanation": "That is index plus margin before applying the stated periodic cap."
+      },
+      {
+        "text": "5%.",
+        "explanation": "The fully indexed rate is 6.5%, but the one-point periodic cap limits the current adjustment from 4% to 5%."
+      },
+      {
+        "text": "4.5%.",
+        "explanation": "The index alone omits the margin and the adjustment limitation."
+      },
+      {
+        "text": "2%.",
+        "explanation": "The margin is an addition to the index, not the final rate."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-029",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "A note uses a 30-year amortization schedule but requires the unpaid balance at the end of year five. The borrower makes every scheduled monthly payment. What remains important?",
+    "options": [
+      {
+        "text": "Every payment during the five years was necessarily interest-only.",
+        "explanation": "A partially amortizing loan can reduce principal while still leaving a balloon."
+      },
+      {
+        "text": "The five-year date is only a rate-adjustment date because amortization establishes the final maturity.",
+        "explanation": "The question expressly makes the balance due at five years; amortization does not override that maturity."
+      },
+      {
+        "text": "A balloon remains due at five-year maturity because the payments have not fully amortized the debt.",
+        "explanation": "The schedule calculates installments; the earlier maturity requires repayment of the remaining balance."
+      },
+      {
+        "text": "The borrower has a contractual right to refinance the balance on the original terms after five years.",
+        "explanation": "An amortization schedule does not itself promise a future extension or replacement loan."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "financing-030",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "A buyer receives a $25,000 deferred junior assistance loan repayable at sale, with no interest or appreciation share under the stated terms. Sale proceeds would be $80,000 before paying this loan and with all other items already accounted for. What remains after repayment?",
+    "options": [
+      {
+        "text": "$80,000 if the assistance was used only for the original down payment.",
+        "explanation": "Using the proceeds for a down payment does not convert the stated junior loan into a grant."
+      },
+      {
+        "text": "$55,000.",
+        "explanation": "Subtract the $25,000 deferred obligation from $80,000."
+      },
+      {
+        "text": "$80,000 because no monthly payments means a grant.",
+        "explanation": "Deferral postpones repayment; it does not forgive the debt."
+      },
+      {
+        "text": "$80,000 if the assistance loan did not require monthly payments before sale.",
+        "explanation": "Lack of current installments does not eliminate a repayment obligation expressly triggered by sale."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-031",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "An FHA borrower says the FHA appraisal and mortgage insurance eliminate the need to consider an independent home inspection. What distinction is most important?",
+    "options": [
+      {
+        "text": "FHA insurance protects the lender against specified loss, while an independent inspection addresses the buyer's condition concerns.",
+        "explanation": "Government loan support and property investigation solve different problems."
+      },
+      {
+        "text": "FHA insurance covers the buyer's repair losses whenever a defect existed before the appraisal.",
+        "explanation": "Mortgage insurance addresses specified lender loss, not a general warranty of the property's condition for the buyer."
+      },
+      {
+        "text": "An independent inspection becomes relevant only if the appraisal is below the purchase price.",
+        "explanation": "Value adequacy and physical-condition investigation are separate issues."
+      },
+      {
+        "text": "An FHA appraisal is a comprehensive condition inspection because it reviews program property requirements.",
+        "explanation": "An appraisal's program review does not establish the scope of an independent home inspection."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-032",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "After assumed foreclosure expenses, a senior sale produces $320,000 for claims. There is a $280,000 senior claim and a $90,000 junior claim, with no intervening claims. How much is available for the junior?",
+    "options": [
+      {
+        "text": "$230,000, subtracting the junior claim from available proceeds first.",
+        "explanation": "That subtracts the junior balance in the wrong order and gives the resulting remainder, not the amount available to the junior after the senior is paid."
+      },
+      {
+        "text": "$40,000.",
+        "explanation": "After the $280,000 senior claim, $40,000 remains; separate legal analysis determines remedies for the unpaid junior balance."
+      },
+      {
+        "text": "$90,000 automatically.",
+        "explanation": "The proceeds are insufficient to pay both stated claims in full."
+      },
+      {
+        "text": "Nothing, because a senior sale extinguishes subordinate claims without any right to surplus.",
+        "explanation": "The effect on the lien does not eliminate the need to account for surplus available to subordinate claims."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "financing-033",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "A lender validly assigns an existing note and its security interest to another holder. What happens to the borrower's repayment obligation merely because of that assignment?",
+    "options": [
+      {
+        "text": "The borrower is not automatically released and remains obligated under the applicable loan terms.",
+        "explanation": "Assignment transfers the loan interest; it does not itself discharge the borrower's underlying debt."
+      },
+      {
+        "text": "The assignee takes over repayment responsibility because it purchased the loan.",
+        "explanation": "Purchasing the creditor's interest does not make the assignee the borrower obligated to repay it."
+      },
+      {
+        "text": "The debt becomes unsecured until the borrower signs a new deed of trust.",
+        "explanation": "A valid transfer of the note and its security interest does not automatically strip the existing security or require a new borrower grant."
+      },
+      {
+        "text": "Scheduled payments are suspended until the borrower separately accepts the assignee.",
+        "explanation": "A valid assignment does not by itself create a borrower right to suspend performance pending separate acceptance."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-034",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "Following default, a lender validly accelerates a California secured loan. Which statement best distinguishes acceleration from foreclosure?",
+    "options": [
+      {
+        "text": "Acceleration allows collection only of overdue installments until a court enters judgment in every case.",
+        "explanation": "Acceleration concerns the remaining debt, and California recognizes applicable nonjudicial enforcement procedures."
+      },
+      {
+        "text": "Acceleration permits a trustee sale without further notice if the note itself disclosed the possibility.",
+        "explanation": "An initial contract disclosure does not substitute for required foreclosure notices and procedures."
+      },
+      {
+        "text": "Acceleration eliminates a statutory cure opportunity because the full balance has been declared due.",
+        "explanation": "A contractual acceleration does not erase applicable reinstatement rights or other borrower protections."
+      },
+      {
+        "text": "Acceleration can make the remaining debt due, but applicable notices, waiting periods, and protections still govern enforcement.",
+        "explanation": "The clause does not override the separate legal requirements for foreclosure."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-035",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "A senior lender's foreclosure eliminates a junior lien. The junior lender seeks to collect its unpaid note personally. Which fact pattern must be examined before claiming that every junior debt was forgiven?",
+    "options": [
+      {
+        "text": "Whether the senior sale was nonjudicial, treating that choice as automatic protection against collection of every junior note.",
+        "explanation": "The senior creditor's remedy does not automatically resolve protection for a different junior creditor's separate debt."
+      },
+      {
+        "text": "Whether the junior properly recorded its lien, treating recording alone as sufficient to preserve personal collection rights.",
+        "explanation": "Proper recording can protect the lien's priority but does not by itself resolve anti-deficiency protection or personal remedies on the note."
+      },
+      {
+        "text": "Whether the property's sale price was below the combined balances, without examining the purpose of either loan.",
+        "explanation": "A combined shortfall establishes unpaid debt arithmetic, not the availability of a personal judgment on the particular note."
+      },
+      {
+        "text": "The particular note's purchase-money status, use of proceeds, applicable protections, and which lien was foreclosed.",
+        "explanation": "Lien extinguishment and personal liability are separate questions requiring classification under the relevant statutes."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-036",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A California broker changes a proposed loan from consumer home financing to a business-purpose loan secured by real property. What disclosure approach is best?",
+    "options": [
+      {
+        "text": "Omit the MLDS whenever the loan proceeds are used for a business rather than household purposes.",
+        "explanation": "The California broker-arranged real-property loan disclosure can apply to commercial-purpose loans."
+      },
+      {
+        "text": "Determine all federal disclosure obligations from the collateral's residential use alone.",
+        "explanation": "Consumer-credit coverage also depends on purpose, structure, creditor status, and applicable exclusions."
+      },
+      {
+        "text": "Use the federal Loan Estimate application trigger as the sole deadline for every California broker disclosure.",
+        "explanation": "Federal and California disclosures have distinct coverage and triggering rules."
+      },
+      {
+        "text": "Reevaluate federal coverage while separately applying California's covered broker-arranged real-property loan rules.",
+        "explanation": "Commercial purpose can change federal consumer-credit coverage without automatically removing the California MLDS duty."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-037",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A covered Closing Disclosure needs correction for an ordinary fee change. The APR remains accurate under applicable rules, the product is unchanged, and no prepayment penalty is added. Must every such correction start another three-business-day waiting period?",
+    "options": [
+      {
+        "text": "No; a correction is required, but these facts do not describe one of the specified new-wait triggers.",
+        "explanation": "A new period is required for the identified APR, product, or prepayment-penalty changes, not every correction."
+      },
+      {
+        "text": "The ordinary three-day rescission period supplies the required review after every purchase closing.",
+        "explanation": "Purchase-money financing generally lacks that rescission right, and post-closing rescission is not a substitute for preconsummation disclosure."
+      },
+      {
+        "text": "No corrected Closing Disclosure is needed because the APR remains accurate.",
+        "explanation": "The absence of a new waiting period does not eliminate the separate correction requirement."
+      },
+      {
+        "text": "Yes, because a change in any settlement charge necessarily makes the APR inaccurate.",
+        "explanation": "The question expressly states that the APR remains accurate under applicable rules; a fee correction does not always trigger a new wait."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "financing-038",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "For an eligible federally regulated residential loan above the applicable threshold, a California broker obtains a signed compliant Loan Estimate but omits the contemporaneous California addendum. Has the broker necessarily satisfied DRE's MLDS alternative?",
+    "options": [
+      {
+        "text": "Yes, if the omitted addendum is placed in the brokerage file without being delivered to the borrower.",
+        "explanation": "Internal retention alone does not satisfy required delivery and acknowledgment conditions."
+      },
+      {
+        "text": "Yes, because loans above the first-lien or junior-lien threshold are exempt from all MLDS requirements.",
+        "explanation": "The thresholds qualify the transaction for a conditional alternative, not a blanket exemption."
+      },
+      {
+        "text": "Yes, if the California licensing information appears only in the broker's general website footer.",
+        "explanation": "A general website reference does not establish delivery of the required contemporaneous California disclosure."
+      },
+      {
+        "text": "No; the required contemporaneous disclosure and other conditions must also be satisfied.",
+        "explanation": "DRE's alternative requires the no-loan-commitment and licensing-information disclosure with the signed Loan Estimate and other applicable items."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "financing-039",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A private lender signs an LPDS describing a proposed loan. The broker then disburses more of the lender's trust funds than the lender authorized. Which principle applies?",
+    "options": [
+      {
+        "text": "The excess is permitted if the investment remains secured by property of sufficient value.",
+        "explanation": "Adequate collateral does not replace the owner's authorization for the particular disbursement."
+      },
+      {
+        "text": "The broker may rely on the borrower's requested loan amount if it matches the LPDS description.",
+        "explanation": "The borrower's request does not determine how much of the private lender's money the broker may disburse."
+      },
+      {
+        "text": "Disclosure compliance and disbursement authority are distinct; the signed statement does not authorize the excess.",
+        "explanation": "The broker must satisfy both applicable disclosure duties and the owner's actual investment instructions."
+      },
+      {
+        "text": "The lender's signature authorizes any amount up to the trust account's available cash.",
+        "explanation": "Acknowledging a disclosure does not grant authority to use the entire balance."
+      }
+    ],
+    "answer": 2
   }
 ]

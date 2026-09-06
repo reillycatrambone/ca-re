@@ -11,6 +11,9 @@ import { domains } from '@/lib/curriculum'
 import { getHeadings } from '@/lib/headings'
 import { LessonToc } from '@/components/book/toc'
 import { ConceptDiagram } from '@/components/book/concept-diagram'
+import { LearningFigure } from '@/components/book/learning-figure'
+import { getLearningFigures } from '@/lib/learning-figures'
+import { rehypeLearningFigures } from '@/lib/rehype-learning-figures'
 import { LessonActions } from '@/components/study/lesson-actions'
 import { ChapterQuiz } from '@/components/study/chapter-quiz'
 
@@ -41,10 +44,15 @@ export default async function Chapter({ params }: Props) {
     options: {
       mdxOptions: {
         remarkPlugins: [remarkGfm, [remarkMath, { singleDollarTextMath: false }]],
-        rehypePlugins: [rehypeSlug, rehypeKatex],
+        rehypePlugins: [
+          rehypeSlug,
+          rehypeKatex,
+          [rehypeLearningFigures, { figures: getLearningFigures(lesson.slug) }],
+        ],
       },
     },
     components: {
+      'learning-figure': (props) => <LearningFigure id={props.id as string} />,
       table: (props) => (
         <div className="table-scroll">
           <table {...props} />
