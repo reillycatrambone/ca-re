@@ -1348,5 +1348,205 @@
       }
     ],
     "answer": 1
+  },
+  {
+    "id": "agency-055",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "An owner creates a reasonable appearance that a manager can approve a renovation. A vendor believes it but only prepares an uncommitted quote; the vendor neither parts with value nor incurs a liability. Which element of liability based on merely ostensible authority remains unestablished?",
+    "options": [
+      {
+        "text": "The requirement that the manager be a special rather than general agent.",
+        "explanation": "That classification is not the missing element; an agent's scope label does not replace qualifying reliance."
+      },
+      {
+        "text": "The statutory reliance element involving value parted with or liability incurred.",
+        "explanation": "Section 2334 requires more than belief; the stated facts omit the specified change in position."
+      },
+      {
+        "text": "Written actual delegation of the particular renovation, separate from the owner's appearance of authorization.",
+        "explanation": "A claim based on merely ostensible authority does not require proving the very actual authority that the theory distinguishes."
+      },
+      {
+        "text": "Completion of the entire renovation before a vendor can ever rely on apparent authority.",
+        "explanation": "Qualifying reliance can involve an incurred liability or value parted with before all proposed work is completed."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "agency-056",
+    "domain": "agency",
+    "lessonSlug": "agency-relationships",
+    "prompt": "A contractor knows a manager exceeded an actual spending limit. The owner later learns the material facts and validly adopts the entire lawful renovation agreement. What most directly explains the owner's resulting obligation?",
+    "options": [
+      {
+        "text": "Ostensible authority created solely by the manager's original promise.",
+        "explanation": "An unsupported manager promise and the contractor's known limit do not establish qualifying reasonable reliance."
+      },
+      {
+        "text": "Proof that the manager actually possessed the greater authority when placing the original order.",
+        "explanation": "Later adoption can ratify an unauthorized act without proving that it was authorized when originally performed."
+      },
+      {
+        "text": "Novation automatically substituting the owner for the manager and discharging every earlier claim.",
+        "explanation": "The stipulated informed adoption supports ratification; it does not establish an agreement for substitution and discharge of all prior obligations."
+      },
+      {
+        "text": "Ratification, rather than the contractor's original reasonable reliance on broader authority.",
+        "explanation": "The stipulated later informed adoption supplies a separate basis; the contractor's knowledge undermined the earlier ostensible-authority theory."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-057",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A buyer sees a wall crack. The buyer's agent also holds an undisclosed engineer's recommendation for foundation evaluation. The agent argues the buyer's own duty of reasonable care removes the need to deliver that report. Which conclusion is best?",
+    "options": [
+      {
+        "text": "The buyer's care responsibility and the agent's duty to communicate additional known material information must be evaluated separately.",
+        "explanation": "Observation of a symptom is not necessarily knowledge of a report's significance, and section 2079.5 does not eliminate the agent's duties."
+      },
+      {
+        "text": "The visible crack transfers every disclosure duty exclusively to the buyer.",
+        "explanation": "The buyer's responsibility does not automatically extinguish duties the agent independently owes."
+      },
+      {
+        "text": "The report need not be delivered unless the buyer asks for the engineer by name.",
+        "explanation": "Known material information is not withheld merely because the buyer lacks enough knowledge to request its precise source."
+      },
+      {
+        "text": "The buyer has no responsibility to investigate because an agent is involved.",
+        "explanation": "Retaining an agent does not eliminate the buyer's own reasonable-care obligation."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-058",
+    "domain": "agency",
+    "lessonSlug": "agency-fiduciary-duties",
+    "prompt": "A foundation report remains unresolved one day before the buyer's stated inspection deadline. The agent promptly delivers it. The buyer has not authorized cancellation or an extension request. What best respects both care and agency authority?",
+    "options": [
+      {
+        "text": "Cancel immediately because protecting the buyer always authorizes unilateral termination.",
+        "explanation": "Protective motives do not automatically supply authority to exercise the client's contractual rights."
+      },
+      {
+        "text": "Assume the report automatically extends the contingency until an engineer is available.",
+        "explanation": "An unresolved condition does not itself rewrite a contractual deadline."
+      },
+      {
+        "text": "Explain the unresolved issue and available contractual choices, recommend appropriate evaluation, and obtain the buyer's instructions.",
+        "explanation": "Competent advice addresses the risk and deadline while preserving the principal's decision and the contract's actual requirements."
+      },
+      {
+        "text": "Take no further action because delivery alone resolves the timing and decision issues.",
+        "explanation": "Delivery is important but does not by itself address the known deadline or the need for an informed authorized decision."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-059",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A seller-only brokerage proposes to represent the buyer as well before the agency's object has been performed. The seller previously acknowledged an agency-disclosure form. What is needed to change the contractual agency relationship under section 2079.23?",
+    "options": [
+      {
+        "text": "Only the broker's revised internal file notation identifying a dual role.",
+        "explanation": "An internal classification is not the required consent of the parties to the agency relationship."
+      },
+      {
+        "text": "Only a second salesperson, provided that person works in another branch.",
+        "explanation": "The responsible brokerage remains the same despite separate personnel or locations."
+      },
+      {
+        "text": "The parties' written consent to the changed agency relationship, with the required informed dual-agency treatment.",
+        "explanation": "A prior receipt acknowledgment does not by itself establish consent to the proposed contractual change."
+      },
+      {
+        "text": "Only the buyer's payment of an earnest-money deposit.",
+        "explanation": "A deposit under a purchase proposal does not establish the seller's written consent to changed representation."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "agency-060",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A dual-agent client expressly permits disclosure that the client can close in twenty days but does not authorize disclosure of a maximum price or private financial reserves. What may the agent infer from the permission?",
+    "options": [
+      {
+        "text": "Permission covers the authorized closing-capacity information, not automatically the client's other bargaining confidences.",
+        "explanation": "Consent should be read according to its actual scope; related financial facts do not become unrestricted merely because timing is disclosed."
+      },
+      {
+        "text": "All financial information may be disclosed because closing capacity is a financial subject.",
+        "explanation": "Limited permission does not automatically authorize disclosure of every fact in the same broad category."
+      },
+      {
+        "text": "The agent may disclose the maximum price but not reserves because price is always public in dual agency.",
+        "explanation": "Undisclosed bargaining limits are protected unless the relevant client expressly permits disclosure."
+      },
+      {
+        "text": "The agent must withhold the authorized timing information because dual agents may never discuss transaction terms.",
+        "explanation": "Dual agency does not prohibit communicating terms or information the client has properly authorized."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "agency-061",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A salesperson receives $9,000, equal to 75% of the fee remaining after a 20% referral is deducted from the total collected fee. No other adjustments apply. What was the total fee?",
+    "options": [
+      {
+        "text": "$14,400.",
+        "explanation": "Adding 20% to the post-referral $12,000 does not reverse a deduction of 20% from the original total."
+      },
+      {
+        "text": "$12,000.",
+        "explanation": "This recovers only the post-referral pool, not the fee before the referral deduction."
+      },
+      {
+        "text": "$13,500.",
+        "explanation": "This treats the combined percentage deductions as a simple adjustment instead of reversing the two specified multiplications."
+      },
+      {
+        "text": "$15,000.",
+        "explanation": "Divide $9,000 by 0.75 to recover $12,000, then divide by 0.80 to recover the $15,000 total."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "agency-062",
+    "domain": "agency",
+    "lessonSlug": "agency-compensation-and-termination",
+    "prompt": "A brokerage receives a total $15,000 fee funded by a $10,000 seller contribution and $5,000 buyer payment. A separate referral agreement expressly uses 25% of the seller-funded portion as its base. What is the referral fee?",
+    "options": [
+      {
+        "text": "$3,750.",
+        "explanation": "This applies the percentage to the full fee instead of the specifically stated seller-funded portion."
+      },
+      {
+        "text": "$2,500.",
+        "explanation": "The stated agreement applies 25% to $10,000, regardless of a different base used in another brokerage's arrangement."
+      },
+      {
+        "text": "$1,250.",
+        "explanation": "This uses the buyer's $5,000 payment as the base rather than the seller-funded portion."
+      },
+      {
+        "text": "$5,000.",
+        "explanation": "This is the buyer-funded balance, not the referral calculated under the stated agreement."
+      }
+    ],
+    "answer": 1
   }
 ]

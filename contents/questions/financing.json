@@ -973,5 +973,205 @@
       }
     ],
     "answer": 2
+  },
+  {
+    "id": "financing-040",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "A home is purchased for $560,000 and appraises at $530,000. The loan is limited to 80% of the lower amount, and two points are paid in cash. With no other costs, credits, or financing, how much cash is required?",
+    "answer": 1,
+    "options": [
+      {
+        "text": "$112,000.",
+        "explanation": "That applies a 20% contribution to price and omits both the lower appraisal's effect and points."
+      },
+      {
+        "text": "$144,480.",
+        "explanation": "The loan is $424,000; the price contribution is $136,000; two points add $8,480."
+      },
+      {
+        "text": "$146,600.",
+        "explanation": "That incorrectly calculates two points on the $530,000 appraisal rather than the actual loan."
+      },
+      {
+        "text": "$136,000.",
+        "explanation": "That bridges price and loan but omits the cash-paid points."
+      }
+    ]
+  },
+  {
+    "id": "financing-041",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-fundamentals",
+    "prompt": "Under the same 80%-of-lower-value rule, the seller reduces a $560,000 price to $530,000, equal to the appraisal. The $424,000 loan and two cash-paid points stay unchanged. Ignoring other costs, how does the buyer's required cash change?",
+    "answer": 3,
+    "options": [
+      {
+        "text": "It falls by $6,000 because only the 20% down-payment share changes.",
+        "explanation": "The actual loan remains fixed here, so the full price reduction reduces the cash contribution."
+      },
+      {
+        "text": "It remains unchanged because appraised value did not change.",
+        "explanation": "An unchanged loan combined with a lower price reduces the amount the buyer must bridge."
+      },
+      {
+        "text": "It falls by $30,600 because points automatically decline with price.",
+        "explanation": "Points use the unchanged loan amount, not the changed sale price."
+      },
+      {
+        "text": "It falls by $30,000, from $144,480 to $114,480.",
+        "explanation": "The price falls $30,000 while the loan and $8,480 point charge remain unchanged."
+      }
+    ]
+  },
+  {
+    "id": "financing-042",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "A $240,000 balance accrues $1,200 interest for the first month. The permitted payment is $1,050, and the loan expressly capitalizes unpaid interest. With no other changes, what follows after the payment?",
+    "answer": 0,
+    "options": [
+      {
+        "text": "The balance becomes $240,150 even though the scheduled payment was made.",
+        "explanation": "The $150 unpaid interest is added to principal under the stated terms."
+      },
+      {
+        "text": "The balance stays $240,000 because a timely payment always covers interest first and stops accrual.",
+        "explanation": "Applying the payment to interest does not eliminate the remaining $150 shortfall."
+      },
+      {
+        "text": "The balance falls to $238,950 because the payment reduces principal.",
+        "explanation": "The payment is less than accrued interest and does not reduce principal here."
+      },
+      {
+        "text": "The balance becomes $241,200 because capitalizing interest means ignoring the payment.",
+        "explanation": "The $1,050 payment covers part of the interest, leaving only $150 to capitalize."
+      }
+    ]
+  },
+  {
+    "id": "financing-043",
+    "domain": "financing",
+    "lessonSlug": "financing-loan-types-programs",
+    "prompt": "A fixed-rate loan ends its interest-only period with principal unchanged and then requires full amortization over the remaining years. Which statement best explains a possible increase in the required payment?",
+    "answer": 2,
+    "options": [
+      {
+        "text": "It proves the loan must have an adjustable interest rate.",
+        "explanation": "A payment can change when repayment structure changes even if the rate stays fixed."
+      },
+      {
+        "text": "It means the lender has necessarily added an undisclosed penalty.",
+        "explanation": "A scheduled transition to principal repayment can increase payment without a penalty."
+      },
+      {
+        "text": "The unchanged balance must now be repaid, with interest, over the shorter remaining repayment period.",
+        "explanation": "The earlier payments covered interest rather than reducing the principal due under the later schedule."
+      },
+      {
+        "text": "It occurs only if the property's market value declines.",
+        "explanation": "The contractual amortization transition does not depend on a property-value decline."
+      }
+    ]
+  },
+  {
+    "id": "financing-044",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "A commercial-property seller takes a deed of trust securing the unpaid purchase-price balance. An adviser says California purchase-money anti-deficiency protection is impossible solely because the property is not an owner-occupied one-to-four-unit dwelling. What is the best correction?",
+    "answer": 3,
+    "options": [
+      {
+        "text": "The property description alone proves that all commercial debt is exempt from collection.",
+        "explanation": "Commercial status does not create a blanket rule against collection of every kind of debt."
+      },
+      {
+        "text": "The seller's protection depends only on whether the carryback note charges below-market interest.",
+        "explanation": "Interest pricing is not the relevant distinction in the stated section 580b analysis."
+      },
+      {
+        "text": "Every lender receives identical protection regardless of whether it financed the purchase or later business expenses.",
+        "explanation": "Source and use of funds and the type of obligation remain important."
+      },
+      {
+        "text": "Section 580b separately addresses qualifying vendor purchase-price security; the dwelling limitation belongs to a different purchase-loan provision.",
+        "explanation": "The adviser improperly imports the institutional purchase-dwelling conditions into the separate seller carryback provision."
+      }
+    ]
+  },
+  {
+    "id": "financing-045",
+    "domain": "financing",
+    "lessonSlug": "financing-notes-security",
+    "prompt": "A seller's carryback deed of trust was initially senior, but the seller validly subordinated it to a later construction deed of trust. The construction lender now forecloses. Which fact most directly determines the seller's collateral exposure?",
+    "answer": 1,
+    "options": [
+      {
+        "text": "The seller recorded first, which makes later subordination ineffective by definition.",
+        "explanation": "A valid subordination changes the priority that earlier recording otherwise provided."
+      },
+      {
+        "text": "The valid subordination put the construction lien ahead of the seller's security.",
+        "explanation": "The seller's lien must be evaluated as subordinate under the changed order, with personal remedies analyzed separately."
+      },
+      {
+        "text": "The seller originally owned the property, so the seller's lien cannot be affected by foreclosure.",
+        "explanation": "Former ownership does not exempt the carryback security from its agreed priority."
+      },
+      {
+        "text": "The construction loan's higher or lower interest rate establishes lien priority.",
+        "explanation": "Rate comparison does not replace the valid priority agreement."
+      }
+    ]
+  },
+  {
+    "id": "financing-046",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "For an ordinary covered purchase mortgage, the Loan Estimate is delivered in person Monday and the Closing Disclosure in person Wednesday. There are no holidays, waivers, timeshare exception, or triggering later changes. Considering both waiting periods, what is the earliest permitted consummation?",
+    "answer": 0,
+    "options": [
+      {
+        "text": "The following Tuesday.",
+        "explanation": "The seven-business-day Loan Estimate interval ends then; the separate Closing Disclosure interval ends earlier on Saturday."
+      },
+      {
+        "text": "The same week's Saturday.",
+        "explanation": "That satisfies the three-business-day Closing Disclosure period but not the seven-business-day Loan Estimate interval."
+      },
+      {
+        "text": "The following Monday.",
+        "explanation": "Counting Tuesday through Saturday and then Monday gives only six business days after Monday's Loan Estimate delivery."
+      },
+      {
+        "text": "The same week's Friday.",
+        "explanation": "That satisfies neither the seven-day interval nor three full counted business days after Wednesday's receipt."
+      }
+    ]
+  },
+  {
+    "id": "financing-047",
+    "domain": "financing",
+    "lessonSlug": "financing-credit-law-originators",
+    "prompt": "A borrower wants to shorten the ordinary Loan Estimate waiting period solely to depart on vacation sooner. The lender offers a preprinted emergency-waiver form. Which statement best applies the waiver rule?",
+    "answer": 2,
+    "options": [
+      {
+        "text": "The borrower's signature makes any preferred closing date a qualifying emergency.",
+        "explanation": "Preference for convenience does not establish a bona fide personal financial emergency."
+      },
+      {
+        "text": "A preprinted form is sufficient if both the broker and lender also sign it.",
+        "explanation": "Those signatures do not replace the required individualized consumer statement or permit printed waiver forms."
+      },
+      {
+        "text": "The rule requires a qualifying emergency and the prescribed individualized signed, dated statement after disclosure; ordinary vacation convenience and a printed form do not satisfy it.",
+        "explanation": "All consumers primarily liable must meet the applicable statement requirements, and printed forms for this purpose are prohibited."
+      },
+      {
+        "text": "The Closing Disclosure automatically waives the remaining Loan Estimate period.",
+        "explanation": "The two timing requirements operate separately; delivery of one disclosure does not waive the other."
+      }
+    ]
   }
 ]

@@ -1,0 +1,423 @@
+[
+  {
+    "lessonSlug": "contracts-formation",
+    "overview": [
+      {
+        "label": "Formation",
+        "detail": "Capacity, consent, lawful object, and consideration are separate requirements."
+      },
+      {
+        "label": "Communication",
+        "detail": "An offer's prescribed acceptance method can decide when assent becomes effective."
+      },
+      {
+        "label": "Enforcement",
+        "detail": "A signed agreement can still have a writing, authority, or consent defect."
+      }
+    ],
+    "sections": [
+      {
+        "id": "the-four-essentials",
+        "takeaway": "Check capacity, mutual consent, lawful purpose, and consideration separately; matching signatures cannot cure missing authority or an unlawful object."
+      },
+      {
+        "id": "promises-performance-and-deposits",
+        "takeaway": "Exchanged promises can supply consideration without earnest money; a signed document may remain executory because substantial performance is still due."
+      },
+      {
+        "id": "offer-and-acceptance",
+        "takeaway": "Track each offer, inquiry, counteroffer, and acceptance; a request to discuss a term does not necessarily reject the existing proposal."
+      },
+      {
+        "id": "revocation-and-an-option",
+        "takeaway": "Distinguish a private decision to withdraw from effective revocation, and distinguish an ordinary expiring offer from a binding option commitment."
+      },
+      {
+        "id": "void-voidable-and-unenforceable",
+        "takeaway": "Void, voidable, and unenforceable describe different defects and consequences; a limitations defense differs from a requirement for written evidence."
+      },
+      {
+        "id": "the-writing-requirements",
+        "takeaway": "Read the entire agreement, identify the obligated legal person, and verify signature authority; electronic form does not automatically resolve every writing requirement."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Compare the response with the offered terms before asking whether delivery was timely; a timely counteroffer is still not unconditional acceptance."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "A signed acceptance arrives after withdrawal",
+      "setup": "Buyer Lane offers $680,000 for a parcel. The offer expressly requires Lane's receipt of the seller's signed, unchanged acceptance by 5 p.m. Friday. No binding option or other limit on revocation exists. All communications below are received at the stated times, and there are no disputed agency-notice issues.",
+      "steps": [
+        {
+          "label": "Thursday, 10 a.m.",
+          "action": "The seller signs the unchanged offer but keeps the signed document in the seller's possession.",
+          "evidence": "There is evidence of the seller's intent to accept, but the offer's express receipt condition has not yet occurred. The document remains undelivered.",
+          "warning": "Do not treat the signature time as the only formation fact. In this problem the parties have specified a required communication event; applying a general transmission rule without reading that condition changes the facts."
+        },
+        {
+          "label": "Friday, noon",
+          "action": "Lane sends a clear withdrawal that the seller receives at noon, before any signed acceptance reaches Lane.",
+          "evidence": "The withdrawal is communicated, not merely drafted or saved privately. Under the stated ordinary-offer assumptions, the required acceptance event has not occurred.",
+          "warning": "A Friday 5 p.m. expiration is the outside acceptance deadline, not necessarily an irrevocable promise. An option supported by the required consideration and formalities would require a different analysis."
+        },
+        {
+          "label": "Friday, 2 p.m.",
+          "action": "The seller delivers the previously signed acceptance to Lane and points to Thursday's signature date.",
+          "evidence": "Receipt occurs before the original deadline but after the effective withdrawal. The signature date does not erase the intervening communication.",
+          "warning": "Two timing conditions must be checked: whether acceptance occurred before expiration and whether the offer remained open at acceptance. Meeting the deadline alone does not necessarily establish the second requirement."
+        },
+        {
+          "label": "Change one fact",
+          "action": "Suppose instead Lane received the unchanged signed acceptance at 11 a.m., one hour before the seller received the withdrawal.",
+          "evidence": "The required acceptance event would then precede the attempted revocation, assuming the other formation requirements are satisfied.",
+          "warning": "After formation, a later message saying withdraw does not ordinarily revoke an offer that has already become a contract. Analyze a contractual cancellation right, mutual agreement, or another applicable remedy instead of reusing the preacceptance rule."
+        }
+      ],
+      "takeaway": "Build the timeline around legally significant communication events, not document preparation alone. First ask whether an offer was still open when its prescribed acceptance occurred; only then evaluate the resulting contract's enforceability and performance obligations."
+    },
+    "pitfalls": [
+      {
+        "trap": "A signature always completes acceptance.",
+        "correction": "Apply the offer's prescribed communication method.",
+        "why": "The problem may expressly require receipt."
+      },
+      {
+        "trap": "An expiration date makes an offer irrevocable.",
+        "correction": "Look for a binding option or another limit.",
+        "why": "An outside deadline and a purchased commitment are different."
+      },
+      {
+        "trap": "Withdrawal works the same before and after formation.",
+        "correction": "Classify the agreement's current legal stage.",
+        "why": "Revoking an offer is not rescinding a completed contract."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "agency-relationships",
+        "reason": "Connect acceptance communications with actual signing authority."
+      },
+      {
+        "lessonSlug": "contracts-performance-and-remedies",
+        "reason": "After formation, evaluate performance and cancellation rights instead of offer revocation."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "contracts-performance-and-remedies",
+    "overview": [
+      {
+        "label": "Performance",
+        "detail": "Identify the obligation and deadline before labeling conduct a breach."
+      },
+      {
+        "label": "Exit routes",
+        "detail": "Contingency cancellation, rescission, and damages follow different rules."
+      },
+      {
+        "label": "Deposits",
+        "detail": "A liquidated-damages clause is not automatic escrow release authority."
+      }
+    ],
+    "sections": [
+      {
+        "id": "a-signed-contract-begins-a-sequence",
+        "takeaway": "A formed contract creates remaining duties; identify each party's promised performance and conditions rather than assuming a signature completes the transaction."
+      },
+      {
+        "id": "contingencies-allocate-risk",
+        "takeaway": "Contingencies allocate specified risks, and their scope, removal, and notice provisions control available choices when financing, appraisal, or inspections change."
+      },
+      {
+        "id": "tender-breach-and-time",
+        "takeaway": "Tender, timing, amendments, and waiver require their own facts; an extension of closing does not necessarily extend an independently stated deposit deadline."
+      },
+      {
+        "id": "assignment-is-not-release",
+        "takeaway": "Assignment transfers contractual interests but does not necessarily discharge the original obligor; release requires an applicable agreement or other legal basis."
+      },
+      {
+        "id": "rescission-and-restitution",
+        "takeaway": "Rescission seeks to unwind the agreement with appropriate notice and restoration; distributing a deposit does not necessarily settle every remaining claim."
+      },
+      {
+        "id": "damages-and-specific-performance",
+        "takeaway": "Choose remedies according to the problem and legal requirements; compelling conveyance, compensating loss, and restoring exchanged benefits address different objectives."
+      },
+      {
+        "id": "the-residential-deposit-distinction",
+        "takeaway": "Apply residential liquidated-damages requirements and the correct burden at the three-percent threshold; a disputed default still requires proper handling."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Separate the claimed breach, available remedy, and authority over held funds; no single label resolves all three questions automatically."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "Rescission after possession has begun",
+      "setup": "A buyer has taken possession under a completed purchase and discovers facts that qualified counsel concludes provide a valid rescission ground. The buyer wants to undo the transaction. Assume the governing statutory conditions apply, no disability excuses delay, and no exception permits retaining the transferred benefits. This is not cancellation under a still-open inspection contingency.",
+      "question": "Which proposed approach best matches the objective and the stipulated legal framework?",
+      "choices": [
+        {
+          "label": "Give prompt notice and offer reciprocal restoration",
+          "correct": true,
+          "result": "Address the rescission procedure with counsel, including prompt notice and restoration or an appropriate offer to restore received benefits.",
+          "reasoning": "The ground for rescission answers why the contract may be unwound; Civil Code section 1691 addresses how that relief is pursued, subject to applicable qualifications. Possession and transferred value cannot simply be ignored. The offer to restore can be conditioned on the other party doing likewise. Counsel must address the actual property, payments, and other benefits rather than inventing a self-executing reversal."
+        },
+        {
+          "label": "Keep possession permanently and demand every payment back",
+          "correct": false,
+          "result": "The proposed result combines an unwinding remedy with retention of its benefits without the stipulated justification.",
+          "reasoning": "Rescission ordinarily seeks to restore the parties, not award the buyer both the purchased property and a complete return of its price. A damages claim can present a different analysis, but choosing a different remedy requires its own facts and legal basis. Do not assume that misconduct by the other side automatically eliminates restoration requirements in every case."
+        },
+        {
+          "label": "Send the same inspection-cancellation form used before closing",
+          "correct": false,
+          "result": "A preclosing contingency procedure does not automatically govern a completed purchase and a separate rescission ground.",
+          "reasoning": "Contractual inspection rights have their own timing, conditions, and notice language. The facts instead posit a completed transaction and a legally recognized basis for rescission. A familiar form title is not enough to identify the appropriate procedure. The agent should communicate facts and coordinate with counsel rather than declare that an expired contingency has returned."
+        }
+      ],
+      "takeaway": "Start with the requested remedy and the transaction's stage. Grounds, notice, restoration, and the handling of exchanged benefits are separate issues. A buyer may have a serious claim without having authority to treat every prior performance as already reversed."
+    },
+    "pitfalls": [
+      {
+        "trap": "Any valid claim automatically rescinds the sale.",
+        "correction": "Distinguish grounds from the required procedure.",
+        "why": "Notice and restoration can remain necessary."
+      },
+      {
+        "trap": "A deposit split resolves every dispute.",
+        "correction": "Read the scope of the actual release.",
+        "why": "Instructions about funds need not waive other rights."
+      },
+      {
+        "trap": "Assignment ends the original buyer's exposure.",
+        "correction": "Look for an effective release or novation.",
+        "why": "Transferring rights is not necessarily discharging obligations."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "contracts-formation",
+        "reason": "Establish that a contract formed before analyzing its breach or rescission."
+      },
+      {
+        "lessonSlug": "transfer-title-and-escrow",
+        "reason": "Separate substantive remedies from escrow's authority to disburse disputed funds."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "contracts-representation-agreements",
+    "overview": [
+      {
+        "label": "Listing type",
+        "detail": "Exclusivity and the owner-sale exception affect earning conditions."
+      },
+      {
+        "label": "Buyer timing",
+        "detail": "The agreement deadline, term calculation, and renewal date are distinct."
+      },
+      {
+        "label": "Advance fees",
+        "detail": "Funds collected before the specified service is complete require separate safeguards."
+      }
+    ],
+    "sections": [
+      {
+        "id": "an-employment-agreement-is-a-separate-contract",
+        "takeaway": "A representation contract employs the brokerage; it does not itself sell the property or ordinarily authorize the salesperson to bind the client."
+      },
+      {
+        "id": "compare-the-principal-listing-types",
+        "takeaway": "Compare listing compensation triggers and owner-sale exceptions, then apply covered residential duration and renewal restrictions without confusing them with buyer-agreement rules."
+      },
+      {
+        "id": "buyer-agreements-the-current-california-rule",
+        "takeaway": "Apply the current agreement-timing presumption, ninety-day definition, delayed-start rule, and entity exception while independently checking mandatory renewal conditions."
+      },
+      {
+        "id": "what-the-buyer-promises",
+        "takeaway": "Read the defined search or property scope, exclusivity, compensation credits, cancellation rights, and surviving obligations rather than assuming industry custom supplies missing terms."
+      },
+      {
+        "id": "advance-fees-are-not-ordinary-earned-commissions",
+        "takeaway": "Classify advance fees by substance, secure required DRE review before use, and account for qualifying expenditures and refundable unexpended funds."
+      },
+      {
+        "id": "worked-comparison",
+        "takeaway": "An owner-produced sale can change the listing compensation result, while a separate advance-fee balance still depends on actual contracted performance."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Identify the agreement type first; employment scope, duration, compensation, and advance-fee treatment are related but legally distinct questions."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "Three agreements that cannot share one clock",
+      "setup": "On September 10, 2026, an individual buyer and brokerage complete the last signature on a representation agreement. It specifies a delayed effective date of September 15 and the maximum permitted individual term. Compare three later proposals. Assume covered licensed buyer services and no entity exception; do not substitute the seller-listing limits.",
+      "cases": [
+        {
+          "label": "The delayed initial term",
+          "changedFact": "The parties use September 15 as the agreed first day for the regulatory ninety-day calculation.",
+          "result": "The ninetieth day is December 13, 2026, not December 9.",
+          "reasoning": [
+            "Count sixteen days from September 15 through September 30, thirty-one in October, thirty in November, and thirteen in December. That totals ninety. Without the delayed date, counting would begin the day after the September 10 final signature.",
+            "The delayed date changes the duration calculation. It does not establish that the broker may disregard the separate rule requiring a timely signed agreement as soon as practicable and no later than execution of the buyer's offer."
+          ]
+        },
+        {
+          "label": "An early renewal",
+          "changedFact": "Both parties sign a permitted written renewal on December 1, before the initial agreement expires.",
+          "result": "The renewal's effective date is December 1, the last-signature date, rather than automatically the day after the prior term ends.",
+          "reasoning": [
+            "The DRE regulation specifies the renewal effective date. Read the resulting renewal term rather than stacking another ninety days onto December 13 by assumption.",
+            "The parties may choose a shorter term within the applicable limit. The maximum is not a mandatory period, and a renewal must satisfy the required writing, dating, signatures, and timing rather than renew itself."
+          ]
+        },
+        {
+          "label": "A late signature",
+          "changedFact": "One party does not sign the proposed renewal until December 14, after the initial term has expired.",
+          "result": "The proposal does not satisfy the regulation's requirement that the renewal be signed before expiration.",
+          "reasoning": [
+            "Calling a document a renewal does not cure the missed signing condition. Any later relationship requires a properly compliant agreement rather than an assumption of automatic continuation.",
+            "Separate the absence of current authority from any legitimately surviving fee provision. Expiration does not necessarily erase earned compensation, but a potential payment claim does not itself create a renewed representation term."
+          ]
+        }
+      ],
+      "takeaway": "Use separate dates for last signature, an agreed delayed initial start, expiration, and renewal signature. Then check the actual contracting party and services. An investor acting individually does not become an LLC merely by buying a rental."
+    },
+    "pitfalls": [
+      {
+        "trap": "Three months always means the same numbered calendar date.",
+        "correction": "Apply the regulatory ninety-day calculation.",
+        "why": "Month lengths and an agreed delayed start can change the endpoint."
+      },
+      {
+        "trap": "A renewal always starts after the old expiration.",
+        "correction": "Use the regulation's last-signature effective date.",
+        "why": "Early signing can produce overlap instead of simple stacking."
+      },
+      {
+        "trap": "An LLC exception permits automatic renewal.",
+        "correction": "Distinguish maximum-term exceptions from other requirements.",
+        "why": "Entity status does not erase the prohibition on automatic renewal."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "agency-disclosure-and-conflicts",
+        "reason": "Connect employment changes to agency disclosure and informed consent."
+      },
+      {
+        "lessonSlug": "agency-compensation-and-termination",
+        "reason": "Analyze surviving compensation independently from the representation clock."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "overview": [
+      {
+        "label": "Instrument",
+        "detail": "A purchase contract, lease, note, and security instrument perform different jobs."
+      },
+      {
+        "label": "Choice",
+        "detail": "An option gives a defined exercise right, not an immediate duty to purchase."
+      },
+      {
+        "label": "Negotiability",
+        "detail": "Contract enforceability, negotiability, collateral, and securities regulation are separate tests."
+      }
+    ],
+    "sections": [
+      {
+        "id": "read-the-whole-transaction",
+        "takeaway": "Reconcile price, deposit, financing, costs, and credits without counting the same funds twice; the purchase agreement governs more than the headline price."
+      },
+      {
+        "id": "financing-title-and-possession",
+        "takeaway": "Identify financing conditions, promised title, and possession arrangements separately; an early move-in or seller carryback can create obligations beyond closing arithmetic."
+      },
+      {
+        "id": "options-and-first-refusal-rights",
+        "takeaway": "Exercise an option according to its terms, and distinguish that current choice from a first-refusal right triggered by a future proposed sale."
+      },
+      {
+        "id": "a-lease-transfers-possession-not-the-fee",
+        "takeaway": "A lease transfers possessory rights for a period; retaining part of the remaining term distinguishes a sublease from a complete leasehold assignment."
+      },
+      {
+        "id": "notes-and-their-security",
+        "takeaway": "A note evidences repayment while separate security supports collection; negotiability and possible securities treatment do not disappear because collateral is real estate."
+      },
+      {
+        "id": "land-sale-contracts-and-a-worked-scenario",
+        "takeaway": "Under a land sale contract, installment performance and retained legal title require careful analysis; an option credit alone does not establish the same ownership arrangement."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Classify the instrument before applying rules about money, title, possession, or exercise; similar payment language can support very different legal rights."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "A secured promise with a profits condition",
+      "setup": "A developer offers an investor a written promise to repay $100,000 only if the development generates sufficient profits. The promise is accompanied by a deed of trust. The promoter calls it a guaranteed negotiable note and says a real estate license removes any need to consider securities laws. Assume the payment condition is genuine and no separate unconditional promise exists.",
+      "question": "Which evaluation correctly separates the document's different legal functions?",
+      "choices": [
+        {
+          "label": "Test repayment, negotiability, security, and regulation separately",
+          "correct": true,
+          "result": "The profits condition matters to negotiability; the deed of trust and possible securities treatment require independent analysis.",
+          "reasoning": "A conditional repayment obligation should not be presented as an unconditional negotiable promise merely because it is written or secured. The document may still create contractual rights even if it fails negotiable-instrument requirements. Collateral presents additional priority and value questions, not a guaranteed recovery. The SEC cautions that promissory notes can be securities, so appropriate registration, exemption, and licensing questions cannot be dismissed by pointing to a real estate license."
+        },
+        {
+          "label": "Treat recording as the cure",
+          "correct": false,
+          "result": "Recording the deed of trust does not remove the condition from the underlying repayment promise.",
+          "reasoning": "The security instrument concerns an interest supporting an obligation and its treatment in the property records. It does not rewrite the note, prove project profitability, or eliminate senior liens. Recording and negotiability therefore answer different questions. A recorded instrument can secure a risky obligation, and the existence of collateral does not establish compliance with a separate securities requirement."
+        },
+        {
+          "label": "Treat nonnegotiability as absence of every obligation",
+          "correct": false,
+          "result": "Failure of a negotiability requirement does not automatically make the entire contractual arrangement void.",
+          "reasoning": "Negotiability is a specialized classification with specific requirements. Ordinary contract enforceability asks other questions about assent, consideration, lawful purpose, capacity, and terms. A condition may prevent negotiability while leaving an enforceable conditional promise. Whether this particular agreement or offering is enforceable still requires full analysis; the classification alone cannot resolve every other defect or regulatory issue."
+        }
+      ],
+      "takeaway": "A variable interest rate is different from a condition on repayment. Commercial Code section 3112 permits variable interest, so that feature alone does not defeat negotiability. Read the actual promise, identify security and priority, and examine any separate securities requirements rather than relying on the package's name."
+    },
+    "pitfalls": [
+      {
+        "trap": "Collateral makes repayment certain.",
+        "correction": "Examine the promise and the collateral's priority and value.",
+        "why": "Security can support collection without eliminating default risk."
+      },
+      {
+        "trap": "Every nonnegotiable note is void.",
+        "correction": "Separate negotiability from ordinary contract enforceability.",
+        "why": "Failure of one specialized classification does not erase all contractual rights."
+      },
+      {
+        "trap": "A real estate license resolves securities compliance.",
+        "correction": "Examine the investment and required regulatory authority.",
+        "why": "A promissory-note offering can raise separate securities obligations."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "financing-notes-security",
+        "reason": "Connect repayment promises with the instruments securing them."
+      },
+      {
+        "lessonSlug": "contracts-formation",
+        "reason": "Apply ordinary contract requirements independently of negotiable-instrument status."
+      }
+    ]
+  }
+]

@@ -4,8 +4,10 @@ import { useEffect, useState } from 'react'
 
 export function LessonToc({
   headings,
+  hasGuide = false,
 }: {
   headings: { depth: number; text: string; id: string }[]
+  hasGuide?: boolean
 }) {
   const [active, setActive] = useState('')
   useEffect(() => {
@@ -37,6 +39,9 @@ export function LessonToc({
               {heading.text}
             </a>
           ))}
+        {hasGuide && <a href="#case-lab">Case lab</a>}
+        {hasGuide && <a href="#exam-pitfalls">Exam pitfalls</a>}
+        {hasGuide && <a href="#connected-concepts">Connected concepts</a>}
         <a href="#knowledge-check">Knowledge check</a>
         <a href="#sources">Sources</a>
       </nav>

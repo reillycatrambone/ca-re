@@ -7,6 +7,7 @@ import { ArrowUpRight, Search, X } from 'lucide-react'
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
 import { searchOptions, type SearchEntry } from '@/lib/search'
+import { revealInPageAnchor } from '@/lib/in-page-navigation'
 
 export function SearchDialog() {
   const [open, setOpen] = useState(false)
@@ -50,6 +51,7 @@ export function SearchDialog() {
   }, [active])
   const navigate = (href: string) => {
     setOpen(false)
+    revealInPageAnchor(href)
     router.push(href)
   }
   return (

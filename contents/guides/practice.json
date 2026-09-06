@@ -1,0 +1,931 @@
+[
+  {
+    "lessonSlug": "practice-licensing-supervision",
+    "overview": [
+      {
+        "label": "Activity first",
+        "detail": "Licensing follows what a person does for another, not the worker's title."
+      },
+      {
+        "label": "Delegation is limited",
+        "detail": "A manager can perform assigned work without eliminating the responsible broker's supervision."
+      },
+      {
+        "label": "Remedies differ",
+        "detail": "DRE discipline, civil damages, and Consumer Recovery Account eligibility require separate analyses."
+      }
+    ],
+    "sections": [
+      {
+        "id": "the-activity-determines-the-license",
+        "takeaway": "Identify the act, expected compensation, person represented, and actual exemption before deciding whether the worker needs an active license and broker affiliation."
+      },
+      {
+        "id": "supervision-is-an-operating-responsibility",
+        "takeaway": "Reasonable supervision requires implemented procedures, document review, and responses to warning signs; a contractor agreement or delegated task does not erase responsibility."
+      },
+      {
+        "id": "assistants-can-support-but-cannot-replace-licensees",
+        "takeaway": "An assistant may transmit approved information or schedule events, but independent negotiation, substantive advice, and selection of transaction terms cross the clerical boundary."
+      },
+      {
+        "id": "initial-qualification-and-renewal",
+        "takeaway": "Passing an examination, meeting renewal education requirements, and holding present authority to practice are separate milestones; a late-renewal opportunity does not authorize intervening work."
+      },
+      {
+        "id": "records-make-conduct-reviewable",
+        "takeaway": "Retain the transaction's evidence, not merely its final contract; electronic messages and instructions can explain representations, receipt, authority, and delivery."
+      },
+      {
+        "id": "discipline-and-financial-recovery-serve-different-purposes",
+        "takeaway": "Administrative discipline addresses licensing conduct, while civil remedies and the limited Recovery Account have different purposes, eligibility rules, procedures, and financial limits."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "A license lapse and an assistant's unauthorized showing create separate authorization problems; the broker must reassign work rather than rely on pending renewal."
+      },
+      {
+        "id": "apply-the-licensing-test-to-a-workflow",
+        "takeaway": "Changing from typing a licensee's chosen terms to independently choosing a contingency changes the activity, even when the same standard form is used."
+      },
+      {
+        "id": "build-supervision-around-evidence",
+        "takeaway": "Design supervision around actual risks and evidence; repeated late deposit documentation calls for investigation before a financial loss is established."
+      },
+      {
+        "id": "separate-the-remedy-from-the-complaint",
+        "takeaway": "Match the requested result to the available process, and never confuse correcting records or renewing a license with retroactively authorizing earlier conduct."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Resolve licensing questions by function, authority, supervision, and remedy; avoid answers that treat job labels, client consent, or subsequent renewal as universal permission."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "A counteroffer arrives during a license lapse",
+      "setup": "A remote team receives a counteroffer while its lead salesperson's license is expired. An unlicensed coordinator knows the file, the branch manager is available, and the client wants an immediate response. The manager asks the coordinator to choose a shorter inspection period and promises to review the signed paperwork later.",
+      "steps": [
+        {
+          "label": "Classify the proposed work",
+          "action": "Separate transmission of the counteroffer from deciding whether its inspection term serves the client. Forwarding approved information can be administrative; selecting the response is substantive.",
+          "evidence": "Identify who chose the term, what instructions already existed, and whether the worker was authorized when the choice was made.",
+          "warning": "A standard form does not make every decision entered into it clerical."
+        },
+        {
+          "label": "Verify present authority",
+          "action": "Confirm the status and required affiliation of the person who will advise the client. Reassign licensed work to an appropriately authorized licensee rather than waiting for the expired salesperson's renewal.",
+          "evidence": "Keep the current status check and assignment record with the transaction's communications.",
+          "warning": "A pending application or later renewal does not establish authority during the lapse."
+        },
+        {
+          "label": "Implement supervision now",
+          "action": "The branch manager should arrange timely qualified assistance, review the proposed response, and escalate the office's expiration-control failure to the responsible broker.",
+          "evidence": "Document the review, the corrected assignment, and the procedure used to prevent another lapse.",
+          "warning": "Delegation and independent-contractor status do not remove the responsible broker's supervisory role."
+        },
+        {
+          "label": "Preserve the actual history",
+          "action": "Retain the original counteroffer, communications, actual dates, and corrective steps. If unauthorized advice already occurred, address that conduct rather than rewriting the file to imply earlier approval.",
+          "evidence": "A complete record distinguishes the client's decision from the coordinator's actions and the broker's response.",
+          "warning": "Absence of a completed loss does not make inaccurate records acceptable."
+        }
+      ],
+      "takeaway": "The first control is a qualified person performing the right function at the right time. Review and accurate records support that authority; they cannot create it retroactively."
+    },
+    "pitfalls": [
+      {
+        "trap": "The manager signed, so supervision transferred.",
+        "correction": "Treat management as delegated performance, not an automatic release.",
+        "why": "The responsible broker must still maintain reasonable oversight."
+      },
+      {
+        "trap": "No closing means no licensed activity.",
+        "correction": "Evaluate the negotiation when it occurred.",
+        "why": "One compensated act can matter before a sale is completed."
+      },
+      {
+        "trap": "A complaint guarantees recovery.",
+        "correction": "Identify the specific remedy and statutory prerequisites.",
+        "why": "Discipline and compensation are not interchangeable processes."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-trust-funds",
+        "reason": "Apply supervision to immediate delivery, beneficiary records, and authorized disbursement."
+      },
+      {
+        "lessonSlug": "practice-ethics-advertising-technology",
+        "reason": "Connect personnel authority with accurate advertising and reliable electronic records."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "practice-trust-funds",
+    "overview": [
+      {
+        "label": "Ownership survives custody",
+        "detail": "Money held for a client does not become broker capital."
+      },
+      {
+        "label": "Three totals matter",
+        "detail": "Reconcile adjusted bank funds, the control record, and separate beneficiary balances."
+      },
+      {
+        "label": "Authority and collection differ",
+        "detail": "A permitted payee still needs available funds belonging to the correct beneficiary."
+      }
+    ],
+    "sections": [
+      {
+        "id": "custody-does-not-transfer-ownership",
+        "takeaway": "Trust funds belong to others despite broker custody; depositing them into operating accounts and spending them without authority create different, sometimes overlapping violations."
+      },
+      {
+        "id": "two-different-clocks",
+        "takeaway": "A salesperson must immediately deliver received trust funds as required; the broker's ordinary placement rule does not grant the salesperson personal holding time."
+      },
+      {
+        "id": "holding-an-offer-check-uncashed",
+        "takeaway": "Preacceptance holding requires the specified check conditions and seller notice; continued holding after acceptance requires additional written authority from the offeree."
+      },
+      {
+        "id": "the-account-and-the-people-with-access",
+        "takeaway": "Account designation, authorized signers, applicable fidelity protection, and electronic access controls matter independently of whether the account balance appears correct."
+      },
+      {
+        "id": "limited-broker-money-is-an-exception-not-a-target",
+        "takeaway": "The limited bank-charge allowance does not create operating capital; earned fees and disputed compensation require their own identification and disbursement treatment."
+      },
+      {
+        "id": "three-records-should-tell-one-story",
+        "takeaway": "Bank timing adjustments must reconcile with both the control ledger and total beneficiary obligations; one owner's deficit cannot offset another owner's entitlement."
+      },
+      {
+        "id": "worked-reconciliation",
+        "takeaway": "Add valid deposits in transit and subtract outstanding checks, then investigate unexplained differences instead of inventing entries that make totals match."
+      },
+      {
+        "id": "disbursement-and-disputes",
+        "takeaway": "A disputed deposit requires lawful release authority, not the broker's preferred outcome; retain a trail even when funds went directly to neutral escrow."
+      },
+      {
+        "id": "follow-one-payment-from-receipt-to-release",
+        "takeaway": "Follow receipt, holding instructions, acceptance, collection, and release separately; the applicable authority can change as the transaction moves through these events."
+      },
+      {
+        "id": "diagnose-shortages-without-hiding-them",
+        "takeaway": "A positive bank balance can conceal a beneficiary shortage, while an unexplained overage remains unidentified money rather than automatic broker income."
+      },
+      {
+        "id": "keep-broker-compensation-distinct",
+        "takeaway": "Record receipts intact and transfer earned compensation appropriately; neither a personal bill nor permission to keep prohibited trust interest becomes lawful through bookkeeping."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Test ownership, timing, collection, signer authority, and payment instructions separately; mathematical agreement is useful only when the underlying transactions are valid."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Balanced cash, uncovered beneficiary",
+      "setup": "A manager's bank statement shows $24,000. A valid $3,000 deposit is in transit and $5,000 in authorized checks remain outstanding. The control ledger shows $22,000. Owner A's separate balance is $15,000, Owner B's is $8,000, and Owner C's is negative $1,000 after an excessive payment. Assume no broker-owned amount and no other timing differences.",
+      "inputs": [
+        {
+          "label": "Statement balance",
+          "value": "$24,000"
+        },
+        {
+          "label": "Deposit in transit",
+          "value": "$3,000"
+        },
+        {
+          "label": "Outstanding checks",
+          "value": "$5,000"
+        },
+        {
+          "label": "Separate balances",
+          "value": "A $15,000; B $8,000; C negative $1,000"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Adjust the bank",
+          "expression": "24000 + 3000 - 5000",
+          "value": 22000,
+          "format": "currency",
+          "explanation": "The valid deposit belongs in the reconciliation although the bank has not posted it. Outstanding checks reduce the amount available once they clear. These timing adjustments reconcile the bank with recorded cash; they do not establish that each owner's money is protected."
+        },
+        {
+          "label": "Recognize the misleading net total",
+          "expression": "15000 + 8000 - 1000",
+          "value": 22000,
+          "format": "currency",
+          "explanation": "The net separate-record total matches the control record, but that agreement hides Owner C's deficit. A negative allocation is not money supplied by C and cannot reduce what the broker owes A or B. Mere equality among net totals is therefore insufficient."
+        },
+        {
+          "label": "Calculate positive obligations",
+          "expression": "15000 + 8000",
+          "value": 23000,
+          "format": "currency",
+          "explanation": "The positive balances identify $23,000 still owed to the other beneficiaries. Their rights are not reduced because another property spent too much. Compare this obligation with actual adjusted funds rather than treating the deficit as a receivable that finances client disbursements."
+        },
+        {
+          "label": "Identify the shortage",
+          "expression": "23000 - 22000",
+          "value": 1000,
+          "format": "currency",
+          "explanation": "The $1,000 gap requires investigation and correction. Trace the excessive payment, its authority, and the affected records. Do not charge a convenient owner's ledger or relabel the deficit as broker compensation merely to force a clean reconciliation."
+        }
+      ],
+      "takeaway": "Reconciliation checks timing and ownership. A net total can balance while a beneficiary remains underfunded; the positive obligations expose the missing money."
+    },
+    "pitfalls": [
+      {
+        "trap": "A positive account cannot be short.",
+        "correction": "Compare funds with positive beneficiary obligations.",
+        "why": "The account may owe more than its cash balance."
+      },
+      {
+        "trap": "An uncleared check funds a refund.",
+        "correction": "Confirm collection as well as release authority.",
+        "why": "A returned deposit can leave the refund funded by others."
+      },
+      {
+        "trap": "A balancing entry fixes the problem.",
+        "correction": "Trace and document the real transaction.",
+        "why": "Unsupported adjustments conceal ownership instead of correcting it."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-property-management",
+        "reason": "Apply beneficiary accounting to rents, security deposits, and repair reserves."
+      },
+      {
+        "lessonSlug": "financing-credit-law-originators",
+        "reason": "Distinguish lender disclosures from permission to disburse private investment funds."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "practice-fair-housing",
+    "overview": [
+      {
+        "label": "Access begins early",
+        "detail": "Advertising, inquiry responses, and showings can restrict opportunity before an application exists."
+      },
+      {
+        "label": "Equal is not identical",
+        "detail": "A lawful accommodation may require changing a generally applied rule."
+      },
+      {
+        "label": "Exemptions are narrow",
+        "detail": "Test the particular law, protected ground, property, and conduct separately."
+      }
+    ],
+    "sections": [
+      {
+        "id": "equal-opportunity-is-a-transaction-duty",
+        "takeaway": "Federal and California protections overlap across housing services; unequal inquiries, advertising, financing, or management can matter without a completed discriminatory sale."
+      },
+      {
+        "id": "treat-choices-as-the-consumers-choices",
+        "takeaway": "Implement the client's lawful preferences rather than predicting where a protected group belongs; steering, blockbusting, and redlining describe different interference with opportunity."
+      },
+      {
+        "id": "advertising-and-screening",
+        "takeaway": "Examine both screening criteria and their application, including voucher treatment and alternative evidence; neutral advertising words do not cure discriminatory audience targeting."
+      },
+      {
+        "id": "disability-policies-and-physical-features",
+        "takeaway": "Accommodation changes policy while modification changes the premises; verify only what is reasonably needed and apply the housing program's actual cost rules."
+      },
+      {
+        "id": "families-and-limited-exemptions",
+        "takeaway": "Familial-status protections and older-persons qualifications have specific conditions; an age-related exemption does not remove unrelated protections or every advertising restriction."
+      },
+      {
+        "id": "servicing-diverse-populations",
+        "takeaway": "Ask about communication needs without stereotypes, and evaluate translation requirements using the covered agreement and negotiation circumstances rather than perceived citizenship."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "Use the tenant's subsidized rent share for the illustrated income comparison, while assessing the disability-related parking request independently and promptly."
+      },
+      {
+        "id": "compare-equal-service-with-identical-treatment",
+        "takeaway": "An unchanged parking policy can deny equal access when a reasonable exception is needed; disability does not establish every person's housing preferences."
+      },
+      {
+        "id": "screening-with-subsidized-rent",
+        "takeaway": "Alternative evidence can matter when a subsidized applicant lacks a credit score; a uniform automated screen cannot replace the applicable statutory process."
+      },
+      {
+        "id": "recognize-discrimination-before-a-rejection",
+        "takeaway": "Compare access to information and showings, not just final screening outcomes; client-directed location preferences differ from agent-imposed protected-characteristic assumptions."
+      },
+      {
+        "id": "apply-exemptions-one-law-at-a-time",
+        "takeaway": "Identify which law and protected ground an exemption reaches before relying on it; limited permission under one rule is not unrestricted discrimination authority."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Classify the conduct and requested change, then evaluate individual needs, lawful criteria, and the precise exemption instead of relying on stereotypes."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "One parking policy, three different facts",
+      "setup": "A provider normally offers unassigned parking. Compare three requests without assuming every exception is favoritism or every disability-related statement automatically decides the result. The task is to identify what information matters and which rule is being changed, while keeping housing choices with the applicant or resident.",
+      "cases": [
+        {
+          "label": "An apparent need",
+          "changedFact": "A resident with an apparent mobility impairment needs an available nearby space to reach the dwelling.",
+          "result": "Evaluate a reserved-space accommodation rather than rejecting it solely because parking is normally unassigned.",
+          "reasoning": [
+            "The requested change concerns a policy or service, not construction of a new physical feature. Equal access can require a reasonable exception to a generally applied rule.",
+            "When the disability and connection are apparent, demanding a complete diagnosis or medical history adds information beyond the ordinary verification need. Document the actual request and the response."
+          ]
+        },
+        {
+          "label": "An unclear connection",
+          "changedFact": "Another resident requests the same space but the disability-related need for that particular arrangement is not apparent.",
+          "result": "Seek limited, relevant clarification and evaluate the request; neither automatic denial nor unrestricted medical inquiry is the answer.",
+          "reasoning": [
+            "The appropriate question is the connection between disability and equal use or enjoyment, not whether the resident recites legal terminology or uses the office's preferred form.",
+            "A provider can clarify an uncertain need and consider an effective alternative through the appropriate process. Uncertainty does not justify substituting assumptions about the resident's character or diagnosis."
+          ]
+        },
+        {
+          "label": "A physical alteration",
+          "changedFact": "A resident instead requests installation of a ramp at an entrance to an ordinary private dwelling.",
+          "result": "Analyze a reasonable modification, including applicable approval conditions and who pays in this housing setting.",
+          "reasoning": [
+            "A change to the physical premises is different from reserving an existing space. The category helps identify the relevant conditions but does not decide every request's reasonableness.",
+            "In ordinary private housing, the tenant generally pays for a qualifying physical modification; federally assisted housing or another applicable law can change the allocation. Always retain the scenario's setting."
+          ]
+        }
+      ],
+      "takeaway": "Classify the requested change, identify the individual connection, and apply the actual housing rules. A neutral policy, a disability label, or a cost estimate alone does not finish the analysis."
+    },
+    "pitfalls": [
+      {
+        "trap": "Uniform rules are always lawful.",
+        "correction": "Consider necessary reasonable accommodations.",
+        "why": "Identical administration can still prevent equal use."
+      },
+      {
+        "trap": "No score means no qualification.",
+        "correction": "Apply the required alternative-evidence process.",
+        "why": "A screening vendor does not replace statutory duties."
+      },
+      {
+        "trap": "An age exemption removes every protection.",
+        "correction": "Match the exemption to familial status.",
+        "why": "Other protected grounds remain separate legal questions."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-property-management",
+        "reason": "Carry fair housing analysis into screening, deposits, entry, and tenancy management."
+      },
+      {
+        "lessonSlug": "practice-ethics-advertising-technology",
+        "reason": "Evaluate audience targeting and representations as well as visible advertising copy."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "overview": [
+      {
+        "label": "Verify concrete claims",
+        "detail": "Permits, measurements, and current rent need a factual basis."
+      },
+      {
+        "label": "Show the real condition",
+        "detail": "An illustration disclosure does not excuse concealing a known defect."
+      },
+      {
+        "label": "Separate legal questions",
+        "detail": "Accuracy, conflicts, competition, identity, and payment authority each require review."
+      }
+    ],
+    "sections": [
+      {
+        "id": "ethics-begins-before-a-violation-is-obvious",
+        "takeaway": "Competence includes recognizing limits, obtaining qualified help, and addressing conflicts before they influence advice; a disclaimer cannot cure intentional misrepresentation."
+      },
+      {
+        "id": "facts-opinions-and-omissions",
+        "takeaway": "Distinguish subjective promotion from verifiable claims and misleading omissions; attribution does not justify ignoring conflicting measurements, permits, or observed conditions."
+      },
+      {
+        "id": "identify-the-professional-behind-the-advertisement",
+        "takeaway": "Covered solicitation materials must identify the professional and responsible broker appropriately; team branding cannot imply independent brokerage authority that does not exist."
+      },
+      {
+        "id": "digitally-altered-images",
+        "takeaway": "Covered image alterations require conspicuous identification and public access to originals; an advertiser-controlled posting has corresponding original-image or qualifying-link requirements."
+      },
+      {
+        "id": "competition-and-compensation",
+        "takeaway": "Independent firm pricing differs from coordinated minimum fees among competitors; disclosure does not legalize a prohibited referral payment or restraint."
+      },
+      {
+        "id": "technology-preserves-duties",
+        "takeaway": "Electronic signatures and AI assist work without replacing identity checks, authorization, confidentiality, record retention, or professional review of generated information."
+      },
+      {
+        "id": "worked-scenario-the-altered-wire-instruction",
+        "takeaway": "Verify changed wire instructions through a previously trusted channel, not contact information supplied by the suspect message; preserve evidence and respond promptly."
+      },
+      {
+        "id": "audit-a-representation-before-publication",
+        "takeaway": "Track the source and limits of factual claims, resolve discrepancies, and correct material errors in distributed communications as well as current website copy."
+      },
+      {
+        "id": "distinguish-illustration-from-concealment",
+        "takeaway": "Separate current conditions from proposed changes and future income assumptions; labeling a visualization does not establish structural feasibility or legal permission."
+      },
+      {
+        "id": "test-conflicts-and-competition-separately",
+        "takeaway": "Identify both the conflict and any independent prohibition; client awareness does not make coordinated pricing or an unlawful provider payment permissible."
+      },
+      {
+        "id": "verify-identity-as-well-as-the-document",
+        "takeaway": "A signing record does not alone establish corporate authority, and a familiar email thread does not authenticate new payment instructions."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Check representations, professional identity, conflicts, competition, and verification independently; modern technology changes the medium but not the licensee's underlying responsibilities."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "The attractive image is missing two things",
+      "setup": "An agent's controlled listing website shows a digitally altered living room with a structural column removed. The image is labeled virtually staged, but the original is available only in the brokerage's private file. The seller says removing the column should be easy; no qualified evaluation or permit information supports that claim.",
+      "question": "Which response addresses both the advertising requirement and the unsupported property representation?",
+      "choices": [
+        {
+          "label": "Add a general buyer-verification disclaimer",
+          "correct": false,
+          "result": "A general disclaimer does not supply the original-image access or establish the feasibility of removing the column.",
+          "reasoning": "The missing items answer different questions. Public access lets viewers distinguish the actual photograph from the alteration. Qualified review supports any assertion about structural work. Asking buyers to verify everything does not authorize knowingly leaving the unsupported impression in place."
+        },
+        {
+          "label": "Provide the required original access and correct the feasibility claim",
+          "correct": true,
+          "result": "Use the required conspicuous statement and public original-image access, and avoid presenting unverified structural removal as an established possibility.",
+          "reasoning": "For a covered altered image, the statement belongs on or adjacent to it and explains access through the supplied link, URL, or QR code. The controlled posting must include the original or a qualifying public link. Separately identify the proposed change and obtain appropriate expertise before asserting feasibility."
+        },
+        {
+          "label": "Publish the original but retain the guaranteed removal claim",
+          "correct": false,
+          "result": "The viewer can compare photographs, but the unsupported factual representation remains unresolved.",
+          "reasoning": "Compliance with an image-access requirement is not a warranty that an imagined renovation can be built. The agent must still use reasonable care with material claims, recognize technical limits, and respond to missing or conflicting evidence about the proposed work."
+        },
+        {
+          "label": "Keep the original private and obtain the seller's written approval",
+          "correct": false,
+          "result": "Seller approval does not provide public access or transfer the licensee's responsibility for the advertisement.",
+          "reasoning": "Authority to market and compliance with marketing law are separate. A seller's belief about structural work does not make it reliable technical evidence. The private file remains useful documentation, but it is not the public original-image access the statute requires."
+        }
+      ],
+      "takeaway": "Correct the consumer's understanding in both dimensions: what physically exists now and what is actually supported about a proposed change. One disclaimer cannot answer both."
+    },
+    "pitfalls": [
+      {
+        "trap": "Virtual staging labels solve everything.",
+        "correction": "Check original access and factual accuracy separately.",
+        "why": "Disclosure does not prove a renovation is feasible."
+      },
+      {
+        "trap": "Seller approval removes responsibility.",
+        "correction": "Verify the representation before publishing.",
+        "why": "Client instructions cannot authorize misleading advertising."
+      },
+      {
+        "trap": "The platform verified the signer.",
+        "correction": "Confirm identity and entity authority as needed.",
+        "why": "A digital event is not every necessary legal fact."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-disclosures-inspections",
+        "reason": "Connect advertising claims with material facts, observations, and specialist investigation."
+      },
+      {
+        "lessonSlug": "practice-licensing-supervision",
+        "reason": "Place publication review and correction within the responsible broker's supervision."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "practice-property-management",
+    "overview": [
+      {
+        "label": "Authority is bounded",
+        "detail": "The agreement defines management powers, while law limits what can be authorized."
+      },
+      {
+        "label": "Cash is not NOI",
+        "detail": "Debt service and retained reserves differ from property operating expenses."
+      },
+      {
+        "label": "Deposit rules have layers",
+        "detail": "Check the owner, tenant, collection date, aggregate security, and return process."
+      }
+    ],
+    "sections": [
+      {
+        "id": "the-manager-represents-the-owner-within-limits",
+        "takeaway": "Management powers come from the agreement and applicable law; an owner's instruction does not justify unsafe conditions or unlawful treatment of tenants."
+      },
+      {
+        "id": "operate-from-a-budget-and-reliable-records",
+        "takeaway": "Separate operating income, financing, reserves, and distributions, while keeping rents and other client funds identifiable through supported property and beneficiary records."
+      },
+      {
+        "id": "tenant-selection-and-the-lease",
+        "takeaway": "Apply lawful screening and required disclosures; contractual wording cannot turn nonwaivable residential protections into optional terms or unrestricted landlord powers."
+      },
+      {
+        "id": "current-security-deposit-limits",
+        "takeaway": "Combine security charges and apply the current cap, qualifying small-landlord conditions, and service-member limitation rather than relying on obsolete furnished-property rules."
+      },
+      {
+        "id": "deductions-and-return",
+        "takeaway": "Deduct only reasonable lawful amounts, document condition and work, and meet accounting requirements; wear, preexisting defects, and unsupported upgrades are not tenant charges."
+      },
+      {
+        "id": "habitability-entry-and-possession",
+        "takeaway": "Entry, habitability, rent limits, and possession have separate rules; an exemption from one requirement does not eliminate other state or local protections."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "Renaming security does not avoid its cap, and a tenant-caused burn does not automatically justify charging the full price of a new carpet."
+      },
+      {
+        "id": "reconcile-the-budget-with-cash",
+        "takeaway": "Calculate property NOI before debt service and distinguish retained reserves from expenses; a cash distribution is not the same measure as operating performance."
+      },
+      {
+        "id": "apply-the-deposit-exception-to-the-owner",
+        "takeaway": "Test ownership and unit counts, family-trust conditions, and service-member status, while distinguishing the initial-inspection procedure from ordinary entry notice."
+      },
+      {
+        "id": "calculate-damage-without-funding-an-upgrade",
+        "takeaway": "Evaluate the reasonable damage attributable to the tenant, not the owner's upgrade cost; incomplete work does not eliminate timely accounting or follow-up duties."
+      },
+      {
+        "id": "handle-an-occupied-unit-emergency",
+        "takeaway": "Respond to real emergencies within lawful authority and document the response; retaliation or invented emergencies do not become valid management methods."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Keep authority, cash handling, screening, deposits, entry, and eviction separate in the analysis, while checking both statewide and applicable local requirements."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "The same rent, different deposit limits",
+      "setup": "Each proposed tenancy begins after July 1, 2024, has $2,300 monthly rent, and falls under the stated residential security rules. No special advance-rent arrangement applies. The manager wants $2,300 labeled security and another $700 labeled cleaning security. Compare the ownership and tenant facts before deciding whether the $3,000 total is permitted by the cap.",
+      "cases": [
+        {
+          "label": "Ordinary landlord",
+          "changedFact": "The owner does not qualify for the small-landlord exception.",
+          "result": "The $3,000 aggregate exceeds the general $2,300 one-month security cap.",
+          "reasoning": [
+            "The labels do not separate the two amounts for cap purposes: both secure obligations under the tenancy. The first month's rent is treated separately under the rule, but a cleaning deposit is not exempt merely because it names a specific possible expense.",
+            "The landlord should revise the demanded security rather than attempt to cure the excess through a nonrefundable label. Reasonableness of a later cleaning deduction is an additional question, not permission to collect excessive security now."
+          ]
+        },
+        {
+          "label": "Qualifying small landlord",
+          "changedFact": "A natural-person owner has two duplex rental properties, four total units offered for rent, and otherwise satisfies the exception. The applicant is not a qualifying service member.",
+          "result": "The exception permits security up to $4,600, so $3,000 does not exceed this stated cap.",
+          "reasoning": [
+            "Both property count and total offered-unit count matter. Meeting them does not turn every fee or deduction into a lawful charge; it changes the applicable maximum security under these facts.",
+            "Document the actual ownership and qualification instead of assuming every individually managed property qualifies. Other statutes, reasonable deductions, and applicable local requirements remain separate."
+          ]
+        },
+        {
+          "label": "Service-member applicant",
+          "changedFact": "The same qualifying small landlord receives an application from a qualifying service member.",
+          "result": "The higher small-landlord cap is unavailable against this applicant; the $3,000 demand exceeds the general cap.",
+          "reasoning": [
+            "The exception contains its own tenant-specific limit. Eligibility of the owner is therefore not the last step in the calculation.",
+            "The owner cannot refuse to rent because this limitation prevents collection of the higher security. Apply lawful screening independently rather than treating the protected limitation as a negative qualification."
+          ]
+        }
+      ],
+      "takeaway": "Determine the governing cap before assessing the amount, and combine all security labels. A permissible collection amount still does not authorize every later deduction."
+    },
+    "pitfalls": [
+      {
+        "trap": "Two properties always qualify.",
+        "correction": "Check ownership form and total offered units.",
+        "why": "The exception requires more than a property count."
+      },
+      {
+        "trap": "The deposit pays for a new carpet.",
+        "correction": "Charge only the reasonable attributable loss.",
+        "why": "Age and ordinary wear remain relevant."
+      },
+      {
+        "trap": "Every entry uses twenty-four hours.",
+        "correction": "Identify the purpose and specific procedure.",
+        "why": "Initial inspection and emergencies have different treatment."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-trust-funds",
+        "reason": "Keep tenant deposits and owner reserves properly allocated and protected."
+      },
+      {
+        "lessonSlug": "practice-fair-housing",
+        "reason": "Apply lawful source-of-income, disability, and service-member protections throughout management."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "practice-commercial-specialties",
+    "overview": [
+      {
+        "label": "The document controls",
+        "detail": "Gross, net, and percentage labels cannot replace actual lease terms."
+      },
+      {
+        "label": "Normalize the income",
+        "detail": "Concessions, credits, expirations, and capital obligations change the apparent rent."
+      },
+      {
+        "label": "Identify the asset",
+        "detail": "A business, leasehold, fee interest, permit, and equipment are distinct rights."
+      }
+    ],
+    "sections": [
+      {
+        "id": "match-the-property-to-the-use",
+        "takeaway": "Evaluate physical design, lawful use, private restrictions, and operational needs separately; an attractive building may still be unsuitable for the intended business."
+      },
+      {
+        "id": "income-is-evidence-to-verify",
+        "takeaway": "Verify rent rolls against agreements and collections, distinguishing stabilized operations from concessions, deferred maintenance, financing choices, and unsupported future assumptions."
+      },
+      {
+        "id": "lease-labels-need-supporting-language",
+        "takeaway": "Read expense allocations, escalations, improvement allowances, and sales definitions; a familiar lease label does not settle every cost or revenue question."
+      },
+      {
+        "id": "confirm-the-tenants-side-of-the-agreement",
+        "takeaway": "Resolve inconsistencies among leases, amendments, tenant confirmations, options, guarantees, and transfer restrictions before relying on the seller's account of income."
+      },
+      {
+        "id": "environmental-and-physical-investigation",
+        "takeaway": "Use qualified environmental and physical investigation; a Phase I review does not establish that sampling occurred or that contamination risk is absent."
+      },
+      {
+        "id": "business-opportunities-and-other-specialties",
+        "takeaway": "Specialty transactions require identifying the precise interest, documents, permissions, and regulatory framework rather than reusing ordinary residential assumptions without review."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "Calculate percentage rent from the contract's defined excess sales and add base rent, then verify the sales evidence and separate expense obligations."
+      },
+      {
+        "id": "convert-lease-terms-into-comparable-income",
+        "takeaway": "Compare complete lease economics over a consistent period; face rent alone omits free months, improvement costs, and other concessions affecting the owner's return."
+      },
+      {
+        "id": "follow-a-discrepancy-through-due-diligence",
+        "takeaway": "Investigate claimed credits, near-term expirations, options, and deposits because current occupancy and a neat rent roll do not guarantee future income."
+      },
+      {
+        "id": "investigate-use-before-promising-suitability",
+        "takeaway": "Confirm approvals, systems, access, and environmental conditions before promising suitability; physical appearance does not establish lawful or financially feasible use."
+      },
+      {
+        "id": "separate-the-business-from-the-premises",
+        "takeaway": "Business assets and occupancy rights can transfer differently; the purchaser may need landlord consent and additional review even after paying for equipment."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Classify the interest and verify the actual operational and contractual facts before selecting forms, projecting income, or claiming the property suits a specialty use."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Face rent versus effective base rent",
+      "setup": "Two commercial suites offer the same 36-month lease term. Suite A charges $5,000 monthly from the beginning. Suite B also quotes $5,000 but grants four free base-rent months. Assume no increases, no discounting, and identical expense allocations. Suite B additionally requires a $20,000 landlord improvement contribution; keep that capital commitment separate from the base-rent average.",
+      "inputs": [
+        {
+          "label": "Term",
+          "value": "36 months"
+        },
+        {
+          "label": "Monthly face rent",
+          "value": "$5,000"
+        },
+        {
+          "label": "Suite B free months",
+          "value": "4"
+        },
+        {
+          "label": "Suite B improvement contribution",
+          "value": "$20,000"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Calculate Suite A collections",
+          "expression": "36 * 5000",
+          "value": 180000,
+          "format": "currency",
+          "explanation": "With no concession, every month contributes base rent. This is a total contractual collection figure under the stated assumptions, not NOI: the calculation has not deducted operating expenses, leasing costs, vacancies beyond the contract, or other property expenditures."
+        },
+        {
+          "label": "Calculate Suite B collections",
+          "expression": "(36 - 4) * 5000",
+          "value": 160000,
+          "format": "currency",
+          "explanation": "Only thirty-two months generate base rent. The four free months have a $20,000 nominal value. Identical quoted monthly rent therefore does not mean identical total income, even before comparing the improvement contribution or considering when the payments arrive."
+        },
+        {
+          "label": "Average Suite B base rent",
+          "expression": "round(160000 / 36, 2)",
+          "value": 4444.44,
+          "format": "currency",
+          "explanation": "The simple average spreads the actual base-rent collections across the whole term. It is useful for comparing the stated concession, but it is not a discounted present value or a guarantee of collections if a tenant defaults."
+        },
+        {
+          "label": "Isolate Suite B's stated cash commitment",
+          "expression": "160000 - 20000",
+          "value": 140000,
+          "format": "currency",
+          "explanation": "This limited net figure subtracts the separate improvement contribution from total base rent. It is not property NOI or a tax classification. Review the allowance's conditions, actual lease responsibilities, and additional costs before treating this calculation as a complete investment comparison."
+        }
+      ],
+      "takeaway": "Normalize the same economic measure before comparing leases. A face-rent average, a capital commitment, and property NOI answer different questions even when they all involve cash."
+    },
+    "pitfalls": [
+      {
+        "trap": "The rent roll proves collections.",
+        "correction": "Compare leases, credits, and payment records.",
+        "why": "A scheduled amount can differ from effective income."
+      },
+      {
+        "trap": "Triple net means no owner costs.",
+        "correction": "Read structural and capital obligations.",
+        "why": "The actual allocation controls over the label."
+      },
+      {
+        "trap": "The cafe purchase includes occupancy.",
+        "correction": "Resolve the lease transfer and required consent.",
+        "why": "Business assets alone do not establish possession rights."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "financing-loan-fundamentals",
+        "reason": "Compare cash needs and leverage without treating low initial cash as low total cost."
+      },
+      {
+        "lessonSlug": "practice-disclosures-inspections",
+        "reason": "Match each condition question with the appropriate report and qualified investigation."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "practice-disclosures-inspections",
+    "overview": [
+      {
+        "label": "A form is not the whole duty",
+        "detail": "Known material facts can remain relevant despite a particular form exemption."
+      },
+      {
+        "label": "Observation is not diagnosis",
+        "detail": "Describe warning signs accurately and obtain the right specialist."
+      },
+      {
+        "label": "Keep clocks separate",
+        "detail": "Disclosure termination, inspection contingencies, and loan rescission arise from different rules."
+      }
+    ],
+    "sections": [
+      {
+        "id": "forms-and-duties-work-together",
+        "takeaway": "Disclose material information and changes, distinguishing repair responsibility from honesty; an as-is agreement does not authorize concealment or erase known facts."
+      },
+      {
+        "id": "the-transfer-disclosure-statement",
+        "takeaway": "Establish actual TDS coverage and required completed sections, then apply the delivery method's termination rule separately from contractual inspection deadlines."
+      },
+      {
+        "id": "the-natural-hazard-disclosure",
+        "takeaway": "The NHD reports specified mapped hazards, not physical certainty; verify the parcel, current map categories, and any additional applicable wildfire disclosures."
+      },
+      {
+        "id": "the-agents-inspection-and-its-limits",
+        "takeaway": "A limited visual inspection still requires attention to visible warning signs and information already known; specialist diagnosis is a different professional task."
+      },
+      {
+        "id": "use-the-right-report-for-the-question",
+        "takeaway": "Title, survey, pest, general inspection, and specialist reports address different questions; unresolved discrepancies and recommendations require follow-up rather than optimistic summaries."
+      },
+      {
+        "id": "federal-lead-and-sensitive-facts",
+        "takeaway": "Lead disclosure and the buyer's inspection opportunity are separate duties, while sensitive personal facts require their specific California treatment rather than blanket assumptions."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "Ceiling stains and an existing leak report require attention despite a seller's negative answer; a later material amendment can trigger another applicable disclosure clock."
+      },
+      {
+        "id": "build-a-disclosure-decision-from-the-facts",
+        "takeaway": "Nonoccupancy and a possible form exemption do not authorize hiding a known contractor report; classify remaining duties using the actual transfer and information."
+      },
+      {
+        "id": "distinguish-observation-diagnosis-and-assurance",
+        "takeaway": "Report the visible condition without promising its technical cause or harmlessness, and document the buyer's decision about recommended investigation without overstating a waiver."
+      },
+      {
+        "id": "coordinate-reports-without-treating-them-as-substitutes",
+        "takeaway": "Combine evidence according to scope: a clear title report does not prove physical safety, and an incomplete specialist inspection leaves unobserved conditions unresolved."
+      },
+      {
+        "id": "keep-separate-delivery-clocks-visible",
+        "takeaway": "Identify each document, completed delivery event, governing law, and method before counting days; a lead inspection waiver does not erase known-information disclosures."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Separate form coverage, material knowledge, visual observations, specialist findings, and timing instead of selecting one document as universal protection against defects."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "Three reports, one unresolved condition",
+      "setup": "An agent sees staining beside a window in a covered residential sale. The seller's TDS reports no known leak, an older inspection mentions water intrusion, and a new general report recommends a building-envelope specialist. The buyer's contractual inspection deadline is approaching. The parties have agreed to electronic delivery, and any required material TDS amendment will arrive after offer execution.",
+      "steps": [
+        {
+          "label": "Preserve the separate evidence",
+          "action": "Retain the seller's answer, the observed staining, and both reports without choosing the most reassuring statement as controlling.",
+          "evidence": "Identify the location, report dates, scope, and who received each document. An observation and an existing report can both be material.",
+          "warning": "Painting over the stain or ignoring the older report does not resolve the contradiction."
+        },
+        {
+          "label": "State what is actually known",
+          "action": "Describe the stain and reported history accurately. Seek clarification from the seller without declaring either a structural failure or a harmless cosmetic condition.",
+          "evidence": "Distinguish firsthand observation from another professional's findings and from an unresolved explanation.",
+          "warning": "The agent's visual-inspection limits do not authorize disregarding information already in the file."
+        },
+        {
+          "label": "Obtain the appropriate investigation",
+          "action": "Address the recommendation for specialist review while monitoring the buyer's contractual rights. A general report's recommendation is not a completed technical clearance.",
+          "evidence": "Record the proposed specialist's scope, availability, report, and any buyer decision to proceed or decline.",
+          "warning": "The buyer's investigation responsibility does not replace required seller or agent disclosures."
+        },
+        {
+          "label": "Track each delivery and deadline",
+          "action": "Deliver required material information and amendments, then analyze the statutory electronic TDS period separately from the contract's inspection deadline.",
+          "evidence": "Keep proof of agreed electronic delivery and completion of the required TDS sections. The ordinary electronic period described in the chapter is five days.",
+          "warning": "Neither the contract date nor a loan rescission rule automatically replaces this disclosure analysis."
+        }
+      ],
+      "takeaway": "The correct response connects evidence, investigation, and delivery without merging them. A specialist addresses cause; disclosure addresses information; the contract and statutes determine the available rights."
+    },
+    "pitfalls": [
+      {
+        "trap": "As-is means no disclosure.",
+        "correction": "Separate repair promises from material information.",
+        "why": "A buyer can accept known risk without authorizing concealment."
+      },
+      {
+        "trap": "A recommendation means a clear report.",
+        "correction": "Resolve or identify the outstanding investigation.",
+        "why": "A limitation is part of the report's result."
+      },
+      {
+        "trap": "All three-day rules are alike.",
+        "correction": "Name the document and legal trigger first.",
+        "why": "Different rights use different periods and delivery rules."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-ethics-advertising-technology",
+        "reason": "Carry verified property facts into accurate marketing and corrections."
+      },
+      {
+        "lessonSlug": "financing-credit-law-originators",
+        "reason": "Keep property disclosure rights distinct from mortgage disclosure and rescission clocks."
+      }
+    ]
+  }
+]

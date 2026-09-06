@@ -15,9 +15,7 @@ test('all chapters render their anchored teaching figure without mobile overflow
     await expect(visual).toHaveAccessibleName(figure.title)
     await expect(visual.locator('figcaption')).toContainText(figure.caption)
     const precedingSection = await visual.evaluate((element) => {
-      let sibling = element.previousElementSibling
-      while (sibling && sibling.tagName !== 'H2') sibling = sibling.previousElementSibling
-      return sibling?.id
+      return element.closest<HTMLElement>('[data-reading-section]')?.dataset.readingSection
     })
     expect(precedingSection).toBe(figure.afterSection)
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)

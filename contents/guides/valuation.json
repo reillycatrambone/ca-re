@@ -1,0 +1,495 @@
+[
+  {
+    "lessonSlug": "valuation-value-principles",
+    "overview": [
+      {
+        "label": "Value needs a defined problem",
+        "detail": "Identify the interest, date, purpose, and relevant market before comparing prices or future benefits."
+      },
+      {
+        "label": "Contribution is not expenditure",
+        "detail": "An improvement's contribution depends on market response, not automatically its cost or the owner's preferred price."
+      },
+      {
+        "label": "Highest is not biggest",
+        "detail": "Highest and best use requires legal permission, physical possibility, financial feasibility, and maximum productivity under supported assumptions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "value-is-an-opinion-with-a-defined-purpose",
+        "takeaway": "Define the property interest, valuation date, and relevant market before forming a value opinion; price and construction cost are evidence, not automatic answers."
+      },
+      {
+        "id": "other-values-and-professional-roles",
+        "takeaway": "Distinguish market value from investment, assessed, insurable, and liquidation concepts; a professional's role and assignment determine which question is being answered."
+      },
+      {
+        "id": "conditions-supporting-value",
+        "takeaway": "Utility, scarcity, desire, and purchasing power work together; intense preference without effective demand does not establish a market-supported price."
+      },
+      {
+        "id": "principles-that-explain-buyer-behavior",
+        "takeaway": "Use substitution, anticipation, contribution, competition, and change to explain market behavior; an improvement's cost and its marginal contribution can differ substantially."
+      },
+      {
+        "id": "highest-and-best-use",
+        "takeaway": "Screen legal permission and physical possibility before comparing feasible alternatives; distinguish highest and best use as vacant from analysis of existing improvements."
+      },
+      {
+        "id": "assemblage-and-plottage",
+        "takeaway": "Assemblage combines parcels, while plottage describes added value from the combination; acquisition and completion costs can consume the apparent premium."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Identify the economic principle and the actual decision being made; a larger project or higher gross receipt need not create greater value."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "The largest completed value is not the largest land residual",
+      "setup": "Two alternative projects for the same vacant site have already passed the legal and physical tests. A supported study gives Project A a completed value of $2,400,000 and $1,950,000 of all nonland costs, including required developer compensation. Project B has a completed value of $2,150,000 and $1,620,000 of equivalent nonland costs. Assume the forecasts already reflect their differing timing and risk, and no omitted cost distinguishes them.",
+      "question": "Which alternative supports the higher residual amount for the land under these assumptions?",
+      "choices": [
+        {
+          "label": "Project A, because its completed market value is $250,000 greater.",
+          "result": "This compares receipts without comparing what must be spent to produce them.",
+          "reasoning": "Project A's larger completed value comes with larger nonland costs. The landowner cannot treat the full completed property's value as the amount attributable to the vacant site.",
+          "correct": false
+        },
+        {
+          "label": "Project B, because its supported land residual is $530,000 rather than $450,000.",
+          "result": "Project B supports $80,000 more for the site in the supplied comparison.",
+          "reasoning": "Subtract equivalent nonland costs from each completed value: A leaves $450,000 and B leaves $530,000. Both have passed the earlier tests, so the supported residual comparison distinguishes their productivity for the land.",
+          "correct": true
+        },
+        {
+          "label": "Project B, solely because it costs less to construct.",
+          "result": "The selected project is right, but the stated reasoning is incomplete.",
+          "reasoning": "Lower cost alone cannot establish greater land contribution. A much smaller benefit could more than offset a cost saving. Both costs and supported completed values must be compared on a consistent basis.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Compare the same economic residual after applying the earlier feasibility screens. This simplified residual exercise supplies complete, risk-consistent inputs; real development analysis also investigates timing, absorption, financing, and uncertainty rather than presuming them away."
+    },
+    "pitfalls": [
+      {
+        "trap": "The use with the highest rent is always best.",
+        "correction": "Compare supported benefits with the costs and risks of producing them.",
+        "why": "Gross receipts omit operating and development burdens."
+      },
+      {
+        "trap": "Plottage is the entire combined parcel value.",
+        "correction": "Measure the increment over the separate values.",
+        "why": "The combined property contains the original component values as well as any added utility."
+      },
+      {
+        "trap": "A hoped-for zoning change establishes legal feasibility.",
+        "correction": "Distinguish supportable assumptions from permission already obtained.",
+        "why": "An economically attractive use can still fail the legal screening question."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-land-use-controls",
+        "reason": "Zoning and other enforceable restrictions constrain the uses that can reach financial comparison."
+      },
+      {
+        "lessonSlug": "valuation-cost-approach",
+        "reason": "Cost is one input to analysis, while depreciation and contribution explain why expenditure may not become value."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "valuation-sales-comparison",
+    "overview": [
+      {
+        "label": "Adjust the comparable",
+        "detail": "A comparable's superiority calls for a downward adjustment to make it comparable to the subject, and inferiority calls for an upward adjustment."
+      },
+      {
+        "label": "Evidence supports magnitude",
+        "detail": "Market reaction, not improvement invoices or customary adjustment percentages, supports the size of an adjustment."
+      },
+      {
+        "label": "Reconcile evidence quality",
+        "detail": "A correct arithmetic average does not establish that weak and strong comparable evidence deserve equal influence."
+      }
+    ],
+    "sections": [
+      {
+        "id": "the-question-sales-comparison-answers",
+        "takeaway": "Use competitive substitute properties to infer subject value, recognizing that reliable transaction evidence matters more than superficial proximity alone."
+      },
+      {
+        "id": "define-the-assignment-and-gather-evidence",
+        "takeaway": "Define the interest and effective date, verify transaction conditions, and distinguish closed sale evidence from asking prices or unverified concessions."
+      },
+      {
+        "id": "adjust-the-comparable-to-the-subject",
+        "takeaway": "Move each comparable toward the subject: deduct for superior features and add for inferior ones using supported contributory differences."
+      },
+      {
+        "id": "common-adjustment-categories",
+        "takeaway": "Consider property rights, financing, transaction conditions, timing, location, and physical characteristics without assuming every difference requires the same adjustment."
+      },
+      {
+        "id": "deriving-and-evaluating-adjustments",
+        "takeaway": "Derive adjustments from market evidence and avoid overlapping allowances; total price per square foot is not automatically a marginal size adjustment."
+      },
+      {
+        "id": "worked-example-three-comparable-indications",
+        "takeaway": "Track each adjustment's sign and net effect, while separately reviewing gross adjustment magnitude as evidence of comparability and uncertainty."
+      },
+      {
+        "id": "reconcile-then-communicate-limitations",
+        "takeaway": "Reconcile the adjusted indications by their relevance and reliability; explain disagreement instead of mechanically averaging incompatible or weak data."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Adjust the comparable rather than the subject, identify the relevant period and interest, and use market evidence instead of unsupported cost assumptions."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Separate a concession's cost from its price effect",
+      "setup": "In a Fannie Mae appraisal exercise, a comparable sold for $650,000 with seller-paid concessions costing $18,000. Supported market analysis attributes only $10,000 of the sale price to those concessions. Apply that adjustment first. The exercise then specifies a 2% market increase on the resulting amount. The comparable's superior garage contributes $15,000 more than the subject's; all other differences are already accounted for.",
+      "inputs": [
+        {
+          "label": "Comparable sale",
+          "value": "$650,000"
+        },
+        {
+          "label": "Concession cost / supported price effect",
+          "value": "$18,000 / $10,000"
+        },
+        {
+          "label": "Stated time adjustment",
+          "value": "+2% after concession adjustment"
+        },
+        {
+          "label": "Superior garage contribution",
+          "value": "$15,000"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Remove the supported price effect",
+          "expression": "650000 - 10000",
+          "value": 640000,
+          "format": "currency",
+          "explanation": "The negative adjustment follows the supported $10,000 influence on price. It is not automatically the seller's $18,000 expenditure merely because that larger amount appears on the settlement statement."
+        },
+        {
+          "label": "Apply the specified timing adjustment",
+          "expression": "640000 * 1.02",
+          "value": 652800,
+          "format": "currency",
+          "explanation": "The exercise explicitly supplies the sequence and percentage base. The 2% increase equals $12,800. Do not silently substitute a percentage of the unadjusted contract price."
+        },
+        {
+          "label": "Remove garage superiority",
+          "expression": "652800 - 15000",
+          "value": 637800,
+          "format": "currency",
+          "explanation": "The comparable offers a more valuable garage than the subject, so its price must move downward. Adding the garage contribution would make the superior comparable even less comparable to the subject."
+        }
+      ],
+      "takeaway": "The resulting $637,800 is one adjusted indication, not a complete appraisal by itself. Other verified comparables and the reliability of these assumptions still determine its weight. The concession treatment here follows the identified lending guidance, not a universal dollar-for-dollar rule."
+    },
+    "pitfalls": [
+      {
+        "trap": "Seller expenditure equals the required concession adjustment.",
+        "correction": "Use supported price influence under the applicable assignment guidance.",
+        "why": "A transaction cost and its market effect can differ."
+      },
+      {
+        "trap": "A superior comparable needs a positive adjustment.",
+        "correction": "Imagine the comparable with the subject's less valuable feature.",
+        "why": "Removing superiority requires reducing the comparable indication."
+      },
+      {
+        "trap": "Net adjustments near zero prove a close match.",
+        "correction": "Review the gross adjustments and their reliability too.",
+        "why": "Large opposite adjustments can cancel mathematically without making the evidence strong."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-property-rights",
+        "reason": "Equipment and other non-realty inclusions can distort the amount attributed to the real property."
+      },
+      {
+        "lessonSlug": "valuation-value-principles",
+        "reason": "Contribution explains why a feature's price effect can differ from its installation cost."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "valuation-cost-approach",
+    "overview": [
+      {
+        "label": "Current cost, not old expenditure",
+        "detail": "Estimate a substitute or replica at the valuation date, then recognize supported losses in value."
+      },
+      {
+        "label": "Percent good is what remains",
+        "detail": "A 70% good improvement retains 70% of cost in the stated model; it has not lost 70%."
+      },
+      {
+        "label": "Keep components separate",
+        "detail": "Land, building, and separately valued site improvements must be identified consistently to avoid duplicate inclusion or depreciation."
+      }
+    ],
+    "sections": [
+      {
+        "id": "reconstruct-the-economic-alternative",
+        "takeaway": "Estimate the economic alternative of acquiring land and producing comparable utility, then recognize depreciation instead of treating cost as a guaranteed value floor."
+      },
+      {
+        "id": "land-and-improvements-are-separate",
+        "takeaway": "Estimate land separately and distinguish it from depreciable site improvements; an already-improved land indication must not silently duplicate another cost component."
+      },
+      {
+        "id": "replacement-reproduction-and-cost-components",
+        "takeaway": "Replacement supplies equivalent utility and reproduction supplies a replica; include appropriate direct and indirect costs consistently with the chosen estimate."
+      },
+      {
+        "id": "three-categories-of-depreciation",
+        "takeaway": "Classify physical deterioration, functional obsolescence, and external obsolescence by their causes, recognizing that a new building can suffer nonphysical loss."
+      },
+      {
+        "id": "curable-and-incurable-loss",
+        "takeaway": "Compare the supported benefit of correction with its cost for economic curability, while keeping mandatory safety duties separate from investment calculations."
+      },
+      {
+        "id": "age-and-life",
+        "takeaway": "Use effective age and total economic life in the stated age-life model; percent good expresses the remaining value rather than the loss."
+      },
+      {
+        "id": "worked-cost-indication",
+        "takeaway": "Add land, depreciated building contribution, and correctly treated site improvements, then compare the indication with other reliable market evidence."
+      },
+      {
+        "id": "appraisal-depreciation-versus-tax-depreciation",
+        "takeaway": "Tax depreciation allocates qualifying basis under tax rules; it does not measure the property's actual annual change in market value."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Check the cost date, component boundaries, depreciation convention, and land treatment before calculating; a percentage cannot fix inconsistent inputs."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Percent good with three separately valued components",
+      "setup": "A small commercial property's land is supported at $280,000. Its building would cost $600,000 to replace today. The assignment supplies 70% good for the building, already reflecting all identified building depreciation. Separate paving and landscaping have a combined current cost of $40,000 and are 50% good. Assume the land estimate excludes those site improvements and no cost item overlaps.",
+      "inputs": [
+        {
+          "label": "Land value",
+          "value": "$280,000, excluding site improvements"
+        },
+        {
+          "label": "Building cost / percent good",
+          "value": "$600,000 / 70%"
+        },
+        {
+          "label": "Site improvement cost / percent good",
+          "value": "$40,000 / 50%"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Building contribution",
+          "expression": "600000 * 0.70",
+          "value": 420000,
+          "format": "currency",
+          "explanation": "Percent good is the retained fraction of current cost. The building contributes $420,000 after its supplied total depreciation; its loss is $180,000, not its remaining value."
+        },
+        {
+          "label": "Site improvement contribution",
+          "expression": "40000 * 0.50",
+          "value": 20000,
+          "format": "currency",
+          "explanation": "Apply the separate factor to the separate cost. Building condition does not establish the paving's condition, and the land input was expressly stated not to include these improvements."
+        },
+        {
+          "label": "Total cost indication",
+          "expression": "280000 + 420000 + 20000",
+          "value": 720000,
+          "format": "currency",
+          "explanation": "Land is added without applying either improvement factor. The result is a cost-approach indication assembled from nonoverlapping components."
+        },
+        {
+          "label": "Check the building loss",
+          "expression": "600000 - 420000",
+          "value": 180000,
+          "format": "currency",
+          "explanation": "This cross-check confirms that 30% depreciation and 70% good are complementary descriptions of the same building estimate. Do not subtract this $180,000 again from the already-depreciated contribution."
+        }
+      ],
+      "takeaway": "Name the percentage before calculating: loss or remaining value. Identify its component and what it already includes. The resulting indication still depends on reliable cost, land, and depreciation estimates; it is not a contractual promise that buyers will pay that amount."
+    },
+    "pitfalls": [
+      {
+        "trap": "Seventy percent good means subtract seventy percent.",
+        "correction": "Multiply cost by seventy percent to find the retained contribution.",
+        "why": "The complement, thirty percent, measures depreciation in this model."
+      },
+      {
+        "trap": "Apply the building factor to the entire property.",
+        "correction": "Separate land and any independently analyzed site improvements.",
+        "why": "A condition-based building allowance does not automatically measure land value loss."
+      },
+      {
+        "trap": "Subtract an observed defect after using an all-inclusive depreciation factor.",
+        "correction": "Check whether the factor already captures that defect.",
+        "why": "A second deduction can count the same economic loss twice."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "valuation-value-principles",
+        "reason": "Substitution and contribution explain both the usefulness and limitations of the cost indication."
+      },
+      {
+        "lessonSlug": "valuation-sales-comparison",
+        "reason": "Reliable sales help test whether estimated cost and depreciation match market behavior."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "valuation-income-analysis",
+    "overview": [
+      {
+        "label": "Property versus investor",
+        "detail": "NOI describes property operations; debt service and initial cash invested determine a particular buyer's cash return."
+      },
+      {
+        "label": "Stabilized versus one-time",
+        "detail": "A recurring forecast supports capitalization; a single unusual receipt does not automatically become perpetual annual income."
+      },
+      {
+        "label": "Coverage versus return",
+        "detail": "DSCR measures debt coverage, while cash-on-cash compares distributable annual cash with the cash actually invested."
+      }
+    ],
+    "sections": [
+      {
+        "id": "income-creates-an-investment-rationale",
+        "takeaway": "Identify the interest and expected income stream, keeping property operations separate from a particular owner's financing and contractual lease position."
+      },
+      {
+        "id": "build-the-operating-statement",
+        "takeaway": "Move from potential income through vacancy, other income, and expenses using a consistent convention; ordinary investor NOI excludes debt service."
+      },
+      {
+        "id": "worked-operating-statement",
+        "takeaway": "Annualize the rent, apply the stated vacancy allowance, and subtract operating expenses before financing; retain each intermediate subtotal to prevent double deductions."
+      },
+      {
+        "id": "direct-capitalization",
+        "takeaway": "Divide consistent annual NOI by a supported cap rate, and distinguish recurring changes from one-time receipts or separately timed cash flows."
+      },
+      {
+        "id": "gross-rent-and-gross-income-multipliers",
+        "takeaway": "Match rent periods and income definitions when deriving multipliers; equal gross receipts can conceal different expenses and therefore different earning power."
+      },
+      {
+        "id": "analyze-the-owners-investment",
+        "takeaway": "Calculate cash flow after the specified financing and capital items, then distinguish debt coverage, cash-on-cash return, and equity changes."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Name the requested output before selecting a formula, check monthly versus annual units, and use a rate consistent with the income definition."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "A building's income and a buyer's cash are different totals",
+      "setup": "An eight-unit property has $192,000 annual potential rent. Use an 8% vacancy and collection allowance, $3,360 other annual income, and $72,000 recurring operating expenses including property taxes. The buyer's annual debt service is $72,000. Initial cash invested is $360,000 including the down payment and acquisition costs. Use the market-investment convention, with no separate reserves, capital outlays, or income-tax adjustments.",
+      "inputs": [
+        {
+          "label": "Potential rent / vacancy",
+          "value": "$192,000 / 8%"
+        },
+        {
+          "label": "Other income / operating expenses",
+          "value": "$3,360 / $72,000"
+        },
+        {
+          "label": "Annual debt service",
+          "value": "$72,000"
+        },
+        {
+          "label": "Initial cash invested",
+          "value": "$360,000"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Effective gross income",
+          "expression": "192000 - (192000 * 0.08) + 3360",
+          "value": 180000,
+          "format": "currency",
+          "explanation": "The vacancy and collection allowance is $15,360. Add other income after this allowance because the stated percentage applies to potential rent, not to the separate receipt."
+        },
+        {
+          "label": "Net operating income",
+          "expression": "180000 - 72000",
+          "value": 108000,
+          "format": "currency",
+          "explanation": "Subtract operating expenses once. The buyer's financing does not belong in this property-level subtotal, and the owner's income tax is not being estimated."
+        },
+        {
+          "label": "Debt coverage",
+          "expression": "108000 / 72000",
+          "value": 1.5,
+          "format": "number",
+          "explanation": "The NOI is 1.50 times the annual debt service. This describes a coverage cushion under these assumptions; it does not by itself establish that a particular lender must approve the loan."
+        },
+        {
+          "label": "Before-tax cash flow",
+          "expression": "108000 - 72000",
+          "value": 36000,
+          "format": "currency",
+          "explanation": "Only now subtract financing. Principal is part of debt service even though its payment can increase equity; that principal reduction is not cash available for distribution."
+        },
+        {
+          "label": "Cash-on-cash return",
+          "expression": "(36000 / 360000) * 100",
+          "value": 10,
+          "format": "percent",
+          "explanation": "The return is 10% of the initial cash investment under the supplied definition. Dividing NOI by cash would incorrectly ignore debt service and report a different, misleading figure."
+        }
+      ],
+      "takeaway": "The same property can produce unchanged NOI but different coverage and cash return for another financing plan. Keep the operating statement, debt calculation, and equity denominator separate before deciding which measure answers the question."
+    },
+    "pitfalls": [
+      {
+        "trap": "A higher NOI guarantees higher value.",
+        "correction": "Recalculate value if the cap rate also changes.",
+        "why": "Income and required market returns can move in opposite directions."
+      },
+      {
+        "trap": "Principal repayment should be added back to cash-on-cash.",
+        "correction": "Keep it in debt service for ordinary before-tax cash flow.",
+        "why": "Equity accumulation is economically useful but not a cash distribution."
+      },
+      {
+        "trap": "A cap rate is the mortgage interest rate.",
+        "correction": "Match NOI to total property value and interest to its loan balance.",
+        "why": "Those rates describe different relationships and cannot be substituted automatically."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "valuation-sales-comparison",
+        "reason": "Income-derived value and comparable sale evidence should be reconciled rather than treated as isolated answers."
+      },
+      {
+        "lessonSlug": "valuation-cost-approach",
+        "reason": "Tax depreciation, appraisal depreciation, and operating cash expenses describe different phenomena."
+      }
+    ]
+  }
+]

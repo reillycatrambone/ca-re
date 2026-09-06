@@ -1,0 +1,55 @@
+{
+  "domain": "valuation",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "Value principles and project contribution",
+      "gap": "Highest-and-best-use and plottage definitions were present, but compact decision practice did not directly contrast the largest completed project value with the largest supported land residual or separate gross plottage from completion costs.",
+      "action": "Added a residual-comparison decision lab and questions on competing project residuals and a positive plottage increment that is smaller than the buyer's added outlay.",
+      "lessonSlugs": [
+        "valuation-value-principles"
+      ],
+      "sourceUrls": [
+        "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+        "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      ]
+    },
+    {
+      "topic": "Sales comparison and transaction adjustments",
+      "gap": "Adjustment direction was well covered, but a single worked path did not combine a concession whose cost differs from its supported price effect with a stated percentage base and a subsequent physical adjustment.",
+      "action": "Added a stepwise, assignment-specific concession/time/garage lab and two questions testing the calculation and the relevant contract-to-effective-date market interval.",
+      "lessonSlugs": [
+        "valuation-sales-comparison"
+      ],
+      "sourceUrls": [
+        "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      ]
+    },
+    {
+      "topic": "Cost approach and percent good",
+      "gap": "The chapter taught depreciation percentages but did not name percent good or explicitly test its complementary relationship to percentage loss across separately valued building and site components.",
+      "action": "Added a short percent-good explanation, a four-step component calculation, and two questions distinguishing retained contribution from loss and preventing duplicate deductions.",
+      "lessonSlugs": [
+        "valuation-cost-approach"
+      ],
+      "sourceUrls": [
+        "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+        "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf"
+      ]
+    },
+    {
+      "topic": "Financial analysis and financing-sensitive results",
+      "gap": "NOI, DSCR, and cash return appeared in several passages; readers lacked a compact combined calculation with one consistent denominator set and a targeted question testing the effect of a recurring expense increase.",
+      "action": "Added a complete potential-rent-to-cash-return lab and two challenging ratio questions, including an unchanged-financing downside case that separates NOI, coverage, and cash flow.",
+      "lessonSlugs": [
+        "valuation-income-analysis"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule8.pdf"
+      ]
+    }
+  ],
+  "limitations": "Reviewed the current public DRE categories of value, methods of estimating value, and financial analysis against the four chapters. The DRE outline is nonexhaustive, so coverage does not guarantee every possible examination topic. Numerical cases are original simplified exercises with explicit assumptions, not valuations or return promises. BOE tax-appraisal conventions differ from ordinary investor NOI treatment; Fannie Mae concession guidance applies to the stated assignment rather than every appraisal. Tax law, professional standards, lender requirements, and market evidence require current verification."
+}

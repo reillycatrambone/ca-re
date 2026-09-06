@@ -1,0 +1,57 @@
+{
+  "domain": "agency",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents",
+      "gap": "The authority discussion described reasonable belief but did not explicitly test the statutory reliance element of incurring liability or parting with value under merely ostensible authority.",
+      "action": "Added a concise section 2334 clarification, a three-case authority lab, and targeted questions separating known limits, owner-created appearances, and actual reliance.",
+      "lessonSlugs": [
+        "agency-relationships"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3."
+      ]
+    },
+    {
+      "topic": "Responsibilities of Agent to Seller/Buyer as Principal",
+      "gap": "The inspection discussion could leave the impression that retaining an agent eliminates the buyer's own responsibility to attend to known or observable conditions.",
+      "action": "Added the section 2079.5 buyer-care boundary and a decision lab showing that the buyer's observation and the agent's duty to deliver a known report coexist.",
+      "lessonSlugs": [
+        "agency-fiduciary-duties"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.5.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      ]
+    },
+    {
+      "topic": "Disclosure of Agency",
+      "gap": "Existing explanations identified a proposed move into dual agency but did not explicitly state the written-consent rule for changing the contractual agency relationship.",
+      "action": "Added the section 2079.23 boundary, a showing-to-representation sequence lab, and questions testing written changes and the limited scope of confidentiality permission; reformatted timing into role-specific bullets.",
+      "lessonSlugs": [
+        "agency-disclosure-and-conflicts"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      ]
+    },
+    {
+      "topic": "Commission and Fees",
+      "gap": "Worked examples calculated fee splits forward but did not require recovering the original fee from a net salesperson share and then reconciling multiple funding sources.",
+      "action": "Added an inverse commission calculation lab and two application questions; kept funding sources, internal allocations, and legal fee entitlement separate without adding chapter bulk.",
+      "lessonSlugs": [
+        "agency-compensation-and-termination"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+        "https://www.dre.ca.gov/Licensees/Advisory_2024_11_14_Changes_to_Buyer_Representation.html"
+      ]
+    }
+  ],
+  "limitations": "This targeted audit improves distinctions within the published agency outline; it does not certify every possible fact pattern or guarantee an exam result. DRE describes its topic list as nonexhaustive. Authority, reliance, conflicts, and fee disputes remain sensitive to actual agreements and facts."
+}

@@ -1,0 +1,69 @@
+{
+  "domain": "financing",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "General financing concepts and cost comparisons",
+      "gap": "LTV, appraisal gaps, points, and cash contributions were taught separately but lacked one guided computation requiring the learner to preserve each denominator and distinguish a limited subtotal from a full closing estimate.",
+      "action": "Added an appraisal-gap-and-points calculation lab with explicit exclusions, plus questions requiring combined cash arithmetic and separation of price, lending value, and loan charges.",
+      "lessonSlugs": [
+        "financing-loan-fundamentals"
+      ],
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/owning-a-home/explore/understand-the-different-kinds-of-loans-available/",
+        "https://www.fdic.gov/consumer-resource-center/mortgages"
+      ]
+    },
+    {
+      "topic": "Loan types, financing sources, and government programs",
+      "gap": "The prose described interest-only, negative-amortization, and balloon structures but did not hold principal and interest assumptions constant while varying only repayment terms.",
+      "action": "Added three changed-fact repayment cases and questions that separate current payment performance, balance growth, maturity, and program support. Every existing source/program section receives a concise takeaway rather than additional dense prose.",
+      "lessonSlugs": [
+        "financing-loan-types-programs"
+      ],
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/owning-a-home/explore/understand-the-different-kinds-of-loans-available/",
+        "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+        "https://www.rd.usda.gov/programs-Services/single-family-housing-programs"
+      ]
+    },
+    {
+      "topic": "Notes, security, priority, and enforcement",
+      "gap": "The reader could correctly calculate a junior shortfall yet still infer blanket debt forgiveness from loss of the junior lien, without identifying the foreclosing instrument and separate purchase-money protection.",
+      "action": "Added a decision lab distinguishing lien extinction, recording priority, section 580d, and section 580b. A short chapter clarification and new questions separate vendor purchase-price protection from institutional dwelling conditions, and valid subordination from initial recording order.",
+      "lessonSlugs": [
+        "financing-notes-security"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d."
+      ]
+    },
+    {
+      "topic": "Federal mortgage disclosure timing",
+      "gap": "The chapter covered initial Loan Estimate delivery and Closing Disclosure receipt but omitted the general seven-business-day Loan Estimate-to-consummation interval and its distinct trigger.",
+      "action": "Added a short Regulation Z paragraph identifying delivery/mailing as the trigger, counted days, and limited exceptions. A sequence lab runs both preconsummation periods independently and selects the later permissible date; a new question tests the combined result.",
+      "lessonSlugs": [
+        "financing-credit-law-originators"
+      ],
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+        "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/tila-respa-integrated-disclosures/tila-respa-integrated-disclosure-faqs/"
+      ]
+    },
+    {
+      "topic": "Loan brokerage and origination authority",
+      "gap": "The existing MLDS alternative and LPDS exception paragraphs were too dense to support rapid comparison of recipient, coverage, signature, timing, and disbursement authority.",
+      "action": "Reorganized the conditional MLDS alternative into compact bullets and split the LPDS custody paragraph without changing its exceptions. Guide takeaways and a targeted question distinguish limited waivers, state broker duties, and professional authority.",
+      "lessonSlugs": [
+        "financing-credit-law-originators"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+        "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2015MLDS%20and%20Loan%20Estimate%20Advisory.pdf",
+        "https://www.dre.ca.gov/Licensees/MLOLicense.html"
+      ]
+    }
+  ],
+  "limitations": "The published DRE categories are not a complete list of possible examination subjects. Federal coverage and California remedies depend on transaction facts; program limits, lender overlays, and legal amendments can change. Illustrations exclude costs or protections only when expressly stated and are not individualized lending or legal advice."
+}

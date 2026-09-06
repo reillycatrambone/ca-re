@@ -1,0 +1,544 @@
+[
+  {
+    "lessonSlug": "financing-loan-fundamentals",
+    "overview": [
+      {
+        "label": "Choose the denominator",
+        "detail": "LTV uses value, DTI uses income, and points use loan amount."
+      },
+      {
+        "label": "Trace the balance",
+        "detail": "A payment can reduce principal, cover only interest, or permit debt growth."
+      },
+      {
+        "label": "Separate market roles",
+        "detail": "Origination, investment ownership, insurance, and servicing perform different functions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "borrowing-separates-price-from-cash-invested",
+        "takeaway": "Financing changes the source of purchase funds, not the price; underwriting evaluates repayment ability and collateral separately rather than treating one as sufficient."
+      },
+      {
+        "id": "interest-payments-and-amortization",
+        "takeaway": "Compare the payment with accrued interest to determine principal reduction or debt growth, applying the stated rate and day-count convention."
+      },
+      {
+        "id": "ratios-describe-different-risks",
+        "takeaway": "Use the correct denominator for LTV, combined leverage, and DTI; a lower appraisal can create a financing gap despite a signed price."
+      },
+      {
+        "id": "compare-the-full-cost",
+        "takeaway": "Compare consistent payment and cost measures, distinguishing points, APR, taxes, insurance, and impounds rather than assuming a fixed rate fixes every expense."
+      },
+      {
+        "id": "leverage-increases-exposure",
+        "takeaway": "Debt magnifies changes in equity while continuing payment obligations remain; property appreciation does not guarantee a positive leveraged investment outcome."
+      },
+      {
+        "id": "where-mortgage-money-comes-from",
+        "takeaway": "Identify who originates, owns, supports, securitizes, and services the loan; transferring one role does not necessarily change the others or rewrite the note."
+      },
+      {
+        "id": "worked-comparison",
+        "takeaway": "Simple break-even divides additional upfront cash by monthly savings, but holding period, remaining principal, and other financial assumptions still matter."
+      },
+      {
+        "id": "trace-the-financing-gap",
+        "takeaway": "Calculate the allowed loan from the lender's valuation base, then subtract it from the actual price rather than confusing shortfall with total down payment."
+      },
+      {
+        "id": "follow-two-amortizing-payments",
+        "takeaway": "Interest on a declining balance changes the principal portion of a level payment; paying something does not necessarily mean the debt amortizes."
+      },
+      {
+        "id": "compare-cash-cost-with-borrowing-cost",
+        "takeaway": "Compare upfront costs and payment savings over the same period, without treating lender credits or financed costs as expenses that vanished."
+      },
+      {
+        "id": "separate-collateral-risk-from-payment-risk",
+        "takeaway": "Collateral leverage, payment burden, and reserves address different risks; a servicing transfer changes administration without automatically modifying the borrower's contracted rate."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Name the financial measure before calculating it, and distinguish debt, equity, payments, costs, and mortgage-market functions rather than substituting one for another."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "An appraisal gap plus points",
+      "setup": "A purchase price remains $560,000 after an appraisal of $530,000. The lender offers at most 80% of the lower value, and the accepted loan carries two points paid in cash. Assume no junior financing, credits, or other closing expenses in this illustration. Determine the cash needed without applying points to the property price or assuming that appraisal resets the contract.",
+      "inputs": [
+        {
+          "label": "Contract price",
+          "value": "$560,000"
+        },
+        {
+          "label": "Appraised value",
+          "value": "$530,000"
+        },
+        {
+          "label": "LTV ceiling",
+          "value": "80% of the lower value"
+        },
+        {
+          "label": "Points",
+          "value": "2% of the actual loan"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Determine the loan",
+          "expression": "530000 * 0.80",
+          "value": 424000,
+          "format": "currency",
+          "explanation": "The lender's stated rule uses appraised value because it is lower than price. The purchase agreement does not force a loan based on $560,000. First identify the underwriting base; then apply the percentage. Another program might have different permitted terms, but none is supplied here."
+        },
+        {
+          "label": "Bridge price and loan",
+          "expression": "560000 - 424000",
+          "value": 136000,
+          "format": "currency",
+          "explanation": "This is the cash contribution needed for the unchanged purchase price before loan charges. It is not merely 20% of appraised value because the buyer still owes the seller $560,000. A negotiated price change would require a new calculation."
+        },
+        {
+          "label": "Calculate the points",
+          "expression": "424000 * 0.02",
+          "value": 8480,
+          "format": "currency",
+          "explanation": "A point is one percent of the loan amount. The two-point charge therefore uses $424,000, not price, appraisal, or the buyer's contribution. The percentage does not mean that the interest rate is reduced by two percentage points."
+        },
+        {
+          "label": "Combine the stated cash needs",
+          "expression": "136000 + 8480",
+          "value": 144480,
+          "format": "currency",
+          "explanation": "Add the cash-paid points to the price contribution. This is not a complete closing estimate because the setup excludes other charges and credits. In an actual transaction, reconcile all required funds with the disclosures and permitted sources rather than treating this subtotal as universal."
+        }
+      ],
+      "takeaway": "Calculate each item using its own base and preserve the distinction between contract price and lending value. Then combine only the cash items the problem actually includes."
+    },
+    "pitfalls": [
+      {
+        "trap": "Eighty percent always uses price.",
+        "correction": "Apply the specified lower-value rule.",
+        "why": "The appraisal can reduce available financing."
+      },
+      {
+        "trap": "Points use the home's value.",
+        "correction": "Multiply the actual loan amount.",
+        "why": "A financing fee has a different denominator."
+      },
+      {
+        "trap": "Low initial cash means low cost.",
+        "correction": "Compare the complete structure and holding period.",
+        "why": "Financed charges and higher pricing remain economic costs."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "financing-loan-types-programs",
+        "reason": "Apply the arithmetic to structures with different rate and repayment behavior."
+      },
+      {
+        "lessonSlug": "practice-commercial-specialties",
+        "reason": "Compare consistent cash and income measures when evaluating investment property."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "financing-loan-types-programs",
+    "overview": [
+      {
+        "label": "Classify multiple dimensions",
+        "detail": "Government support, rate, amortization, and priority can describe one loan together."
+      },
+      {
+        "label": "Read transitions",
+        "detail": "Introductory payments and deferred obligations can change later cash requirements."
+      },
+      {
+        "label": "Program support is limited",
+        "detail": "Insurance or eligibility does not replace underwriting or ownership duties."
+      }
+    ],
+    "sections": [
+      {
+        "id": "classify-along-more-than-one-dimension",
+        "takeaway": "Conventional status, conformity, rate structure, amortization, and lien position describe different dimensions; one label does not determine every feature or risk."
+      },
+      {
+        "id": "fixed-and-adjustable-rates",
+        "takeaway": "An ARM uses index plus margin subject to its caps; payment limits differ from rate limits and can affect whether unpaid interest accumulates."
+      },
+      {
+        "id": "repayment-and-collateral-variations",
+        "takeaway": "Construction draws, blanket releases, bridge timing, lines of credit, and wraparound debt require reading the specific funding, collateral, and repayment arrangements."
+      },
+      {
+        "id": "fha-insurance-on-approved-loans",
+        "takeaway": "FHA generally insures approved lender mortgages; its appraisal and insurance do not warrant every condition of the property for the buyer."
+      },
+      {
+        "id": "va-and-usda",
+        "takeaway": "VA eligibility and guaranty differ from unconditional approval, while USDA offers both direct and guaranteed programs with their own property and borrower conditions."
+      },
+      {
+        "id": "california-programs",
+        "takeaway": "CalHFA assistance can remain repayable despite deferred payments, and traditional CalVet title arrangements differ from ordinary federal VA-backed financing."
+      },
+      {
+        "id": "reverse-mortgages",
+        "takeaway": "Reverse mortgage borrowers retain continuing occupancy and property obligations even though ordinary repayment is deferred; age alone does not establish complete HECM eligibility."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "Compare an ARM under changed plans and read assistance repayment triggers; hoped-for sales and absent current payments are not contractual debt forgiveness."
+      },
+      {
+        "id": "read-an-arm-adjustment-in-order",
+        "takeaway": "Compute the indexed rate before applying the relevant periodic and lifetime restrictions, then evaluate payment rules using the remaining balance and term."
+      },
+      {
+        "id": "compare-maturity-with-amortization",
+        "takeaway": "Amortization determines installment calculation while maturity determines when the balance is due; interest-only transitions and construction draws create separate timing risks."
+      },
+      {
+        "id": "test-program-support-against-borrower-obligations",
+        "takeaway": "Program eligibility, lender underwriting, property inspection, and deferred assistance repayment address different obligations; a certificate or insurance label does not replace them."
+      },
+      {
+        "id": "evaluate-collateral-and-access-separately",
+        "takeaway": "Confirm release conditions and actual amounts drawn, distinguishing collateral coverage from credit availability and continuing obligations under reverse mortgage terms."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Identify the loan's structure and responsible institutions, then inspect its transitions, collateral, and continuing duties rather than selecting by the lowest initial payment."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "Three payments that look manageable",
+      "setup": "Three borrowers each begin with a $240,000 balance and an illustrative 6% annual rate using monthly interest of $1,200 at that unchanged balance. Ignore fees and other balance adjustments. Compare what the payment arrangement does to principal, rather than judging safety from the fact that the scheduled amount is being paid.",
+      "cases": [
+        {
+          "label": "Interest-only period",
+          "changedFact": "The note requires $1,200 monthly during an initial interest-only period.",
+          "result": "The payment covers accrued interest but leaves the $240,000 principal unchanged under these assumptions.",
+          "reasoning": [
+            "Payment performance and principal reduction are different facts. At the end of the interest-only period, a later amortizing payment may need to repay the same principal over fewer remaining years.",
+            "That increase can occur without a rate increase. Read the transition and remaining term rather than assuming an unchanged rate guarantees an unchanged required payment."
+          ]
+        },
+        {
+          "label": "Payment below interest",
+          "changedFact": "The permitted payment is $1,050, and the stated terms add unpaid interest to principal.",
+          "result": "The $150 first-month interest shortfall increases the balance to $240,150.",
+          "reasoning": [
+            "The borrower can make the required payment and still experience negative amortization. A payment limit restricts the cash installment; it does not necessarily restrict how much interest accrues.",
+            "The next month's interest base may be larger, and a later recast can change the required payment. The low initial amount therefore must be evaluated with balance-growth and transition terms."
+          ]
+        },
+        {
+          "label": "Amortization beyond maturity",
+          "changedFact": "Installments reduce principal using a long amortization schedule, but the remaining balance is due after five years.",
+          "result": "A balloon remains at contractual maturity unless the scheduled payments have actually retired the debt.",
+          "reasoning": [
+            "The amortization period describes the installment calculation, while the maturity date controls when the remaining obligation must be paid. Those periods need not match.",
+            "A planned refinance is not a guaranteed source of payoff funds. Future value, credit, and available lending terms can change, so the borrower needs to recognize the maturity exposure now."
+          ]
+        }
+      ],
+      "takeaway": "Ask what happens to the balance and when repayment changes. Being current, having a fixed rate, and making a small payment each answer a different question."
+    },
+    "pitfalls": [
+      {
+        "trap": "Payment caps stop interest growth.",
+        "correction": "Read the separate rate and capitalization terms.",
+        "why": "Cash limits can permit unpaid interest."
+      },
+      {
+        "trap": "Thirty-year amortization means thirty-year maturity.",
+        "correction": "Read the actual due date.",
+        "why": "An earlier balloon can remain despite current installments."
+      },
+      {
+        "trap": "Deferred assistance is a grant.",
+        "correction": "Identify repayment and appreciation provisions.",
+        "why": "No present installment does not establish forgiveness."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "financing-loan-fundamentals",
+        "reason": "Trace interest and principal through the payment arithmetic."
+      },
+      {
+        "lessonSlug": "financing-notes-security",
+        "reason": "Read the note's maturity and security clauses alongside product labels."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "financing-notes-security",
+    "overview": [
+      {
+        "label": "Promise and security differ",
+        "detail": "The note creates a payment obligation; the lien supplies a property remedy."
+      },
+      {
+        "label": "Priority affects exposure",
+        "detail": "A senior foreclosure and a junior foreclosure leave different interests at risk."
+      },
+      {
+        "label": "Classify remedies",
+        "detail": "Lien loss does not alone decide personal liability or anti-deficiency protection."
+      }
+    ],
+    "sections": [
+      {
+        "id": "the-note-is-the-promise-security-backs-it",
+        "takeaway": "Read the note's payment promise with the security instrument's property obligations; satisfying installments does not necessarily satisfy every secured covenant."
+      },
+      {
+        "id": "mortgage-and-deed-of-trust-parties",
+        "takeaway": "Identify who gives security, benefits from it, and performs limited trustee functions; the trustee is not an unrestricted beneficial homeowner."
+      },
+      {
+        "id": "clauses-that-change-the-analysis",
+        "takeaway": "Acceleration, transfer restrictions, subordination, partial releases, and assignments affect different rights and remain subject to applicable legal limits and exceptions."
+      },
+      {
+        "id": "priority-determines-exposure",
+        "takeaway": "Determine actual priority and special claims before evaluating equity or foreclosure exposure; a smaller junior loan can face greater collateral risk."
+      },
+      {
+        "id": "assumption-versus-subject-to",
+        "takeaway": "Assumption adds a repayment undertaking, while subject-to acquisition differs; neither arrangement automatically releases the original borrower or overrides lender rights."
+      },
+      {
+        "id": "default-and-foreclosure-routes",
+        "takeaway": "Foreclosure requires its applicable procedure; reinstatement, payoff, judicial redemption, and a completed nonjudicial sale involve different rights and timing."
+      },
+      {
+        "id": "deficiency-protections-require-classification",
+        "takeaway": "Classify the particular note, purchase-money use, refinancing history, claimant, and enforcement method before applying California's separate anti-deficiency protections."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "A junior foreclosure purchaser must consider surviving senior liens, while a full payoff still requires attention to release of the recorded security."
+      },
+      {
+        "id": "follow-the-parties-through-payoff-and-transfer",
+        "takeaway": "Assignment transfers a loan interest rather than the house or an automatic borrower release; reconveyance addresses removal of deed-of-trust security after satisfaction."
+      },
+      {
+        "id": "apply-priority-to-a-sale-price",
+        "takeaway": "Apply sale proceeds in the stated priority order, but analyze any unpaid balance's personal remedies separately from the distribution arithmetic."
+      },
+      {
+        "id": "separate-acceleration-from-collection",
+        "takeaway": "Acceleration changes when debt is due without eliminating required enforcement procedures; curing delinquency and paying the entire obligation are different demands."
+      },
+      {
+        "id": "classify-a-possible-deficiency",
+        "takeaway": "An eliminated junior lien does not alone resolve the junior note's enforceability; purchase-money protections and the foreclosing creditor's identity remain important."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Keep document roles, priority, transfer promises, foreclosure procedure, and deficiency protection distinct before concluding who owes money or what security remains."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "The junior lien disappeared; what about the note?",
+      "setup": "A senior creditor completes a nonjudicial foreclosure. The proceeds are insufficient to pay a separate junior creditor, and the junior lien is extinguished. The junior note was used for a purpose that has not yet been established. The borrower asks whether the senior creditor's use of a trustee sale automatically prevents the junior from seeking any personal remedy.",
+      "question": "What is the most defensible analysis before answering the borrower?",
+      "choices": [
+        {
+          "label": "Apply the senior creditor's remedy to every debt",
+          "correct": false,
+          "result": "A nonjudicial senior sale does not automatically establish identical anti-deficiency treatment for every separate junior note.",
+          "reasoning": "Section 580d's protection focuses on the note secured by the instrument under which the power-of-sale foreclosure occurred, subject to its qualifications. Extending that conclusion to another creditor skips the identity of the note and the remedy used against its security."
+        },
+        {
+          "label": "Treat proper recording as proof of collectibility",
+          "correct": false,
+          "result": "Recording can establish or protect lien priority without resolving the availability of a personal judgment.",
+          "reasoning": "Security priority and anti-deficiency law answer different questions. A properly documented junior obligation can still be protected purchase-money debt or subject to another restriction. Conversely, losing the lien does not itself identify every limitation on the underlying promise."
+        },
+        {
+          "label": "Classify the separate junior debt and applicable protections",
+          "correct": true,
+          "result": "Identify source and use of proceeds, purchase-money status, any qualifying refinance, and the applicable claimant and remedy before evaluating collection rights.",
+          "reasoning": "Section 580b can protect specified purchase-money obligations independently of the senior creditor's chosen sale procedure. Refinancing and new advances require their statutory distinctions. The available facts establish loss of the junior security, not a complete answer about the junior's separate personal claim."
+        },
+        {
+          "label": "Use the combined loan-to-value ratio as the legal test",
+          "correct": false,
+          "result": "Collateral arithmetic measures exposure but cannot determine which personal remedies the law permits.",
+          "reasoning": "A shortfall explains why the junior remains unpaid. It does not establish the debt's protected character, the statutory treatment of proceeds, or another applicable legal defense. Those questions need evidence about the obligation and qualified legal analysis."
+        }
+      ],
+      "takeaway": "Separate three questions: which lien was foreclosed, what security survived, and which personal remedies remain on each note. Do not convert a distribution result into a blanket legal promise."
+    },
+    "pitfalls": [
+      {
+        "trap": "Lien loss equals debt forgiveness.",
+        "correction": "Analyze the note and its protections.",
+        "why": "Property security and personal liability are separate."
+      },
+      {
+        "trap": "Assumption releases the seller.",
+        "correction": "Confirm the lender's release or other legal basis.",
+        "why": "A buyer-seller agreement need not bind the lender."
+      },
+      {
+        "trap": "Acceleration authorizes immediate sale.",
+        "correction": "Apply the required enforcement procedure.",
+        "why": "Contract rights do not erase statutory protections."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "financing-loan-types-programs",
+        "reason": "Connect repayment structures and maturity dates with the note's terms."
+      },
+      {
+        "lessonSlug": "financing-credit-law-originators",
+        "reason": "Distinguish disclosure duties from enforcement and borrower-protection rules."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "financing-credit-law-originators",
+    "overview": [
+      {
+        "label": "Coverage first",
+        "detail": "Purpose, collateral, structure, and participants determine the applicable credit rules."
+      },
+      {
+        "label": "Several clocks coexist",
+        "detail": "Application disclosure, preconsummation waiting, and rescission have different triggers."
+      },
+      {
+        "label": "Each recipient has rights",
+        "detail": "Borrower disclosures, investor disclosures, and disbursement authority are separate."
+      }
+    ],
+    "sections": [
+      {
+        "id": "start-with-the-transactions-coverage",
+        "takeaway": "Identify consumer or business purpose, security, structure, and participant roles before applying federal or California rules to a proposed credit transaction."
+      },
+      {
+        "id": "tila-rate-disclosure-is-not-rate-setting",
+        "takeaway": "TILA addresses covered credit disclosures and protections rather than a universal rate ceiling; APR, note rate, advertising terms, and repayment requirements differ."
+      },
+      {
+        "id": "loan-estimate-and-closing-disclosure",
+        "takeaway": "Distinguish the initial application deadline, the Loan Estimate's seven-business-day interval, and the Closing Disclosure's receipt period; not every correction starts another wait."
+      },
+      {
+        "id": "rescission-is-a-different-three-day-rule",
+        "takeaway": "Federal rescission generally concerns covered nonpurchase principal-dwelling credit, not ordinary purchase mortgages, and its clock depends on the required final triggering event."
+      },
+      {
+        "id": "respa-services-and-referrals",
+        "takeaway": "Evaluate the nature of a referral payment and any actual exception; disclosure and a marketing label do not make a prohibited arrangement lawful."
+      },
+      {
+        "id": "fair-credit-and-consumer-reports",
+        "takeaway": "Assess legitimate credit risk individually, provide applicable adverse-action information, and handle reports for permitted purposes without substituting stereotypes or false documentation."
+      },
+      {
+        "id": "who-originates-and-under-what-authority",
+        "takeaway": "Bank registration, state licensing, DRE endorsement, and required sponsorship are distinct; an NMLS identifier alone does not establish current origination authority."
+      },
+      {
+        "id": "california-borrower-and-lender-disclosures",
+        "takeaway": "Apply MLDS borrower timing and the conditional federal-form alternative separately from LPDS lender timing, custody exceptions, and actual disbursement permission."
+      },
+      {
+        "id": "worked-scenario",
+        "takeaway": "A purchase loan's preclosing review does not create postclosing rescission, while a commercial broker-arranged loan can still trigger California borrower and lender disclosures."
+      },
+      {
+        "id": "match-the-obligation-to-the-recipient",
+        "takeaway": "Identify which party receives each disclosure and which law supplies its coverage; one party's form does not necessarily satisfy the other's rights."
+      },
+      {
+        "id": "distinguish-correction-from-a-new-waiting-period",
+        "takeaway": "Separate a duty to correct from a new waiting period, and separate early estimated information from final underwriting approval."
+      },
+      {
+        "id": "keep-consent-within-its-legal-function",
+        "takeaway": "Consent operates within its actual legal function: acknowledging information does not authorize prohibited fees, excess disbursements, or unlicensed origination activity."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Identify the governing law, covered transaction, recipient, triggering event, and required authority before choosing a disclosure, deadline, or claimed exception."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "Two waiting periods, one earliest closing",
+      "setup": "For an ordinary covered closed-end purchase mortgage, the creditor delivers the Loan Estimate in person on Monday and delivers the Closing Disclosure in person that Wednesday. There are no intervening federal holidays. Assume complete accurate disclosures, no qualifying emergency waiver, no timeshare exception, and no later change that restarts the Closing Disclosure period. Determine the earliest consummation permitted by these two waiting rules.",
+      "steps": [
+        {
+          "label": "Start the Loan Estimate interval",
+          "action": "Count from delivery or mailing of the Loan Estimate, not a later presumed receipt. The covered ordinary transaction requires at least seven business days before consummation.",
+          "evidence": "Monday is the delivery event. Tuesday through Saturday are the first five counted days; the following Monday is six and Tuesday is seven.",
+          "warning": "The initial three-business-day application deadline is a different requirement and does not replace this interval."
+        },
+        {
+          "label": "Start the Closing Disclosure interval",
+          "action": "Count the separate three-business-day period from actual receipt. Because delivery is in person Wednesday, Thursday, Friday, and Saturday are the three counted days.",
+          "evidence": "The receipt record establishes Wednesday rather than relying on mailing presumptions. For this waiting rule, Saturdays count and Sundays and federal legal public holidays do not.",
+          "warning": "An accurate corrected fee alone need not restart this period, but specified changes can."
+        },
+        {
+          "label": "Use the later completed interval",
+          "action": "The Closing Disclosure interval ends first. The seven-business-day Loan Estimate interval is not satisfied until the following Tuesday, so that later day controls these two requirements.",
+          "evidence": "Retain both delivery events and calculations. Completing one protection does not dispense with the other protection.",
+          "warning": "A lender cannot replace the missing preconsummation time with a promise of three days to cancel an ordinary purchase mortgage afterward."
+        },
+        {
+          "label": "Check the rest of the transaction",
+          "action": "Verify any applicable California broker disclosure, origination authority, final terms, and actual ability to close. The timing result answers only the stated two-period exercise.",
+          "evidence": "A signed Loan Estimate does not by itself establish the conditions of DRE's MLDS alternative or final underwriting approval.",
+          "warning": "Ordinary scheduling convenience is not the narrowly conditioned bona fide personal financial emergency waiver."
+        }
+      ],
+      "takeaway": "Run the clocks independently and use the later required date. A familiar three-day rule cannot answer a different disclosure's seven-day requirement."
+    },
+    "pitfalls": [
+      {
+        "trap": "Every deadline starts at receipt.",
+        "correction": "Identify the specified delivery or receipt trigger.",
+        "why": "Loan Estimate waiting begins at delivery or mailing."
+      },
+      {
+        "trap": "A signed federal form replaces all state duties.",
+        "correction": "Check the conditional MLDS alternative completely.",
+        "why": "Signatures alone omit required California disclosures."
+      },
+      {
+        "trap": "Acknowledgment permits any payment.",
+        "correction": "Verify actual disbursement authority separately.",
+        "why": "Information receipt does not confer unlimited investment power."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-disclosures-inspections",
+        "reason": "Distinguish mortgage clocks from California property-disclosure termination rights."
+      },
+      {
+        "lessonSlug": "practice-trust-funds",
+        "reason": "Carry lender consent into protected custody and authorized disbursement."
+      }
+    ]
+  }
+]

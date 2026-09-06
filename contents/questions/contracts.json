@@ -1073,5 +1073,205 @@
       }
     ],
     "answer": 0
+  },
+  {
+    "id": "contracts-044",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "An ordinary revocable offer expressly requires the buyer's receipt of signed acceptance. The seller signs Thursday. Before delivery, the seller receives the buyer's effective withdrawal at noon Friday. The signed acceptance reaches the buyer at 2 p.m., before the original 5 p.m. deadline. What controls?",
+    "options": [
+      {
+        "text": "Thursday's signature necessarily controls even though the offer expressly requires receipt.",
+        "explanation": "This disregards the specified method for effective acceptance."
+      },
+      {
+        "text": "Receipt before 5 p.m. necessarily creates a contract regardless of the noon withdrawal.",
+        "explanation": "Timely receipt does not revive an offer already effectively withdrawn under the stipulated facts."
+      },
+      {
+        "text": "The prescribed acceptance event occurred after effective withdrawal, so meeting the original deadline alone did not form the contract.",
+        "explanation": "The offer had to remain open when the required receipt occurred; the earlier signature does not satisfy the express receipt condition."
+      },
+      {
+        "text": "The stated Friday deadline necessarily made the offer irrevocable until 5 p.m.",
+        "explanation": "An ordinary offer's expiration does not itself create a binding option or another restriction on revocation."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-045",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "prompt": "An offer requires receipt of the seller's signed unchanged acceptance. The buyer receives it at 11 a.m. At noon the seller receives the buyer's attempted withdrawal. Assuming all formation requirements are satisfied, what is the buyer's next legal question?",
+    "options": [
+      {
+        "text": "Whether a contractual cancellation right, mutual agreement, or other applicable remedy permits ending the formed contract.",
+        "explanation": "The attempt follows effective acceptance; the problem has moved from revocation of an offer to rights under an existing contract."
+      },
+      {
+        "text": "Whether the noon withdrawal automatically revokes the already accepted offer.",
+        "explanation": "An effective acceptance ordinarily ends the ability to withdraw using the preformation revocation rule."
+      },
+      {
+        "text": "Whether the original offer deadline preserves revocation rights even after effective acceptance.",
+        "explanation": "The outside acceptance deadline does not ordinarily preserve a power to revoke once the offer has been effectively accepted."
+      },
+      {
+        "text": "Whether the absence of a completed escrow means the agreement is still only a revocable offer.",
+        "explanation": "An executory contract can be binding before escrow closes; incomplete performance is not the same as incomplete formation."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-046",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A party has valid grounds to rescind a completed purchase and has received benefits under it. Subject to section 1691's applicable qualifications, which proposal best fits the ordinary restoration requirement?",
+    "options": [
+      {
+        "text": "Keep all received benefits permanently while demanding unconditional return of every payment.",
+        "explanation": "That proposal is inconsistent with ordinary unwinding and restoration absent a relevant exception."
+      },
+      {
+        "text": "Return benefits only after collecting punitive damages, regardless of the governing claim.",
+        "explanation": "A demand for a separate remedy does not replace the stated restoration requirement."
+      },
+      {
+        "text": "Treat delivery of any preclosing inspection form as automatic restoration of completed-sale benefits.",
+        "explanation": "A form label does not perform the restoration or supply the proper postclosing rescission process."
+      },
+      {
+        "text": "Offer to restore the received benefits on condition that the other party likewise restores what it received.",
+        "explanation": "The statute permits an appropriate reciprocal restoration offer; actual facts and statutory qualifications still govern."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-047",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "prompt": "A buyer with an alleged postclosing fraud claim wants to keep the property while obtaining compensation for provable loss. The buyer calls this rescission. Which distinction is most important?",
+    "options": [
+      {
+        "text": "Every claim based on fraud necessarily requires surrender of the property before any remedy can be evaluated.",
+        "explanation": "The asserted misconduct does not automatically make rescission the only possible remedy."
+      },
+      {
+        "text": "Keeping the property while seeking compensation calls for a separate damages analysis rather than assuming the sale has been unwound.",
+        "explanation": "Remedies have different objectives and requirements; rescission ordinarily seeks restoration rather than retention of the entire bargain."
+      },
+      {
+        "text": "Calling the demand rescission automatically transfers title back even while the buyer insists on ownership.",
+        "explanation": "A chosen label does not itself reverse a conveyance or resolve restoration requirements."
+      },
+      {
+        "text": "A buyer who retains property can never assert any claim related to its purchase.",
+        "explanation": "Retention does not categorically eliminate every possible damages claim; the facts and governing law control."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-048",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "An individual buyer agreement is last signed September 10, 2026, but expressly sets September 15 as the delayed effective date for its maximum ninety-day initial term. Which date is day ninety?",
+    "options": [
+      {
+        "text": "December 13, 2026.",
+        "explanation": "Count September 15 as day one: 16 September days plus 31 October days plus 30 November days plus 13 December days equals 90."
+      },
+      {
+        "text": "December 9, 2026.",
+        "explanation": "That uses the ordinary day-after-signature start and ignores the expressly agreed delayed starting date."
+      },
+      {
+        "text": "December 14, 2026.",
+        "explanation": "That delays counting until the day after the agreed delayed effective date rather than using that date as the start."
+      },
+      {
+        "text": "December 15, 2026.",
+        "explanation": "That treats the limit as three calendar months rather than the regulatory ninety calendar days."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-049",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "prompt": "A covered individual buyer agreement expires December 13. Both parties sign an otherwise compliant written renewal on December 1. Under the DRE renewal rule, when does the renewal become effective?",
+    "options": [
+      {
+        "text": "December 14, automatically following expiration of the original term.",
+        "explanation": "That is not the regulation's stated effective-date rule for the signed renewal."
+      },
+      {
+        "text": "December 2, because every renewal uses the initial agreement's day-after-signature rule.",
+        "explanation": "The renewal provision expressly specifies the day of the last signature."
+      },
+      {
+        "text": "Only when the buyer makes another offer, because signing renewals does not establish an effective date.",
+        "explanation": "A new purchase offer is not the specified trigger for renewal effectiveness."
+      },
+      {
+        "text": "December 1, the day the last party signs the renewal.",
+        "explanation": "The regulation identifies the renewal's last-signature date; it does not automatically stack the new period after prior expiration."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-050",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "An otherwise qualifying note unconditionally promises a fixed $100,000 principal amount and describes interest using a variable index-based rate. Does the variable rate alone defeat negotiability?",
+    "options": [
+      {
+        "text": "Yes; both principal and every future interest amount must be fixed numerically when signed.",
+        "explanation": "The statute permits variable interest descriptions and references to outside information."
+      },
+      {
+        "text": "No; Commercial Code section 3112 permits variable interest, distinct from a condition on whether repayment is owed.",
+        "explanation": "The fixed-principal and unconditional-payment requirements should not be confused with a requirement that every interest rate remain constant."
+      },
+      {
+        "text": "Yes, unless a deed of trust is recorded, because recording makes the interest rate fixed.",
+        "explanation": "Recording security does not convert a variable rate into a fixed rate or provide the stated exception."
+      },
+      {
+        "text": "No, because any document secured by real estate is automatically negotiable.",
+        "explanation": "The answer cannot rest on collateral; all relevant negotiable-instrument requirements still must be met."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-051",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "prompt": "A real estate licensee markets investment notes secured by deeds of trust and says collateral eliminates the need to examine securities registration or licensing. What is the soundest evaluation?",
+    "options": [
+      {
+        "text": "Recording each deed of trust automatically constitutes SEC approval of the investment.",
+        "explanation": "County recording does not supply federal securities approval."
+      },
+      {
+        "text": "Securities rules apply only if the property securing the notes is outside California.",
+        "explanation": "Collateral location does not supply that blanket exemption."
+      },
+      {
+        "text": "Secured promissory notes can raise securities requirements independently of the real estate collateral and license.",
+        "explanation": "The offering's substance and applicable registration, exemption, and licensing rules require separate review."
+      },
+      {
+        "text": "A note's negotiability conclusively determines whether securities regulation applies.",
+        "explanation": "Negotiable-instrument classification and securities treatment are separate legal analyses."
+      }
+    ],
+    "answer": 2
   }
 ]

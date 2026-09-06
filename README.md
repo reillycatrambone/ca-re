@@ -24,17 +24,21 @@ The production server uses port 3000, so stop the development server first. The 
 
 ## Content and study tools
 
-- 33 expanded chapters across all seven DRE examination domains, approximately 66,000 chapter-body words.
-- 360 original questions with explanations for every answer choice.
+- 33 chapters across all seven DRE examination domains, approximately 67,000 chapter-body words.
+- 426 original questions with explanations for every answer choice.
+- Focused and full-chapter reading modes, with a concise takeaway for every H2 section.
+- 33 chapter guides with core distinctions, pitfalls, related concepts, and original contrast, decision, sequence, or calculation labs.
 - Chapter quizzes and topic practice.
 - A 150-question, three-hour mock exam with approximate DRE domain weighting, flags, navigation, saved answers, expiry enforcement, and domain-level results.
 - Flashcards generated from the textbook glossary, with known/to-review states.
 - Browser-local bookmarks, completed chapters, study history, and current sessions.
-- 33 original in-text teaching figures, in addition to the nine existing chapter visuals, including an interactive capitalization-rate example.
-- Section-level full-text search that also indexes figure labels and captions, plus responsive and print layouts.
+- 42 teaching visuals: 33 in-text figures plus nine earlier chapter visuals, including an interactive capitalization-rate example.
+- Section-level search across chapters, figures, and guides; matching anchors remain accessible when focused reading has collapsed a section.
+- Responsive and print layouts.
 - All 65 published DRE subtopics mapped in `contents/coverage.json`.
+- Seven domain audits documenting 33 specific gaps and the teaching or source updates used to address them.
 
-This is independent exam preparation, not a DRE-approved licensing course. The text and questions were authored with AI assistance and checked against cited primary sources. They are not actual DRE exam questions. The initial source review is dated September 6, 2026; later legal changes require editorial updates.
+This is independent exam preparation, not a DRE-approved licensing course. The text and questions were authored with AI assistance and checked against cited primary sources. They are not actual DRE exam questions. The source review is dated September 6, 2026; later legal changes require editorial updates. Coverage and practice scores do not guarantee readiness or an exam result.
 
 ## Verification
 
@@ -49,15 +53,20 @@ pnpm test:browser
 
 Browser tests use an existing server at port 3000, or start the production server after a build. Set `PLAYWRIGHT_BASE_URL` to test another local URL. They use isolated browser contexts and do not change a reader's saved study data.
 
-The content validator checks metadata, source links' structure, chapter coverage and minimum depth, question uniqueness and references, and sufficient question pools. It also checks every figure's chapter and section anchor, unique ID, and numeric reconciliation. It does not prove factual accuracy; source review remains an editorial task. Unit tests cover exam allocation, grading, mathematical calculations, search, heading IDs, and MDX figure placement. Browser tests cover all 33 figure routes, responsive layouts, rendered assets, keyboard-driven examples, print and dark-mode behavior, persistence, deadlines, and reset controls.
+Content validation checks metadata, source-link structure, chapter depth and coverage, question uniqueness and references, and sufficient question pools. It verifies figure anchors and numeric reconciliation, every guide's H2 coverage and related links, audit references, and calculation expressions against their declared results. Structural validation does not prove factual accuracy; primary-source review remains an editorial task.
+
+Unit and browser tests exercise study calculations, exam behavior, search and anchors, reading layouts, figures, persistence, and accessibility-related interactions. Run the commands above against the current edition rather than treating an earlier test result as a guarantee.
 
 ## Structure
 
 - `contents/textbook/<domain>/*.mdx`: original lessons and source metadata.
 - `contents/questions/<domain>.json`: original question banks.
+- `contents/guides/<domain>.json`: one structured reading guide and case lab per chapter.
+- `contents/audits/<domain>.json`: targeted coverage findings, completed actions, sources, and limitations.
 - `contents/coverage.json`: published DRE topic-to-chapter mapping.
 - `lib/curriculum.ts`: shared lesson, domain, and question contracts.
 - `lib/learning-figures/`: typed, domain-organized teaching figures and validation.
+- `lib/study-guides/`: guide and audit contracts, validation, and search integration.
 - `components/book/`: reading layout, search, and custom diagrams.
 - `components/study/`: quizzes, exams, flashcards, and progress.
 - `scripts/`: content validation and automatic search-index generation.

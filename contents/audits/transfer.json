@@ -1,0 +1,58 @@
+{
+  "domain": "transfer",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "Deeds",
+      "gap": "The deed comparison lacked the express statutory presumption of fee-simple intent and its distinction from an assurance that the grantor owns an unencumbered estate.",
+      "action": "Added section 1105 and a contrast lab separating an ordinary grant, a reserved life estate, and an undivided fractional conveyance.",
+      "lessonSlugs": [
+        "transfer-deeds-and-vesting"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106."
+      ]
+    },
+    {
+      "topic": "Title Insurance",
+      "gap": "The report discussion did not explicitly state Insurance Code section 12340.11's distinction between an offer to insure and an abstract or representation of actual title condition.",
+      "action": "Added the statutory distinction and a sequence lab that treats a newly identified easement as separate title-right, insurance-coverage, and escrow-instruction problems.",
+      "lessonSlugs": [
+        "transfer-title-and-escrow"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm"
+      ]
+    },
+    {
+      "topic": "Tax Aspects",
+      "gap": "Exchange coverage defined boot and deferral but lacked a worked cash-boot recognition cap and replacement-basis calculation showing where deferred gain remains.",
+      "action": "Added two compact paragraphs and a stipulated, debt-free exchange calculation lab separating realized gain, recognized cash boot, deferred gain, and replacement basis.",
+      "lessonSlugs": [
+        "transfer-taxes-and-prorations"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/like-kind-exchanges-real-estate-tax-tips"
+      ]
+    },
+    {
+      "topic": "Transfer through Court Supervision",
+      "gap": "Probate examples established numerical thresholds but did not explicitly address commission-free bid bases or the fact that a sufficient number does not satisfy responsibility, terms, and judicial-discretion requirements.",
+      "action": "Added a short overbid qualification paragraph and a calculation lab applying distinct appraisal and accepted-bid bases without treating the formula as guaranteed confirmation.",
+      "lessonSlugs": [
+        "transfer-special-transfers"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=PROB&division=7.&title=&part=5.&chapter=18.&article=6."
+      ]
+    }
+  ],
+  "limitations": "The transfer audit is targeted and educational, not a title opinion, tax return, or probate procedure manual. Tax examples expressly exclude complicating debt and other adjustments; actual policies and court powers must be read. No source map can guarantee every question on a changing, nonexhaustive exam outline."
+}

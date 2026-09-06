@@ -48,8 +48,8 @@ export function validateContent(lessons: Lesson[], questions: Question[]) {
     if (lesson.body.split(/\s+/).length < 1700) errors.push(`Chapter too short: ${lesson.slug}`)
     if (!lesson.slug.startsWith(`${lesson.domain}-`))
       errors.push(`Domain/slug mismatch: ${lesson.slug}`)
-    if (questions.filter((q) => q.lessonSlug === lesson.slug).length < 7)
-      errors.push(`Fewer than seven questions: ${lesson.slug}`)
+    if (questions.filter((q) => q.lessonSlug === lesson.slug).length < 9)
+      errors.push(`Fewer than nine questions: ${lesson.slug}`)
   }
   const questionIds = new Set<string>()
   const prompts = new Set<string>()

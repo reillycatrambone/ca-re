@@ -1,0 +1,79 @@
+{
+  "domain": "ownership",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "Classes of property and fixture ownership",
+      "gap": "The chapter explained fixture factors and tenant equipment, but readers had to combine those rules themselves when the building seller, equipment owner, and service provider were different parties.",
+      "action": "Added a three-case fixture lab separating seller-owned counter, tenant-owned machine, and provider-owned alarm rights; added two application questions distinguishing physical inclusion from transfer authority and service assignment.",
+      "lessonSlugs": [
+        "ownership-property-rights"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1019."
+      ]
+    },
+    {
+      "topic": "Types of ownership and community real property",
+      "gap": "Community characterization and survivorship were covered, but the ordinary spousal joinder requirement for sale, encumbrance, and leases exceeding one year was not expressly taught.",
+      "action": "Added a compact sourced execution-authority subsection, a contrasting sale/lease/separate-property lab, and two questions that distinguish management and marital status from the required legal premises.",
+      "lessonSlugs": [
+        "ownership-estates-title"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=1102."
+      ]
+    },
+    {
+      "topic": "Encumbrances and release documentation",
+      "gap": "Debt-versus-lien classification did not explicitly walk the learner from a paid loan to verification of the security instrument's recorded release.",
+      "action": "Added a short satisfaction/reconveyance distinction and a document-review sequence contrasting loan security with a continuing appurtenant easement; added two targeted release questions.",
+      "lessonSlugs": [
+        "ownership-encumbrances"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2941.",
+        "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf"
+      ]
+    },
+    {
+      "topic": "Descriptions of property and overlapping use limits",
+      "gap": "Area and setback examples were separate from the easement discussion, leaving the double-subtraction error insufficiently tested when an easement already lies within a setback.",
+      "action": "Added a calculated lot/envelope/coverage lab with an explicitly overlapping easement, plus two area questions testing retained fee acreage and the correct coverage denominator.",
+      "lessonSlugs": [
+        "ownership-legal-descriptions",
+        "ownership-encumbrances"
+      ],
+      "sourceUrls": [
+        "https://www.blm.gov/programs/lands-and-realty/cadastral-survey",
+        "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf"
+      ]
+    },
+    {
+      "topic": "Public controls and environmental review",
+      "gap": "The CEQA overview said not every project needs an EIR but did not distinguish a negative declaration from a mitigated negative declaration or explain the latter's evidence and revision conditions.",
+      "action": "Added a concise sourced comparison and decision lab, split the dense subdivision paragraph without dropping qualifications, and added two questions separating CEQA outcomes from independent approvals.",
+      "lessonSlugs": [
+        "ownership-land-use-controls"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+        "https://www.dre.ca.gov/Developers/"
+      ]
+    },
+    {
+      "topic": "Environmental hazards and purchaser protections",
+      "gap": "The environmental chapter recognized statutory defenses but did not identify the important distinction between knowledge of contamination, BFPP acquisition criteria, and continuing obligations.",
+      "action": "Added a compact BFPP explanation linked to EPA guidance, a staged acquisition/diligence lab, and two questions rejecting both automatic disqualification from knowledge and permanent immunity from one report.",
+      "lessonSlugs": [
+        "ownership-water-environment"
+      ],
+      "sourceUrls": [
+        "https://www.epa.gov/enforcement/bona-fide-prospective-purchasers",
+        "https://www.epa.gov/enforcement/superfund-liability"
+      ]
+    }
+  ],
+  "limitations": "Reviewed the current public DRE outline's ownership categories: property classes and characteristics, encumbrances, ownership forms, descriptions, government rights, public and private controls, environmental hazards, water rights, and special lands. The outline is not exhaustive and does not disclose future questions. These focused closures improve application coverage, not a guarantee of complete exam mastery. Site-specific surveying, current local development rules, water priority, title remedies, tribal interests, and environmental eligibility require their governing facts and qualified advice."
+}

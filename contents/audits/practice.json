@@ -1,0 +1,84 @@
+{
+  "domain": "practice",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "Licensing, supervision, assistants, and records",
+      "gap": "The chapter explains these duties separately, but lacked a single ordered response connecting an expired license, an assistant's proposed advice, delegated supervision, and preservation of the actual transaction history.",
+      "action": "Added a licensing sequence lab with authority checks, reassignment, supervision evidence, and truthful records; new questions distinguish administrative communication from substantive work and recovery limits from ordinary damages.",
+      "lessonSlugs": [
+        "practice-licensing-supervision"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Licensees/UnlicensedAssistants.html",
+        "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html"
+      ]
+    },
+    {
+      "topic": "Trust account management",
+      "gap": "Separate reconciliation and shortage examples did not require the learner to detect a negative beneficiary hidden inside an apparently balanced three-way net reconciliation.",
+      "action": "Added a calculation lab combining deposits in transit, outstanding checks, positive beneficiary liabilities, and a hidden deficit; questions test the shortage and postacceptance holding authority.",
+      "lessonSlugs": [
+        "practice-trust-funds"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/files/pdf/re13.pdf",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145."
+      ]
+    },
+    {
+      "topic": "Fair housing and property management",
+      "gap": "The reader lacked side-by-side changed-fact cases showing when identical policies must be reconsidered and when a qualified small landlord loses access to the higher deposit cap for a particular applicant.",
+      "action": "Added disability accommodation/modification contrasts and three deposit-cap cases. Questions distinguish apparent verification needs, physical modifications, service-member limits, and post-inspection damage. Split the deposit-cap paragraph into shorter units.",
+      "lessonSlugs": [
+        "practice-fair-housing",
+        "practice-property-management"
+      ],
+      "sourceUrls": [
+        "https://calcivilrights.ca.gov/housing/",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5."
+      ]
+    },
+    {
+      "topic": "Truth in advertising and technology",
+      "gap": "The altered-image discussion referred to the prescribed manner without stating the placement of the disclosure or distinguishing a private original file from the required public access.",
+      "action": "Added a short paragraph specifying on-or-adjacent conspicuous notice, public original-image access, and the controlled-website rule; a decision lab separately tests image access and unsupported structural feasibility.",
+      "lessonSlugs": [
+        "practice-ethics-advertising-technology"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+        "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html"
+      ]
+    },
+    {
+      "topic": "Commercial, industrial, income property, and specialty practice",
+      "gap": "Face rent, free rent, and improvement contributions were discussed, but no guided calculation explicitly prevented labeling the resulting limited cash figure as NOI or a complete investment valuation.",
+      "action": "Added a four-step commercial lease calculation that isolates base collections, average rent, and the improvement contribution; pitfalls and questions distinguish capital commitments, operating income, and occupancy rights.",
+      "lessonSlugs": [
+        "practice-commercial-specialties"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Publications/RealEstateLaw.html",
+        "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html"
+      ]
+    },
+    {
+      "topic": "Material facts, TDS, NHD, inspections, and reports",
+      "gap": "The explanations lacked an integrated response to contradictory seller knowledge, a visible warning sign, a specialist recommendation, and an approaching contractual deadline without treating reports as substitutes.",
+      "action": "Added an evidence-to-investigation-to-delivery sequence lab and targeted questions about incomplete TDS delivery and unresolved recommendations. Section takeaways preserve distinctions among map hazards, report scope, lead information, and sensitive facts.",
+      "lessonSlugs": [
+        "practice-disclosures-inspections"
+      ],
+      "sourceUrls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+        "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards"
+      ]
+    }
+  ],
+  "limitations": "Reviewed the published DRE salesperson domain topics and existing chapter explanations, not confidential examination items. The outline is expressly nonexhaustive; local housing rules, fact-specific exemptions, later legal changes, and specialist legal or technical issues require separate verification. Guide cases use stated assumptions and do not guarantee examination performance or transaction outcomes."
+}

@@ -1,0 +1,661 @@
+[
+  {
+    "lessonSlug": "ownership-property-rights",
+    "overview": [
+      {
+        "label": "The thing and the right",
+        "detail": "Physical attachment, ownership of the object, and authority to transfer it are separate questions."
+      },
+      {
+        "label": "Relationship matters",
+        "detail": "A tenant's qualifying removal rights differ from a seller's obligations to the buyer of the building."
+      },
+      {
+        "label": "Documents define the package",
+        "detail": "An equipment inclusion does not by itself assign a lease, subscription, warranty, or third party's ownership."
+      }
+    ],
+    "sections": [
+      {
+        "id": "begin-with-the-rights-being-transferred",
+        "takeaway": "Identify the precise right, its holder, and its duration; present possession and fee ownership can belong to different people."
+      },
+      {
+        "id": "real-and-personal-property",
+        "takeaway": "Distinguish land and attached improvements from movable or intangible assets; an interest associated with real estate is not necessarily real property."
+      },
+      {
+        "id": "how-an-object-becomes-a-fixture",
+        "takeaway": "Use attachment, adaptation, relationship, objective intention, and agreement together; removal difficulty or purchase price alone cannot settle classification."
+      },
+      {
+        "id": "trade-fixtures-and-severance",
+        "takeaway": "Qualifying tenant removal and authorized severance differ from a seller taking an included fixture; identify ownership and timing before classifying conduct."
+      },
+      {
+        "id": "lands-physical-and-economic-characteristics",
+        "takeaway": "Land's location cannot move, but demand and usefulness can change; physical permanence never guarantees constant value or unlimited usable supply."
+      },
+      {
+        "id": "worked-scenario-the-equipment-at-closing",
+        "takeaway": "Break an installation into equipment, supports, ownership, and service rights so that one inclusion does not silently promise the entire arrangement."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Read the parties and transaction first, then apply the fixture factors; distinguish authority to remove an item from its classification afterward."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "One restaurant, three equipment arrangements",
+      "setup": "A buyer contracts to purchase a restaurant building. The showing includes a bolted espresso machine, a fitted service counter, and a hardwired alarm. The purchase agreement mentions equipment, but the seller has not supplied the equipment leases or the tenant's installation agreement. Compare what each additional fact changes before promising delivery.",
+      "cases": [
+        {
+          "label": "Seller owns the installation",
+          "changedFact": "The seller installed and owns the fitted service counter; the sale agreement expressly includes it.",
+          "result": "Treat delivery of the included counter as part of the seller's contractual undertaking.",
+          "reasoning": [
+            "Its adaptation and the express agreement point in the same direction. A claim that bolts can be removed does not defeat the negotiated inclusion.",
+            "A last-minute offer to replace it with a cheaper counter changes the promised performance; it does not merely clarify fixture terminology."
+          ]
+        },
+        {
+          "label": "Tenant owns the machine",
+          "changedFact": "A business tenant bought and installed the machine. Its lease permits timely removal without injury and requires restoration.",
+          "result": "Investigate the tenant's qualifying removal right before treating the machine as the building seller's asset.",
+          "reasoning": [
+            "The changed ownership and landlord-tenant relationship matter even though the machine is physically attached.",
+            "The seller's agreement with the buyer does not itself eliminate the tenant's rights. Resolve exclusions, permissions, or a separate acquisition in the transaction documents."
+          ]
+        },
+        {
+          "label": "Provider owns alarm devices",
+          "changedFact": "An outside provider leases the alarm devices to the seller; a separate contract supplies monitoring.",
+          "result": "Verify equipment ownership and any assignment or replacement arrangement independently.",
+          "reasoning": [
+            "Leaving devices physically installed does not prove that the seller can transfer ownership free of the provider's rights.",
+            "Even a valid device transfer does not establish that monitoring continues on the buyer's preferred terms. Physical possession, title, and service are different interests."
+          ]
+        }
+      ],
+      "takeaway": "Classify each component and identify its owner before reading the inclusion as a transfer promise. Attachment supports a fixture analysis, but cannot supply missing authority over another person's asset."
+    },
+    "pitfalls": [
+      {
+        "trap": "Everything bolted down belongs to the seller.",
+        "correction": "Check ownership and the relevant relationship before promising conveyance.",
+        "why": "An attachment test does not transfer a third party's rights to the seller."
+      },
+      {
+        "trap": "The most expensive object must be the fixture.",
+        "correction": "Use objective function, adaptation, attachment, and agreement.",
+        "why": "Price measures expenditure, not legal classification or contractual inclusion."
+      },
+      {
+        "trap": "Detaching it proves removal was permitted.",
+        "correction": "Separate severance's classification effect from the right to sever.",
+        "why": "An unauthorized removal can create liability even after the object becomes movable."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-estates-title",
+        "reason": "The same physical site can support an owner's estate and a tenant's separate possessory interest."
+      },
+      {
+        "lessonSlug": "valuation-sales-comparison",
+        "reason": "Comparable sale prices require scrutiny when the transaction includes non-realty equipment."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "ownership-estates-title",
+    "overview": [
+      {
+        "label": "Estate versus vesting",
+        "detail": "An estate describes the interest's duration; vesting describes who holds it and in what ownership form."
+      },
+      {
+        "label": "Survivorship versus inheritance",
+        "detail": "Joint tenancy and community property with survivorship differ from a tenancy-in-common interest that can pass through an owner's estate."
+      },
+      {
+        "label": "Ownership versus execution",
+        "detail": "Knowing property is community property does not establish that one spouse may unilaterally convey or encumber it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "ask-two-different-ownership-questions",
+        "takeaway": "Ask both what estate exists and how title is held; duration and co-ownership are independent dimensions of an ownership problem."
+      },
+      {
+        "id": "freehold-estates-and-future-interests",
+        "takeaway": "A transferred life estate cannot outlast its original measuring life; distinguish the present possessory estate from the remainder or reversion."
+      },
+      {
+        "id": "leasehold-estates",
+        "takeaway": "Classify a leasehold by its duration and termination structure, not merely the rent interval or whether the occupant calls it temporary."
+      },
+      {
+        "id": "one-owner-or-concurrent-owners",
+        "takeaway": "Unequal tenancy-in-common shares do not divide the parcel into exclusive physical areas; joint tenancy adds different creation and survivorship requirements."
+      },
+      {
+        "id": "community-property",
+        "takeaway": "Separate community or separate characterization from record title, survivorship, and execution authority; each question can require different documents and facts."
+      },
+      {
+        "id": "condominiums-cooperatives-trusts-and-entities",
+        "takeaway": "A condominium includes a separate interest and common interests; cooperative shares, trust interests, and entity ownership represent different legal arrangements."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Trace the particular interest through transfer or death without expanding its duration; do not infer unilateral conveyancing power from management authority."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "A signature problem is not a vesting problem",
+      "setup": "Two spouses own a rental house. A proposed transaction has been negotiated by one spouse, who handles repairs, collects rent, and speaks with the property manager. Assume no power of attorney, court order, or statutory exception is supplied. Determine what the changed facts establish about execution, rather than judging who appears to run the property.",
+      "cases": [
+        {
+          "label": "A community-property sale",
+          "changedFact": "The house is established to be community real property, and one spouse proposes to execute the conveyance alone.",
+          "result": "The ordinary rule requires both spouses to join, personally or through duly authorized agents.",
+          "reasoning": [
+            "Family Code section 1102 distinguishes management from instruments selling, conveying, or encumbering community real property.",
+            "The manager's familiarity with the property does not supply the other spouse's execution. Resolve authority before assuming the proposed instrument is sufficient."
+          ]
+        },
+        {
+          "label": "A two-year community-property lease",
+          "changedFact": "The transaction is instead a lease exceeding one year, with the same community-property characterization.",
+          "result": "The ordinary joinder requirement still applies to the lease instrument.",
+          "reasoning": [
+            "The lease term is the decisive additional fact. Section 1102 specifically includes leases longer than one year.",
+            "Calling the transaction ordinary property management does not remove that statutory category. Nor does collecting monthly rent make the agreed two-year term a monthly tenancy."
+          ]
+        },
+        {
+          "label": "A separately inherited house",
+          "changedFact": "The property was inherited by one spouse and is established to remain that spouse's separate property.",
+          "result": "Do not impose the community-real-property joinder rule solely because the owner is married.",
+          "reasoning": [
+            "The source and continuing characterization of the property changed. Marriage alone does not convert every individually held asset into community property.",
+            "Verify the ownership and authority facts rather than treating the community-property rule as a universal rule for all married owners."
+          ]
+        }
+      ],
+      "takeaway": "Determine characterization, proposed act, and execution authority in that order. These examples teach the ordinary rule; statutory exceptions, authorized agents, title presumptions, and remedies require their own facts."
+    },
+    "pitfalls": [
+      {
+        "trap": "The property manager can sign every disposition.",
+        "correction": "Distinguish management duties from authority to execute a particular instrument.",
+        "why": "Collecting rent is not proof of authority to convey the ownership interest."
+      },
+      {
+        "trap": "A life tenant's buyer receives a new life estate measured by the buyer.",
+        "correction": "Keep the original measuring life unless a different valid grant creates another interest.",
+        "why": "A transfer cannot enlarge the estate the transferor owns."
+      },
+      {
+        "trap": "A 70% tenancy-in-common share means an exclusive 70% of the lot.",
+        "correction": "Distinguish an undivided ownership share from a legally divided parcel.",
+        "why": "The share alone does not allocate a fenced physical portion to its holder."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-property-rights",
+        "reason": "Conveyancing authority concerns the exact right held, not simply possession of the property."
+      },
+      {
+        "lessonSlug": "ownership-encumbrances",
+        "reason": "A deed of trust is an encumbrance, so execution authority matters before analyzing its priority."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "ownership-encumbrances",
+    "overview": [
+      {
+        "label": "Three independent effects",
+        "detail": "An encumbrance can secure money, permit another person's use, or restrict the owner's use."
+      },
+      {
+        "label": "Scope versus existence",
+        "detail": "Proof that an easement exists does not prove that every proposed activity falls within it."
+      },
+      {
+        "label": "Debt versus record",
+        "detail": "Loan satisfaction and the recorded documentation releasing its security should be verified as related but distinct matters."
+      }
+    ],
+    "sections": [
+      {
+        "id": "an-encumbrance-need-not-prevent-a-sale",
+        "takeaway": "Classify the burden before choosing a remedy; a sale can proceed with some encumbrances remaining and others being resolved."
+      },
+      {
+        "id": "appurtenant-easements-and-easements-in-gross",
+        "takeaway": "An appurtenant easement benefits a parcel, while an easement in gross benefits its holder; neither automatically transfers ownership of the burdened strip."
+      },
+      {
+        "id": "creation-and-termination",
+        "takeaway": "Creation, permitted scope, maintenance, and termination are separate questions; a road's current use alone does not establish all four answers."
+      },
+      {
+        "id": "license-encroachment-and-adverse-possession",
+        "takeaway": "Permission can defeat an adverse-use premise; distinguish a revocable license, physical encroachment, prescriptive use right, and claim to ownership."
+      },
+      {
+        "id": "classifying-liens",
+        "takeaway": "Classify liens along separate voluntary, general, and priority dimensions; payoff evidence should not be confused with a completed recorded release."
+      },
+      {
+        "id": "worked-scenario-a-buyer-reads-a-preliminary-report",
+        "takeaway": "Read each preliminary-report exception according to its function and verify underlying documents rather than assuming every listed interest must disappear."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Separate a right to use land from ownership, and a monetary obligation from its security; remedies depend on the identified burden."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "Resolve a paid loan without erasing an easement",
+      "setup": "A preliminary report identifies an old deed of trust and a recorded driveway easement. The seller supplies a bank statement showing a zero loan balance and says both exceptions should disappear when the house sells. The buyer plans to fence the driveway strip. Neither assertion is adequately resolved by the account statement.",
+      "steps": [
+        {
+          "label": "Identify each interest",
+          "action": "Separate the lender's security interest from the neighboring parcel's access right.",
+          "evidence": "Read the deed of trust and easement instruments identified in the report.",
+          "warning": "Both appear as exceptions, but payment is relevant to only one of them."
+        },
+        {
+          "label": "Match the payoff",
+          "action": "Confirm that the satisfied obligation is the loan secured by the reported deed of trust.",
+          "evidence": "Compare the beneficiary, property, recording reference, and servicing or payoff documentation.",
+          "warning": "A zero balance on a different account or a seller's recollection does not establish this security instrument's status."
+        },
+        {
+          "label": "Trace the release",
+          "action": "Check for the appropriate recorded full reconveyance or other legally sufficient release and resolve a missing document through the responsible parties.",
+          "evidence": "A deed-of-trust reconveyance is distinct from the seller's grant deed to the buyer.",
+          "warning": "Do not promise that executing the sale deed itself clears the lender's recorded security. Civil Code section 2941 governs reconveyance procedures."
+        },
+        {
+          "label": "Evaluate the driveway",
+          "action": "Determine the easement's location, beneficiaries, permitted use, and any valid termination basis before accepting the fence plan.",
+          "evidence": "Use the recorded grant and an appropriate survey or professional interpretation when needed.",
+          "warning": "The seller's loan payoff and the parcel's sale do not themselves terminate a neighbor's appurtenant access right."
+        }
+      ],
+      "takeaway": "Choose evidence that answers the particular issue. A loan statement addresses indebtedness, a reconveyance documents release of security, and an easement grant defines a different continuing property interest."
+    },
+    "pitfalls": [
+      {
+        "trap": "A paid note means the preliminary report is necessarily wrong.",
+        "correction": "Verify both satisfaction and the release documentation.",
+        "why": "Debt accounting and the public-record documentation can be at different stages."
+      },
+      {
+        "trap": "An access strip should be subtracted from the owner's acreage.",
+        "correction": "Distinguish an easement burden from conveyance of fee ownership.",
+        "why": "An owner can retain title to land that another person may lawfully use."
+      },
+      {
+        "trap": "The first recorded lien always wins.",
+        "correction": "Check the applicable priority rules and stated exceptions.",
+        "why": "Tax and construction-lien rules can defeat a simplistic recording-date answer."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-legal-descriptions",
+        "reason": "The easement's location and the parcel's owned area are different survey questions."
+      },
+      {
+        "lessonSlug": "ownership-estates-title",
+        "reason": "An encumbrance must be created by a party with the required ownership and execution authority."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "ownership-legal-descriptions",
+    "overview": [
+      {
+        "label": "Identity before quantity",
+        "detail": "A legal description identifies the property; square footage calculates quantity after the relevant boundaries are established."
+      },
+      {
+        "label": "Ownership versus usability",
+        "detail": "A retained strip burdened by an easement can remain owned acreage even when it cannot support the buyer's proposed building."
+      },
+      {
+        "label": "Units expose the operation",
+        "detail": "Acres, square feet, frontage, and floor area answer different questions and require different denominators."
+      }
+    ],
+    "sections": [
+      {
+        "id": "identity-before-arithmetic",
+        "takeaway": "Confirm which legally described land is being measured before relying on an address, assessor's parcel number, fence, or advertised acreage."
+      },
+      {
+        "id": "metes-and-bounds",
+        "takeaway": "Follow the boundary calls from the point of beginning and reconcile inconsistencies professionally; a drawn sketch is not a substitute for a survey."
+      },
+      {
+        "id": "recorded-lot-and-map-descriptions",
+        "takeaway": "A lot-and-map description incorporates a recorded subdivision map; a lot number or assessor identifier without the proper reference may be insufficient."
+      },
+      {
+        "id": "government-rectangular-survey",
+        "takeaway": "Read nested aliquot parts from the larger unit inward, and distinguish fractional area from the actual surveyed dimensions of irregular government lots."
+      },
+      {
+        "id": "area-frontage-and-units",
+        "takeaway": "Separate owned area, usable area, frontage, and building area; an easement burden does not automatically remove land from fee ownership."
+      },
+      {
+        "id": "worked-scenario-one-parcel-two-pricing-methods",
+        "takeaway": "Match the price basis to its correct quantity; a front-foot quotation and a per-acre quotation may produce different prices for one parcel."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Check the property identified, the geometry, the units, and any exclusions before computing; accurate arithmetic cannot repair an incorrect boundary assumption."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Owned acreage is not the same as the building envelope",
+      "setup": "An exercise supplies a surveyed rectangular lot 300 feet wide by 240 feet deep. Its west 20-foot strip is burdened by a driveway easement, not excepted from fee ownership. A stated local rule independently requires a 20-foot setback along every boundary and permits construction on at most 25% of the total lot. Assume the easement lies entirely inside the west setback and no other constraints apply.",
+      "inputs": [
+        {
+          "label": "Lot dimensions",
+          "value": "300 ft x 240 ft"
+        },
+        {
+          "label": "Easement strip",
+          "value": "20 ft x 240 ft; title retained"
+        },
+        {
+          "label": "Setbacks",
+          "value": "20 ft at each of four boundaries"
+        },
+        {
+          "label": "Coverage limit",
+          "value": "25% of total lot area"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Owned lot area",
+          "expression": "300 * 240",
+          "value": 72000,
+          "format": "number",
+          "explanation": "The parcel contains 72,000 square feet. The driveway grant burdens use but does not convey the strip's fee ownership, so its area is not deducted from owned area."
+        },
+        {
+          "label": "Setback envelope",
+          "expression": "(300 - 20 - 20) * (240 - 20 - 20)",
+          "value": 52000,
+          "format": "number",
+          "explanation": "The remaining geometric envelope is 260 by 200 feet. Both opposing setbacks reduce each dimension. Do not subtract the same west easement again because it already lies outside this envelope."
+        },
+        {
+          "label": "Coverage allowance",
+          "expression": "72000 * 0.25",
+          "value": 18000,
+          "format": "number",
+          "explanation": "The stated coverage rule uses total lot area, not the setback envelope. Its separate ceiling is an 18,000-square-foot footprint."
+        },
+        {
+          "label": "Controlling stated area limit",
+          "expression": "min(52000, 18000)",
+          "value": 18000,
+          "format": "number",
+          "explanation": "The coverage ceiling is smaller, so it controls this exercise's maximum footprint. The 52,000-square-foot envelope still controls where that footprint may be placed."
+        }
+      ],
+      "takeaway": "Retain owned acreage, avoid double-counting overlapping restrictions, and apply every independent limit. This is hypothetical geometry under supplied rules, not a statewide development entitlement or a substitute for site-specific design review."
+    },
+    "pitfalls": [
+      {
+        "trap": "Every restricted strip reduces legal acreage.",
+        "correction": "Ask whether fee ownership was excepted or only a use right was granted.",
+        "why": "An easement changes rights without necessarily changing the owner's boundary."
+      },
+      {
+        "trap": "Subtract one setback from each dimension.",
+        "correction": "Account for both opposing boundaries when both have setbacks.",
+        "why": "A front-and-rear pair reduces depth twice, not once."
+      },
+      {
+        "trap": "The largest calculated area must be buildable.",
+        "correction": "Compare all stated ceilings and their placement requirements.",
+        "why": "The envelope and lot-coverage rule constrain different aspects of the same proposal."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-encumbrances",
+        "reason": "Read the easement grant before deciding whether a strip is burdened or separately owned."
+      },
+      {
+        "lessonSlug": "ownership-land-use-controls",
+        "reason": "Setbacks, coverage, and density operate together under the applicable local and state rules."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "ownership-land-use-controls",
+    "overview": [
+      {
+        "label": "Different authorities",
+        "detail": "Local development approval, DRE offering regulation, environmental review, and enforceable private restrictions serve different purposes."
+      },
+      {
+        "label": "Different relief",
+        "detail": "A variance addresses qualifying property-specific restrictions; a conditional use permit addresses a conditionally authorized use."
+      },
+      {
+        "label": "Different CEQA outcomes",
+        "detail": "A negative declaration, mitigated negative declaration, and EIR reflect different environmental findings, not different grades of building permit."
+      }
+    ],
+    "sections": [
+      {
+        "id": "ownership-operates-within-a-legal-framework",
+        "takeaway": "Identify every independent source of a proposed-use restriction; fee-simple ownership does not eliminate public rules, private covenants, or physical constraints."
+      },
+      {
+        "id": "four-government-powers",
+        "takeaway": "Distinguish government acquisition, regulation, revenue collection, and succession; the word condemnation can describe different processes depending on the facts."
+      },
+      {
+        "id": "general-plans-zoning-and-building-codes",
+        "takeaway": "General plans establish policy, zoning regulates development, and building codes address construction; satisfying one does not establish compliance with the others."
+      },
+      {
+        "id": "relief-and-existing-uses",
+        "takeaway": "Match the problem to a variance, conditional permission, or lawful nonconforming status; personal financial hardship does not establish a qualifying variance."
+      },
+      {
+        "id": "subdivision-and-environmental-review",
+        "takeaway": "Separate local subdivision approval from DRE offering requirements, and distinguish CEQA review outcomes without assuming every project needs an EIR."
+      },
+      {
+        "id": "private-controls",
+        "takeaway": "Apply valid public and private restrictions together while recognizing overriding law; the stricter apparent rule is not automatically legally enforceable."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Identify the proposed act and each necessary authority; a permit, public report, or environmental document answers only its own defined questions."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "What does a mitigated negative declaration actually establish?",
+      "setup": "A buyer proposes a small development requiring discretionary local approval. Assume the project is not exempt from CEQA. An initial study identifies potentially significant effects. Before public review, the buyer agrees to revisions that avoid or reduce those effects below significance; the agency determines that no substantial evidence in the whole record indicates a remaining significant effect. Separate map approval and private architectural review are still pending.",
+      "question": "Which conclusion best fits these facts?",
+      "choices": [
+        {
+          "label": "An EIR is necessarily required because the first study identified potentially significant effects.",
+          "result": "The timing and effect of the agreed revisions matter.",
+          "reasoning": "This answer freezes the analysis at the unrevised proposal. Public Resources Code section 21080 recognizes the negative-declaration route when the specified revision and evidence conditions are met. A potential effect in the initial study does not alone require ignoring qualifying mitigation.",
+          "correct": false
+        },
+        {
+          "label": "A mitigated negative declaration may be appropriate, but it does not replace the other outstanding approvals.",
+          "result": "This separates the environmental finding from entitlement and private-control questions.",
+          "reasoning": "The supplied facts track a mitigated negative declaration: agreed revisions address initially identified effects before review, and the remaining evidence supports no significant effect. The agency still must follow the applicable process; the result does not itself grant the buyer every development right.",
+          "correct": true
+        },
+        {
+          "label": "The agreed mitigation makes the project ministerial, so CEQA no longer applies.",
+          "result": "Mitigation does not change the assumed discretionary approval into a ministerial act.",
+          "reasoning": "The question expressly supplies a covered discretionary project. Redesign can affect environmental impacts and the appropriate document without changing the nature of the agency's decision-making authority.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Name the environmental outcome from the findings, then keep it separate from the project's other approvals. CEQA exemptions and findings are fact-specific; neither an environmental document nor a DRE public report is a blanket project warranty."
+    },
+    "pitfalls": [
+      {
+        "trap": "A subdivision map and DRE public report are interchangeable.",
+        "correction": "Keep physical land division and regulated offering disclosure separate.",
+        "why": "The documents come from different regulatory functions and prove different things."
+      },
+      {
+        "trap": "A negative declaration means the project was denied.",
+        "correction": "Read negative as referring to significant environmental effects.",
+        "why": "The label is an environmental determination, not a denial stamp."
+      },
+      {
+        "trap": "A conditional use permit can authorize any profitable use.",
+        "correction": "Check whether the zoning framework contemplates that use conditionally.",
+        "why": "Profitability does not expand the uses legally available through that procedure."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-water-environment",
+        "reason": "Environmental condition, hazard mapping, and liability create additional questions beyond planning approval."
+      },
+      {
+        "lessonSlug": "valuation-value-principles",
+        "reason": "A proposed highest and best use must survive legal and physical screening before financial comparison."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "ownership-water-environment",
+    "overview": [
+      {
+        "label": "Water has several constraints",
+        "detail": "A physical source, a legal entitlement, delivery capacity, and usable quality are separate requirements."
+      },
+      {
+        "label": "Hazard versus liability",
+        "detail": "Finding contamination and allocating responsibility are different questions; a seller's indemnity does not bind regulators by itself."
+      },
+      {
+        "label": "Protection has conditions",
+        "detail": "A potential CERCLA purchaser protection requires qualifying acquisition facts and continuing obligations, not simply an inspection invoice."
+      }
+    ],
+    "sections": [
+      {
+        "id": "a-water-source-is-not-a-complete-water-right",
+        "takeaway": "Confirm the right's legal basis, permissible use, supply, and infrastructure; visible water or a working well alone cannot establish dependable entitlement."
+      },
+      {
+        "id": "surface-water-and-groundwater",
+        "takeaway": "Distinguish riparian, appropriative, and groundwater interests, then account for reasonable use, applicable management, and the limits of physical delivery."
+      },
+      {
+        "id": "boundaries-changed-by-water",
+        "takeaway": "Identify the cause and pace of shoreline change before drawing title conclusions; natural gradual changes differ from sudden events and artificial fill."
+      },
+      {
+        "id": "contamination-and-building-hazards",
+        "takeaway": "Separate disclosure, investigation, cleanup liability, and conditional purchaser protection; neither a routine inspection nor a contractual indemnity resolves every environmental issue."
+      },
+      {
+        "id": "natural-hazards-and-development-constraints",
+        "takeaway": "Mapped hazard status guides further inquiry but is not a site-safety guarantee; geological, flood, fire, and development constraints require their own evidence."
+      },
+      {
+        "id": "special-categories-of-land",
+        "takeaway": "Public-trust, coastal, agricultural-preserve, tribal, and reserved-resource issues can alter available rights; a fee-title label does not remove their special rules."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Match each report to its actual purpose and refer unresolved technical questions appropriately; property desirability does not prove lawful supply or acceptable risk."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "A former industrial site is not a single-report decision",
+      "setup": "A buyer considers a former industrial parcel for a warehouse. The seller offers an environmental indemnity and an older consultant report. The buyer knows contamination may exist and asks whether obtaining another report guarantees freedom from cleanup liability. The answer requires separating investigation, possible legal protection, and the obligations that continue after acquisition.",
+      "steps": [
+        {
+          "label": "Investigate before acquisition",
+          "action": "Engage appropriate environmental and legal specialists to evaluate current conditions and the required pre-acquisition inquiry.",
+          "evidence": "Prior uses, agency records, consultant findings, and the timing and scope of all appropriate inquiries matter.",
+          "warning": "An older report or ordinary building inspection is not automatically sufficient for the intended liability protection."
+        },
+        {
+          "label": "Evaluate eligibility",
+          "action": "Determine whether the buyer can satisfy the criteria for a relevant CERCLA protection, such as bona fide prospective purchaser status.",
+          "evidence": "EPA describes acquisition conditions and other threshold requirements that must be examined for the particular buyer.",
+          "warning": "Knowledge of contamination does not automatically defeat BFPP status, but knowledge plus a report does not automatically establish it either."
+        },
+        {
+          "label": "Separate the seller's promise",
+          "action": "Evaluate the indemnity's scope and the seller's ability to perform without treating it as a substitute for statutory protection.",
+          "evidence": "The private contract allocates obligations between its parties; liability to the government arises under governing law.",
+          "warning": "A broad reimbursement promise may be worth little if the obligated party cannot pay, and it does not itself release the buyer from public obligations."
+        },
+        {
+          "label": "Plan continuing compliance",
+          "action": "Account for continuing obligations, including appropriate care and reasonable steps concerning releases.",
+          "evidence": "Site conditions, response activities, restrictions, and qualified professional advice inform what must continue after closing.",
+          "warning": "Completing pre-acquisition inquiry is not a permanent immunity certificate. Protection can depend on subsequent conduct."
+        }
+      ],
+      "takeaway": "Environmental diligence is a process with distinct timing and legal questions. A suitable consultant report informs the decision; it does not itself guarantee safety, financing, redevelopment permission, or an unconditional defense to liability."
+    },
+    "pitfalls": [
+      {
+        "trap": "An indemnity makes the government pursue only the seller.",
+        "correction": "Distinguish private reimbursement promises from statutory liability.",
+        "why": "Regulators are not made parties to the sale contract by its wording."
+      },
+      {
+        "trap": "Knowing of contamination eliminates every purchaser protection.",
+        "correction": "Evaluate the specific protection and all its conditions.",
+        "why": "BFPP protection can accommodate knowledge, but requires threshold and continuing compliance."
+      },
+      {
+        "trap": "A parcel outside a mapped zone has no hazard.",
+        "correction": "Treat mapping as one source of evidence, not a universal assurance.",
+        "why": "Map purpose, scale, boundaries, and unmapped site conditions limit that inference."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-land-use-controls",
+        "reason": "Environmental investigation and CEQA review serve different purposes in a development decision."
+      },
+      {
+        "lessonSlug": "valuation-value-principles",
+        "reason": "Cleanup obligations and development limits can affect feasible uses and their supported economic benefits."
+      }
+    ]
+  }
+]

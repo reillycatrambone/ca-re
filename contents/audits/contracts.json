@@ -1,0 +1,58 @@
+{
+  "domain": "contracts",
+  "reviewed": "2026-09-06",
+  "findings": [
+    {
+      "topic": "Offers/Purchase Contracts",
+      "gap": "Negotiation examples distinguished counteroffers but did not work through a signed acceptance that arrives after an effectively communicated withdrawal under an express receipt condition.",
+      "action": "Added a compact revocation-communication clarification and a timeline lab contrasting preacceptance withdrawal with attempted withdrawal after formation.",
+      "lessonSlugs": [
+        "contracts-formation"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587."
+      ]
+    },
+    {
+      "topic": "Agreements",
+      "gap": "Rescission was defined with restitution, but the distinct statutory steps of prompt notice and restoration or an appropriate restoration offer were not explicit.",
+      "action": "Added a short section 1691 explanation and a decision lab separating valid rescission grounds, procedural requirements, retained benefits, and contingency cancellation.",
+      "lessonSlugs": [
+        "contracts-performance-and-remedies"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689."
+      ]
+    },
+    {
+      "topic": "Buyer Broker Agreements",
+      "gap": "The chapter stated delayed-start and renewal rules, but lacked a worked comparison proving that an early renewal starts on its last-signature date rather than automatically after the prior term.",
+      "action": "Added a three-case date lab covering delayed initial effectiveness, early renewal, and a late signature, with two targeted application questions.",
+      "lessonSlugs": [
+        "contracts-representation-agreements"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      ]
+    },
+    {
+      "topic": "Promissory Notes/Securities",
+      "gap": "The text discussed conditional promises and securities risk separately, but lacked a variable-interest distinction and a case testing whether recording collateral cures negotiability or investment-regulation defects.",
+      "action": "Added a compact section 3112 distinction, a decision lab, and challenging questions that classify the repayment promise, permitted variable interest, security, and possible securities compliance independently.",
+      "lessonSlugs": [
+        "contracts-purchase-options-and-leases"
+      ],
+      "sourceUrls": [
+        "https://www.dre.ca.gov/Examinees/SalesExamContent.html",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3112.",
+        "https://www.investor.gov/protect-your-investments/fraud/types-fraud/promissory-notes"
+      ]
+    }
+  ],
+  "limitations": "This review closes selected legal and reasoning gaps without treating the DRE outline as exhaustive. Particular contracts, exceptions, court remedies, and securities offerings require their actual facts and governing documents. Private association practices are not interchangeable with California's statutory requirements."
+}

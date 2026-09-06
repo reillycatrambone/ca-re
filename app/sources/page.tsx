@@ -2,6 +2,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { getLessons } from '@/lib/content'
 import { domains } from '@/lib/curriculum'
 import { CoverageTable } from '@/components/book/coverage-table'
+import { DepthReview } from '@/components/book/depth-review'
 export const metadata = { title: 'Sources & Editorial Notes' }
 export default function SourcesPage() {
   const lessons = getLessons()
@@ -97,6 +98,7 @@ export default function SourcesPage() {
         </div>
       </section>
       <CoverageTable lessons={lessons} />
+      <DepthReview lessons={lessons} />
       <section className="source-group">
         <h2>Primary-source library</h2>
         {sources.map((source) => (

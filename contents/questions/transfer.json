@@ -848,5 +848,205 @@
       }
     ],
     "answer": 1
+  },
+  {
+    "id": "transfer-035",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "An owner grants a parcel without expressing a lesser estate. A valid utility easement already burdens it. What does Civil Code section 1105's fee-simple presumption establish?",
+    "options": [
+      {
+        "text": "The presumed intended estate, not automatic elimination of the existing easement.",
+        "explanation": "A fee-simple estate can remain subject to encumbrances; the presumption concerns the grant's intended extent."
+      },
+      {
+        "text": "A guarantee that every existing easement is extinguished upon delivery.",
+        "explanation": "The presumption does not erase third-party property rights."
+      },
+      {
+        "text": "That the deed must be treated as a life estate unless the easement holder signs it.",
+        "explanation": "An easement does not make the owner's estate a life estate or impose that general signing requirement."
+      },
+      {
+        "text": "That the grantor necessarily supplied an owner's title insurance policy.",
+        "explanation": "A rule construing a deed does not create a separate insurance contract."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-036",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "prompt": "A grantor owns only a life estate and no remainder. The grantor executes a deed purporting to grant fee-simple title, but never later acquires the remainder. Which limitation matters?",
+    "options": [
+      {
+        "text": "The fee-simple presumption automatically expands the life tenant's ownership before transfer.",
+        "explanation": "A construction rule does not manufacture ownership in the grantor."
+      },
+      {
+        "text": "Recording converts the deed into the remainder owner's consent.",
+        "explanation": "Public recording does not supply another owner's assent or transfer that person's interest."
+      },
+      {
+        "text": "The presumption of fee-simple intent does not itself create a remainder interest the grantor never owned.",
+        "explanation": "Distinguish what the deed purports to convey from the grantor's actual transferable interest; later-acquired-title facts are absent."
+      },
+      {
+        "text": "A fee-simple description necessarily makes the life tenant the agent of the remainder owner.",
+        "explanation": "The deed's wording does not establish agency authority from the separate owner."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-037",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "A buyer receives a preliminary title report and calls it an abstract guaranteeing that no omitted interest exists. Under Insurance Code section 12340.11, what is the essential correction?",
+    "options": [
+      {
+        "text": "It is an abstract only if the buyer pays the lender's title premium.",
+        "explanation": "Who pays an insurance premium does not convert the report's statutory character."
+      },
+      {
+        "text": "It states the terms on which the issuer offers title insurance and is not an abstract or a guarantee of actual title condition.",
+        "explanation": "The statute distinguishes the preliminary report's insurance-offer function from the rights and responsibilities of an abstract."
+      },
+      {
+        "text": "It guarantees actual title condition unless the buyer later changes lenders.",
+        "explanation": "A lender change is not what determines whether the report constitutes a representation of title condition."
+      },
+      {
+        "text": "It becomes an owner's policy automatically when the seller signs the deed.",
+        "explanation": "Execution of a deed does not itself establish issuance of an insurance policy."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-038",
+    "domain": "transfer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "prompt": "A buyer receives changed wiring instructions from an email address that appears to match escrow's usual address. The message supplies a new phone number for verification. What is the strongest verification step?",
+    "options": [
+      {
+        "text": "Call only the new number because the message identifies it as escrow's verification department.",
+        "explanation": "The suspicious communication cannot independently authenticate the contact details it supplies."
+      },
+      {
+        "text": "Send a small test wire and treat successful delivery as proof of the recipient's authority.",
+        "explanation": "A fraudulent recipient can receive a test payment; delivery does not prove the account is authorized."
+      },
+      {
+        "text": "Compare the displayed sender name and proceed if its spelling is unchanged.",
+        "explanation": "A displayed name or apparent address alone does not establish the authenticity of changed payment instructions."
+      },
+      {
+        "text": "Contact escrow through a previously established, independently trusted number before sending funds.",
+        "explanation": "An apparently familiar email and its newly supplied contact details may both be compromised; verification should use a separate trusted channel."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-039",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "A fully qualifying exchange involves property worth $700,000 with $400,000 adjusted basis. The taxpayer receives $650,000 replacement property plus $50,000 cash. With no debt, expenses, recapture, or other adjustments, what is the replacement property's basis?",
+    "options": [
+      {
+        "text": "$650,000.",
+        "explanation": "This uses market value without preserving the $250,000 deferred gain."
+      },
+      {
+        "text": "$350,000.",
+        "explanation": "This subtracts the cash from old basis without adding the recognized gain required by the simplified basis calculation."
+      },
+      {
+        "text": "$450,000.",
+        "explanation": "This adds recognized gain to old basis but fails to subtract the cash received."
+      },
+      {
+        "text": "$400,000.",
+        "explanation": "Realized gain is $300,000; $50,000 is recognized and $250,000 deferred. Subtract deferred gain from the $650,000 replacement value."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-040",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "prompt": "In an otherwise qualifying exchange, property worth $700,000 has a $680,000 adjusted basis. The taxpayer receives $650,000 replacement property plus $50,000 cash. With no debt, expenses, recapture, or other adjustments, how much gain is recognized?",
+    "options": [
+      {
+        "text": "$50,000.",
+        "explanation": "Cash boot does not create gain exceeding the total realized gain in this stipulated calculation."
+      },
+      {
+        "text": "$20,000.",
+        "explanation": "Realized gain is only $20,000, which is less than the $50,000 cash boot; ordinary recognition is limited to the realized gain."
+      },
+      {
+        "text": "$70,000.",
+        "explanation": "Adding realized gain and boot counts different categories rather than applying the recognition limit."
+      },
+      {
+        "text": "$0.",
+        "explanation": "Receipt of the stated cash boot causes recognition up to the realized gain; exchange status does not automatically defer that portion."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-041",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "An ordinary court-confirmed probate sale has an accepted $780,000 bid. The stated first-overbid rule adds 10% on the first $10,000 and 5% on the remainder. A brokerage commission will be paid from proceeds. What is the numerical minimum first overbid?",
+    "options": [
+      {
+        "text": "$819,000, because five percent applies to the whole accepted bid.",
+        "explanation": "This omits the higher increment applicable to the first $10,000."
+      },
+      {
+        "text": "$858,000, because ten percent applies to the entire accepted bid.",
+        "explanation": "This applies the first bracket's rate to the full amount instead of using the two prescribed brackets."
+      },
+      {
+        "text": "$819,500, without first subtracting the commission from the accepted bid.",
+        "explanation": "Add $1,000 and $38,500 to $780,000; the statutory bid calculation disregards the commission rather than using net seller proceeds."
+      },
+      {
+        "text": "The accepted bid less commission, plus the two statutory increments on that net amount.",
+        "explanation": "Section 10311's bid base is not reduced by the brokerage commission."
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-042",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "prompt": "An accepted probate sale is for cash. At confirmation, a numerically sufficient higher offer proposes credit terms that the estate representative expressly finds unacceptable. Under section 10311's cash-versus-credit provision, what is the key consequence?",
+    "options": [
+      {
+        "text": "The higher credit offer cannot be considered under that provision without the representative's required indication that it is acceptable.",
+        "explanation": "Different credit terms present a separate statutory condition; a sufficient price does not alone resolve it."
+      },
+      {
+        "text": "The court must accept the credit offer because every higher numerical offer overrides the original terms.",
+        "explanation": "The statute imposes conditions beyond price, including treatment of different cash and credit terms."
+      },
+      {
+        "text": "A credit overbid can never be considered when the original sale was for cash, even if the representative accepts it.",
+        "explanation": "The provision does not establish that categorical prohibition; the representative's required acceptance matters."
+      },
+      {
+        "text": "The court must subtract all commissions before deciding whether the credit offer has a higher price.",
+        "explanation": "Commission deductions do not define the statutory bid comparison."
+      }
+    ],
+    "answer": 0
   }
 ]

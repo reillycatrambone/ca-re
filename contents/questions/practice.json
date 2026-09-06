@@ -2098,5 +2098,355 @@
       }
     ],
     "answer": 1
+  },
+  {
+    "id": "practice-085",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "An unlicensed coordinator receives a counteroffer while the assigned salesperson's license is expired. Which response stays within an administrative role while preserving the client's access to advice?",
+    "answer": 2,
+    "options": [
+      {
+        "text": "Recommend the shortest listed inspection period, then ask an active licensee to approve it.",
+        "explanation": "Selecting the term for the buyer involves substantive judgment; later approval does not make the earlier advice clerical."
+      },
+      {
+        "text": "Explain that accepting is safe because the seller changed only the inspection period.",
+        "explanation": "Interpreting the significance of a contractual change is not merely transmitting information."
+      },
+      {
+        "text": "Transmit the unchanged counteroffer and arrange prompt discussion with an appropriately active licensee.",
+        "explanation": "Delivery and scheduling can be administrative, while advice is reassigned to someone with present authority."
+      },
+      {
+        "text": "Use the expired salesperson's preferred response because the salesperson previously reviewed the buyer's goals.",
+        "explanation": "Prior familiarity does not supply present authority or authorize an assistant to choose the response."
+      }
+    ]
+  },
+  {
+    "id": "practice-086",
+    "domain": "practice",
+    "lessonSlug": "practice-licensing-supervision",
+    "prompt": "Assume all Consumer Recovery Account eligibility and collection requirements are satisfied. Eligible losses total $70,000 in one transaction, and prior account payments chargeable to the same licensee total $230,000. Using the current $50,000 transaction and $250,000 licensee caps, what is the maximum additional amount available under these caps?",
+    "answer": 0,
+    "options": [
+      {
+        "text": "$20,000.",
+        "explanation": "The licensee aggregate has $20,000 remaining, which is lower than the $50,000 transaction limit and the stated loss."
+      },
+      {
+        "text": "$50,000.",
+        "explanation": "That applies the transaction cap but ignores the licensee aggregate already used."
+      },
+      {
+        "text": "$70,000.",
+        "explanation": "Eligible actual losses remain subject to both statutory ceilings."
+      },
+      {
+        "text": "$120,000.",
+        "explanation": "The limits are ceilings, not amounts added to the claimant's losses."
+      }
+    ]
+  },
+  {
+    "id": "practice-087",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "A trust statement shows $24,000, with a valid $3,000 deposit in transit and $5,000 outstanding checks. The control record is $22,000; beneficiary records are A $15,000, B $8,000, and C negative $1,000. What does the reconciliation reveal?",
+    "answer": 3,
+    "options": [
+      {
+        "text": "No shortage, because all three net totals equal $22,000.",
+        "explanation": "Netting C's deficit against positive entitlements conceals the shortage."
+      },
+      {
+        "text": "A $2,000 shortage, equal to outstanding checks less deposits in transit.",
+        "explanation": "The timing difference adjusts the statement; it is not itself the beneficiary shortage."
+      },
+      {
+        "text": "A $1,000 overage, because C's negative balance reduces the broker's obligation.",
+        "explanation": "C's deficit cannot reduce the $23,000 owed to positive beneficiaries."
+      },
+      {
+        "text": "A $1,000 shortage despite agreement among the net totals.",
+        "explanation": "Adjusted funds are $22,000, while positive beneficiary obligations total $23,000."
+      }
+    ]
+  },
+  {
+    "id": "practice-088",
+    "domain": "practice",
+    "lessonSlug": "practice-trust-funds",
+    "prompt": "Before acceptance, a broker properly holds the buyer's negotiable deposit check under written instructions, with the seller informed. After acceptance, the buyer asks the broker to keep holding until loan approval, and the seller agrees only by telephone. What is missing for continued undeposited holding under this exception?",
+    "answer": 1,
+    "options": [
+      {
+        "text": "A new oral confirmation from the buyer after each business day.",
+        "explanation": "Repeated oral confirmation does not replace the offeree's required written authorization."
+      },
+      {
+        "text": "The offeree's written authorization for continued holding after acceptance.",
+        "explanation": "The valid preacceptance arrangement does not alone authorize continued holding after acceptance."
+      },
+      {
+        "text": "A commission agreement showing that the broker expects to be paid.",
+        "explanation": "Expected compensation does not determine authority to hold another person's deposit."
+      },
+      {
+        "text": "Proof that the check has cleared before it is held uncashed.",
+        "explanation": "Collection is a different issue; the exception concerns authorized undeposited holding."
+      }
+    ]
+  },
+  {
+    "id": "practice-089",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "In ordinary private housing not subject to a different funding rule, a tenant requests a qualifying disability-related ramp installation. Which pairing is generally correct?",
+    "answer": 1,
+    "options": [
+      {
+        "text": "Reasonable accommodation; the landlord necessarily pays because all disability requests are policy changes.",
+        "explanation": "A ramp changes the physical premises, and payment rules depend on the applicable housing setting."
+      },
+      {
+        "text": "Reasonable modification; the tenant generally bears its cost, subject to applicable legal conditions.",
+        "explanation": "A physical alteration is a modification, unlike a change to a parking or no-pets policy."
+      },
+      {
+        "text": "Reasonable modification; the landlord must always pay because the alteration becomes part of the building.",
+        "explanation": "Ordinary private-housing rules do not impose that universal payment allocation."
+      },
+      {
+        "text": "Ordinary remodeling only; fair housing law applies solely to nonphysical policy exceptions.",
+        "explanation": "Fair housing law also addresses qualifying physical modifications."
+      }
+    ]
+  },
+  {
+    "id": "practice-090",
+    "domain": "practice",
+    "lessonSlug": "practice-fair-housing",
+    "prompt": "A resident's disability and need for a nearby parking space are apparent. The provider requires a complete medical history and its preferred written form before even considering a reservation. What is the best analysis?",
+    "answer": 3,
+    "options": [
+      {
+        "text": "The requirements are justified whenever the same form is imposed on every resident.",
+        "explanation": "Uniform procedure does not cure unnecessary verification or refusal to recognize an otherwise sufficient request."
+      },
+      {
+        "text": "A diagnosis is always necessary to distinguish an accommodation from a modification.",
+        "explanation": "The type of requested change, not a full diagnosis, distinguishes those categories."
+      },
+      {
+        "text": "The provider can reject the request until the resident proposes a physical alteration instead.",
+        "explanation": "An accommodation can address a parking policy without construction work."
+      },
+      {
+        "text": "The provider should evaluate the request without demanding unnecessary medical details or a particular form.",
+        "explanation": "An apparent disability-related connection limits the need for further verification, and no special terminology or preferred form is generally required."
+      }
+    ]
+  },
+  {
+    "id": "practice-091",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "A broker-controlled listing website shows a covered digitally altered image with an adjacent alteration statement. The original is retained only in a private brokerage folder. Which additional step addresses the specific original-image requirement?",
+    "answer": 0,
+    "options": [
+      {
+        "text": "Include the original in the posting or provide a qualifying public link, with the required explanation of access.",
+        "explanation": "Private retention does not supply public original-image access required for the covered advertisement."
+      },
+      {
+        "text": "Add the file-retention date to the alteration statement.",
+        "explanation": "A retention date does not let the public inspect the original."
+      },
+      {
+        "text": "Email the original only to buyers who first submit an offer.",
+        "explanation": "Later private delivery does not satisfy the stated advertising-access requirement."
+      },
+      {
+        "text": "Have the seller acknowledge the alteration in the listing agreement.",
+        "explanation": "Seller acknowledgment does not replace the required public access in the advertisement."
+      }
+    ]
+  },
+  {
+    "id": "practice-092",
+    "domain": "practice",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "prompt": "A digitally altered image removes a structural column. All required alteration labeling and public original-image access are provided, but no qualified evidence supports the advertised statement that the column can easily be removed. What remains unresolved?",
+    "answer": 2,
+    "options": [
+      {
+        "text": "Nothing; complete image-access compliance conclusively validates all accompanying claims.",
+        "explanation": "The image rule does not establish the truth of a separate feasibility representation."
+      },
+      {
+        "text": "Only whether the seller likes the edited appearance.",
+        "explanation": "Seller preference does not establish structural or legal feasibility."
+      },
+      {
+        "text": "The factual basis for the claimed removal feasibility, which requires separate appropriate verification.",
+        "explanation": "Truthful representation and altered-image access are distinct compliance questions."
+      },
+      {
+        "text": "Only whether the listing price reflects the buyer's possible remodeling cost.",
+        "explanation": "A pricing assumption does not supply the missing technical support for the claim."
+      }
+    ]
+  },
+  {
+    "id": "practice-093",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A natural person owning two duplex rentals with four total offered units otherwise qualifies for the small-landlord deposit exception. A qualifying service member seeks a new $2,300-per-month tenancy. The owner requests $2,300 security plus $700 cleaning security. No other exception applies. Which result follows?",
+    "answer": 2,
+    "options": [
+      {
+        "text": "The $3,000 demand is permitted because the owner fits the property and unit counts.",
+        "explanation": "The higher small-landlord cap is unavailable for the qualifying service-member applicant."
+      },
+      {
+        "text": "Only the $700 cleaning amount counts toward the cap.",
+        "explanation": "Both amounts are security despite their labels."
+      },
+      {
+        "text": "The combined $3,000 exceeds the applicable $2,300 cap.",
+        "explanation": "Combine the security amounts and apply the service-member limitation on the owner's higher-cap exception."
+      },
+      {
+        "text": "The owner may demand $4,600 from this applicant if the unit is furnished.",
+        "explanation": "Furnishing does not remove the stated service-member limitation or restore the obsolete general furnished-property distinction."
+      }
+    ]
+  },
+  {
+    "id": "practice-094",
+    "domain": "practice",
+    "lessonSlug": "practice-property-management",
+    "prompt": "A requested pre-move-out inspection identifies no cabinet damage. After that inspection but before returning possession, the tenant breaks a cabinet door. The landlord documents the new damage. Which conclusion best applies the inspection's effect?",
+    "answer": 0,
+    "options": [
+      {
+        "text": "A reasonable otherwise lawful deduction for the later damage is not automatically barred by its absence from the initial list.",
+        "explanation": "The statute preserves treatment of qualifying damage occurring after the initial inspection."
+      },
+      {
+        "text": "Every deduction is prohibited unless listed at the initial inspection, even for later damage.",
+        "explanation": "That ignores the exception for conditions arising after the inspection."
+      },
+      {
+        "text": "The later damage permits charging for all earlier ordinary wear throughout the unit.",
+        "explanation": "A valid later-damage claim does not expand deductions to ordinary wear or unrelated preexisting conditions."
+      },
+      {
+        "text": "The landlord may delay all deposit accounting until the tenant agrees with the deduction.",
+        "explanation": "The dispute does not eliminate applicable accounting and return deadlines."
+      }
+    ]
+  },
+  {
+    "id": "practice-095",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "A 36-month commercial lease quotes $5,000 monthly base rent but grants four free base-rent months. Ignoring increases, expenses, and time value, what is the simple average monthly base rent across the whole term?",
+    "answer": 3,
+    "options": [
+      {
+        "text": "$5,000.",
+        "explanation": "That is face rent and ignores the free months."
+      },
+      {
+        "text": "$4,375.",
+        "explanation": "That does not result from the stated $160,000 collections over thirty-six months."
+      },
+      {
+        "text": "$4,000.",
+        "explanation": "That assumes a larger concession than the four free months given."
+      },
+      {
+        "text": "Approximately $4,444.44.",
+        "explanation": "Thirty-two paying months generate $160,000; dividing by the full thirty-six-month term gives the simple average."
+      }
+    ]
+  },
+  {
+    "id": "practice-096",
+    "domain": "practice",
+    "lessonSlug": "practice-commercial-specialties",
+    "prompt": "The same lease produces $160,000 total base rent and requires a separate $20,000 landlord improvement contribution. An analyst labels $140,000 'the property's NOI.' What is the best critique?",
+    "answer": 1,
+    "options": [
+      {
+        "text": "The subtraction is wrong because improvement costs can never affect cash.",
+        "explanation": "The contribution affects the stated cash commitment, though its classification is a separate issue."
+      },
+      {
+        "text": "The $140,000 is only a limited term-cash figure; operating expenses, period, and classification have not established property NOI.",
+        "explanation": "Subtracting one capital commitment from term rent does not supply a complete operating-income calculation."
+      },
+      {
+        "text": "NOI must equal the $180,000 face rent before concessions.",
+        "explanation": "NOI is not gross face rent, and concessions affect the actual income analysis."
+      },
+      {
+        "text": "Every landlord improvement contribution must be added to rent as revenue.",
+        "explanation": "The stated contribution is a landlord cash commitment, not additional tenant rent."
+      }
+    ]
+  },
+  {
+    "id": "practice-097",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "After offer execution, a represented seller electronically delivers TDS sections I and II, but the required listing-agent section III remains incomplete and undelivered. All parties agreed to electronic delivery. What is the key timing issue under Civil Code section 1102.3?",
+    "answer": 1,
+    "options": [
+      {
+        "text": "The statutory period necessarily begins when any one TDS page is emailed.",
+        "explanation": "The statute identifies completion and delivery of the required sections, not any partial transmission."
+      },
+      {
+        "text": "The required completed sections must be delivered before the statutory termination period commences.",
+        "explanation": "For the represented seller described, section III is among the required completed sections; electronic delivery alone does not cure incompleteness."
+      },
+      {
+        "text": "The missing section changes the electronic period from five days to three business days.",
+        "explanation": "Incomplete required content does not convert the governing delivery method or period."
+      },
+      {
+        "text": "The contract's inspection deadline automatically supplies the missing statutory trigger.",
+        "explanation": "A contractual contingency and the statutory disclosure period have different triggering rules."
+      }
+    ]
+  },
+  {
+    "id": "practice-098",
+    "domain": "practice",
+    "lessonSlug": "practice-disclosures-inspections",
+    "prompt": "A general report recommends further building-envelope investigation after observing moisture, and the agent also has an older leakage report. The buyer elects not to hire the specialist. Which statement is most accurate?",
+    "answer": 3,
+    "options": [
+      {
+        "text": "The buyer's decision converts the recommendation into a satisfactory specialist finding.",
+        "explanation": "Declining investigation does not establish the unresolved condition's cause or adequacy."
+      },
+      {
+        "text": "The agent may describe the property as cleared because the buyer waived further testing.",
+        "explanation": "The buyer's choice does not supply technical evidence or authorize an inaccurate assurance."
+      },
+      {
+        "text": "The older report becomes irrelevant once the buyer declines a new inspection.",
+        "explanation": "Known material information does not disappear because additional investigation is declined."
+      },
+      {
+        "text": "Document the recommendation and buyer's decision while accurately disclosing the known information and unresolved scope.",
+        "explanation": "The buyer's choice, available evidence, and the agent's continuing accuracy duties remain separate."
+      }
+    ]
   }
 ]

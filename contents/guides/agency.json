@@ -1,0 +1,469 @@
+[
+  {
+    "lessonSlug": "agency-relationships",
+    "overview": [
+      {
+        "label": "Relationship",
+        "detail": "Identify the principal before deciding which loyalty duties apply."
+      },
+      {
+        "label": "Authority",
+        "detail": "An ongoing assignment can still contain narrow limits on particular acts."
+      },
+      {
+        "label": "Reliance",
+        "detail": "Ostensible authority depends on the principal's conduct and the third person's reasonable action."
+      }
+    ],
+    "sections": [
+      {
+        "id": "start-with-who-represents-whom",
+        "takeaway": "Identify the represented principal and responsible brokerage; receiving assistance or paying compensation does not by itself determine who receives fiduciary loyalty."
+      },
+      {
+        "id": "classify-the-scope-of-the-job",
+        "takeaway": "Special, general, and universal describe the scope of an appointment, while the agreement can impose narrower spending or signing limits."
+      },
+      {
+        "id": "how-agency-is-created",
+        "takeaway": "Separate whether duties arose, whether a particular act was authorized, and whether a sufficient agreement supports compensation; these questions can have different answers."
+      },
+      {
+        "id": "actual-and-ostensible-authority",
+        "takeaway": "Trace actual authority to the principal's authorization and ostensible authority to the principal's appearances plus qualifying third-party reliance, not the agent's unsupported claim."
+      },
+      {
+        "id": "ratification-and-powers-of-attorney",
+        "takeaway": "Ratification requires informed adoption with applicable formalities; a power of attorney grants only its stated powers and does not confer a professional law license."
+      },
+      {
+        "id": "worked-scenario-one-property-three-relationships",
+        "takeaway": "Map each brokerage to its client before analyzing payments or promises; two affiliated salespersons on opposing sides can create one brokerage's dual agency."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Name the principal, identify the requested act, and locate its source of authority before deciding whether the transaction binds someone."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "The same repair order, three authority problems",
+      "setup": "Owner Avery appoints a manager to administer a small rental building. The written agreement permits routine repairs up to $1,000. The manager orders an elective $7,500 renovation. Assume no emergency, no actual additional approval, and no special writing issue. Change only the facts describing the contractor's knowledge and the owner's conduct.",
+      "cases": [
+        {
+          "label": "Known restriction",
+          "changedFact": "The contractor received the written $1,000 limit before accepting the renovation order. Only the manager claims that the owner now allows larger projects.",
+          "result": "The known restriction defeats reliance on the manager's unsupported claim of greater power.",
+          "reasoning": [
+            "A general management appointment does not remove the spending limit. The contractor has direct contradictory information and cannot establish ordinary care merely by repeating the manager's assurance.",
+            "The owner might separately ratify the work later, but that is a different source of obligation. Without additional facts, do not infer ratification simply because completed work remains attached to the building."
+          ]
+        },
+        {
+          "label": "Owner-created appearance",
+          "changedFact": "The owner introduced the manager as authorized to approve renovations of this size and knowingly allowed that practice. The contractor has no notice of the private cap and incurs a materials obligation in good-faith reliance.",
+          "result": "Ostensible authority becomes a substantial issue even though the private agreement imposed a lower actual limit.",
+          "reasoning": [
+            "The relevant appearance comes from the owner rather than the manager alone. The contractor's incurred obligation supplies a concrete reliance fact, not merely an unacted-on belief.",
+            "Civil Code section 2334 also requires good faith and ordinary care. An unusually suspicious transaction or known restriction would change the analysis; the manager's title alone still does not decide it."
+          ]
+        },
+        {
+          "label": "Later informed adoption",
+          "changedFact": "The contractor knew the limit, but the owner later receives the full proposal and material facts and validly adopts the entire transaction in the required manner.",
+          "result": "Analyze ratification rather than trying to reconstruct a reasonable belief the contractor never had.",
+          "reasoning": [
+            "Ratification addresses an initially unauthorized act after the principal learns what occurred. It does not require pretending the manager possessed authority at the outset.",
+            "Acceptance must satisfy governing formalities and concern a lawful transaction. The owner cannot select only the advantageous portion of an indivisible bargain while rejecting the corresponding payment obligation."
+          ]
+        }
+      ],
+      "takeaway": "Keep actual authority, ostensible authority, and ratification on separate tracks. A changed reliance fact or later adoption can change the result without changing the manager's job description or the amount of the work."
+    },
+    "pitfalls": [
+      {
+        "trap": "A useful act must be authorized.",
+        "correction": "Check the agreement and the principal's conduct.",
+        "why": "Benefit to the property is not itself delegated power."
+      },
+      {
+        "trap": "The agent's assurance creates ostensible authority.",
+        "correction": "Look for a manifestation attributable to the principal.",
+        "why": "Unsupported self-assertion cannot supply the missing source."
+      },
+      {
+        "trap": "Belief alone establishes protected reliance.",
+        "correction": "Identify ordinary care, good faith, and value or liability incurred.",
+        "why": "Section 2334 requires more than an unacted-on impression."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "contracts-formation",
+        "reason": "Connect delegated authority with valid signatures and required writings."
+      },
+      {
+        "lessonSlug": "agency-compensation-and-termination",
+        "reason": "Separate ending authority from surviving payment obligations."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "agency-fiduciary-duties",
+    "overview": [
+      {
+        "label": "Loyalty",
+        "detail": "Advise according to the client's objectives, not the agent's compensation."
+      },
+      {
+        "label": "Disclosure",
+        "detail": "A bargaining confidence differs from a known material property problem."
+      },
+      {
+        "label": "Care",
+        "detail": "Agent duties and the buyer's own reasonable-care responsibility can coexist."
+      }
+    ],
+    "sections": [
+      {
+        "id": "a-relationship-of-trust-changes-the-standard",
+        "takeaway": "Fiduciary duties elevate the represented client's protection, but they do not guarantee profitable investments or excuse dishonest conduct toward others."
+      },
+      {
+        "id": "loyalty-and-lawful-obedience",
+        "takeaway": "Obey lawful instructions and compare offers against the client's priorities; neither maximum price nor maximum agent compensation automatically identifies the best choice."
+      },
+      {
+        "id": "disclosure-to-the-principal",
+        "takeaway": "Communicate material information and offers promptly enough for informed decisions; the agent should not quietly replace the principal's judgment with personal preferences."
+      },
+      {
+        "id": "confidentiality-has-a-boundary",
+        "takeaway": "Protect legitimate bargaining confidences while disclosing material property facts that the law requires; a seller's request for secrecy cannot override that boundary."
+      },
+      {
+        "id": "care-competence-and-verification",
+        "takeaway": "Investigate or refer beyond your competence, communicate contradictory evidence, and distinguish inspection limits from known information; buyers also must exercise reasonable care."
+      },
+      {
+        "id": "accounting-and-money",
+        "takeaway": "Entrusted money belongs to the person legally entitled to it, not automatically to the agent who received it or expects compensation."
+      },
+      {
+        "id": "duties-to-nonclients",
+        "takeaway": "Nonclients still receive honest dealing, reasonable care within applicable duties, and required material disclosures even though they do not receive exclusive loyalty."
+      },
+      {
+        "id": "worked-scenario-the-stain-and-the-deadline",
+        "takeaway": "An unexplained condition and an approaching deadline require timely communication and appropriate investigation, not reassurance unsupported by evidence or automatic cancellation."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Identify the specific duty, the information available, and the required action; avoid treating either a good outcome or a bad outcome as conclusive."
+      }
+    ],
+    "lab": {
+      "kind": "decision",
+      "title": "The crack, the engineer, and tomorrow's deadline",
+      "setup": "A represented buyer notices a diagonal wall crack in a resale house. The buyer's agent has a seller-provided engineer's report recommending further foundation evaluation, but has not delivered it. The inspection contingency expires tomorrow under the stated contract. The buyer says, 'I noticed the crack, so there is probably nothing else to discuss.' No cancellation or extension has been authorized.",
+      "question": "What is the most defensible response by the buyer's agent?",
+      "choices": [
+        {
+          "label": "Deliver, explain, and address the deadline",
+          "correct": true,
+          "result": "Promptly provide the report, identify what remains unresolved, recommend appropriate professional evaluation, and obtain the buyer's decision about available contractual action.",
+          "reasoning": "This response separates disclosure, investigation, and authority. The buyer's observation does not reveal the report's additional information. The agent should explain the deadline and seek an authorized extension or other contractual action if appropriate, without guaranteeing the seller will agree. Document the buyer's informed instruction; do not substitute a professional diagnosis or an unauthorized cancellation."
+        },
+        {
+          "label": "Rely on the buyer's observation",
+          "correct": false,
+          "result": "The buyer's own duty of care does not justify withholding material information already held by the agent.",
+          "reasoning": "Civil Code section 2079.5 requires reasonable attention to facts known or observable by the buyer. It does not transfer every duty away from the agent. A visible crack and an engineer's recommendation are not interchangeable facts. The buyer can be responsible for ignoring a warning while the agent is separately responsible for not communicating known information."
+        },
+        {
+          "label": "Cancel immediately to avoid all risk",
+          "correct": false,
+          "result": "An unresolved defect can justify advice and investigation without automatically authorizing the agent to terminate the buyer's contract.",
+          "reasoning": "The buyer might prefer additional investigation, a negotiated adjustment, or proceeding with understood risk. Cancellation rights depend on the contract, contingency status, notice, and the buyer's instruction. Acting without authority creates another problem rather than curing the disclosure failure. A cautious recommendation and a unilateral contractual act have different legal consequences."
+        }
+      ],
+      "takeaway": "The report should reach the buyer while choices remain meaningful. Then distinguish the buyer's decision from the agent's advice, the specialist's evaluation, and the contract's actual deadlines. Shared responsibility does not mean shared permission to ignore a known problem."
+    },
+    "pitfalls": [
+      {
+        "trap": "A visible defect makes disclosure unnecessary.",
+        "correction": "Communicate additional known material information.",
+        "why": "The buyer may see a symptom without knowing its reported significance."
+      },
+      {
+        "trap": "An inspection contingency makes the agent a guarantor.",
+        "correction": "Explain and preserve available choices without promising outcomes.",
+        "why": "Contract protections and professional standards do not eliminate property risk."
+      },
+      {
+        "trap": "The buyer's care duty excuses the agent.",
+        "correction": "Evaluate both parties' conduct independently.",
+        "why": "One person's responsibility does not erase another person's duty."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "practice-disclosures-inspections",
+        "reason": "Compare agency duties with transaction-specific property disclosures."
+      },
+      {
+        "lessonSlug": "contracts-performance-and-remedies",
+        "reason": "Connect investigation findings to authorized contingency decisions."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "overview": [
+      {
+        "label": "Three documents",
+        "detail": "Disclosure, confirmation, and consent serve different legal functions."
+      },
+      {
+        "label": "Brokerage level",
+        "detail": "Two affiliated salespersons do not eliminate a brokerage's dual role."
+      },
+      {
+        "label": "Changed relationship",
+        "detail": "Address new representation and conflicts before proceeding on changed assumptions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "three-questions-behind-the-paperwork",
+        "takeaway": "Disclosure explains possible roles, confirmation records actual roles, and consent addresses the relationship or conflict accepted; a receipt acknowledgment does not do all three."
+      },
+      {
+        "id": "disclosure-timing-and-coverage",
+        "takeaway": "Provide role-specific disclosures at the statutory time, document refusal appropriately, and keep confirmation aligned with the representation actually undertaken."
+      },
+      {
+        "id": "dual-agency-exists-at-the-broker-level",
+        "takeaway": "Determine dual agency at the responsible brokerage level; separate employees, branches, or specialties do not necessarily create separate single agencies."
+      },
+      {
+        "id": "confidentiality-in-a-dual-agency",
+        "takeaway": "A dual agent must protect authorized bargaining confidences while still communicating material property facts; permission to disclose one fact does not authorize every related disclosure."
+      },
+      {
+        "id": "an-agent-acting-as-principal",
+        "takeaway": "Disclose the substance of personal economic interests, including indirect profit participation; a license number alone does not explain an agent's conflict."
+      },
+      {
+        "id": "other-conflicts-and-benefits",
+        "takeaway": "Classify compensation, referrals, and affiliate benefits before testing legality and disclosure; disclosing an impermissible arrangement does not make it permissible."
+      },
+      {
+        "id": "worked-scenario-the-undisclosed-llc",
+        "takeaway": "An entity's separate name does not conceal an agent's meaningful ownership interest from fiduciary analysis; evaluate the transaction's economic substance."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Reconcile who is represented, what information is protected, and what conflict is accepted before concluding that signed forms establish compliant conduct."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "An open-house visitor becomes a proposed client",
+      "setup": "Summit Realty represents a seller. At an open house, visitor Morgan initially remains unrepresented. Morgan later asks another Summit salesperson to advise on price and negotiate the purchase. The seller has already signed an agency-disclosure receipt. Follow the proposed change without confusing a friendly showing with a completed buyer engagement.",
+      "steps": [
+        {
+          "label": "Classify the starting role",
+          "action": "Record that the showing was performed solely for the seller and determine what assistance was actually undertaken.",
+          "evidence": "The listing, communications, and explanation given to Morgan identify the existing principal. A visitor's interest in buying does not automatically create buyer representation.",
+          "warning": "Do not retroactively label every visitor a represented buyer. Conversely, a casual label will not control if the brokerage has actually undertaken advice and negotiation on the visitor's behalf."
+        },
+        {
+          "label": "Explain the proposed change",
+          "action": "Explain that both clients would be represented through the same responsible brokerage, including the resulting limits on conflicting advocacy.",
+          "evidence": "The relevant comparison is the brokerage relationship, not whether the two salespersons share a desk. Obtain the required written consent to a changed agency relationship and address informed dual-agency consent.",
+          "warning": "The seller's earlier receipt acknowledges an explanatory form. It is not unlimited advance approval of every later representation arrangement or every financial conflict that might emerge."
+        },
+        {
+          "label": "Complete the buyer-side requirements",
+          "action": "Provide the applicable agency disclosure and timely buyer representation agreement before proceeding as the buyer's agent, applying the current timing rules.",
+          "evidence": "The agreement should identify services, compensation, payment timing, and termination. The disclosure and later confirmation must describe the actual dual role accurately.",
+          "warning": "A compensation contribution from the seller does not substitute for these steps. Do not assume that one association's form title proves compliance without reading its contents and timing."
+        },
+        {
+          "label": "Control the information flow",
+          "action": "Transmit offers and shared material reports while preserving each client's undisclosed bargaining limits and other protected information.",
+          "evidence": "Morgan authorizes disclosure of a twenty-day closing ability but not a maximum price. The seller authorizes an asking-price counteroffer but not disclosure of a private minimum.",
+          "warning": "Those limited permissions are not interchangeable. A dual agent may communicate the proposed terms without inventing authority to disclose either client's private settlement boundary or concealing a known material defect."
+        }
+      ],
+      "takeaway": "A change in represented parties changes the legal analysis. Align conduct, disclosure, written agreements, consent, and confirmation before treating the new relationship as operative; then continue evaluating confidentiality and material disclosures throughout the transaction."
+    },
+    "pitfalls": [
+      {
+        "trap": "A showing always creates dual agency.",
+        "correction": "Determine whether buyer representation was undertaken.",
+        "why": "Seller-only assistance can remain a single agency."
+      },
+      {
+        "trap": "Two employees mean two unrelated brokers.",
+        "correction": "Trace both employees to their responsible brokerage.",
+        "why": "Dual agency can exist despite separate personnel."
+      },
+      {
+        "trap": "One disclosure signature approves all later changes.",
+        "correction": "Obtain the required consent to the actual changed relationship.",
+        "why": "Receipt, employment, and conflict consent have distinct functions."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "agency-relationships",
+        "reason": "Establish the principal and scope before evaluating a changed role."
+      },
+      {
+        "lessonSlug": "contracts-representation-agreements",
+        "reason": "Connect buyer engagement timing with the separate employment contract."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "agency-compensation-and-termination",
+    "overview": [
+      {
+        "label": "Earning",
+        "detail": "Read the contractual event that creates the fee entitlement."
+      },
+      {
+        "label": "Allocation",
+        "detail": "Payment source and internal split use different calculation bases."
+      },
+      {
+        "label": "Termination",
+        "detail": "Ending authority does not erase every existing contract or surviving duty."
+      }
+    ],
+    "sections": [
+      {
+        "id": "compensation-is-a-contract-question",
+        "takeaway": "Commission amounts and earning conditions come from lawful agreements, not a statutory rate; identify the parties and promised services before calculating payment."
+      },
+      {
+        "id": "earning-is-different-from-receiving",
+        "takeaway": "A fee can be earned before it is paid, but whether closing is required depends on the actual agreement and applicable law."
+      },
+      {
+        "id": "procuring-cause-and-exclusivity",
+        "takeaway": "Procuring cause involves effective transaction-producing activity, while exclusivity can alter the fee analysis; a first introduction does not always settle competing claims."
+      },
+      {
+        "id": "who-may-receive-the-salespersons-fee",
+        "takeaway": "Licensed salesperson compensation flows through the responsible brokerage as required; buyer payments, seller contributions, and referral obligations remain separate agreements."
+      },
+      {
+        "id": "calculating-a-negotiated-commission",
+        "takeaway": "Apply each stated percentage to its specified base and in the stated order, then reconcile the parts back to the total fee."
+      },
+      {
+        "id": "how-an-agency-ends",
+        "takeaway": "Distinguish the power to end agency authority from the contractual consequences of termination; a listing cancellation does not automatically cancel an accepted purchase agreement."
+      },
+      {
+        "id": "duties-that-survive",
+        "takeaway": "After representation ends, accounting, confidentiality, record handling, and appropriate notice may remain even though authority for new acts has ceased."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Resolve current authority and earned compensation independently; an unpaid claim does not authorize continued representation after the principal has withdrawn that authority."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Reconstruct the fee from the salesperson's share",
+      "setup": "A brokerage's agreement pays a referral broker 20% of the total fee collected, then pays its salesperson 75% of the remainder. The salesperson receives $9,000 gross. A seller contribution of $10,000 is credited toward the buyer's total brokerage obligation. There are no other fees, reductions, or taxes in this fictional transaction. Determine the total fee and the buyer's remaining payment.",
+      "inputs": [
+        {
+          "label": "Salesperson gross share",
+          "value": "$9,000"
+        },
+        {
+          "label": "Referral first",
+          "value": "20% of total collected"
+        },
+        {
+          "label": "Salesperson second",
+          "value": "75% of the post-referral remainder"
+        },
+        {
+          "label": "Seller contribution",
+          "value": "$10,000 credited to the fee"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Recover the post-referral pool",
+          "expression": "9000 / 0.75",
+          "value": 12000,
+          "format": "currency",
+          "explanation": "The $9,000 is the result of multiplying the post-referral pool by 75%. Reverse that operation by dividing. Subtracting 75% from $9,000 would answer a different question. This recovered $12,000 is not yet the full brokerage fee because the referral was removed first."
+        },
+        {
+          "label": "Recover the full fee",
+          "expression": "12000 / 0.80",
+          "value": 15000,
+          "format": "currency",
+          "explanation": "After a 20% referral, 80% of the fee remains. The $12,000 therefore represents 80% of the original amount. Dividing by 80% yields $15,000. Adding 20% to $12,000 would produce $14,400 and would not reverse the original deduction."
+        },
+        {
+          "label": "Determine the referral",
+          "expression": "15000 * 0.20",
+          "value": 3000,
+          "format": "currency",
+          "explanation": "The referral agreement uses the full fee collected, not the salesperson's share or the seller contribution. The brokerage also retains $3,000 after paying the salesperson. Check the allocation: the $3,000 referral, $9,000 salesperson share, and $3,000 brokerage remainder total $15,000."
+        },
+        {
+          "label": "Credit the seller contribution",
+          "expression": "15000 - 10000",
+          "value": 5000,
+          "format": "currency",
+          "explanation": "The buyer owes the remaining $5,000 under the stipulated compensation arrangement. The contribution changes who funds the fee, not the base of the already specified internal allocations. Do not subtract the referral again from the buyer's obligation; that referral is the receiving brokerage's separate payment."
+        },
+        {
+          "label": "Cross-check the effective share",
+          "expression": "0.80 * 0.75 * 100",
+          "value": 60,
+          "format": "percent",
+          "explanation": "The salesperson receives 75% of the 80% retained after referral, or 60% of the original fee. Thus $9,000 divided by 60% independently confirms the $15,000 total. This shortcut works because the stated agreements apply sequential percentages to these particular bases; changing the referral base or payment order requires rebuilding the calculation."
+        }
+      ],
+      "takeaway": "Reverse the percentages in reverse order, then allocate funding sources. Arithmetic establishes the stipulated amounts, not whether a real fee was earned, whether a contribution is permitted by financing, or whether an agency has continued after termination."
+    },
+    "pitfalls": [
+      {
+        "trap": "Add the deducted percentage to reverse a split.",
+        "correction": "Divide by the percentage that remained.",
+        "why": "A percentage of the remainder is not a percentage of the original base."
+      },
+      {
+        "trap": "The seller contribution is a second commission.",
+        "correction": "Credit it according to the compensation agreement.",
+        "why": "Two funding sources can satisfy one fee obligation."
+      },
+      {
+        "trap": "An unpaid fee preserves authority.",
+        "correction": "Stop unauthorized acts and analyze the payment claim separately.",
+        "why": "Agency termination and contract damages are different questions."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "contracts-representation-agreements",
+        "reason": "Read the fee promise and cancellation terms before allocating payments."
+      },
+      {
+        "lessonSlug": "transfer-title-and-escrow",
+        "reason": "Compare compensation calculations with authorized closing disbursements."
+      }
+    ]
+  }
+]

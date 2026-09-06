@@ -1,0 +1,495 @@
+[
+  {
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "overview": [
+      {
+        "label": "Interest",
+        "detail": "Title is ownership; the deed is the instrument used to convey an interest."
+      },
+      {
+        "label": "Effectiveness",
+        "detail": "Execution, effective delivery, and recording are different events."
+      },
+      {
+        "label": "Extent",
+        "detail": "Read reservations, existing rights, and the grantor's interest before assuming a complete fee."
+      }
+    ],
+    "sections": [
+      {
+        "id": "title-is-the-interest-a-deed-is-an-instrument",
+        "takeaway": "Distinguish the ownership interest from the document conveying it; a deed's label does not itself establish the grantor's actual title."
+      },
+      {
+        "id": "essential-elements-and-intent",
+        "takeaway": "Check the required instrument, parties, property description, and present transfer intent; an undivided share is not automatically a separately bounded parcel."
+      },
+      {
+        "id": "notarization-and-recording",
+        "takeaway": "Notarization supports recordability and recording affects notice and priority, but neither automatically supplies missing delivery intent or cures every defect."
+      },
+      {
+        "id": "compare-the-deeds",
+        "takeaway": "A grant can presume fee-simple intent while preserving stated reservations; quitclaims, implied covenants, and after-acquired title address separate consequences."
+      },
+      {
+        "id": "vesting-answers-how-title-is-held",
+        "takeaway": "Choose vesting by examining shares, survivorship, transfer powers, and estate consequences; identical names on a deed can represent different ownership arrangements."
+      },
+      {
+        "id": "worked-scenario-and-exam-review",
+        "takeaway": "Read the interest and delivery facts before relying on recording; a later purchaser's actual notice can defeat an otherwise tempting first-recorded answer."
+      }
+    ],
+    "lab": {
+      "kind": "contrast",
+      "title": "Three grants, three different interests",
+      "setup": "Owner Quinn holds fee-simple title to a parcel and signs a sufficient deed to Rowan. Assume competent parties, an adequate description, present transfer intent, effective delivery, and acceptance. There is an existing utility easement. Compare the wording of the grant rather than assuming every effective deed gives immediate exclusive possession free of all other rights.",
+      "cases": [
+        {
+          "label": "No lesser estate stated",
+          "changedFact": "The deed grants the parcel without stating that only a lesser estate is intended.",
+          "result": "Fee-simple intent is presumed under Civil Code section 1105, but existing interests still require analysis.",
+          "reasoning": [
+            "The presumption concerns the estate intended to pass. It does not necessarily erase the utility easement, prove that every title requirement has been met, or provide insurance against all competing claims.",
+            "Do not convert a presumption about the grant's meaning into a warranty that no encumbrance exists. The deed, the property's title condition, and available insurance are related but different sources of information."
+          ]
+        },
+        {
+          "label": "Life estate reserved",
+          "changedFact": "The deed expressly reserves to Quinn a life estate measured by Quinn's life while conveying the remainder to Rowan.",
+          "result": "Rowan receives a present remainder interest, with possession following the termination of the reserved life estate.",
+          "reasoning": [
+            "The express reservation shows that immediate unrestricted possession was not the entire bargain. The fee-simple presumption does not override words showing a lesser or divided interest was intended.",
+            "Quinn's later death ends that reserved estate. A will ordinarily cannot redirect the remainder already conveyed to Rowan. The result follows from the prior deed's interests, not from treating the deed as ineffective until death."
+          ]
+        },
+        {
+          "label": "Undivided fractional share",
+          "changedFact": "The deed conveys an undivided forty-percent interest without dividing the parcel geographically or creating survivorship.",
+          "result": "Rowan acquires a fractional cotenancy interest in the whole parcel, not exclusive ownership of a selected forty percent of the ground.",
+          "reasoning": [
+            "The conveyed fraction describes ownership proportion. It does not identify a new legal lot, determine a boundary through the property, or give Rowan the unilateral right to choose the most valuable portion.",
+            "Quinn retains the remaining interest. A later sale of the whole property requires attention to both owners' interests and authority; one cotenant's signature does not automatically bind the other's separate share."
+          ]
+        }
+      ],
+      "takeaway": "Read what was conveyed, what was reserved, and what already burdened the property. Then consider possession, succession, notice, and insurance separately. Effective delivery answers whether the transfer operated; it does not make every possible ownership outcome identical."
+    },
+    "pitfalls": [
+      {
+        "trap": "A grant always eliminates existing easements.",
+        "correction": "Separate the intended estate from encumbrances.",
+        "why": "A fee-simple estate can be subject to another person's property right."
+      },
+      {
+        "trap": "A remainder is only a future hope.",
+        "correction": "Recognize a present interest with later possession.",
+        "why": "Effective delivery can create the interest before the life tenant dies."
+      },
+      {
+        "trap": "A fractional deed divides the land physically.",
+        "correction": "Distinguish undivided shares from legal parcels.",
+        "why": "Ownership percentages do not establish subdivision boundaries."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "ownership-estates-title",
+        "reason": "Review the estates and cotenancies that a deed can create."
+      },
+      {
+        "lessonSlug": "transfer-special-transfers",
+        "reason": "Trace how death affects reserved estates and existing survivorship rights."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "transfer-title-and-escrow",
+    "overview": [
+      {
+        "label": "Report",
+        "detail": "A preliminary report offers insurance on stated terms, not an abstract's assurance."
+      },
+      {
+        "label": "Coverage",
+        "detail": "The owner and lender insure different interests and may accept different risks."
+      },
+      {
+        "label": "Closing",
+        "detail": "Funds and documents remain conditional until authorized requirements are met."
+      }
+    ],
+    "sections": [
+      {
+        "id": "title-review-identifies-the-interest-being-purchased",
+        "takeaway": "A title review and preliminary report help identify proposed insurance terms; an omitted matter does not establish that no underlying property right exists."
+      },
+      {
+        "id": "read-requirements-and-exceptions",
+        "takeaway": "Distinguish requirements to satisfy from exceptions expected to remain, and compare the reported owner and land with the actual purchase agreement."
+      },
+      {
+        "id": "owner-and-lender-policies-protect-different-interests",
+        "takeaway": "Owner and lender policies protect separate interests; endorsements and expanded coverage depend on actual terms rather than guaranteeing the buyer's intended use."
+      },
+      {
+        "id": "escrow-is-conditional-custody",
+        "takeaway": "Escrow holds conditional deliveries and follows authorized instructions; possession of all funds and a signed deed does not waive an unresolved condition."
+      },
+      {
+        "id": "who-regulates-the-escrow-holder",
+        "takeaway": "Independent escrow licensing and specified professional exemptions follow different rules; a brokerage exemption is not unlimited permission to operate public escrow services."
+      },
+      {
+        "id": "follow-the-closing-sequence",
+        "takeaway": "Reconcile contract terms, conditions, recording, and disbursements; an arithmetically balanced statement can still allocate a charge without proper authorization."
+      },
+      {
+        "id": "worked-scenario-a-paid-loan-still-appears",
+        "takeaway": "A seller's statement that a loan was paid requires verification and appropriate title handling, while changed wire instructions require independent authentication."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Keep ownership, insurance, and escrow authority separate; a report, a policy, and deposited funds each answer different transaction questions."
+      }
+    ],
+    "lab": {
+      "kind": "sequence",
+      "title": "A missing easement appears before closing",
+      "setup": "A buyer plans deliveries to a small commercial parcel. A preliminary report omitted an access document, but a newly obtained recorded easement limits use in a way that may affect the plan. The buyer's loan is approved and escrow holds a signed deed. No party has yet agreed to accept the newly identified limitation.",
+      "steps": [
+        {
+          "label": "Classify the new evidence",
+          "action": "Obtain the actual recorded instrument and compare its rights and restrictions with the proposed use and purchase terms.",
+          "evidence": "The easement document, property description, and intended delivery pattern matter more than the earlier report's silence. Identify which parcel benefits and what use is actually permitted.",
+          "warning": "A preliminary report is an offer to insure on terms under Insurance Code section 12340.11, not an abstract guaranteeing title's condition. Its omission does not make the easement nonexistent or automatically establish coverage."
+        },
+        {
+          "label": "Separate coverage from suitability",
+          "action": "Ask the title provider for current requirements and proposed policy treatment, while helping the buyer obtain appropriate advice about access.",
+          "evidence": "An updated exception, an available endorsement, or another underwriting response describes insurance treatment. A qualified review addresses whether the legal right supports commercial deliveries.",
+          "warning": "Loan approval or willingness to issue a policy does not prove the buyer's plan works. A lender's collateral concern and the buyer's operational need can lead to different acceptable-risk decisions."
+        },
+        {
+          "label": "Resolve the contractual decision",
+          "action": "Review applicable title and investigation provisions, deadlines, and available proposals with the buyer before issuing instructions.",
+          "evidence": "The purchase agreement and amendments establish the promised condition and response process. The buyer may seek clarification, a permissible cure, or another authorized contractual outcome.",
+          "warning": "Do not promise automatic cancellation or force acceptance of the restriction merely to preserve the scheduled closing. A salesperson communicates and advises within competence; the principal makes the authorized transaction decision."
+        },
+        {
+          "label": "Align escrow instructions",
+          "action": "Close only after applicable conditions and required approvals are satisfied or properly amended, then reconcile recording and disbursement.",
+          "evidence": "The final instructions, lender and insurer requirements, and current title documents must match the authorized bargain rather than the superseded assumptions.",
+          "warning": "A signed deed and deposited funds remain conditional. A unilateral assurance that the buyer will probably accept the problem is not a substitute for authority or required conditions. Before sending funds, independently verify changed wire instructions through an established trusted contact, not a new number supplied in the suspicious message."
+        }
+      ],
+      "takeaway": "Discovering a title issue creates three workstreams: determine the actual property right, establish proposed insurance coverage, and resolve contractual closing conditions. Completing one workstream does not silently complete the other two."
+    },
+    "pitfalls": [
+      {
+        "trap": "The preliminary report's silence proves clear title.",
+        "correction": "Investigate the actual interest and offered coverage.",
+        "why": "An offer to insure is not a guarantee that no omitted right exists."
+      },
+      {
+        "trap": "The lender's acceptance binds the buyer's preferences.",
+        "correction": "Compare the two insured interests and transaction needs.",
+        "why": "Protecting collateral is not the same as assuring operational suitability."
+      },
+      {
+        "trap": "Escrow can fix a disagreement by closing.",
+        "correction": "Obtain consistent authorized instructions.",
+        "why": "Conditional custody is not authority to decide disputed rights."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "transfer-deeds-and-vesting",
+        "reason": "Identify the interest the documents are supposed to convey."
+      },
+      {
+        "lessonSlug": "contracts-performance-and-remedies",
+        "reason": "Apply actual contingency and remedy provisions to newly discovered title facts."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "overview": [
+      {
+        "label": "Three gains",
+        "detail": "Realized, recognized, and deferred gain are different quantities."
+      },
+      {
+        "label": "Cash",
+        "detail": "Debt payoff and withholding affect cash without necessarily reducing realized gain."
+      },
+      {
+        "label": "Carryover",
+        "detail": "Deferral usually preserves gain through replacement basis rather than forgiving it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "four-different-questions",
+        "takeaway": "Separate closing cash, income-tax gain, withholding, and property-tax assessment before calculating; similar dollar figures belong to different legal systems."
+      },
+      {
+        "id": "basis-and-gain",
+        "takeaway": "Determine amount realized and adjusted basis from the appropriate records; current debt, assessed value, and market value are not interchangeable substitutes."
+      },
+      {
+        "id": "the-principal-residence-exclusion",
+        "takeaway": "Apply ownership, use, and prior-exclusion conditions to qualifying gain, not gross price; a replacement purchase is not generally required for the main-home exclusion."
+      },
+      {
+        "id": "like-kind-exchange-deferral",
+        "takeaway": "Test exchange eligibility and timing, then distinguish cash boot, recognized gain, and deferred gain; replacement basis preserves rather than erases deferred tax consequences."
+      },
+      {
+        "id": "withholding-is-a-prepayment",
+        "takeaway": "Federal FIRPTA and California withholding have separate rules; withholding normally prepays tax and can differ substantially from the final liability."
+      },
+      {
+        "id": "property-tax-after-transfer",
+        "takeaway": "Distinguish due dates from delinquency dates and reassessment from existing bills; closing prorations do not necessarily settle later supplemental assessments."
+      },
+      {
+        "id": "transfer-tax-and-prorations",
+        "takeaway": "Use the stated tax base and day-count convention, then assign debits and credits according to who already paid or collected the item."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Label each calculation before using a percentage or subtraction; correct arithmetic on debt, basis, proceeds, or taxable gain cannot repair a mistaken category."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "Cash boot without losing the entire deferral",
+      "setup": "Assume a fully qualifying investment-property exchange. Relinquished property has a $700,000 fair market value and $400,000 adjusted basis. The taxpayer receives replacement real property worth $650,000 plus $50,000 cash. There is no debt, exchange expense, depreciation-recapture complication, related-party issue, or other adjustment. The exercise isolates ordinary cash boot; eligibility and timing are stipulated, not inferred from these numbers.",
+      "inputs": [
+        {
+          "label": "Relinquished property value",
+          "value": "$700,000"
+        },
+        {
+          "label": "Adjusted basis",
+          "value": "$400,000"
+        },
+        {
+          "label": "Replacement property value",
+          "value": "$650,000"
+        },
+        {
+          "label": "Cash received",
+          "value": "$50,000"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Find realized gain",
+          "expression": "700000 - 400000",
+          "value": 300000,
+          "format": "currency",
+          "explanation": "The exchange produces $300,000 of economic gain before applying the nonrecognition rule. Receiving real property rather than only cash does not prevent gain from being realized. The $650,000 replacement value plus $50,000 cash accounts for the $700,000 received in this simplified exchange."
+        },
+        {
+          "label": "Limit current recognition",
+          "expression": "min(300000, 50000)",
+          "value": 50000,
+          "format": "currency",
+          "explanation": "With only the stated cash boot and no complicating adjustments, recognize the lesser of realized gain and cash received. The taxpayer does not recognize the whole $300,000 merely because some cash was received. Conversely, boot cannot create recognized gain greater than the total gain actually realized."
+        },
+        {
+          "label": "Identify deferred gain",
+          "expression": "300000 - 50000",
+          "value": 250000,
+          "format": "currency",
+          "explanation": "The remaining $250,000 is deferred, not permanently excluded. This number is not a tax payment, a lender payoff, or additional spendable cash. The final tax on the recognized portion depends on applicable tax rules and the taxpayer's circumstances, none of which are supplied by this calculation."
+        },
+        {
+          "label": "Carry the deferral into basis",
+          "expression": "650000 - 250000",
+          "value": 400000,
+          "format": "currency",
+          "explanation": "Subtract deferred gain from the replacement property's fair market value to obtain its simplified $400,000 basis. A later taxable sale can therefore reveal the preserved gain. Assigning a fresh $650,000 basis while also deferring $250,000 would improperly erase the very gain the exchange rules postponed."
+        },
+        {
+          "label": "Test an unchanged-value later sale",
+          "expression": "650000 - 400000",
+          "value": 250000,
+          "format": "currency",
+          "explanation": "If the replacement property were later sold in a fully taxable sale for the same $650,000 value, with no intervening basis changes or selling expenses, the gain would be $250,000. That matches the amount previously deferred. Do not subtract the earlier $50,000 recognized gain again; it was already accounted for in establishing replacement basis."
+        }
+      ],
+      "takeaway": "Recognized gain is a current tax category, deferred gain is preserved for later treatment, and basis carries that preservation forward. These figures do not prove exchange eligibility; actual transactions require timely identification, receipt, and compliance with the other governing requirements."
+    },
+    "pitfalls": [
+      {
+        "trap": "Any boot makes the whole exchange taxable.",
+        "correction": "Compare realized gain with the relevant boot under the applicable rules.",
+        "why": "Cash can cause partial recognition rather than destroy every deferral."
+      },
+      {
+        "trap": "Deferred means permanently excluded.",
+        "correction": "Track the replacement property's basis.",
+        "why": "A lower basis preserves gain for later tax treatment."
+      },
+      {
+        "trap": "The replacement property's price is always its tax basis.",
+        "correction": "Apply the relevant exchange-basis rules.",
+        "why": "A qualifying exchange differs from an ordinary fully taxable purchase."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "valuation-income-analysis",
+        "reason": "Distinguish tax basis from investment value and cash-flow analysis."
+      },
+      {
+        "lessonSlug": "transfer-title-and-escrow",
+        "reason": "Separate tax calculations from closing cash and authorized prorations."
+      }
+    ]
+  },
+  {
+    "lessonSlug": "transfer-special-transfers",
+    "overview": [
+      {
+        "label": "Authority",
+        "detail": "Identify the representative's actual authority, not just family or beneficiary status."
+      },
+      {
+        "label": "Procedure",
+        "detail": "Probate confirmation, independent administration, and nonprobate transfers differ."
+      },
+      {
+        "label": "Bidding",
+        "detail": "The appraisal floor and first-overbid increment use different bases."
+      }
+    ],
+    "sections": [
+      {
+        "id": "authority-replaces-the-ordinary-owner-signature",
+        "takeaway": "Determine the event, authorized signer, and required approvals before accepting a special-purpose deed; a title alone does not establish valid sale authority."
+      },
+      {
+        "id": "death-does-not-produce-one-universal-process",
+        "takeaway": "A will names beneficiaries and may nominate an executor, but appointment and the property's existing ownership determine who can act."
+      },
+      {
+        "id": "nonprobate-transfers",
+        "takeaway": "Trust ownership, survivorship, life estates, and qualifying summary procedures can avoid ordinary probate steps, but their actual requirements still matter."
+      },
+      {
+        "id": "selling-through-probate",
+        "takeaway": "Check the representative's powers and applicable notice or confirmation process; independent administration does not remove fiduciary obligations or every procedural condition."
+      },
+      {
+        "id": "worked-overbid",
+        "takeaway": "Calculate the ordinary first-overbid minimum from the accepted bid, then separately examine appraisal requirements, bidder responsibility, terms, and judicial discretion."
+      },
+      {
+        "id": "other-involuntary-and-court-related-transfers",
+        "takeaway": "Foreclosure, deed in lieu, partition, condemnation, and bankruptcy transfer interests through different processes; none universally removes every prior property right."
+      },
+      {
+        "id": "transfers-through-operation-of-law",
+        "takeaway": "Ownership can change through legally recognized events without an ordinary negotiated deed, but each asserted process still requires its own elements."
+      },
+      {
+        "id": "exam-review",
+        "takeaway": "Trace authority, procedure, and the interest transferred independently; a high price or familiar deed label does not cure missing approval."
+      }
+    ],
+    "lab": {
+      "kind": "calculation",
+      "title": "The appraisal floor is not the overbid",
+      "setup": "An ordinary probate private sale requires court confirmation. The appraisal and valuation dates satisfy the applicable one-year requirements, and the appraised value is $840,000. The accepted bid is $780,000. Apply the ordinary ninety-percent appraisal threshold and the statutory first-overbid calculation. Assume no exception changes these numerical rules; all other confirmation requirements remain separate.",
+      "inputs": [
+        {
+          "label": "Appraised value",
+          "value": "$840,000"
+        },
+        {
+          "label": "Accepted bid",
+          "value": "$780,000"
+        },
+        {
+          "label": "Appraisal threshold",
+          "value": "90% of appraised value"
+        },
+        {
+          "label": "First-overbid increment",
+          "value": "10% of first $10,000; 5% of remainder"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Check the appraisal floor",
+          "expression": "840000 * 0.90",
+          "value": 756000,
+          "format": "currency",
+          "explanation": "The accepted $780,000 bid exceeds the $756,000 floor. This comparison addresses the ordinary private-sale appraisal requirement, not the amount a competing bidder must offer. A bid below this floor is not cured merely by correctly calculating an increment from an inadequate accepted price."
+        },
+        {
+          "label": "Calculate the first bracket",
+          "expression": "10000 * 0.10",
+          "value": 1000,
+          "format": "currency",
+          "explanation": "The first $10,000 of the accepted bid receives a ten-percent increment, producing $1,000. Do not apply ten percent to the full $780,000 or to the appraisal. The statute uses a two-part increment because the first bracket and the remaining bid have different rates."
+        },
+        {
+          "label": "Calculate the remaining bracket",
+          "expression": "770000 * 0.05",
+          "value": 38500,
+          "format": "currency",
+          "explanation": "Subtract the first $10,000 from the accepted bid, leaving $770,000. Five percent of that remainder is $38,500. The commission is not deducted to create a net accepted bid for this formula. A broker's compensation question is separate from the statutory calculation base."
+        },
+        {
+          "label": "Add the increment to the bid",
+          "expression": "780000 + 1000 + 38500",
+          "value": 819500,
+          "format": "currency",
+          "explanation": "The calculated minimum first overbid is $819,500. Reaching that amount does not establish an unconditional right to purchase. Responsible-bidder requirements, legal compliance, cash or credit terms, and the court's statutory discretion can still affect confirmation or result in a new sale."
+        },
+        {
+          "label": "Verify with an equivalent expression",
+          "expression": "780000 * 1.05 + 500",
+          "value": 819500,
+          "format": "currency",
+          "explanation": "For an original bid of at least $10,000, five percent of the entire bid plus an extra $500 produces the same increment as the two statutory brackets. The extra $500 supplies the additional five percent on the first $10,000. This arithmetic cross-check does not remove appraisal, bidder, terms, or court-approval requirements."
+        }
+      ],
+      "takeaway": "Use the appraisal only for the appraisal requirement and the accepted bid only for the overbid increment. Then return to authority and procedure. The arithmetic is a threshold analysis, not a substitute for examining whether the court may confirm this particular offer."
+    },
+    "pitfalls": [
+      {
+        "trap": "Ninety percent of appraisal is the overbid.",
+        "correction": "Calculate the two requirements independently.",
+        "why": "They use different bases and serve different purposes."
+      },
+      {
+        "trap": "Subtract commission before calculating the increment.",
+        "correction": "Use the accepted bid as the statute directs.",
+        "why": "Compensation does not redefine the statutory bid amount."
+      },
+      {
+        "trap": "The highest numerical offer must always win.",
+        "correction": "Check responsibility, terms, legal compliance, and discretion.",
+        "why": "A sufficient number does not satisfy every confirmation condition."
+      }
+    ],
+    "connections": [
+      {
+        "lessonSlug": "transfer-deeds-and-vesting",
+        "reason": "Identify what interest survives death or another special event."
+      },
+      {
+        "lessonSlug": "agency-compensation-and-termination",
+        "reason": "Separate sale authority and procedural bidding rules from brokerage compensation."
+      }
+    ]
+  }
+]

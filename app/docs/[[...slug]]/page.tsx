@@ -16,6 +16,13 @@ import { getLearningFigures } from '@/lib/learning-figures'
 import { rehypeLearningFigures } from '@/lib/rehype-learning-figures'
 import { LessonActions } from '@/components/study/lesson-actions'
 import { ChapterQuiz } from '@/components/study/chapter-quiz'
+import { getStudyGuide } from '@/lib/study-guides/content'
+import { rehypeReadingSections } from '@/lib/rehype-reading-sections'
+import { ChapterReader } from '@/components/book/reader/reader-context'
+import { ReadingSection, ReadingDetail } from '@/components/book/reader/reading-section'
+import { GuideOverview } from '@/components/book/guide-overview'
+import { GuideReview } from '@/components/book/guide-review'
+import { CaseLab } from '@/components/book/labs/case-lab'
 
 interface Props {
   params: Promise<{ slug?: string[] }>
@@ -39,6 +46,8 @@ export default async function Chapter({ params }: Props) {
   const index = lessons.findIndex((l) => l.slug === lesson.slug)
   const previous = lessons[index - 1]
   const next = lessons[index + 1]
+  const guide = getStudyGuide(lesson.slug)
+  const headings = getHeadings(lesson.body)
   const { content } = await compileMDX({
     source: lesson.body,
     options: {
@@ -48,11 +57,27 @@ export default async function Chapter({ params }: Props) {
           rehypeSlug,
           rehypeKatex,
           [rehypeLearningFigures, { figures: getLearningFigures(lesson.slug) }],
+          [rehypeReadingSections, { takeaways: guide?.sections }],
         ],
       },
     },
     components: {
       'learning-figure': (props) => <LearningFigure id={props.id as string} />,
+      'reading-section': (props) => (
+        <ReadingSection
+          id={String(props.id)}
+          label={String(props.label)}
+          number={Number(props.number)}
+          takeaway={String(props.takeaway ?? '')}
+        >
+          {props.children}
+        </ReadingSection>
+      ),
+      'reading-detail': (props) => (
+        <ReadingDetail id={String(props.id)} label={String(props.label)}>
+          {props.children}
+        </ReadingDetail>
+      ),
       table: (props) => (
         <div className="table-scroll">
           <table {...props} />
@@ -79,16 +104,25 @@ export default async function Chapter({ params }: Props) {
         <h1>{lesson.title}</h1>
         <p className="page-description">{lesson.description}</p>
         <LessonActions slug={lesson.slug} />
-        <section className="learning-objectives">
-          <h2>Learning objectives</h2>
-          <ul>
-            {lesson.objectives.map((objective) => (
-              <li key={objective}>{objective}</li>
-            ))}
-          </ul>
-        </section>
+        {guide && <GuideOverview points={guide.overview} />}
         <ConceptDiagram slug={lesson.slug} />
-        <div className="lesson-prose">{content}</div>
+        <ChapterReader
+          key={lesson.slug}
+          sectionIds={headings
+            .filter((heading) => heading.depth === 2)
+            .map((heading) => heading.id)}
+        >
+          <ReadingDetail id="learning-objectives" label="Learning objectives">
+            <ul className="objective-list">
+              {lesson.objectives.map((objective) => (
+                <li key={objective}>{objective}</li>
+              ))}
+            </ul>
+          </ReadingDetail>
+          <div className="lesson-prose">{content}</div>
+          {guide && <CaseLab lab={guide.lab} />}
+          {guide && <GuideReview guide={guide} lessons={lessons} />}
+        </ChapterReader>
         <ChapterQuiz questions={questions} />
         <section className="lesson-sources" id="sources">
           <div className="section-heading">
@@ -139,7 +173,7 @@ export default async function Chapter({ params }: Props) {
           )}
         </nav>
       </article>
-      <LessonToc headings={getHeadings(lesson.body)} />
+      <LessonToc headings={headings} hasGuide={Boolean(guide)} />
     </div>
   )
 }

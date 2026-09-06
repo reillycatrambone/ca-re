@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "./learning-figures.css";
+@import "./reader.css";
+@import "./case-labs.css";
 @custom-variant dark (&:is(.dark *));
 
 :root {
