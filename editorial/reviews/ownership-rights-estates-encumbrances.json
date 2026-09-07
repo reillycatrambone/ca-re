@@ -1,0 +1,353 @@
+[
+  {
+    "id": "ownership-rights-estates-encumbrances-independent",
+    "reviewed": "2026-09-07",
+    "reviewer": "audit_practice_agency, separate from remove_progress_tracking author",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "All 43 rule records for ownership-property-rights (14), ownership-estates-title (14), and ownership-encumbrances (15); all 13 new ordinary-practice questions ownership-71 through ownership-83 and their 52 option rationales; and all three complete chapter bodies. Checked the rule statements, conditions, exceptions, primary-source locators, actual examples, linked question scope, and relevant calculations. The pre-existing 70 ownership questions were not independently recertified by this pass. Current chapter SHA256 snapshots: property-rights 6e26b3c2f026fecff0d41bf63094f37742561b7ce9365ef28f176fce1c19013e; estates-title 18396ea2fb23afd69855cd90c6c9cb7f3cfdf68f2ee22af6d81f869cb6cee320; encumbrances 3c736973eaf53888eb32e555c0759093b5aace6c8c2bd97335143d474c8da8e7. Final question revisions 74 and 79 are 2; the other eleven new items are revision 1. The property-rights snapshot includes a source-only registration of DRE ref09 for the independently reviewed leasehold distinction; chapter body text was unchanged.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=405.20.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=703.010.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=704.730.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=760.020.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1019.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1108.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2872.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2941.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4125.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4145.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4175.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4190.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=682.1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=768.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=801.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=802.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=806.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=811.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=818.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=845.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=1102.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=297.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=760.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=770.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+      "https://scocal.stanford.edu/opinion/murphy-v-burch-33056/",
+      "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+      "https://www.sos.ca.gov/business-programs/business-entities/starting-business/types"
+    ],
+    "artifacts": [
+      {
+        "kind": "rule",
+        "id": "ownership-rule-divided-rights",
+        "digest": "91b965a604e15e8135868c944a7af88f707dcae494b1558b6303d10a6bebb7c9"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-appurtenant-water-shares",
+        "digest": "66d8df138f1f43eb3562298aa1f7c2610125835299f41f7b1b770ef6d3fd602e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-ordinary-shares-and-debt",
+        "digest": "72a3a9571f694ad1cb0210298e4cd67ccf2a6b4e6be3497c461cc864e1d7c6aa"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-fixture-evidence",
+        "digest": "0e7cae121cc97ee4a245e02523040a01ed27e381ecb56527b7b449277fe3389a"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-express-inclusions",
+        "digest": "1c7d46c07f0fda3df36d587d2df7491bde4d980531d646e0cb65582a20054ebe"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-hardware-service-separation",
+        "digest": "cbad8bc1c1ff6daf91f08208417d823428f502b3f26083fb3e1abdffaa4c582d"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-tenant-removal-and-owner-authority",
+        "digest": "f068df99a84c2815c0fe844750bf64c6ca4e74f778e2b591f2e0eb8d266b48b2"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-severance-and-annexation",
+        "digest": "47c5227986f8641d62378935804bd7c07c948aa0a5f9689566f0a0b9a79b91fb"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-crops-intended-severance",
+        "digest": "3c02405462f307eb4dda51ea97c97f58c8817c79485c8135c44877f8cfb0d9ad"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-tenant-inventory",
+        "digest": "d2f80b9ce96bcb17dd285c4872f29dd117a192bd5f6f6bb6aa2abfb9d247af1b"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-solar-title-obligations",
+        "digest": "5ce9d4d5ee7784de0191e03fc2e65815f62120657a488f971e2a3a3b12aa5664"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-immobility-uniqueness-durability",
+        "digest": "6f40b53ed5e7e78574bc0ca1fbb5894dcc941850355a222a13c8d338688aa85c"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-economic-location-effects",
+        "digest": "f84b34f66d4c27bd3d8e10f1410ef777fc7c25e402aed0859b5382d466b40a7e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-development-response-lag",
+        "digest": "e77dd962360db94d5c3fed9030e5809b90705b4b9a9a031b65de41ae8d0dc393"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-estate-vesting-possession",
+        "digest": "ca2fa50a99500a52547e5750955fdff704f1309350c2323352593f08f3bbc900"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-future-interests",
+        "digest": "8d786d30773ff71e1833ef337298f136a27d2fc5b0fe1d225e39d7b74721e1cc"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-measuring-life-transfer",
+        "digest": "c0bceb15a8f53e09ff194b7b6fd08cca9d16f691193f5a7bdbcbf6c6a79f7826"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-life-estate-waste",
+        "digest": "00c6d9835f8e15a78727b57eaaf1e0c5c6f99c97202d9c76db20446b587d0f82"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-leasehold-duration",
+        "digest": "648e3ad9d22434dc6d6c8612d30458bb2a9753266fd7fff27372745cf685dc33"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-tenancy-common-undivided",
+        "digest": "adda7dd5066fbb009241c5b1f00f77f00cf7e0df8400713d5cb80cbb84f73e14"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-tenancy-common-distribution",
+        "digest": "fbbb345615848821e4e4d3abb27c22f7b692b9b25e7ad3849c1b837137d3603d"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-joint-creation-and-partial-severance",
+        "digest": "be86105fe589cfd8e4aa09e7cbd9df7659e071e1f0c8abd5898a3fc03d612686"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-survivorship-versus-inheritance",
+        "digest": "4a1479cf8b88af5af22c19a7ce13f9d56d54bc43eaef16da6fbc53bcc63e8839"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-community-survivorship-form",
+        "digest": "444a18546346a43774d12325a3fc406c3682aaa3e0afafce15c8d1294906d243"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-community-versus-separate",
+        "digest": "d40a3cecbefbd7897d668b1074fc4c7e2c0b5952e73c7a8faaf3b6e7365c0af2"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-community-instrument-joinder",
+        "digest": "98c8dffa95e20ca05ef6f64253d8986fd4f91f5c74c14920422e518635dfee3e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-cooperative-and-entity-assets",
+        "digest": "7c72d2d8997cadc2b3c5edde183d67f90353fdd3097a7ea13341f56f90132738"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-condominium-and-exclusive-use",
+        "digest": "3aed99987d61dc11377c1db06fb9434e82ecf84f646f6a2c81066254e731a890"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-encumbrance-versus-lien",
+        "digest": "12ddee93e957d55e0642ecb980fcc596f7a6953cf7bd44710a5d00501c297ae9"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-appurtenant-and-gross",
+        "digest": "2fd3d17d9961752df4b060ee9a82c8448c9e2dd10c72e798da23c9e372f7cd1e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-easement-scope",
+        "digest": "d0bfe9a6009ce49e13b4ceee3e05316c1902d68688a7833859a0edcc68595628"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-right-of-way-maintenance",
+        "digest": "ae7ac4aedf5f1831ce21de48e08432d1a0c7e6148d6f42e147a382425cb2124c"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-easement-creation-necessity",
+        "digest": "5f1086eadff1d76c18f04c30d652bfdc91d05a7a6fe21f8fb7401651abbff157"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-prescription-versus-permission",
+        "digest": "9315298d6d69c12aea7638e58c4e80528addf766f3dd6426df0fb0391d0399ca"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-express-easement-nonuse",
+        "digest": "03c2b61dbc46365b26bf0cf025c5df794a56293d10fe3281621316fea3d7b0f5"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-encroachment-is-physical",
+        "digest": "3401054244500e46a6dd327e87c610746c49171ff4e105515ea94706931f24c0"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-prescription-versus-adverse-title",
+        "digest": "ae3514c212271abd8eeb07a7dc976c869a9533b28004e6635860959dddec5fe9"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-lien-classification",
+        "digest": "f05d5c82aa74592ca5e3dc3c1f675ece01ae7501f3a7e5f337b0d2e0ffa0b161"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-priority-and-subordination",
+        "digest": "6812d5a56d627d20cacb85e703eeb9f2f8998f110e68d0a6bca0e6fa5ffa0b3a"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-lis-pendens-function",
+        "digest": "1fcb1aadd634814c019a9d0be86d56dbb02f0b1f76fe9cf5ba177b4aaca9ce61"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-quiet-title-and-cloud",
+        "digest": "296eae7c759492f4c7ef6552ba3bf94e922976c6f82a73a5e6ef36f75b20ce02"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-homestead-not-lien-cancellation",
+        "digest": "964ea4bd75e7f998b39469de81a028e92dc99ed9d41ae67e1e4444dddd7b65cd"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-payoff-and-reconveyance",
+        "digest": "30139f21de35b14483f8ad45c5619c1d0a4960d7a46366e6340d7af6135bf6a9"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-71",
+        "digest": "152c90b285037f519781434045f1d2e4cd594ac6538c3df75862ad3aa54e9cf4"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-72",
+        "digest": "eeb9d60778e73d22eda0b2297a37771611d6de9d85b7077c3a8c2e3d90ae7a96"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-73",
+        "digest": "d8a79009a5651f4e881defec52f1e5e67272415fb50fcadd2bea8d546a6a0c8d"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-74",
+        "digest": "c9d2ad1e00a8ef56a38261b0749463058cc35cbbdf7b7ad2fa565fecca117e13"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-75",
+        "digest": "7b73e9aed2e27356372e5bac88a789fba4e6cf46842848c94e05fe8cde4bb5a7"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-76",
+        "digest": "9d7799a9f7f09f4950ce078c57c65d838f3583d66243cef1955e76a9aef84054"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-77",
+        "digest": "0bec04ae566b3ae38ba995ac54916937af3f77520aa75a5e7ff3a89ecc9713d9"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-78",
+        "digest": "46a693fea44890e7bbaa29cb114d7c11a6dd495f93876b26986f926d3ba4da5c"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-79",
+        "digest": "b86ceda94c582c5d00f7ebbbd265711349833921450f5cfe0d16235d926f73d6"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-80",
+        "digest": "5f2efdefee7d902e3d27f95574a616d6802d6963ed2e41e902a9c5a92f2e87a2"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-81",
+        "digest": "a408f90fdcc10a50b6ce5ba320adb34577793e680acda916bfc2b4dd3c51ecb6"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-82",
+        "digest": "b9f5993d05500c3fd5015fa4c1007abd3be546479c9be03108ad4f6a49122842"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-83",
+        "digest": "4471a927f794bfb9eba6c0c112838d2e8f62b8ae6ee65f0121de9eb79864d338"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Ownership-74 originally used three unrelated or giveaway alternatives rather than plausible supply-timing mistakes. Its first replacement also ambiguously described planning from earlier demand.",
+        "resolution": "Author replaced the alternatives with resale versus new-production timing, premature counting of announced units, and immediate contraction of durable completed supply. The reviewer read the final revision 2 and checked the distinction against BOE AH501 printed pages 40-41."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Ownership-79 used an invented one-month ownership prerequisite as a distractor.",
+        "resolution": "Author replaced it with the neighboring five-year prescriptive-use requirement. The reviewer confirmed that prescription is a different doctrine and cannot supply missing prior common ownership for a necessity claim."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Two DRE source locators were insufficiently precise for lien classification and encroachment discussions.",
+        "resolution": "The lien-classification rule now includes ref05 printed page 61 for the explicit classification axes; the encroachment rule now identifies printed pages 76-77. Both passages were independently read."
+      },
+      {
+        "severity": "clarification",
+        "summary": "The community-instrument-joinder rule described the two-year lease example but did not link its concrete visual artifact.",
+        "resolution": "Author added exp-ownership-community-two-year-lease to the example's figureIds. The reviewer inspected that existing specimen and confirmed its authority assumptions and source match."
+      }
+    ],
+    "limitations": "Separate AI primary-source review, not human legal review or a guarantee of complete coverage or an exam result. Some primary passages were personally read during preceding ownership authorship and review passes and reused here; new and sensitive passages were checked directly. Older DRE reference chapters support stable concepts only; current statutes control mutable legal conditions. Murphy v. Burch was read as the court opinion reproduced by Stanford, not its third-party annotation. This record covers the first three ownership chapters and their specified 43 rules and 13 new items, not the other three ownership chapters, their new questions, held-out forms, or empirical question difficulty."
+  }
+]

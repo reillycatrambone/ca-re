@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "financing-rule-ltv-and-price-gap",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "ratios-describe-different-risks",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "LTV compares the loan with the stipulated collateral value. Under a purchase loan's lower-of-price-or-appraisal rule, the smaller value caps the loan; cash toward price is price minus loan, not merely the appraisal shortfall.",
+    "conditions": [
+      "Use the program or problem's specified value, percentage limit, and permitted financing sources.",
+      "For the worked comparison, exclude closing costs unless expressly included."
+    ],
+    "exceptions": [
+      "An eighty-percent limit and the lower-of rule are stipulated here, not universal legal lending limits.",
+      "Changing a purchase price does not increase a loan whose appraisal-based ceiling is already lower."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Loan-to-value ratio; Down payment; Home purchase price",
+        "supports": "Distinguishes collateral value, borrowed amount, and price contribution; the lower-of rule is an explicit example assumption."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ratios-describe-different-risks",
+        "summary": "The chapter's $400,000 loan on $500,000 is 80% LTV; at a $480,000 value and an 80% cap, maximum funding is $384,000.",
+        "figureIds": [
+          "loan-equity-share",
+          "exp-finance-cltv-collateral-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-001",
+      "financing-024",
+      "financing-040",
+      "financing-041"
+    ]
+  },
+  {
+    "id": "financing-rule-dti-income-denominator",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "ratios-describe-different-risks",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "Total DTI divides counted monthly housing and recurring debt payments by qualifying gross monthly income; it does not measure collateral leverage or use net take-home pay.",
+    "conditions": [
+      "Use the same monthly period for numerator and denominator.",
+      "Include only the obligations and qualifying income specified in the problem or applicable underwriting rules."
+    ],
+    "exceptions": [
+      "Lender and loan-program DTI limits vary; no single percentage is a universal approval rule.",
+      "Paying part of an auto balance does not remove its counted payment unless the underwriting facts permit that removal."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/",
+        "locator": "How do I calculate my debt-to-income ratio?",
+        "supports": "Defines monthly debt divided by gross income and cautions that product and lender limits vary."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ratios-describe-different-risks",
+        "summary": "With $8,000 income, $2,400 housing and $800 other debt, housing ratio is 30% and total DTI is 40%.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-002"
+    ]
+  },
+  {
+    "id": "financing-rule-loan-points-base",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "compare-the-full-cost",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "One loan point is one percent of the loan amount, not the property price or an annual rate increase. Cash-paid points add to acquisition cash without reducing principal.",
+    "conditions": [
+      "The question identifies the actual funded loan and number of points.",
+      "Assume the points are paid in cash when adding them to the buyer's required cash."
+    ],
+    "exceptions": [
+      "The rate reduction per discount point depends on the lender and pricing; it is not universally one percentage point.",
+      "Some lenders use points to describe other percentage-based upfront charges; identify the charge before assuming a rate buy-down."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/",
+        "locator": "Points; introductory discussion of different uses of points",
+        "supports": "Defines one point as one percent of the loan and distinguishes percentage charges from the lender-specific rate tradeoff."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-the-full-cost",
+        "summary": "Two points on the chapter's $400,000 loan are $8,000 regardless of the property's purchase price.",
+        "figureIds": [
+          "exp-finance-rate-points-amount-financed"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-003",
+      "financing-040",
+      "financing-041"
+    ]
+  },
+  {
+    "id": "financing-rule-monthly-principal-interest",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "interest-payments-and-amortization",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "For the stated monthly-rate convention, interest equals beginning principal times annual rate divided by twelve; the payment remainder reduces principal and changes the next month's interest base.",
+    "conditions": [
+      "The quoted payment includes principal and interest only, unless the problem separates other charges.",
+      "Apply the stated accrual convention and any stipulated extra principal when calculating the next balance."
+    ],
+    "exceptions": [
+      "Actual notes may use other day-count or accrual conventions.",
+      "A level payment does not imply constant interest and principal portions; unpaid-interest capitalization produces a different balance pattern."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Amortization; Interest rate; Principal",
+        "supports": "Supports the distinct interest charge, principal balance, and reduction through amortizing payments."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "interest-payments-and-amortization",
+        "summary": "On $300,000 at 6%, first monthly interest is $1,500; an $1,800 payment reduces principal $300 to $299,700.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-004",
+      "financing-025"
+    ]
+  },
+  {
+    "id": "financing-rule-secondary-market-and-funding",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "where-mortgage-money-comes-from",
+    "coverageTopics": [
+      "Sources of Financing"
+    ],
+    "rule": "Origination supplies a new loan in the primary market; selling an existing loan or loan-backed interest is secondary-market activity. Secondary-market sales can replenish the originating lender's funds without making a new borrower loan.",
+    "conditions": [
+      "Identify whether the transaction creates a loan or transfers an already existing credit asset.",
+      "Distinguish the borrower, originator, arranger, investor, and servicer by function rather than business name alone."
+    ],
+    "exceptions": [
+      "A lender may retain a loan in portfolio rather than sell it.",
+      "Buying the mortgage asset does not itself transfer the borrower's ownership of the real property."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+        "locator": "Explanation of the secondary market following loan-ownership transfer notice",
+        "supports": "Explains that selling existing loans frees funds for further lending and distinguishes ownership from servicing."
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Fannie Mae; Freddie Mac",
+        "supports": "Supports the role of secondary-market institutions purchasing mortgages from originating lenders."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "where-mortgage-money-comes-from",
+        "summary": "The chapter contrasts banks or private lenders making a new borrower loan with an investor buying an existing note.",
+        "figureIds": [
+          "exp-finance-owner-servicer-transfer-packet"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-005"
+    ]
+  },
+  {
+    "id": "financing-rule-servicing-transfer-effects",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "where-mortgage-money-comes-from",
+    "coverageTopics": [
+      "Sources of Financing"
+    ],
+    "rule": "A loan-ownership transfer and a servicing transfer are separate events; a servicing transfer changes administration and payment instructions without rewriting the existing loan's contractual terms.",
+    "conditions": [
+      "Follow authentic transfer notices and their effective instructions.",
+      "Check which entity owns the debt and which entity receives payments under the servicing arrangement."
+    ],
+    "exceptions": [
+      "Loan sale does not necessarily change the servicer.",
+      "Neither transfer alone forgives the debt or changes a fixed interest rate; suspicious redirection must be independently verified."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+        "locator": "Ownership notice and servicing-rights paragraphs",
+        "supports": "States that loan ownership may change without servicing changing, and servicing transfer cannot change agreement terms."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "where-mortgage-money-comes-from",
+        "summary": "The in-text comparison leaves Servicer C in place when Investor B buys from A, then contrasts a servicing-only transfer to D.",
+        "figureIds": [
+          "exp-finance-owner-servicer-transfer-packet"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-027"
+    ]
+  },
+  {
+    "id": "financing-rule-simple-cash-break-even",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "compare-cash-cost-with-borrowing-cost",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "A simple cash break-even divides extra upfront cost by monthly payment savings; before that holding period, cumulative payment savings have not recovered the additional initial cash.",
+    "conditions": [
+      "Compare the same loan amount and a consistent payment definition.",
+      "Use only the stated upfront difference and constant monthly savings for the simplified calculation."
+    ],
+    "exceptions": [
+      "This screen omits payoff-balance differences, time value, taxes, and unstated fees.",
+      "A planned sale or refinance is an assumption, not a guarantee that fixes the realized holding period."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/",
+        "locator": "Compare loan offers; Tip on shortest, longest, and most likely holding periods",
+        "supports": "Supports comparing upfront pricing and payment savings over alternative holding periods rather than treating a lower rate as sufficient."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-cash-cost-with-borrowing-cost",
+        "summary": "An extra $6,000 saves $150 monthly: 40-month break-even; at 24 months only $3,600 is recovered, leaving $2,400 unrecovered.",
+        "figureIds": [
+          "exp-finance-points-holding-period"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-026"
+    ]
+  },
+  {
+    "id": "financing-rule-combined-liens-and-equity",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "ratios-describe-different-risks",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "Combined LTV includes the stipulated balances of all included secured loans; equity is value minus those debts. A favorable first-lien LTV does not erase a junior obligation.",
+    "conditions": [
+      "Use the same collateral value and specified lien balances for the combined calculation.",
+      "The example uses funded closed-end balances, not a special HELOC commitment-based underwriting convention."
+    ],
+    "exceptions": [
+      "Sale costs and other liens would reduce net proceeds beyond this simplified equity measure.",
+      "Equity and LTV do not establish whether the borrower can meet monthly debt service."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Loan-to-value ratio; Equity",
+        "supports": "Supports value-based leverage and equity as value less mortgage obligations."
+      },
+      {
+        "url": "https://selling-guide.fanniemae.com/sel/b2-1.2-02/combined-loan-value-cltv-ratios",
+        "locator": "B2-1.2-02, Calculation of the CLTV Ratio",
+        "supports": "Adds the first mortgage and qualifying subordinate balances before dividing by the applicable property value; distinguishes drawn HELOC amounts."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ratios-describe-different-risks",
+        "summary": "A $360,000 first and $40,000 second on $500,000 yield 80% combined LTV; first-lien LTV alone is 72%.",
+        "figureIds": [
+          "exp-finance-cltv-collateral-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-058"
+    ]
+  },
+  {
+    "id": "financing-rule-housing-cost-versus-principal",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "compare-the-full-cost",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "A housing budget includes more than debt reduction: principal and interest, property taxes, insurance, mortgage insurance, and separately payable HOA charges may differ from the servicer's billed amount.",
+    "conditions": [
+      "Use the charges actually stipulated and distinguish impounds from principal payments.",
+      "Compare like payment definitions before deciding which loan has the lower monthly cost."
+    ],
+    "exceptions": [
+      "A fixed note rate does not freeze taxes, insurance, or association dues.",
+      "No impound account means the relevant property bills are paid separately, not waived."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Escrow; HOA dues; Mortgage insurance; Homeowner's insurance",
+        "supports": "Distinguishes property-bill reserves, separate association costs, and insurance functions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-the-full-cost",
+        "summary": "The visual's $2,600 P&I plus $900 of impounds and mortgage insurance equals a $3,500 servicer bill; $200 separate HOA creates a $3,700 budget.",
+        "figureIds": [
+          "exp-finance-monthly-bill-components"
+        ]
+      }
+    ],
+    "questionIds": ["financing-059"]
+  },
+  {
+    "id": "financing-rule-apr-and-amount-financed",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "compare-the-full-cost",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "APR annualizes specified borrowing costs; it is not the note rate plus the count of points. Amount financed can be below note principal because prepaid finance charges are subtracted for disclosure purposes.",
+    "conditions": [
+      "Use the actual included charges and repayment timing for APR.",
+      "For the specimen, assume all $5,000 upfront charges are prepaid finance charges and no other adjustments apply."
+    ],
+    "exceptions": [
+      "Not every closing cost is a finance charge.",
+      "A $5,000 subtraction in amount financed is not a $5,000 principal repayment."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Annual Percentage Rate (APR); Amount financed; Interest rate",
+        "supports": "Defines broader annualized borrowing cost and distinguishes amount financed from borrowing less upfront fees."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-the-full-cost",
+        "summary": "The credit-cost specimen contrasts a $200,000 note with $195,000 amount financed after $5,000 prepaid finance charges; 6% plus two points does not establish APR.",
+        "figureIds": [
+          "exp-finance-rate-points-amount-financed"
+        ]
+      }
+    ],
+    "questionIds": ["financing-060"]
+  },
+  {
+    "id": "financing-rule-equity-leverage-symmetry",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "leverage-increases-exposure",
+    "coverageTopics": [
+      "General Concepts"
+    ],
+    "rule": "At a fixed debt balance, the same property-value change is magnified relative to a smaller equity investment; leverage amplifies losses as well as gains without eliminating debt service.",
+    "conditions": [
+      "Keep the $400,000 debt constant in the illustration.",
+      "Ignore selling costs, principal repayment, taxes, and operating results when isolating value-based equity changes."
+    ],
+    "exceptions": [
+      "A cash-flow or total-return analysis must include costs and payment obligations excluded here.",
+      "A market-value decline does not automatically reduce the note balance."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Equity; Interest rate",
+        "supports": "Supports the distinction between property's value, outstanding debt, and ongoing borrowing cost."
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-loan-en-106/",
+        "locator": "Warning about borrowing against a home as an investment strategy",
+        "supports": "Supports that borrowing to invest exposes the owner to loss and does not create a guaranteed return."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "leverage-increases-exposure",
+        "summary": "At a $500,000 price and $400,000 debt, equity is $100,000; a $50,000 value gain or loss changes initial equity by positive or negative 50%.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-061"]
+  },
+  {
+    "id": "financing-rule-fha-insurance-not-inspection",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "fha-insurance-on-approved-loans",
+    "coverageTopics": [
+      "Government Programs"
+    ],
+    "rule": "FHA insures qualifying private-lender mortgages; that insurance and the lender's appraisal are not a buyer's independent home inspection, a property warranty, or an unconditional credit approval.",
+    "conditions": [
+      "The example concerns an ordinary FHA-insured mortgage made by an approved private lender.",
+      "Separate the loan's insurance, collateral valuation, borrower underwriting, and buyer's condition investigation."
+    ],
+    "exceptions": [
+      "FHA does not promise to repair or repurchase the property when a post-closing defect appears.",
+      "An appraisal may note condition concerns without replacing a comprehensive inspection."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "FHA loan",
+        "supports": "Identifies private lenders as originators of FHA-insured mortgages."
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/92564-CN.pdf",
+        "locator": "Appraisals are NOT Home Inspections!; Be an Informed Buyer",
+        "supports": "States that appraisal does not replace inspection and FHA does not guarantee condition or repair or buy back the home."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "fha-insurance-on-approved-loans",
+        "summary": "The file specimen has a completed appraisal, no buyer inspection, and unresolved income review; those are three different status questions.",
+        "figureIds": [
+          "exp-program-fha-file-evidence"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-006",
+      "financing-031"
+    ]
+  },
+  {
+    "id": "financing-rule-va-guaranty-and-conditions",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "va-and-usda",
+    "coverageTopics": [
+      "Government Programs"
+    ],
+    "rule": "A VA-backed purchase loan combines a private lender with a federal guaranty; it does not require ordinary monthly PMI, but benefit eligibility does not replace credit, occupancy, value, or closing-cost analysis.",
+    "conditions": [
+      "The borrower qualifies for a COE and must separately meet the lender's and VA's credit, income, and occupancy requirements.",
+      "A no-down-payment structure depends on applicable entitlement, value, and lender requirements."
+    ],
+    "exceptions": [
+      "The VA funding fee may apply unless an exemption does; no monthly PMI does not mean no closing costs.",
+      "An agreed price above appraised value can require other permitted funding even when the borrower is VA-eligible."
+    ],
+    "sources": [
+      {
+        "url": "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+        "locator": "Am I eligible for a VA-backed purchase loan?; Why might I want a VA-backed purchase loan?; Will I have to pay any fees with my loan?",
+        "supports": "Supports COE, separate underwriting and occupancy, absence of PMI, appraisal-gap limits, and possible funding and closing charges."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "va-and-usda",
+        "summary": "A $510,000 purchase funded at $490,000 requires $20,000 from another permitted source on the stated facts.",
+        "figureIds": [
+          "exp-program-va-eligibility-gap"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-007"
+    ]
+  },
+  {
+    "id": "financing-rule-arm-index-margin-and-caps",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "fixed-and-adjustable-rates",
+    "coverageTopics": [
+      "Types of Loans"
+    ],
+    "rule": "An ARM's fully indexed rate is index plus margin; the actual adjusted note rate also reflects applicable periodic and lifetime limits. A payment cap is not the same thing as a rate cap.",
+    "conditions": [
+      "Use the index and margin for the specified reset and apply the contractual caps in the stated order.",
+      "The numerical example expressly excludes other rounding, carryover, or payment provisions that could alter the result."
+    ],
+    "exceptions": [
+      "An introductory rate may differ from the fully indexed rate.",
+      "A constrained payment that fails to cover accruing interest can grow principal when the loan capitalizes the shortfall."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/for-an-adjustable-rate-mortgage-arm-what-are-the-index-and-margin-and-how-do-they-work-en-1949/",
+        "locator": "Index + Margin = Your Interest Rate (subject to any rate caps)",
+        "supports": "Defines the indexed target, contractual margin, and importance of caps and other adjustment terms."
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Initial adjustment cap; Interest rate cap; Lifetime adjustment cap",
+        "supports": "Distinguishes adjustment-specific limits from total rate movement over the loan life."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "fixed-and-adjustable-rates",
+        "summary": "The chapter adds a 3% index and 2.5% margin to reach a 5.5% fully indexed rate before other provisions.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-008",
+      "financing-028"
+    ]
+  },
+  {
+    "id": "financing-rule-reverse-ongoing-obligations",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "reverse-mortgages",
+    "coverageTopics": [
+      "Types of Loans",
+      "Government Programs"
+    ],
+    "rule": "A HECM may defer ordinary principal-and-interest payments, but the homeowner retains property-charge, occupancy, maintenance, and other continuing obligations; age eligibility alone is insufficient.",
+    "conditions": [
+      "The illustrated product is the FHA-insured HECM, generally for homeowners at least 62.",
+      "Evaluate principal residence, counseling, existing mortgage payoff, financial resources or set-aside, and property requirements."
+    ],
+    "exceptions": [
+      "Other proprietary reverse products can have different age and eligibility rules.",
+      "Death, departure, default, and spouse protections require their specific rules; deferred payment is not unconditional lifetime occupancy."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/can-anyone-take-out-a-reverse-mortgage-loan-en-227/",
+        "locator": "Age requirement and other requirements bullet list",
+        "supports": "Supports minimum HECM age, principal residence, existing lien payoff, continuing charges, maintenance, and mandatory counseling."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reverse-mortgages",
+        "summary": "The specimen's 68-year-old still must budget property charges, complete required counseling, and pay off a $45,000 existing mortgage at closing.",
+        "figureIds": [
+          "exp-program-hecm-obligation-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-009"
+    ]
+  },
+  {
+    "id": "financing-rule-deferred-assistance-payoff",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "california-programs",
+    "coverageTopics": [
+      "Government Programs"
+    ],
+    "rule": "A deferred-payment junior assistance loan remains debt under its terms; postponed monthly payments do not make the funds a gift or remove their payoff from later sale proceeds.",
+    "conditions": [
+      "Use the actual assistance note's repayment trigger, principal, interest, and any appreciation-sharing provisions.",
+      "The chapter's payoff example stipulates no interest or appreciation share and accounts for all other sale items first."
+    ],
+    "exceptions": [
+      "A genuine grant or express forgiveness provision may differ; the label assistance alone does not establish either.",
+      "MyHome terms and program availability change; the example is not a current pricing or eligibility offer."
+    ],
+    "sources": [
+      {
+        "url": "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm",
+        "locator": "MyHome Assistance Program, opening government-loan and conventional-loan descriptions",
+        "supports": "Identifies the assistance as a deferred-payment junior loan rather than an unconditional grant."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "california-programs",
+        "summary": "The chapter's $80,000 proceeds less $25,000 deferred loan leave $55,000; the visual separately reconciles a stipulated payoff including interest.",
+        "figureIds": [
+          "exp-program-assistance-payoff-identity"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-010",
+      "financing-030"
+    ]
+  },
+  {
+    "id": "financing-rule-maturity-and-interest-only-transition",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "compare-maturity-with-amortization",
+    "coverageTopics": [
+      "Types of Loans"
+    ],
+    "rule": "An amortization period sets a payment calculation, while contractual maturity sets when any remaining debt is due. Ending interest-only payments can raise the payment even without a rate increase.",
+    "conditions": [
+      "For the balloon case, payments amortize over thirty years but the note matures after five.",
+      "For the interest-only case, principal is unchanged before amortization begins over the remaining term."
+    ],
+    "exceptions": [
+      "Making all scheduled installments before maturity does not eliminate a contractual balloon.",
+      "Refinancing, extension, or a future sale is not guaranteed merely because it is the borrower's planned payoff source."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Amortization; Balloon loan; Interest-only loan",
+        "supports": "Defines partial amortization, remaining balloon balances, and interest-only payment periods."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-maturity-with-amortization",
+        "summary": "The chapter's thirty-year payment schedule with a five-year due date leaves principal for the balloon; interest-only payments leave more principal to repay over fewer remaining years.",
+        "figureIds": [
+          "exp-program-repayment-balance-paths"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-029",
+      "financing-043"
+    ]
+  },
+  {
+    "id": "financing-rule-negative-amortization-capitalization",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "repayment-and-collateral-variations",
+    "coverageTopics": [
+      "Types of Loans"
+    ],
+    "rule": "When the permitted payment is below accrued interest and the contract capitalizes the unpaid amount, principal grows by the interest shortfall despite timely scheduled payment.",
+    "conditions": [
+      "The loan expressly permits capitalization of unpaid interest.",
+      "Exclude other balance changes and use the stipulated interest amount or accrual method."
+    ],
+    "exceptions": [
+      "A payment shortfall is not automatically negative amortization unless unpaid interest is added to principal under the relevant terms.",
+      "Payment caps and interest-rate caps operate on different quantities."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-negative-amortization-en-103/",
+        "locator": "Definition and unpaid-interest capitalization explanation",
+        "supports": "Explains that unpaid interest is added to the amount borrowed and later interest can accrue on that larger balance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "repayment-and-collateral-variations",
+        "summary": "The repayment chart's $120,000 loan at a monthly 0.5% rate accrues $600; a $500 payment raises the first balance to $120,100.",
+        "figureIds": [
+          "exp-program-repayment-balance-paths"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-042"
+    ]
+  },
+  {
+    "id": "financing-rule-independent-loan-classifications",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "classify-along-more-than-one-dimension",
+    "coverageTopics": [
+      "Types of Loans"
+    ],
+    "rule": "Government support, interest behavior, repayment structure, and lien position are separate classification dimensions; conventional does not mean fixed-rate, fully amortizing, or necessarily conforming.",
+    "conditions": [
+      "Identify the particular feature being classified.",
+      "Conventional means no government insurance or guaranty; conforming status requires the relevant secondary-market eligibility conditions."
+    ],
+    "exceptions": [
+      "Jumbo concerns the applicable conforming loan-size limit; nonconforming can describe other ineligible features.",
+      "Program limits vary with year, area, and property characteristics."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Conventional loan; Adjustable Rate Mortgage (ARM); Amortization; Jumbo loan; Second mortgage",
+        "supports": "Supports independent program, rate, repayment, size, and lien-position categories."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "classify-along-more-than-one-dimension",
+        "summary": "The specimen combines no government backing, an index-plus-margin rate, thirty-year amortization with five-year maturity, and a junior security position.",
+        "figureIds": [
+          "exp-program-four-axis-loan-file"
+        ]
+      }
+    ],
+    "questionIds": ["financing-062"]
+  },
+  {
+    "id": "financing-rule-construction-draws-and-commitment",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "repayment-and-collateral-variations",
+    "coverageTopics": [
+      "Types of Loans"
+    ],
+    "rule": "A construction commitment is not the amount already advanced; staged draws increase disbursed principal as conditions are met, and permanent financing depends on the agreed conversion or new-loan conditions.",
+    "conditions": [
+      "Use the approved advances actually received, not the full approved maximum, for the stated funded-balance interest calculation.",
+      "The example stipulates interest paid separately, no capitalized charges, and a full month at the stated monthly rate."
+    ],
+    "exceptions": [
+      "Some construction loans convert automatically; others require a new application, so no universal takeout guarantee exists.",
+      "A draw can remain conditional on inspections, completion, or other agreed evidence."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/",
+        "locator": "Series-of-advances and repayment/conversion paragraphs",
+        "supports": "Describes staged construction funding and distinguishes automatic conversion from possible refinancing application."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "repayment-and-collateral-variations",
+        "summary": "Approved draws of $120,000, $80,000, and $50,000 create $250,000 debt against a $400,000 commitment; at 9% divided by twelve, stipulated monthly interest is $1,875.",
+        "figureIds": [
+          "exp-program-construction-advance-ledger"
+        ]
+      }
+    ],
+    "questionIds": ["financing-063"]
+  },
+  {
+    "id": "financing-rule-promise-versus-security",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "the-note-is-the-promise-security-backs-it",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "The promissory note states the borrower's payment obligation; the mortgage or deed of trust supplies the real-property security for that debt.",
+    "conditions": [
+      "Read both instruments and distinguish a debt promise from the collateral remedy."
+    ],
+    "exceptions": [
+      "A lien release and a change of ownership in the note are different legal acts."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/owning-a-home/close/review-documents-before-closing/",
+        "locator": "Promissory Note; Mortgage / Security Instrument",
+        "supports": "Separates the loan promise and repayment terms from the collateral document."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed pp. 251-253, Trust Deeds and Mortgages",
+        "supports": "Explains the mortgage and deed-of-trust security relationship."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-note-is-the-promise-security-backs-it",
+        "summary": "An annotated note identifies the borrower and payment obligation; its separate deed of trust identifies the parcel securing that obligation.",
+        "figureIds": [
+          "exp-security-note-versus-lien-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-012"
+    ]
+  },
+  {
+    "id": "financing-rule-three-security-parties",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "mortgage-and-deed-of-trust-parties",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "In the usual deed of trust, the borrower is the trustor, the lender is the beneficiary, and a third-party trustee holds the security title and exercises specified security functions.",
+    "conditions": [
+      "Classify the actor by the role in the security instrument, not by the ordinary-language meaning of trust."
+    ],
+    "exceptions": [
+      "The trustee does not become the beneficial owner or the loan's debtor merely by serving as trustee."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed p. 252, Trust Deeds and Mortgages: As to parties",
+        "supports": "Identifies trustor, trustee, and beneficiary and the limited security function of the trustee."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "mortgage-and-deed-of-trust-parties",
+        "summary": "The three-party relationship diagram separates the borrower's obligation, the lender's secured position, and the trustee's role.",
+        "figureIds": [
+          "supplement-trust-deed-roles"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-011"
+    ]
+  },
+  {
+    "id": "financing-rule-assignment-versus-release",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "follow-the-parties-through-payoff-and-transfer",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "A valid assignment transfers the lender's interest; it does not itself rewrite the note's repayment terms, release the borrower, or reconvey the lien after payoff.",
+    "conditions": [
+      "Assume an assignment valid under the applicable documents and law; identify separately any modification or release."
+    ],
+    "exceptions": [
+      "A servicing transfer may change where payments go without changing the investor that owns the loan."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+        "locator": "What happens if my mortgage is sold?",
+        "supports": "Explains that a mortgage sale cannot change the loan's agreed interest rate, payment amount, or other terms."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed p. 255, Discharge, Satisfaction and Extinguishment; Reconveyance",
+        "supports": "Distinguishes discharge and reconveyance of paid security from assignment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-the-parties-through-payoff-and-transfer",
+        "summary": "The side-by-side file compares assignment, borrower release, and reconveyance as three different changes.",
+        "figureIds": [
+          "exp-security-assignment-release-comparison"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-033"
+    ]
+  },
+  {
+    "id": "financing-rule-assumption-subject-to-and-release",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "assumption-versus-subject-to",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "An assuming buyer agrees to pay the existing debt; a buyer taking subject to the lien does not, by that acquisition alone, undertake the seller's personal note obligation. Neither label alone proves that the original borrower was released.",
+    "conditions": [
+      "Separate the buyer's promise, the original borrower's liability, and the lender's due-on-sale rights."
+    ],
+    "exceptions": [
+      "A lender's express release or other valid release analysis can change the original borrower's continuing liability."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed pp. 247-248, Transfer of the Security Property by Borrowers",
+        "supports": "Distinguishes the assuming grantee's undertaking from acquisition subject to a mortgage or deed of trust."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "assumption-versus-subject-to",
+        "summary": "The chapter compares a subject-to acquisition with an assumption and requires separate evidence before treating the seller as released.",
+        "figureIds": [
+          "assumption-subject-to"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-013"
+    ]
+  },
+  {
+    "id": "financing-rule-priority-and-subordination",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "priority-determines-exposure",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "Lien priority determines the order of recovery; an effective subordination agreement can move an earlier lien behind another lien and increase the subordinating creditor's loss exposure.",
+    "conditions": [
+      "Apply the stated recording order and any valid priority-changing agreements."
+    ],
+    "exceptions": [
+      "Statutory priority liens and other legally superior interests can alter a simple recording-order illustration."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed p. 252, Status of Sold-Out Junior Lien Holders",
+        "supports": "Explains junior status created by recording order or express subordination."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "priority-determines-exposure",
+        "summary": "The recovery curve shows how the same creditor receives less from a low sale price after its lien is subordinated.",
+        "figureIds": [
+          "exp-security-subordination-recovery-curve"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-014",
+      "financing-045"
+    ]
+  },
+  {
+    "id": "financing-rule-foreclosure-proceeds-and-junior-risk",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "apply-priority-to-a-sale-price",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "Apply net distributable foreclosure proceeds in the stated priority order; foreclosure of a senior lien may eliminate junior security without paying the junior debt in full.",
+    "conditions": [
+      "Use proceeds after the costs identified in the problem and assume no unstated superior claim."
+    ],
+    "exceptions": [
+      "Foreclosure by a junior lienholder does not erase a senior lien; a sold-out junior's personal remedy requires a separate anti-deficiency analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed pp. 252 and 262-263, sold-out junior liens and effects of trustee sale",
+        "supports": "Explains junior lien elimination and the survival of superior liens."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-priority-to-a-sale-price",
+        "summary": "From $320,000 of net proceeds, a $280,000 first lien is paid first and only $40,000 remains for the $90,000 junior lien.",
+        "figureIds": [
+          "exp-security-senior-junior-sale-exposure"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-032",
+      "financing-035"
+    ]
+  },
+  {
+    "id": "financing-rule-acceleration-versus-foreclosure",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "separate-acceleration-from-collection",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "Acceleration makes the remaining debt due under an applicable clause; it does not dispense with the notices, waiting periods, and sale procedure needed to foreclose the security.",
+    "conditions": [
+      "Assume an enforceable acceleration event and distinguish maturity of the obligation from enforcement against collateral."
+    ],
+    "exceptions": [
+      "A statutory reinstatement right can cure a qualifying default without paying principal that became due only through default-based acceleration."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.",
+        "locator": "Civil Code section 2924(a)(1)-(4)",
+        "supports": "Requires default recording and the statutory notice and timing sequence for a power-of-sale foreclosure."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+        "locator": "Civil Code section 2924c(a)(1)",
+        "supports": "Excludes principal not due except by default-based acceleration from the qualifying cure amount."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-acceleration-from-collection",
+        "summary": "A lender's acceleration demand does not authorize an immediate auction, while a timely qualifying cure is not necessarily a full payoff.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-034"
+    ]
+  },
+  {
+    "id": "financing-rule-purchase-money-protection-classification",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "classify-a-possible-deficiency",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "California purchase-money protection has distinct tests: a seller's retained purchase-price security is not limited by the separate third-party lender rule for a purchaser-occupied dwelling of no more than four families. The third-party lender need not be an institution.",
+    "conditions": [
+      "Identify who supplied the money, its purchase-price use, the secured property, and the statutory category before deciding deficiency protection."
+    ],
+    "exceptions": [
+      "Section 580b also addresses specified refinances and excludes new cash-out amounts from the carried-forward protected amount; do not treat all refinance proceeds alike."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+        "locator": "Code of Civil Procedure section 580b(a)(2), (a)(3), and (b)",
+        "supports": "Separates vendor purchase money, qualifying lender purchase money, and the treatment of refinance advances."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "classify-a-possible-deficiency",
+        "summary": "A seller carrying the price of a commercial parcel is not disqualified merely because the third-party lender's residential occupancy test would not fit.",
+        "figureIds": [
+          "exp-security-vendor-lender-purchase-tests",
+          "exp-security-refinance-protected-balance"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-015",
+      "financing-044"
+    ]
+  },
+  {
+    "id": "financing-rule-power-of-sale-deficiency-and-junior-distinction",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "deficiency-protections-require-classification",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "Section 580d bars a deficiency on the secured note after that creditor's qualifying power-of-sale foreclosure; whether a different sold-out junior may pursue a personal claim is a separate question governed by its own debt and applicable protections.",
+    "conditions": [
+      "Identify the note being sued on and which lienholder exercised the power of sale."
+    ],
+    "exceptions": [
+      "Purchase-money protection can independently bar a sold-out junior's recovery; the senior creditor's nonjudicial sale alone is not a universal answer for every debt."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d.",
+        "locator": "Code of Civil Procedure section 580d(a)",
+        "supports": "Bars the deficiency on a note secured by a deed of trust or mortgage after a trustee or mortgagee power-of-sale sale."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+        "locator": "Code of Civil Procedure section 580b(a)-(b)",
+        "supports": "Supplies independent purchase-money and qualified refinance protection."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed p. 252, Status of Sold-Out Junior Lien Holders",
+        "supports": "Describes junior security extinguished by a superior foreclosure."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "deficiency-protections-require-classification",
+        "summary": "The chapter classifies the debt and foreclosure route before deciding whether an unpaid balance remains personally collectible.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-015",
+      "financing-035"
+    ]
+  },
+  {
+    "id": "financing-rule-pre-default-parallel-clocks",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "before-the-notice-of-default",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "For a covered ordinary payment-default case, the federal first-notice restriction generally requires more than 120 days of delinquency, while applicable California borrower-contact law requires 30 days after contact or completed due diligence before recording the notice of default. These independent clocks can overlap.",
+    "conditions": [
+      "First establish each rule's loan, property, servicer, and borrower coverage; satisfy all other applicable loss-mitigation restrictions."
+    ],
+    "exceptions": [
+      "Regulation X specifies exceptions for due-on-sale foreclosure and joining another lienholder's action; completion of a clock alone never guarantees that foreclosure can proceed."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1024/41/",
+        "locator": "12 CFR 1024.41(f)(1)-(2)",
+        "supports": "States the more-than-120-day threshold, listed exceptions, and additional application-related restriction."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.5.",
+        "locator": "Civil Code section 2923.5(a)(1)-(2), (e)",
+        "supports": "Requires the applicable pre-default contact or due-diligence process and 30-day period."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.55.",
+        "locator": "Civil Code section 2923.55(a)-(b), (f)",
+        "supports": "States the corresponding contact, due-diligence, and related requirements for its covered servicers."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.15.",
+        "locator": "Civil Code section 2924.15(a)-(b)",
+        "supports": "Defines the specified first-lien owner-occupied residential coverage."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "before-the-notice-of-default",
+        "summary": "The comparison shows why a contact period can run within an ongoing delinquency period instead of automatically producing a 120-plus-30-day total.",
+        "figureIds": [
+          "exp-comparison-foreclosure-prerequisite-clocks"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-048"
+    ]
+  },
+  {
+    "id": "financing-rule-default-and-sale-calendar-minima",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "from-default-notice-to-sale-notice",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "The ordinary California power-of-sale sequence uses three calendar months after recording the notice of default and a sale no earlier than three months plus 20 days after that recording; an allowed five-day-early notice-of-sale recording does not shorten the sale floor.",
+    "conditions": [
+      "Assume all prerequisite contact rules, mailing, posting, publication, and other conditions are timely satisfied and no postponement or other restriction applies."
+    ],
+    "exceptions": [
+      "Three months is not a fixed 90-day period; statutory special cases and later postponements prevent this arithmetic from promising an actual auction date."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.",
+        "locator": "Civil Code section 2924(a)(2)-(4)",
+        "supports": "States the three-month period, permitted early sale-notice recording, and unchanged three-month-plus-20-day sale floor."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+        "locator": "Civil Code section 2924f(b)(1)-(4), operative 2026 version",
+        "supports": "Requires the applicable posting, publication, and sale-notice recording intervals."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "from-default-notice-to-sale-notice",
+        "summary": "For an assumed May 5, 2026 recording, three calendar months ends August 5; another 20 days reaches August 25 under the stated clean-calendar assumptions.",
+        "figureIds": [
+          "exp-timeline-foreclosure-calendar-minimum"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-049",
+      "financing-057"
+    ]
+  },
+  {
+    "id": "financing-rule-notice-mailing-distinct-recipients",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "from-default-notice-to-sale-notice",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "The trustor's notice-of-default mailing deadline is 10 business days after recording, while the notice-of-sale mailing deadline is at least 20 days before sale; other recorded-interest recipients can have a different default-notice interval.",
+    "conditions": [
+      "Match the recipient and the document before counting; comply with the required mailing method and address."
+    ],
+    "exceptions": [
+      "Section 2924b(c) provides a one-month default-notice mailing rule for specified other recipients; section 2924b(e) also requires an additional first-class copy to the trustor or mortgagor."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924b.",
+        "locator": "Civil Code section 2924b(b)(1)-(3), (c)(1)-(2), and (e)",
+        "supports": "Identifies the trustor deadlines, other recorded-interest recipients, address rules, and additional first-class copy."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "from-default-notice-to-sale-notice",
+        "summary": "The sample notice identifies its recording date but does not itself establish a sale date; the accompanying table distinguishes the two mailing clocks.",
+        "figureIds": [
+          "exp-document-default-notice-reading"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-050"
+    ]
+  },
+  {
+    "id": "financing-rule-reinstatement-amount-and-cutoff",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "reinstatement-is-a-cure-not-full-payoff",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "For a qualifying pre-maturity monetary default, statutory reinstatement cures the specified overdue amounts and allowable expenses without paying principal accelerated only because of the default; the ordinary statutory period ends five business days before the noticed sale.",
+    "conditions": [
+      "Verify the current payoff or cure quote, the qualifying default, the scheduled sale date, and the applicable business-day definition."
+    ],
+    "exceptions": [
+      "Reinstatement can revive after a qualifying postponement or a new recorded sale notice; do not guarantee a unilateral cure right in the final five business days."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+        "locator": "Civil Code section 2924c(a)(1) and (e)",
+        "supports": "Defines the cure amounts, exclusion of accelerated unmatured principal, ordinary cutoff, and specified revival rules."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.",
+        "locator": "Civil Code section 9",
+        "supports": "Supplies the business-day rule used by section 2924c(e), not a blanket Monday-through-Friday assumption."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reinstatement-is-a-cure-not-full-payoff",
+        "summary": "With no intervening holidays and Saturday counted as a business day, the five-business-day boundary before Wednesday August 26, 2026 is Thursday August 20; a separate $6,000 arrears, $1,200 advances, and $800 costs example totals $8,000.",
+        "figureIds": [
+          "exp-timeline-reinstatement-business-days",
+          "exp-security-cure-quote-reconciliation"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-051",
+      "financing-052"
+    ]
+  },
+  {
+    "id": "financing-rule-listing-and-purchase-postponements",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "why-a-minimum-timeline-can-grow",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "For covered one-to-four-unit residential power-of-sale property, a timely qualifying listing submission postpones the scheduled sale by 45 days; after that listing postponement, a timely qualifying purchase agreement requires a date at least 45 days after the trustee receives that agreement.",
+    "conditions": [
+      "Meet the five-business-day receipt requirement, prescribed delivery evidence, licensed-broker public-marketing listing conditions, and the purchase agreement's statutory content and secured-obligation price conditions."
+    ],
+    "exceptions": [
+      "Each paragraph's postponement is available only once; the two 45-day rules run from different starting events and do not replace other postponement grounds."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+        "locator": "Civil Code section 2924f(e)(1)-(4), operative January 1, 2026 through December 31, 2030 version",
+        "supports": "Defines the listing and subsequent purchase-agreement postponements, their separate starting dates, delivery conditions, and one-time limits."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "why-a-minimum-timeline-can-grow",
+        "summary": "The decision tree distinguishes the scheduled-date listing extension from the receipt-date purchase-contract extension.",
+        "figureIds": [
+          "exp-decision-residential-sale-postponements"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-055"
+    ]
+  },
+  {
+    "id": "financing-rule-first-residential-auction-floor",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "why-a-minimum-timeline-can-grow",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "At the first biddable sale under a notice of sale for a covered first-lien one-to-four-unit residential foreclosure, the trustee cannot sell below 67% of the supplied statutory fair market value; if unsold, the sale is postponed at least seven days before the highest-bidder sale.",
+    "conditions": [
+      "Use the lender-provided value supplied at least 10 days before the initially scheduled sale, based on a qualifying estimate made within six months of that date."
+    ],
+    "exceptions": [
+      "The floor is not the loan balance or a universal rule for all auctions; the statute says a violation does not invalidate a sale to a bona fide purchaser for value."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+        "locator": "Civil Code section 2924f(f)(1)-(5), operative 2026 version",
+        "supports": "States the covered first-lien properties, 67% floor, valuation conditions, next-sale interval, and validity qualification."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "why-a-minimum-timeline-can-grow",
+        "summary": "The auction file compares the debt with the separate statutory value-based first-sale threshold; a bid above the debt can still fail that threshold.",
+        "figureIds": [
+          "exp-security-first-auction-bid-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-056"
+    ]
+  },
+  {
+    "id": "financing-rule-post-sale-redemption-route",
+    "lessonSlug": "financing-notes-security",
+    "sectionId": "after-sale-identify-whether-redemption-exists",
+    "coverageTopics": [
+      "Mortgages/Deeds of Trust/Notes"
+    ],
+    "rule": "A completed ordinary nonjudicial trustee sale does not give the former owner a statutory post-sale redemption period. For a judicial foreclosure, first establish that redemption exists: an eligible sale uses three months if proceeds satisfy the specified debt, interest, and costs, or one year if they do not.",
+    "conditions": [
+      "Identify the foreclosure route and whether deficiency was waived or prohibited before choosing a period."
+    ],
+    "exceptions": [
+      "Under section 726(e), a judicial sale where deficiency is waived or prohibited does not carry the ordinary statutory redemption right; special post-auction bidding procedures are not the borrower's redemption right."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Printed pp. 262-263, effects of trustee sale and redemption",
+        "supports": "Distinguishes nonjudicial sale from statutory judicial redemption."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.",
+        "locator": "Code of Civil Procedure section 726(e)",
+        "supports": "Separates judicial sales without redemption when deficiency is waived or prohibited from other judicial foreclosure sales."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=729.030.",
+        "locator": "Code of Civil Procedure section 729.030(a)-(b)",
+        "supports": "States the three-month and one-year periods according to sufficiency of sale proceeds."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "after-sale-identify-whether-redemption-exists",
+        "summary": "The redemption decision tree asks whether a right exists before using an insufficient-proceeds example to select one year.",
+        "figureIds": [
+          "exp-decision-judicial-redemption-period"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-053",
+      "financing-054"
+    ]
+  },
+  {
+    "id": "financing-rule-consumer-state-coverage",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "start-with-the-transactions-coverage",
+    "coverageTopics": [
+      "Financing/Credit Laws",
+      "Loan Brokerage"
+    ],
+    "rule": "Federal consumer-credit coverage and California real-estate broker disclosure duties require separate classification: business purpose can remove a loan from specified federal consumer rules without removing the state rule for broker-arranged loans secured by real property.",
+    "conditions": [
+      "Identify purpose, collateral, credit structure, and the actor's regulated role before selecting forms."
+    ],
+    "exceptions": [
+      "Each federal provision has its own exemptions; a property address alone does not decide the purpose of a loan."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/3/",
+        "locator": "12 CFR 1026.3(a)(1)-(2) and commentary 3(a)-1 through -5",
+        "supports": "Exempts specified business and organizational credit and explains purpose classification."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+        "locator": "Business and Professions Code section 10240(a)-(c)",
+        "supports": "Applies the California borrower statement to covered broker-arranged loans secured by real property."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "start-with-the-transactions-coverage",
+        "summary": "Changing a proposed home-consumer loan to business-equipment financing requires a new federal coverage analysis while retaining applicable California broker disclosures.",
+        "figureIds": [
+          "credit-law-coverage"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-036"
+    ]
+  },
+  {
+    "id": "financing-rule-defined-application-initial-estimate",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "loan-estimate-and-closing-disclosure",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "For an ordinary TRID-covered loan, the creditor delivers or mails the Loan Estimate within three business days after receiving the six-item application; gathering additional underwriting verification does not postpone recognition of that application.",
+    "conditions": [
+      "The six items are name, income, Social Security number for a credit report, property address, estimated value, and loan amount sought; apply the general business-day definition to the initial delivery duty."
+    ],
+    "exceptions": [
+      "The Loan Estimate is not final credit approval, and excluded loan types do not use the same TRID forms."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+        "locator": "12 CFR 1026.19(e)(1)(iii)(A) and commentary 19(e)(1)(iii)-1; (e)(2)(iii)",
+        "supports": "States initial delivery timing and prohibits requiring verifying documents before the estimate."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "loan-estimate-and-closing-disclosure",
+        "summary": "The annotated application file identifies the last missing item, distinguishing completion of the regulatory application from later document verification.",
+        "figureIds": [
+          "exp-credit-application-sixth-item-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-016"
+    ]
+  },
+  {
+    "id": "financing-rule-estimate-and-closing-dual-waits",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "loan-estimate-and-closing-disclosure",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "Ordinary TRID requires the Loan Estimate to be delivered or mailed at least seven business days before consummation and the Closing Disclosure to be received at least three business days before consummation; the later satisfied requirement controls.",
+    "conditions": [
+      "Count Saturdays but exclude Sundays and federal legal public holidays for these waiting periods; distinguish mailing from actual or presumed receipt."
+    ],
+    "exceptions": [
+      "A specified timeshare exception and narrowly conditioned emergency waivers exist; do not apply the application-processing business-day definition to these waits."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+        "locator": "12 CFR 1026.19(e)(1)(iii)(B), (e)(1)(iv), (f)(1)(ii)-(iii); commentary on business days",
+        "supports": "Separates the LE delivery-or-mailing wait from the CD receipt wait and explains presumed receipt."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "loan-estimate-and-closing-disclosure",
+        "summary": "With an in-person Monday LE and Wednesday CD, no holidays or exceptions, the LE's seven-day period makes the following Tuesday the earliest consummation; the mailing calendar supplies a separate presumed-receipt case.",
+        "figureIds": [
+          "exp-credit-mailed-le-cd-two-boundaries"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-046"
+    ]
+  },
+  {
+    "id": "financing-rule-emergency-waiver-limits",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "loan-estimate-and-closing-disclosure",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "Shortening the ordinary TRID waiting period requires a bona fide personal financial emergency and, after the required disclosure, a dated individualized statement signed by every consumer primarily liable that describes the emergency and specifically changes or waives the period.",
+    "conditions": [
+      "Apply the waiver to the specific waiting period and establish the actual emergency."
+    ],
+    "exceptions": [
+      "Preprinted waiver forms are prohibited; a preferred travel or closing schedule alone does not establish the emergency."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+        "locator": "12 CFR 1026.19(e)(1)(v) and (f)(1)(iv)",
+        "supports": "States the personal-emergency, statement, signature, and no-printed-form requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "loan-estimate-and-closing-disclosure",
+        "summary": "The chapter's waiver comparison distinguishes a genuine supported emergency from merely wanting to close before a vacation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-047"
+    ]
+  },
+  {
+    "id": "financing-rule-closing-disclosure-restart-events",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "distinguish-correction-from-a-new-waiting-period",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "A corrected Closing Disclosure requires a new three-business-day wait for an inaccurate APR under the applicable accuracy rules, a changed loan product, or a newly added prepayment penalty; an ordinary fee correction alone does not always restart it.",
+    "conditions": [
+      "Classify the changed term and apply the relevant APR tolerances rather than treating every edit alike."
+    ],
+    "exceptions": [
+      "Even without a new wait, the creditor still must provide the corrected disclosure under the applicable timing rule."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+        "locator": "12 CFR 1026.19(f)(2)(i)-(ii)",
+        "supports": "Separates ordinary corrections from the three specified changes requiring a new waiting period."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-correction-from-a-new-waiting-period",
+        "summary": "The changed-facts comparison holds an ordinary fee correction against adding a prepayment penalty and asks which event restarts the clock.",
+        "figureIds": [
+          "exp-credit-cd-correction-changed-facts"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-017",
+      "financing-037"
+    ]
+  },
+  {
+    "id": "financing-rule-rescission-coverage-and-last-event",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "rescission-is-a-different-three-day-rule",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "The ordinary federal rescission right for covered nonpurchase principal-dwelling credit runs until midnight of the third business day after the last of consummation, required notice, and material disclosures; a residential mortgage acquisition transaction is generally exempt.",
+    "conditions": [
+      "Establish the collateral, consumer purpose, and transaction category before counting the last-event clock."
+    ],
+    "exceptions": [
+      "Same-creditor refinances have a specific exemption with treatment for new advances; missing disclosures can create different or extended rights. Saturdays ordinarily count, but Sundays and federal legal public holidays do not."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/",
+        "locator": "How long do I have to rescind?",
+        "supports": "Explains the last-event three-day period and principal-dwelling acquisition exception."
+      },
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/23/",
+        "locator": "12 CFR 1026.23(a)(3), (f)(1)-(2)",
+        "supports": "States the ordinary period and the acquisition and same-creditor refinance exemptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "rescission-is-a-different-three-day-rule",
+        "summary": "The chapter separates a purchase loan's preclosing CD wait from a later refinance's possible cancellation right; the calendar illustrates a required notice delivered after signing.",
+        "figureIds": [
+          "exp-credit-rescission-late-notice-calendar"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-018"
+    ]
+  },
+  {
+    "id": "financing-rule-respa-referrals-not-cured-by-disclosure",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "respa-services-and-referrals",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "RESPA section 8 prohibits a thing of value exchanged under an agreement or understanding for covered settlement-service referrals; telling the borrower about a prohibited referral payment does not make it lawful.",
+    "conditions": [
+      "Identify the covered settlement business, the value transferred, and whether it buys referrals or compensates actual permissible services."
+    ],
+    "exceptions": [
+      "Reasonable compensation for actual services and qualifying affiliated-business or cooperative-brokerage arrangements have specific requirements; the label marketing is not an exemption."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+        "locator": "RESPA Section 8 General FAQs; Gifts and Promotional Activities; Affiliated Business Arrangements",
+        "supports": "Explains the referral prohibition, things of value, and conditional permitted arrangements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "respa-services-and-referrals",
+        "summary": "The chapter's agent paid solely to send borrowers to an escrow provider remains a referral-payment problem even after borrower disclosure.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-019"
+    ]
+  },
+  {
+    "id": "financing-rule-ecoa-protected-income",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "fair-credit-and-consumer-reports",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "ECOA forbids covered credit discrimination on protected grounds, including receipt of public assistance; a creditor may assess legitimate repayment risk but cannot reject otherwise qualifying income solely because it comes from assistance.",
+    "conditions": [
+      "Evaluate the individual applicant and permissible income characteristics rather than a protected-status stereotype."
+    ],
+    "exceptions": [
+      "The prohibition does not guarantee approval or bar a legitimate assessment of amount, reliability, or likely continuation under applicable law."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/credit-discrimination-is-illegal/",
+        "locator": "Credit discrimination is illegal: prohibited reasons and protected rights",
+        "supports": "Identifies protected grounds including public-assistance income and distinguishes permissible credit review."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "fair-credit-and-consumer-reports",
+        "summary": "The public-assistance application scenario isolates an unlawful reason for denial from ordinary ability-to-repay review.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-021"
+    ]
+  },
+  {
+    "id": "financing-rule-originator-license-registration-endorsement",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "who-originates-and-under-what-authority",
+    "coverageTopics": [
+      "Types of Loan Originators",
+      "Loan Brokerage"
+    ],
+    "rule": "Covered DRE residential mortgage originators need the underlying real estate authority and active MLO endorsement with the required sponsorship; an NMLS identifier alone is not proof of current permission to originate.",
+    "conditions": [
+      "Identify the institution and the person's activity: bank employees can be federally registered, while DRE and DFPI originators operate under their respective state frameworks."
+    ],
+    "exceptions": [
+      "A job title such as loan officer does not decide the licensing pathway; a salesperson still requires the responsible broker's affiliation and supervision."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/Licensees/MLOLicense.html",
+        "locator": "MLO License Endorsement: individual endorsement and sponsorship requirements",
+        "supports": "States DRE endorsement and sponsoring-company requirements."
+      },
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1007/103/",
+        "locator": "12 CFR 1007.103(a)-(b)",
+        "supports": "States the federal registration and maintenance requirements for covered institution employees."
+      },
+      {
+        "url": "https://dfpi.ca.gov/regulated-industries/mortgage-loan-originators/",
+        "locator": "Mortgage Loan Originators: licensing requirements",
+        "supports": "Identifies DFPI-administered originator licensing."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "who-originates-and-under-what-authority",
+        "summary": "The diagnosis file separates an NMLS search result from an active endorsement, authorized company relationship, and federal-registration pathway.",
+        "figureIds": [
+          "exp-credit-mlo-license-file-diagnosis"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-020"
+    ]
+  },
+  {
+    "id": "financing-rule-mlds-earlier-trigger-and-agent-role",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "california-borrower-and-lender-disclosures",
+    "coverageTopics": [
+      "Financing/Credit Laws",
+      "Loan Brokerage"
+    ],
+    "rule": "For a covered broker-arranged real-property loan, deliver the completed MLDS within three business days after a completed written application or before the borrower becomes obligated on the note, whichever comes first; commercial collateral is not a categorical exemption.",
+    "conditions": [
+      "Apply California's written-application rule, required signatures and borrower copy, and three-year signed-record retention."
+    ],
+    "exceptions": [
+      "A broker acting solely as principal is outside this requirement, but first soliciting as an arranging agent and later using the broker's own money does not avoid it."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+        "locator": "Business and Professions Code section 10240(a)-(c)",
+        "supports": "States the earlier deadline, signatures, retention, and principal-versus-agent distinction."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "california-borrower-and-lender-disclosures",
+        "summary": "For a Monday warehouse application with a Tuesday note obligation, deliver before Tuesday's obligation; the file shows why switching to the broker's money does not erase earlier agency solicitation.",
+        "figureIds": [
+          "exp-credit-mlds-agent-principal-switch"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-022"
+    ]
+  },
+  {
+    "id": "financing-rule-conditional-california-estimate-alternative",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "california-borrower-and-lender-disclosures",
+    "coverageTopics": [
+      "Financing/Credit Laws",
+      "Loan Brokerage"
+    ],
+    "rule": "The California MLDS alternative is a conditional package, not TILA compliance alone: a qualifying first-lien loan of at least $30,000 or junior-lien loan of at least $20,000 needs the signed compliant LE and contemporaneous California disclosure plus the other required information.",
+    "conditions": [
+      "Verify federal residential coverage, lien position and amount, license identifiers, no-commitment and verification statements, compensation, and applicable balloon and TILA disclosures."
+    ],
+    "exceptions": [
+      "The amount thresholds do not independently exempt the loan; a signed LE without the required separate disclosure is incomplete."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2015MLDS%20and%20Loan%20Estimate%20Advisory.pdf",
+        "locator": "DRE MLDS and Loan Estimate Advisory, 2015, numbered requirements for the alternative",
+        "supports": "States the eligibility thresholds and combined signed-LE and separate-disclosure requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "california-borrower-and-lender-disclosures",
+        "summary": "The completeness file identifies the missing California addendum despite a signed federal Loan Estimate.",
+        "figureIds": [
+          "exp-credit-le-alternative-completeness-file"
+        ]
+      }
+    ],
+    "questionIds": [
+      "financing-038"
+    ]
+  },
+  {
+    "id": "financing-rule-lpds-timing-custody-and-consent",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "keep-consent-within-its-legal-function",
+    "coverageTopics": [
+      "Financing/Credit Laws",
+      "Loan Brokerage"
+    ],
+    "rule": "A covered lender or note purchaser receives the LPDS as early as practicable before becoming obligated and ordinarily before the broker receives funds. If funds were already lawfully held with express permission awaiting instructions, the broker must still disclose and obtain written consent to the proposed disbursement first.",
+    "conditions": [
+      "Identify the nonexempt investor, lawful custody, the proposed investment, and the exact amount authorized before disbursement."
+    ],
+    "exceptions": [
+      "Specified institutional and seller-takeback exemptions do not exempt every private investor; permission to hold money is not permission to invest it."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/relaw.pdf#page=66",
+        "locator": "Business and Professions Code section 10232.4(a)-(c), in DRE 2026 Real Estate Law",
+        "supports": "States disclosure timing, signatures and retention, exemptions, and the already-held-funds condition."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-consent-within-its-legal-function",
+        "summary": "With $90,000 held and written authority for $70,000, a signed LPDS does not authorize investing the other $20,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-023",
+      "financing-039"
+    ]
+  },
+  {
+    "id": "financing-rule-lpds-appraisal-waiver-boundary",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "california-borrower-and-lender-disclosures",
+    "coverageTopics": [
+      "Financing/Credit Laws",
+      "Loan Brokerage"
+    ],
+    "rule": "The LPDS supplies the covered investor with loan, lien, credit, and collateral information; a permitted independent-appraisal waiver does not eliminate the required collateral valuation information and factual basis.",
+    "conditions": [
+      "Meet the appraisal waiver's written conditions and provide the broker's supported value information where the statute permits that alternative."
+    ],
+    "exceptions": [
+      "A disclosure waiver cannot be expanded into authority to omit unrelated loan facts or invest unauthorized amounts."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10232.5.",
+        "locator": "Business and Professions Code section 10232.5(a)(1)-(7), especially (a)(2)",
+        "supports": "Addresses estimated fair market value, appraisal delivery, and the written waiver with broker-provided valuation support."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "california-borrower-and-lender-disclosures",
+        "summary": "The annotated lender file contrasts the independent-appraisal choice with information the lender still needs to evaluate collateral.",
+        "figureIds": [
+          "exp-credit-lpds-evidence-and-waiver"
+        ]
+      }
+    ],
+    "questionIds": ["financing-064"]
+  },
+  {
+    "id": "financing-rule-credit-advertising-trigger-terms",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "apply-the-parallel-credit-safeguards",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "A covered closed-end credit advertisement that states a triggering term must also state the applicable down payment, repayment terms, and APR, including whether it can increase; quoting a monthly payment is one such trigger.",
+    "conditions": [
+      "Apply section 1026.24(d) and any additional dwelling-secured advertising requirements to the actual advertisement."
+    ],
+    "exceptions": [
+      "General statements such as payment terms arranged are not the same as a specified payment amount; no-down-payment wording has a different trigger treatment from a required down payment."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/24/",
+        "locator": "12 CFR 1026.24(d)(1)-(2) and commentary 24(d)(1)-1 through -4",
+        "supports": "Identifies triggering terms and the resulting additional disclosures."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-parallel-credit-safeguards",
+        "summary": "The credit-safeguards table uses a specific monthly payment advertisement to identify the missing cost context.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-065"]
+  },
+  {
+    "id": "financing-rule-broker-usury-exemption-not-compliance-exemption",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "apply-the-parallel-credit-safeguards",
+    "coverageTopics": [
+      "Financing/Credit Laws",
+      "Loan Brokerage"
+    ],
+    "rule": "Civil Code section 1916.1 exempts qualifying California licensed-broker-made or arranged real-property-secured loans and specified related transactions from the constitutional interest-rate restriction, not from every other lending obligation.",
+    "conditions": [
+      "Establish the licensed broker's qualifying role and real-property security, including the applicable statutory compensation or arrangement conditions."
+    ],
+    "exceptions": [
+      "The exemption does not cure a prohibited referral payment, omitted disclosure, fraud, or other separately applicable lending violation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1916.1.",
+        "locator": "Civil Code section 1916.1, amended effective January 1, 2025",
+        "supports": "Defines the broker-made or arranged real-property loan and related-transaction interest-rate exemption."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+        "locator": "Business and Professions Code section 10240(a)-(c)",
+        "supports": "Separately requires borrower disclosures for covered broker-arranged transactions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-parallel-credit-safeguards",
+        "summary": "The safeguards table applies a rate-limit exemption while preserving the distinct disclosure and anti-misrepresentation analysis.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-066"]
+  },
+  {
+    "id": "financing-rule-ability-to-repay-not-default-guarantee",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "apply-the-parallel-credit-safeguards",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "For a covered transaction the creditor makes a reasonable, good-faith ability-to-repay determination at or before consummation; qualified-mortgage treatment is defined legal protection, not a guarantee against default or a rule that every non-QM loan is illegal.",
+    "conditions": [
+      "Apply the actual covered-transaction definition, underwriting factors, verification requirements, and relevant QM category."
+    ],
+    "exceptions": [
+      "Different categories and exclusions exist; do not replace the current rule with an outdated universal 43% DTI shortcut."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/43/",
+        "locator": "12 CFR 1026.43(a), (c)(1)-(3), and (e)",
+        "supports": "Defines coverage, repayment determination and verification, and qualified-mortgage treatment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-parallel-credit-safeguards",
+        "summary": "The safeguards table rejects the idea that collateral equity or a non-QM label substitutes for the repayment analysis a covered loan requires.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-067"]
+  },
+  {
+    "id": "financing-rule-holden-geographic-and-status-protections",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "apply-the-parallel-credit-safeguards",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "California's Holden Act restricts prohibited neighborhood-based and protected-characteristic discrimination in covered housing financial assistance; a neighborhood stereotype does not establish individual credit risk.",
+    "conditions": [
+      "Apply the defined financial institution and housing-finance scope and the relevant protected-basis provisions."
+    ],
+    "exceptions": [
+      "Section 35810 allows demonstrated consideration required to avoid an unsafe and unsound business practice and permits qualifying equality-promoting programs; neither is a blanket redlining permission."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=35810.",
+        "locator": "Health and Safety Code section 35810(a)-(b)",
+        "supports": "States geographic discrimination restrictions and the unsafe-and-unsound and equality-program qualifications."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=35811.",
+        "locator": "Health and Safety Code section 35811(a)-(b)",
+        "supports": "States protected-basis housing-finance nondiscrimination and incorporated qualifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-parallel-credit-safeguards",
+        "summary": "The table's rejection based on neighborhood ethnic composition requires discrimination analysis, not acceptance of a generalized geographic-risk label.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-068"]
+  },
+  {
+    "id": "financing-rule-ecoa-action-notice-versus-fcra-report-notice",
+    "lessonSlug": "financing-credit-law-originators",
+    "sectionId": "apply-the-parallel-credit-safeguards",
+    "coverageTopics": [
+      "Financing/Credit Laws"
+    ],
+    "rule": "Regulation B ordinarily requires action notification within 30 days after a completed consumer-credit application, with specific adverse-action reasons or the prescribed right to obtain them; a denial influenced by a consumer report can also require the separate FCRA notice information.",
+    "conditions": [
+      "Identify completion or the other applicable action trigger, the credit category, and whether a consumer report influenced the decision."
+    ],
+    "exceptions": [
+      "Incomplete applications, business credit, counteroffers, and other specified situations have different notice details; a reporting agency does not make the creditor's decision."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+        "locator": "12 CFR 1002.9(a)(1)-(3), (b), and (c)",
+        "supports": "States the completed-application clock, adverse-action content, and alternative rules."
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-credit-decisions-what-know-about-adverse-action-risk-based-pricing-notices",
+        "locator": "Your Obligations When Taking Adverse Action",
+        "supports": "Lists reporting-agency identification, nondecision statement, free-report and dispute rights."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-parallel-credit-safeguards",
+        "summary": "The safeguards table separates the 30-day action duty from the initial LE's three-day duty, then shows why a report-based denial may require both ECOA and FCRA content.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-069"]
+  },
+  {
+    "id": "financing-rule-mortgage-broker-versus-funding-lender",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "where-mortgage-money-comes-from",
+    "coverageTopics": [
+      "Loan Brokerage",
+      "Sources of Financing"
+    ],
+    "rule": "A mortgage broker arranges financing between a borrower and lender in that role, while the funding lender supplies the loan; one institution can perform different roles in different transactions.",
+    "conditions": [
+      "Identify what the actor actually does and who funds the note rather than inferring the role from advertising or a job title."
+    ],
+    "exceptions": [
+      "A broker can act in another legally permitted capacity, so the role label is not a universal description of every transaction the business performs."
+    ],
+    "sources": [
+      {
+        "url": "https://www.fdic.gov/consumer-resource-center/mortgages",
+        "locator": "Obtain Information from Several Lenders",
+        "supports": "Distinguishes mortgage brokers arranging transactions from direct lenders and notes that institutions may act in both capacities."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "where-mortgage-money-comes-from",
+        "summary": "The chapter traces funds from a lender to the borrower while distinguishing the intermediary arranging the loan from the party lending.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-070"]
+  },
+  {
+    "id": "financing-rule-ginnie-guaranty-versus-loan-purchase",
+    "lessonSlug": "financing-loan-fundamentals",
+    "sectionId": "where-mortgage-money-comes-from",
+    "coverageTopics": [
+      "Sources of Financing"
+    ],
+    "rule": "Ginnie Mae guarantees timely principal and interest on qualifying securities issued by approved issuers; its ordinary program role is not originating borrower loans or buying and selling whole mortgage loans.",
+    "conditions": [
+      "Distinguish the originating lender, security issuer, investor, and Ginnie Mae guaranty from the agencies supporting underlying loans."
+    ],
+    "exceptions": [
+      "The program's issuer-default duties do not turn its ordinary role into that of a retail mortgage lender; use current program terms for actual transactions."
+    ],
+    "sources": [
+      {
+        "url": "https://www.ginniemae.gov/issuers/issuer_training/NewIssuerTrainingPresentations/ginniemae_basics_workbook.pdf",
+        "locator": "Basics Workbook pp. 10-14 and 17: guaranty and differences from the GSEs",
+        "supports": "Distinguishes security-payment guaranty from loan origination, whole-loan purchases, and securities issuance by participating lenders."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "where-mortgage-money-comes-from",
+        "summary": "The chapter compares mortgage-market entities by what they do instead of classifying all government-related participants as direct lenders.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-071"]
+  },
+  {
+    "id": "financing-rule-usda-direct-versus-guaranteed",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "va-and-usda",
+    "coverageTopics": [
+      "Government Programs"
+    ],
+    "rule": "USDA single-family direct loans and guaranteed loans are separate programs: eligible direct borrowers apply to Rural Development, while guaranteed borrowers apply through participating lenders.",
+    "conditions": [
+      "Check the actual income, property-location, occupancy, and program eligibility requirements rather than treating rural appearance as qualification."
+    ],
+    "exceptions": [
+      "Neither program name promises approval for every borrower or property; the eligibility map and program-specific limits control."
+    ],
+    "sources": [
+      {
+        "url": "https://www.rd.usda.gov/media/file/download/usda-rd-rhs-fs-sfhd-09252024.pdf",
+        "locator": "Single Family Housing Direct Loans, Where can I apply?",
+        "supports": "Direct-loan applications are accepted through the local USDA Rural Development office."
+      },
+      {
+        "url": "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program",
+        "locator": "How do we get started?",
+        "supports": "Guaranteed-loan applicants apply through USDA-approved lenders, which work with USDA to obtain the guarantee."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "va-and-usda",
+        "summary": "The chapter distinguishes a direct USDA application from a lender-originated guaranteed application even though both support eligible rural housing.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "financing-072"
+    ]
+  },
+  {
+    "id": "financing-rule-calvet-legal-equitable-title",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "california-programs",
+    "coverageTopics": [
+      "Government Programs"
+    ],
+    "rule": "In CalVet's traditional contract-of-sale structure, the purchaser has equitable ownership and possession while the state retains legal title as security; this is distinct from the federal VA guaranty arrangement.",
+    "conditions": [
+      "Apply the described contract structure and check current program options rather than assuming every veteran loan has identical instruments."
+    ],
+    "exceptions": [
+      "The historical BOE explanation establishes the title distinction, not a current loan-availability, pricing, or universal-eligibility promise."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/78-176.pdf",
+        "locator": "BOE Letter to Assessors 78/176, October 6, 1978, equitable and bare legal title discussion",
+        "supports": "Explains the veteran purchaser's equitable title and possession and the Department's retained bare legal title."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "california-programs",
+        "summary": "The chapter contrasts state-held security title under the traditional CalVet contract with a lender's loan supported by a federal VA guaranty.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-073"]
+  },
+  {
+    "id": "financing-rule-mortgage-insurance-protects-lender",
+    "lessonSlug": "financing-loan-types-programs",
+    "sectionId": "classify-along-more-than-one-dimension",
+    "coverageTopics": [
+      "Types of Loans"
+    ],
+    "rule": "Conventional private mortgage insurance protects the lender against covered default loss, not the borrower against unemployment or declining home value; it is distinct from FHA mortgage insurance and homeowner property insurance.",
+    "conditions": [
+      "Identify the insured risk, loan program, and policy rather than inferring borrower debt relief from payment of a premium."
+    ],
+    "exceptions": [
+      "Cancellation and termination depend on the applicable law and loan; conventional PMI rules are not automatically FHA rules."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "locator": "Private mortgage insurance; Mortgage insurance; Homeowner's insurance",
+        "supports": "Distinguishes lender default protection from property insurance and identifies loan-program differences."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "classify-along-more-than-one-dimension",
+        "summary": "The chapter classifies a higher-LTV conventional loan separately from FHA insurance and rejects treating either premium as a guarantee against the homeowner's loss.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["financing-074"]
+  }
+]

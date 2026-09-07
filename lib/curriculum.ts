@@ -74,12 +74,24 @@ export interface Lesson extends LessonMeta {
   body: string
   readingMinutes: number
 }
+export type QuestionPool = 'practice' | 'exam-a' | 'exam-b'
+export type ExamFormId = Exclude<QuestionPool, 'practice'>
 export interface Question {
   id: string
+  revision: number
+  pool: QuestionPool
   domain: DomainId
   lessonSlug: string
+  sectionId?: string
+  conceptIds: string[]
+  sources: Source[]
+  review?: {
+    status: 'pending' | 'source-checked'
+    reviewed?: string
+    method: 'ai-primary-source'
+  }
   prompt: string
-  options: { text: string; explanation: string }[]
+  options: { text: string; explanation: string; misconceptionId?: string }[]
   answer: number
 }
 

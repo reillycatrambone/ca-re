@@ -1,0 +1,537 @@
+{
+  "id": "heldout-valuation-financing-transfer-independent-2026-09-07",
+  "reviewed": "2026-09-07",
+  "reviewer": "audit_exam_bank independent reviewer; held-out items authored by remove_progress_tracking",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 92 frozen questions in the six exam-a/exam-b valuation (21 each), financing (13 each), and transfer (12 each) draft arrays, including all 368 option explanations and 276 distractor misconception tags. Checked each key, the stated assumptions, plausible alternative readings, source support, and 35 arithmetic/date assertions plus ordinary rescission weekday counting. Relevant passages behind the 63 cited primary URLs were checked during this September 6-7 review run, reusing the completed financing/transfer review rather than repeatedly fetching known passages. Valuation checks include BOE Rules 2,4,6,8; AH502 paired-sales, leased-interest, reserve-consistency, debt-service and equity-return passages; DRE15 valuation principles and depreciation; current Fannie comparable adjustments; IRS527 land/building allocation; and BOE present-value factors. Validated schemas, registered source/concept/misconception metadata, chapter anchors, and duplicate IDs/prompts against the combined practice and staged forms. Read the twelve closest text-overlap pairs manually; they share taught concepts but add distinct decisive conditions, tasks, or combined reasoning rather than merely changing names and numbers.",
+  "sourceUrls": [
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/",
+    "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/",
+    "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+    "https://www.consumerfinance.gov/ask-cfpb/for-an-adjustable-rate-mortgage-arm-what-are-the-index-and-margin-and-how-do-they-work-en-1949/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-negative-amortization-en-103/",
+    "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1007/103/",
+    "https://www.dre.ca.gov/Licensees/MLOLicense.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/23/",
+    "https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=2.&title=4.&part=4.&chapter=1.&article=3.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1091.",
+    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+    "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.",
+    "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm",
+    "https://www.boe.ca.gov/prop19/",
+    "https://www.irs.gov/publications/p551",
+    "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+    "https://www.ftb.ca.gov/forms/misc/1016.html",
+    "https://www.irs.gov/publications/p544",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/like-kind-exchanges-real-estate-tax-tips",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10309",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10501.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10503.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1007.",
+    "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule2.pdf",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+    "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+    "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+    "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+    "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+    "https://www.boe.ca.gov/info/iav/lesson10.htm",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-loan-en-106/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/",
+    "https://www.consumerfinance.gov/ask-cfpb/can-anyone-take-out-a-reverse-mortgage-loan-en-227/",
+    "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+    "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=682.1.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FIN&sectionNum=17006.",
+    "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=806.",
+    "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm",
+    "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5624.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5626.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16200.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16226",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3691.",
+    "https://www.irs.gov/publications/p527",
+    "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule8.pdf"
+  ],
+  "artifacts": [
+    {
+      "kind": "question",
+      "id": "exam-a-financing-001",
+      "digest": "5500f0801f6498fd0f72b0314a019a1a5fc6b92b868175e0ed502bf6493d8dee"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-002",
+      "digest": "44c37fecec98394f1c756ee800ea2d6e2e83b4d68c1c20b28f994d4ee0fedd55"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-003",
+      "digest": "961b123ca888d054872d9bed572f7cb3bac484042348e7ff045937182b683eb9"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-004",
+      "digest": "015f8ca5b04785a3537282ba6663e390de52b6198f583149bdcb912f7cbdf102"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-005",
+      "digest": "1c5375e33f15ce79607b3121c71d778a56165128bfaac1019b33eb178ee468d0"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-006",
+      "digest": "6fc97b3048bd19cee15627e1a9f8acbeac475b138be3bc262e71a121a8db94cb"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-007",
+      "digest": "b32ba1c4aaa5d2fdb84d6185c19793e61175e15e0a70c7fd3bf36541aafa5b75"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-008",
+      "digest": "95fd4690b2d548590be724d69f1c6a298619c727cc080c01e34ed9b0e3fb05e3"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-009",
+      "digest": "87f02d072d1840714a8400446628bcae8f8d4a104570ad89ed1c6a6e55e44343"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-010",
+      "digest": "c8f93bf8ff759b58fda0c0e3816ee36af2c233d0b7144ef64e76aac4cdb7205b"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-011",
+      "digest": "12a0dff3ed96ad40657781db4d9c5179800400462d0d161c7c4f7ae8c69e0a3c"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-012",
+      "digest": "5a9ee9b592fa6005bb1dbb3874fde6692337047ef2688b858a047150ec6e00aa"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-financing-013",
+      "digest": "644c6509f42ede128ef516cb62b42f493f3fb99b38e5e0da374cd620e671940e"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-001",
+      "digest": "1178cd219e574082fa56af01de845ede839aaece7b720816f5843f952fa7811c"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-002",
+      "digest": "f21f01d61e169e0df0e740434e9f2b1874222d253e66d1723ec0d3f97d98267a"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-003",
+      "digest": "9a1512dcfb22a499634128bb551e3b0e0a74c2f5e33966f3cfb66482300a85a8"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-004",
+      "digest": "83c4759de6066fd4659bf1a037f3ed632da85c1a01ea57d26e788c311289640b"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-005",
+      "digest": "889a4b69924d55181a16467ce5d6dbe99b505df58d3f67865fde7fdfb5b1d541"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-006",
+      "digest": "cab11dc8b28cd99bd5981414eb18a3142c5ab31d7b01586e7cfeb5a39f01c70b"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-007",
+      "digest": "7a4522ba716c28905f3ed29e39a99edbf9d600a14e9c30608a3165d7f61b0ad9"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-008",
+      "digest": "437efe8c3e6599171cf1f81666c5e1804f8d222cf2ad46c2d8661e2de67dc3f1"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-009",
+      "digest": "c57b651b4e5c9f3bde89d1b622075d94633dd5c9126a24f3fa435eca73370da1"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-010",
+      "digest": "d9fe65846853fa6c6cc0ba3275e9c90b42a7d92fd6c87a9df490a5a3ec6366d3"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-011",
+      "digest": "ecb70ef50dd2603ed057ac7e2196b6ba796003595bf16039f6f4df15f80146e5"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-transfer-012",
+      "digest": "f257651cb6851019f10f5989626634cea631ed22b6d9c3a4f3e31eb3f544e8f8"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-001",
+      "digest": "ac778e74d3453973faf58f26f444eb5b3a38b777ad49d0b7c079027655c2ebeb"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-002",
+      "digest": "769866f5f217b02fc17ff6c9be96cc359a3a57d1099c79b35e1eee80e3a19411"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-003",
+      "digest": "8f1a703db0a68bf92f44edaf8853c38446144912e463609abf2a339b29eb8c02"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-004",
+      "digest": "303f3751b309cabc619ee6baa71ff072e2b50383d06103342c42aae06e9b70cd"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-005",
+      "digest": "f75b151486c2c199a7d5ed0f2cd8513cb9f1aa3f065b79f453fb7f25dd2d94b0"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-006",
+      "digest": "9389f2ce890dab275ca016fdc5f6a0f69b0f2eb3b4764cabe258b7bf4c99ee33"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-007",
+      "digest": "49eec94cf261ef99b7b2def4e0e6a92a62c801c57db4c401f06f669a5b5ef71b"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-008",
+      "digest": "a6b1a904491b47e2ce4fa28c186ede97b516ce7c7b3fdf301e506c04fe22d8f2"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-009",
+      "digest": "689b25414ad23ee03501973dd9a0fd13e0257e6772502e1b5b0c41923210b339"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-010",
+      "digest": "4a85a063fc4f129de417d05af13477023f72946a4c4916cb5de07c01828e387c"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-011",
+      "digest": "03dc58efe3f01ec7aea7fe6e57ca61ea77eab18a33478cfa6a28853c457b0416"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-012",
+      "digest": "ab11b43a4c503c37c863f97135dfaf43c3305a7771517a8b396126e7216cd141"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-013",
+      "digest": "5889be81dfb5e53ebe1397b73a14bd4d9634a71a657ea354596c6757e9841680"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-014",
+      "digest": "a37869fc26d936e2bd13ec1fc9770680332daf9f031bc6d1ca248b36f155bd96"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-015",
+      "digest": "3e991464faaa0a2d95d3bbdcd09a91e11bc696857310976e2bcce9caecaf58e3"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-016",
+      "digest": "52138c442aadf575ed8a96bbbe3c995e5a570d478531d16933a7db7ca657c4b7"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-017",
+      "digest": "c9b7cce358d341ebb3216b424fdcd125c627cf71e793d60086d98d0155d05fce"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-018",
+      "digest": "1e84e0aab60f0fa7f6b3484f99da444104785beb3f43f2e1bdef63d1a9e641af"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-019",
+      "digest": "91e707dff12ecaea1cfc5847d4df8d8cce36c5665505bf197f3d17dab464c3c3"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-020",
+      "digest": "f23ce7348a00408e7d04da8262dc8fbb0a1652d6009b9eba39c10aaa70115aa2"
+    },
+    {
+      "kind": "question",
+      "id": "exam-a-valuation-021",
+      "digest": "0662424f6d6c3ce16b98e3f984c7a25c2d1ed20579c2dd3d4da2e3ab744a101a"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-001",
+      "digest": "edc621fa68058ec4a1ed29b930cf268765ce3f47f7bd4b42324ae3bc0409d20e"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-002",
+      "digest": "71e949d431383408875c5abc20eb8a2d3edad5d6d19879023d012cd202a68f56"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-003",
+      "digest": "2f7734a37c835009ba5dd37a874faf069d105df40275f5db750b0a229cfe938f"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-004",
+      "digest": "56badfbe780c7d81372b5d437da6d39c98d7bfc0cc134bd388ec48ff27880c97"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-005",
+      "digest": "441e74b05c8445e9d7720260044663dcb8674181d5f0d0131f29fe14ce4c55bb"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-006",
+      "digest": "12853a18ebe1dae7f41a2383e765c3b56fcea7d4ad08912e1d6803a033d3f278"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-007",
+      "digest": "fa2304ba303ddad8866bebd5ccdaa42969079f05086a7fb7a56196065bea7479"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-008",
+      "digest": "3e375822328b7ca58b5eeeb0b71329cd388146b28deb23e3233b3a0363aa9622"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-009",
+      "digest": "05e496559adaf62f51217cb9456c14f90d61668fa19158f9acc8dd37ab7dcf67"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-010",
+      "digest": "0236e59db64d33778206577e8d7077158d624fd76123aab8b57da2af5a585972"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-011",
+      "digest": "ec8b27e6fa9eadbcfff483cd54678e5cbd6441383d583a78e177ca6b06e3f88d"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-012",
+      "digest": "eff46d8139c3aea175077d0332650ff4b3a0c4c6a2835f9bcc1eeda1a8159ef8"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-financing-013",
+      "digest": "930bb9d95851bcc0815b925d8e5d3be9506efb8cba61fec94f475aff0a2db5e5"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-001",
+      "digest": "80eab9ee16933f53aa0d732a929ef1fbad8f7bfabb371182aebf08a414de4df9"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-002",
+      "digest": "4c994fdc18f7718f5ad386e74605b405645500f8a5f190fd0cb174bec12e8a92"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-003",
+      "digest": "c43ea98466c853b6a9fc8f248b5b882f53d85019ba7b46d3a62c9c62302dd36d"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-004",
+      "digest": "39c2981cba0fa57b028598ad592b87cf9eb40d90aa0f552eee58d5ae94f4e849"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-005",
+      "digest": "b0b91195731217fae6ae922bdaa7401eb648f39d1fd3765614e11a44ad18e557"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-006",
+      "digest": "1acf2f87a309c0db6978d0ce689790592da7e8b0d72c33da055c80cf6fd8eaf0"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-007",
+      "digest": "e88bbf6b75bc49970c7b44495ef45fc18e98cfb324bcb174f0aefa660a662e26"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-008",
+      "digest": "5a0c39050decfafd9435895eb243b694de95908a99b1dac01fb3c006f59ce4db"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-009",
+      "digest": "1345ac48637c148755d3e8c5317c16d0c0ca0badcb3f0eb17138451030aeaf8d"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-010",
+      "digest": "183337c196b675d9ce6bc5b4ec8c2d2f49e970fdaa9de26452113046221401d3"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-011",
+      "digest": "590b4cd71cbc9a15bdd4040e498f529583ea42d082acff465ab961d31fbba515"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-transfer-012",
+      "digest": "5073515d02276a629d75722bfe308b64409cd40d713ff7c6c44af5011cc5b737"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-001",
+      "digest": "20d6bed213b342aa305190e5271008050c068aad6e73aa9613eb39e6119b01cc"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-002",
+      "digest": "f0f233308d523ed39e109ddcb23de885b47e8a07ab04550a9115a418502055f3"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-003",
+      "digest": "47938e947c5edae3c33558a60bce0a57bc033bbf3c4df493649c5bfe00e21331"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-004",
+      "digest": "ca115d3149ed452578f91a7ee8fe0105d6e8431abc510c231e7fb95c53b62041"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-005",
+      "digest": "21d559fb204d372008fec79037806e685c4288d0c9741733c578c8281dffbe03"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-006",
+      "digest": "42e44e04ddfcddee356076553d9c95005af5651f9f629f600c06e3c1e6a706fb"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-007",
+      "digest": "d37fa6b03b7eae1af9ff32ac7e64695f07818017676b55db992af62f0a5be064"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-008",
+      "digest": "436f9cfbef5fb9e1be40727eee9ecb9dbc0c67c128fb32a3a9ec1591ff3283a8"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-009",
+      "digest": "a8ae4a9a392580aec422b09d167541d2b02675438b133108bb1e498ff1c723ea"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-010",
+      "digest": "f4acfc90887d5a47fac6c0bac62ac09fb8321ff3a14c072384a6b5cb479ef829"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-011",
+      "digest": "1b2a413521378d4531c726a7986f153ffcb865bbcbe307640142ae7bbc3a7fe6"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-012",
+      "digest": "b6405b6b0fb1ae1b89e0431149feb115cb3118f44bde820a4a829bb3a2133f37"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-013",
+      "digest": "965028ce5cf05377fecad1c4e903b4431b0b1f64037f55ece268a2bf354c2057"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-014",
+      "digest": "c75487e921b5ef91710a0f29456611d46f5dfcfae3b89e346dd9b8da6d469dcd"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-015",
+      "digest": "bf7794fdcfb383da76e5ff77c5c3ba989d0e226b4dce04a1e4af30c973393da6"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-016",
+      "digest": "611d2c4500048dbce428162dd95ace735aabe84b457f0d01d12e797b72ad5fc8"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-017",
+      "digest": "b4db5e6e253ffac483938c93368829e7efa2b93dbd5c7eebfadc73667052d1b1"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-018",
+      "digest": "5b2f1195823bd8002f5410759340256fea8493d3f13b02a9263434c05c7750e1"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-019",
+      "digest": "4b1ec98012459e31aa89a171673feff6db468c6684ef0c9e069ac7e93a35d193"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-020",
+      "digest": "e0148c23845498a6ff14d7a7b7fd909ebe704f3907226c350d3c893a16574410"
+    },
+    {
+      "kind": "question",
+      "id": "exam-b-valuation-021",
+      "digest": "b246821a56effa57731e438d03f473be5e75a3043ac968fd1abe4973e3a32ba2"
+    }
+  ],
+  "findings": [],
+  "limitations": "Independent AI source review, not qualified human legal/tax/appraisal review, psychometric validation, measurement of item difficulty, or a prediction of exam performance. Primary source passages, not complete long reference manuals, were read. BOE assessment-specific income conventions were distinguished from explicitly stated market-investment conventions. Finite question banks still sample the domain. Normalized-stem three-gram similarity was only a screening tool (maximum 10.87% versus practice and other staged items); manual review, not a similarity cutoff, determined that no simple copy was identified. A longest-text-choice diagnostic with uniform random tie handling scored 19.66% over these 92 items, and authored positions were 23/22/23/24; these checks do not establish item quality or exam equivalence. This record covers exact staged artifacts; live validation will require root to integrate those same objects without edits."
+}

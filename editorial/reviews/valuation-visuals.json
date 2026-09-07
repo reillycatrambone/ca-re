@@ -1,0 +1,211 @@
+[
+  {
+    "id": "review-valuation-application-visuals",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the visual author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read all 36 valuationApplicationFigures and their anchored chapter passages. Verified the stated mathematical relationships, chart datasets, parcel dimensions, relationship-map meanings, definitions, tax conventions and each of the nine final primary-source URLs. Final data differed from the reviewed snapshot only by the confirmed AH502 source addition.",
+    "sourceUrls": [
+      "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule2.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+      "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+      "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+      "https://www.irs.gov/publications/p527",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule8.pdf"
+    ],
+    "artifacts": [
+      {
+        "kind": "visual",
+        "id": "exp-value-assignment-identity",
+        "digest": "19d49332576fc3531b907149cc8357c8753f93ba11ac9dfed59df04662672e7a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-purpose-not-ranking",
+        "digest": "3a4d8be8afb10e72c85cd35cfb653cc26c659bbb3a4c73f243d56543a7bc9c9e"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-substitution-delay-cost",
+        "digest": "3201d4bcc5d88988ca479392f29fba866d84efe7218aa55ad24ec2a886fd76dd"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-marginal-improvement-curve",
+        "digest": "715059e27cfd667d0b78c4acda2c27782c19c86dc927fe2600b77d2afd259f1c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-anticipation-evidence-stages",
+        "digest": "e50f25bbfb706c1ebab047399412aea66f93b8524a86281d14a671080557ba02"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-physical-use-envelope",
+        "digest": "7991b016c05ad319dd90d3636070017deb55d9d5bc178d22be26d846f91267fe"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-development-residual-ranking",
+        "digest": "35412caa167ee06a28417c55e8b029337436048d7e05e96f956c14b0897c48c1"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-assemblage-width-benefit",
+        "digest": "6cbe9f4d2491892b17275f8d0d8491822f9dae9e03e2209a381afee0fb9e62ac"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-value-retain-or-clear-site",
+        "digest": "4870ddb4a5a6e20e500826c48a2158b415d6dd084c810842380c2e4b734cadf3"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-evidence-status-file",
+        "digest": "18772458784da70c115b8a9cbfeb5b20dce8940a58bac5da4622af4e63d38746"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-competitive-alternatives",
+        "digest": "f498680ba51620a04ec1d62a79d5ed31616c7f8d94946f34d66de07518be1a2c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-paired-feature-isolation",
+        "digest": "1daab9bb3cc9ddb1b4065867da68646162f1aef09b3a1cc66c763db35ddaee5c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-time-before-feature-adjustments",
+        "digest": "5bf09eafbdbd00e7338d9bf50cff2a0908d0cb228e4a98e68c4f8fb2b6cd436d"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-concession-market-effect",
+        "digest": "2e4b314f7757b766c14cf6834b6f0475c7dc6a9734ae8b9c55a758fa97e72c57"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-noncash-consideration-equivalent",
+        "digest": "55713e6bbbf32a00bd1b54279f98b2d70fd971d650b47407ffbf19979c4d86aa"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-average-versus-marginal-area",
+        "digest": "acf2aceb44726b2c23d9eae6283fc8b9d8a6033618cfd203e83fa729b66f937c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-overlapping-condition-allowances",
+        "digest": "9e66ac1f9dda6b8ad45a6e300e10c44974cd3710d20a37e2193c0ec704086b21"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-sales-outlier-separate-parcel",
+        "digest": "2a9698045e3c05ed9d6fdd45a59ee17251d5be1a5c29ac6a91a93dec13fe6e3e"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-select-cost-definition",
+        "digest": "acd7758618e0190dd287ac8d80c452bad9fd07388c3f5fd9fc6840bbfde96fe4"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-complete-construction-input",
+        "digest": "9e6fca17c5ab43e7559aa9a4be1784d427a84729a922c073b1a98946e72c8548"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-site-inclusion-inventory",
+        "digest": "e9751bac34af8c58879553d771e3e114aa755ec853eefab9d44e8704de0de392"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-replacement-obsolescence-overlap",
+        "digest": "028ce7b9882fe8a96baf08a5cbed53c319b3793b645e50637d1950c8bcbb6c61"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-curability-two-dimensions",
+        "digest": "f72e65c57afe517f77ac67990a2cb8b52ce1aa99e46b3ceb21b6f7771fa0a227"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-age-life-denominator",
+        "digest": "08c4ad4bfc0964e994f764163ece3af5523ffbb0f6c162ccc152c7058544df85"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-percent-good-partition",
+        "digest": "bf75d72474c8615a7ce347bea0ae268a3b01cf9bca7c51d896dbbc148679bef3"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-curable-before-residual-age",
+        "digest": "754f050aca04cae591843345537c3432d79bd015dd80e28a33986d5e615ceba5"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-cost-tax-deduction-market-value",
+        "digest": "1dee2ce7a3beaf558c6f9a6d03c37d1c0554112ba48a44272e935d4d1665e54b"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-contract-rent-rights",
+        "digest": "805903756417d63a83dcd924974da0c6f4c3414a0041ec6dd893285c34af5c8c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-normalize-owner-statement",
+        "digest": "7de4efa37bf593de2e9abbcae13a7cef577d9ffd61ecf3939c6f86b05a53d174"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-property-tax-rate-consistency",
+        "digest": "21b3825fc3c4ed07c2c521150b3cb7385862f1762f2ef856da3b85fcb13cab54"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-noi-rate-value-lines",
+        "digest": "348753886878b959eaef77bb843f623f7bfee95c3627996761ce67d8217ce864"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-discount-separated-receipts",
+        "digest": "21b7662543d10d1e0861e5e4eb21f467231e6e7112011bcf121658a07ab88147"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-grm-period-matching",
+        "digest": "9ce4e24453dcae88f1dfdd077a366fd7aa7fcce45cf34a9aae87e584610e4113"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-lease-expense-comparison",
+        "digest": "3433560320d25998722261deb9412942c4954a7fa25f2090da218d9e670c7254"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-cash-return-and-coverage",
+        "digest": "6147182429f8233cda872b04540d80f3b261367e55b6f82f28e70f951dff1ce9"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-income-leveraged-equity-sensitivity",
+        "digest": "ff7f5828b59fbd1477baa87829205af0305f02bf2a9df4d96a4501e09f34cc06"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "The paired-feature isolation figure needed direct support for adjusting other differences before isolating the garage contribution.",
+        "resolution": "Added BOE AH502, paired-sales analysis at printed page 46, to exp-sales-paired-feature-isolation; the sales-comparison chapter already registers that URL."
+      }
+    ],
+    "limitations": "Independent AI review of visual data and related teaching, not qualified human appraisal or legal review. Does not certify browser rendering, empirical instructional effectiveness or exhaustive examination coverage."
+  }
+]

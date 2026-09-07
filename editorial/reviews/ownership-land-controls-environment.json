@@ -1,0 +1,334 @@
+[
+  {
+    "id": "ownership-land-measurement-controls-environment-independent",
+    "reviewed": "2026-09-07",
+    "reviewer": "root, separate from remove_progress_tracking author",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read all 42 rule records, all three complete chapter bodies, and all 13 new questions ownership-84 through ownership-96 with their 52 option rationales. Checked conditions, exceptions, source locators, worked examples, linked question scope, and 15 independent arithmetic assertions covering sections, aliquot parts, lot area, usable footprint, frontage, net acreage, and directional bearings. All seven revised question distractor sets were reread after author correction. Full-file SHA256 snapshots: ownership-legal-descriptions 2a735f16578f05f52d277928fb987675ebe70ac0cbbc4c81d9413ef16a0c8763; ownership-land-use-controls e708458e18c117a8735021127740914431062d8421080ca0242dac52c912a41e; ownership-water-environment ed8e5759c5e6213927dc8ced6c1a0aa24cb1183f580558d3c6cb2270042d9488. The original 70 ownership questions and the first three ownership chapters belong to separate review passes.",
+    "sourceUrls": [
+      "https://codelibrary.amlegal.com/codes/lapuente/latest/lapuente_ca/0-0-0-39966",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=11000.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=8726.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=525.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1015.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=815.1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=I",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=51243.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65302.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65906.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66424.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section9607&num=0&edition=prelim",
+      "https://water.ca.gov/Programs/Groundwater-Management/SGMA-Groundwater-Management",
+      "https://www.bia.gov/faqs/what-federal-indian-reservation",
+      "https://www.coastal.ca.gov/whoweare.html",
+      "https://www.conservation.ca.gov/cgs/alquist-priolo",
+      "https://www.conservation.ca.gov/dlrp/wa",
+      "https://www.dre.ca.gov/Developers/",
+      "https://www.dre.ca.gov/developers/publicreports.html",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref18.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+      "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos",
+      "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+      "https://www.epa.gov/enforcement/bona-fide-prospective-purchasers",
+      "https://www.epa.gov/enforcement/superfund-liability",
+      "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "https://www.epa.gov/radon",
+      "https://www.slc.ca.gov/public-trust/",
+      "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html"
+    ],
+    "artifacts": [
+      {
+        "kind": "rule",
+        "id": "ownership-rule-legal-parcel-identification",
+        "digest": "8286d45b4ea631675df691ea25ef1dff4f2dafb8db21d4a8d23926f9bc195e76"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-metes-bounds-traverse",
+        "digest": "48a85b4e5716be4503ed01d0b06b3ebf82b0dfa6d44d4c3c4a1c22a086c90e46"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-boundary-evidence",
+        "digest": "ee20a1bcf5f912f33a489daff80713680569aff177f2759e34cd8edac5360a4f"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-recorded-map-description",
+        "digest": "4ef74c3a5b149ffddc5c2c25b38ddb766d0a10fa01d3f698de222193c8fd6703"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-rectangular-survey-fractions",
+        "digest": "6ff7087ba95b3ac789893407699f62f8ef16b33e72b81ee860a772e6acea030c"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-nonoverlap-and-addition",
+        "digest": "45d57a796799882283a7e8a401e45137c56e4a37d984ad14427040bd046af48d"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-rectangle-acre-conversion",
+        "digest": "053ff97aa0a8b05229c441e1983109898a9a04bcd29e2562eaf6ad7b7d078c2e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-front-foot-versus-area",
+        "digest": "da920e3b27b52dd9ff9314386e47ee0ca7d59b6ee6963461c76b30839b8d6c1c"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-setback-and-coverage",
+        "digest": "3bbff3c63d005f93fa8cf5c010622647f22015f5f9f8a6ddc9ac43e07bf83d3e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-deed-exception-area",
+        "digest": "28ee4d054aa0ae2c44afa3fcd70d79cb5432a4feb252821465d2bbf4dc3d1615"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-triangle-and-composite-area",
+        "digest": "cdb79849c298cae2c4db956ccfb31771afbcd238a53d2558cafffcca8f9d3e04"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-easement-does-not-subtract-fee",
+        "digest": "6d1430233b801125c67f2446dd9c2634252d26d6ed24efa32d52f3a6de6e29e7"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-public-private-controls",
+        "digest": "e0e111b653c266d2c7aaa2c2883632f2578ecdf9962d2dae31224e04db75bcc2"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-police-power",
+        "digest": "fd60f25801228070c5c818ef1de192f6d39f1809abc3edc8197653bb7138e84d"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-eminent-domain-and-condemnation",
+        "digest": "083e538b1b16b4e6cd3b874301d6f4ba36d5674972b934532c10e7f038a7314d"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-taxation-assessments-escheat",
+        "digest": "77b8e89fc2458b82f625a4ec235e14f78c2bed2b43eaf6a1e9573d69759f1221"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-general-plan-versus-zoning",
+        "digest": "d1f47d4c586fea07a573eb441d9d8cbb50798095ef8aa010be2762b1f06f663e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-density-and-floor-area",
+        "digest": "5ec704942e3c53fb95b6239a38a2ae4b0df2f4274d034fd83a57c4a0babe1d0e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-variance-findings",
+        "digest": "02db33240e9d2ee720f85affa0dcce65749db36e273e480ea2121660b9d71e08"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-conditional-use-permit",
+        "digest": "ba076d157fa8579666fc07d92e0fc299849df525c15bc5931c4e6f238f6ce5c6"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-lawful-nonconforming-use",
+        "digest": "accfc04690ae3a5256f18a788ae0f147b6a847408a61db16065553305188e6d4"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-approval-claim-accuracy",
+        "digest": "ee934a162f27815cf26316a2231f6d27463b04b31ce9776a727d1c19b0e1af77"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-subdivision-purposes-thresholds",
+        "digest": "398a18c0401eea289906f1062a3f7c126a695057b22c143cfcc613962fff79b5"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-independent-approval-layers",
+        "digest": "a22d570f98c920d6a943e6b4d8e166006a1d93d31f61c4c664291d8895903af6"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-ceqa-evidence-paths",
+        "digest": "66d5d602324af1cd9cf27c0cde071c93e3523e2018efcca66cb72e0460a43a82"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-private-restriction-remedies",
+        "digest": "4e129a78548254f1235ae48a8c7fe86f4e7d2e2d26cf3ce36f74331f2f945cbf"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-water-entitlement-and-basin",
+        "digest": "a5ae9ba625c4b0aa11841c2ac39d903d1a3135d2f6c1208c5168245b27dd6c8e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-riparian-natural-flow",
+        "digest": "e71b0571309220f9136bad794bb72f76edb0bfca627c42b0c19bb7de9cba6cb5"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-appropriation-and-priority",
+        "digest": "f249b11f29674c6cc9bc16c684e381b4aa9fb65cc9865b92a25ea824c5bf70de"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-legal-physical-water-budget",
+        "digest": "6bc015e174a98c7c97fc8b495086cc0d7a5e24c56d43520f9209ec67117e15d5"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-water-boundary-mechanism",
+        "digest": "ab2fdbbde7d2a6cdbd3f45557aa2fe11129143a5cdc4ad92dea09411d9c8307b"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-lead-covered-sale",
+        "digest": "9d31c946e920d4020b1c98574ccf3bdc83b3286dcda405fbc1b0c6d54fac527e"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-building-hazard-investigation",
+        "digest": "b49a06c5375774cda28de6fe70a9af532d17c68dbc627689cd19a1e513233fcf"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-environmental-inquiry-scope",
+        "digest": "bdc6b191a1cf4ffb39d9384a6fab7c5ede61e6133614ebdb674aa7d053458dc8"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-cercla-liability-character",
+        "digest": "132769a10f5ff7b0fe6d1f77b9565e912e63f7b73b8751ec15ac72318f12eaf4"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-private-environmental-indemnity",
+        "digest": "45f572cfea81640fb3cd162f17e5f0fdcfc878a0c7fe7d72621d23aaa1e4ddfe"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-bfpp-knowledge-and-continuing-care",
+        "digest": "05d78febdf3c2906c3774b791999e0e10cd9ea133ca08a23c7dccf51edfe4313"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-fault-map-scope",
+        "digest": "4449708e845a4f99f8b226cba1f73abac53b9d7cf86e5cd453acba470bcd1a46"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-williamson-successor-restrictions",
+        "digest": "10b8a88ee4c8c40d1bfac3dd5172bc69a9730a81bb24f7566f5d7c4ca4387a33"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-conservation-retained-fee",
+        "digest": "77ef5ceb0d55601ab2ff44564470d140c45bc78c3a760438daf59874ca978fc4"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-coastal-public-trust-status",
+        "digest": "f37a7911b58e9b8522377fcb4ef8a72a6ee7dd6f6c7ffc199cfb58b650cbf88a"
+      },
+      {
+        "kind": "rule",
+        "id": "ownership-rule-tribal-and-leased-land-interest",
+        "digest": "2e446cad964cc9804c16f6977c3e5d44ab0ebf2f32e148fb7ffeddbdd491f1ed"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-84",
+        "digest": "541658e7661647ac2accc1c21d6a7c4783f11897af8634a509ca430c184e211b"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-85",
+        "digest": "599111b6ad3e525dc1d40024518b2aa61debf0b597e6014744d3b181314e1307"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-86",
+        "digest": "70757d5cb2b2c06de411df0333a9c8b7d31b9b8ef5971e8bcd077a18aa53767b"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-87",
+        "digest": "a364e407242ac1f288b1b5856c4fba788a0fe915f664e7492023daeae069c4b2"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-88",
+        "digest": "a87a27536318d1284e39a6463adaf476f646e1e0e784a1fdf56ee0b9ce290290"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-89",
+        "digest": "3dc37c4316dbf77b1c095601dd47239d9a539399f927817eb5b16377066799c6"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-90",
+        "digest": "10309fa114e358f4fc4e5cd5633b5ea9139b94f66aa392710af3a0bee54257b0"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-91",
+        "digest": "a8fe2f079fab0ddf5701685a6c55b83909119225a6a95078464a074135cef336"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-92",
+        "digest": "4097bd0056b051496090c353afb14e2d56325515210ff2ed2194d86093032804"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-93",
+        "digest": "f7a6ef5c2da10a64ee742c64f9f0b925245b3dedf9a485bc330a13ef01e99648"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-94",
+        "digest": "ebc6c88a7e7825c23d117220c1cdf92eba5d2faa2241421a39b29e84e1465cd1"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-95",
+        "digest": "3f68a650fafa449c4876383014db7c3575461c112c9808ab352c4a3701bfa1d5"
+      },
+      {
+        "kind": "question",
+        "id": "ownership-96",
+        "digest": "7c9c6da8f3d41d50a70415a560cf3093eebfb8ed2ca4b584652520c4fcfcbf16"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Questions 85, 86, 87, 89, 90, 91, and 94 contained distractors that were too obviously unrelated or extreme to assess neighboring legal distinctions.",
+        "resolution": "The separate author replaced these distractors at revision 2. Independently reread all 28 final option rationales and verified that the revised alternatives test actual adjacent doctrines without creating a second correct answer."
+      }
+    ],
+    "limitations": "Independent AI primary-source review, not a California attorney, licensed instructor, surveyor, environmental professional, or qualified human subject-matter certification. Source review is bounded to these actual claims and the operative provisions retrieved September 7, 2026; not an exhaustive review of every law or possible examination item. Current statutes and agency guidance govern over dated reference-book explanations. Educational parcel calculations state simplifying assumptions and do not establish boundaries or development entitlements. Local nonconforming-use rules are expressly illustrative. No guarantee of examination performance."
+  }
+]

@@ -9,7 +9,12 @@ objectives:
   - Identify the parties and functions of notes, mortgages, and deeds of trust.
   - Explain priority, subordination, assumption, and reconveyance.
   - Distinguish default remedies and the main California anti-deficiency principles.
+  - Apply foreclosure notice periods and distinguish reinstatement, payoff, and conditional judicial redemption.
 sources:
+  - label: CFPB mortgage sale and loan terms
+    url: https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/
+  - label: DRE real estate finance reference
+    url: https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf
   - label: CFPB closing document review
     url: https://www.consumerfinance.gov/owning-a-home/close/review-documents-before-closing/
   - label: California purchase-money anti-deficiency law
@@ -18,6 +23,26 @@ sources:
     url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d.
   - label: California foreclosure statutes
     url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.
+  - label: California foreclosure notice recipients and mailing periods
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924b.
+  - label: California reinstatement and its cutoff
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.
+  - label: California sale notices and residential postponements, section 2924f operative in 2026
+    url: https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.
+  - label: California business-day definition for reinstatement
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.
+  - label: California pre-default borrower contact, smaller servicers
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.5.
+  - label: California pre-default borrower contact, other covered servicers
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.55.
+  - label: California borrower-contact protection coverage
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.15.
+  - label: CFPB Regulation X, delinquency and loss-mitigation foreclosure restrictions
+    url: https://www.consumerfinance.gov/rules-policy/regulations/1024/41/
+  - label: California judicial foreclosure and the availability of redemption
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.
+  - label: California judicial foreclosure redemption periods
+    url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=729.030.
 glossary:
   - term: Promissory note
     definition: The written promise to repay debt under stated terms.
@@ -35,6 +60,10 @@ glossary:
     definition: Debt remaining after application of foreclosure proceeds, with collection limited by applicable law.
   - term: Reinstatement
     definition: Curing specified defaults and costs to restore the loan without paying the entire accelerated principal.
+  - term: Notice of default
+    definition: The recorded notice that begins California's statutory nonjudicial foreclosure sequence, after applicable pre-recording requirements.
+  - term: Statutory redemption
+    definition: A post-sale right to recover property by the required payment, available for specified judicial foreclosures but not an ordinary completed nonjudicial trustee sale.
 ---
 
 ## The note is the promise; security backs it
@@ -81,17 +110,69 @@ Seller financing has similar layers. A seller may receive a note secured by a ju
 
 ## Default and foreclosure routes
 
-California permits judicial foreclosure through court and nonjudicial foreclosure under a valid power of sale. Nonjudicial foreclosure involves statutory notices, waiting periods, and sale procedures. Borrower-contact, loss-mitigation, postponement, and other requirements may apply depending on the loan and circumstances. A missed payment does not authorize the lender to change locks the next morning.
+Judicial foreclosure proceeds through a court action. Nonjudicial foreclosure uses the instrument's power of sale and the statutory trustee-sale procedure. Neither an acceleration clause nor a missed installment permits an immediate sale. First classify the loan, route, notices, and any applicable borrower protections.
 
-The ordinary statutory framework includes a recorded notice of default followed by the required interval before a notice of sale and a separate sale-notice period. These are minimum procedural components, not a guaranteed overall completion date. Actual timelines can be longer because of applicable protections, postponements, bankruptcy, or litigation.
+### Before the notice of default
 
-Reinstatement generally cures the delinquency and allowed costs without paying the full accelerated balance, within the applicable period. Redemption involves paying what is required to recover the property or satisfy the secured debt under the relevant law. California generally provides no post-sale statutory redemption following a completed nonjudicial trustee sale; judicial foreclosure can have different redemption consequences. Distinguish curing before sale from recovering after sale.
+| Protection | Clock and trigger | Coverage distinction |
+| --- | --- | --- |
+| Federal servicing restriction | Generally no first foreclosure notice or filing until the loan is **more than 120 days delinquent** | Regulation X covered mortgages; exceptions include specified due-on-sale enforcement and joining another lienholder's foreclosure |
+| California borrower contact | Generally wait **30 days after required initial contact**, or after satisfying statutory due diligence when contact cannot be made | Covered loans and servicers under Civil Code sections 2923.5 or 2923.55; contact assesses finances and explores alternatives |
+| Loss-mitigation protections | A qualifying application can restrict starting or continuing foreclosure | Coverage, completeness, submission date, and review status matter |
+
+The California contact provisions generally cover first liens on owner-occupied principal residences of no more than four units securing personal, family, or household loans. Servicer-specific rules and exceptions still apply. [Section 2924.15](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.15.).
+
+These clocks can overlap. Do not automatically calculate 120 + 30 days, and do not apply consumer-home-loan protections to every commercial loan. A generic collection letter is not necessarily the required borrower contact. [Regulation X](https://www.consumerfinance.gov/rules-policy/regulations/1024/41/) and the applicable [California contact statute](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.55.) control.
+
+### From default notice to sale notice
+
+| Event | Ordinary statutory minimum or deadline |
+| --- | --- |
+| Record notice of default, or NOD | Starts the **three-calendar-month** interval under section 2924 |
+| Mail NOD to trustor and recorded notice requesters | **Within 10 business days** after recording; registered or certified mail, with an additional first-class copy to the trustor |
+| Mail NOD to specified recorded junior interests and successors | **Within one month** after recording, subject to section 2924b's recorded-interest and address requirements |
+| Record notice of sale, or NOS | At least **20 days before sale**; section 2924 permits recording up to five days before the three-month interval expires |
+| Give sale notice | Required posting and first publication at least **20 days before sale**; publication once weekly for **three consecutive calendar weeks**; required mailing also at least 20 days before sale |
+| Conduct sale | No earlier than **three months plus 20 days after NOD recording**, with all other requirements satisfied |
+
+The five-day early-recording option does **not** shorten the earliest sale date. Mailing, posting, publication, and recording are separate duties, not interchangeable ways to give a single notice. See [section 2924](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.) and [section 2924b](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924b.).
+
+**Calendar example.** Assume a valid NOD is recorded May 5, 2026, all pre-recording requirements were met, and there are no additional restrictions or postponements. Three calendar months reaches August 5. Adding 20 days reaches **August 25**, the earliest date under this basic sequence if every notice requirement is also timely satisfied. May 5 to August 5 is 92 days, so replacing three months with exactly 90 days gives the wrong calculation.
+
+### Reinstatement is a cure, not full payoff
+
+For a qualifying monetary default accelerated before original maturity, reinstatement pays the overdue amounts, required advances, and permitted costs and fees. It excludes principal that would not yet be due without the default. The statutory nonjudicial cure window runs from NOD recording until **five business days before the noticed sale**. A later cure may be accepted by agreement, but the statute does not guarantee it during that final period. Full payoff remains a different pre-sale route. [Section 2924c](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.) supplies the conditions.
+
+The right can revive upon a subsequently recorded NOS. It also revives when an on-sale-date postponement exceeds five business days, ending five business days before the rescheduled date. Not every postponement creates an unlimited new cure window. In a qualifying judicial foreclosure, section 2924c instead permits cure before entry of the foreclosure decree.
+
+**Count the statute's days.** Section 2924c uses Civil Code section 9, not an assumed Monday-through-Friday schedule. Saturdays can count; Sundays and applicable legal holidays do not, and banking-day qualifications can matter. For a Wednesday, August 26 sale, assume no holiday or banking exception: counting backward gives Tuesday 25, Monday 24, Saturday 22, Friday 21, and Thursday 20. **August 20 is the five-business-day boundary; August 24 is already inside the final period.** Obtain the actual cure quote and tender requirements rather than relying on a generic weekday counter. [Business-day definition](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.).
+
+### Why a minimum timeline can grow
+
+For residential property of no more than four units, current section 2924f includes these additional rules:
+
+- A qualifying listing with a California-licensed broker for public marketing, received through prescribed tracked, signed delivery at least five business days before sale, postpones sale **45 days after the scheduled date**, once.
+- Following that postponement, a qualifying fully executed purchase contract received through that method at least five business days before sale moves sale to **at least 45 days after receipt**, once. Its price must cover all recorded secured obligations; required buyer, closing, and escrow terms also apply.
+- For a **first-lien** sale, the first auction has a **67% fair-market-value floor**. If unsold, postpone at least **seven days** before sale to the highest bidder.
+
+These are conditional protections, not an automatic 90-day extension. Bankruptcy, court orders, and other postponement rules can also affect timing. Certain residential eligible-bidder procedures can delay sale finality; they are not the former borrower's statutory redemption right. [Current sale provisions, including sections 2924f and 2924m](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.).
+
+### After sale: identify whether redemption exists
+
+| Foreclosure result | Borrower's post-sale statutory redemption |
+| --- | --- |
+| Completed nonjudicial trustee sale | **None** under the ordinary trustee-sale framework |
+| Judicial sale where deficiency is waived or prohibited | **No statutory redemption** under the section 726(e) route |
+| Judicial sale subject to redemption; proceeds cover secured debt, interest, and action/sale costs | **Three months after sale** |
+| Judicial sale subject to redemption; proceeds are insufficient | **One year after sale** |
+
+For an eligible judicial sale on August 25, 2026, the three-month calculation reaches November 25, 2026; the one-year calculation reaches August 25, 2027. First establish the right under [section 726](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.), then choose the period under [section 729.030](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=729.030.). Do not answer "one year after every foreclosure." Redemption requires the statutory redemption payment and procedure, not merely the missed installments.
 
 ## Deficiency protections require classification
 
 A deficiency is the debt left after proceeds are applied. California does not permit every unpaid amount to become a personal judgment. Code of Civil Procedure section 580d generally bars collection of a deficiency on the note secured by the instrument under which a nonjudicial power-of-sale foreclosure occurred, subject to statutory qualifications.
 
-Section 580b separately protects specified purchase-money obligations. It includes qualifying seller carryback security for the purchase price and qualifying institutional purchase loans on purchaser-occupied dwellings of not more than four families. The separate vendor purchase-price provision is not limited by that institutional-loan dwelling test; qualifying seller carryback security on commercial property can receive protection.
+Section 580b separately protects specified purchase-money obligations. It includes qualifying seller carryback security for the purchase price and qualifying third-party lender purchase loans on purchaser-occupied dwellings of not more than four families. That lender need not be an institution. The separate vendor purchase-price provision is not limited by that third-party-loan dwelling test; qualifying seller carryback security on commercial property can receive protection.
 
 Certain refinances of protected purchase-money debt retain protection for the covered portion under the statute, while qualifying new cash advances require separate analysis. The statement that refinancing always destroys purchase-money protection is overbroad.
 
@@ -121,9 +202,16 @@ Subordination deliberately changes this order. A seller accepting carryback fina
 
 ## Separate acceleration from collection
 
-A missed payment may permit acceleration under the note and security instrument, subject to applicable protections. Acceleration means the lender can declare the remaining debt due. It does not mean a trustee may disregard notices, waiting periods, or other foreclosure requirements. Likewise, a due-on-sale clause creates rights concerning covered transfers, but lawful exceptions and the actual transaction must be considered before concluding that acceleration is permitted.
+An accelerated demand can be far larger than a timely reinstatement amount. Assume a qualifying default, a $300,000 remaining principal balance, and the following complete, nonoverlapping cure items. The loan has not reached original maturity, and tender is within the statutory cure window.
 
-Reinstatement and payoff answer different demands. Reinstatement generally addresses the delinquent amounts and allowable charges needed to restore the loan within the applicable period. Full payoff satisfies the outstanding obligation. A borrower with enough cash to cure missed installments may not have enough to pay the entire principal. Do not treat these as equivalent simply because both can stop a pending enforcement problem in an appropriate situation.
+| Reinstatement item | Amount |
+| --- | ---: |
+| Three missed $2,000 installments | $6,000 |
+| Required tax and insurance advances not included above | $1,200 |
+| All permitted fees and costs, as stipulated | $800 |
+| **Total cure** | **$8,000** |
+
+The borrower does **not** add the $300,000 balance to obtain the cure amount. Reinstatement restores the loan; it does not forgive principal. Full payoff instead satisfies the remaining debt and applicable accrued amounts. Figures can change with new defaults, advances, and costs, so an old quote is not necessarily the amount required on a later tender date.
 
 ## Classify a possible deficiency
 
@@ -139,4 +227,6 @@ For the salesperson, recognizing these boundaries is essential; predicting litig
 - Trustor gives security, beneficiary benefits, and trustee has limited instrument powers.
 - Priority controls foreclosure exposure.
 - Assumption does not automatically release the original borrower.
+- The basic nonjudicial sequence is three calendar months plus 20 days, subject to other requirements; statutory reinstatement ends five business days before sale.
+- Completed trustee sales and judicial sales without a redemption right do not create a one-year right to recover the property.
 - Anti-deficiency rules depend on the debt and remedy, not simply whether the property is residential.

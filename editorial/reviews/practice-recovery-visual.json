@@ -1,0 +1,18 @@
+{
+  "reviewed": "2026-09-06",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "id": "practice-recovery-limits-independent-2026-09-06",
+  "reviewer": "audit_practice_agency independent reviewer; replacement chart authorship by root",
+  "scope": "Read the replacement Consumer Recovery Account chart independently against the current DRE Consumer Recovery Account guidance. Recomputed all five points as min(70000,50000,max(0,250000-prior)) and checked stipulated eligible loss, shared transaction cap, prior payments, and no competing pending claims.",
+  "sourceUrls": ["https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html"],
+  "artifacts": [
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-recovery-two-ceilings",
+      "digest": "edf67a3366a40ef67ac6e12b8ce0639e99541b10d66db93b933c2d6ed409619c"
+    }
+  ],
+  "findings": [],
+  "limitations": "Independent AI source check only. Eligibility, possible proration, and actual administrative award decisions remain separate; the chart illustrates ceilings, not promised payment. No qualified human review has been obtained."
+}

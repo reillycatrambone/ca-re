@@ -2,6 +2,7 @@ import { expect, test, type Locator } from '@playwright/test'
 import { getLessons } from '../lib/content'
 import { learningFigures } from '../lib/learning-figures'
 import { getStudyGuides } from '../lib/study-guides/content'
+import { seedLongPractice } from './helpers/study-session'
 
 const lessons = getLessons()
 const publicViews = ['/', '/practice/', '/flashcards/', '/glossary/', '/math/', '/sources/']
@@ -292,9 +293,7 @@ test('scrollbars stay visually hidden in the document, navigation, search, drawe
   await expectScrollbarsHidden(drawer)
   await page.keyboard.press('Escape')
 
-  await page.goto('/practice/')
-  await page.getByRole('tab', { name: 'Mock exam' }).click()
-  await page.getByRole('button', { name: 'Start timed exam' }).click()
+  await seedLongPractice(page)
   await page.getByRole('button', { name: 'Question navigator', exact: true }).click()
   await expect(page.locator('.question-map button')).toHaveCount(150)
   await expectScrollbarsHidden(page.locator('.question-map'))

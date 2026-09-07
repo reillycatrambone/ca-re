@@ -1,0 +1,1393 @@
+[
+  {
+    "id": "practice-rule-rent-notice-thresholds",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "choose-the-notice-before-counting-days",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "For an ordinary residential periodic rent increase, the 30-day or 90-day notice threshold depends on the combined increase over the preceding 12 months; notice does not authorize an independently unlawful amount.",
+    "conditions": [
+      "Use the rental amount charged during the preceding 12 months, not only the most recent step.",
+      "The basic examples assume personal delivery, no longer governing notice, and an otherwise lawful increase."
+    ],
+    "exceptions": [
+      "Required income or family-composition recertification can invoke the specific 30-day exception.",
+      "Mail service may add time; another applicable rule or agreement can require longer notice."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=827.",
+        "locator": "Section 827(b)(1)-(3), (c)",
+        "supports": "Establishes delivery methods, the 10%-or-less versus more-than-10% threshold, cumulative increases, recertification exception, and longer required periods."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "change-one-fact-the-notice-changes",
+        "summary": "The chapter changes proposed rent from $2,200 to $2,250 after a $2,000 starting rent, changing the combined increase from 10% to 12.5% and the personal-delivery period from 30 to 90 days.",
+        "figureIds": [
+          "exp-practice-rent-notice-arithmetic"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-099",
+      "practice-100",
+      "practice-103"
+    ]
+  },
+  {
+    "id": "practice-rule-termination-party-duration",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "choose-the-notice-before-counting-days",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "The ordinary landlord notice for ending a residential periodic tenancy is 60 days, with a 30-day shorter-residency rule; a month-to-month tenant ordinarily gives 30 days.",
+    "conditions": [
+      "The teaching examples use a sole resident to isolate the occupancy-duration rule.",
+      "The proposed termination must independently comply with applicable just-cause restrictions."
+    ],
+    "exceptions": [
+      "A qualifying sale has a separate statutory 30-day exception.",
+      "Subsidy requirements, longer local protections, and required service procedures can change the result."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.1.",
+        "locator": "Section 1946.1(b)-(f)",
+        "supports": "Distinguishes landlord and tenant notice, shorter residency, qualifying sales, and permissible service."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "change-one-fact-the-notice-changes",
+        "summary": "An eight-month sole resident and an 18-month sole resident receive different ordinary landlord periods; the tenant's own month-to-month notice remains distinct.",
+        "figureIds": [
+          "exp-practice-who-ends-tenancy"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-101"
+    ]
+  },
+  {
+    "id": "practice-rule-curable-notice-count",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "choose-the-notice-before-counting-days",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "The three-day period in a covered pay-rent-or-quit or perform-or-quit notice excludes Saturdays, Sundays, and judicial holidays.",
+    "conditions": [
+      "Use a remediable default governed by CCP 1161(2) or (3).",
+      "Begin counting after completed service; the worked questions expressly assume valid personal service."
+    ],
+    "exceptions": [
+      "Noncurable termination grounds are not interchangeable with the curable-default provisions.",
+      "Substituted or posted service requires compliance with the separate service statute."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1161.",
+        "locator": "Section 1161(2)-(3)",
+        "supports": "Excludes Saturdays, Sundays, and judicial holidays from the stated curable-default three-day notices."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "change-one-fact-the-notice-changes",
+        "summary": "A Friday-served notice followed by a Monday judicial holiday counts Tuesday, Wednesday, and Thursday, rather than three consecutive calendar days.",
+        "figureIds": [
+          "exp-practice-cure-holiday-clock"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-102"
+    ]
+  },
+  {
+    "id": "practice-rule-security-aggregate-cap",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "current-security-deposit-limits",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "For newly collected residential security governed by the current general rule, aggregate security is limited to one month's rent in addition to the first month's rent.",
+    "conditions": [
+      "Identify when the security is demanded or received and which statutory regime applies.",
+      "Count payments by their security purpose, including refundable cleaning security, not merely their labels."
+    ],
+    "exceptions": [
+      "A qualifying small-landlord exception and other specific statutory provisions require separate analysis.",
+      "The current cap does not automatically make every earlier lawfully collected deposit unlawful."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(b)-(c), current cap and transition provisions",
+        "supports": "Defines security by purpose and establishes the general cap, exceptions, and treatment of earlier deposits."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario",
+        "summary": "The chapter combines a $2,000 deposit with $500 cleaning security and tests the $2,500 total against the ordinary $2,000 cap.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-034",
+      "practice-035"
+    ]
+  },
+  {
+    "id": "practice-rule-small-landlord-security-exception",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "apply-the-deposit-exception-to-the-owner",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "The higher small-landlord security limit requires the statutory ownership form, no more than two rental properties, and no more than four offered rental units; it cannot be used against a qualifying prospective service member.",
+    "conditions": [
+      "Identify natural-person ownership or an LLC satisfying the natural-person membership requirement.",
+      "Count both properties and offered rental units across the qualifying owner's portfolio."
+    ],
+    "exceptions": [
+      "Qualifying family-trust settlors or beneficiaries can fall within the statutory natural-person definition.",
+      "The service-member limitation defeats the higher cap even when the owner's portfolio otherwise qualifies."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(c), small-landlord conditions and service-member limitation",
+        "supports": "Provides the ownership and portfolio conditions, defined natural-person treatment, and restriction for prospective service members."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-deposit-exception-to-the-owner",
+        "summary": "Two duplexes fit the two-property/four-unit count; a third rental property fails it. The chapter separately tests a service-member applicant rather than assuming the owner's qualification ends the inquiry.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-036",
+      "practice-074",
+      "practice-093"
+    ]
+  },
+  {
+    "id": "practice-rule-security-deduction-and-accounting",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "deductions-and-return",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "Residential security may cover specified unpaid rent, necessary cleaning, and tenant-caused damage beyond ordinary wear; the ordinary disposition deadline is 21 calendar days after vacancy.",
+    "conditions": [
+      "Amounts must be reasonable and tied to statutorily permitted deductions.",
+      "Separate tenant-caused loss from preexisting deterioration, normal aging, and owner upgrades."
+    ],
+    "exceptions": [
+      "Authorized good-faith estimates require later documentation under the statute.",
+      "Documentation and photograph requirements apply with their statutory conditions and exceptions."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(b), (e), (g), and (h), authorized deductions, photographs, and disposition",
+        "supports": "Limits the purposes and reasonable amounts of deductions and sets the ordinary 21-day itemization/refund process."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "calculate-damage-without-funding-an-upgrade",
+        "summary": "The worn-carpet/new-burn comparison separates ordinary deterioration from the attributable new loss; the ledger reconciles supported deductions and the remaining refund.",
+        "figureIds": [
+          "exp-practice-deposit-disposition-ledger"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-037",
+      "practice-038",
+      "practice-076"
+    ]
+  },
+  {
+    "id": "practice-rule-initial-inspection-and-later-damage",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "apply-the-deposit-exception-to-the-owner",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "A requested statutory initial inspection is scheduled no earlier than two weeks before termination, with at least 48 hours' written notice absent the permitted signed waiver; later damage can remain deductible.",
+    "conditions": [
+      "The tenant requests the initial inspection and no statutory exception removes that procedure.",
+      "Distinguish this specific inspection notice from ordinary entry notice and final deposit accounting."
+    ],
+    "exceptions": [
+      "The parties may waive the 48-hour notice in a signed writing.",
+      "Qualifying concealed conditions or damage after the inspection are not necessarily barred by the initial list."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(f), initial inspection and deductions following inspection",
+        "supports": "Specifies timing, notice waiver, opportunity to remedy, and exceptions concerning later or concealed conditions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-deposit-exception-to-the-owner",
+        "summary": "The move-out figure displays the pretermination inspection window separately from the postvacancy 21-day disposition; chapter text explains the later-damage exception.",
+        "figureIds": [
+          "exp-practice-moveout-separate-clocks"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-075",
+      "practice-094"
+    ]
+  },
+  {
+    "id": "practice-rule-management-actual-authority",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "the-manager-represents-the-owner-within-limits",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "A property manager's actual authority comes from the owner's authorization and does not expand merely because a proposed project appears useful or is divided into smaller invoices.",
+    "conditions": [
+      "Read the agreement's spending and approval limits.",
+      "The question excludes emergency or other additional authority."
+    ],
+    "exceptions": [
+      "Separate authorized emergency procedures can change who may act without routine approval.",
+      "An owner's instruction cannot authorize conduct prohibited by law."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2316.",
+        "locator": "Section 2316, actual authority",
+        "supports": "Defines actual authority in terms of authority intentionally conferred or allowed by the principal."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-manager-represents-the-owner-within-limits",
+        "summary": "The chapter contrasts authority for a $400 plumbing repair with a $40,000 renovation; the question applies a different $600/$8,000 authorization limit.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-033"
+    ]
+  },
+  {
+    "id": "practice-rule-preventive-maintenance-purpose",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "operate-from-a-budget-and-reliable-records",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "Preventive maintenance uses planned inspections and servicing to reduce avoidable deterioration and failure; corrective and emergency work respond to different conditions.",
+    "conditions": [
+      "Classify the objective of the work, not just the account used to pay it.",
+      "A maintenance plan distinguishes planned prevention, existing defects, and urgent safety conditions."
+    ],
+    "exceptions": [
+      "Urgent protective work may be required before routine scheduling.",
+      "A capital replacement undertaken to reposition a property is not automatically preventive maintenance."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref22.pdf",
+        "locator": "Chapter 22, Maintenance and Purchasing Operations, printed p. 531",
+        "supports": "Supports routine inspection, prompt repair, and preventive maintenance to avoid larger future expenditures."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "operate-from-a-budget-and-reliable-records",
+        "summary": "The maintenance section contrasts scheduled prevention with corrective repairs and immediate protective work; the question requires distinguishing those neighboring objectives.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-040"
+    ]
+  },
+  {
+    "id": "practice-rule-management-noi-cash",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "reconcile-the-budget-with-cash",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "Property NOI is effective gross income less operating expenses; financing payments and owner distributions belong to later cash-flow analysis.",
+    "conditions": [
+      "Deduct vacancy and collection losses before operating expenses.",
+      "Use a consistent period and distinguish operating expenses from debt service and capital-related cash."
+    ],
+    "exceptions": [
+      "A reserve transfer can reduce distributable cash without automatically becoming an operating expense.",
+      "Detailed accounting and valuation can require additional classifications beyond the simplified problem."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Chapter 15, Income Approach; gross income, expenses, and net income",
+        "supports": "Supports the property-level income calculation and separation of financing from operating income."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reconcile-the-budget-with-cash",
+        "summary": "The chapter reconciles $12,000 scheduled rent, $1,000 losses, $4,000 operating expenses, and $3,500 debt service into $7,000 NOI and $3,500 subsequent cash.",
+        "figureIds": [
+          "management-cash-flow"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-073"
+    ]
+  },
+  {
+    "id": "practice-rule-possession-no-self-help",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "habitability-entry-and-possession",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "A landlord cannot replace the lawful eviction process with a lockout while the tenant remains in possession without surrender or abandonment.",
+    "conditions": [
+      "Distinguish a notice demanding surrender from recovery of possession through legal process.",
+      "The question assumes the tenant still occupies the premises."
+    ],
+    "exceptions": [
+      "Actual surrender or legally established abandonment requires a different analysis.",
+      "The need to recover rent does not create a lockout remedy."
+    ],
+    "sources": [
+      {
+        "url": "https://selfhelp.courts.ca.gov/eviction-landlord",
+        "locator": "Landlord eviction process, prohibited self-help and court steps",
+        "supports": "Explains that landlords must use the eviction process rather than force tenants out through locks or utility shutoffs."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "habitability-entry-and-possession",
+        "summary": "The chapter contrasts notice and court process with lockouts and utility shutoffs; the question changes the debt and lease facts without supplying lawful possession.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-039"
+    ]
+  },
+  {
+    "id": "practice-rule-fiduciary-tds-exemption",
+    "lessonSlug": "practice-disclosures-inspections",
+    "sectionId": "is-this-actually-a-fiduciary-transfer",
+    "coverageTopics": [
+      "Transfer Disclosure Statement"
+    ],
+    "rule": "A qualifying fiduciary administration transfer can be exempt from the TDS, but a natural-person trustee of a revocable trust loses that exemption when the trustee formerly owned the property or occupied it within the preceding year.",
+    "conditions": [
+      "First establish that the present seller acts in the course of the specified fiduciary administration.",
+      "Apply natural-person status, revocability, and the alternative former-ownership/recent-occupancy branch."
+    ],
+    "exceptions": [
+      "The one-year lookback qualifies occupancy, not former ownership.",
+      "An heir's later individual resale is not automatically an administration transfer.",
+      "Form exemption does not eliminate independent known-material-fact duties."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.2.",
+        "locator": "Section 1102.2(d)",
+        "supports": "Defines the fiduciary administration exemption and the natural-person revocable-trust exception."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.8.",
+        "locator": "Section 1102.8",
+        "supports": "Preserves independent disclosure obligations notwithstanding the form's specified items."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "is-this-actually-a-fiduciary-transfer",
+        "summary": "The chapter compares a former-owner trustee, an unrelated trustee who never owned or occupied, and an heir selling after distribution; questions isolate each branch.",
+        "figureIds": [
+          "exp-practice-trust-exemption-three-tests"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-050",
+      "practice-104",
+      "practice-105",
+      "practice-106",
+      "practice-107"
+    ]
+  },
+  {
+    "id": "practice-rule-known-facts-despite-as-is",
+    "lessonSlug": "practice-disclosures-inspections",
+    "sectionId": "forms-and-duties-work-together",
+    "coverageTopics": [
+      "Disclosure of Material Facts Affecting Property Value"
+    ],
+    "rule": "As-is allocation, nonoccupancy, and exemption from a particular form do not authorize withholding known material condition information.",
+    "conditions": [
+      "The seller or agent actually knows the condition or possesses a material report.",
+      "Separate repair responsibility from information disclosure."
+    ],
+    "exceptions": [
+      "Whether a particular form is required remains a separate statutory question.",
+      "Not every unknown condition or unsupported suspicion is established knowledge of a defect."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.8.",
+        "locator": "Section 1102.8",
+        "supports": "Preserves disclosure obligations arising under other law or to avoid fraud, misrepresentation, or deceit."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-the-remaining-duties",
+        "summary": "Known foundation-movement information in an existing contractor's letter remains distinct from fiduciary-form eligibility; as-is flooding tests the same separation of repair and disclosure.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-049",
+      "practice-081"
+    ]
+  },
+  {
+    "id": "practice-rule-tds-delivery-trigger-and-period",
+    "lessonSlug": "practice-disclosures-inspections",
+    "sectionId": "keep-separate-delivery-clocks-visible",
+    "coverageTopics": [
+      "Transfer Disclosure Statement"
+    ],
+    "rule": "Late delivery of the required completed TDS or a material amendment can create a termination opportunity of three days after personal delivery or five days after mailing or agreed electronic delivery.",
+    "conditions": [
+      "Use the statutory context of delivery after execution of the buyer's offer.",
+      "For a represented seller, the required completed sections I, II, and III must be delivered before the period commences."
+    ],
+    "exceptions": [
+      "A partial packet does not start the completed-disclosure clock.",
+      "A contractual inspection contingency and federal mortgage rescission are separate rights."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+        "locator": "Section 1102.3(c), delivery methods and completed sections",
+        "supports": "Sets the late-disclosure termination periods and the required completion/delivery trigger."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-separate-delivery-clocks-visible",
+        "summary": "An email containing only I and II does not start the period while required III is missing; the worked escrow scenario keeps the five-day right separate from the contract's inspection deadline.",
+        "figureIds": [
+          "exp-practice-tds-packet-completeness"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-051",
+      "practice-052",
+      "practice-084",
+      "practice-097"
+    ]
+  },
+  {
+    "id": "practice-rule-nhd-scope-and-known-error",
+    "lessonSlug": "practice-disclosures-inspections",
+    "sectionId": "the-natural-hazard-disclosure",
+    "coverageTopics": [
+      "Natural Hazard Disclosure Statements",
+      "Reports"
+    ],
+    "rule": "An NHD addresses specified hazard-area mapping, not all building conditions or future safety; statutory third-party reliance does not excuse a known wrong-parcel report.",
+    "conditions": [
+      "Verify the report identifies the actual subject property.",
+      "Distinguish map conclusions from title interests, structural diagnosis, and insurance availability."
+    ],
+    "exceptions": [
+      "A qualifying expert report can satisfy specified information duties when statutory conditions are met.",
+      "Known error and lack of ordinary care defeat the assumed error-reliance protection."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.2.",
+        "locator": "Section 1103.2, prescribed Natural Hazard Disclosure categories",
+        "supports": "Defines the map-based hazard statement and its prescribed hazard subjects."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.4.",
+        "locator": "Section 1103.4(a)-(c)",
+        "supports": "Conditions relief for errors on lack of personal knowledge, qualifying information, and ordinary care."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-natural-hazard-disclosure",
+        "summary": "The wrong-APN specimen forces correction of the parcel identity before relying on the zone answer; the chapter compares map evidence with physical and title reports.",
+        "figureIds": [
+          "exp-practice-nhd-parcel-mismatch"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-053",
+      "practice-056"
+    ]
+  },
+  {
+    "id": "practice-rule-inspection-observation-not-diagnosis",
+    "lessonSlug": "practice-disclosures-inspections",
+    "sectionId": "distinguish-observation-diagnosis-and-assurance",
+    "coverageTopics": [
+      "Need for Inspection and Obtaining/Verifying Information",
+      "Disclosure of Material Facts Affecting Property Value"
+    ],
+    "rule": "A covered agent visual inspection requires disclosure of material observations without converting a warning sign into an unsupported technical diagnosis or clearance.",
+    "conditions": [
+      "Apply the inspection duty in the covered transaction and agency relationship.",
+      "An existing report remains information even if the condition would not be visible during a limited inspection."
+    ],
+    "exceptions": [
+      "The visual duty is not an unrestricted destructive or engineering investigation.",
+      "The buyer may decline a specialist, but that decision does not establish that the reported condition is sound."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+        "locator": "Section 2079(a)-(b)",
+        "supports": "Establishes the covered reasonably competent and diligent visual inspection and material-fact disclosure duty."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.8.",
+        "locator": "Section 1102.8",
+        "supports": "Preserves independent obligations concerning known material information."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-observation-diagnosis-and-assurance",
+        "summary": "A diagonal crack is accurately described and referred for qualified evaluation; a declined moisture investigation remains unresolved rather than becoming a clearance.",
+        "figureIds": [
+          "exp-practice-inspection-observation-log",
+          "inspection-evidence"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-054",
+      "practice-082",
+      "practice-098"
+    ]
+  },
+  {
+    "id": "practice-rule-lead-opportunity-versus-disclosure",
+    "lessonSlug": "practice-disclosures-inspections",
+    "sectionId": "federal-lead-and-sensitive-facts",
+    "coverageTopics": [
+      "Disclosure of Material Facts Affecting Property Value",
+      "Reports"
+    ],
+    "rule": "Covered pre-1978 home sales require known lead information and available records, prescribed materials, and generally a ten-day inspection opportunity before the buyer is obligated; a testing waiver does not erase existing-information duties.",
+    "conditions": [
+      "The transaction is covered by the federal lead disclosure rule.",
+      "The ten-day default applies when the parties have not agreed to another period or the buyer has not waived the opportunity in writing."
+    ],
+    "exceptions": [
+      "The rule does not generally require the seller to perform or fund a lead test.",
+      "A valid inspection-opportunity waiver leaves known-information and report-delivery requirements intact."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+        "locator": "EPA page, home seller requirements and buyers' ten-day inspection opportunity",
+        "supports": "Separates the seller's information/pamphlet duties from the buyer's adjustable or waivable inspection opportunity."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "federal-lead-and-sensitive-facts",
+        "summary": "The lead waiver specimen retains a known report in the delivered packet despite a written waiver of further testing.",
+        "figureIds": [
+          "exp-practice-lead-waiver-boundary"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-055",
+      "practice-083"
+    ]
+  },
+  {
+    "id": "practice-rule-consumer-choice-and-sorting",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "treat-choices-as-the-consumers-choices",
+    "coverageTopics": [
+      "Fair Housing Laws",
+      "Servicing Diverse Populations"
+    ],
+    "rule": "Housing service must follow the consumer's lawful criteria rather than protected-trait assumptions; steering directs housing choices, while blockbusting induces transactions through protected-group fears for profit.",
+    "conditions": [
+      "Distinguish the agent's imposed protected-trait restriction from the client's own price, location, or access criteria.",
+      "Identify the actual conduct before selecting the neighboring discrimination term."
+    ],
+    "exceptions": [
+      "Serving a disability-related access preference is not itself steering.",
+      "A principal's instruction does not authorize discriminatory service."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+        "locator": "Section 12955, prohibited discrimination in housing services and blockbusting",
+        "supports": "Prohibits covered protected-class discrimination and profit-seeking inducement through protected-group representations."
+      },
+      {
+        "url": "https://calcivilrights.ca.gov/housing/",
+        "locator": "CRD housing page, scope of protection and disability-related services",
+        "supports": "Explains that protections apply throughout housing service and require responsive accommodation."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-equal-service-with-identical-treatment",
+        "summary": "The chapter contrasts the client's request for ground-floor options with the agent's decision to channel disabled applicants to a particular building; demographic fear used to solicit sales is separately classified.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-017",
+      "practice-018",
+      "practice-065"
+    ]
+  },
+  {
+    "id": "practice-rule-advertising-text-and-audience",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "recognize-discrimination-before-a-rejection",
+    "coverageTopics": [
+      "Fair Housing Laws",
+      "Truth in Advertising"
+    ],
+    "rule": "A housing advertisement can discriminate through protected-class exclusions in its wording or its distribution, before anyone submits an application.",
+    "conditions": [
+      "The questions assume a covered rental and no relevant exemption.",
+      "Evaluate both the advertised preference and deliberate audience restrictions."
+    ],
+    "exceptions": [
+      "Property features and lawful terms are not themselves preferences for a protected type of resident.",
+      "Specific senior or shared-living exceptions must be analyzed separately rather than presumed."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+        "locator": "Section 12955(a), (c), and housing opportunity prohibitions",
+        "supports": "Addresses discriminatory housing practices and notices, statements, or advertisements expressing protected-class preferences."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "recognize-discrimination-before-a-rejection",
+        "summary": "The chapter contrasts neutral transit and bedroom descriptions with adults-only wording, and compares neutral text with a deliberately restricted digital audience.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-023",
+      "practice-068"
+    ]
+  },
+  {
+    "id": "practice-rule-subsidy-screening-evidence",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "screening-with-subsidized-rent",
+    "coverageTopics": [
+      "Fair Housing Laws"
+    ],
+    "rule": "California housing-subsidy protections bar blanket voucher rejection and require the applicable opportunity to provide lawful, verifiable alternative ability-to-pay evidence when credit history would otherwise be used.",
+    "conditions": [
+      "Use the tenant-paid share when applying an otherwise lawful income standard.",
+      "Give reasonable time and consideration to the protected alternative-evidence process."
+    ],
+    "exceptions": [
+      "The opportunity to submit evidence is not automatic approval regardless of lawful qualifications.",
+      "Consistent use of a prohibited standard does not make the standard lawful."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+        "locator": "Section 12955(o)(1)(A)-(B), subsidy share and alternative evidence; (p)(1), source-of-income definition",
+        "supports": "Protects housing subsidies, limits income comparisons to the tenant's portion, and governs alternative evidence in credit screening."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "screening-with-subsidized-rent",
+        "summary": "The chapter applies a 2.5 multiplier to an $800 tenant share rather than $3,000 total rent, then tests the applicant who lacks a credit score.",
+        "figureIds": [
+          "exp-practice-voucher-screening-worksheet"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-019",
+      "practice-066"
+    ]
+  },
+  {
+    "id": "practice-rule-accommodation-versus-modification",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "disability-policies-and-physical-features",
+    "coverageTopics": [
+      "Fair Housing Laws"
+    ],
+    "rule": "A reasonable accommodation changes a rule or service; a reasonable modification changes a physical feature. In the ordinary private-housing setting, the tenant generally funds a qualifying modification.",
+    "conditions": [
+      "The request must have the required disability-related connection to equal use and enjoyment.",
+      "Distinguish an existing parking-policy exception from construction of a grab bar or ramp."
+    ],
+    "exceptions": [
+      "Government funding, maintenance duties, or unfulfilled accessibility-code obligations can shift payment responsibility.",
+      "A disability request is not automatically a rent concession or an exemption from unrelated lawful duties."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
+        "locator": "Section 12927(c)(1), disability modifications and accommodations",
+        "supports": "Includes unreasonable refusal of qualifying modifications or accommodations within housing discrimination."
+      },
+      {
+        "url": "https://calcivilrights.ca.gov/housing/",
+        "locator": "CRD FAQs: reasonable accommodation, reasonable modification, and who pays",
+        "supports": "Gives parking, grab-bar, and ramp examples and explains ordinary tenant payment with funding, maintenance, and code exceptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disability-policies-and-physical-features",
+        "summary": "The comparison figure places reserved parking beside a physical access alteration; the ramp question expressly excludes the alternate owner-payment settings.",
+        "figureIds": [
+          "accommodation-modification"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-020",
+      "practice-021",
+      "practice-089"
+    ]
+  },
+  {
+    "id": "practice-rule-accommodation-verification-limits",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "compare-equal-service-with-identical-treatment",
+    "coverageTopics": [
+      "Fair Housing Laws",
+      "Servicing Diverse Populations"
+    ],
+    "rule": "A housing accommodation request need not use a preferred form, and apparent disability-related need does not justify demanding full medical records before evaluation.",
+    "conditions": [
+      "Evaluate the actual uncertainty about disability and the requested accommodation's connection.",
+      "Respond promptly and discuss effective implementation or alternatives when needed."
+    ],
+    "exceptions": [
+      "Limited reliable verification can be appropriate when the relevant disability-related facts are not apparent.",
+      "A complete medical history or diagnosis is not the ordinary verification requirement."
+    ],
+    "sources": [
+      {
+        "url": "https://calcivilrights.ca.gov/housing/",
+        "locator": "CRD FAQs: written requests, response process, and documentation of need",
+        "supports": "States that no particular writing or legal wording is required and limits further inquiry when need is obvious or known."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-equal-service-with-identical-treatment",
+        "summary": "The decision figure asks whether disability, the connection, or only practical implementation is uncertain; the chapter uses an oral parking request with apparent need.",
+        "figureIds": [
+          "exp-practice-accommodation-verification"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-022",
+      "practice-090"
+    ]
+  },
+  {
+    "id": "practice-rule-federal-private-owner-house",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "federal-exemption-is-not-california-exemption",
+    "coverageTopics": [
+      "Fair Housing Laws"
+    ],
+    "rule": "The federal private-individual single-family exemption is conditional on ownership and transaction restrictions, including no disqualifying broker services and the applicable one-sale-in-24-month limit for nonresident or not-most-recent-resident owners.",
+    "conditions": [
+      "The owner must satisfy the no-more-than-three-houses rule and related ownership-interest limitations.",
+      "For the sale limit, nonresidency at sale OR not being the most recent resident is sufficient to trigger the inquiry."
+    ],
+    "exceptions": [
+      "The small owner-occupied building exemption is a different federal path and should not inherit every condition of this path.",
+      "Discriminatory advertising and separate California or other civil-rights laws are not eliminated."
+    ],
+    "sources": [
+      {
+        "url": "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title42-section3603",
+        "locator": "42 USC 3603(b)(1), provisos and broker/advertising conditions",
+        "supports": "Defines the conditional private-owner single-family exception, no-broker requirement, and alternative residence triggers for the 24-month sale limit."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "same-owner-different-boundary",
+        "summary": "Hiring a broker changes the house-exemption result; the question about an owner who just moved out isolates the nonresident trigger despite most-recent residency.",
+        "figureIds": [
+          "exp-practice-broker-involvement-exemption"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-108",
+      "practice-112"
+    ]
+  },
+  {
+    "id": "practice-rule-california-household-not-federal-building",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "same-owner-different-boundary",
+    "coverageTopics": [
+      "Fair Housing Laws"
+    ],
+    "rule": "California's owner-household refusal-to-rent exception is not the federal four-family building exemption: it requires the specified owner-occupied single-family household with no more than one roomer or boarder.",
+    "conditions": [
+      "The roomer or boarder lives within the owner's household, not merely in a separate unit on the same property.",
+      "Test the applicable law and its own conditions rather than transferring one exemption into another."
+    ],
+    "exceptions": [
+      "Two boarders exceed this particular California household exception.",
+      "The cited provision retains restrictions on discriminatory notices, statements, and advertising."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
+        "locator": "Section 12927(c)(2)(A), owner-household exception and advertising proviso",
+        "supports": "Limits the stated household refusal exception to no more than one roomer or boarder and preserves specified advertising protections."
+      },
+      {
+        "url": "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title42-section3603",
+        "locator": "42 USC 3603(b)(2)",
+        "supports": "Supplies the distinct federal no-more-than-four-families owner-occupied building rule."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "same-owner-different-boundary",
+        "summary": "Sam's separate four-unit households do not satisfy the California one-roomer condition; changing to one boarder can fit, while two boarders do not.",
+        "figureIds": [
+          "exp-practice-federal-california-housing-tests"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-109",
+      "practice-110"
+    ]
+  },
+  {
+    "id": "practice-rule-senior-housing-threshold-and-scope",
+    "lessonSlug": "practice-fair-housing",
+    "sectionId": "families-and-limited-exemptions",
+    "coverageTopics": [
+      "Fair Housing Laws"
+    ],
+    "rule": "The federal 55-and-older route generally requires at least 80% of occupied units to contain someone aged 55 or older, together with operational policies and age verification; its exemption concerns familial status.",
+    "conditions": [
+      "Use occupied units as the denominator under the specified counting assumptions.",
+      "Satisfy the policies and verification requirements as well as the numeric test."
+    ],
+    "exceptions": [
+      "Special occupancy-counting situations require additional regulatory analysis.",
+      "Senior status does not authorize unrelated race, religion, or disability discrimination.",
+      "Other older-person housing routes have their own statutory conditions."
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap45-subchapI-sec3607.pdf",
+        "locator": "42 USC 3607(b)(1)-(3), particularly (b)(2)(C)",
+        "supports": "Defines the familial-status scope and the three requirements for the 55-and-older housing route."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "families-and-limited-exemptions",
+        "summary": "The figure distinguishes occupied units from unoccupied inventory; the question uses 64 qualifying units among 80 occupied units and explicitly assumes the other conditions.",
+        "figureIds": [
+          "exp-practice-senior-occupancy-denominator"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-024",
+      "practice-067",
+      "practice-111"
+    ]
+  },
+  {
+    "id": "practice-rule-income-documents-and-lease-rights",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "follow-a-discrepancy-through-due-diligence",
+    "coverageTopics": [
+      "Commercial/Industrial/Income Properties",
+      "Reports"
+    ],
+    "rule": "Rent rolls are summaries to reconcile with leases, tenant confirmations, and collections; concessions, obligations, and enforceable renewal rights can change the income the buyer may actually receive.",
+    "conditions": [
+      "Read actual lease and amendment terms rather than selecting the highest quoted rent.",
+      "Identify continuing credits and the contractual period to which they apply."
+    ],
+    "exceptions": [
+      "An estoppel is not an independent market-rent reset or release of unfinished landlord work.",
+      "An enforceable below-market option can support occupancy while limiting rental upside."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Chapter 12, Underwriting Income Property, printed p. 283",
+        "supports": "Calls for lease review, lessee estoppels, rent rolls, and actual rent analysis; explains the effect of below-market long-term contract rents."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Section 1638",
+        "supports": "Requires clear contractual language to govern interpretation, subject to the statutory qualification."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-a-discrepancy-through-due-diligence",
+        "summary": "The rent-roll/lease figure reports $5,000 while a tenant estoppel reports a continuing $500 credit; the chapter traces the credit and separately considers renewal limits.",
+        "figureIds": [
+          "exp-practice-estoppel-income-conflict"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-041",
+      "practice-044",
+      "practice-078",
+      "practice-079"
+    ]
+  },
+  {
+    "id": "practice-rule-lease-expense-allocation",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "lease-labels-need-supporting-language",
+    "coverageTopics": [
+      "Commercial/Industrial/Income Properties"
+    ],
+    "rule": "Net, gross, and related lease labels summarize expense arrangements but do not replace the actual clauses assigning taxes, insurance, maintenance, and capital work.",
+    "conditions": [
+      "Read each expense obligation and any amendment.",
+      "Separate reimbursement of operating costs from sales-based percentage rent or scheduled rent steps."
+    ],
+    "exceptions": [
+      "A net lease need not make the tenant responsible for every structural or capital cost.",
+      "A landlord can retain particular obligations despite the lease's general label."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Section 1638",
+        "supports": "Supports using clear actual contract terms rather than a label to determine the bargain."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+        "locator": "Chapter 27, printed page 583, NET LEASE",
+        "supports": "Defines net lease expense allocation as rent plus stipulated property charges, supporting the classification without replacing the lease's actual terms."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Chapter 12, Underwriting Income Property, lease and income review",
+        "supports": "Supports examining leases and reimbursement income when analyzing an income property."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "convert-lease-terms-into-comparable-income",
+        "summary": "The lease-cost figure compares expense allocations; the chapter changes a net lease to retain structural replacement with the landlord.",
+        "figureIds": [
+          "commercial-lease-costs"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-042"
+    ]
+  },
+  {
+    "id": "practice-rule-percentage-rent-breakpoint",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "lease-labels-need-supporting-language",
+    "coverageTopics": [
+      "Commercial/Industrial/Income Properties"
+    ],
+    "rule": "When a lease adds a percentage of sales above a stated breakpoint, calculate that excess-sales component and add the separately required base rent.",
+    "conditions": [
+      "Identify annual versus monthly amounts and use the specified sales measure.",
+      "Apply the percentage to sales over the breakpoint, not all sales, unless the lease says otherwise."
+    ],
+    "exceptions": [
+      "Other lease structures can define different breakpoints, exclusions, or minimum-rent arrangements.",
+      "A calculation of stipulated rent does not verify the tenant's reported sales."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Section 1638",
+        "supports": "Supports applying the stated lease formula according to its clear terms."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario",
+        "summary": "The worked scenario computes $36,000 annual base rent plus $9,000 on excess sales; the question changes the breakpoint and sales to yield $46,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-043"
+    ]
+  },
+  {
+    "id": "practice-rule-rent-concessions-versus-noi",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "convert-lease-terms-into-comparable-income",
+    "coverageTopics": [
+      "Commercial/Industrial/Income Properties"
+    ],
+    "rule": "Free-rent months reduce term collections, and spreading collections across the full term gives a simple average; subtracting an improvement contribution alone does not establish property NOI.",
+    "conditions": [
+      "The simple-average examples expressly ignore time value, increases, and other charges.",
+      "Property NOI requires a defined period and appropriate effective-income and operating-expense classification."
+    ],
+    "exceptions": [
+      "An improvement allowance affects cash but need not be treated as a current operating expense.",
+      "Simple average rent is not a complete discounted lease valuation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Section 1638",
+        "supports": "Supports applying the negotiated rent-free period and other stated lease terms."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Chapter 15, Income Approach, operating income and expenses",
+        "supports": "Supports distinguishing property NOI from incomplete lease-term cash arithmetic."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "convert-lease-terms-into-comparable-income",
+        "summary": "A 36-month lease with three free months produces $132,000 at $4,000 per paid month; a separate improvement allowance changes the cash package, not the definition of NOI.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-077",
+      "practice-095",
+      "practice-096"
+    ]
+  },
+  {
+    "id": "practice-rule-phase-one-scope",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "environmental-and-physical-investigation",
+    "coverageTopics": [
+      "Need for Inspection and Obtaining/Verifying Information"
+    ],
+    "rule": "A Phase I environmental inquiry reviews records, interviews, site conditions, and professional evidence to identify concerns; it is not the same as sampling, remediation, or a contamination-free guarantee.",
+    "conditions": [
+      "Use qualified environmental expertise and the actual scope of the commissioned assessment.",
+      "Former uses and adjacent conditions can matter even when the current building looks sound."
+    ],
+    "exceptions": [
+      "Further sampling or Phase II work may be indicated by the findings.",
+      "An inquiry alone does not establish every condition required for an environmental-liability defense."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+        "locator": "EPA AAI page, specific activities and additional services",
+        "supports": "Describes records, interviews, visual inspection, findings, data gaps, and Phase II sampling as additional work."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "investigate-use-before-promising-suitability",
+        "summary": "The chapter contrasts a preliminary concern with both an unsupported clean-site assurance and an unsupported remediation-cost conclusion.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-045"
+    ]
+  },
+  {
+    "id": "practice-rule-intended-use-feasibility",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "investigate-use-before-promising-suitability",
+    "coverageTopics": [
+      "Commercial/Industrial/Income Properties",
+      "Need for Inspection and Obtaining/Verifying Information"
+    ],
+    "rule": "A proposed commercial use must be physically possible and legally permitted; equipment already present, prior use, or a broad zoning label does not alone establish suitability.",
+    "conditions": [
+      "Match the actual intended operation to capacity, access, utilities, permissions, and restrictions.",
+      "Coordinate qualified investigations while relevant transaction rights remain available."
+    ],
+    "exceptions": [
+      "Existing nonconforming uses can have limits on expansion, replacement, or discontinuance.",
+      "The agent cannot guarantee an approval controlled by another authority."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Chapter 15, Principle of Highest and Best Use, printed p. 385",
+        "supports": "Identifies legally permissible and physically possible as distinct tests when evaluating a use."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "investigate-use-before-promising-suitability",
+        "summary": "The chapter evaluates a proposed commercial-kitchen conversion rather than treating existing office plumbing as proof of permitted, workable operation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-048"
+    ]
+  },
+  {
+    "id": "practice-rule-business-assets-versus-occupancy",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "separate-the-business-from-the-premises",
+    "coverageTopics": [
+      "Specialty Areas"
+    ],
+    "rule": "Acquiring business equipment and goodwill does not itself convey a right to occupy leased real estate; required assignment consent or another valid occupancy arrangement must be addressed.",
+    "conditions": [
+      "Identify the interest owned by the business seller separately from fee ownership of the premises.",
+      "Read the lease's transfer restriction and express consent standards."
+    ],
+    "exceptions": [
+      "A new lease or other negotiated occupancy agreement can be an alternative to assignment.",
+      "The exact consent standard and consequences depend on the lease and applicable law."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1995.250.",
+        "locator": "Section 1995.250, consent restrictions and express standards",
+        "supports": "Permits commercial lease transfer restrictions requiring landlord consent subject to stated standards or conditions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-the-business-from-the-premises",
+        "summary": "The cafe buyer may own the equipment but lack permission to remain in the storefront; the questions do not treat a bill of sale or planned rent payments as consent.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-046",
+      "practice-080"
+    ]
+  },
+  {
+    "id": "practice-rule-public-report-disclosure-function",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "business-opportunities-and-other-specialties",
+    "coverageTopics": [
+      "Specialty Areas",
+      "Reports"
+    ],
+    "rule": "A DRE subdivision public report supplies required information about a regulated offering; it is not a construction permit, title map, investment guarantee, or defect insurance.",
+    "conditions": [
+      "Identify that the offering is subject to the public-report regime.",
+      "Distinguish the report's kind and the authority associated with it."
+    ],
+    "exceptions": [
+      "Preliminary and conditional reports do not automatically confer the same sales authority as a final report.",
+      "Other property approvals and transaction disclosures remain separate."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/developers/publicreports.html",
+        "locator": "DRE Public Reports page, report purpose",
+        "supports": "Describes the public report's offering-disclosure and consumer-protection purpose, rather than a guarantee of investment performance."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/sprag.pdf",
+        "locator": "Section III, printed page 5, Types of Public Reports",
+        "supports": "Distinguishes preliminary, conditional, and final public reports and the transaction authority each report supplies."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "business-opportunities-and-other-specialties",
+        "summary": "The chapter contrasts a public report with a recommendation or return guarantee and distinguishes preliminary from final authority; there is not yet a standalone public-report document specimen.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-047"
+    ]
+  },
+  {
+    "id": "practice-rule-bulk-sale-coverage-thresholds",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "when-an-asset-sale-is-a-bulk-sale",
+    "coverageTopics": [
+      "Specialty Areas"
+    ],
+    "rule": "California bulk-sale analysis requires an outside-ordinary-course transfer of more than half the seller's inventory and equipment by value, the specified business/location coverage, and no applicable statutory exclusion.",
+    "conditions": [
+      "Measure more than half by value, not item count or the amount of a busy sales day.",
+      "Identify covered inventory-selling, manufacturing, or restaurant activity and the statutory seller location."
+    ],
+    "exceptions": [
+      "The small-value exclusion uses asset value net of liens below $10,000; the above-$5-million exclusion uses asset value.",
+      "Court-supervised and other specified transactions can be excluded even when the quantity test is met.",
+      "Exactly half does not satisfy more than half."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6102.",
+        "locator": "Section 6102(a)(3), (13), and (15)",
+        "supports": "Defines bulk sale, ordinary course, and value."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6103.",
+        "locator": "Section 6103(a)-(c), especially (c)(12)",
+        "supports": "Defines business/location coverage and exclusions, including differing low/high value tests."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "when-an-asset-sale-is-a-bulk-sale",
+        "summary": "The chapter contrasts liquidation of 80% of a cafe's assets with customary retail sales; questions separately test exact-half transfer and $9,000 net asset value.",
+        "figureIds": [
+          "exp-practice-bulk-sale-activity-test"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-113",
+      "practice-114",
+      "practice-115"
+    ]
+  },
+  {
+    "id": "practice-rule-bulk-notice-channels-and-date",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "notice-is-not-a-lien-release",
+    "coverageTopics": [
+      "Specialty Areas"
+    ],
+    "rule": "For the stated ordinary covered bulk sale, recording, publication, and county-tax-collector notice must precede the statutory sale date by at least 12 business days; the ordinary sale date uses the later payment and asset-transfer thresholds.",
+    "conditions": [
+      "The ordinary examples exclude auctions and liquidator sales.",
+      "For the sale date, identify payment of more than 10% of net contract price and legal transfer of more than 10% of asset value.",
+      "Notice business days exclude weekends and state-government holidays."
+    ],
+    "exceptions": [
+      "Escrow deposits have specific payment rules; mere signing is not the sale date.",
+      "County and publication locations follow the statutory seller and asset locations.",
+      "Tax-collector delivery during January 1 through May 7 also requires the stated business property statement.",
+      "Notice is not debt payment, lien release, or tax clearance."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6102.",
+        "locator": "Section 6102(a)(7), including escrow payment and legal-transfer rules",
+        "supports": "Defines the statutory bulk-sale date and distinguishes its ordinary and auction/liquidator branches."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6105.",
+        "locator": "Section 6105(a)-(d)",
+        "supports": "Specifies notice content, the three channels, at least 12 business days, locations, holiday definition, and tax-collector statement condition."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "notice-is-not-a-lien-release",
+        "summary": "The timeline separates agreement, payment, asset transfer, and later completion; the notice register demonstrates why recording alone does not satisfy the other channels.",
+        "figureIds": [
+          "exp-practice-bulk-sale-trigger-timeline",
+          "exp-practice-bulk-creditor-notice-register"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-116",
+      "practice-117"
+    ]
+  },
+  {
+    "id": "practice-rule-business-tax-withholding-and-cap",
+    "lessonSlug": "practice-commercial-specialties",
+    "sectionId": "protect-the-buyer-from-a-different-tax-problem",
+    "coverageTopics": [
+      "Specialty Areas"
+    ],
+    "rule": "When the sales-and-use-tax successor rules apply, the buyer must withhold enough purchase money for the seller's covered liability until the required receipt or clearance; failure can create personal liability up to the purchase price.",
+    "conditions": [
+      "Identify a purchase of the business or stock of goods to which the successor rule applies.",
+      "Distinguish tax clearance from creditor notice compliance and private lien releases."
+    ],
+    "exceptions": [
+      "Statutory certificate response, release, limitation, and other relief provisions require their own facts.",
+      "Buying isolated fixtures without succeeding to the business does not automatically establish the same liability.",
+      "The example assumes no relief or time bar and does not measure taxable gain."
+    ],
+    "sources": [
+      {
+        "url": "https://www.cdtfa.ca.gov/lawguides/vol1/sutl/sales-and-use-tax-law-chapter6-all.html",
+        "locator": "Revenue and Taxation Code 6811-6813, with annotations following 6812",
+        "supports": "Establishes withholding, purchase-price limitation, certificate procedure and release, and explains that bulk-sale compliance is distinct."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "protect-the-buyer-from-a-different-tax-problem",
+        "summary": "The ledger retains $14,000 from a $180,000 price for the tax issue after separately paying equipment debt; the question tests a seller debt exceeding the buyer's $100,000 price.",
+        "figureIds": [
+          "exp-practice-business-tax-holdback-ledger"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-118"
+    ]
+  }
+]

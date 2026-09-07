@@ -16,7 +16,7 @@ export default function SourcesPage() {
       <div className="eyebrow">Reference / Sources</div>
       <h1>Sources & editorial notes</h1>
       <p className="page-description">
-        California salesperson examination. Source review: September 6, 2026.
+        California salesperson examination. Source review: September 6-7, 2026.
       </p>
       <div className="lesson-prose">
         <h2>Scope</h2>
@@ -37,6 +37,13 @@ export default function SourcesPage() {
           assistance. Chapters link to the primary sources used to check their legal and factual
           claims. Numerical examples are illustrative. Practice questions are not actual DRE
           questions, and practice scores are not a guarantee of an examination result.
+        </p>
+        <p>
+          Separate AI reviewers checked the 543 practice questions, both 150-question mock forms,
+          396 linked rule records, and 300 added teaching figures against primary sources. Review
+          records identify the exact content checked, findings, corrections, and limitations.
+          Qualified human subject-matter review has not been obtained. These reviews, topic
+          mappings, and software tests do not establish exhaustive coverage or a guaranteed score.
         </p>
         <p>
           California rules and federal rules are identified in the relevant chapters. The{' '}

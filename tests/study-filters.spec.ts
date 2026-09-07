@@ -49,7 +49,10 @@ for (const width of [1440, 320]) {
       () => JSON.parse(localStorage.getItem('ca-re:study:v1')!).session
     )
     const first = getQuestions().find((question) => question.id === session.questionIds[0])!
-    await page.locator('.question-option').nth(first.answer).click()
+    await page
+      .locator('.question-option')
+      .nth(session.optionOrders[first.id].indexOf(first.answer))
+      .click()
     await page.getByRole('button', { name: 'Finish', exact: true }).click()
     await page.getByRole('button', { name: 'Finish and score', exact: true }).click()
     await expect(page.locator('.exam-results')).toBeVisible()

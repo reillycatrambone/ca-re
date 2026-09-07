@@ -1,0 +1,410 @@
+{
+  "id": "ownership-practice-independent-2026-09-06",
+  "reviewed": "2026-09-06",
+  "reviewer": "audit_exam_bank independent reviewer; authorship by audit_practice_agency",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 70 ownership practice stems, keys, and 280 option rationales; checked all 46 distinct primary sources and recomputed 15 numerical items. Specifically checked lifetime joint-tenancy severance, established separate property, stock cooperatives versus planned developments, fixture agreements and tenant removal, qualified local nonconforming-use rules, CERCLA allocation of liability, current CEQA negative declarations, easement transfer, public-trust land, and environmental disclosure assumptions.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1019.",
+    "https://www.sos.ca.gov/business-programs/business-entities/starting-business/types",
+    "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=768.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=682.1.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4190.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4125.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4175.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=802.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2872.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65906.",
+    "https://codelibrary.amlegal.com/codes/lapuente/latest/lapuente_ca/0-0-0-39966",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66424.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=11000.",
+    "https://www.dre.ca.gov/Developers/",
+    "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+    "https://water.ca.gov/Programs/Groundwater-Management/SGMA-Groundwater-Management",
+    "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=51243.",
+    "https://www.conservation.ca.gov/dlrp/wa",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1108.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4145.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=845.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=405.20.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=811.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section9607&num=0&edition=prelim",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+    "https://www.slc.ca.gov/public-trust/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=815.1.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=1102.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=770.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2941.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+    "https://www.epa.gov/enforcement/bona-fide-prospective-purchasers"
+  ],
+  "artifacts": [
+    {
+      "kind": "question",
+      "id": "ownership-01",
+      "digest": "5b729c369ba10b9911962285074a70ef6568accf6607461a135e87daf71f7b62"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-02",
+      "digest": "539b6dab5501bb090943caedaf189df9c26e4a94d5f688017c8dda0575fa2404"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-03",
+      "digest": "7945ee0cb29095b327992471f6cfdb15da2ceb85058b61c0a6bc398fef0294c9"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-04",
+      "digest": "a78887c742d8b3bffcadc05969d3aaef65ab4630c9a3d73d80f78b0e6760018d"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-05",
+      "digest": "d0ca1fdac7c0385e6cbe4bbd651539096f4c4992a2bc4f2a34140ebebc32acbc"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-06",
+      "digest": "a517f2a9519e0ff6beee5416247112e8387f2c7b7d9d4d5d8e637454d161e682"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-07",
+      "digest": "657ca5d46b1e7960bf69ae250f67ce7948e4be290147ffa488d1d46fc28d755d"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-08",
+      "digest": "a118d08062ad864a982732664a964d25a7701489f1c34c3a4f7ae7f3ae9755f7"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-09",
+      "digest": "2fe00f432484bfdca437caaa40f9cdca0ff8a0a8c7c214e4eb91d5853ffd3e24"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-10",
+      "digest": "0daf6f720f92d9af2707e3615457c059c1aa141602cb50ac5655e6c5f5930fef"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-11",
+      "digest": "4ecec10b02016a5f053e555edcdf5dbd3e321eef812d597c652a41c322b977f6"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-12",
+      "digest": "c928f1ab440f91a3c67a762869821fcb66f0d67bdd1d916ae22168cbe74b57a4"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-13",
+      "digest": "36a8c9b7b705f6528bbc7958fed58ba3eed07d4315bf042a7affbe1e59821d7b"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-14",
+      "digest": "b62b757519eb919c2c47bc96e0d07e0915173d5bc45f11356db008e7938192d1"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-15",
+      "digest": "1f5bc0971e8b27c364d5d303b269ba03f5d51a903f661410088892d1f1800469"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-16",
+      "digest": "ddadb4e9227ff29d6566a0af3645c54604503010b809d1912a719277a7bf1bed"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-17",
+      "digest": "00e7c4a5bf2a9f8f88385c063ef3061dc0e180d587f173dce327e32b09d79809"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-18",
+      "digest": "285f1dbcdc38322c87e3986cee4a2bbc5d779463c6fc73e88f8cad324f5d4d4c"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-19",
+      "digest": "985a46efc1059c0b4373616734782c47c69ea05e6bda561510dfb61f38524271"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-20",
+      "digest": "464866052511f5b17d805b9fa6b7c294fd973ce4ef8968091878ef57e03bec8a"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-21",
+      "digest": "d54e283465ddd411c4800e29d62ed0d5835b4f158b7c98d0118021b86bfc2ddf"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-22",
+      "digest": "113bd0c1c69d578b01c0310e90117c48d50578bcacea450531fbe226dd876062"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-23",
+      "digest": "f9648040976f860ad348066049777796f5ce156194c97f7d54740244f6a1e97a"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-24",
+      "digest": "0600ba8a659fbfdbd1fc73b4d7d18d10d7068ef58730eca46573bd7570841fdd"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-25",
+      "digest": "2e6c9f9bfa3d6986d8f26bab96b45a6ba4487ab7f05d586a3f4b15ad62096332"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-26",
+      "digest": "89eb0d11f14a082147b070c46b623a058f37cfa005bf9b8e90f0ecf0396c01d5"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-27",
+      "digest": "15ffbde785a6169bfec2c216cac4a83c5a12e5f06ce1043532bcecd64303be00"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-28",
+      "digest": "be68094385e51bdbb27e6a0c49e017bfd3ab561c4f628364248ffdebe14ac785"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-29",
+      "digest": "0fff133a6221444ac6bc2777e4b80415571e3ff8405911ea2a7bda5625e58e82"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-30",
+      "digest": "be5d2c09ba38e348388037fb8f713341aa523bb605e473cdf24168bcfada8b65"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-31",
+      "digest": "9f4c43890389d97f75c4706a4ee843f90731a03c08a2b99525e7329baf2076a6"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-32",
+      "digest": "4352124255757135f3b8f0d32b39c997c4303d68be269d0903fcad992deb2066"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-33",
+      "digest": "eb6e39c26ada1e247b1e6994875365f09a85b5e617371b5ecc64478ce1b97cb8"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-34",
+      "digest": "9e50f6af2a501191b1a0c4dfeccc2b7bb3bc631c39defb4c8e8fd81797bed070"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-35",
+      "digest": "5d75ab6bcb89f029a6473b1e5e3a9a109fae8a950cef905c29eb7c1cf8f8194a"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-36",
+      "digest": "f23cbf2164455548054396d467d234b00d68e9e3a74bae554fed1c6ed74b524e"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-37",
+      "digest": "875b95eb2bf3d7d9909adcc4cfd5b90f2f49c2ad9589469ff71ef16d060fe812"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-38",
+      "digest": "1e5b4606290d97f80af3400598619f34059260a6297d661f93d05261a22346d0"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-39",
+      "digest": "269c08d64e0c328c818f43b4ebb0b3229dc6612424ac348c969e3ec728a5fa05"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-40",
+      "digest": "5d589366544e28da8b063ba8aa945a7d46fe18336f3a9f92388f6ffcb8599428"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-41",
+      "digest": "678aa3719accb835a7561c958be90e08b887e93dcb1394a92e8fd7c5a0433984"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-42",
+      "digest": "16f88e0f14a6c47a96556f335bb614a3ed667e343a930228fb5677627e93801c"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-43",
+      "digest": "d90a114a8bd459fe311d9075d658b49abbc2be4355e9197efbbab69d2f5d4e8d"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-44",
+      "digest": "835d2643e4016789efeb42d7153a28aec079563f915f56af318b4e551bcfae99"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-45",
+      "digest": "24897581665e80332094635d6f36fe057764fec673f9217af42bd16d0dfa3b3c"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-46",
+      "digest": "15b7c1f3170835bf12b6465ba437a4c65bcf799b4211bc3b6f5dcba66f8216cd"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-47",
+      "digest": "7c11fd4436abff40bad512010ea7243df0ed65eaa8bbdea7f3647c49829a0138"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-48",
+      "digest": "7c7a71e6a99970538571ba70ba1d4ab7d9db7d703166f36c569448d07238890b"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-49",
+      "digest": "28b58da4303331c07b78928ed15f8522a22ed8f18f3b0ea895a518e26eeadc8d"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-50",
+      "digest": "7382ffed05068654df848082071664e75ffd62ceb69da1b9ba578f77c109ff88"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-51",
+      "digest": "924a1a2c4ffcc710159eb166b8798c068c7ae2c86633c0da4bfab5ecaf85eebf"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-52",
+      "digest": "296dcc1514737ca106c4d9432e25687bff6ef379b84719447dcb9276ff126295"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-53",
+      "digest": "1d7fb70386d5c45a487f93c1886e9866d99a27e49853fd192c632f00b98b8d5b"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-54",
+      "digest": "0dd082e268f594f2ef6dbf17ead52336764f72faa422ffa22ed012a766b64968"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-55",
+      "digest": "75ebf8a170518deff2912fab606509a944664c6f0e2420e7ad5ebc4934479218"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-56",
+      "digest": "7aa152ddefb7fc9d848ed6d5da13529449c30faf335e0e44a8722ad34b2a3a07"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-57",
+      "digest": "dd2b07b19f9794aef67b5ae30b94b7a10ace09a89101ae28c4b6e2f32ded0e89"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-58",
+      "digest": "6f950b3d129f277f769d4f8e8998d236be0d9a23c1e6596466c8fea35c4f92dc"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-59",
+      "digest": "ef890812deb918403e7237b71f7941ac6d3d844adfb3e5676ad323745e26e1f0"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-60",
+      "digest": "b05432187c9372d35016e6d2cb5bc43f4b2a785462868795216459ba41a029da"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-61",
+      "digest": "b40ac45312170e65e257204ad0857ea4e6e576f920602039c37b639483aa0296"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-62",
+      "digest": "bd867dc740e9f5d3628e50c016cf1f1443288de043d514adb70a7678f693cc36"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-63",
+      "digest": "88dba9c55d45b4f643fc4557ed18476444f048d297d7735e8add9368307192cf"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-64",
+      "digest": "90bb11a8292435271872e2f0858f1e9d1db2bd3077e22bee6f02cdc24c331fca"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-65",
+      "digest": "1c788aeaadca458de95611d9226ab20d8399cbaf75b3b88d052ffd41fddf32f8"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-66",
+      "digest": "200ee0aebda65e16345ba3804cb90024297b5a2cbc4ccbd1cf96ccc4a0461139"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-67",
+      "digest": "16f0dfb30cf5aa41fdad529e2f8241a677a01a355e97ff30e48055cc7d988271"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-68",
+      "digest": "bd7b0a837a0292158c7d8895b56568bcd225ff725583c9fe62e48bd18b9bce5e"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-69",
+      "digest": "f024dd4b190482e7bcd2888faec452e5c39b1bc9dbe5c803b1ac9c906420db1a"
+    },
+    {
+      "kind": "question",
+      "id": "ownership-70",
+      "digest": "4f9b87555390e433cbf92bc740e10ecd58b26febe206095b141852b09aca295b"
+    }
+  ],
+  "findings": [],
+  "limitations": "Independent AI primary-source verification, not qualified human subject-matter review or empirical exam-item validation. Some official pages unavailable in the web viewer were retrieved directly from the same primary URLs with curl and an HTML parser. No claim of exhaustive DRE exam coverage or guaranteed results."
+}

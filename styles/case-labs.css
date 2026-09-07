@@ -362,6 +362,11 @@
   }
 }
 @media print {
+  .case-lab > h2,
+  .guide-review > h2,
+  .guide-connections > h2 {
+    break-after: avoid;
+  }
   .case-lab .lab-panel[data-state="inactive"],
   .case-lab .decision-feedback,
   .case-lab .calculation-step {

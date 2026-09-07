@@ -1,0 +1,3007 @@
+[
+  {
+    "id": "ownership-rule-divided-rights",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "separate-a-right-from-permission-and-possession",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "Possession, limited permission, easement rights, and fee ownership can belong to different persons without physically dividing the parcel.",
+    "conditions": [
+      "Identify the actual grant, lease, reservation, or permission and its duration."
+    ],
+    "exceptions": [
+      "No instrument grants more than its terms and governing law permit."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 45-46, Historical Derivations and Land",
+        "supports": "Describes the bundle of rights and separate surface, airspace, and subsurface interests."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pages 71-73, Easements",
+        "supports": "Distinguishes limited easement use from ownership of the servient land."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-a-right-from-permission-and-possession",
+        "summary": "The owner rents a house, permits fruit picking, and grants utility access; identical entry onto the land arises from three different interests.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-71"
+    ]
+  },
+  {
+    "id": "ownership-rule-appurtenant-water-shares",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "begin-with-the-rights-being-transferred",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "Mutual-water-company shares made appurtenant to land differ from ordinary investment stock and cannot be transferred separately from the associated land.",
+    "conditions": [
+      "The shares must actually be appurtenant to the identified parcel; a water-company name alone is insufficient."
+    ],
+    "exceptions": [
+      "Ordinary investment shares are not converted into real property merely because the corporation owns land."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 46, Incidental or Appurtenant to the Land",
+        "supports": "Specifically identifies appurtenant mutual-water-company stock and the restriction on separate transfer."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "begin-with-the-rights-being-transferred",
+        "summary": "The orchard offered with water-company shares requires verification of appurtenant status and the transfer documents, not an inference from a visible water pipe.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-72"
+    ]
+  },
+  {
+    "id": "ownership-rule-ordinary-shares-and-debt",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "real-and-personal-property",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "Ordinary corporate investment shares and a note evidencing debt are personal property, not direct ownership of the corporation's building or the note's real estate security.",
+    "conditions": [
+      "Distinguish the investor's or creditor's asset from the separately owned property."
+    ],
+    "exceptions": [
+      "Appurtenant water-company shares and cooperative occupancy arrangements require their particular legal analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 46, Personal Property",
+        "supports": "Identifies evidences of debt and choses in action as personal property."
+      },
+      {
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/starting-business/types",
+        "locator": "Corporation",
+        "supports": "Explains that a corporation is legally separate from its owners."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "real-and-personal-property",
+        "summary": "The unsecured chair, secured note, and ordinary shares comparison distinguishes physical land from intangible personal assets.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-04"
+    ]
+  },
+  {
+    "id": "ownership-rule-fixture-evidence",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "how-an-object-becomes-a-fixture",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "Fixture analysis weighs objective intention, attachment, adaptation, party relationship, and agreement; screw count or replacement price alone is not conclusive.",
+    "conditions": [
+      "The disputed item began as personal property and is alleged to have become part of the realty."
+    ],
+    "exceptions": [
+      "A clear lawful agreement between the relevant parties may settle transfer treatment without resolving every default classification issue."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 46, Fixtures, five tests",
+        "supports": "Lists intention, incorporation, adaptability, agreement, and relationship as the general fixture factors."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+        "locator": "Civil Code sections 658 and 660",
+        "supports": "Defines affixed property, including permanently attached items and the goods-sale qualification."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "how-an-object-becomes-a-fixture",
+        "summary": "A built-in dishwasher held by a few screws is contrasted with an expensive freestanding statue; permanence and function matter more than cost.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-01"
+    ]
+  },
+  {
+    "id": "ownership-rule-express-inclusions",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "worked-scenario-the-equipment-at-closing",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "A clear lawful purchase agreement can include seller-owned personal property and exclude a fixture; default classification does not override the agreed transfer scope.",
+    "conditions": [
+      "The seller owns the interest promised and the agreement clearly identifies the item."
+    ],
+    "exceptions": [
+      "An agreement between buyer and seller does not extinguish third-party ownership, lease, or consent rights."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Civil Code section 1638",
+        "supports": "Clear and explicit contract language governs interpretation unless it involves an absurdity."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 46, Fixtures, agreement and exceptions",
+        "supports": "Explains the role of party agreements and stated exceptions to presumed included fixtures."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-the-equipment-at-closing",
+        "summary": "Maya's agreement excludes the hardwired light, includes the freestanding refrigerator, and treats the leased solar contract separately.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-06"
+    ]
+  },
+  {
+    "id": "ownership-rule-hardware-service-separation",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "compare-objects-by-function-and-agreement",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "The transfer of a device does not automatically transfer a monitoring, subscription, account, or other associated service contract.",
+    "conditions": [
+      "Read the hardware inclusion and the separate service terms, including required consent."
+    ],
+    "exceptions": [
+      "An effective separately agreed transfer may include service rights when its conditions are satisfied."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Civil Code section 1638",
+        "supports": "Requires interpretation of each clear contractual promise according to its terms."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-objects-by-function-and-agreement",
+        "summary": "The included television does not carry the seller's streaming account; the screen, mount, wiring, and service are analyzed separately.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-35",
+      "ownership-60"
+    ]
+  },
+  {
+    "id": "ownership-rule-tenant-removal-and-owner-authority",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "trade-fixtures-and-severance",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "A tenant may remove qualifying affixed items during the tenancy if removal causes no injury and the item has not become integral to the premises; the landlord cannot simply promise away that tenant's rights.",
+    "conditions": [
+      "Apply Civil Code section 1019 to the tenant's qualifying purpose, timing, attachment, and effect of removal; examine the lease."
+    ],
+    "exceptions": [
+      "Business use alone does not make every building component removable or excuse injury, integral attachment, or applicable lease obligations."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1019.",
+        "locator": "Civil Code section 1019",
+        "supports": "Authorizes qualified tenant removal during the term, excluding injury and integral parts of the premises."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "trade-fixtures-and-severance",
+        "summary": "The business-shelving discussion separates qualifying removal from stripping the building after the term and from the landlord's sale of the tenant's equipment.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-02",
+      "ownership-59"
+    ]
+  },
+  {
+    "id": "ownership-rule-severance-and-annexation",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "trade-fixtures-and-severance",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "Lawful severance can turn part of the realty into personal property, while permanent annexation can turn personal property into a fixture.",
+    "conditions": [
+      "Identify the physical change and separately determine authority to make it."
+    ],
+    "exceptions": [
+      "Unauthorized removal can leave liability even if the removed object is now personal property."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+        "locator": "Civil Code sections 658, 660, and 663",
+        "supports": "Distinguishes attached realty from property that is not real and addresses intended severance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "trade-fixtures-and-severance",
+        "summary": "Cutting the tree produces movable logs, but the chapter treats ownership classification and permission to remove as separate questions.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-03"
+    ]
+  },
+  {
+    "id": "ownership-rule-crops-intended-severance",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "crops-and-intended-removal",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "For sale purposes, qualifying growing crops and attached things agreed to be severed before or under the sale contract receive goods-sale treatment.",
+    "conditions": [
+      "The exercise concerns the sale treatment specified by Civil Code section 658 and an agreement to sever."
+    ],
+    "exceptions": [
+      "This does not make every standing tree or crop permanently personal property for every legal purpose."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+        "locator": "Civil Code sections 658 and 660, concluding exception",
+        "supports": "Provides the express goods-sale treatment for emblements, industrial growing crops, and things agreed to be severed."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "crops-and-intended-removal",
+        "summary": "The crop-sale discussion changes classification for the stated transaction without treating all vegetation as unattached goods.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-36"
+    ]
+  },
+  {
+    "id": "ownership-rule-tenant-inventory",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "crops-and-intended-removal",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "A landlord's sale of the building does not automatically include a nursery tenant's separately owned movable inventory.",
+    "conditions": [
+      "The plants are the tenant's movable goods, not integral landlord-owned landscaping transferred by the bargain."
+    ],
+    "exceptions": [
+      "Ownership, attachment, and a specific agreement may produce different outcomes for different plants."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+        "locator": "Civil Code sections 658, 660, and 663",
+        "supports": "Separates attached realty from other personal property."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 46-47, Crops and tenant fixtures",
+        "supports": "Explains special crop treatment and qualified tenant removal."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "crops-and-intended-removal",
+        "summary": "The nursery's movable inventory is distinguished from landscaping sold with the landlord's building.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-37"
+    ]
+  },
+  {
+    "id": "ownership-rule-solar-title-obligations",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "resolve-the-scope-before-pricing-the-bargain",
+    "coverageTopics": [
+      "Classes of Property"
+    ],
+    "rule": "Identical solar equipment can involve different transferable ownership and continuing obligations when one system is seller-owned and another is leased.",
+    "conditions": [
+      "Review title to the equipment and the relevant lease, assumption, approval, and payment terms."
+    ],
+    "exceptions": [
+      "Physical attachment does not by itself release a third-party owner or cancel an outstanding service obligation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Civil Code section 1638",
+        "supports": "Contract terms govern the rights and obligations promised in the transaction."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 46, Fixtures, agreement and relationship",
+        "supports": "Supports separating attachment from the parties' rights and agreements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "resolve-the-scope-before-pricing-the-bargain",
+        "summary": "Two homes with the same panel count and asking price still require different analysis of the solar contract and future payments.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-38"
+    ]
+  },
+  {
+    "id": "ownership-rule-immobility-uniqueness-durability",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "lands-physical-and-economic-characteristics",
+    "coverageTopics": [
+      "Property Characteristics"
+    ],
+    "rule": "Land's immobility, unique location, and relative durability distinguish it from interchangeable movable goods; none guarantees constant value or undamaged usable soil.",
+    "conditions": [
+      "Compare both the parcel's physical location and its market context."
+    ],
+    "exceptions": [
+      "Buildings may be destroyed and land can suffer erosion or contamination despite land's continuing existence."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+        "locator": "Printed page 40, Special Characteristics of Real Estate: Immobility, Uniqueness, Durability",
+        "supports": "Explains location dependence, the uniqueness of parcels, and the long duration of land and improvements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "lands-physical-and-economic-characteristics",
+        "summary": "Identical lot dimensions do not make locations identical, and a parcel cannot be moved to the neighborhood with stronger demand.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-05"
+    ]
+  },
+  {
+    "id": "ownership-rule-economic-location-effects",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "lands-physical-and-economic-characteristics",
+    "coverageTopics": [
+      "Property Characteristics"
+    ],
+    "rule": "Usable supply, surrounding improvements, long-lived capital commitments, and situs affect real estate markets beyond a parcel's dimensions.",
+    "conditions": [
+      "Define the relevant competing market and the uses buyers seek."
+    ],
+    "exceptions": [
+      "A large inventory in a remote market or the cost of an improvement does not establish equivalent local utility or value."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+        "locator": "Printed pages 40-41, Immobility and Forces Affecting the Value of Real Property",
+        "supports": "Explains the effect of infrastructure, services, neighboring uses, and economic forces on a fixed site."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "lands-physical-and-economic-characteristics",
+        "summary": "The new transit stop changes demand without changing area, while remote desert acreage may not compete with a parcel near employment.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-73"
+    ]
+  },
+  {
+    "id": "ownership-rule-development-response-lag",
+    "lessonSlug": "ownership-property-rights",
+    "sectionId": "lands-physical-and-economic-characteristics",
+    "coverageTopics": [
+      "Property Characteristics"
+    ],
+    "rule": "A long development period delays the supply response to changing demand; announced projects are not immediately usable supply.",
+    "conditions": [
+      "Distinguish current available space from projects that still require permitting and construction."
+    ],
+    "exceptions": [
+      "The lag can occur when demand rises or falls and is not a promise of a particular price increase."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+        "locator": "Printed page 41, Long Development or Production Period",
+        "supports": "Explains why production delays cause supply to adjust slowly to both increases and decreases in market demand."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "lands-physical-and-economic-characteristics",
+        "summary": "A new employer creates apartment demand now while planned units take years; completed buildings remain even if demand later weakens.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-74"
+    ]
+  },
+  {
+    "id": "ownership-rule-estate-vesting-possession",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "ask-two-different-ownership-questions",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "Estate duration, title-holding form, and present possession are different attributes that can describe the same property simultaneously.",
+    "conditions": [
+      "Identify the interest's duration, named owner or owners, and person entitled to occupy."
+    ],
+    "exceptions": [
+      "A lease does not ordinarily replace the fee owner's reversion with ownership in the tenant."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 45, Freehold Estates",
+        "supports": "Distinguishes indefinite-duration freeholds and life estates."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 55, Ownership of Real Property",
+        "supports": "Separates severalty from concurrent title forms."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+        "locator": "Printed page 129, opening paragraphs",
+        "supports": "Explains the tenant's possession and the landlord's retained reversion."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ask-two-different-ownership-questions",
+        "summary": "A fee owner leases a house while retaining title; the tenant's immediate possession answers a different question from vesting.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-75"
+    ]
+  },
+  {
+    "id": "ownership-rule-future-interests",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "freehold-estates-and-future-interests",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "A future estate given to another after a life estate is a remainder; the residue retained by the grantor is a reversion.",
+    "conditions": [
+      "Read who receives the future interest and when the preceding estate ends."
+    ],
+    "exceptions": [
+      "Do not confuse a current life tenant with the holder of the future possessory estate."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=768.",
+        "locator": "Civil Code section 768",
+        "supports": "Defines reversion as the residue remaining in the grantor or specified successors."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+        "locator": "Civil Code section 769",
+        "supports": "Defines a remainder as a future estate other than a reversion dependent on a preceding estate."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "freehold-estates-and-future-interests",
+        "summary": "Jordan holds for life and Taylor receives afterward; changing the grant to retain the future interest changes remainder to reversion.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-07"
+    ]
+  },
+  {
+    "id": "ownership-rule-measuring-life-transfer",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "follow-the-measuring-life-through-a-transfer",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "Conveying a life estate transfers only that estate and does not change the measuring life or enlarge the buyer's interest into fee simple.",
+    "conditions": [
+      "Identify whose life the original grant uses, not merely who later holds the estate."
+    ],
+    "exceptions": [
+      "An attempted grant of a greater estate passes what the grantor could lawfully convey rather than working a forfeiture under section 1108."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1108.",
+        "locator": "Civil Code section 1108",
+        "supports": "Addresses a life tenant's attempted transfer of a greater estate."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 45, life estates",
+        "supports": "Recognizes a life estate measured by the holder or another person."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-the-measuring-life-through-a-transfer",
+        "summary": "Nora sells her estate measured by Luis's life to Priya; Nora's subsequent death does not terminate Priya's interest while Luis lives.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-39"
+    ]
+  },
+  {
+    "id": "ownership-rule-life-estate-waste",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "follow-the-measuring-life-through-a-transfer",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "A life tenant's present use is limited by the prohibition against injuring the future inheritance.",
+    "conditions": [
+      "Distinguish ordinary occupancy and use from destruction impairing the interest of future owners."
+    ],
+    "exceptions": [
+      "Holding present possession is not unrestricted authority to consume structural components."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=818.",
+        "locator": "Civil Code section 818",
+        "supports": "Permits use comparable to a fee owner but forbids injury to the inheritance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-the-measuring-life-through-a-transfer",
+        "summary": "Removing a valuable structural component during the life tenancy can harm the estate the future-interest holder will receive.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-76"
+    ]
+  },
+  {
+    "id": "ownership-rule-leasehold-duration",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "leasehold-estates",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "An estate for years has a fixed term even if shorter than a year; a periodic tenancy renews by periods, while will and sufferance describe different consent and holdover situations.",
+    "conditions": [
+      "Use the agreed ending date, renewal pattern, and owner's consent to classify the possessory estate."
+    ],
+    "exceptions": [
+      "The label does not authorize self-help eviction or replace applicable notice and tenant-protection law."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+        "locator": "Printed page 129, Types of Leasehold Estates",
+        "supports": "Defines all four leasehold categories, including fixed periods shorter than a year."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "leasehold-estates",
+        "summary": "The chapter contrasts a three-month fixed term with month-to-month renewal and a holdover lacking consent.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-12"
+    ]
+  },
+  {
+    "id": "ownership-rule-tenancy-common-undivided",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "ownership-fractions-are-not-physical-boundaries",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "Tenants in common can hold unequal undivided shares, each generally with possession of the whole rather than separate physical pieces.",
+    "conditions": [
+      "Account for valid co-owner agreements and the equal possessory rights of the others."
+    ],
+    "exceptions": [
+      "An agreement about room use does not by itself create separate legal parcels."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 55, Tenancy in Common",
+        "supports": "Explains fractional interests, unity of possession, and co-owner accounting."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ownership-fractions-are-not-physical-boundaries",
+        "summary": "Owners with 50%, 30%, and 20% allocate house and studio use without turning their deed shares into separately titled buildings.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-08"
+    ]
+  },
+  {
+    "id": "ownership-rule-tenancy-common-distribution",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "ownership-fractions-are-not-physical-boundaries",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "A co-owner's stated fraction applies to the specified gross or net distribution base; expenses and valid adjustments must not be silently ignored.",
+    "conditions": [
+      "Read whether the exercise specifies gross sale proceeds or money remaining after obligations."
+    ],
+    "exceptions": [
+      "A fraction of a whole-property appraisal is not necessarily the market price of separately selling a minority interest."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 55, Tenancy in Common, proceeds and shared expenses",
+        "supports": "Explains proportional profits and accounting for payments benefiting all owners."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed page 558, Percentage",
+        "supports": "Supports multiplication of the stated base by the ownership fraction."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ownership-fractions-are-not-physical-boundaries",
+        "summary": "The $900,000 sale yields $270,000 gross for the 30% owner before debts, costs, and other valid adjustments.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-40"
+    ]
+  },
+  {
+    "id": "ownership-rule-joint-creation-and-partial-severance",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "one-owner-or-concurrent-owners",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "California joint tenancy requires express creation and equal shares; a qualifying conveyance by one of three owners can sever only that owner's share.",
+    "conditions": [
+      "Apply section 683 and the execution, delivery, recording, and other applicable requirements of section 683.2."
+    ],
+    "exceptions": [
+      "Written agreements and the statutory alternative or exceptions to pre-death recording must be considered; a will alone is not effective severance."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.",
+        "locator": "Civil Code section 683(a)",
+        "supports": "Express joint tenancy, equal shares, and direct transfers to oneself and others are permitted."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+        "locator": "Civil Code section 683.2(a)-(d)",
+        "supports": "Sets permitted severance methods, agreement limits, recording conditions, and exceptions."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 56, Severance",
+        "supports": "Explains how one owner's third-party transfer leaves the other joint tenants' relationship intact."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "one-owner-or-concurrent-owners",
+        "summary": "The chapter explains a transfer by one of three joint tenants and now separately identifies the ordinary lifetime-recording route and narrow timing alternative.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-09"
+    ]
+  },
+  {
+    "id": "ownership-rule-survivorship-versus-inheritance",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "contrast-survivorship-with-inheritance",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "An unsevered joint tenancy operates by survivorship, while tenancy in common has no inherent survivorship and a measured life estate ends instead of being inherited as fee title.",
+    "conditions": [
+      "Determine the title form and whether any effective lifetime severance occurred."
+    ],
+    "exceptions": [
+      "The ownership result is separate from tax treatment or personal expectations about inheritance."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pages 55-56, Tenancy in Common and Joint Tenancy",
+        "supports": "Contrasts succession to a tenant-in-common share with survivorship that defeats a contrary will."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1108.",
+        "locator": "Civil Code section 1108",
+        "supports": "Limits an onward transfer to the life estate actually held."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "contrast-survivorship-with-inheritance",
+        "summary": "The table contrasts a tenant-in-common's death, a joint tenant's death, and the death of the life measuring an estate.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-77"
+    ]
+  },
+  {
+    "id": "ownership-rule-community-survivorship-form",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "community-property",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "Community property with right of survivorship must be expressly established; ordinary community property is not automatically the survivorship form.",
+    "conditions": [
+      "Read the transfer document and apply Civil Code section 682.1 to the community property of spouses."
+    ],
+    "exceptions": [
+      "Survivorship can be terminated through the statutory procedures before a spouse dies."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=682.1.",
+        "locator": "Civil Code section 682.1(a)(1)",
+        "supports": "Provides express survivorship vesting, passage to the survivor, and termination procedures."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "community-property",
+        "summary": "The four-form comparison separates equal community ownership from the additional survivorship feature.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-10"
+    ]
+  },
+  {
+    "id": "ownership-rule-community-versus-separate",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "community-property",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "Property acquired during marriage while domiciled in California is generally community property, but premarital property, individual gifts or inheritances, and their rents and profits are separate under the statutory rule.",
+    "conditions": [
+      "Establish acquisition facts and applicable statutory exceptions, not marital status alone."
+    ],
+    "exceptions": [
+      "The simplified rule does not resolve tracing, transmutation, creditor, or tax disputes without their facts."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=760.",
+        "locator": "Family Code section 760",
+        "supports": "States the community-property acquisition rule subject to statutory exceptions."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=770.",
+        "locator": "Family Code section 770(a)-(b)",
+        "supports": "Lists separate-property categories, their rents and profits, and separate conveyancing authority."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=297.5.",
+        "locator": "Family Code section 297.5(a), (k)",
+        "supports": "Extends corresponding California rights and duties to registered domestic partners."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "community-property",
+        "summary": "The chapter compares earnings acquired during marriage with a spouse's individually inherited property and warns that title, characterization, and taxes are separate.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-62"
+    ]
+  },
+  {
+    "id": "ownership-rule-community-instrument-joinder",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "management-is-not-unilateral-conveyancing-authority",
+    "coverageTopics": [
+      "Types of Ownership"
+    ],
+    "rule": "Under the ordinary rule, both spouses must execute instruments selling, conveying, encumbering, or leasing community real property for longer than one year, personally or by authorized agent.",
+    "conditions": [
+      "First establish community character, identify the proposed act, and determine actual authority."
+    ],
+    "exceptions": [
+      "Family Code section 1102 contains exceptions, presumptions, and remedies; a lone signature is not invariably void, and established separate property follows section 770."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=1102.",
+        "locator": "Family Code section 1102(a)-(e)",
+        "supports": "Requires joinder for the specified acts and describes the statutory qualifications."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=770.",
+        "locator": "Family Code section 770(b)",
+        "supports": "Permits a married person to convey that person's separate property without spousal consent."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "management-is-not-unilateral-conveyancing-authority",
+        "summary": "The two-year community-property lease requires both owners' authorized execution; routine rent collection is not proof of that authority.",
+        "figureIds": [
+          "exp-ownership-community-two-year-lease"
+        ]
+      }
+    ],
+    "questionIds": [
+      "ownership-61",
+      "ownership-62"
+    ]
+  },
+  {
+    "id": "ownership-rule-cooperative-and-entity-assets",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "condominiums-cooperatives-trusts-and-entities",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "A stock cooperative couples corporate ownership with shareholder occupancy rights; ordinary ownership of corporate shares does not directly vest the building in the shareholder.",
+    "conditions": [
+      "Identify the corporation's title, the stock or membership interest, and any proprietary occupancy right."
+    ],
+    "exceptions": [
+      "A corporation can continue holding its real estate after a shareholder dies; inheritance of shares does not itself convey the building."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4190.",
+        "locator": "Civil Code section 4190(a)-(b)",
+        "supports": "Defines corporate holding of improved property and exclusive occupancy for all or substantially all shareholders."
+      },
+      {
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/starting-business/types",
+        "locator": "Corporation",
+        "supports": "Explains the entity's separate existence and longevity beyond owners' deaths."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "condominiums-cooperatives-trusts-and-entities",
+        "summary": "The cooperative discussion separates proprietary occupancy from a corporation's office building remaining an entity asset after a shareholder dies.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-11",
+      "ownership-42"
+    ]
+  },
+  {
+    "id": "ownership-rule-condominium-and-exclusive-use",
+    "lessonSlug": "ownership-estates-title",
+    "sectionId": "read-common-interest-ownership-documents-as-a-group",
+    "coverageTopics": [
+      "Types of Ownership",
+      "Types of Vesting"
+    ],
+    "rule": "A condominium's separately owned space, common area, and exclusive-use common area are defined by the legal documents rather than townhouse appearance or a private-use marketing label.",
+    "conditions": [
+      "Read the recorded plan, map, unit boundaries, declaration, and maintenance provisions together."
+    ],
+    "exceptions": [
+      "A patio outside the separate interest may be exclusive-use common area; permitted use does not make it a separately owned fee parcel."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4125.",
+        "locator": "Civil Code section 4125(b)-(d)",
+        "supports": "Defines separate space and the coupled common interest."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4145.",
+        "locator": "Civil Code section 4145(a)-(c)",
+        "supports": "Defines exclusive-use common area and the default for qualifying patios outside unit boundaries."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4175.",
+        "locator": "Civil Code section 4175(a)-(b)",
+        "supports": "Distinguishes planned-development common-area structures from condominium or cooperative ownership."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-common-interest-ownership-documents-as-a-group",
+        "summary": "The townhouse tour cannot settle whether its fenced patio lies in the unit, a separate lot, or exclusive-use common area.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-41"
+    ]
+  },
+  {
+    "id": "ownership-rule-encumbrance-versus-lien",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "an-encumbrance-need-not-prevent-a-sale",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "A lien secures an obligation and is an encumbrance, but easements and use restrictions can encumber land without securing a debt.",
+    "conditions": [
+      "Identify the interest's legal function rather than assuming every title exception demands payoff."
+    ],
+    "exceptions": [
+      "A buyer may accept some surviving burdens while requiring other interests to be released."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2872.",
+        "locator": "Civil Code section 2872",
+        "supports": "Defines a lien as a charge making property security for performance."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 53, Special Lien/Encumbrance Situations",
+        "supports": "Explains that all liens are encumbrances but not every encumbrance is a lien."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "an-encumbrance-need-not-prevent-a-sale",
+        "summary": "The buyer accepts a surviving utility easement but wants the seller's loan paid off, illustrating different encumbrances and closing treatments.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-16"
+    ]
+  },
+  {
+    "id": "ownership-rule-appurtenant-and-gross",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "appurtenant-easements-and-easements-in-gross",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "An appurtenant easement benefits the dominant parcel and burdens the servient parcel; an easement in gross has no separate dominant parcel.",
+    "conditions": [
+      "Identify what receives the benefit and which land carries the burden."
+    ],
+    "exceptions": [
+      "A utility's in-gross right is not necessarily nonassignable merely because it lacks a dominant parcel."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=801.",
+        "locator": "Civil Code section 801",
+        "supports": "Lists land burdens that may attach to other land as easements."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=802.",
+        "locator": "Civil Code section 802",
+        "supports": "Permits specified servitudes to be held without attachment to land."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pages 71-72, Easements",
+        "supports": "Defines the dominant and servient relationships and utility easements in gross."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "appurtenant-easements-and-easements-in-gross",
+        "summary": "The rear lot benefits from crossing the front lot; utility line rights supply the contrasting in-gross example.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-13",
+      "ownership-14"
+    ]
+  },
+  {
+    "id": "ownership-rule-easement-scope",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "access-includes-scope-and-maintenance-questions",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "An easement authorizes use within its legally established scope, not unrestricted possession, parking, storage, widening, or commercial intensity.",
+    "conditions": [
+      "Read the grant's route, width, purpose, benefiting land, and conditions, or the nature of the use creating the right."
+    ],
+    "exceptions": [
+      "Compatible use by the servient owner ordinarily continues unless the particular right provides otherwise."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=806.",
+        "locator": "Civil Code section 806",
+        "supports": "Determines extent by the grant or the nature of enjoyment through which the servitude was acquired."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "access-includes-scope-and-maintenance-questions",
+        "summary": "The residential access grant does not automatically authorize a later commercial traffic plan or public road maintenance.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-78"
+    ]
+  },
+  {
+    "id": "ownership-rule-right-of-way-maintenance",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "access-includes-scope-and-maintenance-questions",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Private right-of-way repair costs follow the owners' agreement; absent an agreement they are generally allocated according to each owner's use, not simply equal parcel counts.",
+    "conditions": [
+      "The exercise concerns a private right-of-way covered by Civil Code section 845."
+    ],
+    "exceptions": [
+      "The statute excludes specified railroad rights-of-way, and snow-removal obligations have additional conditions."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=845.",
+        "locator": "Civil Code section 845(a)-(b), (d)-(e)",
+        "supports": "Requires maintenance, applies agreements before proportional use, and states the qualifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "access-includes-scope-and-maintenance-questions",
+        "summary": "The agreed 60%-40% division of a $12,000 repair produces $7,200 and $4,800, not equal shares.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-43"
+    ]
+  },
+  {
+    "id": "ownership-rule-easement-creation-necessity",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "creation-and-termination",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Express grant or reservation, implication, necessity, and prescription are distinct sources of easements; mere inconvenience does not automatically burden a chosen neighbor.",
+    "conditions": [
+      "Necessity analysis ordinarily asks about prior common ownership and necessity arising when that ownership was severed."
+    ],
+    "exceptions": [
+      "Historical public-land conveyances and disputed implied rights can require specialized legal analysis; present landlocking alone is not sufficient."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pages 72-73, How Easements Are Created and Easement by Implication of Law",
+        "supports": "Separates express creation, implication, and necessity arising from a division of ownership."
+      },
+      {
+        "url": "https://scocal.stanford.edu/opinion/murphy-v-burch-33056/",
+        "locator": "46 Cal.4th 157, opinion discussion pages 5-7",
+        "supports": "Explains strict necessity, common ownership at severance, inferred intent, special sovereign-conveyance considerations, and termination when adequate alternative access arises."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "creation-and-termination",
+        "summary": "A seller can reserve access to a retained rear parcel; an unrelated buyer cannot simply impose the shortest route on any neighbor.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-79"
+    ]
+  },
+  {
+    "id": "ownership-rule-prescription-versus-permission",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "permission-and-title-evidence-can-point-in-different-directions",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Ordinary prescriptive easement claims require open, notorious, continuous adverse use for five years; use under continuing permission lacks adversity.",
+    "conditions": [
+      "Examine how the use began and continued, including permission letters and evidence of a claim of right."
+    ],
+    "exceptions": [
+      "Long use or photographs alone do not prove the required elements, and hostility does not mean personal animosity."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 73, Easement by Prescription",
+        "supports": "States the five-year period, adverse use without permission, and open-notorious character."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "permission-and-title-evidence-can-point-in-different-directions",
+        "summary": "The same gravel road may be used under a recorded grant, revocable permission, or claimed adverse use, with different legal consequences.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-15"
+    ]
+  },
+  {
+    "id": "ownership-rule-express-easement-nonuse",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "creation-and-termination",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Mere nonuse does not extinguish an express easement; release, qualifying merger, or other legally effective termination must be distinguished from an overgrown path.",
+    "conditions": [
+      "Identify the easement's source and the allegedly terminating event."
+    ],
+    "exceptions": [
+      "A right acquired by enjoyment can terminate through statutory disuse, and a necessity-only easement can end when necessity ends."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=811.",
+        "locator": "Civil Code section 811(1)-(4)",
+        "supports": "Lists statutory termination events and limits the disuse provision to a servitude acquired by enjoyment."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 73, Termination of Easements",
+        "supports": "Distinguishes five-year nonuse of a prescriptive easement from an easement obtained by grant."
+      },
+      {
+        "url": "https://scocal.stanford.edu/opinion/murphy-v-burch-33056/",
+        "locator": "46 Cal.4th 157, opinion discussion pages 5-7",
+        "supports": "Explains strict necessity, common ownership at severance, inferred intent, special sovereign-conveyance considerations, and termination when adequate alternative access arises."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "creation-and-termination",
+        "summary": "Grass covering an express driveway right for two years is not equivalent to a recorded release or qualifying merger.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-46"
+    ]
+  },
+  {
+    "id": "ownership-rule-encroachment-is-physical",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "license-encroachment-and-adverse-possession",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "An encroachment describes a physical intrusion; it does not itself establish an easement, adverse title, or the proper remedy.",
+    "conditions": [
+      "Compare the structure's location with the legally established boundary and investigate asserted authorization."
+    ],
+    "exceptions": [
+      "Age, equitable considerations, agreements, prescription, or adverse possession may affect the legal outcome."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pages 76-77, Encroachments",
+        "supports": "Explains physical encroachment, possible legal justification, and potential damages or removal."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "license-encroachment-and-adverse-possession",
+        "summary": "A garage wall across the lot line establishes the physical problem before survey, title, and legal professionals resolve rights.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-18"
+    ]
+  },
+  {
+    "id": "ownership-rule-prescription-versus-adverse-title",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "license-encroachment-and-adverse-possession",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Prescription ordinarily acquires a use right; adverse possession seeks ownership and includes California's five-year possession and tax-payment requirements.",
+    "conditions": [
+      "Determine whether the claimant seeks travel or use, or asserts title through qualifying possession."
+    ],
+    "exceptions": [
+      "Ordinary prescriptive use does not carry the same property-tax-payment requirement; exclusive ownership cannot be assumed from travel alone."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 73, Easement by Prescription",
+        "supports": "Expressly distinguishes prescriptive easements from adverse possession and its tax requirement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "license-encroachment-and-adverse-possession",
+        "summary": "Repeated travel points toward an easement claim, whereas possession asserted as ownership raises a different doctrine.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-80"
+    ]
+  },
+  {
+    "id": "ownership-rule-lien-classification",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "classifying-liens",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Voluntary versus involuntary and specific versus general are independent lien classifications; an underlying unpaid debt is not automatically a perfected real-property lien.",
+    "conditions": [
+      "Identify how the lien arises and what property it reaches under its governing law."
+    ],
+    "exceptions": [
+      "Mechanic's and judgment liens require their applicable statutory steps; a bare promise to pay is not a universal encumbrance."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2872.",
+        "locator": "Civil Code section 2872",
+        "supports": "Distinguishes the security charge from a general obligation."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed page 61, lien classifications; pages 66-71, statutory lien discussions",
+        "supports": "Explains different liens, attachment to property, and statutory requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "classifying-liens",
+        "summary": "The table contrasts an agreed deed of trust, property-related mechanic's lien, and qualifying judgment lien along separate axes.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-81"
+    ]
+  },
+  {
+    "id": "ownership-rule-priority-and-subordination",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "follow-priority-rather-than-the-number-of-claims",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Competing lien distributions follow legally established priority, which can be changed by subordination or statutory rules rather than creditor count or the date alone.",
+    "conditions": [
+      "Apply the stated valid rank after superior costs and claims have been paid."
+    ],
+    "exceptions": [
+      "Tax, mechanic's, notice, and purchase-money rules can displace simple recording-order assumptions."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pages 53-54, Priorities in Recording and subordination",
+        "supports": "Explains recording qualifications, special lien rules, and contractual reordering."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-priority-rather-than-the-number-of-claims",
+        "summary": "Of $500,000 after superior charges, a $420,000 first claim leaves $80,000 for the junior $120,000 claim.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-17",
+      "ownership-45"
+    ]
+  },
+  {
+    "id": "ownership-rule-lis-pendens-function",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "separate-notice-security-and-exemption",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "A lis pendens records notice of a pending action asserting a real-property claim; it is not itself a judgment resolving ownership or an ordinary loan lien.",
+    "conditions": [
+      "The action asserts a qualifying claim involving the described real property."
+    ],
+    "exceptions": [
+      "The notice's practical effect on transfer does not prove the claimant will prevail."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=405.20.",
+        "locator": "Code of Civil Procedure section 405.20",
+        "supports": "Authorizes notice of pendency for an asserted real property claim and specifies the parties and property information."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-notice-security-and-exemption",
+        "summary": "The buyer encountering a recorded ownership lawsuit must distinguish notice of litigation from an award of title.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-44"
+    ]
+  },
+  {
+    "id": "ownership-rule-quiet-title-and-cloud",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "separate-notice-security-and-exemption",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "A cloud creates apparent title uncertainty; a quiet-title action seeks a judicial determination of adverse claims to the relevant interest.",
+    "conditions": [
+      "Identify the adverse claim or apparent defect that must be investigated or adjudicated."
+    ],
+    "exceptions": [
+      "A physical inspection does not resolve legal title merely because no visible defect is found."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=760.020.",
+        "locator": "Code of Civil Procedure section 760.020(a)",
+        "supports": "Authorizes actions to establish title against adverse claims to real or personal property interests."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-notice-security-and-exemption",
+        "summary": "The chapter's conflicting deed, old unreleased lien, and ownership-dispute examples explain why investigation or corrective proceedings may be necessary.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-82"
+    ]
+  },
+  {
+    "id": "ownership-rule-homestead-not-lien-cancellation",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "separate-notice-security-and-exemption",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "The homestead exemption concerns qualifying equity in judgment enforcement; it does not cancel a voluntary deed of trust or guarantee that a home can never be sold.",
+    "conditions": [
+      "Identify the enforcement procedure and the exemption applicable to its year and facts."
+    ],
+    "exceptions": [
+      "The statutory county-median framework has inflation-adjusted minimum and maximum amounts; declared and automatic homesteads serve different functions."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=703.010.",
+        "locator": "Code of Civil Procedure section 703.010(a)-(b)",
+        "supports": "Distinguishes judgment-enforcement exemptions from foreclosure of specified security interests."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=704.730.",
+        "locator": "Code of Civil Procedure section 704.730(a)-(b)",
+        "supports": "Sets the county median, floor, ceiling, and annual inflation adjustment framework."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-notice-security-and-exemption",
+        "summary": "The chapter contrasts protected equity with cancellation of the secured debt and warns against using an old exemption dollar figure.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-83"
+    ]
+  },
+  {
+    "id": "ownership-rule-payoff-and-reconveyance",
+    "lessonSlug": "ownership-encumbrances",
+    "sectionId": "satisfaction-and-the-recorded-release",
+    "coverageTopics": [
+      "Encumbrances"
+    ],
+    "rule": "Payment of the obligation and documented release of its deed-of-trust security are related but distinct; a buyer's grant deed does not serve as the lender's reconveyance.",
+    "conditions": [
+      "Verify the paid obligation and the appropriate recorded reconveyance or legally equivalent release."
+    ],
+    "exceptions": [
+      "The release concerns that security interest, not unrelated easements or every other title exception."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2941.",
+        "locator": "Civil Code section 2941(b)(1)-(3)",
+        "supports": "Assigns beneficiary and trustee duties for full reconveyance and provides a qualified title-company release alternative."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "satisfaction-and-the-recorded-release",
+        "summary": "A zero loan balance may require record clearance; releasing that deed of trust does not terminate a separate driveway easement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-63",
+      "ownership-64"
+    ]
+  },
+  {
+    "id": "ownership-rule-legal-parcel-identification",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "identity-before-arithmetic",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "Street addresses and assessor identifiers are research aids, not automatically an adequate substitute for the recorded legal description and its controlling map references.",
+    "conditions": [
+      "Retrieve and reconcile the instrument and applicable records identifying the actual conveyed land."
+    ],
+    "exceptions": [
+      "An address can change, one parcel can have several addresses, and assessment parcels need not equal legal lots."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 47 and 50, Land Descriptions, Assessor's Maps, and Informal Method",
+        "supports": "Explains precise identification, recorded descriptions, and the limits of assessor or informal descriptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "identity-before-arithmetic",
+        "summary": "The chapter contrasts a two-building parcel, vacant land without an address, and the incomplete marketing description of acreage near a highway.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-22"
+    ]
+  },
+  {
+    "id": "ownership-rule-metes-bounds-traverse",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "metes-and-bounds",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "Metes-and-bounds descriptions trace boundary calls from an identifiable point of beginning back to that point, using bearings, distances, and appropriate references.",
+    "conditions": [
+      "Interpret each direction from its named reference and distinguish a closing traverse from a set of unrelated measurements."
+    ],
+    "exceptions": [
+      "Irregular terrain, curves, missing monuments, and conflicting calls may require professional resolution."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 49-50, Metes and Bounds Description",
+        "supports": "Describes the fixed point of beginning, courses, distances, boundaries, monuments, and return to the beginning."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "metes-and-bounds",
+        "summary": "The fictional rectangle runs east 200 feet, south 150, west 200, and north 150 to close at its starting monument.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-21"
+    ]
+  },
+  {
+    "id": "ownership-rule-boundary-evidence",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "distinguish-a-boundary-from-evidence-of-a-boundary",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "A fence, hedge, or online parcel image is evidence about occupation or location, not conclusive proof of the deed boundary.",
+    "conditions": [
+      "Investigate differences between the physical feature, legal description, controlling map, and survey evidence."
+    ],
+    "exceptions": [
+      "Historical agreements and adverse claims can affect the legal outcome; a salesperson must not resolve them by appearance alone."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 49-50, monuments and Record of Survey",
+        "supports": "Explains disappearing or moved markers and records of material discrepancies."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=8726.",
+        "locator": "Business and Professions Code section 8726(a)(3), (5), and (7)",
+        "supports": "Places boundary determination and related location or description work within land surveying."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-a-boundary-from-evidence-of-a-boundary",
+        "summary": "A hedge lies six feet beyond the deed and survey line; the salesperson must not market the hedge as the boundary merely because it is old.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-84"
+    ]
+  },
+  {
+    "id": "ownership-rule-recorded-map-description",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "recorded-lot-and-map-descriptions",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "A lot-and-map description identifies the particular lot together with its recorded map reference; a unit or lot number by itself may not identify the legal interest.",
+    "conditions": [
+      "Use the specific subdivision or condominium records that define the described property."
+    ],
+    "exceptions": [
+      "Architectural labels, door numbers, and private-use parking assignments do not by themselves define title boundaries."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed page 47, Recorded Map",
+        "supports": "Explains lot, block, map, and recording references identifying the parcel."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "recorded-lot-and-map-descriptions",
+        "summary": "The chapter explains why Lot 12 without its particular recorded map is incomplete and why a door number may differ from the legal unit designation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-85"
+    ]
+  },
+  {
+    "id": "ownership-rule-rectangular-survey-fractions",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "government-rectangular-survey",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "A nominal section has 640 acres and a township 36 sections; nested aliquot fractions multiply while township, range, and compass references locate the selected tract.",
+    "conditions": [
+      "Use the nominal dimensions only when the problem states a standard section and read location from the larger tract inward."
+    ],
+    "exceptions": [
+      "Corrections and irregular government lots can have nonstandard acreage; nominal arithmetic must not override the official survey."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 47-50, Township and Section and Government Lots",
+        "supports": "Explains township-range references, serpentine section numbering, fractional sections, and irregular lots."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Area and land measures",
+        "supports": "Supplies square-foot, acre, mile, section, and township units."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "government-rectangular-survey",
+        "summary": "The northeast quarter of the southwest quarter is 640 times one-quarter times one-quarter, or 40 nominal acres.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-19"
+    ]
+  },
+  {
+    "id": "ownership-rule-nonoverlap-and-addition",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "keep-nested-fractions-and-added-parcels-distinct",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "Nested fractions multiply; separately conveyed nonoverlapping pieces add, while mentioning a contained piece again must not double-count its area.",
+    "conditions": [
+      "Determine whether the legal pieces overlap before adding nominal acreage."
+    ],
+    "exceptions": [
+      "The word 'and' alone does not prove that two references describe separate land."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 48-49, fractional section descriptions",
+        "supports": "Shows fractional locations within a section and descriptions containing multiple tracts."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Area",
+        "supports": "Supports area units and arithmetic after the tract relationships are identified."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-nested-fractions-and-added-parcels-distinct",
+        "summary": "The west half and northeast quarter of the same southeast quarter total 80 plus 40, or 120 nonoverlapping acres.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-49"
+    ]
+  },
+  {
+    "id": "ownership-rule-rectangle-acre-conversion",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "area-frontage-and-units",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "Rectangular area equals length times width, and square feet convert to acres by division by 43,560.",
+    "conditions": [
+      "Use compatible linear units before multiplying and preserve square units for area."
+    ],
+    "exceptions": [
+      "Linear frontage and square footage are different measures; conversion in the reverse direction requires multiplication."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Area and square measure",
+        "supports": "Provides rectangle area and the 43,560-square-foot acre conversion."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-one-parcel-two-pricing-methods",
+        "summary": "The chapter's 198-by-220-foot lot contains 43,560 square feet, exactly one acre.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-20"
+    ]
+  },
+  {
+    "id": "ownership-rule-front-foot-versus-area",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "worked-scenario-one-parcel-two-pricing-methods",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "A front-foot price multiplies the stated frontage, not the lot's square footage; dividing acreage does not necessarily divide road frontage in the same proportion.",
+    "conditions": [
+      "Identify which boundary is frontage and which pricing unit the agreement supplies."
+    ],
+    "exceptions": [
+      "Arithmetic price is not a market-value opinion, and a half-area division may preserve or eliminate frontage depending on its orientation."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+        "locator": "Printed page 576, FRONT FOOT",
+        "supports": "Defines the linear front-foot measure used for property valuation."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Linear and square measure",
+        "supports": "Distinguishes linear units from area."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-one-parcel-two-pricing-methods",
+        "summary": "The one-acre lot prices differently at $8 per square foot and $1,500 per front foot, with no mathematical inconsistency.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-23"
+    ]
+  },
+  {
+    "id": "ownership-rule-setback-and-coverage",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "compute-a-building-envelope-without-changing-ownership-acreage",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "The maximum footprint must satisfy both the geometric setback envelope and the stated lot-coverage cap, without deducting setbacks from ownership acreage.",
+    "conditions": [
+      "Subtract both opposing setbacks for each dimension, calculate the percentage from its stated base, and apply the smaller permitted footprint."
+    ],
+    "exceptions": [
+      "These are illustrative local rules; other access, easement, slope, fire, or code constraints may further limit development."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Percentage and Area",
+        "supports": "Supports the percentage-base and rectangular-area calculations under the problem's supplied rules."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compute-a-building-envelope-without-changing-ownership-acreage",
+        "summary": "A 15,000-square-foot lot has a 9,200-square-foot setback envelope but only 6,000 square feet allowed by a 40% gross-area coverage cap.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-47",
+      "ownership-66"
+    ]
+  },
+  {
+    "id": "ownership-rule-deed-exception-area",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "subtract-an-exception-in-matching-units",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "A described fee exception reduces conveyed acreage, but its area must first be converted into the same units as the larger tract.",
+    "conditions": [
+      "The instrument actually excepts the specified land rather than merely burdening it with a use right."
+    ],
+    "exceptions": [
+      "A mere easement generally does not remove the strip from the owner's fee acreage."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Area and square measure",
+        "supports": "Supplies the rectangle and acre-conversion arithmetic."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "subtract-an-exception-in-matching-units",
+        "summary": "A 66-by-165-foot exception removes 10,890 square feet, or 0.25 acre, from five acres, leaving 4.75 acres.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-48"
+    ]
+  },
+  {
+    "id": "ownership-rule-triangle-and-composite-area",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "subtract-an-exception-in-matching-units",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "Triangle area is one-half the base times perpendicular height; irregular parcels can be split into nonoverlapping standard shapes and then added.",
+    "conditions": [
+      "The supplied height must be perpendicular to the base and component areas must not overlap."
+    ],
+    "exceptions": [
+      "A sloping side is not automatically the height, and omitting one-half doubles a triangle's area."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed page 559, Area of a triangle",
+        "supports": "Provides the half-base-times-altitude formula."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "subtract-an-exception-in-matching-units",
+        "summary": "A triangle with a 120-foot base and an 80-foot perpendicular height contains 4,800 square feet, not 9,600.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-50"
+    ]
+  },
+  {
+    "id": "ownership-rule-easement-does-not-subtract-fee",
+    "lessonSlug": "ownership-legal-descriptions",
+    "sectionId": "worked-scenario-one-parcel-two-pricing-methods",
+    "coverageTopics": [
+      "Descriptions of Property"
+    ],
+    "rule": "A use easement ordinarily burdens fee-owned land rather than removing its area from ownership; a price applied to all fee acreage uses the complete conveyed area.",
+    "conditions": [
+      "The agreement prices all fee-owned land and supplies no separate easement discount or excepted fee strip."
+    ],
+    "exceptions": [
+      "The easement can still reduce buildable area, utility, or market value; a true fee exception would change the conveyed area."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+        "locator": "Printed pages 45-46, bundle of rights and appurtenances",
+        "supports": "Distinguishes property rights from physical land and easement benefits."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+        "locator": "Printed pages 558-559, Area",
+        "supports": "Supports the full-area calculation under the stated pricing assumption."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-one-parcel-two-pricing-methods",
+        "summary": "The 20-foot utility easement across the one-acre parcel may restrict building but does not ordinarily require deducting its strip from fee acreage.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-65"
+    ]
+  },
+  {
+    "id": "ownership-rule-public-private-controls",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "ownership-operates-within-a-legal-framework",
+    "coverageTopics": [
+      "Public Controls",
+      "Private Controls"
+    ],
+    "rule": "A project ordinarily must satisfy both valid public controls and enforceable private restrictions; approval from one authority does not cancel the other.",
+    "conditions": [
+      "The stated restrictions are valid and no overriding statute or approved exception changes their application."
+    ],
+    "exceptions": [
+      "Unenforceable or statutorily displaced private restrictions do not win merely by being stricter."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+        "locator": "Government Code section 65850(a), (c), and (e)",
+        "supports": "Authorizes local use, height, bulk, coverage, and setback regulation."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+        "locator": "Civil Code section 5975(a)-(b)",
+        "supports": "Addresses enforceable declaration restrictions and governing documents."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ownership-operates-within-a-legal-framework",
+        "summary": "A building permit does not erase an enforceable covenant, and HOA approval does not excuse violation of a public requirement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-28",
+      "ownership-53"
+    ]
+  },
+  {
+    "id": "ownership-rule-police-power",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "four-government-powers",
+    "coverageTopics": [
+      "Government Rights in Land",
+      "Public Controls"
+    ],
+    "rule": "Police power regulates land use for legitimate public purposes without necessarily acquiring the affected land.",
+    "conditions": [
+      "The exercise describes a lawful public safety or land-use restriction, such as a setback."
+    ],
+    "exceptions": [
+      "A regulatory loss in value alone is not proof of a compensable taking; constitutional taking questions require their own analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+        "locator": "Government Code section 65850(e)",
+        "supports": "Expressly authorizes establishment and maintenance of building setback lines."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+        "locator": "POLICE POWER",
+        "supports": "Defines governmental regulation for public health, safety, and welfare."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "four-government-powers",
+        "summary": "The city requires a setback or correction of unsafe wiring without purchasing the occupied property.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-24"
+    ]
+  },
+  {
+    "id": "ownership-rule-eminent-domain-and-condemnation",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "match-the-government-action-to-its-purpose",
+    "coverageTopics": [
+      "Government Rights in Land"
+    ],
+    "rule": "Eminent domain is the power to take private property for public use with required compensation, and condemnation is the acquisition process rather than an unsafe-building order.",
+    "conditions": [
+      "Identify whether government is acquiring property or regulating a dangerous condition."
+    ],
+    "exceptions": [
+      "Compensability and the lawful scope of acquisition depend on constitutional and statutory requirements."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=I",
+        "locator": "California Constitution article I section 19(a)",
+        "supports": "Requires public use and just compensation for private property taken or damaged."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+        "locator": "CONDEMNATION and EMINENT DOMAIN",
+        "supports": "Distinguishes the taking power and its process from other governmental action."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "match-the-government-action-to-its-purpose",
+        "summary": "Acquisition of a strip for transit differs from an order to correct unsafe wiring, although both may casually be called condemnation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-25"
+    ]
+  },
+  {
+    "id": "ownership-rule-taxation-assessments-escheat",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "four-government-powers",
+    "coverageTopics": [
+      "Government Rights in Land"
+    ],
+    "rule": "Taxation and public special assessments impose lawful charges, while escheat concerns property without legally entitled successors; dying without a will is not automatically escheat.",
+    "conditions": [
+      "Identify whether the government is levying a charge or receiving property after the applicable succession process."
+    ],
+    "exceptions": [
+      "Ad valorem tax and benefit-related assessments need not share the same calculation base; intestate heirs can inherit without a will."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+        "locator": "AD VALOREM, SPECIAL ASSESSMENT, and ESCHEAT",
+        "supports": "Defines value-based taxation, charges for public improvements, and reversion to the state when capable heirs are absent."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "four-government-powers",
+        "summary": "The four-notice comparison separates a public improvement assessment from the case with no legally entitled successor.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-86"
+    ]
+  },
+  {
+    "id": "ownership-rule-general-plan-versus-zoning",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "general-plans-zoning-and-building-codes",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "The general plan sets coordinated long-term development policy; zoning specifies use and development standards, and construction requirements address the building itself.",
+    "conditions": [
+      "Match the document to the policy, permitted land use, or construction-safety question being asked."
+    ],
+    "exceptions": [
+      "A plan designation is not an individual permit, and a permitted use can still fail applicable building requirements."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65302.",
+        "locator": "Government Code section 65302, opening paragraph and subdivisions (a)-(h)",
+        "supports": "Requires development-policy text and diagrams plus specified elements, including environmental justice when applicable."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+        "locator": "Government Code section 65850",
+        "supports": "Authorizes detailed local use and development regulation."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref18.pdf",
+        "locator": "Printed pages 465-468, General Plans and Zoning",
+        "supports": "Distinguishes coordinated development policy from zoning implementation."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "general-plans-zoning-and-building-codes",
+        "summary": "A proposed use may satisfy zoning while its structure fails construction requirements; the reverse can also occur.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-87"
+    ]
+  },
+  {
+    "id": "ownership-rule-density-and-floor-area",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "read-density-and-intensity-as-separate-constraints",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "Density, floor-area ratio, height, and building coverage measure distinct constraints; satisfying one numerical ceiling does not establish complete approval.",
+    "conditions": [
+      "Use the exercise's density base and local definition of counted floor area."
+    ],
+    "exceptions": [
+      "State-law overrides, bonuses, and other site constraints require separate consideration when applicable."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+        "locator": "Government Code section 65850(c)(1)-(4)",
+        "supports": "Authorizes building size, lot coverage, and land-use intensity controls."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-density-and-intensity-as-separate-constraints",
+        "summary": "Four units per acre on two acres gives eight units under that one rule, while 0.50 FAR on 20,000 square feet gives 10,000 square feet of counted floor area.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-51"
+    ]
+  },
+  {
+    "id": "ownership-rule-variance-findings",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "compare-three-different-approval-paths",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "A variance requires qualifying circumstances of the property and cannot authorize a use otherwise prohibited by the zone under Government Code section 65906.",
+    "conditions": [
+      "Identify property-specific size, shape, topography, location, or surroundings and compare privileges in the same vicinity and zone."
+    ],
+    "exceptions": [
+      "Financial preference alone is not the statutory basis, and a conditional use permit is a distinct authorization."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65906.",
+        "locator": "Government Code section 65906, all paragraphs",
+        "supports": "States the special-circumstances test, no-special-privilege condition, prohibited-use limit, and conditional-use distinction."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-three-different-approval-paths",
+        "summary": "Unusual topography may justify dimensional relief, but calling a prohibited retail shop a profitable hardship does not create use-variance authority.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-26",
+      "ownership-52"
+    ]
+  },
+  {
+    "id": "ownership-rule-conditional-use-permit",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "relief-and-existing-uses",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "A conditional use permit authorizes a use already contemplated conditionally in the zoning framework when required findings and conditions are satisfied.",
+    "conditions": [
+      "The ordinance makes the proposed use conditionally available rather than outright prohibited."
+    ],
+    "exceptions": [
+      "An application or supportive staff conversation is not an issued permit or general rezoning."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref18.pdf",
+        "locator": "Printed page 468, Conditional Use Permits",
+        "supports": "Explains specially authorized uses, spillover effects, and conditions that address compatibility."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "relief-and-existing-uses",
+        "summary": "The district may allow a facility only after review of traffic, operating hours, and neighborhood compatibility.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-88"
+    ]
+  },
+  {
+    "id": "ownership-rule-lawful-nonconforming-use",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "relief-and-existing-uses",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "A legal nonconforming use was lawful before the regulatory change; age alone does not legalize an originally prohibited use or guarantee rebuilding rights.",
+    "conditions": [
+      "Establish lawful origin, continued status, and the governing jurisdiction's continuation limits."
+    ],
+    "exceptions": [
+      "Expansion, abandonment, reconstruction, and termination rules vary by jurisdiction; the cited La Puente provision is a local example, not a statewide ordinance."
+    ],
+    "sources": [
+      {
+        "url": "https://codelibrary.amlegal.com/codes/lapuente/latest/lapuente_ca/0-0-0-39966",
+        "locator": "La Puente Municipal Code section 10.60.020(A)-(C)",
+        "supports": "Defines lawful prior and continuing nonconformity and excludes unlawfully established uses, structures, and parcels."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "relief-and-existing-uses",
+        "summary": "A once-lawful workshop differs from an illegal use that has simply existed for years; fire does not guarantee unlimited reconstruction.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-27"
+    ]
+  },
+  {
+    "id": "ownership-rule-approval-claim-accuracy",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "compare-three-different-approval-paths",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "A salesperson must distinguish an informal favorable response or pending application from an actual required development approval.",
+    "conditions": [
+      "Determine which agency has authority and whether it has completed the required decision."
+    ],
+    "exceptions": [
+      "A conceptual drawing or application does not establish that other separate permits or conditions are satisfied."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+        "locator": "Business and Professions Code section 10176(a)-(b)",
+        "supports": "Authorizes discipline for substantial misrepresentation and specified false promises."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-three-different-approval-paths",
+        "summary": "Calling staff encouragement an approved project materially changes the buyer's understanding of its risk and timeline.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-54"
+    ]
+  },
+  {
+    "id": "ownership-rule-subdivision-purposes-thresholds",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "subdivision-and-environmental-review",
+    "coverageTopics": [
+      "Public Controls"
+    ],
+    "rule": "The Subdivision Map Act regulates physical divisions through local processes, while the DRE-administered Subdivided Lands Law regulates covered offerings and purchaser protection.",
+    "conditions": [
+      "Check each law's definition, purpose, covered transaction, and exemptions rather than using one parcel-count rule for both."
+    ],
+    "exceptions": [
+      "The general two-or-more division and five-or-more offering concepts do not decide every condominium, lease, or exempt transaction."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66424.",
+        "locator": "Government Code section 66424",
+        "supports": "Defines subdivision for physical division, sale, lease, or financing and specified development categories."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=11000.",
+        "locator": "Business and Professions Code section 11000(a)-(c)",
+        "supports": "Defines covered five-or-more subdivided lands with stated exclusions and preserves the Map Act's separate application."
+      },
+      {
+        "url": "https://www.dre.ca.gov/Developers/",
+        "locator": "Developers, opening discussion",
+        "supports": "Describes DRE's buyer-protection role for covered subdivision offerings."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "subdivision-and-environmental-review",
+        "summary": "The two laws can apply to the same proposed division for separate sales, and falling below five does not erase local division review.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-29"
+    ]
+  },
+  {
+    "id": "ownership-rule-independent-approval-layers",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "evaluate-a-proposed-project-in-layers",
+    "coverageTopics": [
+      "Public Controls",
+      "Private Controls"
+    ],
+    "rule": "Map approval, DRE offering compliance, private architectural restrictions, and easement scope remain separate inquiries; a public report is material disclosure, not a blanket project approval.",
+    "conditions": [
+      "The offering is covered by DRE requirements and the other stated restrictions remain legally applicable."
+    ],
+    "exceptions": [
+      "A public report does not replace local approvals or guarantee construction quality, and lawful statutory overrides can affect private restrictions."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66424.",
+        "locator": "Government Code section 66424",
+        "supports": "Identifies the physical division addressed by map regulation."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=11000.",
+        "locator": "Business and Professions Code section 11000",
+        "supports": "Identifies DRE-regulated offering categories."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+        "locator": "Civil Code section 5975",
+        "supports": "Supports separately enforceable declaration and governing-document obligations."
+      },
+      {
+        "url": "https://www.dre.ca.gov/developers/publicreports.html",
+        "locator": "Public Reports, purpose and required disclosures",
+        "supports": "Explains the report's information, disclosure, and offering function."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "evaluate-a-proposed-project-in-layers",
+        "summary": "The six-unit project requires examination of local division, DRE offering, declaration, and easement constraints rather than a single approval stamp.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-68"
+    ]
+  },
+  {
+    "id": "ownership-rule-ceqa-evidence-paths",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "different-environmental-review-outcomes",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations",
+      "Public Controls"
+    ],
+    "rule": "For a nonexempt covered project, CEQA document choice follows the evidence: no significant-effect evidence supports a negative declaration; qualifying revisions may support a mitigated negative declaration; substantial evidence of possible significant effects requires an EIR.",
+    "conditions": [
+      "For mitigation under section 21080(c)(2), the applicant makes or agrees to revisions before public release and the whole record leaves no substantial evidence of a significant effect in the revised project."
+    ],
+    "exceptions": [
+      "CEQA exemptions and ministerial activities require separate analysis; a negative declaration does not mean project rejection or land-use approval."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+        "locator": "Public Resources Code section 21080(a)-(e), especially (c)(2)(A)-(B)",
+        "supports": "States applicability, exemptions, revision timing, evidence standard, and the EIR route."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "different-environmental-review-outcomes",
+        "summary": "The chapter contrasts an ordinary negative declaration with pre-review revisions eliminating initially identified significant effects.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-67"
+    ]
+  },
+  {
+    "id": "ownership-rule-private-restriction-remedies",
+    "lessonSlug": "ownership-land-use-controls",
+    "sectionId": "private-controls",
+    "coverageTopics": [
+      "Private Controls"
+    ],
+    "rule": "Enforceable covenants can support judicial relief, including an injunction restraining prohibited work; paying damages and securing permission are not equivalent remedies.",
+    "conditions": [
+      "Determine the restriction's enforceability and the party entitled to enforce it."
+    ],
+    "exceptions": [
+      "A neighbor's apparent violation does not establish waiver or permission, and governing law can displace an otherwise stated restriction."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+        "locator": "Civil Code section 5975(a)-(c)",
+        "supports": "Provides enforcement of declarations and other governing documents, including prevailing-party fees."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=525.",
+        "locator": "Code of Civil Procedure section 525",
+        "supports": "Defines an injunction as a court writ or order requiring a person to refrain from an act."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "private-controls",
+        "summary": "The chapter contrasts an order stopping conduct with a damages award and rejects treating another owner's violation as automatic authorization.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-89"
+    ]
+  },
+  {
+    "id": "ownership-rule-water-entitlement-and-basin",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "a-water-source-is-not-a-complete-water-right",
+    "coverageTopics": [
+      "Water Rights"
+    ],
+    "rule": "A functioning well or water source does not prove unlimited lawful extraction; reasonable beneficial use and applicable basin restrictions remain relevant.",
+    "conditions": [
+      "Identify the legal basis of the right, authorized place and purpose of use, and applicable groundwater management."
+    ],
+    "exceptions": [
+      "Overlying percolating groundwater and subterranean streams in known definite channels have different permit treatment."
+    ],
+    "sources": [
+      {
+        "url": "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+        "locator": "What is a water right?; How do I know if I need a water right permit?",
+        "supports": "Distinguishes reasonable beneficial entitlement, overlying use, surface-water permits, and local groundwater restrictions."
+      },
+      {
+        "url": "https://water.ca.gov/Programs/Groundwater-Management/SGMA-Groundwater-Management",
+        "locator": "SGMA framework and local groundwater sustainability agencies",
+        "supports": "Explains local management and sustainability plans for covered high- and medium-priority basins."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-water-source-is-not-a-complete-water-right",
+        "summary": "The buyer of the orchard must investigate the well and groundwater sustainability agency rather than accept unlimited pumping from land ownership.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-30"
+    ]
+  },
+  {
+    "id": "ownership-rule-riparian-natural-flow",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "surface-water-and-groundwater",
+    "coverageTopics": [
+      "Water Rights"
+    ],
+    "rule": "A qualifying riparian right generally allows reasonable use of natural flow on the connected riparian land, not export to a separate distant parcel or seasonal storage under that right alone.",
+    "conditions": [
+      "Establish qualifying riparian land, natural flow, and the authorized place of use."
+    ],
+    "exceptions": [
+      "Nonuse alone does not ordinarily extinguish riparian rights; imported water or releases from upstream storage are not natural-flow entitlement merely because they pass the parcel."
+    ],
+    "sources": [
+      {
+        "url": "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+        "locator": "What is a riparian right?",
+        "supports": "Explains natural flow, the connected parcel, drainage, storage limits, and nonuse."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "surface-water-and-groundwater",
+        "summary": "The chapter contrasts reasonable use on the adjoining parcel with moving water to the same owner's distant property or storing wet-season flows.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-31"
+    ]
+  },
+  {
+    "id": "ownership-rule-appropriation-and-priority",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "surface-water-and-groundwater",
+    "coverageTopics": [
+      "Water Rights"
+    ],
+    "rule": "Appropriation is a distinct basis of water use, and new surface-water appropriations generally require State Water Board authorization rather than mere stream adjacency.",
+    "conditions": [
+      "Identify the diversion, place of use, and date and scope of the claimed right."
+    ],
+    "exceptions": [
+      "Valid pre-1914 appropriative rights require separate historical analysis; seniority does not permit waste or unreasonable use."
+    ],
+    "sources": [
+      {
+        "url": "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+        "locator": "What is an appropriative water right?; Do I need a water right permit if I began using water before 1914?",
+        "supports": "Explains appropriation and the historical permit distinction, including changed or expanded uses."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "surface-water-and-groundwater",
+        "summary": "The chapter contrasts a new surface-water appropriation with a claimed historical pre-1914 right instead of treating all diversions as riparian.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-90"
+    ]
+  },
+  {
+    "id": "ownership-rule-legal-physical-water-budget",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "separate-entitlement-capacity-and-delivery",
+    "coverageTopics": [
+      "Water Rights"
+    ],
+    "rule": "Legal entitlement, pump capacity, and actual delivery are separate constraints; greater equipment capacity cannot cure a shortfall in authorized water.",
+    "conditions": [
+      "Use the verified entitlement's volume and terms, then separately assess seasonal availability and infrastructure."
+    ],
+    "exceptions": [
+      "Even a sufficient legal volume does not guarantee hydrologic supply or crop profitability."
+    ],
+    "sources": [
+      {
+        "url": "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+        "locator": "What is a water right?; What are the benefits of water right laws?; What information and conditions will my water right permit contain?",
+        "supports": "Distinguishes permitted beneficial use, priority-related availability, and conditions on a water right."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-entitlement-capacity-and-delivery",
+        "summary": "A 60-acre-foot annual irrigation plan with only 45 authorized acre-feet needs 15 additional lawful acre-feet even if the pump can extract more.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-55"
+    ]
+  },
+  {
+    "id": "ownership-rule-water-boundary-mechanism",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "why-the-cause-and-pace-of-shoreline-change-matter",
+    "coverageTopics": [
+      "Water Rights"
+    ],
+    "rule": "Natural gradual accretion or recession and sudden avulsion are different processes and can have different title consequences; artificial fill is not natural accretion.",
+    "conditions": [
+      "Determine the pace, natural or artificial cause, type of water body, and governing boundary documents."
+    ],
+    "exceptions": [
+      "Civil Code section 1014 preserves existing rights-of-way; public trust interests and other boundary rules remain relevant."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+        "locator": "Civil Code section 1014",
+        "supports": "Addresses natural imperceptible formation on a river or stream bank and preserves existing rights-of-way."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1015.",
+        "locator": "Civil Code section 1015",
+        "supports": "Separately addresses sudden transport of a distinguishable bank portion."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+        "locator": "AVULSION",
+        "supports": "Defines sudden perceptible loss or addition through water action."
+      },
+      {
+        "url": "https://www.slc.ca.gov/public-trust/",
+        "locator": "What are Public Trust Lands?; Ownership and Use Issues",
+        "supports": "Explains public trust land and filled-waterway boundary disputes."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "why-the-cause-and-pace-of-shoreline-change-matter",
+        "summary": "Gradual riverbank deposits, an overnight channel shift, and owner-imported shoreline fill cannot be treated as the same title event.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-32",
+      "ownership-57"
+    ]
+  },
+  {
+    "id": "ownership-rule-lead-covered-sale",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "contamination-and-building-hazards",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "Covered pre-1978 housing sales require prescribed lead information, known facts and available reports, and a buyer's inspection opportunity, not automatic seller remediation.",
+    "conditions": [
+      "Confirm that the transaction and housing are covered and identify any lawful written change or waiver of the usual ten-day opportunity."
+    ],
+    "exceptions": [
+      "Exempt transactions and housing require separate analysis; rental disclosure is not identical to the buyer's inspection opportunity."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+        "locator": "Requirements Under the Disclosure Rule",
+        "supports": "Lists the pamphlet, known information, reports, warning, and the buyer's ten-day assessment or inspection opportunity."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "contamination-and-building-hazards",
+        "summary": "The chapter separates disclosure of known lead hazards and available reports from a requirement to remove every painted surface before sale.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-33"
+    ]
+  },
+  {
+    "id": "ownership-rule-building-hazard-investigation",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "contamination-and-building-hazards",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "Different building hazards require different evidence: asbestos condition and disturbance matter, radon cannot be ruled out by smell, and mold problems require attention to moisture.",
+    "conditions": [
+      "Match the suspected hazard to competent investigation rather than a blanket visual safety assurance."
+    ],
+    "exceptions": [
+      "Undisturbed intact asbestos material is not the same exposure situation as damaged or disturbed material; generic inspection does not establish absence of hidden hazards."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos",
+        "locator": "How to Identify Materials That May Contain Asbestos; What to Do If You Have Asbestos in Your Home",
+        "supports": "Explains limitations of visual identification and the importance of condition and disturbance."
+      },
+      {
+        "url": "https://www.epa.gov/radon",
+        "locator": "Radon is a naturally occurring radioactive gas",
+        "supports": "States that radon cannot be seen or smelled and exposure requires testing."
+      },
+      {
+        "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "locator": "Mold Basics",
+        "supports": "Explains the need to control moisture and fix the water problem."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "contamination-and-building-hazards",
+        "summary": "The chapter contrasts airborne-fiber risk, odorless radon, and a moisture problem underlying visible mold.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-91"
+    ]
+  },
+  {
+    "id": "ownership-rule-environmental-inquiry-scope",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "read-environmental-due-diligence-in-stages",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "Environmental due diligence distinguishes disclosure, records and site inquiry, targeted sampling, and conditional cleanup status; a generic home inspection is not commercial environmental clearance.",
+    "conditions": [
+      "Use qualified investigation appropriate to the site's history, potential contaminants, and the scope of each report."
+    ],
+    "exceptions": [
+      "A report may contain significant data gaps and limited sampling; no single observation proves every condition across the site."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+        "locator": "What Are the Documentation Requirements for All Appropriate Inquiries?; Format for Reporting Results",
+        "supports": "Requires documented findings, data gaps, professional opinions, and distinguishes additional investigation and Phase II sampling."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-environmental-due-diligence-in-stages",
+        "summary": "The evidence table separates a seller's disclosure, historical site review, targeted sampling, and cleanup documentation for a former service station.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-92"
+    ]
+  },
+  {
+    "id": "ownership-rule-cercla-liability-character",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "read-environmental-due-diligence-in-stages",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "CERCLA liability can be strict and retroactive and, where the harm is indivisible, joint and several; absence of negligence alone does not defeat a qualifying claim.",
+    "conditions": [
+      "Establish the hazardous-substance release or threatened release, response costs, and a legally responsible party."
+    ],
+    "exceptions": [
+      "Statutory defenses, protections, divisible harm, and special party circumstances can change the result."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/enforcement/superfund-liability",
+        "locator": "Superfund Liability is; liability triggers; Types of Superfund Liable Parties",
+        "supports": "Identifies the three liability characteristics, triggering conditions, and categories of responsible parties."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-environmental-due-diligence-in-stages",
+        "summary": "The chapter explains why a responsible party may face more than an equal fraction of cleanup costs despite claiming it followed industry standards.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-93"
+    ]
+  },
+  {
+    "id": "ownership-rule-private-environmental-indemnity",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "read-environmental-due-diligence-in-stages",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "A private environmental indemnity may allocate reimbursement between parties but does not itself transfer away CERCLA liability imposed against a responsible party.",
+    "conditions": [
+      "Distinguish enforcement by government from contractual reimbursement between buyer and seller."
+    ],
+    "exceptions": [
+      "A separate applicable statutory defense or governmental settlement must be established on its own terms."
+    ],
+    "sources": [
+      {
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section9607&num=0&edition=prelim",
+        "locator": "42 U.S.C. section 9607(e)(1)-(2)",
+        "supports": "Preserves private indemnification and subrogation while preventing transfer of the liability imposed by the section."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-environmental-due-diligence-in-stages",
+        "summary": "The buyer may retain contractual recourse against the seller while still facing a regulatory cleanup claim.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-56"
+    ]
+  },
+  {
+    "id": "ownership-rule-bfpp-knowledge-and-continuing-care",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "purchaser-protection-has-continuing-conditions",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "Known contamination does not automatically defeat BFPP eligibility, but qualifying pre-acquisition inquiry and continuing statutory obligations are required.",
+    "conditions": [
+      "Establish the applicable threshold criteria and take reasonable steps concerning continuing and threatened releases after acquisition."
+    ],
+    "exceptions": [
+      "An inspection report or private indemnity is not complete immunity, and closing does not end compliance duties."
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/enforcement/bona-fide-prospective-purchasers",
+        "locator": "Threshold Criteria and Continuing Obligations",
+        "supports": "Allows acquisition with knowledge subject to requirements and identifies AAI and continuing reasonable steps."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "purchaser-protection-has-continuing-conditions",
+        "summary": "The chapter contrasts a buyer who knows contamination exists with one who ignores a continuing release after closing.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-69",
+      "ownership-70"
+    ]
+  },
+  {
+    "id": "ownership-rule-fault-map-scope",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "distinguish-hazard-mapping-from-a-guarantee",
+    "coverageTopics": [
+      "Environmental Hazards and Regulations"
+    ],
+    "rule": "An Alquist-Priolo map addresses surface fault rupture, not every earthquake or natural hazard; being outside its zone is not an all-hazards clearance.",
+    "conditions": [
+      "Identify which hazard and regulatory purpose the particular map addresses."
+    ],
+    "exceptions": [
+      "Shaking, liquefaction, landslide, flood, fire, and site-specific conditions require relevant separate evidence."
+    ],
+    "sources": [
+      {
+        "url": "https://www.conservation.ca.gov/cgs/alquist-priolo",
+        "locator": "Surface Fault Rupture Explained; Other Earthquake-Related Hazards",
+        "supports": "Distinguishes surface rupture from earthquakes without rupture and the separate seismic-hazard framework."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-hazard-mapping-from-a-guarantee",
+        "summary": "The chapter contrasts a mapped surface-rupture concern with the unsupported claim that an unmapped site has no shaking or other hazard risk.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-94"
+    ]
+  },
+  {
+    "id": "ownership-rule-williamson-successor-restrictions",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "special-categories-of-land",
+    "coverageTopics": [
+      "Special Categories of Land"
+    ],
+    "rule": "An active Williamson Act contract restricts agricultural or compatible use and binds successor owners; a purchase does not cancel it or establish subdivision entitlement.",
+    "conditions": [
+      "Review the actual contract, permitted compatible uses, duration, and lawful termination procedures."
+    ],
+    "exceptions": [
+      "A buyer's preference for housing development is not itself cancellation or nonrenewal, and local implementation varies."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=51243.",
+        "locator": "Government Code section 51243(a)-(b)",
+        "supports": "Requires compatible-use limitations and binds successors."
+      },
+      {
+        "url": "https://www.conservation.ca.gov/dlrp/wa",
+        "locator": "About the Williamson Act",
+        "supports": "Explains use restrictions in exchange for agricultural or open-space assessment treatment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "special-categories-of-land",
+        "summary": "The orchard buyer discovers an active contract inconsistent with treating attractive farmland as immediately development-ready.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-34"
+    ]
+  },
+  {
+    "id": "ownership-rule-conservation-retained-fee",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "evaluate-special-land-restrictions",
+    "coverageTopics": [
+      "Special Categories of Land"
+    ],
+    "rule": "A conservation easement can impose an enforceable conservation limitation on retained fee title and bind later owners without the public acquiring the fee.",
+    "conditions": [
+      "Identify the instrument's conservation purpose and restrictions on the particular land."
+    ],
+    "exceptions": [
+      "The owner can retain title while losing some development choices; it is not an ordinary temporary revocable permission."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=815.1.",
+        "locator": "Civil Code section 815.1",
+        "supports": "Defines an instrument imposing conservation limitations binding successive owners."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "evaluate-special-land-restrictions",
+        "summary": "The rural owner retains title subject to an open-space conservation restriction rather than conveying the entire parcel to the county.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-58"
+    ]
+  },
+  {
+    "id": "ownership-rule-coastal-public-trust-status",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "evaluate-special-land-restrictions",
+    "coverageTopics": [
+      "Special Categories of Land"
+    ],
+    "rule": "Coastal development authority and public trust rights are distinct constraints that can remain relevant to redevelopment of a privately marketed waterfront site.",
+    "conditions": [
+      "Check the proposed activity, coastal jurisdiction, certified local program, title boundaries, and public trust interests."
+    ],
+    "exceptions": [
+      "A prior house or a waterfront deed does not automatically authorize reconstruction or exclusion of all public shoreline use."
+    ],
+    "sources": [
+      {
+        "url": "https://www.coastal.ca.gov/whoweare.html",
+        "locator": "Overview and Coastal Management Program",
+        "supports": "Explains coastal regulation, broad development activity, and shared state-local responsibilities."
+      },
+      {
+        "url": "https://www.slc.ca.gov/public-trust/",
+        "locator": "What are Public Trust Lands?; Ownership and Use Issues",
+        "supports": "Explains sovereign lands, filled areas, and continuing public trust rights."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "evaluate-special-land-restrictions",
+        "summary": "The buyer replacing a coastal house must assess the new work and public access rather than infer permission from the old building.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-95"
+    ]
+  },
+  {
+    "id": "ownership-rule-tribal-and-leased-land-interest",
+    "lessonSlug": "ownership-water-environment",
+    "sectionId": "special-categories-of-land",
+    "coverageTopics": [
+      "Special Categories of Land"
+    ],
+    "rule": "Reservation or other publicly associated land may involve trust title, leasehold, permits, and distinct authority; acquiring improvements does not itself establish fee ownership of the underlying land.",
+    "conditions": [
+      "Read the actual land status and the precise interest offered rather than importing assumptions from an ordinary private fee sale."
+    ],
+    "exceptions": [
+      "Federal Indian reservations and individual parcels have particular histories and statuses; not every parcel with tribal associations has identical title."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bia.gov/faqs/what-federal-indian-reservation",
+        "locator": "Answer, What is a federal Indian reservation?",
+        "supports": "Explains tribal homelands and federal trust title on behalf of the tribe."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "special-categories-of-land",
+        "summary": "The chapter distinguishes buying improvements on leased land from acquiring fee title to the underlying site.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "ownership-96"
+    ]
+  }
+]

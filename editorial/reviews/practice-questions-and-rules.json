@@ -1,0 +1,628 @@
+[
+  {
+    "id": "review-practice-questions-and-rules",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the question or rule author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read the 76 questions linked below: each stem, key, four options and explanations, plus all 36 practice-gaps rule records with their conditions, exceptions, source locators and chapter examples. Scope covers the revised management, disclosures, fair housing and commercial-specialty items, not the entire practice domain. Final corrected sources and locators were reread before passing these exact artifacts.",
+    "sourceUrls": [
+      "https://calcivilrights.ca.gov/housing/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap45-subchapI-sec3607.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2316.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+      "https://selfhelp.courts.ca.gov/eviction-landlord",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref22.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1995.250.",
+      "https://www.dre.ca.gov/developers/publicreports.html",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.8.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+      "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.4.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=827.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1161.",
+      "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title42-section3603",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6102.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6103.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6105.",
+      "https://www.cdtfa.ca.gov/lawguides/vol1/sutl/sales-and-use-tax-law-chapter6-all.html",
+      "https://www.dre.ca.gov/files/pdf/sprag.pdf"
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "practice-017",
+        "digest": "fba46413c1116eecf53b4e7b6f8f210b796bf365a5152a6d850da90578e39fba"
+      },
+      {
+        "kind": "question",
+        "id": "practice-018",
+        "digest": "ee87cbf33b731d8208de099fd622d35715ebca5da5b2603b2897ccc0ee56e1f7"
+      },
+      {
+        "kind": "question",
+        "id": "practice-019",
+        "digest": "d1282066d100255f6df62c38026aea4102a75e9f3e993e3e56b3becee0ed6a36"
+      },
+      {
+        "kind": "question",
+        "id": "practice-020",
+        "digest": "ef4693090f619ed179405bcb682567c365233f5d4fc48da0fd920a10f80ccda6"
+      },
+      {
+        "kind": "question",
+        "id": "practice-021",
+        "digest": "003b909b6e16c69c7a3379c276452547ca3957ba192ef230e0bb314a2bc1d349"
+      },
+      {
+        "kind": "question",
+        "id": "practice-022",
+        "digest": "f24746e1637af6e1615065ed5cc1750cc44544ceca01d216e0d7d017ff8bb2ed"
+      },
+      {
+        "kind": "question",
+        "id": "practice-023",
+        "digest": "355d49507c09dc16568f7c6bd245a8dd8c5cf86df93faad3e4288d34b0020a10"
+      },
+      {
+        "kind": "question",
+        "id": "practice-024",
+        "digest": "c9a194e41ccee592d7cc9698acc3c2ab019382617b05e59d03640620e3f2a446"
+      },
+      {
+        "kind": "question",
+        "id": "practice-033",
+        "digest": "35913b03a8304a0810a1b87cb9f1e865dddde020ad0285c709d6815834710188"
+      },
+      {
+        "kind": "question",
+        "id": "practice-034",
+        "digest": "c796fe3a8a1ecf61b9e43254fb1a051ff270f7d352dd98591105c1e4bb5e3426"
+      },
+      {
+        "kind": "question",
+        "id": "practice-035",
+        "digest": "5a106e14fabd2fff5e2df0268720b8e457afed9011a6556c5b05cfed4deb3c8e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-036",
+        "digest": "9616a14505e14e0bac7b283e08297ddd9239d85d8c0484ec412d5f7426b39a67"
+      },
+      {
+        "kind": "question",
+        "id": "practice-037",
+        "digest": "7c4ea856a16005f92ded509db6dae216136051435adc3c3401b83d53d9a3383e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-038",
+        "digest": "9c204ce69498e71e078308be3426394aceaa05fcf290cd7136b97b34d6fda57e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-039",
+        "digest": "18d5e77c1ea783830e24cf20dde9faad65ed6a9c1c2ee27bb2d6ccf62d1b9e39"
+      },
+      {
+        "kind": "question",
+        "id": "practice-040",
+        "digest": "a150e2a300db62352292f36bb505b58b8bd521e480c169056770f2e430e6cccd"
+      },
+      {
+        "kind": "question",
+        "id": "practice-041",
+        "digest": "04b3172ce2b7873272dcc053ed68c2c44d93da5dd525b53d53ad2cfe1adf4020"
+      },
+      {
+        "kind": "question",
+        "id": "practice-042",
+        "digest": "e2901f66c998069dd0cba383acc338874dbbbc66f487d2c6b3658fdcaab855b7"
+      },
+      {
+        "kind": "question",
+        "id": "practice-043",
+        "digest": "15b0bba47a421e0c40c964c1af22035aacdd49f105eab6f1c1eb9e6e39950c0d"
+      },
+      {
+        "kind": "question",
+        "id": "practice-044",
+        "digest": "fd058faf033ce6f9cf4d2f0e91d704694eaf6947412f9bb3f09b18aa8fdd9545"
+      },
+      {
+        "kind": "question",
+        "id": "practice-045",
+        "digest": "dae049813905cf3e5155ed29c8eb76af5fe849fca8668c42c09f7695e3299f02"
+      },
+      {
+        "kind": "question",
+        "id": "practice-046",
+        "digest": "5fdef6d5c79210c6e8f553e67161de370105f32935cee590e1bb9fd89db46539"
+      },
+      {
+        "kind": "question",
+        "id": "practice-047",
+        "digest": "2cdee456c6cd12af175f744b8594046eb81017dd74148b49480089783b8be37b"
+      },
+      {
+        "kind": "question",
+        "id": "practice-048",
+        "digest": "70fbd975f053a4435004de1bbad6f10a0b22a8ae02b4b062809d2e2507875e97"
+      },
+      {
+        "kind": "question",
+        "id": "practice-049",
+        "digest": "c0be8acc17cbdfb5ebd95d56df50e0786b1d25b7fa7084cf0bfc82ef6c51ded5"
+      },
+      {
+        "kind": "question",
+        "id": "practice-050",
+        "digest": "80b8c256c7df166829d38898e5f6bc2453c05646b2e56d5c3f1e32d0fc9dfde4"
+      },
+      {
+        "kind": "question",
+        "id": "practice-051",
+        "digest": "2687aad828edb84fb923f99c5c28718238f423965bcde710a59c0a55a67e8ec1"
+      },
+      {
+        "kind": "question",
+        "id": "practice-052",
+        "digest": "4d21842780792bf9e0fa46db0a831ea0533bf1e002a7f2aedf0a96b0cc771b0c"
+      },
+      {
+        "kind": "question",
+        "id": "practice-053",
+        "digest": "cc4c133fb5042ded7d4c00a621b0d30c9dee6b05a404dbcaabb9e6106624d130"
+      },
+      {
+        "kind": "question",
+        "id": "practice-054",
+        "digest": "49f338d6e66b367f789d25f6e99dd93b439225f9a8e6425670717b9af937fc44"
+      },
+      {
+        "kind": "question",
+        "id": "practice-055",
+        "digest": "768ed51e432c110e91f3187d93bb44f2a95a91b8b46cd9c82a48a32e969a4f8e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-056",
+        "digest": "4f64b9cc47a3ff2e20bcff69771d9979eda1f4ddc92cc82472fbf685040f7eee"
+      },
+      {
+        "kind": "question",
+        "id": "practice-065",
+        "digest": "6fc4d60c95dceacc5660b1235228f81c1690febe3e613d08715c76fcde2bc0e3"
+      },
+      {
+        "kind": "question",
+        "id": "practice-066",
+        "digest": "94c81b16eedcb874372ed6a67946506509198938ea45a693442edb0c756c9434"
+      },
+      {
+        "kind": "question",
+        "id": "practice-067",
+        "digest": "204e6bb8d37e7c46461cea58b229c8b422afdd510aa9a5649895cb51f14e40c3"
+      },
+      {
+        "kind": "question",
+        "id": "practice-068",
+        "digest": "2eafa8484cff4be14bce90480eaf3f1897765883c25b6b069a7c20ca795a0383"
+      },
+      {
+        "kind": "question",
+        "id": "practice-073",
+        "digest": "dee600ef5cb4203b06b9dcc7ab6796755907f8e12bc1b61305ed57db11be9a72"
+      },
+      {
+        "kind": "question",
+        "id": "practice-074",
+        "digest": "a0096b461b0f8e443e917cfab833065214b37a01ac89f8e598cabd061a706f35"
+      },
+      {
+        "kind": "question",
+        "id": "practice-075",
+        "digest": "93fe746040f4679922dfde0387895210146239ee14598d54eb73f3d29b07d791"
+      },
+      {
+        "kind": "question",
+        "id": "practice-076",
+        "digest": "c32c6f2111a320259fc6b2add1564881093deeceb65477055d515f066be1b7e6"
+      },
+      {
+        "kind": "question",
+        "id": "practice-077",
+        "digest": "a7f858c8438500645dab1146aff89c0089027a9d9b8f66237a621290c964d3f1"
+      },
+      {
+        "kind": "question",
+        "id": "practice-078",
+        "digest": "44e53c143227b65bc0e1d48acc2fbf1b07c685663407854b0cbd7a7197c9c7f3"
+      },
+      {
+        "kind": "question",
+        "id": "practice-079",
+        "digest": "c2cbd3188b32ea85c48a4dec0ef3acc0f32ae913604cc58b4deceeaec500335e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-080",
+        "digest": "ef3ef9400a6b3a274b05fdb9b4a791cbf5ccff297326fab9be6f59a6bfaa8349"
+      },
+      {
+        "kind": "question",
+        "id": "practice-081",
+        "digest": "95c7ceecd8a87c5ab35d2eba747397cc3c7c91b84b60401006a3fe6077d0b13e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-082",
+        "digest": "574462d53b3e2b85a74141e73dcf76191a31ec5f32ca524ab9638968777da1cf"
+      },
+      {
+        "kind": "question",
+        "id": "practice-083",
+        "digest": "31ce6dfb4e93b6d079f87cae1a58841671670d68d4be4f52bd94d246eb9dbb48"
+      },
+      {
+        "kind": "question",
+        "id": "practice-084",
+        "digest": "3db2f16b1f38cd04f34caded0d69defbb0d90a379c83c34ca9e12a3e1e26e8bd"
+      },
+      {
+        "kind": "question",
+        "id": "practice-089",
+        "digest": "36b4a6aca24e237ed4bdf08769e922e27175e7bc51714fb9db19f279d76d6aa3"
+      },
+      {
+        "kind": "question",
+        "id": "practice-090",
+        "digest": "e267ed275d81a3d0ab69fdbf5db17fea972fad09a174f82da3da2007e4083eb8"
+      },
+      {
+        "kind": "question",
+        "id": "practice-093",
+        "digest": "d862ffe329cbb8957640ad952d9cdb6c44fd1d5344019651aa64e9698c5e86a6"
+      },
+      {
+        "kind": "question",
+        "id": "practice-094",
+        "digest": "32b800162219ceb70d428c05466285ce6cfd192255c6e3fec0c12e972a92d54f"
+      },
+      {
+        "kind": "question",
+        "id": "practice-095",
+        "digest": "01db04a84349d9f4f656a3e333f7fea6ede87802a252e966088c75442974db0c"
+      },
+      {
+        "kind": "question",
+        "id": "practice-096",
+        "digest": "7276c281d1d1278531231060ab4cac4572e9852c9b5d0fe3fef81dff12db1ec7"
+      },
+      {
+        "kind": "question",
+        "id": "practice-097",
+        "digest": "b6490fb47c984d42f379a8173bfecc1cfdb2a1102f4f44aa655d9eaf607506a4"
+      },
+      {
+        "kind": "question",
+        "id": "practice-098",
+        "digest": "28dfd0e0c598a65ce423b841d1262f83dff2c9b9d7b905d58aa4e0fc81fce699"
+      },
+      {
+        "kind": "question",
+        "id": "practice-099",
+        "digest": "e47c3975f4eeb580418a3945719167343c0c05e4f0f37d84af6fd7a42919567e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-100",
+        "digest": "d97bbff06bd58247999697bd1be28cd82b05d8d2c1345b51b4c204b0e205795c"
+      },
+      {
+        "kind": "question",
+        "id": "practice-101",
+        "digest": "cf6890cee5f2e305d0e4371872ba8d08d5b791c2217d339fcb1e7e9631204a1f"
+      },
+      {
+        "kind": "question",
+        "id": "practice-102",
+        "digest": "8c33dd73cdd6a4da4d18154aaa669cddd0082b8d3ddb56d9518cf5f42ca148e8"
+      },
+      {
+        "kind": "question",
+        "id": "practice-103",
+        "digest": "ddc05d1fd015cbc8050dd4b2785506c1bd8f6be76c17821778fac930dac8ee9a"
+      },
+      {
+        "kind": "question",
+        "id": "practice-104",
+        "digest": "efdf25c533e4cf3e5f9c2f4688f491024e874992bff06ecace823aaa60017c9e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-105",
+        "digest": "ae0e0cccc5615f43f5dd5a81f1acf339ca22d12130fc9a122038b1ad593df582"
+      },
+      {
+        "kind": "question",
+        "id": "practice-106",
+        "digest": "bafe7e94154c2fed77104ed6448dc8cf9c154ccdc4535fad8460a88955c3a5f1"
+      },
+      {
+        "kind": "question",
+        "id": "practice-107",
+        "digest": "018f054b01e22f9d7f5de1865bb2e8ace484870d0708407486f096bcf1f08539"
+      },
+      {
+        "kind": "question",
+        "id": "practice-108",
+        "digest": "8ba8aded95c38f2f54a40afc6ad78e62a2d73b33f7ab51dda40783bd03473b32"
+      },
+      {
+        "kind": "question",
+        "id": "practice-109",
+        "digest": "3ef43257d2c57fdff34607ecd69f75c801ff60f9387a035a6f83964172ed9f41"
+      },
+      {
+        "kind": "question",
+        "id": "practice-110",
+        "digest": "12c138cd9c1ba59a8b3feba73cde6e5f02ad095dc4cb4f9a4f06b1273605ced7"
+      },
+      {
+        "kind": "question",
+        "id": "practice-111",
+        "digest": "6a323aaf0df2a82fc5ac7f575f273656dbe08b27a719ff84c1caf97b21a6ad4b"
+      },
+      {
+        "kind": "question",
+        "id": "practice-112",
+        "digest": "82d3f2b58462fb51f6bda39626fe424a2c2e22877127a744259d316de7507f06"
+      },
+      {
+        "kind": "question",
+        "id": "practice-113",
+        "digest": "c24e257ba394ed30aa0c0ab11b5f00a0960ca7812a558388217530d430f6321e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-114",
+        "digest": "70306778134c17cd8156f9c24e75edde859fbb29acb61baf8fd40abb82d64b3e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-115",
+        "digest": "2bea350671dc388c9ac5c8b34a1701ee42823ac8c5258650e13e0de4bafdacaf"
+      },
+      {
+        "kind": "question",
+        "id": "practice-116",
+        "digest": "cec67c817132fd3ac880fc2003e359f9b1d2d2e63223c7bf6e7891ed73e7f0f6"
+      },
+      {
+        "kind": "question",
+        "id": "practice-117",
+        "digest": "81e7d702b428dea37bd76631e034a662f3f1dc3dad7889e2112d9fba416ab747"
+      },
+      {
+        "kind": "question",
+        "id": "practice-118",
+        "digest": "ce4cfce33a587a83bae9941f09e94f80f7fdf9b39b76ec1dab7931aa2b9988e7"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-rent-notice-thresholds",
+        "digest": "eb8fd652a01487736493e5045a61f29cb267f53bb7c226d80ade1b8c398c3435"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-termination-party-duration",
+        "digest": "5229ca4dc511817c83a1d86ed22e86e1c7baa4881b79e05810c7dea1a33470e4"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-curable-notice-count",
+        "digest": "21735c802bd6e616315c2625cdf248499a8a7acb9690d4248b8a378b39e6bbda"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-security-aggregate-cap",
+        "digest": "a8980bb83ee55f2d10137e1f120fe439f30b178126150439393b22a6ce676a0c"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-small-landlord-security-exception",
+        "digest": "3893e00aeea4e72210b712fa2cbd26267c208a7059b6e121eef223e9d623050a"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-security-deduction-and-accounting",
+        "digest": "6f6c0095a95374b647982165dc31682ad7bb89f3af0b5107285289446d5b4ebe"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-initial-inspection-and-later-damage",
+        "digest": "9b9bf358e43a4a1f9bd72e226bbe48883082930ffb579cfc14c69ce8c11c534e"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-management-actual-authority",
+        "digest": "f97b496ff5a1d484edd0bc80471f38cf7118cd66a16102e3515d09504fb67027"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-preventive-maintenance-purpose",
+        "digest": "c06e1d841fb321331e1c9ec31e0d5dcdcd197fc0b0b6ec2104a641ca993355bc"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-management-noi-cash",
+        "digest": "cab1533dc6842e220bc0b713047ae7480f94e138f67110c13e885d9e73f6e92c"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-possession-no-self-help",
+        "digest": "c276f645ab1ae3654cf57e85147d8d1de7df5b3ad6c3d5071117dcfe068f46a7"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-fiduciary-tds-exemption",
+        "digest": "2c062f67b4dffd6306bfb9e04ff8fc5eb87d5ea1b3988af85121f5212e397de3"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-known-facts-despite-as-is",
+        "digest": "55a3cf12307ce00305fcffa4edb1f7cc2779f67bc85bad200891ce3b3ac169a4"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-tds-delivery-trigger-and-period",
+        "digest": "e62f191507b96d2ffe534320b9a1e2e20962d5053c1e10ff55ed743131c67ebd"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-nhd-scope-and-known-error",
+        "digest": "901b2544d42bfd18ddf063b2726ecd9e0c6e9b0916f24e259b0be00dff40c32c"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-inspection-observation-not-diagnosis",
+        "digest": "a3b65b1376d2d3dcd3e2e1aa86bb36cfee757593f5d20bb530883894989a5295"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-lead-opportunity-versus-disclosure",
+        "digest": "64964504d9e13b15f5ecad1adf98a103ff134e614370db3f3060c95ac704f060"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-consumer-choice-and-sorting",
+        "digest": "de7a9fb18e04ad8ba2f94d864b5a5350dc84260d16f159f14e12ee5f487bc121"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-advertising-text-and-audience",
+        "digest": "0952391395884d9aecf74f467afddbebaae4ee93f802c5a042389d781ada6adc"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-subsidy-screening-evidence",
+        "digest": "504e2dd32a6335364901f3508c92b0ef8ace0e3a0ea228604b275d7dbcd5a182"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-accommodation-versus-modification",
+        "digest": "03b16628a719c7790da1289b308f13ee29d60656e23524d518ecd60be6c89a03"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-accommodation-verification-limits",
+        "digest": "b26aaf5a90ed44a5b7ef30fe9b27e19eee1abb63fbca13a6efc5a80e3c775dfc"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-federal-private-owner-house",
+        "digest": "b1e2c8b9802f466c4a57985edf4df33a4b58ffaab2224d5af9aea431b989c90f"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-california-household-not-federal-building",
+        "digest": "a842ae0b34c9fdf2556b3798ba0e008049ab1fe4ac9eec8e8b3e17323977e6cb"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-senior-housing-threshold-and-scope",
+        "digest": "e109143b95c96b1d02ac0c9eb66e983cad4e499a963d40ce7a71a1a30a10c44a"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-income-documents-and-lease-rights",
+        "digest": "525186ebd59af5f9912d879b8a2d94e529cf3ecef24d725f8c4e6a655aeb246d"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-lease-expense-allocation",
+        "digest": "1f155ee7ecfc601c051e5dc78bdb4bfb44ec96252efff599d9b1a3f7f1fa891a"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-percentage-rent-breakpoint",
+        "digest": "9a191f725d2f0efc1a8173677fe51edbad3a3157c861eaf865b55003714a5e75"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-rent-concessions-versus-noi",
+        "digest": "900ceb7d33d341432082b19f777b648f3509e041d0f4ea94a652b33c4245a8a8"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-phase-one-scope",
+        "digest": "1a3672b4f819cc0ccf0937d2d465f6384eceafc41ec01872f864a8c4ffce3e02"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-intended-use-feasibility",
+        "digest": "a38f3a0f062182564d5eeeb34ebe073c0cb9ba3708f379ecea530453f9ad605c"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-business-assets-versus-occupancy",
+        "digest": "f664ea03492ed98e316d2dbbbedb3558dfa0084acc2313e576d3a7d7e3333183"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-public-report-disclosure-function",
+        "digest": "f1e94ede744f0e554a462ceb9644fd0f545e983917f7d440e151bba69bce1757"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-bulk-sale-coverage-thresholds",
+        "digest": "3ec290f09c5f71453e4eba5ff907b62073f949ec27ce0345710e973a5aa6d942"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-bulk-notice-channels-and-date",
+        "digest": "79e4baa68e6fb5bb6918b7fbdbf7297d43491ebaca270899cc97dbd1480ac75c"
+      },
+      {
+        "kind": "rule",
+        "id": "practice-rule-business-tax-withholding-and-cap",
+        "digest": "374fca6d19b5e315b5feab6fa2422a9b6e8bcb212ad5cf3ed744ae4df87e81f2"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Security-deposit accounting source locator omitted current Civil Code 1950.5(h).",
+        "resolution": "Added subdivision (h) to the locator alongside authorized deduction and photograph provisions; reviewer reread final record."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Subsidy screening rule locator did not identify the tenant-share and alternative-evidence subdivisions.",
+        "resolution": "Replaced the broad locator with Government Code 12955(o)(1)(A)-(B) and the source-of-income definition at (p)(1)."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Public-report disclosure rule needed direct support for the differences between report types.",
+        "resolution": "Added DRE Subdivision Public Report Application Guide Section III, printed page 5, and registered the primary source in the chapter."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Practice-042 and the net-lease rule needed a definitional source in addition to the clear-contract-language statute.",
+        "resolution": "Added the DRE glossary net-lease entry at printed page 583 to the question and rule, retaining Civil Code 1638 for interpretation."
+      }
+    ],
+    "limitations": "Independent AI primary-source review, not human legal approval, empirical item validation, or exhaustive exam coverage. Review of chapter passages was limited to the rules and examples represented by these artifacts; browser rendering was not part of this review."
+  }
+]

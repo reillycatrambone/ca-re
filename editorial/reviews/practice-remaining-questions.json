@@ -1,0 +1,254 @@
+[
+  {
+    "id": "review-practice-remaining-questions",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the question author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read all 42 remaining practice-domain stems, keys, 168 options and rationales, and 126 misconception tags, covering licensing, supervision, trust accounting, advertising, competition and digital transactions. Checked chapter anchors, registered sources and arithmetic. Reread the final practice-085 renewal qualification after the sole finding was corrected. The earlier 76 reviewed practice items were unchanged.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+      "https://www.dre.ca.gov/licensees/renewlicense.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10131.",
+      "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2018Guidelines%20for%20Unlicensed%20Assistants%20-%20Updated%202018.pdf",
+      "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+      "https://www.dre.ca.gov/licensees/cerequirements.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10148.",
+      "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+      "https://www.dre.ca.gov/Consumers/FileComplaint.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+      "https://www.dre.ca.gov/files/pdf/re13.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+      "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.6.",
+      "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+      "https://files.consumerfinance.gov/f/documents/cfpb_mortgages-scams_one-pager.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.9.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10130.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10156.2."
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "practice-001",
+        "digest": "50c4960c29c9afaf2c0bd1e60cfb02d67fb204662e86e5d6dc87c47336f5e2b1"
+      },
+      {
+        "kind": "question",
+        "id": "practice-002",
+        "digest": "698991303c1e18d0642cbb1fedfdb5dd69a103366d4021e0890b74e4eff7c0a2"
+      },
+      {
+        "kind": "question",
+        "id": "practice-003",
+        "digest": "ea593c8223adcc2e9dbe805f7a8dca643a1668e39402c8b0e0a5c542cd39b9b0"
+      },
+      {
+        "kind": "question",
+        "id": "practice-004",
+        "digest": "e96cf7d9b0bc905b65ecf25312fc93047e88e502dc216116bf0ecce99ccc04c4"
+      },
+      {
+        "kind": "question",
+        "id": "practice-005",
+        "digest": "c1f38efca16a01c1754959320722a6ad128b23aaefc743a60171b959531eb0d1"
+      },
+      {
+        "kind": "question",
+        "id": "practice-006",
+        "digest": "0a9b6e387dcde323331ad70c4891e2e732d5a83a3425fcd238360721b55c114b"
+      },
+      {
+        "kind": "question",
+        "id": "practice-007",
+        "digest": "7fbd8a67e283c93349d0bf8fa1663b7bf05c7451f04105bd85a78256df4da494"
+      },
+      {
+        "kind": "question",
+        "id": "practice-008",
+        "digest": "4fd43e005245a7566fe8eb4fb92a17e4bfce83e25f96b3fb06c330a490061e3e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-009",
+        "digest": "8d9114146b41dd75fadf2f916af9c1f11de483bf3c7472046d92c47f8e27955d"
+      },
+      {
+        "kind": "question",
+        "id": "practice-010",
+        "digest": "c53248e1fe0f48fda2036a51ea2499229d873c0c979da329e7f7c16f55668c95"
+      },
+      {
+        "kind": "question",
+        "id": "practice-011",
+        "digest": "918234492a18ee47ae4dd0277c1e918141f620d8d911e539281b5aa09587b537"
+      },
+      {
+        "kind": "question",
+        "id": "practice-012",
+        "digest": "821fa652ae279e4c09f3919dd911e85e06de31c9650f5d0d7a21834a47e4351a"
+      },
+      {
+        "kind": "question",
+        "id": "practice-013",
+        "digest": "6332e2d5d33de7ac5ae192e0ce1b137ac4ce8124b7201257e2b936971fa810f8"
+      },
+      {
+        "kind": "question",
+        "id": "practice-014",
+        "digest": "f4a1ef8ab6ab828a9d06ec270a68a38a14fb3282f5001ec2ce63347d5c47221e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-015",
+        "digest": "59722579d793e6579841102d06c17844bbdaced0dd9928a4ef7e23461456d501"
+      },
+      {
+        "kind": "question",
+        "id": "practice-016",
+        "digest": "a9d9b1c619c120581341b794be497066a497ddb2788a17c100935eef280b47e3"
+      },
+      {
+        "kind": "question",
+        "id": "practice-025",
+        "digest": "178b0ca716399a502252fe510c027809e3975eaab6d1a65d6456954d703aea0d"
+      },
+      {
+        "kind": "question",
+        "id": "practice-026",
+        "digest": "2ba39bf7e57d9bba32165424e71c7c2444459184c57ff18aab87a182c67d72ee"
+      },
+      {
+        "kind": "question",
+        "id": "practice-027",
+        "digest": "cfbdfdc0ca2220915cfdb9cb1f7b329abdaac873d57d0fb0912b6dc9f2ac5bca"
+      },
+      {
+        "kind": "question",
+        "id": "practice-028",
+        "digest": "3fc57bd56978c7951ae809290479138bef88e38faacb6d031504478d5e44da5e"
+      },
+      {
+        "kind": "question",
+        "id": "practice-029",
+        "digest": "267d21a3028fd9cde90847607c90eedb1fee81d08ae0e8741022a22c6901e147"
+      },
+      {
+        "kind": "question",
+        "id": "practice-030",
+        "digest": "9d49b626a7bfaa11ce603cd1ccba936f112d598da5ca424b102751ef12c005ad"
+      },
+      {
+        "kind": "question",
+        "id": "practice-031",
+        "digest": "09ad315201540a3e383ac7e12dc9d10b75ea1ff69fc09c3133cc657ada5b411b"
+      },
+      {
+        "kind": "question",
+        "id": "practice-032",
+        "digest": "23b9ac4696135976a30b713c2e16210698226be284dc73722c90648422673268"
+      },
+      {
+        "kind": "question",
+        "id": "practice-057",
+        "digest": "5828ab72040692ae4469b9f6a3c0bff7ece0e925906ce6f1021c701457155c13"
+      },
+      {
+        "kind": "question",
+        "id": "practice-058",
+        "digest": "e0ae6f0d7f1a9b8df534f3c8d94fdb6fe60da787845bbfbd03e8bd4e4b9c7f08"
+      },
+      {
+        "kind": "question",
+        "id": "practice-059",
+        "digest": "3f9ba7a6fcfbb6268bce284508ec8d163953e93a7cbf29431349533cd5e0f3bc"
+      },
+      {
+        "kind": "question",
+        "id": "practice-060",
+        "digest": "18827d732d84528ef420397b89c90fe2eeb15da3b3c75620131fa50e2e585f07"
+      },
+      {
+        "kind": "question",
+        "id": "practice-061",
+        "digest": "7d5ed6a87c98096b633f8a3e5aa10bfcaa50ca11e1f830d1ea75c4a2ea3ef6f3"
+      },
+      {
+        "kind": "question",
+        "id": "practice-062",
+        "digest": "8abbd795ab62465357f32228e2bbd3cebfc1a8b7024379ada9b5224d7e589c68"
+      },
+      {
+        "kind": "question",
+        "id": "practice-063",
+        "digest": "ad64e5c8c38556b09481c1838ad91f647d654154736a9a3ffe69d74447cef53f"
+      },
+      {
+        "kind": "question",
+        "id": "practice-064",
+        "digest": "d592a3feaebd096d7250853abd09b2762cc2b9deb59534d6dfe03028a445cb3c"
+      },
+      {
+        "kind": "question",
+        "id": "practice-069",
+        "digest": "57022e71a09de997e5f7f98099b8422037af212dfc81edcef415a04a5edb62bf"
+      },
+      {
+        "kind": "question",
+        "id": "practice-070",
+        "digest": "91cb88084765fdea081b575ba4eaacb530fcb20baeb701592978617b6d98727f"
+      },
+      {
+        "kind": "question",
+        "id": "practice-071",
+        "digest": "ed969bbbfacf19cf0a2edfc8bb6bf1c6bdd9e3324607a4ae4ca140ac14cd5a52"
+      },
+      {
+        "kind": "question",
+        "id": "practice-072",
+        "digest": "c99599321394b482a546958fe3b4b37d1a075369b9dcccbeae7bbf668301c279"
+      },
+      {
+        "kind": "question",
+        "id": "practice-085",
+        "digest": "7354b88d724a86a8222df5f45683b75bb70ffc742a1e9f38f96083f2125592b2"
+      },
+      {
+        "kind": "question",
+        "id": "practice-086",
+        "digest": "bde96435dd02421940d3b44789c01201be06b8b9154308436f975bd042ee5aec"
+      },
+      {
+        "kind": "question",
+        "id": "practice-087",
+        "digest": "8378718b314708e0221ff4db481a4ff472cb919585f1816aa310ccf5f5cc8d97"
+      },
+      {
+        "kind": "question",
+        "id": "practice-088",
+        "digest": "c89986dae0ce174287ea34e61ac85d1ec6987d4991940a319b161ddfc06c81b9"
+      },
+      {
+        "kind": "question",
+        "id": "practice-091",
+        "digest": "be0a6edb70d8bf4ce3315be0321765c00bb617471b943907772be9f36fc8af53"
+      },
+      {
+        "kind": "question",
+        "id": "practice-092",
+        "digest": "d36e56a2160dd7f9e75e79d9abda01fb91e7c2b8f33d9c84484e3e730d6ed72e"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "The original practice-085 wording did not exclude the statutory continued-practice conditions for a timely renewal application.",
+        "resolution": "The stem now expressly says the licensee missed timely renewal. The reviewer reread and confirmed the final item."
+      }
+    ],
+    "limitations": "Independent AI source review only. No qualified human subject-matter review, DRE approval, empirical difficulty calibration, or guarantee of exam coverage or score."
+  }
+]

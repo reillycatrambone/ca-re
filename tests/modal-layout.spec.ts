@@ -1,4 +1,5 @@
 import { test, expect, type Locator, type Page } from '@playwright/test'
+import { seedLongPractice } from './helpers/study-session'
 
 async function expectWithinViewport(locator: Locator, page: Page, inset = 0) {
   await expect(locator).toBeVisible()
@@ -84,13 +85,11 @@ for (const viewport of [
   })
 }
 
-test('landscape question navigator fits, reaches question 150 and restores focus', async ({
+test('landscape practice navigator fits, reaches question 150 and restores focus', async ({
   page,
 }, testInfo) => {
   await page.setViewportSize({ width: 740, height: 320 })
-  await page.goto('/practice/')
-  await page.getByRole('tab', { name: 'Mock exam' }).click()
-  await page.getByRole('button', { name: 'Start timed exam' }).click()
+  await seedLongPractice(page)
   const trigger = page.getByRole('button', { name: 'Question navigator', exact: true })
   const dialog = page.getByRole('dialog', { name: 'Questions', exact: true })
   await trigger.click()
@@ -103,7 +102,7 @@ test('landscape question navigator fits, reaches question 150 and restores focus
   await page.screenshot({ path: testInfo.outputPath('navigator.png') })
   await lastQuestion.click()
   await expect(dialog).toBeHidden()
-  await expect(trigger).toBeFocused()
+  await expect(page.locator('.active-session .question-prompt')).toBeFocused()
   await expect(page.locator('.session-question-meta')).toContainText('Question 150 of 150')
   await trigger.click()
   await page.keyboard.press('Escape')

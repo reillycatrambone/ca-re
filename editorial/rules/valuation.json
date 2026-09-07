@@ -1,0 +1,885 @@
+[
+  {
+    "id": "valuation-rule-value-purpose",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "identify-the-value-question-before-choosing-evidence",
+    "coverageTopics": ["Value"],
+    "rule": "Price, cost, market value, investment value and insurable value answer different questions; a valuation must identify its interest, purpose and effective date.",
+    "conditions": [
+      "The transaction amount is an observed price, not automatic proof of typical market value.",
+      "An investor-specific benefit can explain a premium not shared by ordinary purchasers."
+    ],
+    "exceptions": [
+      "Different purposes can produce different supported conclusions about the same physical building.",
+      "Insurance coverage and settlement depend on the applicable arrangement, not a market-value average."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Purposes and Uses of Appraisals; Value Designations; Cost and Price in Relation to Value",
+        "supports": "Price, cost, market value, investment value and insurable value answer different questions; a valuation must identify its interest, purpose and effective date."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "identify-the-value-question-before-choosing-evidence",
+        "summary": "The chapter compares a broker listing range, insurer rebuilding estimate, tax assessment and investor model for one building.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-06", "valuation-07", "valuation-35"]
+  },
+  {
+    "id": "valuation-rule-ingredients",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "conditions-supporting-value",
+    "coverageTopics": ["Value"],
+    "rule": "Scarcity supports value in combination with utility, effective demand and transferable rights, rather than establishing value by rarity alone.",
+    "conditions": [
+      "Purchasing power must support the desire to acquire the relevant property interest.",
+      "Analyze supply and demand within the competitive segment."
+    ],
+    "exceptions": [
+      "Physical uniqueness need not create useful demand.",
+      "A physical parcel can remain unchanged while legal restrictions alter its utility."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Printed page 388, Four elements of value",
+        "supports": "Scarcity supports value in combination with utility, effective demand and transferable rights, rather than establishing value by rarity alone."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "conditions-supporting-value",
+        "summary": "The remote-site example separates appearance from access, utilities, permission and effective purchaser demand.",
+        "figureIds": ["supplement-value-ingredients"]
+      }
+    ],
+    "questionIds": ["valuation-36"]
+  },
+  {
+    "id": "valuation-rule-contribution",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "distinguish-benefits-expenditures-and-remaining-value",
+    "coverageTopics": ["Value"],
+    "rule": "An improvement contributes the market-supported change in the whole property; successive expenditures must be tested separately against their incremental benefits.",
+    "conditions": [
+      "Compare each stage with the value it adds, using consistent assumptions.",
+      "Construction cost is not the same measure as buyer response."
+    ],
+    "exceptions": [
+      "A profitable first stage does not establish that later stages also justify their cost.",
+      "Personal enjoyment can motivate spending that is not recovered in market value."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Principles of Valuation: contribution and balance; Cost and Price in Relation to Value",
+        "supports": "An improvement contributes the market-supported change in the whole property; successive expenditures must be tested separately against their incremental benefits."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-benefits-expenditures-and-remaining-value",
+        "summary": "The chapter compares three stages costing $12,000, $20,000 and $30,000 with contributions of $18,000, $21,000 and $10,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-01", "valuation-33"]
+  },
+  {
+    "id": "valuation-rule-substitution",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "coverageTopics": ["Value"],
+    "rule": "An equally desirable available alternative constrains the amount an informed buyer will pay for a property under comparable acquisition conditions.",
+    "conditions": [
+      "The substitute must provide comparable utility.",
+      "Relevant expense, delay and transaction differences must be considered."
+    ],
+    "exceptions": [
+      "An apparently cheaper property may not be equivalent in rights, condition or timing."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Principles of Valuation: substitution",
+        "supports": "An equally desirable available alternative constrains the amount an informed buyer will pay for a property under comparable acquisition conditions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "principles-that-explain-buyer-behavior",
+        "summary": "The chapter distinguishes an available equivalent alternative from the unsupported claim that every property has an identical substitute.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-02"]
+  },
+  {
+    "id": "valuation-rule-anticipation",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "coverageTopics": ["Value"],
+    "rule": "Present value reflects expected future benefits, including future income and occupancy benefits, with the associated probability and risk.",
+    "conditions": [
+      "Use supported expectations as of the effective valuation date.",
+      "Identify the benefit to the relevant participants."
+    ],
+    "exceptions": [
+      "An unfunded rumor is not equivalent to an approved and funded project.",
+      "Future benefits need not be rental receipts when the purchaser will occupy the property."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Principles of Valuation: anticipation",
+        "supports": "Present value reflects expected future benefits, including future income and occupancy benefits, with the associated probability and risk."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "principles-that-explain-buyer-behavior",
+        "summary": "The rental-income and owner-occupancy examples show two different future benefits that can influence current value.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-04"]
+  },
+  {
+    "id": "valuation-rule-regression",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "coverageTopics": ["Value"],
+    "rule": "Regression describes the adverse influence of lesser-valued alternatives on a superior property; progression describes the converse benefit to a lesser property.",
+    "conditions": [
+      "The relationship concerns relevant property characteristics and competitive alternatives."
+    ],
+    "exceptions": [
+      "The principle does not establish discriminatory assumptions about residents.",
+      "High construction expenditure alone does not prove superiority or market support."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Principles of Valuation: progression and regression",
+        "supports": "Regression describes the adverse influence of lesser-valued alternatives on a superior property; progression describes the converse benefit to a lesser property."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "principles-that-explain-buyer-behavior",
+        "summary": "The chapter contrasts the lesser property benefiting from better alternatives with the superior property affected by inferior alternatives.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-08"]
+  },
+  {
+    "id": "valuation-rule-highest-use",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "work-through-the-four-tests-with-numbers",
+    "coverageTopics": ["Value"],
+    "rule": "Highest and best use must be legally permissible, physically possible, financially feasible and maximally productive; compare supported residuals rather than gross completed values alone.",
+    "conditions": [
+      "Include the relevant development costs and required return.",
+      "Compare timing and risk consistently after legal and physical screening."
+    ],
+    "exceptions": [
+      "A proposed rezoning is not already an achieved legal entitlement.",
+      "The best use as improved can remain different from the site as though vacant when demolition and redevelopment costs matter."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Principles of Valuation: highest and best use",
+        "supports": "Highest and best use must be legally permissible, physically possible, financially feasible and maximally productive; compare supported residuals rather than gross completed values alone."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "work-through-the-four-tests-with-numbers",
+        "summary": "Office residual is $300,000; apartment residual changes from $380,000 to $240,000 as costs rise, reversing the preferred feasible alternative.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-03", "valuation-34", "valuation-49"]
+  },
+  {
+    "id": "valuation-rule-assemblage",
+    "lessonSlug": "valuation-value-principles",
+    "sectionId": "assemblage-and-plottage",
+    "coverageTopics": ["Value"],
+    "rule": "Assemblage is the combination of parcels; plottage is the supported value increment over their separate aggregate values, before separate assembly costs.",
+    "conditions": [
+      "Compare the same property interests on a consistent basis.",
+      "Deduct acquisition and assembly outlays separately when the question asks for the investor result."
+    ],
+    "exceptions": [
+      "Assemblage can occur without a plottage gain.",
+      "A positive gross increment can be smaller than the cost required to obtain it.",
+      "Older DRE passages also call the increment assemblage; identify the requested quantity instead of assuming exclusive terminology."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Basic Valuation Definitions: assemblage and plottage",
+        "supports": "Assemblage is the combination of parcels; plottage is the supported value increment over their separate aggregate values, before separate assembly costs."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "assemblage-and-plottage",
+        "summary": "Two $200,000 lots become a $460,000 site, creating a $60,000 increment; a $400,000 combined value would show assemblage without a gain.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-05", "valuation-50"]
+  },
+  {
+    "id": "valuation-rule-adjustment-direction",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "combine-adjustments-without-reversing-the-reference-point",
+    "coverageTopics": ["Methods of Estimating Value"],
+    "rule": "Adjust the comparable toward the subject: subtract a supported comparable superiority and add a supported inferiority; the specified sequence determines the base for percentage adjustments.",
+    "conditions": [
+      "The subject remains the reference point for each difference.",
+      "Use supported market contribution and the stated sequence."
+    ],
+    "exceptions": [
+      "A feature being desirable does not independently determine the adjustment sign.",
+      "A changed order of percentage and dollar adjustments can produce a different result."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+        "locator": "Rule 4(c), market-condition date adjustment; 4(d), property differences",
+        "supports": "Adjust the comparable toward the subject: subtract a supported comparable superiority and add a supported inferiority; the specified sequence determines the base for percentage adjustments."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "combine-adjustments-without-reversing-the-reference-point",
+        "summary": "The $620,000 sale becomes $603,000 after a $35,000 superior-view deduction and $18,000 inferior-condition addition; the time-first example produces $505,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-09", "valuation-10", "valuation-37", "valuation-38"]
+  },
+  {
+    "id": "valuation-rule-net-gross-adjustments",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "deriving-and-evaluating-adjustments",
+    "coverageTopics": ["Methods of Estimating Value"],
+    "rule": "Net adjustment is the signed sum; gross adjustment totals absolute differences. A small net amount does not establish a close comparison when offsetting changes are large.",
+    "conditions": [
+      "Keep the signs for the net calculation and remove them only for the gross total.",
+      "Assess comparability with market evidence, not the net total alone."
+    ],
+    "exceptions": [
+      "Fannie Mae does not impose a universal maximum net or gross adjustment percentage."
+    ],
+    "sources": [
+      {
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "locator": "Analysis of Adjustments",
+        "supports": "Net adjustment is the signed sum; gross adjustment totals absolute differences. A small net amount does not establish a close comparison when offsetting changes are large."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "deriving-and-evaluating-adjustments",
+        "summary": "The chapter contrasts $40,000 up and $38,000 down: $2,000 net versus $78,000 gross.",
+        "figureIds": ["supplement-net-gross-adjustments"]
+      }
+    ],
+    "questionIds": ["valuation-11"]
+  },
+  {
+    "id": "valuation-rule-time-period",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "common-adjustment-categories",
+    "coverageTopics": ["Methods of Estimating Value"],
+    "rule": "A time adjustment must reflect supported change from the comparable contract date to the effective valuation date, using evidence for the competitive market and actual interval.",
+    "conditions": [
+      "Use the rate and period supported for the relevant segment.",
+      "Convert stated percent changes to decimal factors for calculation."
+    ],
+    "exceptions": [
+      "A twelve-month increase does not establish uniform increases in each shorter interval.",
+      "An older transaction is not automatically evidence of a price decline."
+    ],
+    "sources": [
+      {
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "locator": "Market Conditions Analysis and Time Adjustments",
+        "supports": "A time adjustment must reflect supported change from the comparable contract date to the effective valuation date, using evidence for the competitive market and actual interval."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "common-adjustment-categories",
+        "summary": "The time-adjustment discussion contrasts the relevant contract-to-effective-date interval with an unsupported blanket annual trend.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-12", "valuation-52"]
+  },
+  {
+    "id": "valuation-rule-concession-price-effect",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "common-adjustment-categories",
+    "coverageTopics": ["Methods of Estimating Value"],
+    "rule": "Under the Fannie Mae appraisal framework, a concession adjustment reflects its supported effect on the comparable sale price, not necessarily the seller expenditure or an underwriting credit limit.",
+    "conditions": [
+      "Support the effect from relevant market evidence.",
+      "Follow the exercise sequence when applying subsequent market and feature adjustments."
+    ],
+    "exceptions": [
+      "A common concession may still affect the price.",
+      "Do not silently substitute this framework for a differently specified cash-equivalency exercise."
+    ],
+    "sources": [
+      {
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "locator": "Sales or Financing Concessions",
+        "supports": "Under the Fannie Mae appraisal framework, a concession adjustment reflects its supported effect on the comparable sale price, not necessarily the seller expenditure or an underwriting credit limit."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "common-adjustment-categories",
+        "summary": "The chapter uses a $10,000 seller payment to explain why expenditure alone does not establish a universal dollar-for-dollar price deduction.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-15", "valuation-51"]
+  },
+  {
+    "id": "valuation-rule-evidence-reconciliation",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "use-ranges-to-reveal-questions-worth-resolving",
+    "coverageTopics": ["Methods of Estimating Value"],
+    "rule": "Reconciliation weighs verified competitive evidence and investigates material differences; an arithmetic average, highest indication or active asking price does not itself establish the supported opinion.",
+    "conditions": [
+      "Verify the property rights and consideration represented by each transaction.",
+      "Distinguish closed exchanges from active listings and pending activity."
+    ],
+    "exceptions": [
+      "An outlier is a reason to investigate, not automatic proof that a sale must be discarded.",
+      "A larger sample does not repair inappropriate or unverified comparisons."
+    ],
+    "sources": [
+      {
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "locator": "Analysis of Adjustments; Appraiser's Comments and Indicated Value in the Sales Comparison Approach",
+        "supports": "Reconciliation weighs verified competitive evidence and investigates material differences; an arithmetic average, highest indication or active asking price does not itself establish the supported opinion."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "use-ranges-to-reveal-questions-worth-resolving",
+        "summary": "The $580,000, $585,000, $590,000 and $670,000 indications prompt investigation of an extra parcel before selecting weights or averaging.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-13", "valuation-16", "valuation-40"]
+  },
+  {
+    "id": "valuation-rule-paired-feature-contribution",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "deriving-and-evaluating-adjustments",
+    "coverageTopics": ["Methods of Estimating Value"],
+    "rule": "Paired-sales analysis isolates a feature contribution using otherwise sufficiently similar transactions; average whole-property price per square foot is not automatically marginal area value.",
+    "conditions": [
+      "Control other relevant differences and verify the transactions.",
+      "Corroborate an apparent paired difference when other variables remain."
+    ],
+    "exceptions": [
+      "Whole-property unit price includes land and other contributions.",
+      "Construction cost cannot substitute automatically for observed price response."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+        "locator": "Printed page 46, Paired Sales Analysis",
+        "supports": "Paired-sales analysis isolates a feature contribution using otherwise sufficiently similar transactions; average whole-property price per square foot is not automatically marginal area value."
+      },
+      {
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "locator": "Analysis of Adjustments",
+        "supports": "Paired-sales analysis isolates a feature contribution using otherwise sufficiently similar transactions; average whole-property price per square foot is not automatically marginal area value."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "deriving-and-evaluating-adjustments",
+        "summary": "The paired-sales discussion isolates an extra feature, while the chapter explains that dividing the entire sale by living area does not price the next square foot.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-14", "valuation-39"]
+  },
+  {
+    "id": "valuation-rule-cost-definition-and-inputs",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "build-a-complete-cost-estimate",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Current improvement cost must use the chosen reproduction or replacement definition and include the relevant direct, indirect and entrepreneurial components without duplicating included items.",
+    "conditions": [
+      "Replacement provides equivalent utility; reproduction duplicates the subject design.",
+      "Read what the unit cost already includes before adding other components."
+    ],
+    "exceptions": [
+      "Historical expenditure is not current cost.",
+      "Complete cost still requires depreciation and market reconciliation before it becomes a value indication."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+        "locator": "Rule 6(b), reproduction inputs; 6(c), original-cost trending; 6(d), equivalent-utility replacement",
+        "supports": "Current improvement cost must use the chosen reproduction or replacement definition and include the relevant direct, indirect and entrepreneurial components without duplicating included items."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "build-a-complete-cost-estimate",
+        "summary": "The 1,800-square-foot building costs $360,000 directly, plus $32,000 indirect cost and $28,000 entrepreneurial incentive, totaling $420,000 before depreciation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-17", "valuation-22", "valuation-41"]
+  },
+  {
+    "id": "valuation-rule-age-life",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "age-and-life",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "The simplified age-life model divides effective age by total economic life to estimate depreciation; effective age is not necessarily chronological age.",
+    "conditions": [
+      "Apply the supplied model to its specified cost base.",
+      "Use total economic life, not remaining life, as the denominator."
+    ],
+    "exceptions": [
+      "A single age-life percentage may not capture all separately identified losses.",
+      "Economic usefulness can end before physical existence."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Depreciation; estimating depreciation by age and economic life",
+        "supports": "The simplified age-life model divides effective age by total economic life to estimate depreciation; effective age is not necessarily chronological age."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "age-and-life",
+        "summary": "A 12-year effective age and 60-year total economic life give 20% depreciation, while renovation can make effective age less than elapsed age.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-18"]
+  },
+  {
+    "id": "valuation-rule-economic-curability",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "curable-does-not-mean-cheap-and-incurable-does-not-mean-impossible",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Economic curability compares correction cost with value restored; a physically possible repair can be economically incurable when the cost exceeds the supported benefit.",
+    "conditions": [
+      "Evaluate the defect using the stated economic assumptions.",
+      "Classify the source of loss separately from whether its correction pays."
+    ],
+    "exceptions": [
+      "An inexpensive correction is not necessarily curable.",
+      "An unfavorable economic return does not waive a legally required safety correction."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Depreciation, curable and incurable physical and functional loss",
+        "supports": "Economic curability compares correction cost with value restored; a physically possible repair can be economically incurable when the cost exceeds the supported benefit."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "curable-does-not-mean-cheap-and-incurable-does-not-mean-impossible",
+        "summary": "The chapter contrasts a $3,000 correction restoring $500 with a $75,000 correction restoring $110,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-19", "valuation-42"]
+  },
+  {
+    "id": "valuation-rule-loss-categories",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "three-categories-of-depreciation",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Physical deterioration concerns condition; functional obsolescence concerns internal utility; external obsolescence arises outside the property and can affect a well-maintained or new building.",
+    "conditions": [
+      "Identify the cause rather than inferring it from age or total cost.",
+      "Use market support for the amount of the resulting loss."
+    ],
+    "exceptions": [
+      "New construction can still have a functional mismatch or weak external demand.",
+      "The individual owner may be unable to cure an external cause by repairing the structure."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Definitions of depreciation; physical, functional and economic obsolescence",
+        "supports": "Physical deterioration concerns condition; functional obsolescence concerns internal utility; external obsolescence arises outside the property and can affect a well-maintained or new building."
+      },
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+        "locator": "Rule 6(e), depreciation and obsolescence from current cost",
+        "supports": "Physical deterioration concerns condition; functional obsolescence concerns internal utility; external obsolescence arises outside the property and can affect a well-maintained or new building."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "three-categories-of-depreciation",
+        "summary": "The chapter contrasts worn roofing, a bedroom-access layout problem and persistent neighboring industrial noise.",
+        "figureIds": ["supplement-depreciation-causes"]
+      }
+    ],
+    "questionIds": ["valuation-20", "valuation-21", "valuation-44"]
+  },
+  {
+    "id": "valuation-rule-tax-versus-market-depreciation",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "appraisal-depreciation-versus-tax-depreciation",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Tax depreciation allocates eligible basis under tax recovery rules; it does not measure annual market-value loss, so eligible rental improvements can appreciate while deductions are allowed.",
+    "conditions": [
+      "Separate building basis from nondepreciable land for federal depreciation.",
+      "Apply the applicable tax system and recovery convention rather than an appraisal economic-life estimate."
+    ],
+    "exceptions": [
+      "Tax recovery periods do not automatically establish an improvement economic life.",
+      "Other systems or exceptions can alter the commonly cited recovery periods."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p527",
+        "locator": "Depreciation of Rental Property; What Rental Property Can Be Depreciated; Basis of Depreciable Property",
+        "supports": "Tax depreciation allocates eligible basis under tax recovery rules; it does not measure annual market-value loss, so eligible rental improvements can appreciate while deductions are allowed."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "appraisal-depreciation-versus-tax-depreciation",
+        "summary": "The chapter distinguishes an appreciating rental building with allowed depreciation from a market appraisal measuring accrued loss.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-23"]
+  },
+  {
+    "id": "valuation-rule-separate-components-percent-good",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "percent-good-measures-the-remaining-contribution",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Percent good is the retained contribution after depreciation, applied to the component it describes; separately valued land and site improvements must not receive the building factor automatically.",
+    "conditions": [
+      "Read which component and loss categories each factor includes.",
+      "Add the independently supported land and depreciated improvement values."
+    ],
+    "exceptions": [
+      "Land can lose market value even though a building depreciation percentage is not normally applied to it.",
+      "A separately analyzed site improvement can wear out unlike the underlying land."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+        "locator": "Rule 6(e), depreciation and the remaining percent good",
+        "supports": "Percent good is the retained contribution after depreciation, applied to the component it describes; separately valued land and site improvements must not receive the building factor automatically."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "percent-good-measures-the-remaining-contribution",
+        "summary": "A $600,000 cost at 70% good retains $420,000, while the chapter separately identifies land and paving outside a building factor.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-24", "valuation-53"]
+  },
+  {
+    "id": "valuation-rule-depreciation-double-count",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "avoid-counting-a-repair-twice-in-depreciation",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Separate depreciation allowances must not count the same loss twice; follow whether the supplied factor includes every defect or applies only after a separately identified correction.",
+    "conditions": [
+      "Identify the exact base and losses represented by each factor.",
+      "Follow the exercise sequence before combining component results."
+    ],
+    "exceptions": [
+      "Subtracting an already-included roof loss a second time understates retained value.",
+      "Two different specified models cannot be assumed to produce identical numerical results."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+        "locator": "Rule 6(e), estimated excess of current cost over current value from depreciation",
+        "supports": "Separate depreciation allowances must not count the same loss twice; follow whether the supplied factor includes every defect or applies only after a separately identified correction."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "avoid-counting-a-repair-twice-in-depreciation",
+        "summary": "The stated $400,000 model removes $10,000 first, then applies 20% to $390,000, leaving $312,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-43", "valuation-54"]
+  },
+  {
+    "id": "valuation-rule-operating-income",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "build-the-operating-statement",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Under the chapter market-investment convention, NOI is effective gross income minus operating expenses including property taxes, before debt service, owner income taxes and tax depreciation.",
+    "conditions": [
+      "Subtract the stated vacancy and collection allowance and include applicable other operating income.",
+      "Use the same reserve and expense convention when comparing income and capitalization rates."
+    ],
+    "exceptions": [
+      "California property-tax appraisal under Rule 8 uses a different property-tax treatment and a tax-loaded rate.",
+      "Financing changes owner cash flow without necessarily changing property NOI."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Printed pages 414-415, Determining Net Annual Income and expense classifications",
+        "supports": "Under the chapter market-investment convention, NOI is effective gross income minus operating expenses including property taxes, before debt service, owner income taxes and tax depreciation."
+      },
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule8.pdf",
+        "locator": "Rule 8(c), property taxes excluded from gross outgo; 8(f), tax component in the capitalization rate",
+        "supports": "California property-tax income appraisal excludes property taxes from gross outgo and includes an effective tax-rate component in capitalization; this differs from the chapter market-investment NOI convention."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "build-the-operating-statement",
+        "summary": "The chapter identifies property taxes as an operating cost but excludes loan payments and owner income taxes; its worked statement stops at $90,000 NOI before $60,000 debt service.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-25"]
+  },
+  {
+    "id": "valuation-rule-stabilized-recurrence",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "stabilize-income-without-inventing-it",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Stabilized income and expenses must reflect supported recurring expectations; current full occupancy or an isolated receipt does not establish a permanent annual income stream.",
+    "conditions": [
+      "Support future collections, vacancy and ordinary operating costs.",
+      "Distinguish recurring benefits from one-time receipts before capitalization."
+    ],
+    "exceptions": [
+      "Owner-provided management does not necessarily eliminate the economic management expense.",
+      "A one-time insurance refund cannot be assumed to recur merely because it was received."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Printed page 414, Income and expenses; Income estimates; Expenses must be realistic",
+        "supports": "Stabilized income and expenses must reflect supported recurring expectations; current full occupancy or an isolated receipt does not establish a permanent annual income stream."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "stabilize-income-without-inventing-it",
+        "summary": "A $150,000 annual potential rent with an 8% supported allowance yields $138,000 before other income and expenses, despite current tenant payments.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-45"]
+  },
+  {
+    "id": "valuation-rule-direct-capitalization",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "direct-capitalization",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Direct capitalization divides a consistent annual NOI by the overall rate expressed as a decimal; with income fixed, a higher required rate produces a lower value indication.",
+    "conditions": [
+      "Match income definitions, risk and market evidence to the chosen rate.",
+      "Solve both ratios when income and the rate change together."
+    ],
+    "exceptions": [
+      "The loan interest rate is not automatically the property capitalization rate.",
+      "A higher NOI alone does not establish higher value if the market rate also changes."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Printed page 413, The Overall Rate Formula; pages 414-415, Selecting the Overall Rate",
+        "supports": "Direct capitalization divides a consistent annual NOI by the overall rate expressed as a decimal; with income fixed, a higher required rate produces a lower value indication."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "direct-capitalization",
+        "summary": "The same $90,000 NOI indicates $1,500,000 at 6% and $1,200,000 at 7.5%; the recurring-change subsection contrasts simultaneous income and rate changes.",
+        "figureIds": ["cap-rate-sensitivity"]
+      }
+    ],
+    "questionIds": ["valuation-26", "valuation-27", "valuation-32", "valuation-46"]
+  },
+  {
+    "id": "valuation-rule-multiplier-period",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "gross-rent-and-gross-income-multipliers",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "A gross multiplier relates price to gross income for a specified period; apply the derived multiplier to income measured on the same period and basis.",
+    "conditions": [
+      "Label monthly or annual rent before deriving and applying the multiplier.",
+      "Compare properties with sufficiently similar income and expense structures."
+    ],
+    "exceptions": [
+      "A gross multiplier does not separately account for different operating expenses.",
+      "An annual multiplier applied to monthly rent understates the consistent result by a factor of twelve."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+        "locator": "Gross Rent Multiplier and Gross Income Multiplier methods",
+        "supports": "A gross multiplier relates price to gross income for a specified period; apply the derived multiplier to income measured on the same period and basis."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "gross-rent-and-gross-income-multipliers",
+        "summary": "A $720,000 sale with $4,000 monthly rent has a monthly GRM of 180 or annual multiplier of 15; applying 180 to $4,500 monthly rent gives $810,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-28"]
+  },
+  {
+    "id": "valuation-rule-cash-return",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Before-tax cash-on-cash return divides annual cash flow to equity, after stated debt service and other required cash adjustments, by the initial cash investment.",
+    "conditions": [
+      "Subtract the full stated principal-and-interest debt service before finding cash distributed to equity.",
+      "Include the acquisition cash components specified by the problem."
+    ],
+    "exceptions": [
+      "NOI divided by cash invested is not ordinary cash-on-cash return when debt service is present.",
+      "Appreciation and principal reduction are not spendable operating cash flow and belong in separately defined broader returns."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+        "locator": "Printed page 79, footnotes 64-65; Glossary, Equity Capitalization Rate",
+        "supports": "Before-tax cash-on-cash return divides annual cash flow to equity, after stated debt service and other required cash adjustments, by the initial cash investment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+        "summary": "Buyer A receives $25,000 cash flow on $400,000 invested, or 6.25%; buyer B receives $15,000 on $250,000, or 6%, despite greater leverage.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-29", "valuation-47", "valuation-55", "valuation-56"]
+  },
+  {
+    "id": "valuation-rule-debt-coverage",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Debt service coverage is NOI divided by annual debt service; it measures the operating-income cushion before debt payment rather than the cash return on equity.",
+    "conditions": [
+      "Use the same annual period for numerator and denominator.",
+      "Recompute coverage after a recurring income or expense change."
+    ],
+    "exceptions": [
+      "Coverage below one means the stated NOI is insufficient for the stated debt service, not an automatic universal lending decision.",
+      "The surplus after debt service is not the DSCR numerator."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+        "locator": "Glossary, Debt Coverage Ratio",
+        "supports": "Debt service coverage is NOI divided by annual debt service; it measures the operating-income cushion before debt payment rather than the cash return on equity."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+        "summary": "The same $75,000 NOI covers $50,000 annual debt service 1.50 times and $60,000 debt service 1.25 times.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-30", "valuation-47", "valuation-55", "valuation-56"]
+  },
+  {
+    "id": "valuation-rule-leverage-and-present-value",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "analyze-the-owners-investment",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "Borrowing can magnify the percentage change in owner equity; equity equals property value less debt, and the percentage loss must use original equity as its base.",
+    "conditions": [
+      "Hold debt and other stated conditions constant when isolating property-value sensitivity.",
+      "Deduct transaction costs or account for amortization only when the exercise includes them."
+    ],
+    "exceptions": [
+      "A ten-percent asset-value loss is not necessarily a ten-percent equity loss.",
+      "Equity changes are not equivalent to annual spendable cash flow."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+        "locator": "Mortgage-Equity Analysis; definitions of mortgage and equity components",
+        "supports": "Borrowing can magnify the percentage change in owner equity; equity equals property value less debt, and the percentage loss must use original equity as its base."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "analyze-the-owners-investment",
+        "summary": "The $1,000,000 property with $800,000 debt falls to $900,000, cutting original $200,000 equity to $100,000: a 50% equity decline.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-31"]
+  },
+  {
+    "id": "valuation-rule-single-payment-present-value",
+    "lessonSlug": "valuation-income-analysis",
+    "sectionId": "recognize-the-time-value-of-money",
+    "coverageTopics": ["Methods of Estimating Value", "Financial Analysis"],
+    "rule": "The present value of a single future payment equals that payment divided by the applicable compound accumulation factor, not by a perpetual-income capitalization rate.",
+    "conditions": [
+      "Match the discount period with the stated annual or periodic rate.",
+      "For one year at 10%, use a divisor of 1.10."
+    ],
+    "exceptions": [
+      "Subtracting ten percent of the future amount uses the wrong base for the required return.",
+      "A single future receipt is not a stabilized perpetual annual NOI stream."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/info/iav/lesson10.htm",
+        "locator": "Present Worth of 1 (PW1), factor formula and example",
+        "supports": "The present value of a single future payment equals that payment divided by the applicable compound accumulation factor, not by a perpetual-income capitalization rate."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "recognize-the-time-value-of-money",
+        "summary": "The single $110,000 payment in one year has a $100,000 present value when discounted at 10%.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["valuation-48"]
+  }
+]

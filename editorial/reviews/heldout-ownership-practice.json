@@ -1,0 +1,834 @@
+[
+  {
+    "id": "independent-heldout-exam-a-ownership-2026-09-07",
+    "reviewed": "2026-09-07",
+    "reviewer": "independent-ai-reviewer-remove-progress-tracking",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read every stem, canonical key, all 92 option rationales, source metadata, and stated legal conditions in exam-a-ownership. Recomputed the stated numeric applications and checked source support against primary statutes and agency material inspected during this September 6-7 editorial run. Compared the assigned ownership and practice forms with one another and the existing practice stems for same-fact or renumber-only reuse; shared concepts with different decisive facts were not treated as duplicates. Checked the final corrected versions before fingerprinting. This record covers only the 23 listed question objects.",
+    "sourceUrls": [
+      "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1019.",
+      "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=768.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=297.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=760.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4125.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4190.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=811.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=806.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2872.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=703.010.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=704.730.",
+      "https://www.govinfo.gov/content/pkg/GOVPUB-I53-PURL-gpo62570/pdf/GOVPUB-I53-PURL-gpo62570.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65906.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref18.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+      "https://lci.ca.gov/ceqa/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65302.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=525.",
+      "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+      "https://www.conservation.ca.gov/cgs/alquist-priolo",
+      "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+      "https://water.ca.gov/Programs/Groundwater-Management/SGMA-Groundwater-Management"
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-001",
+        "digest": "45f295105b275c9e1459c4b8cecd9f35e6f30a2f68ceca0d2168f33171aaca5b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-002",
+        "digest": "cf4a240893a340c9f258ee8a0b19080069e93ea920b6ed009a2939029c651deb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-003",
+        "digest": "4d58b55041076b1d113eedbbc293868b099aef63d2e355e5adb3abd33968fce3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-004",
+        "digest": "a4a53d6b64199fd025cdcdbfcbf90f3175b52d481971e6ba10fab1f49b571396"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-005",
+        "digest": "ddc70042019b05c927b58e72163125c7e70e48070912f609fc7a622e0b73c90e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-006",
+        "digest": "6f75ce85c7f1faef3a2bd79cc5f9edda6f7cd7f9e8f3b285f65914eea362792c"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-007",
+        "digest": "a693a21f4f7f7c56e3768d586405bd6beec3c906fcdd0a57f8cd02a84f8a18a9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-008",
+        "digest": "ab7c2775cd9b16d20ecb6860e0bb03b10575b9d3855e1f5b32ec61be738c1337"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-009",
+        "digest": "0d86761ae2148cd22c834a0e4a4aab11d0688661b1d27cd3981c42163fcc1a53"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-010",
+        "digest": "8baa1e290432c54fee902b987746e9c35f0bb93e2adac0fd24d833cdeb89082f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-011",
+        "digest": "1d19a788129c89f2e556e21ac2b82b3ad2feab2beedbbd060278bcc86dc5072e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-012",
+        "digest": "c5b90c470a6b86a7414e640abbeebe284f5297c6fb8d3d0c1399e7542463ac6f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-013",
+        "digest": "10e9bcf788d29c0fd55fce3ace06902434b8592769229e5be5da257017e92e05"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-014",
+        "digest": "8982bab6a1869c8628e4c8c278afa3d14cea10acd2b62760a1dc843593493d8d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-015",
+        "digest": "911925df488b8771cee37ba6a3c2f1a6e7a217c16eb0d97ce2751640d1a5479e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-016",
+        "digest": "bd922cacb83e6f384ad5fb72693a39aec4bd75c5bfe4b3156c7ef3b649d5407e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-017",
+        "digest": "135646316413635798d5594c3b88c3d75c715475d2052534c1eac75bfbaefbf6"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-018",
+        "digest": "d4f169a8392ef29631978b95b918d9441fd43397f788a9ab23aa886f26869d62"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-019",
+        "digest": "d0eef7e82eda0b8ccbc736ce060aa656e6508469be393382c4d71f7e48ee8c5e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-020",
+        "digest": "b42b7663416b07bc0560f3390eee077bf7748e529ee65fde2ee8078eaebdd232"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-021",
+        "digest": "831954a15ac05c814409f1c7069c65d6d4bed7de2eea63be5634de1eb338671b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-022",
+        "digest": "9210e3ba4edcab6d872a9347111f1073660ce9f882972246273cabedb186aa04"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-ownership-023",
+        "digest": "bfe594b28f273f533dd38d664823c149fe2a66e5446d2f531ee9c30239c544bc"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Item 017 initially cited general zoning and variance provisions without a direct conditional-use-permit explanation.",
+        "resolution": "Added and separately checked DRE reference chapter 18, printed page 468, Conditional Use Permits."
+      }
+    ],
+    "limitations": "Separate AI review, not qualified human legal review, psychometric calibration, official DRE approval, or a score guarantee. Source inspections reused relevant primary passages already independently read in this editorial run and refreshed operative provisions where needed; a failed reader request was not treated as source confirmation. Mathematical results depend on each item's explicit hypothetical assumptions. Review does not certify unlisted questions, the full curriculum, browser delivery, or empirical uniqueness against external question banks."
+  },
+  {
+    "id": "independent-heldout-exam-b-ownership-2026-09-07",
+    "reviewed": "2026-09-07",
+    "reviewer": "independent-ai-reviewer-remove-progress-tracking",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read every stem, canonical key, all 92 option rationales, source metadata, and stated legal conditions in exam-b-ownership. Recomputed the stated numeric applications and checked source support against primary statutes and agency material inspected during this September 6-7 editorial run. Compared the assigned ownership and practice forms with one another and the existing practice stems for same-fact or renumber-only reuse; shared concepts with different decisive facts were not treated as duplicates. Checked the final corrected versions before fingerprinting. This record covers only the 23 listed question objects.",
+    "sourceUrls": [
+      "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref04.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://www.boe.ca.gov/proptaxes/pdf/ah501.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=770.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4175.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1108.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=845.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2872.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=760.020.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=8726.",
+      "https://www.govinfo.gov/content/pkg/GOVPUB-I53-PURL-gpo62570/pdf/GOVPUB-I53-PURL-gpo62570.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref26.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65850.",
+      "https://codelibrary.amlegal.com/codes/lapuente/latest/lapuente_ca/0-0-0-39966",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+      "https://lci.ca.gov/ceqa/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65302.",
+      "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=815.1.",
+      "https://www.epa.gov/enforcement/bona-fide-prospective-purchasers"
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-001",
+        "digest": "cabddad93fbd7a98731369a00d58e98d9a4c5c8dcadba11589552394b84bbc50"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-002",
+        "digest": "a6c7462a06233b67a2582a9da39636157e4c02173aacd97d470d199c94287487"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-003",
+        "digest": "769205f1d4c6d35d09accacb6d445943f4ce12c404e35e52bc9a729c75a94b29"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-004",
+        "digest": "23d1d005738856397e54b035e2c7a5ca6bc941c81fef312c4316dffaf302b154"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-005",
+        "digest": "b665fb1c68fbfb96734313cca2a6143f9d8522a39517b4fa8644412bd6fb2baa"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-006",
+        "digest": "b6d2cf092fe6fa350351243d8375a18dda1eff05afc838b694ed50fc98c45927"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-007",
+        "digest": "6013a0c2a8151b8018faca79f84a093dbd8bd97b5b1c7dac042c25e534892b40"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-008",
+        "digest": "c6da27f2f1bd314253eef28543d4a50ce345126f1ab356f5b28d2dd75a93dfa8"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-009",
+        "digest": "7ce7a8c7234bf900a2d3b81bf3d7e4cb5ae7fe7c565655e1c60f97f6d89ee387"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-010",
+        "digest": "b76635d55a95a9f958096e7bcde48c6fa547b4ea355cab10b7537b70326cf737"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-011",
+        "digest": "8b3537655b2cf655aff6f05f0ed422d871ea9f3f7e08c64b434b48ce5078a486"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-012",
+        "digest": "49e3ea6819fc64569127c63e89259379ca58f3d4300cff93884130b015c61625"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-013",
+        "digest": "09afb1aac459205b44280031c77e321ffc0b06894ce997b4a05454c334f9c3f2"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-014",
+        "digest": "a2bc7e526c29941e1037580126bce0904ffde38caaaa63a4b75a548bf641987f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-015",
+        "digest": "103a57ca498421004ac38ceb704a5371d14d533fce22a7daa37ee1f2990e4f4a"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-016",
+        "digest": "aa319f2c793dcbdf0cba773f30aaa82dbc1bdc74cef2592fc998bffc00bca694"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-017",
+        "digest": "d92d3769488488d846017f3d1127c7fc500176d7469b144193383205547f1a6b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-018",
+        "digest": "ebd20226d9d04a2a44e46b8d78bbfc8f0673743249e79caf895e706b52e3fdfa"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-019",
+        "digest": "5f0a2196d46765617dda12338528d4701378f9903e79ced1ce730791340f0f5a"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-020",
+        "digest": "1cb32e6444825e6625da6650b515b22c341fd051d8318f12bf7bf511b06eba77"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-021",
+        "digest": "f1c4b5c47f0597bb58a8734c1635c9f0080f1bc7ca3b42a825fdb9d7e1b19819"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-022",
+        "digest": "5903d8f9997e8a69b43f31cf0cb3480024dbf8fa1315198624408530ada6bb8b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-ownership-023",
+        "digest": "06f75bf7c35c23d5745cd6bf2dae996431fe8d5cd9095f35e6733ce2203a9d00"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Items 001 and 008 needed direct teaching sources for leasehold possession and an estate measured by another person's life.",
+        "resolution": "Added and separately checked DRE reference chapter 09, printed page 129, and chapter 04, printed page 45, respectively."
+      }
+    ],
+    "limitations": "Separate AI review, not qualified human legal review, psychometric calibration, official DRE approval, or a score guarantee. Source inspections reused relevant primary passages already independently read in this editorial run and refreshed operative provisions where needed; a failed reader request was not treated as source confirmation. Mathematical results depend on each item's explicit hypothetical assumptions. Review does not certify unlisted questions, the full curriculum, browser delivery, or empirical uniqueness against external question banks."
+  },
+  {
+    "id": "independent-heldout-exam-a-practice-2026-09-07",
+    "reviewed": "2026-09-07",
+    "reviewer": "independent-ai-reviewer-remove-progress-tracking",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read every stem, canonical key, all 148 option rationales, source metadata, and stated legal conditions in exam-a-practice. Recomputed the stated numeric applications and checked source support against primary statutes and agency material inspected during this September 6-7 editorial run. Compared the assigned ownership and practice forms with one another and the existing practice stems for same-fact or renumber-only reuse; shared concepts with different decisive facts were not treated as duplicates. Checked the final corrected versions before fingerprinting. This record covers only the 37 listed question objects.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10130.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10131.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10163.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10156.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10148.",
+      "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2018Guidelines%20for%20Unlicensed%20Assistants%20-%20Updated%202018.pdf",
+      "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+      "https://www.dre.ca.gov/files/pdf/re13.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+      "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title42-section3603",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap45-subchapI-sec3607.pdf",
+      "https://calcivilrights.ca.gov/housing/",
+      "https://www.hud.gov/sites/documents/huddojstatement.pdf",
+      "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.6.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+      "https://files.consumerfinance.gov/f/documents/cfpb_mortgages-scams_one-pager.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=827.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1013.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1161.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1162.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref22.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6102.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6105.",
+      "https://cdtfa.ca.gov/formspubs/pub74/notifying-cdtfa.htm",
+      "https://www.cdtfa.ca.gov/lawguides/vol1/sutl/sales-and-use-tax-law-chapter6-all.html",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.2.",
+      "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards"
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "exam-a-practice-001",
+        "digest": "f5cb70817f906629e6614f7ba6796ff77d46b7835ae93f813ce4ab9dece18cab"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-002",
+        "digest": "fe5bbb0120422eb184618670fc84e021dcdb998dcc5fcc945acb6da5dff3b4ec"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-003",
+        "digest": "fad3fe29488fbcd15dc9141a151826ebed90f0a6562980ef50cc2cd9c634d881"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-004",
+        "digest": "67ef98de5a7b509b336df03db7061b6ebc87e6f8ea0bf7bbd0617f8443f7125a"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-005",
+        "digest": "e27c85083a1d723270f13ee9029d01dde19347712636fd7d3539cfb1f52831c3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-006",
+        "digest": "d7c8618455633b8c9342db1ff3abfe765cda31bd577a91ce8730866f1be0654d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-007",
+        "digest": "ba0ce1feca749bd19bdcee69efa3888f855abd759c836cebf4b2983e394b0459"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-008",
+        "digest": "4cb5bb92e7e76a0f6325b4ac1b4f35c82f8ea68ddf309a3654cd3b5d245859f0"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-009",
+        "digest": "08aebd09d8ffe406471a9407182896a119426cf58732b892a131d86a85715758"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-010",
+        "digest": "3a8a7388eaac2675fd454cf9410d717dec9a3e587ac39c9785b75a8259d1e68b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-011",
+        "digest": "522106cf112b0f49403998bf30b94ef2a7d027f879ef21d4975f5bddb21a3a5b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-012",
+        "digest": "d5deaf651a4924f8400131d879f03db67b0380a9efde2e3f1a0860eeceaaf6c0"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-013",
+        "digest": "c4496cf7a75d479e21a06ceff75f925cb22a62189fc8dbf53fcebd63bcb8e21a"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-014",
+        "digest": "498eeed3d907571fb2d4e665a07fa1c28007eb54198f2dbc80858fac42459b31"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-015",
+        "digest": "734142b439f35639fe6269073bbdc006f8fd72cec419a65c16a09397c13132ca"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-016",
+        "digest": "21dc170bd9802a36485fcecb372f8431bd1d32c2d5c548d6c9161e2ae490eab0"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-017",
+        "digest": "5de98eb3aae860720f76ee6eabd57c3e54dcc582e28646f4c0d8ef3f4ee2a964"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-018",
+        "digest": "22171e5644301583ecc510e4afbc7cbeaf4456ebdfdc11f58ace0afb721c03f3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-019",
+        "digest": "30d500354eed581ee70979e128caee01ceef3ca2035945e833467dc6494faaf1"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-020",
+        "digest": "0825c2d60714ac2febbc104b6fffc06a05b6349dcfef65b95c7b1bd57818603e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-021",
+        "digest": "a8eed6288186ca40d04d399bb749f1e0625cc4bd6d014b1014739684fac813a7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-022",
+        "digest": "93ce6ee31ffbd089461f09579cfc81d385a4f48294e50e09c2657bff7d440dee"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-023",
+        "digest": "711385a64d279d6a929a11d5cb9f26ed44f65c649c749715919d3139fa4123cc"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-024",
+        "digest": "de396ccdd4df711b640c8240a607d485087cc05f0f0f08d65c6c8c44df02831d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-025",
+        "digest": "cb488e15c998477075e9c813633896e9ebe9429161d2495dde24b50ea4fb630e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-026",
+        "digest": "94a44e6f9d8a714e53dd800a45ad89c7e14620984c2c9559cfec17f3de2f5859"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-027",
+        "digest": "01c949edc0dc330340df9035280314ff5073dce350a6fc040d8eb1f60accb5d7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-028",
+        "digest": "d9653072f18eee42c3354c64f8e0afcc378536af4a1bcf628653ce4a143740ce"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-029",
+        "digest": "4f8f173a44a8fcfa3a42ed9c679082f429facc02de6fde0022ebd3e4943e6a31"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-030",
+        "digest": "b5dc2fe6ec0240f7bb25ad06019a345e21c866412ed7474f78c79a216aebd048"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-031",
+        "digest": "28e037a1047850f97e67c6569b99af11992f43afbca0604db37ef4da25af13a9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-032",
+        "digest": "bba0dff70cdc14ea40b9f9e81c2c6c9afb7131c16ace83e13bf5488647d61c7a"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-033",
+        "digest": "9a4558deb8023a6ecc0ff1ce0fe1d151d426d4f3ba69d13f26a46bcb48ba2b26"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-034",
+        "digest": "f39b841564ae4c22c7a3aaac0b04e19de9759f2cfccecd82980594dc3f3a75d3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-035",
+        "digest": "cefe3574fe3399d49405dcb2cfa2f5f3624abe979428b72f4a8364c9c0f194ca"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-036",
+        "digest": "a7eb131e79c29693be8acff4b2250f016b9594b1f43915c815ef0315f317bb5c"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-practice-037",
+        "digest": "ea9888f92998451c232e01257821b5a0408e3c9efcd7e1370e5dbd2004cd6088"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Item 016 needed direct support for the prohibition on charging for a required reasonable accommodation.",
+        "resolution": "Added and independently read HUD/DOJ joint statement Question 11, printed page 9, in addition to the CRD housing guidance."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Items 002, 013, 024, and 030 contained conspicuous distractors outside the principal doctrine being tested.",
+        "resolution": "Author replaced them with neighboring errors about branch licensing, federal exemption categories, rent-demand amounts, and business versus calendar days; all revised options and rationales were separately rechecked."
+      }
+    ],
+    "limitations": "Separate AI review, not qualified human legal review, psychometric calibration, official DRE approval, or a score guarantee. Source inspections reused relevant primary passages already independently read in this editorial run and refreshed operative provisions where needed; a failed reader request was not treated as source confirmation. Mathematical results depend on each item's explicit hypothetical assumptions. Review does not certify unlisted questions, the full curriculum, browser delivery, or empirical uniqueness against external question banks."
+  },
+  {
+    "id": "independent-heldout-exam-b-practice-2026-09-07",
+    "reviewed": "2026-09-07",
+    "reviewer": "independent-ai-reviewer-remove-progress-tracking",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read every stem, canonical key, all 148 option rationales, source metadata, and stated legal conditions in exam-b-practice. Recomputed the stated numeric applications and checked source support against primary statutes and agency material inspected during this September 6-7 editorial run. Compared the assigned ownership and practice forms with one another and the existing practice stems for same-fact or renumber-only reuse; shared concepts with different decisive facts were not treated as duplicates. Checked the final corrected versions before fingerprinting. This record covers only the 37 listed question objects.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10130.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10131.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10201.",
+      "https://www.dre.ca.gov/licensees/renewlicense.html",
+      "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10148.",
+      "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+      "https://www.dre.ca.gov/files/pdf/re13.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap45-subchapI-sec3607.pdf",
+      "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title42-section3603",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
+      "https://calcivilrights.ca.gov/housing/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.6.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.9.",
+      "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+      "https://www.ftc.gov/news-events/topics/competition-enforcement/real-estate-competition",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=827.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1954.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2316.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref22.pdf",
+      "https://selfhelp.courts.ca.gov/guide-security-deposits-california",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6102.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6105.",
+      "https://cdtfa.ca.gov/formspubs/pub74/notifying-cdtfa.htm",
+      "https://cdtfa.ca.gov/formspubs/pub74/",
+      "https://www.cdtfa.ca.gov/lawguides/vol1/sutl/sales-and-use-tax-law-chapter6-all.html",
+      "https://www.dre.ca.gov/files/pdf/sprag.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1995.230.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.8.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+      "https://www.dre.ca.gov/files/pdf/re6.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.4.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.3."
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "exam-b-practice-001",
+        "digest": "299acd557288d9bd54b994367994ba6df0ac797117e6e3e55c02893baa750831"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-002",
+        "digest": "630c89c22fc2e21f4f9b974ed5f53d80e7a6bff92b5b88c99cfa10b5ca910715"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-003",
+        "digest": "40ed69f54fbe031c483abe8bcebec8f35ee99eeb17ffe728404acb3ffc4358b9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-004",
+        "digest": "85e5e407d8555844f22204f3bcee1e63049c1da0822ae1149001aecffc7a61bf"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-005",
+        "digest": "d190191b4f1edd65e8c39addb2b3bac1bff06bcb1ece1bf222989ce9d9696b00"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-006",
+        "digest": "f43eee0ec399e63693226a1cc5af91be6ffa7f89f83c7e9b68364f895b33d805"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-007",
+        "digest": "d4e88ce1aa4e5611dd3d774cf960b91deead349b6391e5ae0eecdd817456f4ae"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-008",
+        "digest": "765fbd3c11313e2a74e94956dae4e96d16e74e6e03372bb2bd13c8f115f129fb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-009",
+        "digest": "7dd1e01e5ae47e1061f74756e3928b6666a83fa41c61baae28b92b34843c86c2"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-010",
+        "digest": "645ebb118a947fc496dd124ac8b3140cfce4b68bb75add429f89770f3d161870"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-011",
+        "digest": "1fa143848fff4c7237ae5326f350af750a0f4b7a055781de4503a6c6b6d0b651"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-012",
+        "digest": "eb61a5872ceea88083922e48ea146b62865cce3350a99b967fb2b283c87339b8"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-013",
+        "digest": "665862063bf0e322516afd13c084e5e454043b5a709e5764079a8234896b3f48"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-014",
+        "digest": "00d5548ac9ad250784254a7e7d6dbade2146e822b29a038ec71eb3811119bdc2"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-015",
+        "digest": "4b919d0f7e2b07f91c6704cca378bcd0f9ffa03067d2f7d9fa3fac2abdfd7366"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-016",
+        "digest": "5955818793d36cb1959bd354fa1e57c43c7c86235e7ca7d0c416c87e43ab2235"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-017",
+        "digest": "cd90844ae61a4b53f49e540f2bb2a32a8823df3a1473daf861d7cac28c495b79"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-018",
+        "digest": "b3c6101800090ea966482ec05d0cfd56878960ee80235c1d8d4c625eac5e4fe9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-019",
+        "digest": "e900e72b75f0328ba8851c858d90e6a587d24d3256ad77851bca9230af6c52a4"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-020",
+        "digest": "82dd81a8e6ffc66c77db87edbb8b583bbd1623f9db7f1e3881ce92e5a9463f4f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-021",
+        "digest": "7aef7d41fa40395c76fd6d6ef6df29de71d7feee38fdd5baddd07e6615972cb7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-022",
+        "digest": "f55d655029f2f7dc1b1c5d6a1c35e6e1c9af50d59deb4af715320b97c3af44c3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-023",
+        "digest": "0c6dea332f25e693da9b4bd0792f4a9802c9aa9c325d876b663bf1878be499fb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-024",
+        "digest": "926b15a52bc9e14249eed6d900ee215a44d031d7f7ed63acbfbba9a9302340d5"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-025",
+        "digest": "06fd91fa44584042f2ccb4dd38bf9ade62e90a08fc710b69acfd14d265878d2e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-026",
+        "digest": "3396523126571e8ebfa0aa59225651763f4c2589c621ff4ba330e9ec33361873"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-027",
+        "digest": "c3217eea38b3c55caed6e80b3657cd933ef07cd06f00a2bfd5cdd97bbc018eef"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-028",
+        "digest": "da60d25d596c4ff26988908f7deda2dd2c4195b7f935f2b1b161e5b032ef3b2f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-029",
+        "digest": "e05adffc5feb9621566534b55666bc8089c36ac6c8cb41ca3dbdf174c433a727"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-030",
+        "digest": "d2a45d495e1c5fbff56b00090d61c181810fd05082ef02e2d5ab4a67f3914ed4"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-031",
+        "digest": "bf7bf7cc99173e0e24f0db1adc1a9f2b75de4ae3348532eb600033161873e69e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-032",
+        "digest": "cf69367f810ccc25f066fb8ec550a69a5d14bf9498f74949552525a790b8f6fb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-033",
+        "digest": "7838cfd55891bed10c6d04883d4a67ad18de3634a5eb49ae7914e76bfb874a65"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-034",
+        "digest": "782ca60ae2cc4d26bf0ae2c9ee37d2530fba9736aed311d87d40c35d60133055"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-035",
+        "digest": "7c3c1a53b5f76fa80f8fa9416abb5d6169d48f4e54bad30b240a8a3dcc85d2eb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-036",
+        "digest": "eb7ccfc09ddf3db701d4e660e5f0aed4088807967d8b7413d10dc7097add1d3c"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-practice-037",
+        "digest": "96b1efb7d3423c0d2499e67d5c0128aa4d3496955d24bb9d42eb645b78876f2f"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Item 035 needed direct evidence of the known-material-facts duty beyond the limited statutory visual inspection.",
+        "resolution": "Added and independently checked DRE RE6, printed page 28, which expressly addresses known material information not discernible through the required inspection."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Item 014 used an unrelated universal age-65 rule as a distractor in the federal older-persons exemption comparison.",
+        "resolution": "Author replaced it with the neighboring error requiring every resident to be 55; the revised rationale correctly explains the occupied-unit threshold and additional requirements."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Item 033's final revision 2 applies a valid absolute commercial assignment prohibition, not merely a consent-based restriction.",
+        "resolution": "Reviewed the final stipulated prohibition and all four alternatives against current Civil Code section 1995.230, retrieved directly from the Legislature after a web-reader failure; the current key and explanations are supported."
+      }
+    ],
+    "limitations": "Separate AI review, not qualified human legal review, psychometric calibration, official DRE approval, or a score guarantee. Source inspections reused relevant primary passages already independently read in this editorial run and refreshed operative provisions where needed; a failed reader request was not treated as source confirmation. Mathematical results depend on each item's explicit hypothetical assumptions. Review does not certify unlisted questions, the full curriculum, browser delivery, or empirical uniqueness against external question banks."
+  }
+]

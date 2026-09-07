@@ -1,0 +1,525 @@
+[
+  {
+    "id": "heldout-agency-contracts-independent",
+    "reviewed": "2026-09-07",
+    "reviewer": "audit_practice_agency, separate from audit_exam_bank author",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "All 88 staged agency and contracts questions across both forms: exam-a-agency-001 through -026, exam-b-agency-001 through -026, exam-a-contracts-001 through -018, and exam-b-contracts-001 through -018. Read every stem, key, all 352 options and rationales, source records and teaching anchors. Checked cited primary passages, authority and duty distinctions, contract conditions and exceptions, document effects, and all numeric answer/distractor calculations. Compared the agency/contracts forms to one another and to the ordinary agency/contracts question bank for semantic repetition. Two semantic repeats were returned to their author and independently rechecked after replacement. Also independently checked the added note/security-conflict teaching paragraph against DRE ref12 printed pages 217 and 220; current contracts-purchase-options-and-leases.mdx SHA256 b2ee02eaf675e2b556c40e2c56c2ca63f71ed746a9aa245d51952d13b0accdd0.",
+    "sourceUrls": [
+      "https://courts.ca.gov/system/files/file/judicial_council_of_california_civil_jury_instructions_2026.pdf",
+      "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+      "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10026.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1542.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1550.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1566.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1573.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1605.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1641.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1662.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1678.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1710.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2332.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2334.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2355.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3387.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3106.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17703.01.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6701.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6.",
+      "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+      "https://www.dre.ca.gov/Licensees/Advisory_2024_11_14_Changes_to_Buyer_Representation.html",
+      "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref10.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref20.pdf",
+      "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing"
+    ],
+    "findings": [
+      {
+        "severity": "material",
+        "summary": "The original exam-b-agency-017 repeated the decisive interaction already tested by agency-047: transmitting an authorized dual-agency proposal grounded in shared inspection information without disclosing private limits.",
+        "resolution": "Author replaced it at revision 2 with statutory-disclosure acknowledgment versus preserved liability under Civil Code 2079.24; the independent reviewer read and source-checked the replacement."
+      },
+      {
+        "severity": "material",
+        "summary": "The original exam-b-contracts-009 repeated contracts-049's renewal-last-signature effective-date question using relative days instead of calendar dates.",
+        "resolution": "Author replaced it at revision 2 with a buyer-representation document missing the mandatory compensation-due term under Civil Code 1670.50(b)(3); the independent reviewer read and source-checked the replacement."
+      },
+      {
+        "severity": "clarification",
+        "summary": "The valid exam-a-contracts-017 tested note/security conflict priority, but its linked chapter did not explicitly teach that general rule.",
+        "resolution": "Root added a compact, qualified conflict example under notes-and-their-security. The independent reviewer checked the new paragraph against DRE ref12 printed pages 217 and 220, including the instruments-read-together qualification."
+      }
+    ],
+    "limitations": "Separate AI source review, not human legal review or empirical test validation. The checked legal passages were read during this and preceding source-review passes in the same project; applicable passages were reused rather than pretending every URL was newly fetched. Sources support the stated facts and exclusions, not every possible transaction. This record covers these 88 items only, not the other form domains, real DRE items, form equivalence, predictive pass rates, or absence of all semantic overlap. A shared legal concept is not itself a duplicate; the separation review focused on repeated decisive facts and reasoning. Staging files remain outside live exam pools until parent integration.",
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "exam-a-agency-001",
+        "digest": "f1928d6857958cb6fbe435ac64fab0bd2a3b7e22e4e060455283314a79acabca"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-002",
+        "digest": "b0272b9c143448ba5a63138e622ce8fdd6bd4219c99e388e644b166048c42276"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-003",
+        "digest": "529d3ecfaf6579607caba699c18bbaea5cb82817139b0f6060816e4067f10d8e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-004",
+        "digest": "0292d55b92f1cea835819d7338f01ef20d6582061e04a2e68f974131e53230d6"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-005",
+        "digest": "2162bc742a1e572775199ac7c76b7b2aa86f6f58f3617e9c087243db6444149e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-006",
+        "digest": "0a6aaccc62c325aa4cf1dbe97b1b0c03ad3647d93eece21f27256e13b5a83c8c"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-007",
+        "digest": "cc6a129fd2cfd9df9fda07a172f64a27f9193b5481c246025b9962e29d58cb52"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-008",
+        "digest": "0201710e068b2ef9763fd871d2eb25e4865dfef8e72f399015b139f55bcd39dd"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-009",
+        "digest": "0156c6d5ef7199c99bdbb056941d7742c891698c86ca7d8344bdabe82a3ef21f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-010",
+        "digest": "ee0e4e2a4c3dd5d746c785ceda8234b85f4ebf3114b7950aa4f01e1946777e52"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-011",
+        "digest": "82787cc73f0dec378ced1b4dc51a32e72afd5afbf3b091f8bd810b71798454b9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-012",
+        "digest": "dd8d062388f2b66d03c1faf61265e46af0fdb1108bab8efc1ef94c247fec1945"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-013",
+        "digest": "3170a9061017e4637934682e3ef4c19adbde6cbf3b14a6677760aba0c562655d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-014",
+        "digest": "82c2e06241bc03c584161db9690e43916cb5db1d5db6ec336c4b2c85cbfc0f70"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-015",
+        "digest": "1be7bfae35e1440520da016a29293922abf1db80a5543bbdd3e472d16d8e724f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-016",
+        "digest": "6e16cec4acdee9517706551abaa42e1d9c0fe3aeb1628b24886317953f615272"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-017",
+        "digest": "49dfad186c305ac7c542b7154a8fb87b70726b6113a6e232a155ee29e15e64dd"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-018",
+        "digest": "7ce68445206ffeed7b279dd1a311f6565c5d3e1c1b91318ace7320952d784527"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-019",
+        "digest": "e7236bb51487341445142b52d565f21f3cc2b57cb52069c214a31a39a03087a2"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-020",
+        "digest": "f92b1128862c883f2585dd6975e9cf80f4838705227726ba904a18b85d549343"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-021",
+        "digest": "cfe058d1825200a905000c71db013ed6c09c40ee7c7215d6846e62e020241b7b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-022",
+        "digest": "b5acb5389d42b8263e34148a40c8827b9d83c8043519e0e7e8e0a2d395fc4714"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-023",
+        "digest": "4e9240d0c615ba860148cab38ec6d3fedc2e0303c70922c5bd559186961a9ba7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-024",
+        "digest": "897bb474deb35c72116c706af1b77adb35d3d27a950c6b0801feea3a30bb18f7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-025",
+        "digest": "a39a9e7a1ceec8365f85e317c3a2137cd709bbf9b84a085d4a5391250c558303"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-agency-026",
+        "digest": "542f5c84dfbc760028a7b39e9cb73c0a24534d531d197afb6be8771af57fea57"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-001",
+        "digest": "076e3e06ac1f56037ebc27626e133489b67822b6b9599db13d39e1ee26409927"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-002",
+        "digest": "065b29eb5fc767c64bc5228a8222d3ef9d667f44f2719c91fb0c6fb8e9133ad2"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-003",
+        "digest": "5f2f3494116ed13629fee9b1c31db4912aa4c4eb02547db2c9a3648714d6c93f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-004",
+        "digest": "0f9bc623f4698a210865622459485fe97b0ec8b5fa0478b09ffe09991c3d70be"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-005",
+        "digest": "6eb58cdc48e604343eba1d8c8f76822b0b989091cab56534d4859710c0026c47"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-006",
+        "digest": "f01f459f3ead0861a6133a8d89cb1f1558bc78e9bd4ff48575a231582c4b0956"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-007",
+        "digest": "1537b42c78c8e6e719fa5771e10491f3543b61a6fdf95ba4a763f1d0585600b0"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-008",
+        "digest": "6ec87f4496f03c783ebe61ccfb641b90e9b45bc184a1675042e82f8e59156a52"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-009",
+        "digest": "567451745dbef73783388b663c47880b785e5c1c3d70951021c9f62f1c26792d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-010",
+        "digest": "9ae22a089e19ca7659674c7473549203448a5b4dd678d22e04183d37afca1bbf"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-011",
+        "digest": "855679b842d5691e303db01c2af45ddc061809386852f97d07f414bf140b5359"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-012",
+        "digest": "c760c33c23ad9c7fb67956adaca07edce50ec3ffadb71e3b385742d9f406c70a"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-013",
+        "digest": "dfc2a3664bd661dab339d4ccd045857546d160e8f3e585e8fa886c7dee04201e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-014",
+        "digest": "91c6d0d6f214c0335f022ff97c8c3a493155653f132b2194a8b01d7efc92af8b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-015",
+        "digest": "f412b7b164e4603a6e17aecf288ea72e51802925fe38024b4837bee4e416eeaa"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-016",
+        "digest": "2de3955bbf2a938246d6277b53232ecbecf15155ecef87fc1927ad62f411324b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-017",
+        "digest": "43c9fe01e3c8be1c65285e17f88952ef3ae6fd6edb366125636a27cf1f3cb969"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-018",
+        "digest": "3e6774dd8adea213c59c46f46e39aacd5e6df611fe8374e6c3f679f0af4aabe0"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-019",
+        "digest": "c4b1fa46d320267638ff42bcdce5b86e80083d31e802b59e47f579c1fadb51f9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-020",
+        "digest": "9cea1df2d82cb256e10782d32ed4a51f145a5de01a2f983ece6c45b23a3e763c"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-021",
+        "digest": "685d46c0ad521c2c94c0131081fa4df986180c7bd064399d23b7bf594dd2f82e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-022",
+        "digest": "83f12e85ac34094ce445d63fa629f93a2f999ac9c05f69734908ee001582feff"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-023",
+        "digest": "36eb568eaef31d5b09d12f70a6b560c9ddf8d13d250f1121697f21b8f260ab0b"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-024",
+        "digest": "89f976db1bb64e9cc62886dddb12c13a9418565050fb6e0c60f666583c70fcf6"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-025",
+        "digest": "41c93d288bc11f89a30e298249d90ec73754b0165d73d9fdd665dccb58e328fe"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-agency-026",
+        "digest": "9c8cae493ab90001333f7ad23737eb084ef04d580b6172d6695133131de1133e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-001",
+        "digest": "ca98b26253556a469b52d0c92ffd166d9919e8be6df5c642f0e06fb7e70daeb0"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-002",
+        "digest": "671f82874fee4f5bee5663a5a6cb8260e7364461cc04863081ca5ac15154ee3e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-003",
+        "digest": "802d8d3ad6aabcbd3e67df9c33c79708a741ce5e8b15081a0206b91246176179"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-004",
+        "digest": "db4dd8f046898c9690735cc2ffe1867e72a3124dddc32c61b2914a7cfc8c2d8c"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-005",
+        "digest": "19f7e3d7e4f84f247fc71b3903fb6b2985dca4f5ed317a6f288817f8392c6ccb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-006",
+        "digest": "315a5a704bc8c286677a429bcdcc245e2018be95da8d996ad49ffecdfb3edd10"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-007",
+        "digest": "83865c1602fce5dbdd31d69a59c3a83356e238c625ac4fe4d77c80f9feaf73e4"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-008",
+        "digest": "5c2e66f5d64bb6585f643f7f5e69fa3ea070ca9c3cc74faf49a9ec1bc9f5387e"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-009",
+        "digest": "390acb3623a965bc3af335220d34f29d3bf32dda2c5e0f1d55af8488d4c997f9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-010",
+        "digest": "35f1a58e792eab98841d8c8b5af0defa1dbe4c47d6f12337a70f9bdb23a93d32"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-011",
+        "digest": "b6325a80e3205c45affd6debaa9107f3d3aaad920a353f1d53fae562421e27c8"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-012",
+        "digest": "da59adc92f4ccb35af267547909bfff3a0122bcb98c135e497a55a885b1a64d9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-013",
+        "digest": "7ef9789669add82797d031c0099e47626fb58d333f9b58dc0182b74a0f68aea7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-014",
+        "digest": "252f205e2a079a2793faa5ff7414e9857a67f8b2b6ccfb48c7cb2f3aaa770cfd"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-015",
+        "digest": "3459d609997c7cd889e7a2a64f94cb1e6200811310d64ee36485f638fbaa8227"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-016",
+        "digest": "84aaa8b6a7e1cfc17b307fc07ff078258917d16845b486be7476dddc520b2115"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-017",
+        "digest": "75fa673b176db86eeb867cd2f7041d8713a2197446eb62b91a5e2e3f12b220f8"
+      },
+      {
+        "kind": "question",
+        "id": "exam-a-contracts-018",
+        "digest": "1ef8f6d33e1dc5a043b7266e8f5aa751ab838ae723f47ec96b7eadb435a804bd"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-001",
+        "digest": "2273e15262c9f995f653cf78048d7c99c5c178fa0b5b8f4c274485bf6abe3b9f"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-002",
+        "digest": "0e290035103cfd6ee52e063e43a14ad0505c3fabbfa8dcdf20e84f1801076f81"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-003",
+        "digest": "2ac51000dcdb3753cb05ff2fe7d38a806cd3b40649062a1faa76a445f90b22c9"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-004",
+        "digest": "be6ddf93abf8ba79dae199f431f61b0ab497cb7561c39205cacdc1c4fb9a8aba"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-005",
+        "digest": "281621f73c72497d2b4cc4fb7f532d97f31cee1ef9b7a34217696b76598c91b3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-006",
+        "digest": "f391e19c51e1ab67fdec6de80aa4462d809031f6f8c57488fe56cbd08935a6dd"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-007",
+        "digest": "85bf0c9e22978427a2656d7e8dc1d6440e2b48eb53c1391165fba7334fe01340"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-008",
+        "digest": "830c78013098a8f98c89fe5f4fd06fdabdeb32c539d7360090f8bb8bae465820"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-009",
+        "digest": "c94ef456405b8c8d8c082b64a84a27b13844650c84e98dc591cd3759c3bc68cf"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-010",
+        "digest": "130809424fbf22c516891f4dd5498714fd3a4ff766cc86bb219c0838ba1a74e3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-011",
+        "digest": "5e9c489dfd3eae750611c1bc37ba8656dce151aada5c2e1aa0affa044397bfeb"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-012",
+        "digest": "6c8ec8206e9d6c469aa55761e95b67984df5b6df6276f18ee0fc6cda66eb371d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-013",
+        "digest": "ae5b71fe9854c0eacb16ae196b1a491a48e9c1782d4e5a200def8849805829d3"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-014",
+        "digest": "d56b51b94033f616ffaabfd27dd77143c2eabca87c6c4a730261947716b45b7d"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-015",
+        "digest": "e9633b3949d7284efdb30e4f911ee24f3fba9440bcb188908694aaf8a09373d7"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-016",
+        "digest": "59b5624edac2073a5fb4fd3a71f806b28ab5f3a24cccf7287190b5a07475bede"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-017",
+        "digest": "119a18616f03842e8d5b5ee38a7a1a5f2946ea436d1d69c8b504a955dba25010"
+      },
+      {
+        "kind": "question",
+        "id": "exam-b-contracts-018",
+        "digest": "66d5789237db6934a88799ff9e1f92e8d81c645aad93f02ad749637aba017cbb"
+      }
+    ]
+  }
+]

@@ -1,0 +1,480 @@
+.teaching-chart-plot {
+  display: block;
+  width: 100%;
+  max-height: 380px;
+  color: var(--foreground);
+}
+.teaching-chart-plot text {
+  fill: currentColor;
+  font-size: 19px;
+  font-family: inherit;
+  font-variant-numeric: tabular-nums;
+}
+.chart-grid-line {
+  stroke: var(--border);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+.chart-axis-line {
+  stroke: currentColor;
+  stroke-width: 1;
+  fill: none;
+  vector-effect: non-scaling-stroke;
+}
+.chart-series polyline {
+  stroke: currentColor;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+.chart-series circle,
+.chart-series rect {
+  stroke: currentColor;
+  fill: var(--background);
+  stroke-width: 2;
+}
+.chart-axis-heading {
+  font-size: 12px;
+  font-weight: 550;
+  overflow-wrap: anywhere;
+}
+.chart-axis-bottom {
+  text-align: center;
+}
+.learning-figure .chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  list-style: none;
+  padding: 0;
+  margin: 22px 0 0;
+}
+.learning-figure .chart-legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  min-width: 0;
+}
+.chart-legend svg {
+  width: 30px;
+  height: 12px;
+  flex-shrink: 0;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+.learning-figure .chart-values {
+  margin-top: 18px;
+  border: 0;
+  padding: 0;
+}
+.chart-values summary {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 550;
+  list-style: none;
+}
+.chart-values summary::-webkit-details-marker {
+  display: none;
+}
+.chart-values summary svg {
+  transform: rotate(-90deg);
+}
+.chart-values[open] summary svg {
+  transform: none;
+}
+.chart-values summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.chart-data {
+  overflow-x: auto;
+}
+.learning-figure .chart-data table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.learning-figure .chart-data caption {
+  text-align: left;
+  padding: 16px 0 8px;
+  font-size: 11px;
+  color: var(--muted-foreground);
+}
+.learning-figure .chart-data th,
+.learning-figure .chart-data td {
+  min-width: 0;
+  padding: 10px 6px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.learning-figure .chart-data th:first-child {
+  width: 40%;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 0;
+}
+.learning-figure .chart-data td {
+  white-space: nowrap;
+}
+@media (max-width: 480px) {
+  .learning-figure .chart-data table {
+    font-size: 10px;
+  }
+  .learning-figure .chart-data th,
+  .learning-figure .chart-data td {
+    padding: 10px 3px;
+  }
+}
+@media print {
+  .chart-values > .chart-data {
+    display: block !important;
+  }
+  .chart-values::details-content {
+    content-visibility: visible;
+  }
+  .chart-values summary {
+    display: none;
+  }
+  .chart-data {
+    overflow: visible;
+  }
+}
+.document-specimen {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.specimen-header {
+  padding: 20px;
+  background: var(--muted);
+}
+.specimen-header > span,
+.ledger-header > span {
+  font-size: 10px;
+  color: var(--muted-foreground);
+}
+.learning-figure .specimen-header h4 {
+  margin: 8px 0;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.learning-figure .specimen-header p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted-foreground);
+}
+.learning-figure .specimen-fields {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.learning-figure .specimen-fields li {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  margin: 0;
+  padding: 0;
+}
+.specimen-fields li + li {
+  border-top: 1px solid var(--border);
+}
+.specimen-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px 20px;
+  min-width: 0;
+}
+.specimen-field > div {
+  min-width: 0;
+}
+.specimen-field strong {
+  display: block;
+  font-size: 11px;
+  color: var(--muted-foreground);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.specimen-field div > span {
+  display: block;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.evidence-marker {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background: var(--foreground);
+  color: var(--background);
+  font-size: 10px;
+  border-radius: 50%;
+}
+.learning-figure .specimen-annotation {
+  margin: 0;
+  padding: 18px 20px;
+  border-left: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--muted-foreground);
+}
+.learning-figure .evidence-conclusion {
+  margin: 18px 0 0;
+  font-size: 12px;
+  font-weight: 550;
+}
+.learning-figure .document-specimen > .evidence-conclusion {
+  margin: 0;
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+}
+.learning-figure .evidence-premise {
+  margin: 0 0 22px;
+  color: var(--muted-foreground);
+}
+.learning-figure .evidence-timeline ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.learning-figure .evidence-timeline li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 22px;
+  margin: 0;
+  padding: 0 0 26px 24px;
+}
+.evidence-timeline li::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--foreground);
+}
+.evidence-timeline li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 16px;
+  bottom: -9px;
+  width: 1px;
+  background: var(--border);
+}
+.timeline-when {
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  font-weight: 650;
+}
+.evidence-timeline li strong {
+  font-size: 13px;
+}
+.learning-figure .evidence-timeline li p {
+  margin: 5px 0 0;
+  color: var(--muted-foreground);
+  font-size: 12px;
+}
+.learning-figure .evidence-timeline li:last-child {
+  padding-bottom: 0;
+}
+.ledger-header,
+.ledger-opening {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.ledger-header {
+  margin-bottom: 14px;
+}
+.ledger-opening {
+  padding: 12px 0;
+  border-top: 2px solid var(--foreground);
+  font-variant-numeric: tabular-nums;
+}
+.evidence-ledger table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.evidence-ledger th,
+.evidence-ledger td {
+  padding: 12px 5px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.learning-figure .evidence-ledger th,
+.learning-figure .evidence-ledger td {
+  min-width: 0;
+}
+.evidence-ledger th:first-child {
+  width: 40%;
+  text-align: left;
+  padding-left: 0;
+}
+.evidence-ledger thead th {
+  color: var(--muted-foreground);
+  font-size: 10px;
+  font-weight: 500;
+}
+.evidence-ledger tbody th {
+  font-weight: 500;
+}
+.evidence-ledger tbody td:last-child {
+  font-weight: 650;
+  padding-right: 0;
+}
+.parcel-scale {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 11px;
+  color: var(--muted-foreground);
+  margin-bottom: 12px;
+}
+.parcel-plan {
+  display: block;
+  width: 100%;
+  max-height: 390px;
+  color: var(--foreground);
+  overflow: visible;
+}
+.parcel-area {
+  stroke: var(--foreground);
+  stroke-width: 1.5;
+}
+.parcel-area-clear {
+  fill: var(--background);
+}
+.parcel-area-solid {
+  fill: var(--foreground);
+}
+.parcel-area-marker {
+  fill: var(--background);
+  stroke: var(--foreground);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+.parcel-line-marker {
+  fill: var(--background);
+}
+.parcel-key {
+  fill: var(--foreground);
+  font-family: inherit;
+  font-weight: 650;
+}
+.learning-figure .parcel-legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 24px;
+  margin: 20px 0 0;
+}
+.parcel-legend dt {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 650;
+}
+.parcel-legend-key {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted-foreground);
+}
+.learning-figure .parcel-legend dd {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--muted-foreground);
+}
+@media (max-width: 600px) {
+  .learning-figure .parcel-legend {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .learning-figure .specimen-fields li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .specimen-field {
+    padding: 16px 16px 8px;
+  }
+  .learning-figure .specimen-annotation {
+    border-left: 0;
+    padding: 0 16px 16px 46px;
+  }
+  .specimen-header {
+    padding: 16px;
+  }
+  .learning-figure .evidence-timeline li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .evidence-ledger table,
+  .evidence-ledger tbody {
+    display: block;
+    width: 100%;
+  }
+  .evidence-ledger thead {
+    display: none;
+  }
+  .evidence-ledger tbody tr {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+  }
+  .evidence-ledger tbody th:first-child {
+    grid-column: 1 / -1;
+    width: auto;
+    text-align: left;
+    padding: 0 0 10px;
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+  }
+  .evidence-ledger tbody td {
+    padding: 0 4px 0 0;
+    border: 0;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 11px;
+    background: transparent;
+  }
+  .evidence-ledger tbody td::before {
+    content: attr(data-label);
+    display: block;
+    color: var(--muted-foreground);
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  .evidence-ledger tbody td:last-child {
+    text-align: right;
+  }
+}
+@media print {
+  .specimen-header,
+  .evidence-marker {
+    print-color-adjust: exact;
+  }
+  .document-specimen {
+    break-inside: auto;
+  }
+  .specimen-fields li,
+  .evidence-timeline li,
+  .evidence-ledger tr {
+    break-inside: avoid;
+  }
+}

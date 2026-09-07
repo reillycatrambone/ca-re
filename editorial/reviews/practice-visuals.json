@@ -1,0 +1,300 @@
+{
+  "id": "practice-application-visuals-independent-2026-09-06",
+  "reviewed": "2026-09-06",
+  "reviewer": "root independent reviewer; visual authorship by audit_practice_agency",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 45 retained agent-authored practice application specifications and checked the 40 cited primary URLs used by the full file. Checked licensing continuation, record retention, branch licensing, trust custody and signing, mixed-receipt and beneficiary accounting, housing protections and modification costs, advertising and electronic evidence, residential entry and notice service, lease-income analysis, bulk-sale value tests, tax clearance, NHD/TDS and inspection limits, lead timing, and environmental-report data gaps. Recomputed all 13 original practice chart points, both ledgers, receipt ownership totals, operating income, rent-expiration concentration, and bulk-sale thresholds. Excludes the replacement recovery-limit chart, which has a separate independent record. The selected desktop/mobile/dark/print chart, parcel, and specimen tests passed before the final source/caption clarifications; the complete final-build check remains a separate release gate.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10131.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+    "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10156.2.",
+    "https://www.dre.ca.gov/licensees/renewlicense.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10148.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10163.",
+    "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+    "https://www.dre.ca.gov/Consumers/FileComplaint.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+    "https://www.dre.ca.gov/files/pdf/re13.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+    "https://www.hud.gov/helping-americans/fair-housing-act-overview",
+    "https://calcivilrights.ca.gov/housing/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.6.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.9.",
+    "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+    "https://files.consumerfinance.gov/f/documents/cfpb_mortgages-scams_one-pager.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2316.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref22.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+    "https://www.dre.ca.gov/publications/ResourceGuidebook/2026_Landlord_Tenant_Guide.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1954.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1162.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6103.",
+    "https://cdtfa.ca.gov/formspubs/pub74/notifying-cdtfa.htm",
+    "https://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.8.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+    "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards"
+  ],
+  "artifacts": [
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-licensed-activity-trigger",
+      "digest": "5e718f470cf30842ecdb270af3ffa2f2a81031d26c894240a46dc252f5d2ed1d"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-timely-renewal-fork",
+      "digest": "c381d76a62d6001a17da9046c64622980b6e762906df8d088541cdafa626acf0"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-retention-start-events",
+      "digest": "85a573eacd711b9139b0894a7bf9adbfbbc59104b8f63196664d69aac00367ac"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-branch-license-evidence",
+      "digest": "7535c8dd7d4a5c69f34b1b6c36f6406f5f924f857d54256f19b5cd64948ee600"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-supervision-exception-log",
+      "digest": "8487d45f186b11b391cdce32659f9aa690692617c0144a699a62ae4673b90337"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-remedy-forum-routing",
+      "digest": "2e28b7a3c05f9ed158931ade05b7fdda6861df8869d041568fe6ff565e9705a7"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-receipt-role-clocks",
+      "digest": "dc6a56e3e3c77b800c567c3a75531b6b81b88c1b82d37bd52929a928929feab1"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-offer-check-authority-handoff",
+      "digest": "d470aff32a7ca1062f5026ce53b5684b411a9e9de7184152f52ef2f96a348ce6"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-mixed-receipt-deposit-clock",
+      "digest": "806746474910ba4047c1fd3470eb4fd1bf441f07d39330ff2a5819a80c0d6173"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-trust-signature-authority",
+      "digest": "089049f6a4a864a0294cad470d6a8f8179b2075cd3fde6688187a38f21ec703a"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-provisional-credit-return",
+      "digest": "2a5ff1d0d71dd0f1d71b1d7a6a35c7c747d9bfb3f31ef6b654ffeca14c320204"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-correct-total-wrong-owner",
+      "digest": "deecb3f8ee17f3155a41d914688a7d728eaf1f84c3445ae307afe77e4ee52b43"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-broker-bank-fee-ledger",
+      "digest": "0ed5f64ac672bd4123a1a0d37894281989a47ae769c1cf5d5303578d257cc2d9"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-interest-owner-not-affiliate",
+      "digest": "59f2bf5285998ecb24a968d1927d69db83ef1716cd068136d044bcfffa89bb57"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-subsidy-credit-alternative",
+      "digest": "921bc5de00cbbcda7940e6eb7d364c55dca3ee067fce612ae2fbb80965207cf2"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-housing-protection-layers",
+      "digest": "daf5f779646c0e0cf1bd4d12406a9779c5ae12ecfc8d5f00b015eafc4dafefac"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-advertisement-people-versus-property",
+      "digest": "00c84251927f2ca4874463dd9b892e1d358fd609d90733d01b84e00a50f18528"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-modification-cost-setting",
+      "digest": "f0f26334ec86efe1f094d179b2d48dc132b47743f990a5b6fab0c05e079eb1d3"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-retaliation-sequence",
+      "digest": "797187897c60ee1d6209874566b6d32d659a37e9be46acedb82d76bc2c7b5694"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-availability-treatment-record",
+      "digest": "56e8ee5c56ea22cc7a2888352490308e37bd34bf39d031900e94ac0b5810ca5c"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-photo-alteration-sorting",
+      "digest": "3f737383c1a0e8a2f76df37617fef1abc94fb28463421f2067161c4865de66d4"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-altered-image-public-access",
+      "digest": "67ebceda1302857167ca7d3f747d407c7a42760a379ee98188a332e2670eb71a"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-ad-professional-identity",
+      "digest": "866dbb1723aa03e97e8df006443564050f9592a77f505b78fcfa1432fff17ed9"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-electronic-signature-three-questions",
+      "digest": "cfacac46f4fdeb7215b42d094bc209e2e0a83c9a1ce9cd902035244ece7b2d4a"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-independent-versus-coordinated-price",
+      "digest": "81ee7b558fc875c0846c66196d5baef789a7e519d0be7e8b34a75f044cab630d"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-claim-type-evidence",
+      "digest": "a9f242d8b3b3d040ca86cc7ebf7b526f5af734ebc01be607ea2a0a27638a2842"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-wire-loss-response-clock",
+      "digest": "58ff184cd51a45c5021fd1167267385ed042a4cc5a377d6967b3a94cef582a24"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-manager-spending-authority",
+      "digest": "133bcd659e41a30bc044abb0649fcfda9447b702e285724e9d772b293161791d"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-small-owner-deposit-facts",
+      "digest": "9abd18ae9269fa301599463e3b21bca6f4d53f09cbb93d80b3dc41128eeb7344"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-remaining-life-damage-chart",
+      "digest": "93f7b10a25d3aafa922e11cd1bbc2c6623dbe8ed5745e82d67bcd21f16cbd03e"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-management-fee-collection-base",
+      "digest": "a24eb4ab663d5a904e506257395bfddd09e8997bf2849e5b19ee5085db6303b9"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-entry-purpose-notice",
+      "digest": "a73d115f05db6d5ba7600cea7bee9c1b8df1a50126a0a6a198b341cdba4d74f5"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-residential-notice-service-branches",
+      "digest": "c993ff31aa24824204f1b75dd549d9817a36d1bb502007d23358634501dd7823"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-reimbursement-no-double-count",
+      "digest": "19ad7d4c52a0753c62987ff97d36ce43071a2fbb28ceb418b8106cd3ac48d817"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-lease-expiration-concentration",
+      "digest": "0de6e93f8e77e8fee5c081d37d41d2abc4e1fbfd19052f2c62ac419d43565fc7"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-percentage-rent-breakpoint",
+      "digest": "906b24cb53651d6b5cde0f3f339c05ed59412fc55a4e9cff940a1fc5b3bcd027"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-bulk-value-two-measures",
+      "digest": "11ce77f3233c510eb0e9210b4a66f60a10a701ed5c732a85f291e65c7ae3c375"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-clearance-versus-registration",
+      "digest": "f4560f41d91d1723e0a1c44f675fd8e89840e9b9bae6238d4048ea61cb87ccf2"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-environmental-data-gap-specimen",
+      "digest": "7d52cfd097fe5d3e4bc99c2bd5add933291e660ff42d177976bac8c1791eed62"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-known-report-versus-empty-form",
+      "digest": "f7274b1972e19fa6c9c8cef0fe70851e20e2a7990cd58ca17a58a284eb5ea162"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-tds-delivery-method-clock",
+      "digest": "961e793caedb260537f6ae77c812a37b847c4f58206e4ff32e09c86636aa2433"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-nhd-six-mapped-questions",
+      "digest": "d8522c19bc4d2796fe34c1cf56db21ddaa44b87bc0374afb3e27832042ad945e"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-visual-inspection-spatial-limits",
+      "digest": "7fb43c2c5b3c6fabe6f5296e22ca97cebe149710e89f1029e0930baaa7f962d9"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-new-leak-after-report",
+      "digest": "0ad0445efe3fe50a999caf3b14f0f2fa50109a41c03a47a019b31185f89c16d4"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-practice-app-lead-precommitment-sequence",
+      "digest": "ae484c87b8e908d317b735d11d48e933298a920ab1e64ba57e27d76522fb5a55"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "clarification",
+      "summary": "The licensing role comparison needed the salesperson compensation-route authority, not only the broker activity definition.",
+      "resolution": "Added Business and Professions Code 10137 to the figure's primary sources."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The original carpet-chart title suggested replacement cost itself decreased with age, although the modeled value is the remaining-life damage charge.",
+      "resolution": "Changed the title to Remaining useful life limits the damage charge; the stated assumptions and all four calculated values are unchanged."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The trust-signature example illustrated the regulatory fidelity-bond route but did not mention the statute's qualifying insurance alternative.",
+      "resolution": "Added Business and Professions Code 10145 and a caption specifying the insurance alternative and its coverage, deductible, and financial-responsibility qualifications."
+    },
+    {
+      "severity": "clarification",
+      "summary": "A compensation-routing figure duplicated an existing agency diagram and did not add a distinct instructional visualization.",
+      "resolution": "Removed that duplicate and replaced it with a new recovery-limit chart reviewed separately by the original practice author. It is not counted in this record's 45 artifacts."
+    }
+  ],
+  "limitations": "Independent AI source verification, not qualified human legal, tax, or exam review. Sources support the rules, while financial figures and records are original stipulated examples. Some LegInfo pages were retrieved directly and read with HTML extraction after web-viewer failures. DRE reference books were used for stable accounting and agency concepts, not as authority over newer statutes. Neither content counts nor browser tests establish guaranteed exam performance."
+}

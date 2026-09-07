@@ -6,23 +6,41 @@
     "prompt": "A competent owner signs a sufficient gift deed, delivers it with present transfer intent, and the grantee accepts. No price is paid. Which statement is correct?",
     "options": [
       {
-        "text": "The absence of a purchase price does not alone invalidate the deed.",
-        "explanation": "A valid gift conveyance need not have monetary consideration."
+        "text": "A price is not essential to this completed gift transfer.",
+        "explanation": "Civil Code 1040 distinguishes a valid grant from a bargain requiring consideration. The other stated deed requirements are met."
       },
       {
-        "text": "The deed is always void without consideration.",
-        "explanation": "That incorrectly applies a purchase-contract assumption to a gift deed."
+        "text": "A nominal price must be paid before title can pass.",
+        "explanation": "The absence of a purchase price does not invalidate an otherwise effective gift deed.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The grantee must become the grantor's agent.",
-        "explanation": "Receiving property does not require an agency relationship."
+        "text": "The deed operates only as an offer until the grantee pays.",
+        "explanation": "The stem supplies present delivery and acceptance, not merely an executory sale contract.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The gift becomes valid only after the grantee resells.",
-        "explanation": "A later sale is not necessary to complete the stated conveyance."
+        "text": "Recording must establish the property's fair market value.",
+        "explanation": "Recording does not supply consideration or establish market value as a condition of a gift deed.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "essential-elements-and-intent",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 1040",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1040."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-002",
@@ -31,48 +49,88 @@
     "prompt": "An owner gives a signed deed to a friend solely for safekeeping and expressly retains control without present transfer intent. What is missing?",
     "options": [
       {
-        "text": "The friend's payment of a commission.",
-        "explanation": "Commission payment is not a deed-delivery requirement."
+        "text": "Acknowledgment of the owner's signature.",
+        "explanation": "Acknowledgment concerns recordability; it does not supply the missing transfer intent.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "A lender's policy.",
-        "explanation": "Title insurance does not supply the missing conveyance intent."
+        "text": "A legal description of the conveyed interest.",
+        "explanation": "The problem is the stated retention of control and lack of delivery intent, not an asserted description defect.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "A tenant's estoppel certificate.",
-        "explanation": "That document does not establish delivery by the owner."
+        "text": "Consideration paid by the intended grantee.",
+        "explanation": "A price is not required for every valid conveyance and does not cure missing delivery.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Effective delivery of the conveyance.",
-        "explanation": "Physical custody alone is not delivery when present operative intent is absent."
+        "text": "Delivery with present intent to convey.",
+        "explanation": "Physical possession by a safekeeping friend is not effective delivery when the owner expressly retains control and disclaims transfer intent."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "essential-elements-and-intent",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code: Mode of transfer",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=2.&title=4.&part=4.&chapter=1.&article=3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-003",
     "domain": "transfer",
     "lessonSlug": "transfer-deeds-and-vesting",
-    "prompt": "What does a quitclaim deed ordinarily convey?",
+    "prompt": "What does an ordinary quitclaim deed convey when it makes no additional warranties or promise of later-acquired title?",
     "options": [
       {
-        "text": "Only the grantor's future inherited interests automatically.",
-        "explanation": "Quitclaim deeds do not ordinarily assure after-acquired title."
+        "text": "The grantor's future acquisitions, without present rights.",
+        "explanation": "An ordinary quitclaim transfers present interests; after-acquired-title analysis is a separate issue.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Only possession for one year.",
-        "explanation": "A quitclaim is not limited to a one-year leasehold."
+        "text": "The stated fee estate whether or not the grantor owns it.",
+        "explanation": "A quitclaim does not guarantee the existence or extent of the grantor's ownership.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Whatever present interest the grantor has, without the grant deed's implied covenants.",
-        "explanation": "The grantee receives the grantor's existing interest, which may be none."
+        "text": "The grantor's present interest without implied grant covenants.",
+        "explanation": "The grantee receives whatever interest the grantor has; the ordinary quitclaim does not supply the grant deed's implied covenants."
       },
       {
-        "text": "A guaranteed fee simple title free of every defect.",
-        "explanation": "A quitclaim does not provide that guarantee."
+        "text": "The grantor's present interest with full title warranties.",
+        "explanation": "This improperly adds a guarantee of title to the limited ordinary quitclaim.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compare-the-deeds",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 1113",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113."
+      },
+      {
+        "label": "DRE Reference Book: Quitclaim deeds",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-004",
@@ -81,23 +139,41 @@
     "prompt": "A later purchaser knows a seller already conveyed the property by an unrecorded deed. The later purchaser records first. Which statement is best?",
     "options": [
       {
-        "text": "The recorder decides which buyer acted fairly.",
-        "explanation": "The recorder does not adjudicate every ownership dispute."
+        "text": "First recording gives the later buyer priority despite notice.",
+        "explanation": "California's protection requires good faith as well as the other statutory elements; actual knowledge defeats that premise.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Recording first alone does not establish good-faith purchaser protection.",
-        "explanation": "Actual notice of the earlier transfer defeats the claimed innocent-purchaser premise."
+        "text": "First recording alone does not create good-faith protection.",
+        "explanation": "Knowing of the earlier transfer prevents the later buyer from relying on recording order alone as a good-faith purchaser."
       },
       {
-        "text": "Recording always cures knowledge of the earlier conveyance.",
-        "explanation": "Race-notice protection requires more than winning the recording race."
+        "text": "The first conveyance is ineffective until it is recorded.",
+        "explanation": "Lack of recording does not by itself invalidate an effective conveyance between the parties.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The first deed is automatically void solely because unrecorded.",
-        "explanation": "Recording is distinct from validity between the original parties."
+        "text": "The recorder's acceptance settles the competing title claims.",
+        "explanation": "Recording is not an adjudication of which grantee has the superior claim.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "actual-notice-changes-the-recording-problem",
+    "conceptIds": ["title-priority"],
+    "sources": [
+      {
+        "label": "Civil Code section 1214",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-005",
@@ -107,22 +183,44 @@
     "options": [
       {
         "text": "Tenancy in common.",
-        "explanation": "Tenancy in common permits unequal shares and no inherent survivorship."
+        "explanation": "Tenants in common hold undivided shares that can be unequal and do not carry automatic survivorship."
       },
       {
-        "text": "Joint tenancy with all traditional unities intact.",
-        "explanation": "Joint tenancy includes equal interests and survivorship under its usual requirements."
+        "text": "Joint tenancy.",
+        "explanation": "Joint tenancy's equal-interest and survivorship characteristics do not match the described ownership.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Sole ownership.",
-        "explanation": "Two owners hold interests, so ownership is not sole."
+        "text": "Community property with right of survivorship.",
+        "explanation": "This vesting includes survivorship, which the question expressly excludes.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "A deed-of-trust beneficiary's interest.",
-        "explanation": "The description concerns cotenant ownership rather than a lender's security."
+        "text": "A life estate followed by a remainder.",
+        "explanation": "Those are successive estates, not the described concurrent unequal undivided shares.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "vesting-answers-how-title-is-held",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "DRE Reference Book: Title and cotenancy",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf"
+      },
+      {
+        "label": "Civil Code section 686",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=686."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-006",
@@ -131,23 +229,41 @@
     "prompt": "A buyer pays for a lender's title policy but no owner's policy. Which interest is insured by the lender's policy?",
     "options": [
       {
-        "text": "The buyer's entire equity automatically.",
-        "explanation": "A lender's policy is not an owner's policy."
+        "text": "The buyer's ownership interest because the buyer paid.",
+        "explanation": "Paying the premium does not change the policy's named insured or protected interest.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Every future tenant's personal property.",
-        "explanation": "Title insurance does not insure tenant belongings."
+        "text": "Both the buyer and lender to the full purchase price.",
+        "explanation": "An owner is not automatically insured under a lender-only policy.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The seller's future purchase in another county.",
-        "explanation": "The policy concerns its identified insured interest and property."
+        "text": "The seller's former ownership until the loan is repaid.",
+        "explanation": "A lender's policy protects the lender's security interest, not the seller's former title.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The lender's security interest according to that policy.",
-        "explanation": "The borrower does not obtain separate owner protection merely by paying the lender's premium."
+        "text": "The lender's security interest under the policy terms.",
+        "explanation": "The buyer needs appropriate owner's coverage for the buyer's separate interest; a lender policy does not substitute for it."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "owner-and-lender-policies-protect-different-interests",
+    "conceptIds": ["title-insurance"],
+    "sources": [
+      {
+        "label": "California Department of Insurance: Title insurance",
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-007",
@@ -156,48 +272,84 @@
     "prompt": "A preliminary title report lists an easement that the proposed policy will except. What is the best interpretation?",
     "options": [
       {
-        "text": "The report guarantees the easement will never affect use.",
-        "explanation": "An exception is not a use guarantee."
+        "text": "The easement is insured if it reduces the buyer's value.",
+        "explanation": "A listed exception excludes that matter unless the coverage terms are changed; economic effect does not erase it.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The buyer now owns the easement holder's land.",
-        "explanation": "Listing an easement does not convey another parcel."
+        "text": "The exception requires the holder to release the easement.",
+        "explanation": "A coverage exception is not a promise or command to eliminate the underlying interest.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The proposed insurance excludes that identified matter unless the coverage terms change.",
-        "explanation": "The report must be read for requirements, exceptions, and proposed protection."
+        "text": "The identified matter is excluded on the proposed terms.",
+        "explanation": "A preliminary report offers insurance on stated terms, including exceptions. It is not an assurance that the easement is harmless."
       },
       {
-        "text": "The easement is automatically removed by issuance of the report.",
-        "explanation": "A report does not release property rights."
+        "text": "The easement ends when the title policy is issued.",
+        "explanation": "Insurance issuance does not itself extinguish the easement.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "read-requirements-and-exceptions",
+    "conceptIds": ["title-insurance"],
+    "sources": [
+      {
+        "label": "Insurance Code section 12340.11",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-008",
     "domain": "transfer",
     "lessonSlug": "transfer-title-and-escrow",
-    "prompt": "Buyer and seller give conflicting demands for a disputed deposit. Escrow's role is to:",
+    "prompt": "Buyer and seller give conflicting demands for a disputed deposit, with no agreed release or controlling court order. What should escrow do?",
     "options": [
       {
-        "text": "Rewrite the purchase contract to settle the disagreement.",
-        "explanation": "Escrow lacks unilateral authority to change the parties' bargain."
+        "text": "Decide which party breached and pay the other.",
+        "explanation": "The escrow holder is not the adjudicator of the parties' contested contract rights.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Follow applicable instructions and legal procedures without unilaterally adjudicating their dispute.",
-        "explanation": "Escrow is a limited neutral holder, not the court deciding contractual default."
+        "text": "Use applicable instructions and lawful dispute procedures.",
+        "explanation": "Conflicting demands require the appropriate contractual and legal process, not escrow's unilateral decision on the merits."
       },
       {
-        "text": "Pay whichever party contacts escrow first.",
-        "explanation": "Priority of demands does not determine entitlement."
+        "text": "Treat the first written demand as a binding instruction.",
+        "explanation": "A unilateral demand does not resolve conflicting rights to conditional funds.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Keep the money as an additional escrow fee.",
-        "explanation": "Disputed entrusted money does not become the holder's compensation."
+        "text": "Split the deposit equally to preserve neutrality.",
+        "explanation": "An unauthorized split changes the parties' rights rather than neutrally following the escrow authority.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "escrow-is-conditional-custody",
+    "conceptIds": ["escrow-closing"],
+    "sources": [
+      {
+        "label": "DFPI: About the Escrow Law",
+        "url": "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-009",
@@ -206,23 +358,41 @@
     "prompt": "An independent California escrow company, operating without a specific professional exemption, is licensed under the Escrow Law by:",
     "options": [
       {
-        "text": "The Department of Financial Protection and Innovation.",
-        "explanation": "DFPI licenses independent escrow companies under the Escrow Law."
+        "text": "Department of Financial Protection and Innovation.",
+        "explanation": "DFPI licenses nonexempt independent escrow companies under the Escrow Law."
       },
       {
-        "text": "The county assessor.",
-        "explanation": "The assessor's property valuation role is not escrow licensing."
+        "text": "Department of Real Estate.",
+        "explanation": "DRE regulates its real estate licensees, including qualifying broker-controlled escrow activity, not this independent license.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The local multiple listing service.",
-        "explanation": "An MLS is not the state escrow licensing agency."
+        "text": "California Department of Insurance.",
+        "explanation": "CDI's title-insurance-related authority does not supply this independent escrow-company license.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The Internal Revenue Service.",
-        "explanation": "Federal tax administration does not supply the California escrow license."
+        "text": "State Bar of California.",
+        "explanation": "A lawyer's limited professional exemption is different from licensing an independent escrow company.",
+        "misconceptionId": "source-of-authority"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "who-regulates-the-escrow-holder",
+    "conceptIds": ["escrow-closing"],
+    "sources": [
+      {
+        "label": "DFPI: About the Escrow Law",
+        "url": "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-010",
@@ -232,22 +402,44 @@
     "options": [
       {
         "text": "$235,000.",
-        "explanation": "That omits the qualifying selling-cost reduction."
+        "explanation": "That omits the qualifying selling-cost reduction.",
+        "misconceptionId": "missing-condition"
       },
       {
         "text": "$665,000.",
-        "explanation": "That is amount realized before subtracting basis."
+        "explanation": "That is amount realized before subtracting basis.",
+        "misconceptionId": "misclassification"
       },
       {
         "text": "$465,000.",
-        "explanation": "That is the stated basis, not gain."
+        "explanation": "That is the stated basis, not gain.",
+        "misconceptionId": "misclassification"
       },
       {
         "text": "$200,000.",
         "explanation": "Amount realized is $665,000; subtracting $465,000 produces $200,000."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "basis-and-gain",
+    "conceptIds": ["income-tax-gain"],
+    "sources": [
+      {
+        "label": "IRS Publication 544: Sales and exchanges",
+        "url": "https://www.irs.gov/publications/p544"
+      },
+      {
+        "label": "IRS Publication 551: Basis of assets",
+        "url": "https://www.irs.gov/publications/p551"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-011",
@@ -256,23 +448,41 @@
     "prompt": "Assume only a county transfer tax of $0.55 per $500 or fraction applies. The stated taxable value is $500,100. What is the tax?",
     "options": [
       {
-        "text": "$500.10.",
-        "explanation": "That applies an unstated rate rather than $0.55 per $500."
+        "text": "$550.11.",
+        "explanation": "That prorates the fractional $500 unit instead of treating it as another taxable unit.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$1,100.00.",
-        "explanation": "That doubles the tax on the first $500,000 and omits the actual rounding rule."
+        "explanation": "That does not apply the stated $0.55 rate to the required 1,001 units.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$550.55.",
-        "explanation": "$500,100 requires 1,001 taxable $500 units; multiplying by $0.55 gives $550.55."
+        "explanation": "Round $500,100 / $500 up to 1,001 taxable units, then multiply by $0.55."
       },
       {
         "text": "$550.00.",
-        "explanation": "That ignores the additional fractional $500 unit."
+        "explanation": "That omits the extra $100, which creates a whole additional taxable unit under the stated fraction rule.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "transfer-tax-and-prorations",
+    "conceptIds": ["closing-prorations"],
+    "sources": [
+      {
+        "label": "Revenue and Taxation Code section 11911",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-012",
@@ -281,48 +491,84 @@
     "prompt": "An exam problem uses a 360-day year and annual taxes of $9,000. The seller owes 20 unpaid days that the buyer will pay. What proration is appropriate?",
     "options": [
       {
-        "text": "No proration because the annual tax has not been paid.",
-        "explanation": "Unpaid expenses can still be allocated between the parties."
+        "text": "Debit seller and credit buyer $493.15.",
+        "explanation": "That uses a 365-day year, contrary to the stipulated 360-day basis.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "Debit seller and credit buyer $500.",
-        "explanation": "$9,000 divided by 360 is $25 per day; 20 days cost $500 owed by the seller."
+        "explanation": "$9,000 / 360 x 20 = $500. The seller owes it, and the buyer receives credit because the buyer will pay it."
       },
       {
         "text": "Debit buyer and credit seller $500.",
-        "explanation": "That reverses responsibility for the seller's unpaid period."
+        "explanation": "That reverses the allocation of the seller's unpaid share.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
         "text": "Debit seller and credit buyer $250.",
-        "explanation": "That counts only ten days at the stated daily rate."
+        "explanation": "At $25 per day, $250 accounts for only 10 of the stated 20 seller days.",
+        "misconceptionId": "wrong-formula"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "transfer-tax-and-prorations",
+    "conceptIds": ["closing-prorations"],
+    "sources": [
+      {
+        "label": "CFPB: Closing Disclosure",
+        "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-013",
     "domain": "transfer",
     "lessonSlug": "transfer-taxes-and-prorations",
-    "prompt": "A qualifying taxpayer excludes gain from a main-home sale under federal law. That exclusion:",
+    "prompt": "A taxpayer meets the federal main-home gain-exclusion rules. Which additional transaction is required to obtain the exclusion?",
     "options": [
       {
-        "text": "Concerns qualifying gain and does not require buying a replacement home.",
-        "explanation": "The main-home exclusion is not the old replacement-home rollover rule."
+        "text": "No purchase of a replacement home is required.",
+        "explanation": "Section 121 concerns eligible gain and its ownership, use, and other conditions, not mandatory reinvestment in a replacement home."
       },
       {
-        "text": "Applies to the entire sale price rather than gain.",
-        "explanation": "The exclusion limits qualifying gain, not gross price."
+        "text": "Buy a replacement home of at least the former sale price.",
+        "explanation": "That imports a replacement-purchase condition into the current home-sale exclusion.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Automatically prevents California property-tax reassessment for the buyer.",
-        "explanation": "Income-tax exclusion and property-tax assessment are different systems."
+        "text": "Complete a like-kind exchange within the federal deadlines.",
+        "explanation": "The principal-residence exclusion is different from business or investment real-property exchange deferral.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Is available only to people over age 55.",
-        "explanation": "The current federal main-home exclusion does not impose that general age requirement."
+        "text": "Transfer the old California assessed value to a new home.",
+        "explanation": "California property-tax basis relief is a separate system and is not required for the federal exclusion.",
+        "misconceptionId": "federal-state-confusion"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "the-principal-residence-exclusion",
+    "conceptIds": ["income-tax-gain"],
+    "sources": [
+      {
+        "label": "IRS Publication 523: Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-014",
@@ -331,48 +577,84 @@
     "prompt": "A transaction requires real estate tax withholding. What is withholding's basic function?",
     "options": [
       {
-        "text": "A final fixed tax equal to the seller's exact gain liability.",
-        "explanation": "The withholding computation does not necessarily match final liability."
+        "text": "It settles the seller's final tax regardless of actual gain.",
+        "explanation": "Withholding is credited against liability; it is not necessarily the final amount owed.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Additional compensation earned by escrow.",
-        "explanation": "The funds are remitted as tax, not retained as a service fee."
+        "text": "It reduces the property's assessed value for the buyer.",
+        "explanation": "Income-tax withholding is separate from local property-tax assessment.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "An automatic substitute for all tax returns.",
-        "explanation": "Withholding does not generally eliminate reporting obligations."
+        "text": "It substitutes for reporting an otherwise reportable sale.",
+        "explanation": "Withholding does not remove applicable tax-return reporting requirements.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Prepayment toward the seller's tax liability under the applicable system.",
-        "explanation": "Withholding collected at transfer can differ from the final tax due."
+        "text": "It prepays tax to be credited under the applicable system.",
+        "explanation": "The final return reconciles applicable income-tax liability and allowable withholding credits."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "withholding-is-a-prepayment",
+    "conceptIds": ["tax-withholding"],
+    "sources": [
+      {
+        "label": "FTB Publication 1016: Real estate withholding",
+        "url": "https://www.ftb.ca.gov/forms/misc/1016.html"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-015",
     "domain": "transfer",
     "lessonSlug": "transfer-special-transfers",
-    "prompt": "A decedent left a valid will. Which conclusion is correct?",
+    "prompt": "A decedent leaves a valid will naming an executor and devising a house. What can be concluded from the will alone?",
     "options": [
       {
-        "text": "The named executor automatically owns all estate property personally.",
-        "explanation": "Representative authority is distinct from beneficial ownership."
+        "text": "The named executor has already received court authority.",
+        "explanation": "Nomination in a will and court appointment are distinct.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Intestate succession necessarily overrides every valid devise.",
-        "explanation": "A valid will can control property it effectively disposes of."
+        "text": "The house must be distributed under intestate succession.",
+        "explanation": "A valid devise is not simply replaced by intestacy; administration and other applicable rights still need analysis.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The will does not by itself guarantee avoidance of probate.",
-        "explanation": "The required administration depends on assets, title, and available procedures."
+        "text": "Probate avoidance has not been established.",
+        "explanation": "A will directs disposition but does not by itself place assets outside probate or supply all transfer authority."
       },
       {
-        "text": "Every asset transfers immediately without administration.",
-        "explanation": "A will alone does not complete every transfer."
+        "text": "The devisee can sign any estate sale without administration.",
+        "explanation": "Being named to receive property does not alone establish authority to bind the estate in a sale.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "death-does-not-produce-one-universal-process",
+    "conceptIds": ["estate-transfers"],
+    "sources": [
+      {
+        "label": "California Courts: Property after death",
+        "url": "https://selfhelp.courts.ca.gov/probate"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-016",
@@ -382,7 +664,8 @@
     "options": [
       {
         "text": "$410,000.",
-        "explanation": "That does not apply the stated two-part statutory calculation."
+        "explanation": "That does not apply the stated two-part statutory calculation.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$420,500.",
@@ -390,39 +673,74 @@
       },
       {
         "text": "$440,000.",
-        "explanation": "That incorrectly applies 10% to the entire original bid."
+        "explanation": "That incorrectly applies 10% to the entire original bid.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$420,000.",
-        "explanation": "That applies 5% uniformly and omits the extra first-segment amount."
+        "explanation": "That applies 5% uniformly and omits the extra first-segment amount.",
+        "misconceptionId": "wrong-formula"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "worked-overbid",
+    "conceptIds": ["probate-sales"],
+    "sources": [
+      {
+        "label": "Probate Code section 10311",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-017",
     "domain": "transfer",
     "lessonSlug": "transfer-special-transfers",
-    "prompt": "A successor trustee plans to sell property held in a trust. Which statement is best?",
+    "prompt": "A successor trustee plans to sell trust-held property. What should the agent verify before accepting the trustee's authority?",
     "options": [
       {
-        "text": "Authority must be verified under the trust and applicable law; probate confirmation is not automatic.",
-        "explanation": "A trust administration sale differs from a court-confirmed estate sale."
+        "text": "The trust terms, succession, and applicable legal powers.",
+        "explanation": "Authority arises from the trust and governing law, including trustee sale powers. Probate confirmation is not an automatic requirement for every trust sale."
       },
       {
-        "text": "Every trust sale requires the probate overbid procedure.",
-        "explanation": "The presence of a trust does not automatically impose that process."
+        "text": "Only that the trustee is named as a trust beneficiary.",
+        "explanation": "Beneficial entitlement and authority to act as trustee are different roles.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Any beneficiary may sign the deed solely because named.",
-        "explanation": "Beneficiary status does not establish trustee authority."
+        "text": "Only that a probate court has calculated an overbid.",
+        "explanation": "An ordinary authorized trust sale does not automatically use probate sale confirmation and overbidding.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The trustee personally owns the sale proceeds without duties.",
-        "explanation": "The trustee acts in a fiduciary capacity under the trust."
+        "text": "Only that one beneficiary has approved the sale price.",
+        "explanation": "One beneficiary's approval does not establish the trustee's identity, succession, or governing powers.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "nonprobate-transfers",
+    "conceptIds": ["estate-transfers"],
+    "sources": [
+      {
+        "label": "Probate Code section 16226",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16226"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-018",
@@ -431,23 +749,41 @@
     "prompt": "A lender accepts a deed in lieu of foreclosure from the borrower. Which statement about junior liens is most accurate?",
     "options": [
       {
-        "text": "Every junior lien disappears as soon as the deed is signed.",
-        "explanation": "Voluntary conveyance does not automatically extinguish those interests."
+        "text": "The deed has the same junior-lien effect as a senior foreclosure.",
+        "explanation": "A voluntary deed in lieu is not the senior-lien foreclosure process; junior releases still require attention.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The county recorder must pay all junior liens.",
-        "explanation": "Recording duties do not include paying secured creditors."
+        "text": "Junior liens convert to unsecured claims when the deed records.",
+        "explanation": "Recording the voluntary conveyance does not by itself remove those liens from the property.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Junior liens automatically become the borrower's title insurance.",
-        "explanation": "Liens and insurance coverage are different legal interests."
+        "text": "The lender's acceptance supplies releases for all lienholders.",
+        "explanation": "A senior lender cannot provide other lienholders' releases merely by accepting the borrower's deed.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "They are not automatically eliminated merely by that voluntary conveyance.",
-        "explanation": "A deed in lieu does not itself perform a foreclosure's lien-priority effects."
+        "text": "Junior liens require separate resolution or release.",
+        "explanation": "The voluntary conveyance alone does not eliminate them; the deed-in-lieu process must separately address remaining title burdens."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "a-special-deed-does-not-answer-every-title-question",
+    "conceptIds": ["estate-transfers"],
+    "sources": [
+      {
+        "label": "Fannie Mae: Deed-in-lieu and subordinate liens",
+        "url": "https://servicing-guide.fanniemae.com/svc/d2-3.3-02/fannie-mae-mortgage-release-deed-lieu-foreclosure"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-019",
@@ -456,23 +792,41 @@
     "prompt": "A deed conveys an undivided one-half interest in a parcel. The buyer assumes that means exclusive ownership of the northern half. What should the agent explain?",
     "options": [
       {
-        "text": "The deed automatically creates two equal legal lots because it conveys a one-half interest.",
-        "explanation": "A transfer of an undivided share does not itself accomplish a lawful parcel subdivision."
+        "text": "The fraction creates a new legal lot of equal acreage.",
+        "explanation": "A fractional ownership share is not a subdivision or partition creating a separate parcel.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The buyer owns the northern half whenever the fractional share equals half the acreage.",
-        "explanation": "A fraction of ownership does not select a geographic half of the land."
+        "text": "The buyer may select any half of the parcel after closing.",
+        "explanation": "An undivided share does not itself confer unilateral power to select exclusive boundaries.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "An undivided fractional interest is not itself a conveyance of a separately bounded northern parcel.",
-        "explanation": "Fractional cotenancy concerns an ownership share in the whole; a geographic subdivision or different estate requires its own valid arrangement."
+        "text": "The buyer owns a fractional share of the whole parcel.",
+        "explanation": "Undivided describes the ownership interest, not a separately bounded northern parcel."
       },
       {
-        "text": "The buyer owns the northern half only after recording, because recording supplies the missing boundary.",
-        "explanation": "Recording gives notice of the described interest; it does not invent a different legal description."
+        "text": "Recording converts the share into the northern half.",
+        "explanation": "Recording does not add a boundary or change the interest actually conveyed.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "a-description-can-transfer-less-than-the-buyer-expects",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "DRE Reference Book: Title and cotenancy",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-020",
@@ -481,23 +835,41 @@
     "prompt": "A grantor executes a qualifying instrument purporting to grant a fee simple interest the grantor does not yet own. The grantor later acquires that title. Under California's after-acquired-title doctrine, what generally occurs?",
     "options": [
       {
-        "text": "The earlier grant is necessarily treated as a quitclaim limited to the original date's interest.",
-        "explanation": "The doctrine distinguishes qualifying fee grants from instruments merely releasing an existing interest."
+        "text": "The new title is excluded because it was acquired later.",
+        "explanation": "That overlooks Civil Code 1106's specific effect for a qualifying fee-simple grant.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The later-acquired interest passes only if the original deed is recorded again after the grantor acquires title.",
-        "explanation": "Under the qualifying doctrine, passage occurs by operation of law; rerecording is not the event that creates that passage."
+        "text": "A second recording is the event that conveys the new title.",
+        "explanation": "The statute provides for passage by operation of law, not a mandatory second recording of the original deed.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The grantor always retains the newly acquired title unless the grantee pays a second purchase price.",
-        "explanation": "The qualifying doctrine operates by law and does not generally require a second sale price to pass the later-acquired title."
+        "text": "A second price must be paid to transfer the new title.",
+        "explanation": "The qualifying grant triggers the doctrine without a stated second purchase-price requirement.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The later-acquired title passes to the grantee by operation of law under the qualifying grant.",
-        "explanation": "Civil Code section 1106 addresses later-acquired title under an instrument purporting to grant the fee; this differs from an ordinary quitclaim of present interests."
+        "text": "The new title passes under the qualifying earlier grant.",
+        "explanation": "Civil Code 1106 applies when a proper instrument purports to grant fee-simple title and the grantor later acquires title or a claim to it."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "after-acquired-title-is-a-separate-doctrine",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 1106",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-021",
@@ -506,23 +878,41 @@
     "prompt": "Two people originally acquire as joint tenants. Before advising that the survivor automatically owns everything at the first owner's death, what additional title issue should be checked?",
     "options": [
       {
-        "text": "Whether the joint tenancy remained unsevered and covered the interest at death.",
-        "explanation": "The original acquisition label is not conclusive if later events changed the estate; survivorship depends on the valid interest existing at death."
+        "text": "Whether an effective severance changed the joint interest.",
+        "explanation": "Original joint-tenancy vesting does not prove the joint tenancy survived unchanged until death."
       },
       {
-        "text": "Whether the deceased owner left a will naming someone else, which necessarily overrides an intact joint tenancy.",
-        "explanation": "A will does not ordinarily redirect an intact joint tenancy's survivorship interest."
+        "text": "Whether the deceased owner's will names a different devisee.",
+        "explanation": "A conflicting will alone does not override survivorship in an intact joint tenancy.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Whether a probate court has first converted the property to tenancy in common.",
-        "explanation": "An intact joint tenancy does not ordinarily require such a conversion before survivorship can operate."
+        "text": "Whether the surviving owner has a new purchase-money loan.",
+        "explanation": "New financing by the survivor does not establish whether the earlier joint tenancy remained intact.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Whether the surviving owner has already paid all estate creditors, which is the act creating joint tenancy.",
-        "explanation": "Joint tenancy is not created by paying estate creditors; creditor and title issues require their own analysis."
+        "text": "Whether the estate appraisal exceeds the original purchase price.",
+        "explanation": "Value changes do not determine whether survivorship was severed.",
+        "misconceptionId": "wrong-base"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "choose-vesting-with-its-consequences-in-view",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 683.2",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-022",
@@ -531,23 +921,41 @@
     "prompt": "An effective deed conveys property to Jordan while expressly reserving a life estate to the grantor. Which statement best describes Jordan's interest immediately after delivery?",
     "options": [
       {
-        "text": "Jordan has only an unenforceable expectation because no interest can transfer until the grantor dies.",
-        "explanation": "A deed can create a present remainder interest even though possession follows the life estate's termination."
+        "text": "A mere expectation that the grantor can revoke by will.",
+        "explanation": "The effective deed has already conveyed the remainder; it is not merely a proposed future gift.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Jordan holds the conveyed remainder, subject to the grantor's reserved life estate.",
-        "explanation": "The reservation divides present possession from the future possessory interest; the grantee does not receive an immediately unburdened possessory fee."
+        "text": "A remainder, with ordinary possession after the reserved life estate.",
+        "explanation": "Jordan has a presently conveyed future interest; ordinary possession follows the ending of the prior life estate."
       },
       {
-        "text": "Jordan immediately has exclusive possession because every delivered deed extinguishes the grantor's reserved rights.",
-        "explanation": "Delivery does not erase an express reservation contained in the deed."
+        "text": "A present right to exclude the grantor from the property.",
+        "explanation": "The express reservation preserves the grantor's life-estate possession.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Jordan and the grantor necessarily become joint tenants with equal present possession.",
-        "explanation": "A life estate and remainder are successive interests, not automatically equal cotenancy interests."
+        "text": "An equal present joint-tenancy interest with the grantor.",
+        "explanation": "The deed creates successive estates, not the concurrent joint tenancy described by this alternative.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "vesting-answers-how-title-is-held",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 769",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-023",
@@ -556,23 +964,45 @@
     "prompt": "A buyer needs commercial delivery access. The proposed title policy excepts an easement that appears limited to residential use. The lender accepts the policy. What should the buyer's agent recognize?",
     "options": [
       {
-        "text": "The lender's approval necessarily expands the easement to cover commercial deliveries.",
-        "explanation": "Loan approval cannot alter the legal scope of an easement."
+        "text": "The lender's approval expands the easement's permitted use.",
+        "explanation": "Financing approval does not amend the easement rights.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "An exception means the title insurer promises to remove the easement after closing.",
-        "explanation": "An exception identifies a matter outside the stated coverage; it is not an undertaking to eliminate the property right."
+        "text": "The policy exception promises post-closing removal of the limit.",
+        "explanation": "An exception excludes a matter; it is not a promise to cure the underlying problem.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Issuance of any title policy guarantees that all proposed property uses are legally permitted.",
-        "explanation": "Title insurance is subject to its coverage terms and is not a universal land-use guarantee."
+        "text": "The lender's policy insures the buyer's planned commercial use.",
+        "explanation": "A lender's policy protects the named lender's interest on its terms, not every buyer objective.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The lender's acceptance does not establish that the access or policy meets the buyer's intended-use needs.",
-        "explanation": "The lender's collateral protection and the buyer's operating requirements differ; an accepted exception can still defeat the buyer's plan."
+        "text": "The buyer still needs access and coverage suited to the use.",
+        "explanation": "Lender acceptance does not establish either the legal scope of the easement or insurance for the buyer's planned use."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "insurance-does-not-replace-the-purchase-bargain",
+    "conceptIds": ["title-insurance"],
+    "sources": [
+      {
+        "label": "California Department of Insurance: Title insurance",
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm"
+      },
+      {
+        "label": "Insurance Code section 12340.11",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-024",
@@ -581,23 +1011,41 @@
     "prompt": "Escrow holds all required buyer funds and the seller's signed deed. An instruction requires a lien release that is still missing, and no authorized amendment permits closing without it. What should escrow do?",
     "options": [
       {
-        "text": "Close because depositing the deed automatically waives all title-clearance conditions.",
-        "explanation": "Depositing a document subject to conditions is not necessarily a waiver of those conditions."
+        "text": "Close because the deposited deed waives the missing condition.",
+        "explanation": "Delivery into conditional custody does not erase the express lien-release requirement.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Record the deed now and treat the required release as only a post-closing clerical task.",
-        "explanation": "A required release cannot be reclassified unilaterally merely to expedite closing."
+        "text": "Record first and obtain the required release after closing.",
+        "explanation": "That treats an unmet closing condition as if it were authorized post-closing work.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "Release the funds on the listing agent's assurance that the buyer will probably accept the lien.",
-        "explanation": "The agent's prediction does not replace the required authorization or amendment."
+        "text": "Close if the listing agent expects the buyer to accept the lien.",
+        "explanation": "An agent's prediction is not the authorized amendment that the facts say is missing.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Continue holding the conditional deliveries until the applicable closing requirements are satisfied.",
-        "explanation": "Possession of funds and a deed does not itself authorize ignoring an unfulfilled instruction."
+        "text": "Hold until the applicable closing conditions are satisfied.",
+        "explanation": "Funds and a deed remain conditional deliveries when a required release is outstanding and no authorized change permits closing."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "conditions-control-disbursement",
+    "conceptIds": ["escrow-closing"],
+    "sources": [
+      {
+        "label": "DFPI: About the Escrow Law",
+        "url": "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-025",
@@ -611,18 +1059,36 @@
       },
       {
         "text": "$176,900.",
-        "explanation": "This treats the buyer's proration credit as an additional debit."
+        "explanation": "This treats the buyer's proration credit as an additional debit.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
         "text": "$199,100.",
-        "explanation": "This fails to credit the $24,000 deposit already supplied."
+        "explanation": "This fails to credit the $24,000 deposit already supplied.",
+        "misconceptionId": "missing-condition"
       },
       {
         "text": "$176,000.",
-        "explanation": "This computes the remaining price but omits the stated proration credit."
+        "explanation": "This computes the remaining price but omits the stated proration credit.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "reconcile-a-simple-closing-statement",
+    "conceptIds": ["escrow-closing"],
+    "sources": [
+      {
+        "label": "CFPB: Closing Disclosure",
+        "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-026",
@@ -631,23 +1097,41 @@
     "prompt": "A preliminary report issued three months ago contains no judgment lien. Before closing, the agent learns of a newly recorded judgment affecting the seller's interest. What is the appropriate response?",
     "options": [
       {
-        "text": "Assume the eventual owner's policy must cover the known new lien without disclosure.",
-        "explanation": "Coverage and underwriting requirements cannot be presumed, particularly for newly known matters affecting title."
+        "text": "Treat the old report as insurance against the known new lien.",
+        "explanation": "A preliminary report is an offer of proposed coverage, not a guarantee of current title or future coverage.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Rely exclusively on the old report because it permanently fixes which liens can affect the property.",
-        "explanation": "A report does not prevent later liens or make intervening events irrelevant."
+        "text": "Close on the old report because its date fixes title priority.",
+        "explanation": "An old report does not freeze the title record or prevent later interests from arising.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "Notify the appropriate transaction professionals and obtain current title review and requirements.",
-        "explanation": "A preliminary report has a relevant date; new events can affect the transaction before the insured closing."
+        "text": "Notify the title and escrow professionals and obtain current title review.",
+        "explanation": "A known intervening judgment calls for current review and resolution through the proper transaction professionals."
       },
       {
-        "text": "Remove the new lien from the closing statement because it was absent when the price was negotiated.",
-        "explanation": "Negotiating a price before a lien appears does not erase the lien or establish how it must be handled."
+        "text": "Deduct the judgment from proceeds without revised authority.",
+        "explanation": "A newly discovered claim must be evaluated and addressed through the required title and escrow process.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "read-a-title-problem-in-layers",
+    "conceptIds": ["title-insurance"],
+    "sources": [
+      {
+        "label": "Insurance Code section 12340.11",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-027",
@@ -657,7 +1141,8 @@
     "options": [
       {
         "text": "$505,000.",
-        "explanation": "This is the simplified cash after selling expenses and debt payoff, not gain after subtracting basis."
+        "explanation": "This is the simplified cash after selling expenses and debt payoff, not gain after subtracting basis.",
+        "misconceptionId": "misclassification"
       },
       {
         "text": "$335,000.",
@@ -665,14 +1150,35 @@
       },
       {
         "text": "$380,000.",
-        "explanation": "This subtracts basis from gross price but omits qualifying selling expenses."
+        "explanation": "This subtracts basis from gross price but omits qualifying selling expenses.",
+        "misconceptionId": "missing-condition"
       },
       {
         "text": "A $15,000 loss.",
-        "explanation": "This wrongly subtracts the loan payoff in addition to adjusted basis when calculating gain."
+        "explanation": "This wrongly subtracts the loan payoff in addition to adjusted basis when calculating gain.",
+        "misconceptionId": "wrong-base"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "follow-the-dollars-through-two-different-calculations",
+    "conceptIds": ["income-tax-gain"],
+    "sources": [
+      {
+        "label": "IRS Publication 544: Sales and exchanges",
+        "url": "https://www.irs.gov/publications/p544"
+      },
+      {
+        "label": "IRS Publication 551: Basis of assets",
+        "url": "https://www.irs.gov/publications/p551"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-028",
@@ -682,7 +1188,8 @@
     "options": [
       {
         "text": "Credit the buyer and debit the seller $2,400.",
-        "explanation": "This adds the buyer's expense share as another credit instead of subtracting it from the rent credit."
+        "explanation": "This adds the buyer's expense share as another credit instead of subtracting it from the rent credit.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
         "text": "Credit the buyer and debit the seller $1,600.",
@@ -690,39 +1197,74 @@
       },
       {
         "text": "Credit the seller and debit the buyer $1,600.",
-        "explanation": "This reverses the net result: the seller holds more buyer-period income than the buyer owes for prepaid expenses."
+        "explanation": "This reverses the net result: the seller holds more buyer-period income than the buyer owes for prepaid expenses.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
         "text": "Credit the buyer and debit the seller $800.",
-        "explanation": "This uses the seller's one-third share rather than the buyer's two-thirds share of the net income and expense."
+        "explanation": "This uses the seller's one-third share rather than the buyer's two-thirds share of the net income and expense.",
+        "misconceptionId": "wrong-base"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "rent-and-taxes-run-in-opposite-directions",
+    "conceptIds": ["closing-prorations"],
+    "sources": [
+      {
+        "label": "CFPB: Closing Disclosure",
+        "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-029",
     "domain": "transfer",
     "lessonSlug": "transfer-taxes-and-prorations",
-    "prompt": "Spouses file jointly. Only one satisfies the ownership test for their main home; both satisfy the use test, neither is disqualified by a recent prior exclusion, and all other conditions for the full exclusion are met. Which statement is correct?",
+    "prompt": "Spouses file jointly. One meets the main-home ownership test; both meet the use test. Neither is barred by a prior exclusion, and all other full-exclusion conditions are met. What is the maximum qualifying gain exclusion?",
     "options": [
       {
-        "text": "They may qualify for the full $500,000 exclusion because either spouse may satisfy the ownership test.",
-        "explanation": "For the stated joint-return framework, ownership and use have different spouse-specific requirements; both need not have identical ownership histories."
+        "text": "$500,000.",
+        "explanation": "Either spouse may meet ownership, but both must meet use and the other applicable conditions for this joint-return maximum."
       },
       {
-        "text": "They must buy another home of equal or greater value to obtain the $500,000 exclusion.",
-        "explanation": "The current main-home exclusion does not impose that replacement-purchase condition."
+        "text": "$250,000.",
+        "explanation": "That wrongly requires both spouses to satisfy ownership for the joint $500,000 maximum.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "They exclude $500,000 of the sale price rather than $500,000 of qualifying gain.",
-        "explanation": "The exclusion applies to qualifying gain, not directly to gross selling price."
+        "text": "$125,000.",
+        "explanation": "The joint exclusion is not divided in half merely because one spouse satisfies ownership.",
+        "misconceptionId": "wrong-formula"
       },
       {
-        "text": "They are limited to $250,000 solely because only one spouse satisfies the ownership test.",
-        "explanation": "The ownership test for the full joint exclusion can generally be met by either spouse when the other conditions are met."
+        "text": "$0.",
+        "explanation": "Failure of the second spouse to meet ownership does not defeat the stated joint-return qualification.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "test-ownership-and-use-separately",
+    "conceptIds": ["income-tax-gain"],
+    "sources": [
+      {
+        "label": "IRS Publication 523: Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-030",
@@ -731,23 +1273,49 @@
     "prompt": "A foreign seller transfers U.S. real property for $800,000. The individual buyer satisfies the FIRPTA residence-use category for the 10% rate, and no other exception or certificate applies. What is federal withholding?",
     "options": [
       {
-        "text": "$26,664.",
-        "explanation": "This uses a California-style percentage rather than the applicable federal FIRPTA rate."
+        "text": "$26,640.",
+        "explanation": "That uses 3.33%, not the stipulated 10% federal category. Federal and California withholding are separate systems.",
+        "misconceptionId": "federal-state-confusion"
       },
       {
         "text": "$120,000.",
-        "explanation": "This applies the general 15% rate instead of the specifically stated 10% residence category."
+        "explanation": "That uses the general 15% FIRPTA rate while ignoring the stipulated qualifying 10% residence category.",
+        "misconceptionId": "wrong-exception"
       },
       {
         "text": "$0.",
-        "explanation": "The residence exception eliminating federal withholding is not available solely because an $800,000 purchase will be a residence."
+        "explanation": "The buyer-residence exception at $300,000 or less does not cover the stated $800,000 amount.",
+        "misconceptionId": "wrong-exception"
       },
       {
         "text": "$80,000.",
-        "explanation": "The stated residence-use category applies 10% to the $800,000 amount realized in this simplified transaction."
+        "explanation": "The qualifying rate supplied in the facts is 10%: $800,000 x 0.10 = $80,000."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "apply-the-appropriate-withholding-system",
+    "conceptIds": ["tax-withholding"],
+    "sources": [
+      {
+        "label": "IRS: FIRPTA withholding",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding"
+      },
+      {
+        "label": "IRS Internal Revenue Manual: Current FIRPTA withholding rates",
+        "url": "https://www.irs.gov/irm/part3/irm_03-022-261r"
+      },
+      {
+        "label": "FTB Publication 1016: Real estate withholding",
+        "url": "https://www.ftb.ca.gov/forms/misc/1016.html"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-031",
@@ -757,11 +1325,13 @@
     "options": [
       {
         "text": "$630,500.",
-        "explanation": "This applies the overbid formula to the appraisal rather than to the accepted $550,000 bid."
+        "explanation": "This applies the overbid formula to the appraisal rather than to the accepted $550,000 bid.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$577,500.",
-        "explanation": "This applies 5% to the entire accepted bid and omits the higher percentage on the first $10,000."
+        "explanation": "This applies 5% to the entire accepted bid and omits the higher percentage on the first $10,000.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$578,000.",
@@ -769,10 +1339,26 @@
       },
       {
         "text": "$540,000.",
-        "explanation": "This is 90% of the appraisal, an appraisal-based threshold rather than an overbid of the accepted offer."
+        "explanation": "This is 90% of the appraisal, an appraisal-based threshold rather than an overbid of the accepted offer.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "appraisal-threshold-and-overbid-are-separate-calculations",
+    "conceptIds": ["probate-sales"],
+    "sources": [
+      {
+        "label": "Probate Code section 10311",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-032",
@@ -781,23 +1367,41 @@
     "prompt": "A will leaves a house to a niece and names a nephew as executor. The nephew has not yet been appointed or received the needed authority. Who can sign a binding estate sale solely because of those facts?",
     "options": [
       {
-        "text": "Neither person has established sale authority solely from the stated beneficiary or nomination status.",
-        "explanation": "Being named beneficiary or nominated executor does not itself demonstrate the currently required authority to convey estate property."
+        "text": "Neither has established the authority needed to bind the estate to this sale.",
+        "explanation": "Nomination as executor and designation as devisee do not, by themselves, establish authority to bind the estate to this sale."
       },
       {
-        "text": "The nephew, because nomination in the will is identical to court appointment and sufficient sale authority.",
-        "explanation": "Nomination identifies the decedent's choice; appointment and the scope of authority still must be established."
+        "text": "The nephew, because the will itself appoints the representative.",
+        "explanation": "Court appointment and the necessary estate authority must be established; nomination is not the same step.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The niece, because a specific devise immediately gives the beneficiary unrestricted authority to sell estate assets.",
-        "explanation": "A beneficiary's expected entitlement does not bypass estate administration and authority requirements."
+        "text": "The niece, because a devise supplies estate administration powers.",
+        "explanation": "Receiving a beneficial interest does not make the devisee the authorized estate representative.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Either person, provided the sale price is at least the probate appraisal.",
-        "explanation": "An adequate price does not supply missing authority to act for the estate."
+        "text": "Both, because their joint signatures replace court appointment.",
+        "explanation": "Combining two unestablished sources of authority does not supply the needed authority to bind the estate.",
+        "misconceptionId": "source-of-authority"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "a-will-an-appointment-and-a-deed-do-different-work",
+    "conceptIds": ["estate-transfers"],
+    "sources": [
+      {
+        "label": "California Courts: Property after death",
+        "url": "https://selfhelp.courts.ca.gov/probate"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-033",
@@ -806,23 +1410,41 @@
     "prompt": "A grantor previously conveyed a remainder to Casey while retaining a life estate measured by the grantor's life. The grantor dies, leaving a will purporting to give the property to Morgan. Which interest controls ordinary possession after death?",
     "options": [
       {
-        "text": "The executor sells Casey's remainder before either person can possess the property.",
-        "explanation": "The remainder was already conveyed and does not automatically become an estate asset for sale."
+        "text": "The executor must purchase Casey's remainder for the estate.",
+        "explanation": "The life estate ends at the grantor's death; the estate does not need to buy the previously conveyed remainder.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Casey and Morgan become equal tenants in common because the deed and will each name a beneficiary.",
-        "explanation": "The instruments do not automatically create equal shares; the grantor's remaining interest and its termination control."
+        "text": "Casey and Morgan share possession as tenants in common.",
+        "explanation": "The later will does not divide an interest already conveyed away by effective deed.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Casey's remainder becomes possessory when the reserved life estate ends.",
-        "explanation": "The grantor's life estate expires rather than continuing as a fee interest that the will can redirect to Morgan."
+        "text": "Casey's conveyed remainder controls possession when the reserved life estate ends.",
+        "explanation": "The grantor retained only the life estate. Its end makes the already conveyed remainder possessory."
       },
       {
-        "text": "Morgan receives the fee because a later will always overrides an earlier delivered deed.",
-        "explanation": "A will ordinarily disposes of the decedent's transferable interest, not an interest already conveyed away."
+        "text": "Morgan takes possession under the later-dated will.",
+        "explanation": "A will does not override the completed earlier transfer of Casey's remainder.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compare-death-sale-and-termination-of-a-life-estate",
+    "conceptIds": ["estate-transfers"],
+    "sources": [
+      {
+        "label": "Civil Code section 769",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-034",
@@ -831,23 +1453,41 @@
     "prompt": "An estate representative has full authority under the Independent Administration of Estates Act and proposes an otherwise authorized real property sale. Which statement best avoids overgeneralizing that authority?",
     "options": [
       {
-        "text": "Every estate sale must use court confirmation and statutory overbidding despite full authority.",
-        "explanation": "Some properly conducted independently administered sales do not require the ordinary confirmation process."
+        "text": "Full authority still requires confirmation for every property sale.",
+        "explanation": "Full IAAA authority can permit an authorized real-property sale without the ordinary confirmation hearing.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "A confirmation hearing may not be required, but applicable notice, objection, and fiduciary requirements still matter.",
-        "explanation": "Independent administration changes the procedure without eliminating all oversight, conditions, or the representative's obligations."
+        "text": "Full authority does not eliminate applicable notice and objection requirements.",
+        "explanation": "Independent administration can remove the confirmation step for a qualifying sale without eliminating required procedures and fiduciary duties."
       },
       {
-        "text": "Full authority means notice can always be omitted because the will names a sole beneficiary.",
-        "explanation": "The scope of authority does not categorically eliminate applicable notice requirements."
+        "text": "A sole named beneficiary removes all notice requirements.",
+        "explanation": "The number of beneficiaries does not by itself waive or satisfy every applicable notice and objection requirement.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Full authority makes the estate representative the beneficial owner of all sale proceeds.",
-        "explanation": "Authority to administer and sell does not convert estate assets into the representative's personal property."
+        "text": "The representative may distribute proceeds before paying estate claims.",
+        "explanation": "Authority to sell is not unrestricted authority to disregard creditors, administration, or distribution rules.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "independent-administration-is-still-administration",
+    "conceptIds": ["probate-sales"],
+    "sources": [
+      {
+        "label": "Probate Code sections 10510-10511: Full authority and notice",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=PROB&division=7.&title=&part=6.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-035",
@@ -856,23 +1496,45 @@
     "prompt": "An owner grants a parcel without expressing a lesser estate. A valid utility easement already burdens it. What does Civil Code section 1105's fee-simple presumption establish?",
     "options": [
       {
-        "text": "The presumed intended estate, not automatic elimination of the existing easement.",
-        "explanation": "A fee-simple estate can remain subject to encumbrances; the presumption concerns the grant's intended extent."
+        "text": "Presumed intent to convey fee ownership, still subject to the valid easement.",
+        "explanation": "Section 1105 addresses the intended estate. Fee ownership can remain burdened by a valid easement."
       },
       {
-        "text": "A guarantee that every existing easement is extinguished upon delivery.",
-        "explanation": "The presumption does not erase third-party property rights."
+        "text": "Fee-simple intent and automatic release of the easement.",
+        "explanation": "The estate presumption does not extinguish another holder's valid existing interest.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "That the deed must be treated as a life estate unless the easement holder signs it.",
-        "explanation": "An easement does not make the owner's estate a life estate or impose that general signing requirement."
+        "text": "A life estate because an encumbrance already exists.",
+        "explanation": "An easement burden does not by itself convert the grant into a life estate.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "That the grantor necessarily supplied an owner's title insurance policy.",
-        "explanation": "A rule construing a deed does not create a separate insurance contract."
+        "text": "An insurance obligation covering every existing title defect.",
+        "explanation": "The deed's presumed estate is not the issuance of a title policy.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compare-the-deeds",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 1105",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105."
+      },
+      {
+        "label": "Civil Code section 1113",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-036",
@@ -881,23 +1543,45 @@
     "prompt": "A grantor owns only a life estate and no remainder. The grantor executes a deed purporting to grant fee-simple title, but never later acquires the remainder. Which limitation matters?",
     "options": [
       {
-        "text": "The fee-simple presumption automatically expands the life tenant's ownership before transfer.",
-        "explanation": "A construction rule does not manufacture ownership in the grantor."
+        "text": "Fee-simple wording enlarges the grantor's existing ownership.",
+        "explanation": "Intent about the estate purportedly granted is not ownership of rights held by another.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Recording converts the deed into the remainder owner's consent.",
-        "explanation": "Public recording does not supply another owner's assent or transfer that person's interest."
+        "text": "Recording supplies the remainder owner's implied consent.",
+        "explanation": "Recording does not convert another owner's interest into the grantor's property.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The presumption of fee-simple intent does not itself create a remainder interest the grantor never owned.",
-        "explanation": "Distinguish what the deed purports to convey from the grantor's actual transferable interest; later-acquired-title facts are absent."
+        "text": "The grant's language does not itself convey a remainder the grantor lacks.",
+        "explanation": "Section 1105 concerns intent. The grantor never owns the remainder, and the facts exclude later acquisition that could trigger section 1106."
       },
       {
-        "text": "A fee-simple description necessarily makes the life tenant the agent of the remainder owner.",
-        "explanation": "The deed's wording does not establish agency authority from the separate owner."
+        "text": "The grantor obtains the remainder by promising to convey it.",
+        "explanation": "The promise or description alone does not vest title from the actual remainder owner.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compare-the-deeds",
+    "conceptIds": ["deed-transfer"],
+    "sources": [
+      {
+        "label": "Civil Code section 1105",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105."
+      },
+      {
+        "label": "Civil Code section 1106",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-037",
@@ -906,23 +1590,41 @@
     "prompt": "A buyer receives a preliminary title report and calls it an abstract guaranteeing that no omitted interest exists. Under Insurance Code section 12340.11, what is the essential correction?",
     "options": [
       {
-        "text": "It is an abstract only if the buyer pays the lender's title premium.",
-        "explanation": "Who pays an insurance premium does not convert the report's statutory character."
+        "text": "It becomes an abstract when the buyer pays the premium.",
+        "explanation": "Who pays for insurance does not change the statutory character of the preliminary report.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "It states the terms on which the issuer offers title insurance and is not an abstract or a guarantee of actual title condition.",
-        "explanation": "The statute distinguishes the preliminary report's insurance-offer function from the rights and responsibilities of an abstract."
+        "text": "It is an offer to issue insurance subject to stated terms and exceptions.",
+        "explanation": "Insurance Code 12340.11 distinguishes the report from an abstract or representation of actual title condition."
       },
       {
-        "text": "It guarantees actual title condition unless the buyer later changes lenders.",
-        "explanation": "A lender change is not what determines whether the report constitutes a representation of title condition."
+        "text": "It guarantees omitted interests until the deed is recorded.",
+        "explanation": "The report is not a temporary guarantee of actual title condition.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "It becomes an owner's policy automatically when the seller signs the deed.",
-        "explanation": "Execution of a deed does not itself establish issuance of an insurance policy."
+        "text": "It becomes an owner's policy when escrow receives the deed.",
+        "explanation": "Receiving the seller's deed does not automatically issue the buyer's insurance policy.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "title-review-identifies-the-interest-being-purchased",
+    "conceptIds": ["title-insurance"],
+    "sources": [
+      {
+        "label": "Insurance Code section 12340.11",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-038",
@@ -931,23 +1633,41 @@
     "prompt": "A buyer receives changed wiring instructions from an email address that appears to match escrow's usual address. The message supplies a new phone number for verification. What is the strongest verification step?",
     "options": [
       {
-        "text": "Call only the new number because the message identifies it as escrow's verification department.",
-        "explanation": "The suspicious communication cannot independently authenticate the contact details it supplies."
+        "text": "Call the new number printed in the changed instructions.",
+        "explanation": "The same fraudulent message can supply both a false bank account and false verification number.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Send a small test wire and treat successful delivery as proof of the recipient's authority.",
-        "explanation": "A fraudulent recipient can receive a test payment; delivery does not prove the account is authorized."
+        "text": "Wire a small test amount to confirm the new recipient.",
+        "explanation": "Successful delivery proves only that an account received money, not that it belongs to authorized escrow.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Compare the displayed sender name and proceed if its spelling is unchanged.",
-        "explanation": "A displayed name or apparent address alone does not establish the authenticity of changed payment instructions."
+        "text": "Reply to the email and ask the sender to confirm the change.",
+        "explanation": "A compromised or spoofed communication channel is not independent verification.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Contact escrow through a previously established, independently trusted number before sending funds.",
-        "explanation": "An apparently familiar email and its newly supplied contact details may both be compromised; verification should use a separate trusted channel."
+        "text": "Call escrow using its previously trusted contact number.",
+        "explanation": "Verify the actual instructions through an independently established channel, not the contact information in the suspicious change."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "follow-the-closing-sequence",
+    "conceptIds": ["escrow-closing"],
+    "sources": [
+      {
+        "label": "CFPB: Protecting closing funds",
+        "url": "https://www.consumerfinance.gov/about-us/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-039",
@@ -957,22 +1677,40 @@
     "options": [
       {
         "text": "$650,000.",
-        "explanation": "This uses market value without preserving the $250,000 deferred gain."
+        "explanation": "This uses market value without preserving the $250,000 deferred gain.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$350,000.",
-        "explanation": "This subtracts the cash from old basis without adding the recognized gain required by the simplified basis calculation."
+        "explanation": "This subtracts the cash from old basis without adding the recognized gain required by the simplified basis calculation.",
+        "misconceptionId": "missing-condition"
       },
       {
         "text": "$450,000.",
-        "explanation": "This adds recognized gain to old basis but fails to subtract the cash received."
+        "explanation": "This adds recognized gain to old basis but fails to subtract the cash received.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
         "text": "$400,000.",
         "explanation": "Realized gain is $300,000; $50,000 is recognized and $250,000 deferred. Subtract deferred gain from the $650,000 replacement value."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "like-kind-exchange-deferral",
+    "conceptIds": ["tax-exchanges"],
+    "sources": [
+      {
+        "label": "IRS Publication 544: Sales and exchanges",
+        "url": "https://www.irs.gov/publications/p544"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-040",
@@ -982,7 +1720,8 @@
     "options": [
       {
         "text": "$50,000.",
-        "explanation": "Cash boot does not create gain exceeding the total realized gain in this stipulated calculation."
+        "explanation": "Cash boot does not create gain exceeding the total realized gain in this stipulated calculation.",
+        "misconceptionId": "missing-condition"
       },
       {
         "text": "$20,000.",
@@ -990,39 +1729,74 @@
       },
       {
         "text": "$70,000.",
-        "explanation": "Adding realized gain and boot counts different categories rather than applying the recognition limit."
+        "explanation": "Adding realized gain and boot counts different categories rather than applying the recognition limit.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$0.",
-        "explanation": "Receipt of the stated cash boot causes recognition up to the realized gain; exchange status does not automatically defer that portion."
+        "explanation": "Receipt of the stated cash boot causes recognition up to the realized gain; exchange status does not automatically defer that portion.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "like-kind-exchange-deferral",
+    "conceptIds": ["tax-exchanges"],
+    "sources": [
+      {
+        "label": "IRS Publication 544: Sales and exchanges",
+        "url": "https://www.irs.gov/publications/p544"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-041",
     "domain": "transfer",
     "lessonSlug": "transfer-special-transfers",
-    "prompt": "An ordinary court-confirmed probate sale has an accepted $780,000 bid. The stated first-overbid rule adds 10% on the first $10,000 and 5% on the remainder. A brokerage commission will be paid from proceeds. What is the numerical minimum first overbid?",
+    "prompt": "An ordinary probate sale requiring confirmation has an accepted $780,000 bid. A $20,000 commission will be paid from proceeds. Apply 10% on the first $10,000 and 5% on the remainder to determine the minimum first overbid.",
     "options": [
       {
-        "text": "$819,000, because five percent applies to the whole accepted bid.",
-        "explanation": "This omits the higher increment applicable to the first $10,000."
+        "text": "$819,000.",
+        "explanation": "That adds 5% of the whole bid and misses the higher increment on its first $10,000.",
+        "misconceptionId": "wrong-formula"
       },
       {
-        "text": "$858,000, because ten percent applies to the entire accepted bid.",
-        "explanation": "This applies the first bracket's rate to the full amount instead of using the two prescribed brackets."
+        "text": "$858,000.",
+        "explanation": "That applies 10% to the whole bid instead of using the two-tier calculation.",
+        "misconceptionId": "wrong-formula"
       },
       {
-        "text": "$819,500, without first subtracting the commission from the accepted bid.",
-        "explanation": "Add $1,000 and $38,500 to $780,000; the statutory bid calculation disregards the commission rather than using net seller proceeds."
+        "text": "$819,500.",
+        "explanation": "Use the $780,000 gross bid: $780,000 + $1,000 + $38,500. Section 10311 does not first deduct brokerage commissions."
       },
       {
-        "text": "The accepted bid less commission, plus the two statutory increments on that net amount.",
-        "explanation": "Section 10311's bid base is not reduced by the brokerage commission."
+        "text": "$798,500.",
+        "explanation": "That starts from $760,000 after deducting commission, contrary to the statutory gross-bid calculation.",
+        "misconceptionId": "wrong-base"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "worked-overbid",
+    "conceptIds": ["probate-sales"],
+    "sources": [
+      {
+        "label": "Probate Code section 10311",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "transfer-042",
@@ -1031,22 +1805,1158 @@
     "prompt": "An accepted probate sale is for cash. At confirmation, a numerically sufficient higher offer proposes credit terms that the estate representative expressly finds unacceptable. Under section 10311's cash-versus-credit provision, what is the key consequence?",
     "options": [
       {
-        "text": "The higher credit offer cannot be considered under that provision without the representative's required indication that it is acceptable.",
-        "explanation": "Different credit terms present a separate statutory condition; a sufficient price does not alone resolve it."
+        "text": "The court cannot consider it without the required acceptance.",
+        "explanation": "Section 10311(d) requires the representative to indicate that the changed cash-or-credit offer is acceptable before it may be considered."
       },
       {
-        "text": "The court must accept the credit offer because every higher numerical offer overrides the original terms.",
-        "explanation": "The statute imposes conditions beyond price, including treatment of different cash and credit terms."
+        "text": "The higher dollar amount requires the court to accept it.",
+        "explanation": "A sufficient numerical overbid does not override the cash-versus-credit condition.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A credit overbid can never be considered when the original sale was for cash, even if the representative accepts it.",
-        "explanation": "The provision does not establish that categorical prohibition; the representative's required acceptance matters."
+        "text": "A credit overbid is prohibited even if the representative accepts.",
+        "explanation": "The statute provides a conditional route, not an absolute ban on changed credit terms.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The court must subtract all commissions before deciding whether the credit offer has a higher price.",
-        "explanation": "Commission deductions do not define the statutory bid comparison."
+        "text": "The court must convert the credit offer to an all-cash offer.",
+        "explanation": "The court does not cure the missing required acceptance by unilaterally rewriting the bidder's terms.",
+        "misconceptionId": "role-confusion"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "selling-through-probate",
+    "conceptIds": ["probate-sales"],
+    "sources": [
+      {
+        "label": "Probate Code section 10311",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "transfer-043",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-13-three-different-numbers",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE Publication 29: California property tax",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A California property's taxable assessed value is $600,000. The bill includes the 1% general levy, a permitted 0.12% voter-approved debt levy, and a lawful $500 direct assessment. With no other items, what is the bill?",
+    "options": [
+      {
+        "text": "$6,000.",
+        "explanation": "That includes only the 1% general levy and omits the permitted additional items.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "$12,000.",
+        "explanation": "That mistakes the 2% annual assessment-growth ceiling for a property-tax rate.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "$7,220.",
+        "explanation": "General levy: $6,000. Debt levy: $720. Add the $500 direct assessment for $7,220."
+      },
+      {
+        "text": "$6,500.",
+        "explanation": "That adds the direct assessment but omits the $720 voter-approved debt levy.",
+        "misconceptionId": "missing-condition"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-044",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "compound-the-assessment-not-the-market-price",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE Publication 29: California property tax",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf"
+      },
+      {
+        "label": "Revenue and Taxation Code section 51",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A $500,000 base-year value is subject to an applicable inflation factor of 1% in year one and 4% in year two. There is no reassessable event, exemption, or decline-in-value adjustment. What is the year-two factored base-year value?",
+    "options": [
+      {
+        "text": "$515,100.",
+        "explanation": "Year one is $500,000 x 1.01 = $505,000. Cap year two's factor at 2%: $505,000 x 1.02 = $515,100."
+      },
+      {
+        "text": "$525,200.",
+        "explanation": "That compounds the full 4% in year two instead of capping the annual factor at 2%.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "$520,200.",
+        "explanation": "That applies 2% in both years, even though the first year's applicable factor is only 1%.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$515,000.",
+        "explanation": "That applies both increases to the original $500,000 rather than compounding year two on $505,000.",
+        "misconceptionId": "wrong-base"
       }
     ],
     "answer": 0
+  },
+  {
+    "id": "transfer-045",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-8-compare-two-values-each-january-1",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE: Decline-in-value assessment questions",
+        "url": "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm"
+      },
+      {
+        "label": "Revenue and Taxation Code section 51",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "On January 1, a parcel's factored base-year value is $640,000 and its market value is $575,000. Assume no exemptions or special valuation rules. What is the Proposition 8 assessment?",
+    "options": [
+      {
+        "text": "$640,000.",
+        "explanation": "That ignores the lower January 1 market value in the required comparison.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$607,500.",
+        "explanation": "The assessor does not average the two values to apply Proposition 8.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$563,500.",
+        "explanation": "The 2% limit is not an additional discount from the current market value.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$575,000.",
+        "explanation": "The enrolled value is the lesser of the continuing factored base-year value and current January 1 market value."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-046",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-8-compare-two-values-each-january-1",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE: Decline-in-value assessment questions",
+        "url": "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm"
+      },
+      {
+        "label": "Revenue and Taxation Code section 51",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A parcel was temporarily assessed at $520,000 under Proposition 8. At the next January 1, market value is $580,000 and the continuing factored base-year ceiling is $612,000. What may be enrolled?",
+    "options": [
+      {
+        "text": "$530,400, because all increases are capped at 2%.",
+        "explanation": "The 2% factor limits the continuing Proposition 13 base, not every recovery from a temporary Proposition 8 reduction.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "$580,000, although it exceeds a 2% annual increase.",
+        "explanation": "Recovery can exceed 2% while enrolled value remains the lesser of market value and the continuing factored base-year ceiling."
+      },
+      {
+        "text": "$612,000, because the full ceiling must be restored.",
+        "explanation": "The ceiling is still above the stated January 1 market value, so enrolling it would ignore the lesser-value test.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$520,000, because the reduced value becomes permanent.",
+        "explanation": "A Proposition 8 reduction is temporary and reviewed; it does not replace the Proposition 13 base permanently.",
+        "misconceptionId": "document-effect"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-047",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "reassessment-changes-the-baseline",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE: New construction",
+        "url": "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "An existing property's factored base-year value is $400,000. A qualifying addition contributes $100,000 of assessed new-construction value; no other part is reassessable. Ignoring annual factors and exemptions, what is the combined assessment?",
+    "options": [
+      {
+        "text": "The full current market value of the entire property.",
+        "explanation": "A qualifying addition does not automatically reset the unaffected property's existing assessment.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "The old $400,000 assessment with no addition.",
+        "explanation": "The stated qualifying new-construction value must be added; the annual inflation cap is not an exemption for new construction.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "$500,000 from the retained base plus the addition.",
+        "explanation": "Keep the unaffected $400,000 value and add the stated $100,000 new-construction value."
+      },
+      {
+        "text": "The old assessment plus the contractor's invoice amount.",
+        "explanation": "The stipulated assessed new-construction value controls here; construction cost is not automatically the value added.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-048",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "reassessment-changes-the-baseline",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE: Change in ownership",
+        "url": "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A qualifying sale transfers an undivided 50% interest and no reassessment exclusion applies. The whole parcel's old factored base-year value is $400,000 and current full market value is $900,000. Assume proportional values and no other adjustments. What is the new combined assessment?",
+    "options": [
+      {
+        "text": "$650,000.",
+        "explanation": "Retain $200,000 for the unchanged half and assess the transferred half at $450,000; total $650,000."
+      },
+      {
+        "text": "$900,000.",
+        "explanation": "That reassesses the unchanged half despite the stipulated partial transfer.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$450,000.",
+        "explanation": "That includes only the transferred half and omits the retained half's $200,000 assessment.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "$400,000.",
+        "explanation": "That ignores the nonexcluded change in ownership of the transferred half.",
+        "misconceptionId": "wrong-exception"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-049",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "regular-bills-and-supplemental-assessments",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE: Supplemental assessments",
+        "url": "https://www.boe.ca.gov/proptaxes/supplemental-assessment/"
+      },
+      {
+        "label": "Revenue and Taxation Code section 75.41",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "An October 15 reassessable event increases taxable value by $200,000. Use a stated 1.10% rate and the statutory November-start factor of 0.67. What is the supplemental amount for that fiscal year's remaining period?",
+    "options": [
+      {
+        "text": "$2,200.00.",
+        "explanation": "That taxes the increment for a full year without the required period factor.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "$1,466.67.",
+        "explanation": "That substitutes an exact 8/12 fraction for the expressly supplied statutory 0.67 factor.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$147.40.",
+        "explanation": "That misplaces the decimal in the 1.10% rate conversion.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$1,474.00.",
+        "explanation": "Apply the stated factor to the value increase, not total property value: $200,000 x 0.011 x 0.67."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-050",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-13-three-different-numbers",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE Publication 29: California property tax",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf"
+      },
+      {
+        "label": "Revenue and Taxation Code section 51",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A property's market value rises 18% in a year with a 2% applicable Proposition 13 inflation factor. There is no ownership change, new construction, or temporary Proposition 8 reduction. Which value receives the 2% adjustment?",
+    "options": [
+      {
+        "text": "The property's current market price.",
+        "explanation": "The annual factor applies to the existing base-year assessment, not to a new market-price assessment.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Its prior factored base-year value, not the appreciated market price.",
+        "explanation": "Absent a reassessable event or different applicable rule, the base continues to be factored rather than reset to annual market appreciation."
+      },
+      {
+        "text": "The owner's remaining mortgage balance.",
+        "explanation": "Mortgage debt is not the assessment base for the Proposition 13 annual factor.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "The total tax bill including direct assessments.",
+        "explanation": "The base-year inflation limit is not a guarantee that every item on the tax bill increases by no more than 2%.",
+        "misconceptionId": "misclassification"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-051",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-8-compare-two-values-each-january-1",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE: Decline-in-value assessment questions",
+        "url": "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "For an ordinary annual Proposition 8 review, which market-value date is compared with the factored base-year value?",
+    "options": [
+      {
+        "text": "January 1, regardless of a later billing or assessment-review date.",
+        "explanation": "The annual decline-in-value assessment uses January 1 market value and the continuing factored base-year ceiling."
+      },
+      {
+        "text": "The day the owner receives the property-tax bill.",
+        "explanation": "Billing date is not the valuation date for this annual comparison.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "The day the owner requests the assessment review.",
+        "explanation": "Requesting review does not substitute that day's market value for the annual lien-date value.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "The first day of the following fiscal year in July.",
+        "explanation": "The fiscal year and January 1 annual valuation date are distinct.",
+        "misconceptionId": "wrong-clock"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-052",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "reassessment-changes-the-baseline",
+    "conceptIds": ["property-tax-basis"],
+    "sources": [
+      {
+        "label": "BOE Publication 29: California property tax",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf"
+      },
+      {
+        "label": "BOE: Change in ownership",
+        "url": "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A nonexcluded change in ownership establishes a property's new assessed base-year value at $800,000. The seller's former factored base-year value was $250,000. Ignoring exemptions and separate levies, what is the annual 1% general levy on the new base?",
+    "options": [
+      {
+        "text": "$2,500.",
+        "explanation": "That uses the seller's old assessment after the stipulated reassessable change.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$2,550.",
+        "explanation": "That merely increases the seller's old base by 2%, ignoring reassessment.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "$8,000.",
+        "explanation": "The new $800,000 base, not the seller's former assessment, produces an $8,000 annual general levy at 1%."
+      },
+      {
+        "text": "$16,000.",
+        "explanation": "That incorrectly uses the 2% annual factor ceiling as the property-tax rate.",
+        "misconceptionId": "misclassification"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-053",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "title-is-the-interest-a-deed-is-an-instrument",
+    "conceptIds": [
+      "deed-transfer",
+      "notes-and-security"
+    ],
+    "sources": [
+      {
+        "label": "Civil Code section 1091, transfer of an estate in real property",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1091."
+      },
+      {
+        "label": "DRE transfer of interests reference, quitclaim deeds",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A seller conveys a house to Riley by grant deed. Riley separately signs a deed of trust securing Riley's purchase loan. Which pairing identifies Riley's roles under those two documents?",
+    "options": [
+      {
+        "text": "Grant deed: grantor; deed of trust: beneficiary.",
+        "explanation": "The seller is grantor, and the secured lender is beneficiary. Riley is neither in the stated instruments.",
+        "misconceptionId": "role-confusion"
+      },
+      {
+        "text": "Grant deed: grantee; deed of trust: trustee.",
+        "explanation": "Riley receives the property but is the borrower/trustor, not the third-party trustee.",
+        "misconceptionId": "role-confusion"
+      },
+      {
+        "text": "Grant deed: grantor; deed of trust: trustor.",
+        "explanation": "Trustor is correct for Riley's borrowing role, but the seller is the conveying grantor.",
+        "misconceptionId": "role-confusion"
+      },
+      {
+        "text": "Grant deed: grantee; deed of trust: trustor.",
+        "explanation": "Riley receives the seller's conveyed interest as grantee and grants the security as borrowing trustor. One closing can give a person different roles in different instruments."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-054",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "compare-gift-and-inheritance-starting-points",
+    "conceptIds": [
+      "income-tax-gain"
+    ],
+    "sources": [
+      {
+        "label": "IRS Publication 551, basis of purchased, gifted, and inherited assets",
+        "url": "https://www.irs.gov/publications/p551"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Compare two separate transfers of property with a $200,000 owner's basis and $350,000 value at transfer. One recipient receives a gift; the other inherits at the stated date-of-death value. Each later sells for $400,000. With no other adjustments or expenses, what realized gains follow?",
+    "options": [
+      {
+        "text": "Gift: $50,000; inheritance: $50,000.",
+        "explanation": "That resets the gift's basis to market value even though the donor's lower basis carries over in this stated gain case.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Gift: $200,000; inheritance: $50,000.",
+        "explanation": "The gift uses the donor's $200,000 basis, giving $200,000 gain. The stated inheritance uses $350,000 basis, giving $50,000 gain."
+      },
+      {
+        "text": "Gift: $200,000; inheritance: $200,000.",
+        "explanation": "That incorrectly carries the decedent's old basis into the inheritance despite the stipulated date-of-death valuation rule.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Gift: $50,000; inheritance: $200,000.",
+        "explanation": "That reverses the two transfer-specific basis rules.",
+        "misconceptionId": "misclassification"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-055",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "like-kind-exchange-deferral",
+    "conceptIds": [
+      "tax-exchanges"
+    ],
+    "sources": [
+      {
+        "label": "IRS Publication 544, partially nontaxable exchanges and replacement basis",
+        "url": "https://www.irs.gov/publications/p544"
+      },
+      {
+        "label": "IRS, like-kind exchange tax tips",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/like-kind-exchanges-real-estate-tax-tips"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "In an otherwise qualifying deferred exchange, relinquished property transfers November 1, 2026. The applicable return deadline is April 15, 2027, with no extension or special relief. What are the ordinary latest identification and receipt dates?",
+    "options": [
+      {
+        "text": "Identify December 16, 2026; receive April 30, 2027.",
+        "explanation": "Identification is correct, but the stipulated April 15 return deadline is earlier than the 180th day and therefore controls receipt.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Identify December 31, 2026; receive April 15, 2027.",
+        "explanation": "The receipt date is correct, but identification is due within 45 days, not at the calendar year's end.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Identify December 16, 2026; receive April 15, 2027.",
+        "explanation": "Forty-five days after November 1 is December 16. The earlier April 15 return deadline controls receipt instead of the April 30 180-day endpoint."
+      },
+      {
+        "text": "Identify December 31, 2026; receive April 30, 2027.",
+        "explanation": "That replaces the 45-day identification period and ignores the earlier return deadline for receipt.",
+        "misconceptionId": "wrong-clock"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-056",
+    "revision": 2,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "regular-bills-and-supplemental-assessments",
+    "conceptIds": [
+      "property-tax-basis"
+    ],
+    "sources": [
+      {
+        "label": "BOE, property tax calendar",
+        "url": "https://www.boe.ca.gov/proptaxes/calendar.htm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "For an ordinary California secured-property-tax first installment, with no calendar adjustment, which pairing correctly distinguishes when it is due from when it becomes delinquent?",
+    "options": [
+      {
+        "text": "Due November 1; delinquent at the December 10 cutoff.",
+        "explanation": "The first installment is due November 1. It becomes delinquent on December 10 at 5 p.m. or the close of business, whichever is later, subject to calendar adjustments."
+      },
+      {
+        "text": "Due February 1; delinquent at the April 10 cutoff.",
+        "explanation": "Those are the ordinary second-installment dates, not the first installment.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Due January 1; delinquent at the November 1 cutoff.",
+        "explanation": "January 1 is the annual lien date, and November 1 is the first-installment due date.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "Due December 10; delinquent at the April 10 cutoff.",
+        "explanation": "That treats the first delinquency boundary as a due date and borrows the second installment's delinquency date.",
+        "misconceptionId": "wrong-clock"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-057",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-19-is-a-separate-qualification-test",
+    "conceptIds": [
+      "property-tax-basis",
+      "estate-transfers"
+    ],
+    "sources": [
+      {
+        "label": "BOE, Proposition 19",
+        "url": "https://www.boe.ca.gov/prop19/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "For Proposition 19's parent-child family-home exclusion, which pair satisfies the principal-residence use condition? Assume all other applicable ownership, value, occupancy-timing, and claim requirements are met.",
+    "options": [
+      {
+        "text": "The parent's rental house becomes the child's principal residence.",
+        "explanation": "Child occupancy alone does not satisfy the family-home condition if the transferor's property was a rental rather than the parent's principal residence.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "The parent's principal residence becomes the child's rental house.",
+        "explanation": "The child's rental use does not satisfy the continuing principal-residence requirement for this family-home exclusion.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "The parent's vacation house becomes the child's vacation house.",
+        "explanation": "Vacation-home use by both parties does not satisfy the principal-residence condition.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "The parent's principal residence becomes the child's principal residence.",
+        "explanation": "The qualifying family-home use must run from the parent's principal residence to the child's principal residence, along with the other stipulated requirements."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-058",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "nonprobate-transfers",
+    "conceptIds": [
+      "estate-transfers",
+      "deed-transfer"
+    ],
+    "sources": [
+      {
+        "label": "Probate Code section 5624, transfer-on-death deed execution",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5624."
+      },
+      {
+        "label": "Probate Code section 5626, transfer-on-death deed recording",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5626."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A validly executed California revocable transfer-on-death deed is signed June 1, 2026 and acknowledged before a notary June 5, 2026. All other execution conditions are satisfied. With no calendar extension, what is the statutory recording deadline?",
+    "options": [
+      {
+        "text": "July 31, 2026.",
+        "explanation": "That counts 60 days from the June 1 signature rather than the June 5 notarial acknowledgment.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "August 4, 2026.",
+        "explanation": "Section 5626 requires recording no later than 60 days after acknowledgment; June 5 plus 60 days is August 4."
+      },
+      {
+        "text": "July 5, 2026.",
+        "explanation": "That uses 30 days after acknowledgment instead of the statutory 60 days.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "August 5, 2026.",
+        "explanation": "That is 61 days after acknowledgment and falls outside the stated 60-day period.",
+        "misconceptionId": "wrong-clock"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-059",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "nonprobate-transfers",
+    "conceptIds": [
+      "estate-transfers",
+      "probate-sales"
+    ],
+    "sources": [
+      {
+        "label": "California Courts, current summary succession procedures",
+        "url": "https://www.sucorte.ca.gov/probate/simple-transfer"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A California resident dies September 1, 2026 owning a $720,000 primary residence. An heir says every transfer must use one universal small-estate dollar limit. What is the best next procedural analysis?",
+    "options": [
+      {
+        "text": "Use a personal-property affidavit solely because the residence is below $750,000.",
+        "explanation": "The residence-specific $750,000 threshold is not a general personal-property affidavit rule.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "Require formal probate solely because the residence exceeds $184,500.",
+        "explanation": "That imports an older limit without identifying the current residence-specific procedure or the death date.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Check the residence-specific petition and its other conditions.",
+        "explanation": "For the stated post-April-1-2025 death, the $750,000 primary-residence procedure may be relevant. Value alone does not establish every requirement or eliminate the petition."
+      },
+      {
+        "text": "Treat the $750,000 threshold as an automatic transfer without court paperwork.",
+        "explanation": "The described procedure is a simplified court process, not automatic title transfer based solely on value.",
+        "misconceptionId": "document-effect"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-060",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "conceptIds": [
+      "special-transfer-processes",
+      "co-ownership"
+    ],
+    "sources": [
+      {
+        "label": "Code of Civil Procedure section 872.210, partition standing",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.210."
+      },
+      {
+        "label": "Code of Civil Procedure section 872.810, partition by division",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.810."
+      },
+      {
+        "label": "Code of Civil Procedure section 872.820, partition by sale",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.820."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Two unrelated tenants in common agree on their ownership shares but cannot agree how to end their co-ownership. Neither alleges a title defect or unpaid secured debt. Which proceeding can divide the property or, when appropriate, order sale and allocation of proceeds?",
+    "options": [
+      {
+        "text": "Partition.",
+        "explanation": "Partition addresses qualifying co-owners' interests through division or a statutory sale process; it does not require a debt default."
+      },
+      {
+        "text": "Quiet title.",
+        "explanation": "Quiet title determines competing title claims; these owners agree on their shares and seek to end the co-ownership.",
+        "misconceptionId": "remedy-confusion"
+      },
+      {
+        "text": "Judicial foreclosure.",
+        "explanation": "Foreclosure enforces a secured obligation, which the stated disagreement does not involve.",
+        "misconceptionId": "remedy-confusion"
+      },
+      {
+        "text": "Probate administration.",
+        "explanation": "No decedent's estate is involved in the stated dispute between living cotenants.",
+        "misconceptionId": "misclassification"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-061",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "conceptIds": [
+      "special-transfer-processes",
+      "land-use-powers"
+    ],
+    "sources": [
+      {
+        "label": "California Constitution article I section 19, eminent domain",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=I"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A public agency seeks to acquire private land for a public road under its lawful taking authority. Which pairing identifies the power and the owner's ordinary constitutional protection?",
+    "options": [
+      {
+        "text": "Taxation; an exemption from future assessment.",
+        "explanation": "Taxation imposes revenue obligations; it is not the stated acquisition for a public road.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "Police power; a mandatory purchase-price refund.",
+        "explanation": "The question describes a property taking, not ordinary land-use regulation, and a purchase-price refund is not the constitutional compensation standard.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Escheat; distribution according to a surviving owner's will.",
+        "explanation": "Escheat concerns property passing to the state under succession rules, not this living owner's public-road taking.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "Eminent domain; just compensation for the taking.",
+        "explanation": "The described acquisition uses eminent domain, with public-use and just-compensation requirements under article I, section 19."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-062",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "conceptIds": [
+      "special-transfer-processes",
+      "property-tax-basis"
+    ],
+    "sources": [
+      {
+        "label": "Revenue and Taxation Code section 3691, tax collector power of sale",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3691."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Under the ordinary rule for tax-defaulted residential property, how long after tax default does the tax collector's power of sale arise? Assume no special statutory exception, tolling, or other bar applies.",
+    "options": [
+      {
+        "text": "Three years after tax default.",
+        "explanation": "Three years is associated with specified nonresidential commercial and other statutory cases, not the stipulated ordinary residential rule.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "Five years after tax default.",
+        "explanation": "Section 3691's ordinary residential period is five years or more after tax default. The required sale procedures still must be followed."
+      },
+      {
+        "text": "Twenty days after posting a sale notice.",
+        "explanation": "A notice interval does not replace the statute's prerequisite tax-default period.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "One year after the annual lien date.",
+        "explanation": "That substitutes a different event and period for the ordinary five-year tax-default rule.",
+        "misconceptionId": "wrong-trigger"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "transfer-063",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "conceptIds": [
+      "bankruptcy-stay"
+    ],
+    "sources": [
+      {
+        "label": "United States Code title 11 section 362, automatic stay",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title11-section362&num=0&edition=prelim"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A debtor's bankruptcy petition creates an effective automatic stay covering a scheduled foreclosure sale. No exception or order granting relief has been established. What is the proper treatment of the existing sale date?",
+    "options": [
+      {
+        "text": "Proceed until the debtor separately serves an injunction.",
+        "explanation": "The applicable stay arises automatically from the bankruptcy filing; a separate debtor-obtained injunction is not required.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "Proceed because a nonjudicial sale is outside bankruptcy protection.",
+        "explanation": "The stay can reach lien enforcement against covered property, not only judicial lawsuits.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "Honor the stay unless an exception or relief permits sale.",
+        "explanation": "A previously scheduled sale does not override the effective stay. The applicable exception or court-authorized relief must be established before proceeding."
+      },
+      {
+        "text": "Pause recording the sale deed but conduct the auction as scheduled.",
+        "explanation": "Conducting the covered foreclosure sale is itself an enforcement act; delaying only the deed does not avoid the stay.",
+        "misconceptionId": "duty-confusion"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "transfer-064",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "transfers-through-operation-of-law",
+    "conceptIds": [
+      "operation-of-law",
+      "ownership-estates"
+    ],
+    "sources": [
+      {
+        "label": "Code of Civil Procedure section 325, adverse possession and assessed taxes",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=325."
+      },
+      {
+        "label": "Civil Code section 1007, adverse possession and public property",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1007."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A claimant proves five years of otherwise qualifying continuous possession and claim of private California land. Property taxes were levied and assessed each year, but neither the claimant nor any predecessor timely paid them. Which requirement remains unmet?",
+    "options": [
+      {
+        "text": "Timely payment of taxes assessed throughout those five years.",
+        "explanation": "CCP 325(b) requires the timely assessed-tax payments as well as qualifying continuous possession and claim. The stipulated possession alone is insufficient."
+      },
+      {
+        "text": "The record owner's permission for the adverse occupation.",
+        "explanation": "Permission is not the missing adverse-possession requirement and would conflict with an adverse claim.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "A ten-year rather than five-year continuous possession period.",
+        "explanation": "That replaces California's stated five-year requirement with an unsupported period.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Proof that the claimant financed improvements with a mortgage.",
+        "explanation": "Mortgage financing is not the statutory substitute for paying the assessed taxes.",
+        "misconceptionId": "missing-condition"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "transfer-065",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "transfers-through-operation-of-law",
+    "conceptIds": [
+      "operation-of-law",
+      "water-rights"
+    ],
+    "sources": [
+      {
+        "label": "Civil Code section 1014, gradual natural accretion",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Natural deposits gradually and imperceptibly form land along a privately owned riverbank. An existing right of way affects the bank. Under Civil Code 1014's stated rule, how is the newly formed land treated?",
+    "options": [
+      {
+        "text": "It belongs to the public solely because a river formed it.",
+        "explanation": "The statute assigns the stated gradual natural formation to the bank owner, rather than making river formation alone a public-ownership rule.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "It belongs to the bank owner free of the existing right of way.",
+        "explanation": "That omits the statute's express protection for an existing right of way.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "It belongs to the former streambed owner under a sudden-change rule.",
+        "explanation": "The facts specify imperceptible natural growth, not the sudden change required for that different analysis.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "It belongs to the bank owner, subject to the existing right of way.",
+        "explanation": "That applies the statute's gradual natural accumulation rule while preserving its right-of-way qualification."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "transfer-066",
+    "revision": 2,
+    "pool": "practice",
+    "domain": "transfer",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "transfers-through-operation-of-law",
+    "conceptIds": [
+      "operation-of-law",
+      "easements"
+    ],
+    "sources": [
+      {
+        "label": "Civil Code section 1009, public use and dedication limits",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1009."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Since 2010, visitors have used a private inland path for recreation. The property is outside Civil Code 1009's coastal category, no qualifying publicly funded improvements, cleaning, or maintenance exist, and no dedication was offered and accepted. Does that public use alone establish a permanent public right under section 1009?",
+    "options": [
+      {
+        "text": "Yes; five years of any public use automatically establishes dedication.",
+        "explanation": "That imports a universal five-year rule despite the statute's limits and the absence of the specified publicly funded work.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "No; the stated use alone does not create that permanent right.",
+        "explanation": "For the stipulated inland facts, mere public use does not substitute for the required dedication or another applicable exception under section 1009."
+      },
+      {
+        "text": "Yes; recreational use substitutes for acceptance by a public body.",
+        "explanation": "Recreational use by visitors does not itself establish the needed dedication and acceptance in this stated case.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "No; dedication can occur only through a government's eminent-domain action.",
+        "explanation": "The conclusion is reached for the wrong reason: dedication and eminent domain are distinct mechanisms.",
+        "misconceptionId": "source-of-authority"
+      }
+    ],
+    "answer": 1
   }
 ]

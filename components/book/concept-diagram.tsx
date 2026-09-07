@@ -2,17 +2,19 @@ import type { ReactNode } from 'react'
 import { MobileDiagram } from './mobile-diagram'
 
 function Plate({
+  slug,
   title,
   description,
   children,
 }: {
+  slug: string
   title: string
   description: string
   children: ReactNode
 }) {
   return (
-    <figure className="concept-figure">
-      <div className="figure-label">{title}</div>
+    <figure id={`legacy-${slug}`} className="concept-figure" aria-labelledby={`legacy-${slug}-title`}>
+      <div className="figure-label" id={`legacy-${slug}-title`}>{title}</div>
       <div className="diagram-scroll">
         <svg
           viewBox="0 0 640 330"
@@ -83,7 +85,7 @@ const Box = ({
 export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'ownership-property-rights')
     return (
-      <figure className="concept-figure property-figure">
+      <figure id={`legacy-${slug}`} className="concept-figure property-figure" aria-label="Residential parcel illustration">
         <img
           src="/images/residential-parcel.png"
           width="1200"
@@ -99,6 +101,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'ownership-encumbrances')
     return (
       <Plate
+        slug={slug}
         title="An appurtenant easement"
         description="Parcel A benefits from access across Parcel B. A is the dominant tenement; B is the servient tenement. B retains ownership of the burdened land."
       >
@@ -138,6 +141,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'ownership-legal-descriptions')
     return (
       <Plate
+        slug={slug}
         title="The township grid"
         description="A standard township is six miles by six miles, containing 36 sections. Numbering begins at the northeast corner and reverses direction in each row. A standard section is 640 acres; actual surveys can include irregular sections."
       >
@@ -183,6 +187,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'agency-relationships')
     return (
       <Plate
+        slug={slug}
         title="Representation and supervision"
         description="The principal authorizes the broker to act as agent. An affiliated salesperson performs licensed activities through the responsible broker. The broker's client and the other party to the transaction are not interchangeable roles."
       >
@@ -206,6 +211,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'valuation-income-analysis')
     return (
       <Plate
+        slug={slug}
         title="Direct capitalization"
         description="Illustration: annual net operating income of $48,000 divided by a 6% capitalization rate indicates $800,000 in value. NOI is before debt service and income tax; the cap rate must be supported by the market."
       >
@@ -226,6 +232,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'financing-notes-security')
     return (
       <Plate
+        slug={slug}
         title="Three parties to a deed of trust"
         description="The borrower signs a promissory note in favor of the lender and a deed of trust conveying bare legal title to the trustee as security. The trustee can reconvey after payoff or exercise an authorized power of sale, subject to law."
       >
@@ -254,6 +261,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'transfer-title-and-escrow')
     return (
       <Plate
+        slug={slug}
         title="A simplified escrow sequence"
         description="Escrow coordinates the parties' written instructions. Closing requires satisfaction of the applicable instructions and conditions; signing documents alone does not mean the transaction has closed."
       >
@@ -285,6 +293,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'practice-trust-funds')
     return (
       <Plate
+        slug={slug}
         title="Three-way trust reconciliation"
         description="Illustrative records: the adjusted bank balance, trust control record, and total of individual beneficiary balances must agree. Reconciliation identifies errors; agreement alone does not establish that every disbursement was authorized."
       >
@@ -311,6 +320,7 @@ export function ConceptDiagram({ slug }: { slug: string }) {
   if (slug === 'contracts-formation')
     return (
       <Plate
+        slug={slug}
         title="From offer to agreement"
         description="An acceptance must match the offer and be communicated as required while the offer remains open. The other elements of a valid contract, including capacity, consent, lawful object, and consideration, must also be present."
       >

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ArrowRight, RotateCcw } from 'lucide-react'
 import { domains, type Question } from '@/lib/curriculum'
-import { gradeQuestions, gradeByDomain, type StudySession } from '@/lib/exam'
+import { examForms, gradeQuestions, gradeByDomain, type StudySession } from '@/lib/exam'
 import { Button } from '@/components/ui/button'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 import { QuestionCard } from './question-card'
@@ -25,7 +25,10 @@ export function ExamResults({
   return (
     <div className="exam-results">
       <div className="eyebrow">
-        {session.mode === 'exam' ? 'Practice examination' : 'Topic practice'} / Results
+        {session.mode === 'exam'
+          ? `Practice examination / ${examForms.find((form) => form.id === session.examForm)?.label}`
+          : 'Topic practice'}{' '}
+        / Results
       </div>
       <h1>{result.percent}% correct</h1>
       <p className="page-description">
@@ -76,11 +79,15 @@ export function ExamResults({
             <span className="field-label">Question {questions.indexOf(q) + 1}</span>
             <QuestionCard
               question={q}
+              optionOrder={session.optionOrders[q.id]}
               selected={session.answers[q.id]}
               revealed
               onSelect={() => {}}
             />
-            <Link className="text-link" href={`/docs/${q.lessonSlug}/`}>
+            <Link
+              className="text-link"
+              href={`/docs/${q.lessonSlug}/${q.sectionId ? `#${q.sectionId}` : ''}`}
+            >
               Review this topic
               <ArrowRight size={13} />
             </Link>

@@ -10,6 +10,7 @@
     "test": "tsx --test tests/*.test.ts",
     "test:browser": "playwright test",
     "check:content": "tsx scripts/validate-content.ts",
+    "audit:textbook": "tsx scripts/audit-textbook.ts",
     "start": "serve out -l 3000",
     "format": "biome format --write .",
     "build:search": "tsx scripts/build-search.ts"

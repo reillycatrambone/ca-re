@@ -1,0 +1,307 @@
+[
+  {
+    "id": "review-contracts-questions",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the question author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read contracts-001 through contracts-051, including every stem, key, all 204 option texts and rationales, concept and source metadata, linked chapter passages and stated numerical and date calculations. Confirmed the final JSON artifacts remained unchanged from the reviewed snapshot. Current statutes and 2026 DRE guidance were used for representation agreements and advance fees.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1605.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1598.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1566.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1457.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1531.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3387.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1057.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+      "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+      "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf",
+      "https://www.dre.ca.gov/Consumers/AdvanceFees.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref13.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2985.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17703.01.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1856.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1698.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1641.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3106.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=1103.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3343.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3112.",
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/promissory-notes"
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "contracts-001",
+        "digest": "d44a27128ebb9621fa41d6eba8355b4ea00e2d426a3d1ff16a2260ac31bfbc0e"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-002",
+        "digest": "9e6eae85c45c84ee413c0a49835cee792f223a2d7d7c94679c23a5cc50d640e7"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-003",
+        "digest": "250073067e746b8c616fb555e11020754438178118a258e74a231bb288e34252"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-004",
+        "digest": "27afc6b9dbc5b74350333fe0749e8126cc059644dc8a28d69d955fca8966a398"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-005",
+        "digest": "6af55a55528114c6a1174a376f6a5faf9f812f8d5fd34a4625a8f7b7873486c1"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-006",
+        "digest": "6c1092cea39c0ef151ac6b138555259e75b903ff4a5caf50b6bb028106a77e9d"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-007",
+        "digest": "472cd31b1775053bef735d8b62c1eb4ad208bcd776cc77b8a25fafad041ef188"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-008",
+        "digest": "9bf23f1b07e0c7f8135310305ddd79e7c5b9ef0b9df14b00133f413a143b53e7"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-009",
+        "digest": "3b51601f16d0a912aaf6cae59c7a7c6b29d0f52f027766334dfd6ef2423f70d1"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-010",
+        "digest": "13f9e513f465f5246188fbcf3d786889591e36aa66e9d03f2e650937bb5e5567"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-011",
+        "digest": "ff0a23c310a9d66605a703ab0f9acc0f204c10578890ebf0f1fd754043592eeb"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-012",
+        "digest": "11d36f5804f7b0e38183cd14571df3190a650b9b75df0c9afc4eb361bd9b7e5b"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-013",
+        "digest": "f2f6b25f4c837c5d10626ccf81c322a2e31247efec9c7d30790e20aedb681b60"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-014",
+        "digest": "c3d5e9f3edec5dfc076a9614a1dfe85925e1cfee28666ef6686e211581387b04"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-015",
+        "digest": "8e76713f63ce1dad47abd82751de1400e431f5ea94d2d6c5c39c090f25020436"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-016",
+        "digest": "b67ea59eab27cd95c887be0f0347df2e0c59bf4ce94647b1a57b63e2f4ebaced"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-017",
+        "digest": "a12b5b3ac1b32fb65fce9bf9f5909ab2662fe6f8811daa20739469baa5ee720f"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-018",
+        "digest": "8fd3e79c0a736d566ca3ec52dcda2cdc26b8076042c465cd2f547c7ceb66c9d5"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-019",
+        "digest": "777a5a5fd3a7838114cd09cc2df7cec0bfc467123df794c6eddd6eabf32b5756"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-020",
+        "digest": "54c627529d107ac4af5f9ce3d227e49c1c2b451c0b844c68828ef9f9e7b0ba53"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-021",
+        "digest": "756b509239b999a295037890b99465d106610e36426757eb9afc62b5ebb98531"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-022",
+        "digest": "d61ea0458ff644c995b2a6a827e97546fb6b1a920bf3b32e279a9c569021de95"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-023",
+        "digest": "692177649f41b62cbece8b8ce102086441c1a1d5d7b3c03fb10fa9c2da123e1d"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-024",
+        "digest": "278569f92b01b785e0d10118c4e5d52d723b142b3d2265ea8fbc2c151f0a8c32"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-025",
+        "digest": "62b37d2213d426fb3dd2ed49d77469b8e27cdb9cc30bdd29d0a07d62f7d1c6a3"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-026",
+        "digest": "c41f34ef44d4cb40b70337f3bf9b3ea0b3b18c1d4b92d68f16555aff4551e27d"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-027",
+        "digest": "5862fa227a257379f61667310af7030f73fb32a7877fcd303d589249e3c59188"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-028",
+        "digest": "4a8e649a870acc0064c95efb6b1fdaab45197f11063a636777fb79ea0cf17431"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-029",
+        "digest": "6825ee2acf22aa99e410e4e8bbc25751a1209f2e7a6096c169d786b2606b090b"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-030",
+        "digest": "f40f42e1fc73d34634f64016bd9a5888feac769a933a2bbdf7c12a6d06cb07b6"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-031",
+        "digest": "c40b51f1edae34b75fa1a1dfd872d419fa317c842aa7270d02446754eab054f1"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-032",
+        "digest": "ded56e8dfde0ef8e7c4350b0dd5b36e802c3dc65af4124af82beb429d16b4552"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-033",
+        "digest": "b0911a054d07589efd8b2abb0a71e7f9d9458d0a35c26d361ef83596ae00fb4c"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-034",
+        "digest": "5a6d4efb8ed28077465206ec9fb0905d9a50e936bb9a901c167f1da33bcfc7b8"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-035",
+        "digest": "c6d5828d0ccd975bb7984de48c4a3ae4e0ccdc7238abd04a1d8dc9f338470d37"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-036",
+        "digest": "e59c640cab50a8da0eef841ace772a9d0478292398a53f482f51bde383660916"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-037",
+        "digest": "faadb0a2bb7fb1d6bfe40c3dfb452c860a34aadd57271a32bae90cfd4ef0997b"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-038",
+        "digest": "3dfc66dce8905a33ffe1eca5b0e36acda162fd5ca20aaa0d6007bee14d998e6f"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-039",
+        "digest": "5f2b56c675c2f1d04bfc5e882a6b45203840a6e3781a3101a4ae5c66ffeb78e4"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-040",
+        "digest": "98ba10e3392dac25020f4436f4b4fe59b4eb309fcf56bc2406c53b56d788a641"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-041",
+        "digest": "7e48836c773fce943fbbd3a61a9a17dda9814efde19a5526be4429df337679e9"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-042",
+        "digest": "90710aa205ad9a182f5b85ec39cfc39513c7f908dd476e3f3f7f3642217414ca"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-043",
+        "digest": "5d2a26314c7ad740b612b894ef0f0f7481253e46ee35702b307dd18fe8559487"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-044",
+        "digest": "f9b1315ae80f2f5666e78215fb5689234538d090bc0122610c29596ef4db831d"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-045",
+        "digest": "d3c3c3cf29a2f20439ca6621897cffbc6903187a8130abd772cf3d61f9b5fa68"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-046",
+        "digest": "5806dc61d12c0eba4e4b6118576350e2945b90b5a5b14e278f3b24e7b5836c78"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-047",
+        "digest": "b6cc3a620e7bd0eec09f7047971f2e4a0ca98856ebd38d588f5fdc946d9b548f"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-048",
+        "digest": "7332881e822c004dee56f4310abdda67454dae38cf23febc3d16bc92a711e382"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-049",
+        "digest": "c0a6c4df0799fa8c9a64deca469798dd7ce86cfc2e38111942f5efa1ec82f77e"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-050",
+        "digest": "b3de95a061b0ce72233f3764c8fa6866cd74d634bba2a4efb13274d4cc8dca41"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-051",
+        "digest": "86031ff07e5b9e733c6760bb55bf9749413656ffa80635e2f6386e8f86074b0a"
+      }
+    ],
+    "findings": [],
+    "limitations": "Independent AI primary-source review, not qualified human legal review, empirical difficulty validation or a guarantee of coverage of live examination items. Scope is limited to the named question artifacts and the linked teaching relevant to them."
+  }
+]

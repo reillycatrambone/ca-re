@@ -1,0 +1,189 @@
+{
+  "reviewed": "2026-09-06",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "id": "transfer-application-visuals-independent-2026-09-06",
+  "reviewer": "audit_exam_bank independent reviewer; visual authorship by remove_progress_tracking",
+  "scope": "Independent reading of all 28 transfer application figures against primary sources, including the final probate source correction. Recomputed the five-point gift dual-basis chart, exchange and disclosure clocks, withholding shares, proration, loan-policy gap, and probate overbid. The final source-only snapshot was confirmed by the reviewer; final file SHA256 b9a1b967e55b18f4f5d9770364f8c58423255def9a02be2ed2f0975268455457.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=2.&title=4.&part=4.&chapter=1.&article=3.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=806.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FIN&sectionNum=17006.",
+    "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+    "https://www.irs.gov/publications/p551",
+    "https://www.irs.gov/publications/p523",
+    "https://www.irs.gov/publications/p544",
+    "https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding",
+    "https://www.irs.gov/irm/part3/irm_03-022-261r",
+    "https://www.ftb.ca.gov/forms/misc/1016.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8400.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16200.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16226",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=PROB&division=7.&title=&part=6.&chapter=3.&article=2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10501.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10503.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10309",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311.",
+    "https://servicing-guide.fanniemae.com/svc/d2-3.3-02/fannie-mae-mortgage-release-deed-lieu-foreclosure",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=325.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1007."
+  ],
+  "artifacts": [
+    {
+      "kind": "visual",
+      "id": "exp-deed-delivery-recipient",
+      "digest": "e4629e0861914fffbeea3f4e7144ded8eb53d046254d0034551d3db3d9364390"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-deed-returned-paper",
+      "digest": "bea2567a26c566dbfc8a36036fd99a4b3930b0046c0197947607a1bcafe9b7c4"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-deed-covenant-reach",
+      "digest": "8a41153d0e30a817525a73d595f874099d321667381985577aef3a2b2d4e29d7"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-deed-after-acquired-sequence",
+      "digest": "3e859cd467b6e81d4e815f1d2a9c24dc70db9bf45ce7c344b9758c9c397f5187"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-deed-recording-value-test",
+      "digest": "e66a24d9c575b40472232552b233fe5f184380b2192fac27c45d64c02d0bdead"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-deed-estate-presumption",
+      "digest": "de59f0caac368d2a600405e283b442e0e26a8e5dc05e2273128114a834c89e00"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-deed-severance-recording-calendar",
+      "digest": "220f309494f9519776f861d5858e6381f670559cfea113f1206e6ddc9884415c"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-title-chain-missing-link",
+      "digest": "97aac6456174d90027c55a17c049429993e871ce15d5d616c646913c48a27914"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-title-access-use-map",
+      "digest": "ba89108b7583600001f5996dfa4632a7a7f653c8241ab930a97a9b2f05c7b0fc"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-title-policy-amount-check",
+      "digest": "f9d500fb4d6c030950ac2ce475c053b81663072f8b9497c4e4180d0cec7aaf81"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-title-search-to-policy-gap",
+      "digest": "2f9e663a9df06629bd886079e8cd33f401a2f385d119d1dd86e4f3339af81b7b"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-escrow-good-faith-dispute",
+      "digest": "c22d2f75ce3568189f1fae0142284c4c8b270c7f41cbfca0000fdbc3647cba39"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-escrow-exemption-facts",
+      "digest": "cde0b4746c8887de70120d350ae17fe89828611aa3f2ef04285496b31e3c89b1"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-closing-balanced-wrong-payer",
+      "digest": "bc2c8e08b2638fa5d95a71a12028f0b287e4ffb8e9e984a634329324d8bd513b"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-gift-dual-basis-curve",
+      "digest": "99f0e5b6e7bf8e198b72a53ff678c40ded3af1f04d84c2d4da16e55d0d6991df"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-joint-return-exclusion-gates",
+      "digest": "c9d72b7bfa924b7c642c415d0889b8c55f4d840c8a4c21292fc452769dbfb83d"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-exchange-concurrent-calendar",
+      "digest": "8df8175ecf431ba032f4416e3ca2f10da33fb7a3c7b1dad27aeccfc0dab89e5c"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-boot-gain-basis-reconciliation",
+      "digest": "70a9e970e072e20e6b55338433f8db9aa179ab09b4fa736b8c0283c555f38b68"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-firpta-use-and-price",
+      "digest": "73ffe081de14eb6592ab7a82acaec337d85f701590daa6fd301785ea4a22e079"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-california-withholding-shares",
+      "digest": "77fb4d8b5ac5ccae625f70bf8731d56dc2b5d73ebfe60d4ad4a033bc6bde5fc8"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-tax-proration-actual-days",
+      "digest": "07d3a5f8d9f760b51e4aacd8547655684022e5786dbd9940eba860b5345bf4ba"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-probate-appointment-before-letters",
+      "digest": "3f5dd6afb479346d44bedb2e6a2bbbbdb1d81dac3aac02c6c576897f07a557aa"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-trust-property-scope",
+      "digest": "4c12da6fcb6ee2306ef242bc6821113868e28849e58bbcf1f30dbb3c1931949b"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-probate-iaaa-authority-route",
+      "digest": "94df4c852b4ab5909136a614e21d975f1a1bbc6264542d39f1d9dcaa7fcbe31a"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-probate-appraisal-two-dates",
+      "digest": "293874e35eb5409aa02c36493fccc284033f4803daea494284220074fc70a4ab"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-probate-overbid-gross-price",
+      "digest": "12ea568973755fce6e88fa5f0ca691ff966ddc0832c4abd69f138bc333ad2d5e"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-transfer-deed-in-lieu-junior-right",
+      "digest": "2a2c9b60ac12be2df6a8d34f24c944393e827c4e53661c881ca6a2c84bafe241"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-transfer-possession-tax-proof",
+      "digest": "938fb3ab340e3185d0321006593772f47ffef2892af4ef5071c4b9be2f2eb879"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "clarification",
+      "summary": "The IAEA authority figure cited Probate Code 10538, which concerns listing duration rather than limited-authority court supervision.",
+      "resolution": "Replaced that citation with Probate Code 10501 and 10503 in both the figure and chapter source registry. The independent reviewer confirmed the corrected snapshot."
+    }
+  ],
+  "limitations": "Independent AI source verification, not a qualified human legal or tax review. Fictional amounts and timelines depend on the stated assumptions and are instructional rather than transaction advice. No exhaustive exam-readiness claim is made."
+}

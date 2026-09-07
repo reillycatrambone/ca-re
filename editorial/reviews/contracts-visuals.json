@@ -1,0 +1,232 @@
+{
+  "id": "contracts-application-visuals-independent-2026-09-06",
+  "reviewed": "2026-09-06",
+  "reviewer": "root independent reviewer; visual authorship by audit_exam_bank",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 36 final contract application figure specifications and checked all 38 cited primary source URLs. Verified scope and exceptions for minor capacity, manager-managed LLC authority, electronic and deferred-start writing requirements, integrated-contract exceptions, revocation receipt, novation and restoration, deposit reasonableness burdens and later-payment formalities, current representation term/showing regulations, advance fees, casualty risk after possession, option exercise, subleases, negotiability, and retained-title contracts. Recomputed all 22 chart points, both 90-day endpoints, two ledgers, cash and net-listing allocations; six focused regression tests and all 13 desktop/mobile/dark/print chart, parcel, and evidence tests passed for the 375-visual build.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1550.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1636.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6701.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7050.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1605.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17703.01.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1856.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1641.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1698.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1457.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1531.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1057.3.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1542.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1678.",
+    "https://courts.ca.gov/system/files/file/judicial_council_of_california_civil_jury_instructions_2026.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12.",
+    "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+    "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf",
+    "https://www.dre.ca.gov/Consumers/AdvanceFees.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1662.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3112.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3106.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2985.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf"
+  ],
+  "artifacts": [
+    {
+      "kind": "visual",
+      "id": "exp-formation-two-lot-assent",
+      "digest": "7870ef3768a9466efd2dfebf5950c53ccf48b5dddb475096748f2513e314a248"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-minor-title-capacity",
+      "digest": "764643dc5ba1522e4e56816f3a6ef9390559e1da0990c7603d5c746ed46380e3"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-deposit-three-events",
+      "digest": "59a681fc62178d647b724f0931ba9a3795cc9937b22df92d738d96914104b23e"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-llc-signature-file",
+      "digest": "1d8c75a5ee253c3d322e12360a34d6389d1e4bdf6d45932338ac5b603bf4d69c"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-receipt-before-acceptance",
+      "digest": "35f23d2410cb7eb8ac8726eacd87d71add6a7f1a5161f0049036266f93a4be0a"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-inquiry-or-condition",
+      "digest": "ea9ffd11f32805bb720776185c48ec4e0a2b84f62d98a1c4943c1863da9e2d22"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-lease-two-writing-tests",
+      "digest": "9ae3222c7ca2194ca869d54292c21e7d4c03f013e37ec2b90bd6dfc56f95bf2e"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-electronic-evidence-chain",
+      "digest": "0e395ef9ba68175b38b248242a51fe7b94a79bc0a3b44601e9a3891a6743e607"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-formation-integration-evidence-purpose",
+      "digest": "8e1066735c7e50ecc10915aa4d69232cbdd623d6c418f39964502027b9333083"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-loan-effort-and-condition",
+      "digest": "59e85935d5892ed84ed88aa732ba6d5f4565d24a0f4bdc719c0e07f1543b3627"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-retained-contingency-scope",
+      "digest": "c994a47af551f5860e7d084176ce0f81a8ace7e314b3b9de0cb776c22ef6b488"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-extension-unmoved-dates",
+      "digest": "4e0898b3a5f0db958905a25a9d9be49f1ac8019e0a1c971285edf41648a34e17"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-novation-release-evidence",
+      "digest": "62d1e512c7f80241d04c44f50908f695657bef801d15b89092d3f6e00f8a9177"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-restoration-benefits-ledger",
+      "digest": "0a0c3e9ddada0a4c14f22a53a52681a33b178eb2e1691db63a473ceb6d89623c"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-release-scope-document",
+      "digest": "e24288dc2d56c8805b9365181ce1e4f23640426b37fe90f19b7b601cdb587b37"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-fixed-deposit-threshold-chart",
+      "digest": "a26820b9d23551ebf11c3b3ca6487ce213ba85aca3499f5fa1cbc36e5a326f16"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-later-deposit-initials",
+      "digest": "17c9d39ccd099e3beb2b4635865e2d4861a4b03718c76eacc8b6b1c5eb5e3e8b"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-performance-tender-or-repudiation",
+      "digest": "3f689b54db928401675d0465859a3f52d31fc744cb3b87d7c21e1ff8ab261db0"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-named-buyer-carveout",
+      "digest": "c0aad3d99df93236a44ae05e0c0b7bf710d23b2e69263caa42719d5c98b3804a"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-net-listing-allocation",
+      "digest": "1bbe88742aa9ea81c3fc96acc8d112faa8ac7a54d383cfc9ad376fe511b26866"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-listing-duration-exceptions",
+      "digest": "9cf37e1fff73560aba7e9da66470db0e489b4eb5eb0d50e73c269f62476efd0f"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-showing-sequence-2026",
+      "digest": "d4a77f7a40cb37c4de54b022c9a35c48668f9cceed84e2ed5f828b93def1970b"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-ninety-days-delayed-start",
+      "digest": "914e3a3716e4f420e62111d981fba2c41f2c12a2b858c11ad324e00e25c806c0"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-renewal-signature-audit",
+      "digest": "9fedae66246673358436949b3c9ea5cfc03dafed722b81b5356a2fd251492e15"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-scope-credit-and-earning",
+      "digest": "861b1a96cb8ef8de30a3744bef5cbd37a63e81eb3cff0c349420c24f735b40fc"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-advance-fee-expenditure-ledger",
+      "digest": "2eedafe7966056cb3cb94aeb09c5651f04a482bf3c7fe1cf083a6b633fb505c1"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-representation-advance-fee-three-gates",
+      "digest": "db700f9a1a12dcfad08da39850f84f0adb89f83fb4a2bca3f157c47f5cec0a6d"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-price-amendment-cash-bridge",
+      "digest": "c6f93359043acf6fb9454c8e23bee3a83cd713d7577922ee0b660409c84231ae"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-early-possession-casualty",
+      "digest": "a1eed8f5382480bcfe49e86085f95cc499fe64fbc053552061aacebd288d65a5"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-option-two-exercise-conditions",
+      "digest": "f45a0e9d9d1d81cd96fad7577be1c571c729aa4b5f0ab6dfbddd4b42e1eb9a49"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-rent-versus-option-credit",
+      "digest": "2264e8466755653319a8a1f92694671bbeb1190047569abb0fa482c0e1970930"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-first-refusal-trigger-file",
+      "digest": "96c6805667f93859a59519eb70e6a5ca5c0900f057f40048b3e4c0a274d35eda"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-sublease-retained-year",
+      "digest": "1c8708584098b4abcce6f76599493becacd23b121428ca61c5c01e3b81ade9d6"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-note-variable-interest-reading",
+      "digest": "929ece0dc222fffa7da172a2f610c472ace03645970fb6893ccd4efc741f75aa"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-payment-condition-or-source",
+      "digest": "265c909c137692c4f58c6cb2ab784829da81d700b79f89788549607ecad8e857"
+    },
+    {
+      "kind": "visual",
+      "id": "exp-purchase-seller-financing-title-paths",
+      "digest": "d17ede84552886e5d519bd82618d73c51b456b4fd9914448ba1455c991bc7344"
+    }
+  ],
+  "findings": [],
+  "limitations": "Independent AI source checking, not qualified human legal or professional exam review. Fictional clauses expressly state their assumed conditions; diagrams do not constitute executable legal forms. Current statutes and 2026 DRE regulations control over outdated portions of reference books. CACI 324 was read in the actual official 2026 PDF using text extraction after web-viewer access failed. Browser checks establish rendering behavior, not exhaustive accessibility or legal correctness."
+}

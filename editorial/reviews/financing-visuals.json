@@ -1,0 +1,197 @@
+[
+  {
+    "id": "review-financing-application-visuals",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the visual author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Read all 32 financing application specifications and their anchored passages across four chapters. Checked all 26 primary URLs; independently recalculated document, ledger and comparison amounts, 59 derived points across six charts, and disclosure/rescission date boundaries. Final disk matched the reviewed snapshot. Includes the 2026 67-percent auction floor, refinance principal payment ordering, California disclosure alternatives and federal consumer-credit qualifications.",
+    "artifacts": [
+      {
+        "kind": "visual",
+        "id": "exp-finance-appraisal-ceiling-curve",
+        "digest": "8fe4b6c8287023085fcda2eebfeff01874945632f46185e3063766eecfd32d26"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-income-debt-sensitivity",
+        "digest": "5c3ee01307a33f15763b9eabad50514f7aca60bc45a9e9cac940eac60948a23c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-cltv-collateral-file",
+        "digest": "2808f580c4052b80a76e7b2fd6d57b075a5f0c78b93b311f401b5c158b962d88"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-monthly-bill-components",
+        "digest": "2bd772928c94b82eb2da4cc86ea040606329cf9d50e5632012cae79096652baf"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-points-holding-period",
+        "digest": "da8cfaf0285b83ef81c1025783119bb1cb43f0662617d088ee7cdc68ef807cab"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-extra-principal-next-payment",
+        "digest": "a2e18978f3865383cc02314dbbf93146e2208cc569ca3612ff616a9e50647a29"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-rate-points-amount-financed",
+        "digest": "b3d6bc5fba8beda921ce7982ef1a341878221aa248306f58826f1fb2b4aaac5c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-finance-owner-servicer-transfer-packet",
+        "digest": "9523c87ddd4fd09b54b7d86ee9e858e10834d8b882084157b3e5cec7c4fba691"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-four-axis-loan-file",
+        "digest": "f44e42ceffce7b063a8b2a81f9a568d57656d094ae17855dc3c4f1705fa2561f"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-arm-multiple-reset-curve",
+        "digest": "8c67c74687c0925cb0d18c8731df9510d0c248e92daa71dea4b371acbbc9189a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-repayment-balance-paths",
+        "digest": "47b62895d56482c89f05aaa63b1dd761134d9e06a4fb0ac5ca953026849df364"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-construction-advance-ledger",
+        "digest": "f55ee70413b6957488cf8d28972d5400613777c1d98a81284d985bb1216d2401"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-fha-file-evidence",
+        "digest": "e2e2d6420374fc12d85a1903e1848d0c0f5a5995c488196d49fd9dd100607055"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-va-eligibility-gap",
+        "digest": "772b5e55d2da49572997d69f551777f373483b86e06779cc2d0521c060d6028c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-assistance-payoff-identity",
+        "digest": "f9d6a6981e58fc319603879f5e2563ef87d3a9e1fcdf133ddb379324fec1caf6"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-program-hecm-obligation-file",
+        "digest": "597d8ab71b6bcf954f0cafa27e3cc70c4ca38e4af77a49468de1bd840ec77c31"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-note-versus-lien-file",
+        "digest": "502bf5f9a44e9799230f0deff9bb8c089b488c02a911fb416a922fcf504c574e"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-subordination-recovery-curve",
+        "digest": "ca5b185e6fa49c06ac576917775fe49523994ca0e74f16c38e35df422d59aaf6"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-senior-junior-sale-exposure",
+        "digest": "a98d790ddbb06b209c3ab7f8c0f6f21afb067ba12e354f3f4a98b69bff871b5a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-assignment-release-comparison",
+        "digest": "4c2b27e964aaa77b7f76175b806cde398a8e4e54ce4af6ce85418a6c2abd0623"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-cure-quote-reconciliation",
+        "digest": "9cd2ef338f9e9725b27ab219b9645fb4f46a3f924d625d056091689fb3b7c1b6"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-first-auction-bid-file",
+        "digest": "2ec98252f8d4a30e02f269fd6b6ba8e6318d83519f35da2eea6e21cdf9c563a2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-security-refinance-protected-balance",
+        "digest": "b3151be31b4c5d4afdfbbbe0adc94981f93f1d5078155c42837f4d5bcd12fb12"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-application-sixth-item-file",
+        "digest": "9860ac2c486147a071eebeaa867552316f072fd5cd015af2a5606e1fbb42cdce"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-mailed-le-cd-two-boundaries",
+        "digest": "da0d6bf1b553929af37fe2ddb70df2437a60b89dce06fb1ff2688b1c0d73e367"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-cd-correction-changed-facts",
+        "digest": "c430d2bd6d2ebf16a22a90600d287ba35d6f195ba6bf9f9197af9d950dd70821"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-rescission-late-notice-calendar",
+        "digest": "11e2de5a020cd48ad7055775a5d7df28c569f58fbabc5268fa634f326f7f7f75"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-mlds-agent-principal-switch",
+        "digest": "b4e7f2302f41ef43a39294beae62cf4030950475b09ce9dbe8fdd4cce86e028c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-le-alternative-completeness-file",
+        "digest": "61fbdd68c0bbc3f0b2516b881eda01a6baf73ebed97dd1ece01096ffe08c9a3b"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-lpds-evidence-and-waiver",
+        "digest": "469055b8308c918595a80116d49b48be7a2ed60028aa4a287821219b3b1b4791"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-credit-mlo-license-file-diagnosis",
+        "digest": "76e96cf50fe175dbe57e364af88c5217a8e0954f56b978a728863327af044d79"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-loan-en-106/",
+      "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+      "https://www.consumerfinance.gov/ask-cfpb/for-an-adjustable-rate-mortgage-arm-what-are-the-index-and-margin-and-how-do-they-work-en-1949/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-negative-amortization-en-103/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/",
+      "https://www.hud.gov/sites/dfiles/OCHCO/documents/92564-CN.pdf",
+      "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+      "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm",
+      "https://www.consumerfinance.gov/ask-cfpb/can-anyone-take-out-a-reverse-mortgage-loan-en-227/",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://www.consumerfinance.gov/owning-a-home/close/review-documents-before-closing/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d.",
+      "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/tila-respa-integrated-disclosures/tila-respa-integrated-disclosure-faqs/",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+      "https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+      "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2015MLDS%20and%20Loan%20Estimate%20Advisory.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10232.5.",
+      "https://www.dre.ca.gov/Licensees/MLOLicense.html",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1007/103/"
+    ],
+    "findings": [],
+    "limitations": "Independent AI source and arithmetic review, not qualified human subject-matter review, DRE approval, empirical exam validation, or browser accessibility certification. The original purchase-money classification artifact was superseded after a later review corrected its institutional-lender category label; that artifact is excluded here and its replacement is recorded in financing-classification-visual.json."
+  }
+]

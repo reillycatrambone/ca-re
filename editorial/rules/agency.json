@@ -1,0 +1,1657 @@
+[
+  {
+    "id": "agency-rule-confirmation-deadline",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "disclosure-timing-and-coverage",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "The buyer's agent's actual representation is confirmed in the contract or separate writing before or with the buyer's and seller's respective purchase-contract executions.",
+    "conditions": [
+      "Seller, buyer, and buyer's agent execute or acknowledge the required confirmation.",
+      "The seller's agent separately confirms with the seller before or with the seller's execution."
+    ],
+    "exceptions": [
+      "Confirmation is additional to educational disclosure and cannot wait until closing."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+        "locator": "Subdivisions (a), (b), and (d), recipients, confirmation, and execution timing",
+        "supports": "The buyer's agent's actual representation is confirmed in the contract or separate writing before or with the buyer's and seller's respective purchase-contract executions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disclosure-timing-and-coverage",
+        "summary": "The chapter's role table separates buyer-side confirmation from the seller agent's confirmation and assigns each its deadline.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-063"]
+  },
+  {
+    "id": "agency-rule-buyer-disclosure-clock",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "disclosure-timing-and-coverage",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "The buyer's agent supplies agency disclosure as soon as practicable before execution of the representation agreement and offer; an offer prepared elsewhere triggers a next-business-day receipt deadline.",
+    "conditions": [
+      "For the special receipt rule, the buyer's agent did not prepare the offer and receives it from the buyer.",
+      "Apply Civil Code sections 7 and 9: an ordinary Saturday is a business day, while Sundays and statutory holidays are excluded."
+    ],
+    "exceptions": [
+      "The special offer-receipt rule does not erase a separately triggered earlier duty before the representation agreement."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+        "locator": "Subdivision (a)(2), ordinary buyer sequence and offer prepared elsewhere",
+        "supports": "The buyer's agent supplies agency disclosure as soon as practicable before execution of the representation agreement and offer; an offer prepared elsewhere triggers a next-business-day receipt deadline."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=7.",
+        "locator": "Section 7, holidays under the Civil Code",
+        "supports": "The Civil Code holiday definition includes Sundays and holidays specified or provided in the Government Code."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.",
+        "locator": "Section 9, nonholiday business days and bank-action qualifications",
+        "supports": "Nonholiday days count as business days subject to the stated qualifications for acts performed by, at, or through banks."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700.",
+        "locator": "Subdivision (a), California holidays",
+        "supports": "An ordinary Saturday is not categorically included among California statutory holidays."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disclosure-timing-and-coverage",
+        "summary": "The chapter's Friday-receipt example requires delivery Saturday when Saturday is not a statutory holiday, rather than assuming a Monday-through-Friday business week.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-064"]
+  },
+  {
+    "id": "agency-rule-lease-disclosure-scope",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "disclosure-timing-and-coverage",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "Statutory agency definitions include creation of a leasehold exceeding one year, including the covered residential leasehold; a fee-title sale is not required.",
+    "conditions": [
+      "The broker is retained for the covered transaction.",
+      "The proposed leasehold lasts more than one year."
+    ],
+    "exceptions": [
+      "A duration of exactly one year does not satisfy this particular more-than-one-year definition; other duties must be analyzed separately."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.13(l)(1) and (m), residential property and sale definitions",
+        "supports": "Statutory agency definitions include creation of a leasehold exceeding one year, including the covered residential leasehold; a fee-title sale is not required."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disclosure-timing-and-coverage",
+        "summary": "The chapter states the more-than-one-year leasehold threshold alongside residential, commercial, and vacant-land coverage.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-065"]
+  },
+  {
+    "id": "agency-rule-identify-principal",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "start-with-who-represents-whom",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "An agency identifies whose business the broker undertakes to represent; payment by another party does not itself change the principal.",
+    "conditions": [
+      "Identify the actual undertaking, agreements, and conduct.",
+      "A cooperating brokerage may represent the buyer rather than act as the seller's subagent."
+    ],
+    "exceptions": [
+      "Providing information to an unrepresented customer does not by itself establish buyer representation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1.",
+        "locator": "Sections 2295-2300, definition and actual/ostensible agency",
+        "supports": "An agency identifies whose business the broker undertakes to represent; payment by another party does not itself change the principal."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.19, compensation source; section 2079.22, unrepresented buyer",
+        "supports": "An agency identifies whose business the broker undertakes to represent; payment by another party does not itself change the principal."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-one-property-three-relationships",
+        "summary": "Morgan's seller contribution leaves Harbor representing Morgan and Valley representing Casey.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-001", "agency-008"]
+  },
+  {
+    "id": "agency-rule-scope-classification",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "classify-the-scope-of-the-job",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "A particular act or transaction is special agency; an ongoing authorized business role can be general agency without granting unlimited power.",
+    "conditions": [
+      "Classify the appointment by its scope, not the licensee's job title.",
+      "Specific spending or transaction limits remain effective within a general appointment."
+    ],
+    "exceptions": [
+      "A universal-agent label does not override the governing instrument or limits on delegable acts."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1.",
+        "locator": "Section 2297, special and general agents",
+        "supports": "A particular act or transaction is special agency; an ongoing authorized business role can be general agency without granting unlimited power."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Agency relationships and scope of authority",
+        "supports": "A particular act or transaction is special agency; an ongoing authorized business role can be general agency without granting unlimited power."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "authority-can-be-narrower-than-the-assignment",
+        "summary": "The continuing manager's $800 repair power does not authorize a $6,000 replacement project.",
+        "figureIds": ["exp-agency-manager-instruction-limits"]
+      }
+    ],
+    "questionIds": ["agency-003", "agency-009"]
+  },
+  {
+    "id": "agency-rule-express-creation",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "how-agency-is-created",
+    "coverageTopics": ["Creation of Agency and Agency Agreements"],
+    "rule": "Agency may arise through prior authorization or subsequent ratification; express authorization uses words and implied authorization depends on the parties' conduct.",
+    "conditions": [
+      "The principal consents and the agent undertakes to act within the relevant scope.",
+      "Applicable writing requirements must be satisfied separately."
+    ],
+    "exceptions": [
+      "Calling an undertaking informal does not remove duties established by the actual conduct."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Sections 2307 and 2309, authorization and form",
+        "supports": "Agency may arise through prior authorization or subsequent ratification; express authorization uses words and implied authorization depends on the parties' conduct."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "how-agency-is-created",
+        "summary": "The chapter separates an express signed representation agreement from conduct indicating an undertaking.",
+        "figureIds": ["exp-agency-three-legal-questions"]
+      }
+    ],
+    "questionIds": ["agency-006"]
+  },
+  {
+    "id": "agency-rule-signing-authority",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "coverageTopics": ["Creation of Agency and Agency Agreements"],
+    "rule": "Authority to market a parcel or find a buyer does not itself authorize signing the principal's sale agreement; a transaction legally requiring writing requires written agent authority.",
+    "conditions": [
+      "Identify the act the principal authorized.",
+      "Apply Civil Code section 2309 when law requires the transaction to be written."
+    ],
+    "exceptions": ["A separately granted, valid signing power can supply the missing authority."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Section 2309, form of authorization",
+        "supports": "Authority to market a parcel or find a buyer does not itself authorize signing the principal's sale agreement; a transaction legally requiring writing requires written agent authority."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+        "locator": "Subdivision (a)(3)-(4), real-property sale and brokerage employment writings",
+        "supports": "Authority to market a parcel or find a buyer does not itself authorize signing the principal's sale agreement; a transaction legally requiring writing requires written agent authority."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ratification-and-powers-of-attorney",
+        "summary": "The ordinary listing and possession of keys are contrasted with a separate authority to execute a sale.",
+        "figureIds": ["exp-agency-poa-specific-powers"]
+      }
+    ],
+    "questionIds": ["agency-002"]
+  },
+  {
+    "id": "agency-rule-power-instrument",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "An attorney-in-fact exercises powers granted by an effective power of attorney and need not be an attorney-at-law.",
+    "conditions": [
+      "Verify scope, effectiveness, and revocation before relying on the instrument.",
+      "Check any recording requirements relevant to the transaction."
+    ],
+    "exceptions": ["Appointment is not universal authority to make every property decision."],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Agency: powers of attorney and attorney-in-fact",
+        "supports": "An attorney-in-fact exercises powers granted by an effective power of attorney and need not be an attorney-at-law."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Sections 2315-2319, limits and interpretation of authority",
+        "supports": "An attorney-in-fact exercises powers granted by an effective power of attorney and need not be an attorney-at-law."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ratification-and-powers-of-attorney",
+        "summary": "A power for one identified parcel is evaluated against the particular documents to be signed.",
+        "figureIds": ["exp-agency-poa-specific-powers"]
+      }
+    ],
+    "questionIds": ["agency-007"]
+  },
+  {
+    "id": "agency-rule-ostensible-elements",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "actual-and-ostensible-authority",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "Ostensible authority depends on the principal's creation of an appearance; section 2334 additionally requires good faith, ordinary care, and value parted with or liability incurred in reliance.",
+    "conditions": [
+      "The relevant appearance must be attributable to the principal, not just the agent's assertion.",
+      "The third party must actually meet the statutory reliance conditions."
+    ],
+    "exceptions": [
+      "A free nonbinding quote alone does not supply value parted with or liability incurred."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Section 2317, ostensible authority",
+        "supports": "Ostensible authority depends on the principal's creation of an appearance; section 2334 additionally requires good faith, ordinary care, and value parted with or liability incurred in reliance."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2334.",
+        "locator": "Section 2334, good faith, ordinary care, value or liability incurred in reliance",
+        "supports": "Liability from merely ostensible authority requires good faith, ordinary care, and parting with value or incurring liability on the faith of the appearance."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Ostensible authority, Civil Code section 2334",
+        "supports": "Ostensible authority depends on the principal's creation of an appearance; section 2334 additionally requires good faith, ordinary care, and value parted with or liability incurred in reliance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "actual-and-ostensible-authority",
+        "summary": "The reliance diagram contrasts belief alone with entering a binding repair obligation.",
+        "figureIds": ["exp-agency-reliance-before-commitment"]
+      }
+    ],
+    "questionIds": ["agency-004", "agency-040", "agency-055"]
+  },
+  {
+    "id": "agency-rule-known-restrictions",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "compare-two-unauthorized-promises",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "An agent's authority is subject to restrictions known to the person dealing with the agent; a job title does not overcome an expressly known spending limit.",
+    "conditions": [
+      "The contractor actually knows the owner's restriction.",
+      "No different authorization, applicable emergency power, or subsequent ratification is supplied."
+    ],
+    "exceptions": [
+      "A principal-created contrary appearance unknown to the third party requires a distinct ostensible-authority analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Section 2318, restrictions known to third persons",
+        "supports": "An agent's authority is subject to restrictions known to the person dealing with the agent; a job title does not overcome an expressly known spending limit."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-two-unauthorized-promises",
+        "summary": "Case A's contractor holds the written cap; Case B instead has the owner's representations of broader power.",
+        "figureIds": ["exp-agency-contractor-restriction-file"]
+      }
+    ],
+    "questionIds": ["agency-039"]
+  },
+  {
+    "id": "agency-rule-informed-ratification",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "coverageTopics": ["Creation of Agency and Agency Agreements"],
+    "rule": "A principal may adopt a previously unauthorized lawful act through informed ratification satisfying the form required for authorization; an indivisible transaction cannot be adopted only for its favorable part.",
+    "conditions": [
+      "Material facts must be known for informed adoption.",
+      "Required formalities and legal capacity must be satisfied."
+    ],
+    "exceptions": [
+      "Ratification does not validate illegality or bypass required written authority."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Sections 2307, 2310-2314, ratification and limits",
+        "supports": "A principal may adopt a previously unauthorized lawful act through informed ratification satisfying the form required for authorization; an indivisible transaction cannot be adopted only for its favorable part."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Ratification, knowledge of material facts",
+        "supports": "A principal may adopt a previously unauthorized lawful act through informed ratification satisfying the form required for authorization; an indivisible transaction cannot be adopted only for its favorable part."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "ratification-and-powers-of-attorney",
+        "summary": "The adoption diagram joins the renovation's benefits and payment obligation as one transaction.",
+        "figureIds": ["exp-agency-indivisible-ratification"]
+      }
+    ],
+    "questionIds": ["agency-005", "agency-056"]
+  },
+  {
+    "id": "agency-rule-imputed-notice",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "notice-and-responsibility",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "Civil Code section 2332 attributes notice of matters either principal or agent knows and ought in good faith and ordinary care to communicate to the other.",
+    "conditions": [
+      "The notice connects to the relevant agency and communication duty.",
+      "Check the contract's authorized delivery method and other applicable requirements."
+    ],
+    "exceptions": [
+      "The rule does not make all information held by any employee notice to every principal for every purpose."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2332.",
+        "locator": "Section 2332, notice between principal and agent",
+        "supports": "Civil Code section 2332 attributes notice of matters either principal or agent knows and ought in good faith and ordinary care to communicate to the other."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "notice-and-responsibility",
+        "summary": "A buyer's agent leaving a time-sensitive response unread does not preserve the buyer's rights by personal ignorance.",
+        "figureIds": ["exp-agency-notice-chain"]
+      }
+    ],
+    "questionIds": ["agency-041"]
+  },
+  {
+    "id": "agency-rule-delivery-not-amendment",
+    "lessonSlug": "agency-relationships",
+    "sectionId": "authority-can-be-narrower-than-the-assignment",
+    "coverageTopics": [
+      "Law, Definition and Nature of Agency Relationships, Types of Agencies, and Agents"
+    ],
+    "rule": "Authority to transmit a principal's signed decision is different from authority to change the transaction terms.",
+    "conditions": [
+      "The instruction permits delivery only.",
+      "No additional authority or applicable emergency is established."
+    ],
+    "exceptions": [
+      "An actual additional delegation must be evaluated according to its scope and formalities."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+        "locator": "Sections 2315-2316 and 2321, authority and particular terms",
+        "supports": "Authority to transmit a principal's signed decision is different from authority to change the transaction terms."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "authority-can-be-narrower-than-the-assignment",
+        "summary": "The chapter distinguishes predicting acceptance, delivering an acceptance, and being authorized to sign it.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-042"]
+  },
+  {
+    "id": "agency-rule-lawful-obedience",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "loyalty-and-lawful-obedience",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "An agent must follow lawful instructions within the agency but cannot conceal a known material defect merely because the principal orders concealment.",
+    "conditions": [
+      "The property fact is material and subject to required disclosure.",
+      "The buyer does not otherwise know the defect in the stated example."
+    ],
+    "exceptions": [
+      "The principal retains lawful price and acceptance decisions; refusing illegality does not grant the agent power to make those choices."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Seller's agent; duties to both parties",
+        "supports": "An agent must follow lawful instructions within the agency but cannot conceal a known material defect merely because the principal orders concealment."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Fiduciary duties: obedience and disclosure",
+        "supports": "An agent must follow lawful instructions within the agency but cannot conceal a known material defect merely because the principal orders concealment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "loyalty-and-lawful-obedience",
+        "summary": "A seller's concealment instruction is distinguished from a lawful asking-price decision.",
+        "figureIds": ["exp-agency-obedience-is-not-concealment"]
+      }
+    ],
+    "questionIds": ["agency-010"]
+  },
+  {
+    "id": "agency-rule-loyal-client-choice",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "compare-offers-in-the-clients-terms",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Loyalty directs the agent to the client's objectives rather than the agent's compensation, while the principal retains decisions not delegated to the agent.",
+    "conditions": [
+      "Explain net benefit, contingencies, timing, and relevant risks.",
+      "Present the choice without suppressing an offer for self-interested reasons."
+    ],
+    "exceptions": [
+      "A higher price does not automatically make an offer better for the client's stated needs."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Seller's agent and buyer's agent, fiduciary loyalty",
+        "supports": "Loyalty directs the agent to the client's objectives rather than the agent's compensation, while the principal retains decisions not delegated to the agent."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Loyalty and obedience to lawful instructions",
+        "supports": "Loyalty directs the agent to the client's objectives rather than the agent's compensation, while the principal retains decisions not delegated to the agent."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-offers-in-the-clients-terms",
+        "summary": "The $710,000 conditional offer and $700,000 less-conditional offer serve the seller's relocation differently.",
+        "figureIds": ["exp-agency-offer-net-and-risk"]
+      }
+    ],
+    "questionIds": ["agency-012", "agency-043"]
+  },
+  {
+    "id": "agency-rule-prompt-offers",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "disclosure-to-the-principal",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Timely disclosure includes presenting significant offers and transaction developments so the principal can make an informed decision.",
+    "conditions": [
+      "The principal has not instructed the agent to withhold the particular offer.",
+      "An approaching response deadline is relevant information, not an excuse to discard a low offer."
+    ],
+    "exceptions": [
+      "The agent need not recommend accepting an offer merely because it must be communicated."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Fiduciary duty of utmost care, integrity, honesty, and loyalty",
+        "supports": "Timely disclosure includes presenting significant offers and transaction developments so the principal can make an informed decision."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Presentation of offers and material information",
+        "supports": "Timely disclosure includes presenting significant offers and transaction developments so the principal can make an informed decision."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disclosure-to-the-principal",
+        "summary": "The offer-decision visual routes a disappointing offer to the seller rather than letting the agent silently reject it.",
+        "figureIds": ["exp-agency-prompt-offer-decision"]
+      }
+    ],
+    "questionIds": ["agency-013"]
+  },
+  {
+    "id": "agency-rule-confidence-versus-defect",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "confidentiality-has-a-boundary",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Private bargaining information is protected absent authorization or a disclosure duty; material property defects cannot be concealed under a confidentiality label.",
+    "conditions": [
+      "Identify the character of the information and any authority or duty to disclose.",
+      "A private financial deadline is different from a recurring plumbing leak."
+    ],
+    "exceptions": [
+      "Information subject to a legal disclosure requirement does not become secret by the client's instruction."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Duties to parties and confidential information",
+        "supports": "Private bargaining information is protected absent authorization or a disclosure duty; material property defects cannot be concealed under a confidentiality label."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Confidentiality and affirmative disclosure",
+        "supports": "Private bargaining information is protected absent authorization or a disclosure duty; material property defects cannot be concealed under a confidentiality label."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-the-stain-and-the-deadline",
+        "summary": "Quinn must disclose the leak while withholding Avery's private financial deadline without authority.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-011"]
+  },
+  {
+    "id": "agency-rule-surviving-confidence",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "confidentiality-has-a-boundary",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Ending representation does not itself authorize use or disclosure of the former principal's protected nonpublic bargaining information.",
+    "conditions": [
+      "The information was entrusted through the agency and remains confidential.",
+      "No client authorization or applicable legal disclosure requirement is assumed."
+    ],
+    "exceptions": [
+      "Material facts legally requiring disclosure are not insulated by ending the agency."
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caeb-1_25-bk-10499/pdf/USCOURTS-caeb-1_25-bk-10499-0.pdf",
+        "locator": "Doc. 174, printed pages 19-20, agency confidentiality and Restatement (Third) of Agency section 8.05",
+        "supports": "The court's agency analysis explains continuing protection of entrusted confidential information; it is not represented as controlling California appellate precedent."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Fiduciary confidentiality",
+        "supports": "Ending representation does not itself authorize use or disclosure of the former principal's protected nonpublic bargaining information."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "confidentiality-has-a-boundary",
+        "summary": "The chapter distinguishes a former client's negotiating limits from defects that cannot be concealed by terminating the listing.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-018"]
+  },
+  {
+    "id": "agency-rule-care-special-expertise",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "care-competence-and-verification",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Reasonable care includes recognizing missing expertise and obtaining appropriate verification for a client's material stated objective.",
+    "conditions": [
+      "The intended industrial or residential use is known to the agent.",
+      "The agent lacks a reliable basis to promise feasibility."
+    ],
+    "exceptions": [
+      "A real estate license is not an engineering, legal, surveying, or tax credential."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Buyer's agent, fiduciary care and diligence",
+        "supports": "Reasonable care includes recognizing missing expertise and obtaining appropriate verification for a client's material stated objective."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Reasonable care and skill",
+        "supports": "Reasonable care includes recognizing missing expertise and obtaining appropriate verification for a client's material stated objective."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "care-competence-and-verification",
+        "summary": "A buyer's essential permitted-use requirement calls for records or specialist verification rather than an unsupported assurance.",
+        "figureIds": ["exp-agency-client-purpose-verification"]
+      }
+    ],
+    "questionIds": ["agency-017"]
+  },
+  {
+    "id": "agency-rule-visual-inspection",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "care-competence-and-verification",
+    "coverageTopics": ["Responsibilities of Agent to Non-Client Third Parties"],
+    "rule": "In the residential transactions covered by Civil Code section 2079, the broker must diligently inspect visually accessible areas and disclose material facts that inspection would reveal.",
+    "conditions": [
+      "Apply the statute's covered property and broker-role conditions.",
+      "An unexplained visible stain is reported as an observation rather than an unsupported diagnosis."
+    ],
+    "exceptions": ["The statutory inspection is not a guarantee against hidden defects."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+        "locator": "Subdivision (a), reasonably competent and diligent visual inspection",
+        "supports": "In the residential transactions covered by Civil Code section 2079, the broker must diligently inspect visually accessible areas and disclose material facts that inspection would reveal."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "care-competence-and-verification",
+        "summary": "The accessible ceiling stain calls for disclosure and investigation, not a promise that a future inspector will solve it.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-019"]
+  },
+  {
+    "id": "agency-rule-inspection-known-information",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "inspection-limits-do-not-erase-known-information",
+    "coverageTopics": [
+      "Responsibilities of Agent to Seller/Buyer as Principal",
+      "Responsibilities of Agent to Non-Client Third Parties"
+    ],
+    "rule": "Statutory visual-inspection exclusions do not excuse withholding already known material information or ignoring a client's particular needs.",
+    "conditions": [
+      "Distinguish entering an inaccessible area from disclosing a report already held.",
+      "The buyer's own reasonable-care obligation does not erase the agent's additional duties."
+    ],
+    "exceptions": [
+      "Section 2079.3 excludes normally inaccessible and off-site areas and affirmative public-record searches from that statutory inspection; it does not define every fiduciary duty."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+        "locator": "Inspection scope exclusions",
+        "supports": "Statutory visual-inspection exclusions do not excuse withholding already known material information or ignoring a client's particular needs."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Care and material facts known to agent",
+        "supports": "Statutory visual-inspection exclusions do not excuse withholding already known material information or ignoring a client's particular needs."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.5.",
+        "locator": "Buyer's reasonable-care duty",
+        "supports": "Statutory visual-inspection exclusions do not excuse withholding already known material information or ignoring a client's particular needs."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "inspection-limits-do-not-erase-known-information",
+        "summary": "The inaccessible attic and known roof-framing report raise separate inspection and disclosure questions.",
+        "figureIds": ["exp-agency-inaccessible-report-evidence"]
+      }
+    ],
+    "questionIds": ["agency-044", "agency-057"]
+  },
+  {
+    "id": "agency-rule-deadline-instructions",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "care-competence-and-verification",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Reasonable care requires addressing unresolved material information and impending contractual deadlines while obtaining the client's decision on choices not delegated to the agent.",
+    "conditions": [
+      "A foundation report arrives before an inspection deadline with a material issue unresolved.",
+      "The buyer has not authorized cancellation, an extension request, or contingency removal."
+    ],
+    "exceptions": [
+      "Timely document delivery alone does not make the client's substantive decision."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Fiduciary care and diligence",
+        "supports": "Reasonable care requires addressing unresolved material information and impending contractual deadlines while obtaining the client's decision on choices not delegated to the agent."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Scope of agency and duties of care and communication",
+        "supports": "Reasonable care requires addressing unresolved material information and impending contractual deadlines while obtaining the client's decision on choices not delegated to the agent."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "care-competence-and-verification",
+        "summary": "One day before the inspection deadline, the agent explains the issue and choices, recommends evaluation, and seeks instructions.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-058"]
+  },
+  {
+    "id": "agency-rule-trust-accounting",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "accounting-and-money",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "Entrusted transaction funds must be safeguarded, accounted for, and disbursed with lawful authority; a potential fee does not make a buyer's deposit operating money.",
+    "conditions": [
+      "Identify ownership and the applicable holding or disbursement instructions.",
+      "Use the responsible broker's required trust procedures."
+    ],
+    "exceptions": [
+      "A disputed deposit cannot be taken as commission merely because a broker asserts compensation is owed."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Handling and accounting for trust funds; fiduciary accounting",
+        "supports": "Entrusted transaction funds must be safeguarded, accounted for, and disbursed with lawful authority; a potential fee does not make a buyer's deposit operating money."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "accounting-and-money",
+        "summary": "The entrusted-money visual distinguishes a buyer's deposit from money available for listing photographs.",
+        "figureIds": ["exp-agency-entrusted-money-not-fee"]
+      }
+    ],
+    "questionIds": ["agency-016"]
+  },
+  {
+    "id": "agency-rule-nonclient-honesty",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "duties-to-nonclients",
+    "coverageTopics": ["Responsibilities of Agent to Non-Client Third Parties"],
+    "rule": "A single agent owes the other party honesty, good faith, appropriate care, and required material disclosure even without fiduciary loyalty to that party.",
+    "conditions": [
+      "The nonclient does not know a concealed material property defect.",
+      "Identify both the represented principal and the recipient of the required information."
+    ],
+    "exceptions": ["Nonclient status does not authorize exaggeration or concealment."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Duties to both buyer and seller",
+        "supports": "A single agent owes the other party honesty, good faith, appropriate care, and required material disclosure even without fiduciary loyalty to that party."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-the-stain-and-the-deadline",
+        "summary": "The chapter contrasts a lawful refusal to disclose a seller's private minimum with unlawful silence about the known leak.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-015"]
+  },
+  {
+    "id": "agency-rule-groundless-assertion",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "duties-to-nonclients",
+    "coverageTopics": ["Responsibilities of Agent to Non-Client Third Parties"],
+    "rule": "A sincere assertion of a false fact without reasonable grounds can support negligent misrepresentation; deliberate lying is not the only actionable misstatement.",
+    "conditions": [
+      "The problem establishes the other elements such as actionable reliance and harm.",
+      "The agent presents approval as an existing fact without a basis."
+    ],
+    "exceptions": ["A disappointing market result alone does not establish misconduct."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1710.",
+        "locator": "Subdivision (2), assertion without reasonable ground for believing it true",
+        "supports": "A sincere assertion of a false fact without reasonable grounds can support negligent misrepresentation; deliberate lying is not the only actionable misstatement."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Negligent misrepresentation",
+        "supports": "A sincere assertion of a false fact without reasonable grounds can support negligent misrepresentation; deliberate lying is not the only actionable misstatement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-misconduct-from-a-disappointing-result",
+        "summary": "The chapter contrasts reasonable conduct followed by market decline with an unsupported factual guarantee.",
+        "figureIds": ["exp-agency-conduct-versus-outcome"]
+      }
+    ],
+    "questionIds": ["agency-014"]
+  },
+  {
+    "id": "agency-rule-correct-discrepancy",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "how-to-correct-an-inaccurate-statement",
+    "coverageTopics": ["Responsibilities of Agent to Non-Client Third Parties"],
+    "rule": "Credible contrary evidence requires timely correction or qualification of an unsupported representation and appropriate verification, not continued repetition of the earlier claim.",
+    "conditions": [
+      "The discrepancy is material to the transaction.",
+      "Distinguish the seller's estimate, later measurements, and unresolved conclusions."
+    ],
+    "exceptions": ["Different measurement methods do not automatically establish seller fraud."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Honesty, reasonable care, and disclosure of known material facts",
+        "supports": "Credible contrary evidence requires timely correction or qualification of an unsupported representation and appropriate verification, not continued repetition of the earlier claim."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1710.",
+        "locator": "Subdivision (2), grounds for factual assertions",
+        "supports": "Credible contrary evidence requires timely correction or qualification of an unsupported representation and appropriate verification, not continued repetition of the earlier claim."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "how-to-correct-an-inaccurate-statement",
+        "summary": "The advertised 2,100-square-foot claim conflicts with evidence of approximately 1,850 square feet.",
+        "figureIds": ["exp-agency-correct-measurement-claim"]
+      }
+    ],
+    "questionIds": ["agency-045"]
+  },
+  {
+    "id": "agency-rule-paperwork-functions",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "three-questions-behind-the-paperwork",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "Educational disclosure explains possible roles; confirmation records the actual transaction role; a receipt acknowledgment alone is not a missing employment agreement or informed conflict consent.",
+    "conditions": [
+      "Read what the signed writing acknowledges.",
+      "The actual agreement and undertaking establish representation."
+    ],
+    "exceptions": ["Related documents can serve different functions even when delivered together."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+        "locator": "Delivery and receipt of disclosure",
+        "supports": "Educational disclosure explains possible roles; confirmation records the actual transaction role; a receipt acknowledgment alone is not a missing employment agreement or informed conflict consent."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+        "locator": "Transaction-specific confirmation",
+        "supports": "Educational disclosure explains possible roles; confirmation records the actual transaction role; a receipt acknowledgment alone is not a missing employment agreement or informed conflict consent."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.13(p), buyer-broker representation agreement",
+        "supports": "Educational disclosure explains possible roles; confirmation records the actual transaction role; a receipt acknowledgment alone is not a missing employment agreement or informed conflict consent."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "three-questions-behind-the-paperwork",
+        "summary": "The paperwork-evidence comparison assigns each writing its own evidentiary function.",
+        "figureIds": ["exp-agency-paperwork-evidence-functions"]
+      }
+    ],
+    "questionIds": ["agency-021", "agency-023"]
+  },
+  {
+    "id": "agency-rule-seller-disclosure-clock",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "disclosure-timing-and-coverage",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "For a covered listing, the seller's agent must provide the statutory agency disclosure before entering into the listing agreement.",
+    "conditions": [
+      "The transaction falls within the statutory definition.",
+      "Obtain the required acknowledgment or document refusal under the statutory procedure."
+    ],
+    "exceptions": ["A separate TDS exemption does not itself exempt agency disclosure."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+        "locator": "Subdivision (a), seller's agent delivery",
+        "supports": "For a covered listing, the seller's agent must provide the statutory agency disclosure before entering into the listing agreement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disclosure-timing-and-coverage",
+        "summary": "The listing interview precedes the listing signature; disclosure belongs before that hiring event.",
+        "figureIds": ["exp-agency-disclosure-role-clocks"]
+      }
+    ],
+    "questionIds": ["agency-022"]
+  },
+  {
+    "id": "agency-rule-refused-receipt",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "disclosure-timing-and-coverage",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "When a buyer or seller refuses the required agency-disclosure receipt acknowledgment, the agent prepares, signs, and dates a written declaration stating the facts of refusal.",
+    "conditions": [
+      "The required form was supplied but the recipient refused acknowledgment.",
+      "The record must describe refusal rather than fabricate a client signature."
+    ],
+    "exceptions": ["Refusal is not consent and does not erase the agent's duties."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.15, declaration of refusal",
+        "supports": "When a buyer or seller refuses the required agency-disclosure receipt acknowledgment, the agent prepares, signs, and dates a written declaration stating the facts of refusal."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "disclosure-timing-and-coverage",
+        "summary": "The refusal visual preserves the agent's delivery and refusal record without treating silence as dual-agency consent.",
+        "figureIds": ["exp-agency-refused-acknowledgment"]
+      }
+    ],
+    "questionIds": ["agency-027"]
+  },
+  {
+    "id": "agency-rule-broker-dual-role",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "dual-agency-exists-at-the-broker-level",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "A brokerage representing opposing principals in one transaction is a dual agent even if different affiliated salespersons or branches work on each side.",
+    "conditions": [
+      "The brokerage has undertaken representation of both principals.",
+      "Both principals need the required knowledge, consent, disclosure, and confirmation."
+    ],
+    "exceptions": [
+      "Separate personnel do not turn one brokerage into unrelated single-agent brokerages."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Sections 2079.13(d) and 2079.16, dual agency",
+        "supports": "A brokerage representing opposing principals in one transaction is a dual agent even if different affiliated salespersons or branches work on each side."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+        "locator": "Confirmation of actual roles",
+        "supports": "A brokerage representing opposing principals in one transaction is a dual agent even if different affiliated salespersons or branches work on each side."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "dual-agency-exists-at-the-broker-level",
+        "summary": "Stone Realty's Riley and Devon work with opposite principals under the same brokerage.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-020", "agency-049"]
+  },
+  {
+    "id": "agency-rule-dual-confidence-limits",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "confidentiality-in-a-dual-agency",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "A dual agent needs the respective client's express permission to disclose covered confidential financial, motivational, or bargaining information.",
+    "conditions": [
+      "Identify precisely what information the relevant client authorized.",
+      "A general dual-agency consent does not authorize every later disclosure."
+    ],
+    "exceptions": [
+      "Known material property facts subject to disclosure are not protected private bargaining limits."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21.",
+        "locator": "Subdivisions (a)-(c), respective-client express permission",
+        "supports": "A dual agent needs the respective client's express permission to disclose covered confidential financial, motivational, or bargaining information."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "confidentiality-in-a-dual-agency",
+        "summary": "Permission to share a 20-day closing ability does not include private reserves or a maximum offer.",
+        "figureIds": ["exp-agency-limited-confidential-permission"]
+      }
+    ],
+    "questionIds": ["agency-024", "agency-060"]
+  },
+  {
+    "id": "agency-rule-dual-preserved-duties",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "dual-agency-exists-at-the-broker-level",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "Consent to dual agency preserves duties of care, honesty, material disclosure, and proper handling of entrusted funds rather than waiving them.",
+    "conditions": [
+      "The agent acts for both principals with the required consent.",
+      "The seller's instruction concerns a known material structural defect unknown to the buyer."
+    ],
+    "exceptions": [
+      "Confidential bargaining information must still be protected under its separate rule."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24.",
+        "locator": "No relief from disclosure liability or breach of fiduciary duty",
+        "supports": "Consent to dual agency preserves duties of care, honesty, material disclosure, and proper handling of entrusted funds rather than waiving them."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.16, dual-agent duties",
+        "supports": "Consent to dual agency preserves duties of care, honesty, material disclosure, and proper handling of entrusted funds rather than waiving them."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "dual-agency-exists-at-the-broker-level",
+        "summary": "The dual agent cannot trade away structural-defect disclosure in return for the parties' consent to representation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-026"]
+  },
+  {
+    "id": "agency-rule-shared-report-proposal",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "what-a-dual-agent-can-still-do",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "A dual agent may transmit an authorized proposal based on shared property information without revealing either client's undisclosed bargaining limits.",
+    "conditions": [
+      "Both principals have the roof report.",
+      "The communication conveys the buyer's proposal rather than private authority to pay or accept another price."
+    ],
+    "exceptions": [
+      "Dual agency does not categorically bar communicating offers or explaining documented deadlines."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21.",
+        "locator": "Protected information and express permission",
+        "supports": "A dual agent may transmit an authorized proposal based on shared property information without revealing either client's undisclosed bargaining limits."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.16, dual-agent responsibilities",
+        "supports": "A dual agent may transmit an authorized proposal based on shared property information without revealing either client's undisclosed bargaining limits."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "what-a-dual-agent-can-still-do",
+        "summary": "Both clients received a $12,000 roof report; transmitting a matching repair-credit request does not disclose either reservation price.",
+        "figureIds": ["exp-agency-shared-report-private-limits"]
+      }
+    ],
+    "questionIds": ["agency-047"]
+  },
+  {
+    "id": "agency-rule-unrepresented-not-dual",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "read-the-timing-as-a-sequence",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "The buyer's decision to remain unrepresented does not by itself make the listing broker a dual agent.",
+    "conditions": [
+      "The broker continues to represent only the seller.",
+      "No different representation undertaking is supplied."
+    ],
+    "exceptions": [
+      "A later undertaking to advise and negotiate for the buyer requires fresh analysis of the actual role."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.22, unrepresented buyer does not itself create dual agency",
+        "supports": "The buyer's decision to remain unrepresented does not by itself make the listing broker a dual agent."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-the-timing-as-a-sequence",
+        "summary": "An unrepresented buyer delivers an offer through the listing broker without being described as a represented client.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-029"]
+  },
+  {
+    "id": "agency-rule-written-role-change",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "read-the-timing-as-a-sequence",
+    "coverageTopics": ["Disclosure of Agency"],
+    "rule": "Before performance of the agency's object, a contractual change in the agency relationship requires the parties' written consent under section 2079.23.",
+    "conditions": [
+      "The broker proposes changing from seller-only representation to dual agency.",
+      "Address accurate disclosure and confirmation of the changed role as well."
+    ],
+    "exceptions": [
+      "An earlier receipt for general agency education is not the required consent to the change."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.23, contractual change with written consent",
+        "supports": "Before performance of the agency's object, a contractual change in the agency relationship requires the parties' written consent under section 2079.23."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+        "locator": "Confirmation of representation",
+        "supports": "Before performance of the agency's object, a contractual change in the agency relationship requires the parties' written consent under section 2079.23."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-the-timing-as-a-sequence",
+        "summary": "The changing-representation sequence adds written agreement and accurate confirmation before undertaking the new dual role.",
+        "figureIds": ["exp-agency-changing-representation-sequence"]
+      }
+    ],
+    "questionIds": ["agency-059"]
+  },
+  {
+    "id": "agency-rule-economic-self-interest",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "a-licensees-purchase-requires-a-full-picture",
+    "coverageTopics": ["Disclosure of Acting as Principal or Other Interest"],
+    "rule": "An agent must disclose a material personal economic interest in the transaction, including controlled entities or promised resale-profit participation; license status alone does not explain the conflict.",
+    "conditions": [
+      "The interest affects the agent's incentives while the agent owes duties to the principal.",
+      "The principal needs material facts to make an informed decision."
+    ],
+    "exceptions": [
+      "A fair or profitable sale does not itself cure nondisclosure; damages and conduct are separate questions."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Self-dealing, secret profits, and disclosure of personal interests",
+        "supports": "An agent must disclose a material personal economic interest in the transaction, including controlled entities or promised resale-profit participation; license status alone does not explain the conflict."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+        "locator": "Section 2079.16, fiduciary loyalty and disclosure",
+        "supports": "An agent must disclose a material personal economic interest in the transaction, including controlled entities or promised resale-profit participation; license status alone does not explain the conflict."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24.",
+        "locator": "Preserved fiduciary duties",
+        "supports": "An agent must disclose a material personal economic interest in the transaction, including controlled entities or promised resale-profit participation; license status alone does not explain the conflict."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-licensees-purchase-requires-a-full-picture",
+        "summary": "The licensed agent's undisclosed participation in the buyer's resale profit is distinct from merely stating license status.",
+        "figureIds": ["exp-agency-profit-participation-disclosure"]
+      }
+    ],
+    "questionIds": ["agency-025", "agency-048"]
+  },
+  {
+    "id": "agency-rule-conduct-not-profit",
+    "lessonSlug": "agency-fiduciary-duties",
+    "sectionId": "separate-misconduct-from-a-disappointing-result",
+    "coverageTopics": ["Responsibilities of Agent to Seller/Buyer as Principal"],
+    "rule": "A profitable transaction does not itself cure a fiduciary's material undisclosed interest; evaluate the conduct separately from damages or other remedies.",
+    "conditions": [
+      "The broker holds a material economic interest unknown to the principal.",
+      "Acceptance of proceeds without knowledge of the conflict is not informed consent."
+    ],
+    "exceptions": [
+      "An unexpected market loss alone likewise does not establish a breach where the agent acted with appropriate care and honesty."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+        "locator": "Fiduciary care, integrity, honesty, and loyalty",
+        "supports": "Fiduciary duties govern the agent's conduct, rather than measuring compliance solely by the transaction's profit."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Fiduciary obligations; personal interests and secret profits",
+        "supports": "The principal needs disclosure of material conflicting interests to make an informed decision."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-misconduct-from-a-disappointing-result",
+        "summary": "The chapter compares a profitable resale with a concealed conflict against a market decline following competent, honest advice.",
+        "figureIds": ["exp-agency-conduct-versus-outcome"]
+      }
+    ],
+    "questionIds": ["agency-046"]
+  },
+  {
+    "id": "agency-rule-affiliation-payment",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "sectionId": "three-similar-payments-three-different-questions",
+    "coverageTopics": ["Disclosure of Acting as Principal or Other Interest"],
+    "rule": "A material provider affiliation requires proper disclosure, while a proposed payment must independently satisfy settlement-service law; disclosure alone cannot legalize a prohibited referral payment.",
+    "conditions": [
+      "Apply RESPA to a covered federally related mortgage transaction.",
+      "Classify the payment as referral, actual service compensation, or ownership distribution before applying exceptions."
+    ],
+    "exceptions": [
+      "Qualifying cooperative brokerage referrals and affiliated-business arrangements have specific conditions; they are not a blanket permission for kickbacks."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+        "locator": "RESPA section 8 general prohibitions, section 8(c), and affiliated business arrangements",
+        "supports": "A material provider affiliation requires proper disclosure, while a proposed payment must independently satisfy settlement-service law; disclosure alone cannot legalize a prohibited referral payment."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Disclosure of interests and secret compensation",
+        "supports": "A material provider affiliation requires proper disclosure, while a proposed payment must independently satisfy settlement-service law; disclosure alone cannot legalize a prohibited referral payment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "three-similar-payments-three-different-questions",
+        "summary": "The seller contribution, inspector referral payment, and affiliated-business distribution require different legal inquiries.",
+        "figureIds": ["exp-agency-disclosed-payment-legality"]
+      }
+    ],
+    "questionIds": ["agency-028", "agency-050"]
+  },
+  {
+    "id": "agency-rule-independent-pricing",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "compensation-is-a-contract-question",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "Brokerage compensation is negotiated and independently set; competing brokerages cannot agree among themselves to fix fee levels or fee structures.",
+    "conditions": [
+      "The brokerage chooses its own pricing without an agreement among competitors.",
+      "The client may negotiate or select another provider."
+    ],
+    "exceptions": [
+      "No DRE, association, or MLS percentage establishes a mandatory statewide commission."
+    ],
+    "sources": [
+      {
+        "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+        "locator": "Price fixing: independent pricing versus competitor agreements",
+        "supports": "Brokerage compensation is negotiated and independently set; competing brokerages cannot agree among themselves to fix fee levels or fee structures."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Compensation and negotiated agreements",
+        "supports": "Brokerage compensation is negotiated and independently set; competing brokerages cannot agree among themselves to fix fee levels or fee structures."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compensation-is-a-contract-question",
+        "summary": "The chapter contrasts independently chosen percentage or fixed fees with a coordinated industry rate.",
+        "figureIds": ["exp-agency-fee-contract-elements"]
+      }
+    ],
+    "questionIds": ["agency-031"]
+  },
+  {
+    "id": "agency-rule-earning-conditions",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "test-the-earning-conditions-one-at-a-time",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "Whether compensation is earned depends on the brokerage agreement's stated conditions and relevant performance facts, not merely on the offered price or whether closing occurred.",
+    "conditions": [
+      "For a ready-willing-able clause, evaluate authorized terms and financial ability.",
+      "Examine any express closing condition and the reason performance failed."
+    ],
+    "exceptions": [
+      "Seller prevention can affect fee liability; a failed closing is not automatically a complete defense."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Compensation; ready, willing, and able purchaser; conditions of employment",
+        "supports": "Whether compensation is earned depends on the brokerage agreement's stated conditions and relevant performance facts, not merely on the offered price or whether closing occurred."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "test-the-earning-conditions-one-at-a-time",
+        "summary": "The $600,000 cash seller compares altered seller-financing terms, unproved funds, and a buyer matching the authorized bargain.",
+        "figureIds": ["exp-agency-ready-willing-able-evidence"]
+      }
+    ],
+    "questionIds": ["agency-037", "agency-053"]
+  },
+  {
+    "id": "agency-rule-salesperson-payment",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "who-may-receive-the-salespersons-fee",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "A salesperson's compensation for licensed activity must be received through the broker under whom the salesperson is licensed, not by accepting a direct client side payment.",
+    "conditions": [
+      "The payment compensates licensed activity.",
+      "Identify the responsible brokerage and applicable compensation agreement."
+    ],
+    "exceptions": ["Calling the payment a bonus does not turn it into nonlicensed compensation."],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+        "locator": "Salesperson compensation from another than the broker under whom licensed",
+        "supports": "A salesperson's compensation for licensed activity must be received through the broker under whom the salesperson is licensed, not by accepting a direct client side payment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "who-may-receive-the-salespersons-fee",
+        "summary": "The routing visual directs the seller's negotiating bonus through the responsible broker.",
+        "figureIds": ["exp-agency-salesperson-payment-routing"]
+      }
+    ],
+    "questionIds": ["agency-032"]
+  },
+  {
+    "id": "agency-rule-authority-fee-separation",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "how-an-agency-ends",
+    "coverageTopics": ["Termination of Agency"],
+    "rule": "Termination of ordinary authority does not itself extinguish a fee already earned or liability for breaching the agency employment contract.",
+    "conditions": [
+      "Determine the ending event and the contract's earning conditions separately.",
+      "A disputed fee is not authority to keep acting after revocation."
+    ],
+    "exceptions": [
+      "A legally sufficient power coupled with an interest requires separate analysis; a commission expectancy alone is insufficient."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6.",
+        "locator": "Section 2356(a), revocation of ordinary authority",
+        "supports": "Termination of ordinary authority does not itself extinguish a fee already earned or liability for breaching the agency employment contract."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Termination of agency and compensation consequences",
+        "supports": "Termination of ordinary authority does not itself extinguish a fee already earned or liability for breaching the agency employment contract."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-and-exam-review",
+        "summary": "Taylor's cancellation ends further unauthorized representation without itself proving no commission is owed.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-033"]
+  },
+  {
+    "id": "agency-rule-third-party-revocation",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "duties-that-survive",
+    "coverageTopics": ["Termination of Agency"],
+    "rule": "Section 2356(b) binds a principal or successors to a bona fide transaction with an agent entered by a person without actual knowledge of the principal's revocation, death, or incapacity.",
+    "conditions": [
+      "The transaction is bona fide.",
+      "The relevant third person lacks actual knowledge of the terminating event."
+    ],
+    "exceptions": [
+      "A third person with actual knowledge cannot claim this particular protection.",
+      "The protection is not permission for a former agent who knows of revocation to keep acting."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6.",
+        "locator": "Section 2356(a)-(b), ordinary termination and third-party protection",
+        "supports": "Section 2356(b) binds a principal or successors to a bona fide transaction with an agent entered by a person without actual knowledge of the principal's revocation, death, or incapacity."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "duties-that-survive",
+        "summary": "The table changes only the vendor's actual knowledge of a private revocation to show why the protection differs.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-033"]
+  },
+  {
+    "id": "agency-rule-coupled-interest",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "how-an-agency-ends",
+    "coverageTopics": ["Termination of Agency"],
+    "rule": "An agency coupled with an interest requires a legally sufficient interest in the agency's subject matter; expected compensation or advertising expense alone does not supply it.",
+    "conditions": [
+      "Distinguish a property or security interest from a mere compensation expectancy.",
+      "Apply the governing instrument and statute to any claimed exceptional power."
+    ],
+    "exceptions": [
+      "Revocation can still leave contractual fee or breach claims without preserving agency authority."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6.",
+        "locator": "Section 2356(a), coupled-with-interest qualification",
+        "supports": "An agency coupled with an interest requires a legally sufficient interest in the agency's subject matter; expected compensation or advertising expense alone does not supply it."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Termination; agency coupled with an interest",
+        "supports": "An agency coupled with an interest requires a legally sufficient interest in the agency's subject matter; expected compensation or advertising expense alone does not supply it."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "how-an-agency-ends",
+        "summary": "The chapter rejects treating every commission listing as irrevocable simply because the broker spent money.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-034"]
+  },
+  {
+    "id": "agency-rule-term-expiration",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "how-an-agency-ends",
+    "coverageTopics": ["Termination of Agency"],
+    "rule": "Expiration of the agreed agency term is a section 2355 termination event as to persons with notice; an unresolved lead or online advertisement does not itself renew the appointment.",
+    "conditions": [
+      "The stated term has expired without extension or another operative agreement.",
+      "Separate the agent's authority from any post-expiration compensation clause."
+    ],
+    "exceptions": [
+      "Notice to third parties can affect consequences and must be analyzed separately."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2355.",
+        "locator": "Subdivision (a) and notice qualification",
+        "supports": "Expiration of the agreed agency term is a section 2355 termination event as to persons with notice; an unresolved lead or online advertisement does not itself renew the appointment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "how-an-agency-ends",
+        "summary": "The chapter separates term expiration from lingering advertising and possible contract claims.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-035"]
+  },
+  {
+    "id": "agency-rule-protection-clause",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "procuring-cause-and-exclusivity",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "Post-expiration compensation under a protection clause depends on the clause's actual conditions, including any timely list of prospects and protection period.",
+    "conditions": [
+      "Apply every stated notice and transaction condition.",
+      "Do not infer a perpetual fee from a former inquiry."
+    ],
+    "exceptions": [
+      "A subsequent exclusive listing or other contractual exception may defeat the claim if the clause so provides."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Printed pages 30-31, protection or safety clause and its conditions",
+        "supports": "Post-expiration compensation under a protection clause depends on the clause's actual conditions, including any timely list of prospects and protection period."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "procuring-cause-and-exclusivity",
+        "summary": "The protection-clause sequence checks timely prospect identification before a later sale can trigger the agreed fee.",
+        "figureIds": ["exp-agency-protection-clause-sequence"]
+      }
+    ],
+    "questionIds": ["agency-036"]
+  },
+  {
+    "id": "agency-rule-separate-contracts",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "three-contracts-can-end-differently",
+    "coverageTopics": ["Termination of Agency"],
+    "rule": "Ending a listing or escrow arrangement does not by itself release parties from an independently enforceable purchase contract.",
+    "conditions": [
+      "Only the representation agreement is terminated in the example.",
+      "The buyer has not granted a release and the purchase agreement has no stated automatic linkage."
+    ],
+    "exceptions": [
+      "A separate valid termination right or mutual release of the sale must be analyzed on its own terms."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Agency employment versus purchase contract; termination of agency",
+        "supports": "Ending a listing or escrow arrangement does not by itself release parties from an independently enforceable purchase contract."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "three-contracts-can-end-differently",
+        "summary": "The seller and broker end their listing while the seller still owes performance under the buyer's existing sale agreement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-052"]
+  },
+  {
+    "id": "agency-rule-withdrawal-handoff",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "withdrawal-must-be-communicated-responsibly",
+    "coverageTopics": ["Termination of Agency"],
+    "rule": "A withdrawing agent must account for entrusted property and protect continuing confidences; the end of authority for new business does not excuse abandonment of existing responsibilities.",
+    "conditions": [
+      "Identify the effective end date, funds, records, and pending matters.",
+      "Communicate necessary transition information without gratuitously disclosing client confidences."
+    ],
+    "exceptions": [
+      "New acts outside authority cannot be justified merely by a continuing fee dispute."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Termination and fiduciary accounting",
+        "supports": "A withdrawing agent must account for entrusted property and protect continuing confidences; the end of authority for new business does not excuse abandonment of existing responsibilities."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caeb-1_25-bk-10499/pdf/USCOURTS-caeb-1_25-bk-10499-0.pdf",
+        "locator": "Doc. 174, printed pages 19-20, agency confidentiality",
+        "supports": "The court discusses continuing protection of entrusted confidential information under agency principles, without being presented as controlling California appellate authority."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "withdrawal-must-be-communicated-responsibly",
+        "summary": "The resigning manager holds rent receipts, deposit records, and notice of an urgent leak requiring an orderly handoff.",
+        "figureIds": ["exp-agency-management-withdrawal-handoff"]
+      }
+    ],
+    "questionIds": ["agency-038"]
+  },
+  {
+    "id": "agency-rule-commission-two-bases",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "calculating-a-negotiated-commission",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "A salesperson percentage applies to the brokerage compensation specified by the agreement, not automatically to the property's price.",
+    "conditions": [
+      "Compute the brokerage fee first when it is a percentage of price.",
+      "Apply only deductions and splits stated by the problem."
+    ],
+    "exceptions": ["A gross compensation share is not take-home profit."],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Negotiated compensation; internal salesperson-broker agreements",
+        "supports": "A salesperson percentage applies to the brokerage compensation specified by the agreement, not automatically to the property's price."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "calculating-a-negotiated-commission",
+        "summary": "At $700,000 times 2%, the $14,000 brokerage fee times 65% yields a $9,100 salesperson share.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["agency-030"]
+  },
+  {
+    "id": "agency-rule-ordered-referral-split",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "a-multistep-calculation",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "When an agreement deducts a referral before an internal split, apply the salesperson percentage to the remainder; an inverse calculation divides by the product of the retained proportions.",
+    "conditions": [
+      "Identify whether the referral precedes the internal split.",
+      "Use the same expressly stated compensation base throughout the calculation."
+    ],
+    "exceptions": [
+      "A different agreement can define a different order; this is not a statewide brokerage formula."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Contractual compensation and internal split terms",
+        "supports": "When an agreement deducts a referral before an internal split, apply the salesperson percentage to the remainder; an inverse calculation divides by the product of the retained proportions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-multistep-calculation",
+        "summary": "The $18,000 fee less a $4,500 referral leaves $13,500; a 60% salesperson share is $8,100, and the components reconcile.",
+        "figureIds": ["exp-agency-referral-then-internal-split"]
+      }
+    ],
+    "questionIds": ["agency-051", "agency-061"]
+  },
+  {
+    "id": "agency-rule-defined-referral-base",
+    "lessonSlug": "agency-compensation-and-termination",
+    "sectionId": "keep-separate-agreements-separate",
+    "coverageTopics": ["Commission and Fees"],
+    "rule": "The referral agreement determines whether its percentage applies to total collected compensation or only a specified contribution; the source of payments does not silently rewrite that base.",
+    "conditions": [
+      "Read the agreement's denominator before applying its rate.",
+      "Do not count a credited seller contribution twice in the buyer's remaining obligation."
+    ],
+    "exceptions": [
+      "A referral expressly limited to the seller-funded portion excludes the buyer-funded portion."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+        "locator": "Printed page 29, Agreement between brokers and Commission as negotiated",
+        "supports": "The referral agreement determines whether its percentage applies to total collected compensation or only a specified contribution; the source of payments does not silently rewrite that base."
+      },
+      {
+        "url": "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+        "locator": "RESPA section 8 General FAQ 4, item 5, cooperative brokerage and referral arrangements",
+        "supports": "Section 8(c) permits qualifying payments under cooperative brokerage and referral arrangements; this source supports their legal classification, not the agreement's arithmetic denominator."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-separate-agreements-separate",
+        "summary": "The credited $8,000 seller contribution plus $4,000 buyer payment totals the $12,000 base; 20% is $2,400.",
+        "figureIds": ["exp-agency-buyer-contribution-credit"]
+      }
+    ],
+    "questionIds": ["agency-054", "agency-062"]
+  }
+]

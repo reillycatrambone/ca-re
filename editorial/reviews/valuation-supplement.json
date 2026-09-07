@@ -1,0 +1,36 @@
+{
+  "id": "valuation-supplement-independent-2026-09-07",
+  "reviewed": "2026-09-07",
+  "reviewer": "audit_exam_bank independent reviewer; supplemental rules, questions, and teaching examples authored by root",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read both new valuation rule records, practice questions valuation-57 and valuation-58 with all eight option rationales, and the added tract-allowance and cost-index paragraphs/tables in valuation-sales-comparison and valuation-cost-approach. Read the full one-page official BOE Rule4 and Rule6 texts. Recomputed the two question answers ($480,000 and $288,000) and the two teaching examples ($640,000 and $500,000), including the street-area no-double-counting assumption and current/original index denominator. Schema and chapter/source/concept/section metadata validated with the combined content.",
+  "sourceUrls": [
+    "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+    "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+  ],
+  "artifacts": [
+    {
+      "kind": "rule",
+      "id": "valuation-rule-raw-tract-allowances",
+      "digest": "a1720e02386cccc4e210b184c136c8ee0e94829370a09fa463ce671b0699a20f"
+    },
+    {
+      "kind": "rule",
+      "id": "valuation-rule-cost-index-base",
+      "digest": "7e0e1a861b64e8257eaa028e54386bca9ed477aceec4ed6b69bf45eeb7e2e8a2"
+    },
+    {
+      "kind": "question",
+      "id": "valuation-57",
+      "digest": "a106ca7b6d6f54e6a3a52d803f8427d58dc3cae8b10caea0549d019cdb7f5d2b"
+    },
+    {
+      "kind": "question",
+      "id": "valuation-58",
+      "digest": "0b6e9a5de31874b97cbcb138203b2e12ac95acf422c3c359325338e9eb3baef8"
+    }
+  ],
+  "findings": [],
+  "limitations": "Independent AI primary-source review, not a qualified human appraisal review or an exhaustive appraisal-method curriculum assessment. These fictional examples use their stipulated costs and allowances; they do not replace evidence-based feasibility analysis. No unrelated existing chapter material or visual was newly certified by this supplemental record."
+}

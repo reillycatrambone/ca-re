@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "practice-rule-salesperson-payments-through-broker",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "the-activity-determines-the-license",
+    "coverageTopics": [
+      "Licensing, and Continuing Education Requirements and Procedures"
+    ],
+    "rule": "A salesperson accepts compensation for licensed activity only from the broker under whom the salesperson is licensed; changing a negotiating fee into a bonus does not bypass that route.",
+    "conditions": [
+      "The service is an act requiring a real estate license.",
+      "The recipient is acting as a salesperson through a responsible broker."
+    ],
+    "exceptions": [
+      "A person paid for genuinely unlicensed administrative work presents a different licensing question; this does not authorize an unlicensed person to negotiate."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+        "locator": "Section 10137, salesperson receipt and payment paragraphs",
+        "supports": "Compensation for licensed work must pass through the responsible broker, including compensation shared with another licensee."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "supervision-is-an-operating-responsibility",
+        "summary": "The seller's separate negotiating fee cannot go directly to the salesperson; the broker relationship controls the payment route.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-001"
+    ]
+  },
+  {
+    "id": "practice-rule-late-renewal-not-present-authority",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "initial-qualification-and-renewal",
+    "coverageTopics": [
+      "Licensing, and Continuing Education Requirements and Procedures"
+    ],
+    "rule": "A licensee who missed timely renewal must stop licensed acts until renewal, even if still within the two-year late-renewal period; later renewal does not retroactively authorize negotiations.",
+    "conditions": [
+      "The license has expired without a qualifying timely renewal filing.",
+      "The proposed act requires a real estate license."
+    ],
+    "exceptions": [
+      "Section 10156.2 continuation applies to a qualifying timely filing with the prescribed application, fee, and good-faith CE evidence if the license was not previously suspended or revoked; subsequent DRE notice can end that continuation."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/licensees/renewlicense.html",
+        "locator": "On-Time Renewals and Late Renewals",
+        "supports": "Distinguishes continued authority following timely renewal from the two-year opportunity to renew without authority during a lapse."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10156.2.",
+        "locator": "Section 10156.2, first and second paragraphs",
+        "supports": "Specifies timely-filing requirements and DRE notice rules for continued operation."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10201.",
+        "locator": "Section 10201",
+        "supports": "Allows late renewal within the statutory period without converting the lapse into licensed authority."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario",
+        "summary": "Morgan filed no on-time renewal and cannot negotiate the counteroffer while preparing a late application.",
+        "figureIds": [
+          "exp-practice-app-timely-renewal-fork"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-002",
+      "practice-060"
+    ]
+  },
+  {
+    "id": "practice-rule-assistant-administration-not-advice",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "assistants-can-support-but-cannot-replace-licensees",
+    "coverageTopics": [
+      "Permitted Activities of Unlicensed Sales Assistants"
+    ],
+    "rule": "A properly supervised unlicensed assistant may perform permitted clerical and status tasks but may not independently choose transaction terms, negotiate, or give substantive advice.",
+    "conditions": [
+      "The assignment is evaluated by its actual function, not the worker's title.",
+      "Permitted support is performed with the responsible broker's knowledge and consent, within DRE's task-specific limitations."
+    ],
+    "exceptions": [
+      "Typing supplied terms or transmitting an approved message is not independent selection of the terms.",
+      "An expired license without timely-renewal protection does not expand administrative authority."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2018Guidelines%20for%20Unlicensed%20Assistants%20-%20Updated%202018.pdf",
+        "locator": "2018 Guidelines, sections on administrative duties, document preparation, and communicating with parties",
+        "supports": "Permits limited support with broker knowledge and consent while reserving licensed judgment and negotiation to authorized licensees."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+        "locator": "Section 10137, first paragraph",
+        "supports": "A broker cannot retain or compensate an unlicensed person to perform covered licensed acts."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "assistants-can-support-but-cannot-replace-licensees",
+        "summary": "An assistant can obtain the inspection report's delivery status but must refer a question about canceling because of its findings.",
+        "figureIds": [
+          "supplement-assistant-task-boundary"
+        ]
+      },
+      {
+        "sectionId": "apply-the-licensing-test-to-a-workflow",
+        "summary": "Typing supplied information differs from selecting a buyer's inspection contingency period.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-003",
+      "practice-057",
+      "practice-085"
+    ]
+  },
+  {
+    "id": "practice-rule-supervision-survives-delegation",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "supervision-is-an-operating-responsibility",
+    "coverageTopics": [
+      "Agency Supervision"
+    ],
+    "rule": "Reasonable broker supervision requires implemented controls and monitoring; an independent-contractor label or branch-manager appointment does not eliminate the responsible broker's overall duty.",
+    "conditions": [
+      "Personnel conduct licensed activity under the responsible broker.",
+      "The supervision system is fitted to the firm's transactions, workforce, and branch locations."
+    ],
+    "exceptions": [
+      "Qualified associates can assist with administration, but overall supervisory responsibility remains with the responsible broker."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2725(a)-(g) and concluding paragraphs",
+        "supports": "Covers documents, records, trust handling, advertising, discrimination training, activity reports, monitoring, and retained overall responsibility."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "build-supervision-around-evidence",
+        "summary": "Repeated late deposit receipts require an investigation and corrective controls, not reliance on a signed manual or a manager appointment.",
+        "figureIds": [
+          "supervision-delegation",
+          "exp-practice-app-supervision-exception-log"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-004",
+      "practice-058"
+    ]
+  },
+  {
+    "id": "practice-rule-renewal-ce-category-and-total",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "initial-qualification-and-renewal",
+    "coverageTopics": [
+      "Licensing, and Continuing Education Requirements and Procedures"
+    ],
+    "rule": "Ordinary renewal requires 45 hours of approved continuing education, but a salesperson's first-renewal course mix differs from a broker's first renewal and subsequent renewals.",
+    "conditions": [
+      "The licensee is renewing in the relevant category and period.",
+      "No approved continuing-education exemption changes the ordinary requirement."
+    ],
+    "exceptions": [
+      "DRE describes an exemption request for a licensee at least 70 with 30 continuous years in good standing.",
+      "A qualifying CE extension concerns evidence of compliance and is not an unrestricted waiver of licensing requirements."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/licensees/cerequirements.html",
+        "locator": "Salespersons Renewing for the First Time; Brokers or Officers Renewing for the First Time; All Licensees, Second and Subsequent Renewals; exemption information",
+        "supports": "Establishes the 45-hour total, different category-specific subjects, minimum consumer-protection hours, and limited exemption."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "initial-qualification-and-renewal",
+        "summary": "The chapter contrasts first-renewal salesperson subjects with the broker and later-renewal arrangements; using the broker list automatically can misclassify the requirement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-005"
+    ]
+  },
+  {
+    "id": "practice-rule-retention-starts-at-correct-event",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "records-make-conduct-reviewable",
+    "coverageTopics": [
+      "Record Keeping Requirements"
+    ],
+    "rule": "The broker generally retains covered transaction records for three years from closing, or from the listing date if the transaction is not consummated; the file must remain available for DRE examination.",
+    "conditions": [
+      "The record was obtained or executed in connection with a transaction requiring a broker license.",
+      "No separate preservation duty requires a longer period."
+    ],
+    "exceptions": [
+      "Section 10148(a) excludes the specified ephemeral electronic messages from its retention requirement; a platform label alone does not determine whether a record falls within that statutory exception.",
+      "Pending litigation, an investigation, or another applicable law may prevent destruction after the ordinary minimum."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10148.",
+        "locator": "Section 10148(a) and (e)",
+        "supports": "Identifies record categories, alternative clock-start events, examination access, the ephemeral-message qualification, and prohibited destruction or falsification."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2729(a)-(b)",
+        "supports": "Sets requirements for qualifying electronic image storage and production for examination."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "records-make-conduct-reviewable",
+        "summary": "The retention comparison selects closing for a completed sale and listing for an unconsummated transaction.",
+        "figureIds": [
+          "exp-practice-app-retention-start-events"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-006"
+    ]
+  },
+  {
+    "id": "practice-rule-recovery-eligibility-before-limits",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "discipline-and-financial-recovery-serve-different-purposes",
+    "coverageTopics": [
+      "California Real Estate Recovery Fund",
+      "DRE Jurisdiction and Disciplinary Actions"
+    ],
+    "rule": "The Consumer Recovery Account is a limited remedy for eligible uncompensated actual direct loss from licensee intentional fraud or trust-fund conversion, not general insurance for a disappointing investment or fee dispute.",
+    "conditions": [
+      "The conduct occurred in a transaction requiring a real estate license.",
+      "The claimant satisfies the qualifying determination, collection, application, notice, and other statutory requirements."
+    ],
+    "exceptions": [
+      "An ordinary commission disagreement without qualifying fraud or conversion does not establish eligibility.",
+      "DRE discipline alone is not the qualifying civil judgment, arbitration award, or criminal restitution order and collection process."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+        "locator": "How It Works, eligibility, collection, and one-year application paragraphs",
+        "supports": "Defines qualifying misconduct and determinations, reasonable collection efforts, and the application deadline."
+      },
+      {
+        "url": "https://www.dre.ca.gov/Consumers/FileComplaint.html",
+        "locator": "What We Can Do and What We Cannot Do",
+        "supports": "Distinguishes disciplinary authority from court-ordered refunds and damages."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-the-remedy-from-the-complaint",
+        "summary": "A defect-concealment claimant may need disciplinary and civil processes; simple dissatisfaction or a normal fee disagreement is not automatic recovery eligibility.",
+        "figureIds": [
+          "exp-practice-app-remedy-forum-routing"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-008",
+      "practice-059"
+    ]
+  },
+  {
+    "id": "practice-rule-recovery-two-concurrent-ceilings",
+    "lessonSlug": "practice-licensing-supervision",
+    "sectionId": "discipline-and-financial-recovery-serve-different-purposes",
+    "coverageTopics": [
+      "California Real Estate Recovery Fund"
+    ],
+    "rule": "For a current eligible claim, recovery is limited by actual eligible loss, the $50,000 transaction ceiling, and the remaining $250,000 licensee aggregate; the claimant cannot choose only the larger ceiling.",
+    "conditions": [
+      "All eligibility and collection requirements are independently satisfied.",
+      "The calculation states prior aggregate payments and assumes no competing claims or other adjustments."
+    ],
+    "exceptions": [
+      "Multiple victims in one transaction share its transaction limit.",
+      "Competing claims may require proration, and a calculated ceiling is not an automatic award."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+        "locator": "How It Works, statutory maximum and multiple-claim proration paragraphs",
+        "supports": "States the current $50,000 per-transaction and $250,000 per-licensee limits and potential proration."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-the-remedy-from-the-complaint",
+        "summary": "The chart holds eligible loss at $70,000 while prior licensee payments reduce the remaining aggregate ceiling.",
+        "figureIds": [
+          "exp-practice-app-recovery-two-ceilings"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-007",
+      "practice-086"
+    ]
+  },
+  {
+    "id": "practice-rule-salesperson-immediate-trust-delivery",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "two-different-clocks",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "A salesperson who receives trust funds on the responsible broker's behalf must immediately deliver them to the broker, or follow the broker's direction to an authorized alternative destination.",
+    "conditions": [
+      "The recipient acts as the broker's salesperson.",
+      "The funds belong to another person and are received in that brokerage role."
+    ],
+    "exceptions": [
+      "Broker direction may permit direct delivery to the principal or neutral escrow, or deposit into the broker's trust account; it does not create a personal three-day holding allowance."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+        "locator": "Section 10145(c)",
+        "supports": "Requires immediate delivery and identifies the authorized destinations under broker direction."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-one-payment-from-receipt-to-release",
+        "summary": "The salesperson receives an $8,000 escrow-payable check on Monday and follows the broker's instruction to deliver directly, retaining receipt evidence.",
+        "figureIds": [
+          "exp-document-unbanked-receipt",
+          "exp-practice-app-receipt-role-clocks"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-009"
+    ]
+  },
+  {
+    "id": "practice-rule-broker-placement-and-escrow-clocks",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "two-different-clocks",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "Ordinary trust-fund placement is due within three business days following receipt by the broker or salesperson; a qualifying broker acting as escrow holder has the faster next-business-day deadline.",
+    "conditions": [
+      "The ordinary rule concerns placement with the funds' owner, neutral escrow, or a compliant trust account.",
+      "The faster case is a broker not licensed under the Escrow Law acting as escrow holder in a purchase and sale, exchange, or loan transaction in which the broker performs licensed acts."
+    ],
+    "exceptions": [
+      "Regulation 2832(c)-(d) provides a conditioned offer-check holding rule.",
+      "The express broker-escrow rule overrides the ordinary timing in subdivisions (a) and (d)."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2832(a), (c)-(e)",
+        "supports": "Specifies receipt by either broker or salesperson, authorized destinations, holding conditions, and the faster broker-escrow deadline."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "two-different-clocks",
+        "summary": "The receipt-role timeline compares immediate salesperson delivery, ordinary placement, and the faster broker-escrow role.",
+        "figureIds": [
+          "exp-practice-app-receipt-role-clocks"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-010"
+    ]
+  },
+  {
+    "id": "practice-rule-offer-check-authority-after-acceptance",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "holding-an-offer-check-uncashed",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "Preacceptance holding requires the specified check or written-instruction condition and disclosure to the offeree; after acceptance, continued holding requires the offeree's written authorization.",
+    "conditions": [
+      "Before acceptance the check is not negotiable by the broker, or the offeror gives written instructions not to deposit or cash before acceptance.",
+      "The offeree learns of the holding arrangement before or when the offer is presented."
+    ],
+    "exceptions": [
+      "Absent continued written authority from the offeree, place the check into neutral escrow or the trust account within three business days after acceptance.",
+      "Direct postacceptance delivery to the offeree instead requires both parties' express written authorization; the faster broker-escrow rule remains applicable in its stated setting."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2832(c)-(e)",
+        "supports": "Defines the two preacceptance conditions, postacceptance custody choices, offeree written authorization, and overriding broker-escrow clock."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-one-payment-from-receipt-to-release",
+        "summary": "Wednesday acceptance changes the authority needed to keep holding the buyer's check; the earlier buyer instruction does not last indefinitely.",
+        "figureIds": [
+          "exp-practice-app-offer-check-authority-handoff"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-011",
+      "practice-088"
+    ]
+  },
+  {
+    "id": "practice-rule-bank-charge-reserve-limited-purpose",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "limited-broker-money-is-an-exception-not-a-target",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "The bank-charge exception allows reasonably sufficient broker-owned funds up to $200 in the trust account solely for bank-assessed service charges or fees, not general personal spending.",
+    "conditions": [
+      "The money is identified as broker-owned rather than a beneficiary balance.",
+      "Its purpose is charges or fees levied against the account by the depository."
+    ],
+    "exceptions": [
+      "Other narrowly conditioned exceptions, including an inseparable mixed receipt under Regulation 2835(b), have different tests; the $200 rule is not a blanket permission for commingling."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2835(a)-(d)",
+        "supports": "Limits the bank-fee reserve and distinguishes it from the mixed-receipt and qualifying mortgage-activity exceptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "limited-broker-money-is-an-exception-not-a-target",
+        "summary": "The broker bank-fee ledger separates the broker reserve and charges from the clients' beneficial ownership.",
+        "figureIds": [
+          "exp-practice-app-broker-bank-fee-ledger"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-012"
+    ]
+  },
+  {
+    "id": "practice-rule-each-short-disbursement-needs-all-owner-consent",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "diagnose-shortages-without-hiding-them",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "Before each disbursement that would reduce funds below aggregate trust liability, the broker needs prior written consent from every owner; a positive bank balance or the recipient's permission alone is insufficient.",
+    "conditions": [
+      "The account holds funds for multiple owners.",
+      "The disbursement would leave less than the aggregate amount owed to the fund owners."
+    ],
+    "exceptions": [
+      "Do not infer all-owner consent from silence, later replenishment, or consent of only the beneficiary being overpaid.",
+      "This consent requirement does not dispense with other fiduciary or legal restrictions."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2832.1",
+        "supports": "Requires every fund owner's written consent before each disbursement producing a shortfall."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/re13.pdf",
+        "locator": "Trust Fund Liability, printed page 5",
+        "supports": "Calculates liability from positive beneficiary balances rather than offsetting a negative ledger."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "diagnose-shortages-without-hiding-them",
+        "summary": "Paying B's $4,000 bill when B owns only $3,000 leaves a $1,000 shortage against A's $9,000 entitlement, with no all-owner prior written consent.",
+        "figureIds": [
+          "exp-ledger-beneficiary-shortage"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-013",
+      "practice-061",
+      "practice-087"
+    ]
+  },
+  {
+    "id": "practice-rule-three-way-reconciliation-not-netting-deficits",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "three-records-should-tell-one-story",
+    "coverageTopics": [
+      "Trust Account Management",
+      "Record Keeping Requirements"
+    ],
+    "rule": "Reconcile the adjusted bank balance, control record, and beneficiary records; matching net totals cannot cure a negative beneficiary ledger or an unsupported ownership posting.",
+    "conditions": [
+      "Deposits in transit and outstanding checks are valid reconciling items.",
+      "Beneficiary liabilities and every receipt or disbursement are supported by actual records."
+    ],
+    "exceptions": [
+      "The specific monthly record reconciliation is excepted in months without account activity.",
+      "Negative beneficiary balances do not reduce the amount owed to positive beneficiaries."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulations 2831, 2831.1, and 2831.2",
+        "supports": "Requires chronological and separate records and retained monthly reconciliation, with the no-activity exception."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/re13.pdf",
+        "locator": "Trust Fund Liability, printed page 5; Reconciliation of Accounting Records, printed pages 8-9",
+        "supports": "Explains positive-balance liability and reconciliation of the separate records, control balance, and bank balance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-reconciliation",
+        "summary": "An $18,000 bank balance plus $2,000 in transit minus $3,000 outstanding equals $17,000; A's $7,000 and B's $10,000 reconcile if valid.",
+        "figureIds": [
+          "supplement-trust-reconciliation"
+        ]
+      },
+      {
+        "sectionId": "three-records-should-tell-one-story",
+        "summary": "The wrong-owner posting figure shows that matching totals cannot validate an allocation to the wrong beneficiary.",
+        "figureIds": [
+          "exp-practice-app-correct-total-wrong-owner"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-014",
+      "practice-015",
+      "practice-087"
+    ]
+  },
+  {
+    "id": "practice-rule-disputed-deposit-is-not-brokers-award",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "disbursement-and-disputes",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "A broker protects disputed money until an existing valid instruction or legal determination authorizes disbursement; representing one claimant does not authorize deciding ownership in that claimant's favor.",
+    "conditions": [
+      "Buyer and seller have conflicting entitlement claims.",
+      "No controlling instruction or legal determination authorizes the proposed release on the stated facts."
+    ],
+    "exceptions": [
+      "Valid agreed instructions or enforceable legal direction can authorize disposition; not every dispute requires a new court judgment."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+        "locator": "Section 10145(a)(1)",
+        "supports": "Requires funds to remain until disbursed according to instructions from the person entitled to them."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/re13.pdf",
+        "locator": "Trust Fund Handling and Trust Fund Liability",
+        "supports": "Distinguishes custody, entitlement, and supporting authority for disbursement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-one-payment-from-receipt-to-release",
+        "summary": "After cancellation the buyer demands the held check while the seller disputes cancellation; possession does not decide the parties' entitlement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-016"
+    ]
+  },
+  {
+    "id": "practice-rule-provisional-credit-is-not-collection",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "diagnose-shortages-without-hiding-them",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "Temporary bank credit for a deposited check is not proof of final collection; refunding before collection can consume other beneficiaries' money when the original check fails.",
+    "conditions": [
+      "The initial receipt was a check whose collection has not been confirmed.",
+      "A refund or other disbursement is proposed against that receipt."
+    ],
+    "exceptions": [
+      "Verifying collection does not separately resolve a dispute about who is entitled to receive the money."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/re13.pdf",
+        "locator": "Trust Fund Liability, printed page 5, procedure 4",
+        "supports": "Warns against disbursement before a check clears and explains the shortage when an earnest-money check is returned unpaid."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2832.1",
+        "supports": "Requires prior all-owner written consent before a disbursement that would cause a shortfall."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "diagnose-shortages-without-hiding-them",
+        "summary": "The broker refunds $5,000 before the deposit check is finally collected, and the returned check consumes funds belonging elsewhere.",
+        "figureIds": [
+          "exp-practice-app-provisional-credit-return"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-062"
+    ]
+  },
+  {
+    "id": "practice-rule-mixed-receipt-fee-clock-and-dispute",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "keep-broker-compensation-distinct",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "An inseparable receipt partly belonging to the broker may enter a compliant trust account; the undisputed broker portion must leave within 25 days after deposit, while a disputed portion remains until final settlement.",
+    "conditions": [
+      "Separating the principal and broker portions before deposit is not reasonably practicable.",
+      "The account complies with section 10145 and the applicable trust-account regulations."
+    ],
+    "exceptions": [
+      "An internal posting or later declaration that a fee was earned does not restart the deposit-based clock.",
+      "The broker's principal disputing entitlement prevents withdrawal of that disputed portion until the dispute is finally settled."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2835(b) and (d)",
+        "supports": "Gives the impracticable-separation condition, 25-day deposit clock, dispute restriction, and account-compliance condition."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-broker-compensation-distinct",
+        "summary": "One inseparable $2,000 rent check includes an undisputed earned $160 fee, which is recorded and transferred properly rather than used to pay a personal phone bill.",
+        "figureIds": [
+          "exp-practice-app-mixed-receipt-deposit-clock"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-064"
+    ]
+  },
+  {
+    "id": "practice-rule-interest-cannot-benefit-broker",
+    "lessonSlug": "practice-trust-funds",
+    "sectionId": "keep-broker-compensation-distinct",
+    "coverageTopics": [
+      "Trust Account Management"
+    ],
+    "rule": "For a section 10145(d) interest-bearing trust account, interest may not benefit the broker or anyone licensed to the broker directly or indirectly, even with the owner's permission.",
+    "conditions": [
+      "The account satisfies the owner's request and the statutory designation, insurance, separation, disclosure, and allocation requirements.",
+      "The proposed benefit would come from interest on those trust funds."
+    ],
+    "exceptions": [
+      "A gift label or principal's consent does not override the express no-benefit rule.",
+      "A properly allocated benefit to the designated beneficiary is distinct from a broker or affiliated-licensee benefit."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+        "locator": "Section 10145(d)(1)-(6), especially (d)(5)",
+        "supports": "Specifies account prerequisites and expressly prohibits direct or indirect broker or affiliated-licensee interest benefit."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "keep-broker-compensation-distinct",
+        "summary": "The owner offers the interest as a gift to the broker; the owner-versus-affiliate comparison shows why consent cannot authorize the prohibited benefit.",
+        "figureIds": [
+          "exp-practice-app-interest-owner-not-affiliate"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-063"
+    ]
+  },
+  {
+    "id": "practice-rule-material-claims-need-supported-facts",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "facts-opinions-and-omissions",
+    "coverageTopics": [
+      "Truth in Advertising",
+      "General Ethics"
+    ],
+    "rule": "Verifiable claims about permits, legal use, area, or physical condition need a reasonable factual basis; seller attribution or promotional phrasing does not excuse a known material contradiction.",
+    "conditions": [
+      "The representation can materially affect the consumer's understanding.",
+      "The licensee has conflicting information or lacks support for a concrete factual or legal-status claim."
+    ],
+    "exceptions": [
+      "Ordinary subjective praise is not automatically a factual guarantee, but its context can still create a misleading impression.",
+      "Unresolved information should be identified as unresolved rather than silently converted into an affirmative claim."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+        "locator": "Section 10176(a)",
+        "supports": "Substantial misrepresentation is a ground for licensing discipline."
+      },
+      {
+        "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html",
+        "locator": "Misrepresentation, Disclosure, and Advertising",
+        "supports": "Requires accurate advertising and independent verification of factual claims, including property features and potential uses."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "audit-a-representation-before-publication",
+        "summary": "The seller's permitted-bedroom and lot-split assertions require supporting records; a conflicting area record cannot be hidden by quoting only the larger number.",
+        "figureIds": [
+          "supplement-advertising-source-trail",
+          "exp-practice-app-claim-type-evidence"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-025",
+      "practice-069"
+    ]
+  },
+  {
+    "id": "practice-rule-advertising-correction-reaches-known-recipients",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "audit-a-representation-before-publication",
+    "coverageTopics": [
+      "Truth in Advertising",
+      "General Ethics"
+    ],
+    "rule": "Correcting a material representation requires reasonable follow-through on known live copies and recipients; changing only the firm's website does not correct a buyer's known reliance on the old statement.",
+    "conditions": [
+      "The licensee discovers a material error.",
+      "The licensee knows it remains in distributed or syndicated material or was communicated to an interested buyer."
+    ],
+    "exceptions": [
+      "The operational response depends on known distribution and available correction channels; the rule is not a guarantee of finding every unknown copy."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+        "locator": "Section 10176(a)",
+        "supports": "Supports the duty not to continue a substantial misrepresentation."
+      },
+      {
+        "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html",
+        "locator": "Misrepresentation, Disclosure, and Advertising; Responsible Use of AI",
+        "supports": "Supports factual accuracy and maintained oversight; identifying and correcting known copies is the chapter's applied workflow, not a separate quoted statutory deadline."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "audit-a-representation-before-publication",
+        "summary": "A website correction leaves a syndicated advertisement and the interested buyer's prior copy inaccurate; the source trail includes correction and delivery evidence.",
+        "figureIds": [
+          "supplement-advertising-source-trail"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-070"
+    ]
+  },
+  {
+    "id": "practice-rule-first-contact-advertising-identity",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "identify-the-professional-behind-the-advertisement",
+    "coverageTopics": [
+      "Truth in Advertising"
+    ],
+    "rule": "Covered first-contact solicitation identifies the licensee and responsible broker under the applicable advertising rules; team or website branding cannot turn a salesperson into an independent brokerage.",
+    "conditions": [
+      "The material solicits licensed services and serves as a covered first point of contact.",
+      "The identity and number requirements are evaluated under the rules for that medium."
+    ],
+    "exceptions": [
+      "Regulation 2773(b) identifies limited sign exceptions; not every sign has identical requirements.",
+      "Regulation 2773(c) distinguishes controlled or adopted electronic advertising from content whose presentation is controlled by another party."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.6.",
+        "locator": "Section 10140.6(b)-(c)",
+        "supports": "Requires identifying information on covered solicitation and defines the responsible broker's identity and relevant materials."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2773(a)-(c)",
+        "supports": "Specifies license identification, responsible broker name, type size, covered media, and stated exclusions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "identify-the-professional-behind-the-advertisement",
+        "summary": "The fictional advertisement's identity fields distinguish the salesperson's brand from the responsible brokerage.",
+        "figureIds": [
+          "exp-practice-app-ad-professional-identity"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-026"
+    ]
+  },
+  {
+    "id": "practice-rule-competitor-minimum-is-not-independent-pricing",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "competition-and-compensation",
+    "coverageTopics": [
+      "General Ethics"
+    ],
+    "rule": "An agreement among competing brokers to maintain a minimum commission restricts independent pricing; accurate disclosure of that fee to customers does not legalize the competitor agreement.",
+    "conditions": [
+      "Separate competing businesses have agreed on a price or price component.",
+      "The scenario is a naked minimum-fee arrangement, not merely similar prices reached independently."
+    ],
+    "exceptions": [
+      "A firm may independently choose its own fee structure and negotiate with its clients.",
+      "Similar prices alone do not establish agreement, and the inquiry is not whether the fee seems reasonable."
+    ],
+    "sources": [
+      {
+        "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+        "locator": "Price Fixing, opening explanation and discussion of similar prices",
+        "supports": "Distinguishes an agreement to raise, lower, or stabilize prices from independent responses producing similar prices."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "test-conflicts-and-competition-separately",
+        "summary": "Competing firms' minimum-fee agreement remains a problem after client disclosure; one firm's independently set schedule is different.",
+        "figureIds": [
+          "exp-practice-app-independent-versus-coordinated-price"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-027",
+      "practice-071"
+    ]
+  },
+  {
+    "id": "practice-rule-ai-tool-does-not-assume-licensee-duty",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "technology-preserves-duties",
+    "coverageTopics": [
+      "Technology",
+      "Truth in Advertising"
+    ],
+    "rule": "AI-generated client communications and advertising still require licensee judgment and broker supervision; an invented property feature cannot be published as fact because a vendor generated it.",
+    "conditions": [
+      "A licensee proposes to rely on or publish output in licensed professional work.",
+      "Material factual claims have not yet been verified against competent evidence."
+    ],
+    "exceptions": [
+      "The tool can support drafting and organization but cannot assume the professional's licensing, factual-review, or supervisory obligations."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html",
+        "locator": "Broker Supervision and Licensee Responsibility; Misrepresentation, Disclosure, and Advertising",
+        "supports": "Places output review and accuracy responsibilities on the licensee and responsible broker, including AI tools."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+        "locator": "Regulation 2725(b) and (e) and concluding monitoring requirement",
+        "supports": "Covers material documents, advertising, and actual supervisory monitoring."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-the-altered-wire-instruction",
+        "summary": "A generated permitted guesthouse and digitally erased power lines require factual review and the applicable image disclosures before publication.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-028"
+    ]
+  },
+  {
+    "id": "practice-rule-public-ai-input-is-a-confidentiality-decision",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "technology-preserves-duties",
+    "coverageTopics": [
+      "Technology",
+      "General Ethics"
+    ],
+    "rule": "Uploading a client's financial file to a public AI service is a disclosure and security decision, not merely an internal drafting step; confidentiality and applicable privacy duties remain.",
+    "conditions": [
+      "The input contains confidential or sensitive client information.",
+      "No client authorization or approved lawful privacy process supports the proposed upload."
+    ],
+    "exceptions": [
+      "Specific privacy-law coverage depends on the business and facts; the chapter does not assert that every brokerage is covered by every privacy statute.",
+      "Permission to use software is not blanket authorization to expose client data to unknown retention or sharing."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html",
+        "locator": "Privacy, Data Security, and Consumer Information",
+        "supports": "Directs licensees to evaluate collection, retention, sharing and safeguards, and avoid sensitive inputs into public or unsecured AI platforms."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "technology-preserves-duties",
+        "summary": "The chapter contrasts using a tool for work with disclosing client financial records without an approved secure process.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-032"
+    ]
+  },
+  {
+    "id": "practice-rule-altered-image-disclosure-and-original-access",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "digitally-altered-images",
+    "coverageTopics": [
+      "Truth in Advertising",
+      "Technology"
+    ],
+    "rule": "Covered altered sales images need a reasonably conspicuous adjacent alteration statement and prescribed public access to a clearly identified original; a private office copy does not supply public access.",
+    "conditions": [
+      "A broker, salesperson, or person acting on their behalf uses a covered digitally altered image in real-property sales advertising.",
+      "The image changes represented elements rather than only excluded ordinary photographic adjustments that do not change the representation of the property."
+    ],
+    "exceptions": [
+      "On an advertiser-controlled website, the posting must include the original or a qualifying public link to it.",
+      "The listed ordinary adjustments are excluded only when they do not change the real property's representation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+        "locator": "Section 10140.8(a)(1)-(2) and (b)",
+        "supports": "Defines the alteration statement and public original-image access, controlled-website requirements, covered alterations, and adjustment exclusions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-illustration-from-concealment",
+        "summary": "The public-access document contrasts a private stored original with the accessible original required alongside the altered advertisement.",
+        "figureIds": [
+          "exp-practice-app-altered-image-public-access",
+          "exp-practice-app-photo-alteration-sorting"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-029",
+      "practice-091"
+    ]
+  },
+  {
+    "id": "practice-rule-image-label-does-not-prove-feasibility",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "distinguish-illustration-from-concealment",
+    "coverageTopics": [
+      "Truth in Advertising",
+      "General Ethics"
+    ],
+    "rule": "Satisfying altered-image disclosure does not establish that a proposed structural change is feasible or permitted; the associated factual claim still needs competent support.",
+    "conditions": [
+      "An altered image changes the apparent physical property.",
+      "The accompanying claim asserts practical or legal feasibility without supporting evidence."
+    ],
+    "exceptions": [
+      "A clearly identified visualization may depict a proposal, but its label does not authorize a false claim about the existing property or concealment of a material defect."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+        "locator": "Section 10140.8(a)-(b)",
+        "supports": "Requires disclosure of specified image changes; it does not supply engineering or permit approval."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+        "locator": "Section 10176(a)",
+        "supports": "Substantial misrepresentation remains a distinct disciplinary ground."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "distinguish-illustration-from-concealment",
+        "summary": "Removing a support column from an image changes an apparent structural fact; an alteration label alone cannot substantiate a claim that removal is easy.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "practice-092"
+    ]
+  },
+  {
+    "id": "practice-rule-verify-wire-change-outside-message",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "worked-scenario-the-altered-wire-instruction",
+    "coverageTopics": [
+      "Technology",
+      "General Ethics"
+    ],
+    "rule": "Verify a changed closing-payment instruction through a previously trusted independent contact channel before sending funds; a familiar email thread or phone number inside that message is not authentication.",
+    "conditions": [
+      "The consumer receives new or changed wiring information.",
+      "The destination has not been verified through a previously established trusted process."
+    ],
+    "exceptions": [
+      "If money was already sent, prompt contact with the bank or transfer company and FBI reporting become urgent; neither the agent nor the process can guarantee recovery."
+    ],
+    "sources": [
+      {
+        "url": "https://files.consumerfinance.gov/f/documents/cfpb_mortgages-scams_one-pager.pdf",
+        "locator": "One-page guidance, 5 steps to protect yourself (steps 1-3) and What to do if you are a victim",
+        "supports": "Directs use of saved trusted contact information rather than email links or numbers, and immediate bank contact and FBI complaint after a loss."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-scenario-the-altered-wire-instruction",
+        "summary": "An urgent email proposes a new account for a $40,000 closing wire; the buyer verifies outside the message rather than obeying its time pressure.",
+        "figureIds": [
+          "wire-change-verification",
+          "exp-practice-app-wire-loss-response-clock"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-030"
+    ]
+  },
+  {
+    "id": "practice-rule-electronic-recognition-is-not-signing-authority",
+    "lessonSlug": "practice-ethics-advertising-technology",
+    "sectionId": "verify-identity-as-well-as-the-document",
+    "coverageTopics": [
+      "Technology"
+    ],
+    "rule": "In a covered electronic transaction, electronic form alone does not defeat enforceability, but the act must still be attributed to the person and the person's authority to bind another separately established.",
+    "conditions": [
+      "The transaction falls within the electronic-transactions law.",
+      "Each party has agreed to conduct the transaction electronically, as shown by context and conduct."
+    ],
+    "exceptions": [
+      "Using a corporate email account or a signature platform is evidence, not conclusive proof of authority to bind the corporation.",
+      "Agreement to one electronic transaction does not force agreement to other electronic transactions."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+        "locator": "Section 1633.5(a)-(c)",
+        "supports": "Defines voluntary electronic dealing and the scope of the parties' agreement."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+        "locator": "Section 1633.7(a)-(d)",
+        "supports": "Recognizes electronic records, signatures, and contracts without invalidation solely because of electronic form."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.9.",
+        "locator": "Section 1633.9(a)-(b)",
+        "supports": "Requires attribution to the person's act and evaluates legal effect from context, agreement, and other law."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "verify-identity-as-well-as-the-document",
+        "summary": "A platform log from a company email does not by itself establish who signed or whether that person could bind the company.",
+        "figureIds": [
+          "exp-practice-app-electronic-signature-three-questions"
+        ]
+      }
+    ],
+    "questionIds": [
+      "practice-031",
+      "practice-072"
+    ]
+  },
+  {
+    "id": "practice-rule-security-refund-route-and-statement-consent",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "return-method-and-adult-payees",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "The refund route and itemized-statement route are separate decisions: a single tenant's electronic security or rent payments trigger the specified electronic-refund rule, not automatic permission to email the statement.",
+    "conditions": [
+      "The ordinary case has a single adult tenant and no applicable multiple-adult provision.",
+      "For the electronic trigger, the tenant designates a financial account in writing or agrees in writing to an available electronic method."
+    ],
+    "exceptions": [
+      "The landlord and tenant can agree in writing to another refund method.",
+      "A successor who received transferred security has this electronic-return duty only if that successor received rent electronically.",
+      "The written notice of the electronic-return right has specified exceptions for a prior alternative-method agreement and terminations under CCP 1161(2)-(4)."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(h)(1)(A)-(B) and (h)(6)",
+        "supports": "Separates payment and statement delivery, specifies electronic-return conditions and notice, addresses successors and mailing addresses."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "return-method-and-adult-payees",
+        "summary": "The return-method table contrasts a tenant's electronic-payment trigger with the separate mutual agreement needed for an emailed statement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["practice-119"]
+  },
+  {
+    "id": "practice-rule-security-multiple-adult-refund-allocation",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "return-method-and-adult-payees",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "For multiple adult residents, absent a qualifying alternative, the refund check names all adult tenants on the lease at termination; one tenant's unilateral request does not replace that joint-payee default.",
+    "conditions": [
+      "Multiple adult tenants reside in the unit.",
+      "The ordinary check identifies adult tenants on the rental or lease agreement when the tenancy ends."
+    ],
+    "exceptions": [
+      "A mutual written agreement with the landlord and all adult tenants can specify refund recipient or allocation percentages and each tenant's statement delivery route and address.",
+      "Section 1950.5(h)(1)(C)(iii) separately allows another method when its section 1946.7 termination and requesting-tenant conditions apply."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(h)(1)(C)(i)-(iii)",
+        "supports": "States the joint-check default, all-adult written agreement requirements, and the specified protected termination exception."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "return-method-and-adult-payees",
+        "summary": "Ari alone cannot redirect the $800 joint refund; a compliant landlord-Ari-Bo 60/40 agreement instead yields $480 and $320.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["practice-120"]
+  },
+  {
+    "id": "practice-rule-security-estimate-followup-fourteen-days",
+    "lessonSlug": "practice-property-management",
+    "sectionId": "separate-the-accounting-clock-from-the-document-clock",
+    "coverageTopics": [
+      "Property Management"
+    ],
+    "rule": "A permitted good-faith estimate does not postpone the initial 21-calendar-day accounting; complete the required refund and documentation steps within 14 calendar days after the qualifying repair is completed or missing documents arrive.",
+    "conditions": [
+      "The repair to be done by the landlord or employee cannot reasonably be completed within 21 calendar days, or outside-provider documents are not in the landlord's possession by that time.",
+      "The estimate accompanies the timely itemized statement; if missing documents cause the estimate, include the provider's name, address, and telephone number."
+    ],
+    "exceptions": [
+      "The limited documentation exception applies when repair and cleaning deductions total no more than $125 or a properly timed and worded waiver is signed; it does not erase the initial accounting and refund duty.",
+      "A tenant requesting documents within 14 calendar days after receiving the statement must receive compliance within 14 calendar days after the landlord receives the request."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+        "locator": "Section 1950.5(h)(1)-(5)",
+        "supports": "Sets the initial 21-day accounting, estimate conditions, 14-day completion or document-receipt follow-up, supporting-document exceptions, and renewed duty after a timely tenant request."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "separate-the-accounting-clock-from-the-document-clock",
+        "summary": "September 1 vacancy produces a September 22 initial deadline; September 24 repair completion makes follow-up due October 8, while an October 1 missing-invoice receipt makes it due October 15.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["practice-121"]
+  }
+]

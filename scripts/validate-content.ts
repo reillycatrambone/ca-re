@@ -1,4 +1,4 @@
-import { getLessons, getQuestions } from '../lib/content'
+import { getLessons, getQuestions, getAllQuestions } from '../lib/content'
 import { validateContent } from '../lib/content-validation'
 import { domains } from '../lib/curriculum'
 import coverage from '../contents/coverage.json'
@@ -6,14 +6,16 @@ import { learningFigures } from '../lib/learning-figures'
 import { validateLearningFigures } from '../lib/learning-figures/validation'
 import { getStudyGuides, getCoverageAudits } from '../lib/study-guides/content'
 import { validateStudyGuides } from '../lib/study-guides/validation'
+import { auditEditorialEvidence, readEditorialEvidence } from '../lib/editorial-evidence'
 
 const lessons = getLessons()
 const questions = getQuestions()
-const errors = validateContent(lessons, questions)
+const errors = validateContent(lessons, getAllQuestions())
 errors.push(...validateLearningFigures(lessons, learningFigures))
 const guides = getStudyGuides()
 const audits = getCoverageAudits()
 errors.push(...validateStudyGuides(lessons, guides, audits))
+errors.push(...auditEditorialEvidence({ lessons, questions: getAllQuestions(), figures: learningFigures, coverage, ...readEditorialEvidence() }).errors)
 for (const domain of domains) {
   const group = coverage.find((entry) => entry.domain === domain.id)
   if (!group?.items.length) errors.push(`Missing coverage map: ${domain.id}`)

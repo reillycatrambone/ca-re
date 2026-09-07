@@ -1,0 +1,315 @@
+[
+  {
+    "id": "review-valuation-questions",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the question author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read valuation-01 through valuation-56, including all 224 options and rationales, keys, numerical calculations, concept and review metadata, source support and linked chapter passages. Final artifacts were reread after the two findings below. This record covers the question bank, not subsequently authored rule records or new visual specifications.",
+    "sourceUrls": [
+      "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+      "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+      "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+      "https://www.irs.gov/publications/p527",
+      "https://www.boe.ca.gov/info/iav/lesson10.htm",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref27.pdf"
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "valuation-01",
+        "digest": "8f1f546ba6160a5ab44d6bf0ff9008cfa5e497a3fef18a30742f7e6e27984620"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-02",
+        "digest": "419f03686858f970d630d3de4f097119f9fd5526b23c96d6c47c5492303efb21"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-03",
+        "digest": "a318440e70cf06f3798690f0d96869da28ad50559b95ebbe95ca9729d3d2cf43"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-04",
+        "digest": "21af915557a274cd8d021b6af0b3fa56f178e1ca8c02ddea10739c35c569b170"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-05",
+        "digest": "73833201430db8cf26a9583f26d956f17b20095682cda82112850676f3e350f6"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-06",
+        "digest": "ece2fae9fa896b0a20aeb5003ed3abd46cf2182b7648490a0a2130fbd1c5fe82"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-07",
+        "digest": "bdf2c222ad9577cf9afa50be6804b9a232ab2187937970f8529da5299fcb46ce"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-08",
+        "digest": "210952c1b40571cc973a44de4a83f02d2568c067dd979650bbe4deb149222638"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-09",
+        "digest": "984df7ff9ed71f711db0cb59cc4de250362787d2587c9368ba96bdf52fc3127a"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-10",
+        "digest": "6cba9f766f2919d5d4f45f60e3778be34f3cc7611d0c5615d2736345bf9379af"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-11",
+        "digest": "3ec0b69930775d12d3b7324fd890c0162b338606d26dda3c93690763c3859d7d"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-12",
+        "digest": "dd6f6de7d6ccbc37269d289c0cefa18d87432e75877226468e85db3813c8776b"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-13",
+        "digest": "490ba4e9080f34d4087a9e893ad11b498fb92c81f3ac72988e406ea5b2c8fc95"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-14",
+        "digest": "c4e7ffe9f4312c77ce6ccd8c9cdf85c3c71664487936f781a6135641eb2e1e57"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-15",
+        "digest": "601a26adf460188783d4e45c5e87e1ef7865fbd87a274a4c746cbbb85186c82f"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-16",
+        "digest": "3d3cf227d7b3c05726bb61a6c2ff7e1988eb171584706e4305d0385d2c6399f5"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-17",
+        "digest": "e489a831150d40b19848aafba156b43fdf9cf3152c1c58039ef088dc42a1d20a"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-18",
+        "digest": "e9a151bc748be30c1251b3ece1afeeedb4c34c4eedea29c6268424baa5b22fc4"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-19",
+        "digest": "8a54d45edd92732b5d546fe9f968fb45b3e851955754f5a42fbdaf7767376a07"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-20",
+        "digest": "a383e2b993f4be615a8d71d33f9bc8b9c5b4d95c6b917583aac9bcc1e2489bf4"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-21",
+        "digest": "207f6d5df8a2169213b8c33e74c79d424099f192291b939dc886b744937b73c9"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-22",
+        "digest": "e7b75ee6390a7ec775b11cc8cccda89e3778c28dcb6ff42a07c9c90946fb3421"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-23",
+        "digest": "5ee9ea6e3df7df2b6bfe59861fcd3500c142cb6a0367bf73b09e6f379ecc12b6"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-24",
+        "digest": "e22629c9c9b79f6d71c06033a398301b6c9557800db076285f8e79f655872468"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-25",
+        "digest": "c01fb2b54ac9cdb420005fff8179f1aff57190969e3e8760c025ae620b3df861"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-26",
+        "digest": "178da554bf535c254e563b79186dd0c579c23024e2c46ac6c5db95de5c98b0c9"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-27",
+        "digest": "0f09f6369a2d5fe03a1b71b6aa0ad48e32872f24a0a29a52034f7f375e852306"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-28",
+        "digest": "54d09cdf3384f1f792f63d676041a09c101af54fc63b76846807c97f3e84ee78"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-29",
+        "digest": "5e4e81953ab62be8a5c561da8324c31fdd743c7ff46ff188c31d82067101162d"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-30",
+        "digest": "8f57bd2df297ee34dd2f8fc957591c39d461b8f1fcdddf38a93a621f49ffd7b5"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-31",
+        "digest": "62b552a7d2eab12d8f79a78d39bce92abd1b87bbaac2539387bda253eb836d82"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-32",
+        "digest": "e97d7a6fcfeb43048c8830701de860524681ab40c9d0dcde671797ae3cb251a9"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-33",
+        "digest": "d47cb3b6644e524ac0ef70fb049af90e4406ed752ba5ec79cfb742637222195e"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-34",
+        "digest": "60bd4b4103f07023b155a9461cf175f21b5728665887eec35f91540c1aebd8ff"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-35",
+        "digest": "53f4600e45339d80d4f553c754dd7b5481ce1b7656d84d619a19474a531ed4dd"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-36",
+        "digest": "8de44a4b0dfce390f86f6ff711582bcc6837dd0407673fbea356c098fb174132"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-37",
+        "digest": "fad0695fcc16e74429389da55888165c39fa442e69e12c0478a19efbe96fb92b"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-38",
+        "digest": "33e77461a17e6ba171ca81a5e4676210c4fe5d3aaba9169a3e4c1d8c39d938e4"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-39",
+        "digest": "0206c40761b25a42410434e9a1bc230557877dd8e64f90f3c8f56de5410ae3a5"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-40",
+        "digest": "65070127c1e57281f643f4c3aa15e654e57a72071876b2414da992dd2e207ef8"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-41",
+        "digest": "5bfb5c533ff04dd8770f86abf8f72408e30c0c7be690f468666d251cd030d76c"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-42",
+        "digest": "58e06dcd3368d4b402901d9d81aa50603d6fa8971341227237dd6b92de09b849"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-43",
+        "digest": "30e55a914946ec439321f677b51dbd75fe6d5e21db755a476049e355d7106513"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-44",
+        "digest": "04f8e89b916c83b0c55a947b579f8b1861bfad99d7bc51b9894aebf91c127f86"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-45",
+        "digest": "c86df9320ad63d2df9cb62608b6685af7fe6d40ecbda80e93cfe65ef6c487412"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-46",
+        "digest": "d4b3559b07cf28dbcbe748b448ba8b9b4ff53fa1ed00b71b450e0f95d74b9b14"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-47",
+        "digest": "fea87820837bdd3fa7436505e710ad0afdfb6578227441ced02dc82cf9fa0ad2"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-48",
+        "digest": "e0fb258e57958a2959fba82baf730529076592c61fbb79c3b011ba432eb0157d"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-49",
+        "digest": "02f1ce51994891e566ce356fdee367ba8ff7dbdbc51e57c3eb3f6777f04e074f"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-50",
+        "digest": "96735a70beafb8dfba9808485ae636c5cb66b5058ef39c7b0045f5994c4395b8"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-51",
+        "digest": "338b76cc37e1f7c63358f178b59e8fae66c2d083747368c6e9277d901cc62b45"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-52",
+        "digest": "2a8c9e87c7b04b6ed0f15724f5c8d186e9ec54ed359673f53f65fae6f019971b"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-53",
+        "digest": "3a573164c9cf710f4020099bce39abe3f6eef64f71fe2bbf6b3fcaf12d4c492a"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-54",
+        "digest": "6cbb9c09eb5a9b22efa2f2b0c17ef170761553c4ff9612baffec3a62d20f5bf5"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-55",
+        "digest": "325f9b02768b93dd511ddbf1824f38b2a0be83f2e41d7ab34d5344c3f816ae2a"
+      },
+      {
+        "kind": "question",
+        "id": "valuation-56",
+        "digest": "623eaa9769f0b0be2c84cfdae4cc390196b63a9e838b8dbfff11af75fb83d3ae"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "material",
+        "summary": "Valuation-05 treated Assemblage as an unambiguously wrong name for a plottage increment, while cited DRE passages sometimes use those terms synonymously.",
+        "resolution": "Replaced the disputed distractor with Regression, replaced the awkward Contribution cost distractor with Accrued depreciation, rewrote both explanations and clarified the chapter terminology. Reviewer confirmed the final key has no remaining terminology conflict."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Valuation-14 needed direct support for the paired-sales definition rather than a page that only lists the method.",
+        "resolution": "Added BOE Advanced Appraisal, paired-sales analysis at printed page 46, to the question and chapter sources; reviewer confirmed the final artifact."
+      }
+    ],
+    "limitations": "Independent AI source review, not qualified human appraisal, legal or exam review. Does not certify empirical difficulty, all chapter assertions, new figure content, or comprehensive coverage of the live DRE exam."
+  }
+]

@@ -1,0 +1,1464 @@
+[
+  {
+    "id": "contracts-rule-minor-capacity",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-four-essentials",
+    "coverageTopics": ["General"],
+    "rule": "Ownership by a minor does not establish power to contract concerning the property; emancipation supplies specified adult contractual and property capacity.",
+    "conditions": [
+      "Distinguish an unemancipated minor's own act from an authorized representative or court procedure.",
+      "Verify emancipation rather than infer it from possession or maturity."
+    ],
+    "exceptions": [
+      "Family Code 7050 supplies adult capacity for its listed acts, without excusing other contract requirements."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6701.",
+        "locator": "Subdivisions (a)-(b)",
+        "supports": "Prohibits the minor's delegation of power and real-property contracts."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7050.",
+        "locator": "Subdivision (e)(2)-(3)",
+        "supports": "Gives emancipated minors specified adult contractual and property powers."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-four-essentials",
+        "summary": "The capacity table contrasts inherited ownership, independent sale, and an emancipated minor's property transaction.",
+        "figureIds": ["exp-formation-minor-title-capacity"]
+      }
+    ],
+    "questionIds": ["contracts-052", "contracts-053"]
+  },
+  {
+    "id": "contracts-rule-mental-capacity",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-four-essentials",
+    "coverageTopics": ["General"],
+    "rule": "Entire absence of understanding, unsound mind short of that condition, and judicially determined incapacity require different contract analyses.",
+    "conditions": [
+      "Use the legal capacity facts at the time of contracting.",
+      "Section 39 addresses unsound mind without entire lack of understanding before judicial determination."
+    ],
+    "exceptions": [
+      "Section 38 preserves reasonable-value liability for necessary support; section 40 is subject to its specified Probate Code and other exceptions.",
+      "An isolated imprudent act does not alone establish section 39's rebuttable presumption."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=38.",
+        "locator": "Entire lack of understanding",
+        "supports": "Distinguishes no contractual power from necessary-support liability."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=39.",
+        "locator": "Subdivisions (a)-(b)",
+        "supports": "Makes the specified transaction subject to rescission and defines a rebuttable presumption."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=40.",
+        "locator": "Subdivisions (a)-(b)",
+        "supports": "States restrictions following judicial determination with express statutory qualifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-four-essentials",
+        "summary": "The three adult-capacity rows distinguish no understanding, the section 39 rescission category, and a judicial determination.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-056"]
+  },
+  {
+    "id": "contracts-rule-consideration-and-deposit",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "promises-performance-and-deposits",
+    "coverageTopics": ["General"],
+    "rule": "Exchanged enforceable promises can supply consideration before earnest money changes hands; formation, deposit performance, and completed contractual performance are different events.",
+    "conditions": [
+      "Identify the promised legal benefit or detriment.",
+      "Read whether the contract separately requires a deposit and when it is due."
+    ],
+    "exceptions": [
+      "Lack of a delivered deposit does not alone establish lack of consideration; failure to pay a required deposit can still be a breach."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1605.",
+        "locator": "Definition of consideration",
+        "supports": "Recognizes a benefit or detriment suffered or agreed to be suffered as consideration."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Printed pages 87 and 95, classification and sufficient consideration",
+        "supports": "Distinguishes bilateral promises and the performance classifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "promises-performance-and-deposits",
+        "summary": "The chapter compares exchanged purchase promises with deposit delivery and later funding and conveyance.",
+        "figureIds": ["exp-formation-deposit-three-events"]
+      }
+    ],
+    "questionIds": ["contracts-001", "contracts-007"]
+  },
+  {
+    "id": "contracts-rule-unlawful-single-object",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "void-voidable-and-unenforceable",
+    "coverageTopics": ["General"],
+    "rule": "A contract with a single unlawful object is void; this differs from a voidable agreement and from a writing or time-bar defense to enforcement.",
+    "conditions": ["Identify whether the unlawful object is the single, indivisible object."],
+    "exceptions": [
+      "A bargain with several separable objects requires a separate analysis of the lawful portions; do not assume every defect has the same consequence."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1598.",
+        "locator": "Single unlawful object",
+        "supports": "Treats a contract with a single unlawful object as void."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Printed pages 87 and 94, legal effect and lawful object",
+        "supports": "Distinguishes void, voidable, unenforceable, and separable objects."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "void-voidable-and-unenforceable",
+        "summary": "The status discussion contrasts an illegal bargain, fraud-induced consent, and an enforcement barrier.",
+        "figureIds": ["contract-status-map"]
+      }
+    ],
+    "questionIds": ["contracts-003"]
+  },
+  {
+    "id": "contracts-rule-fraud-and-avoidance",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "void-voidable-and-unenforceable",
+    "coverageTopics": ["General"],
+    "rule": "Fraud that legally vitiates consent can make an agreement voidable by the protected party rather than automatically void from inception.",
+    "conditions": [
+      "Distinguish knowing that one signs a purchase agreement from being deceived about the very nature of the act.",
+      "The stated fraud must establish a recognized avoidance ground."
+    ],
+    "exceptions": [
+      "Fraud in execution can present a different formation problem; not every poor bargain establishes actionable fraud."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1566.",
+        "locator": "Consent not free",
+        "supports": "Distinguishes a contract not absolutely void from consent defects permitting rescission."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+        "locator": "Subdivision (b)(1)",
+        "supports": "Lists fraud and other qualifying consent defects as rescission grounds."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "void-voidable-and-unenforceable",
+        "summary": "The chapter compares a fraud-induced agreement with an agreement having no legal force at inception.",
+        "figureIds": ["contract-status-map"]
+      }
+    ],
+    "questionIds": ["contracts-004"]
+  },
+  {
+    "id": "contracts-rule-counteroffer-or-inquiry",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "reconstruct-the-negotiation",
+    "coverageTopics": ["Offers/Purchase Contracts"],
+    "rule": "A materially qualified acceptance proposes a new bargain; rejection of a counteroffer does not revive the original offer, while an unconditioned inquiry need not reject it.",
+    "conditions": [
+      "Read the actual response to determine whether acceptance depends on a changed term.",
+      "Check whether the original offer was renewed."
+    ],
+    "exceptions": [
+      "Exploring a possible earlier closing without rejecting or conditioning the offer need not terminate it."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585.",
+        "locator": "Absolute and qualified acceptance",
+        "supports": "Treats a qualified acceptance as a new proposal."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Printed page 92, termination and acceptance",
+        "supports": "Distinguishes counteroffers and rejection from preliminary inquiries and renewed offers."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reconstruct-the-negotiation",
+        "summary": "The $620,000/$635,000 negotiation contrasts rejection and an inquiry about an earlier closing.",
+        "figureIds": ["exp-formation-inquiry-or-condition"]
+      }
+    ],
+    "questionIds": ["contracts-002", "contracts-028", "contracts-029"]
+  },
+  {
+    "id": "contracts-rule-acceptance-transmission",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "offer-and-acceptance",
+    "coverageTopics": ["Offers/Purchase Contracts"],
+    "rule": "Acceptance must follow the prescribed mode; under sections 1582-1583, conforming transmission ordinarily communicates consent unless the offer imposes a different controlling condition such as receipt.",
+    "conditions": [
+      "Identify whether dispatch or actual receipt is required.",
+      "Acceptance must remain timely and unqualified."
+    ],
+    "exceptions": [
+      "Do not apply the ordinary transmission rule to an express receipt deadline or an unmet exercise condition."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582.",
+        "locator": "Prescribed or reasonable mode",
+        "supports": "Requires the prescribed mode when the proposal specifies one."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1583.",
+        "locator": "Communication by transmission",
+        "supports": "Treats conforming transmission as communication of consent."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587.",
+        "locator": "Expiration and revocation",
+        "supports": "Defines termination events relevant to the required acceptance period."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "offer-and-acceptance",
+        "summary": "The chapter compares Thursday dispatch with a Friday receipt deadline and a Saturday arrival.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-006", "contracts-055"]
+  },
+  {
+    "id": "contracts-rule-revocation-sequence",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "revocation-and-an-option",
+    "coverageTopics": ["Offers/Purchase Contracts"],
+    "rule": "An effective withdrawal can end an ordinary revocable offer before effective acceptance; once a contract forms, cancellation requires a contractual or legal basis rather than late revocation.",
+    "conditions": [
+      "Identify the offer's acceptance event and the communication sequence.",
+      "Assume no supported option or other restriction unless the facts supply one."
+    ],
+    "exceptions": [
+      "An uncommunicated intention to withdraw is not the same as effective revocation; a binding option limits ordinary revocation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582.",
+        "locator": "Required acceptance mode",
+        "supports": "Makes the offer's prescribed acceptance mode relevant to sequence."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587.",
+        "locator": "Revocation and termination",
+        "supports": "Recognizes communicated revocation before acceptance."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+        "locator": "Rescission grounds",
+        "supports": "Distinguishes ending a formed contract on a legal ground."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "revocation-and-an-option",
+        "summary": "The withdrawal diagram compares receipt of revocation with receipt of signed acceptance rather than document preparation times.",
+        "figureIds": ["exp-formation-receipt-before-acceptance"]
+      }
+    ],
+    "questionIds": ["contracts-044", "contracts-045"]
+  },
+  {
+    "id": "contracts-rule-writing-and-duration",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-writing-requirements",
+    "coverageTopics": ["Offers/Purchase Contracts"],
+    "rule": "The statute of frauds includes real-property sales, leases longer than one year, and agreements that by their terms cannot be performed within one year from making; the duration tests are separate.",
+    "conditions": [
+      "Identify the transaction, lease term, commencement date, and party against whom enforcement is sought.",
+      "Obtain the sufficient signed writing or properly authorized signature when the rule applies."
+    ],
+    "exceptions": [
+      "A lease of exactly one year beginning immediately differs from one beginning later; exceptions such as part performance are fact-sensitive, not blanket permission to ignore a writing."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+        "locator": "Subdivisions (a)(1), (3), and (4)",
+        "supports": "States one-year, lease/sale, authorization, and employment writing requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-writing-requirements",
+        "summary": "The chapter and lease comparison distinguish a two-year term from a one-year term whose delayed commencement prevents completion within a year.",
+        "figureIds": ["exp-formation-lease-two-writing-tests"]
+      }
+    ],
+    "questionIds": ["contracts-005"]
+  },
+  {
+    "id": "contracts-rule-electronic-consent",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-writing-requirements",
+    "coverageTopics": ["General"],
+    "rule": "Recognition of a qualifying electronic signature or record does not force a party to transact electronically; agreement to that method is separately required.",
+    "conditions": [
+      "Assess intent, authentication, agreement to electronic dealings, and the applicable transaction rules.",
+      "Do not equate a retained executed agreement with an ephemeral informal message."
+    ],
+    "exceptions": [
+      "Agreement for one transaction need not cover every later transaction; section 1624 separately addresses ephemeral messages in land conveyance contracts."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+        "locator": "Subdivisions (a)-(c)",
+        "supports": "Provides that electronic means are not compulsory and defines agreement to electronic dealings."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+        "locator": "Subdivisions (a)-(d)",
+        "supports": "Recognizes electronic form for applicable records and signatures."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+        "locator": "Subdivision (d)",
+        "supports": "Addresses ephemeral electronic messages and written confirmation for conveying real property."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-writing-requirements",
+        "summary": "The added validity-versus-compulsion case contrasts a valid electronic method with a seller who has not agreed to use it.",
+        "figureIds": ["exp-formation-electronic-evidence-chain"]
+      }
+    ],
+    "questionIds": ["contracts-054"]
+  },
+  {
+    "id": "contracts-rule-representative-signature",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "a-signature-must-identify-whose-promise-it-is",
+    "coverageTopics": ["General"],
+    "rule": "A signature must be connected to the obligated party, the signer's capacity, and actual legal authority; an entity name mentioned in conversation does not resolve those questions.",
+    "conditions": [
+      "Identify the named buyer and any representative signature.",
+      "Check the LLC management structure and applicable authorization rather than presume authority from ownership."
+    ],
+    "exceptions": [
+      "Authority can arise through legally recognized actual or other agency rules, but must not be invented from an ambiguous signature."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+        "locator": "Subdivision (a)(3)-(4)",
+        "supports": "Addresses applicable authorized-agent writing requirements."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17703.01.",
+        "locator": "Member-managed and manager-managed agency rules",
+        "supports": "Distinguishes LLC management structure and the authority of members and managers."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-signature-must-identify-whose-promise-it-is",
+        "summary": "Jordan's individually named signature is compared with a properly identified and authorized entity signature.",
+        "figureIds": ["exp-formation-llc-signature-file"]
+      }
+    ],
+    "questionIds": ["contracts-030"]
+  },
+  {
+    "id": "contracts-rule-integration-and-fraud",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "interpret-the-entire-document",
+    "coverageTopics": ["General"],
+    "rule": "An integration clause addresses the written bargain but does not automatically bar evidence offered to establish fraudulent inducement.",
+    "conditions": [
+      "Identify the purpose of the offered outside evidence rather than treating all prior statements alike.",
+      "Read the integrated writing and applicable evidence exceptions."
+    ],
+    "exceptions": [
+      "The fraud claim still requires proof; the exception is not assurance that an omitted oral term will be enforced as a contract term."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1856.",
+        "locator": "Subdivisions (a), (f), and (g)",
+        "supports": "Addresses final writings and admissibility for validity, fraud, and other specified purposes."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "interpret-the-entire-document",
+        "summary": "The evidence-purpose diagram contrasts an omitted negotiated term with proof of fraud.",
+        "figureIds": ["exp-formation-integration-evidence-purpose"]
+      }
+    ],
+    "questionIds": ["contracts-031"]
+  },
+  {
+    "id": "contracts-rule-assignment-and-novation",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "assignment-is-not-release",
+    "coverageTopics": ["Agreements"],
+    "rule": "Assignment of rights and delegation of performance do not alone discharge the original obligor; an agreed novation substitutes and releases the replaced obligation or debtor.",
+    "conditions": [
+      "Check assignment restrictions and the other party's consent to any release.",
+      "Distinguish a replacement name in escrow from an agreed discharge."
+    ],
+    "exceptions": [
+      "Some obligations cannot be delegated freely; the contract and personal-service character can matter."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1457.",
+        "locator": "Transfer of burdens",
+        "supports": "Requires the benefited party's consent to transfer an obligation's burden."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1531.",
+        "locator": "Modes of novation",
+        "supports": "Describes substitution of a new obligation or debtor with intent to release the old."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "assignment-is-not-release",
+        "summary": "Buyer A assigns to B, but the diagram requires evidence of Seller C's release before treating A as discharged.",
+        "figureIds": ["assignment-novation", "exp-performance-novation-release-evidence"]
+      }
+    ],
+    "questionIds": ["contracts-008", "contracts-009"]
+  },
+  {
+    "id": "contracts-rule-contractual-contingency",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "contingencies-allocate-risk",
+    "coverageTopics": ["General"],
+    "rule": "A buyer who satisfies an available contractual cancellation provision exercises the agreed risk allocation; a contingency does not excuse an independent promised effort or supply unstated cancellation rights.",
+    "conditions": [
+      "Read the contingency's scope, availability, deadline, and required notice.",
+      "Distinguish the promise to apply diligently from the condition of obtaining the loan."
+    ],
+    "exceptions": [
+      "A missed date does not establish a universal automatic-removal rule; the actual agreement controls."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Clear lawful language",
+        "supports": "Directs interpretation according to clear contractual language."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Printed page 91, definite contract terms",
+        "supports": "Explains loan-condition specificity and promised efforts."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "contingencies-allocate-risk",
+        "summary": "The chapter contrasts diligent unsuccessful borrowing with not applying and with timely inspection disapproval.",
+        "figureIds": ["exp-performance-loan-effort-and-condition"]
+      }
+    ],
+    "questionIds": ["contracts-010"]
+  },
+  {
+    "id": "contracts-rule-appraisal-funding-gap",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "different-contingencies-can-produce-different-answers",
+    "coverageTopics": ["General"],
+    "rule": "A lender's willingness to fund does not establish that appraisal and financing contingencies have the same conditions; a reduced loan can create a separate cash gap.",
+    "conditions": [
+      "Hold the purchase price fixed when calculating the effect of a reduced loan.",
+      "Read each retained contingency separately."
+    ],
+    "exceptions": [
+      "A mathematical gap does not itself decide a cancellation right or authorize a unilateral price reduction."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Clear contractual language",
+        "supports": "Supports applying each stipulated loan, appraisal, and funding provision as written."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "different-contingencies-can-produce-different-answers",
+        "summary": "An 80% loan falls from $600,000 to $560,000 when the value base falls from $750,000 to $700,000, requiring $40,000 more cash if proceeding.",
+        "figureIds": ["exp-performance-retained-contingency-scope"]
+      }
+    ],
+    "questionIds": ["contracts-032"]
+  },
+  {
+    "id": "contracts-rule-amendment-scope",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "modification-waiver-and-informal-extensions",
+    "coverageTopics": ["Agreements"],
+    "rule": "A signed amendment changing closing does not automatically change a separately preserved deposit deadline; read the amendment with the whole agreement.",
+    "conditions": [
+      "Identify exactly which terms the parties changed and which they expressly retained.",
+      "Verify the authority of anyone purporting to grant an extension."
+    ],
+    "exceptions": [
+      "Section 1698 recognizes specified oral-modification, execution, waiver, and estoppel issues; a writing rule is not a universal denial of every such doctrine."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1698.",
+        "locator": "Modification of written contracts",
+        "supports": "Permits written changes and states qualifications involving oral changes and related doctrines."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1641.",
+        "locator": "Whole-contract interpretation",
+        "supports": "Requires reading parts together to give effect to the whole."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Clear language",
+        "supports": "Supports respecting the express preservation of unchanged terms."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "modification-waiver-and-informal-extensions",
+        "summary": "The closing extension leaves tomorrow's deposit-increase deadline unchanged in the date comparison.",
+        "figureIds": ["exp-performance-extension-unmoved-dates"]
+      }
+    ],
+    "questionIds": ["contracts-033"]
+  },
+  {
+    "id": "contracts-rule-anticipatory-breach",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "tender-breach-and-time",
+    "coverageTopics": ["General"],
+    "rule": "A clear advance indication that a party will not or cannot meet the contract can constitute anticipatory breach; a proposed extension with continued promised performance is different.",
+    "conditions": [
+      "The claimant's ability to fulfill the bargain matters.",
+      "Distinguish definite refusal from uncertainty or negotiation."
+    ],
+    "exceptions": [
+      "An asserted excuse, retraction, or election of remedies can require further analysis; the simplified question excludes those issues."
+    ],
+    "sources": [
+      {
+        "url": "https://courts.ca.gov/system/files/file/judicial_council_of_california_civil_jury_instructions_2026.pdf",
+        "locator": "CACI 324, printed pages 133-134",
+        "supports": "Defines advance refusal by words or conduct and the claimant's ability to perform."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "tender-breach-and-time",
+        "summary": "The added two-message contrast separates a definite refusal to convey from a request that preserves the original performance promise.",
+        "figureIds": ["exp-performance-tender-or-repudiation"]
+      }
+    ],
+    "questionIds": ["contracts-057"]
+  },
+  {
+    "id": "contracts-rule-specific-performance",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "damages-and-specific-performance",
+    "coverageTopics": ["General"],
+    "rule": "Specific performance orders the promised act; real property's inadequacy-of-money presumption does not eliminate the other requirements for equitable relief.",
+    "conditions": [
+      "Establish an enforceable sufficiently definite agreement and the claimant's required performance capacity.",
+      "Distinguish a conveyance order from compensation."
+    ],
+    "exceptions": [
+      "The section 3387 presumption has a special conclusive buyer-occupancy category, but does not make the entire lawsuit automatic."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3387.",
+        "locator": "Real-property damages presumption",
+        "supports": "States the inadequacy-of-damages presumption and its specified dwelling category."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Specific Performance",
+        "supports": "Explains the equitable remedy requiring promised performance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "damages-and-specific-performance",
+        "summary": "The chapter compares obtaining the unique parcel with a claim seeking money for loss.",
+        "figureIds": ["supplement-remedy-objectives"]
+      }
+    ],
+    "questionIds": ["contracts-011"]
+  },
+  {
+    "id": "contracts-rule-deposit-category-and-burden",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "the-residential-deposit-distinction",
+    "coverageTopics": ["General"],
+    "rule": "For the section 1675 residential category, both no more than four units and buyer residence intent at formation matter; amounts actually paid at or below 3% and above 3% carry different reasonableness burdens.",
+    "conditions": [
+      "Confirm property scope, occupancy intent, actual payment, and proper provision execution.",
+      "Calculate 3% from the purchase price, not the unpaid balance."
+    ],
+    "exceptions": [
+      "The 3% figure is not a universal deposit cap or automatic forfeiture.",
+      "Section 1675(f) has a distinct initial attached-condominium rule; transactions outside subsection (a) need a different applicable analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675.",
+        "locator": "Subdivisions (a)-(f)",
+        "supports": "Defines the residential category, actual-payment requirements, burdens, and condominium qualification."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677.",
+        "locator": "Separate execution and printed type",
+        "supports": "Requires each party's separate signature or initials and the specified printed form."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-residential-deposit-distinction",
+        "summary": "The chapter compares the threshold calculation, an investor's rental-only duplex, and an owner-occupied five-unit building.",
+        "figureIds": ["exp-performance-fixed-deposit-threshold-chart"]
+      }
+    ],
+    "questionIds": ["contracts-012", "contracts-035", "contracts-060"]
+  },
+  {
+    "id": "contracts-rule-later-deposit-provisions",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "the-residential-deposit-distinction",
+    "coverageTopics": ["General"],
+    "rule": "Each payment after the first intended as section 1675 liquidated damages needs a separate qualifying provision separately signed or initialed by each party, and the total must satisfy section 1675.",
+    "conditions": [
+      "Identify every subsequent payment intended to be included.",
+      "Check section 1677 compliance for each later provision."
+    ],
+    "exceptions": [
+      "An original clause or escrow receipt does not alone substitute for the required later-payment agreement."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1678.",
+        "locator": "Subsequent payments",
+        "supports": "Requires total compliance and separately executed qualifying provisions for each subsequent payment."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677.",
+        "locator": "Execution requirements",
+        "supports": "Supplies the required signature, initial, and print conditions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-residential-deposit-distinction",
+        "summary": "The later-deposit specimen distinguishes the original payment treatment from the later increase requiring its own execution.",
+        "figureIds": ["exp-performance-later-deposit-initials"]
+      }
+    ],
+    "questionIds": ["contracts-058"]
+  },
+  {
+    "id": "contracts-rule-disputed-funds-and-release",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "cancellation-instructions-and-releases",
+    "coverageTopics": ["Agreements"],
+    "rule": "Instructions allocating escrow funds do not alone release every separate claim, and a disputed deposit is not awarded merely because one party invokes a liquidated-damages clause.",
+    "conditions": [
+      "Determine lawful disbursement authority and whether a genuine dispute remains.",
+      "Read fund distribution, cancellation, and claim-release language separately."
+    ],
+    "exceptions": [
+      "Section 1057.3 addresses the stated residential transactions and dispute procedures; a comprehensive release can have broader effects when actually agreed."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1057.3.",
+        "locator": "Deposit release and disputes",
+        "supports": "Addresses authorization, good-faith disputes, and release of escrow funds."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Clear language",
+        "supports": "Supports distinguishing the actual fund instruction from an unstated release."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "cancellation-instructions-and-releases",
+        "summary": "The $15,000 split instruction allocates the deposit but does not automatically settle omitted repair or misrepresentation claims.",
+        "figureIds": ["exp-performance-release-scope-document"]
+      }
+    ],
+    "questionIds": ["contracts-013", "contracts-034"]
+  },
+  {
+    "id": "contracts-rule-rescission-restoration",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "rescission-and-restitution",
+    "coverageTopics": ["Agreements"],
+    "rule": "Rescission unwinds a bargain on a recognized ground or by agreement; ordinary section 1691 procedure includes prompt notice and restoration or an appropriate reciprocal offer to restore benefits.",
+    "conditions": [
+      "Identify the actual rescission ground rather than assume a universal cooling-off period.",
+      "Account for benefits such as possession and rent, not only the deposit."
+    ],
+    "exceptions": [
+      "Section 1691 contains qualifications concerning capacity, duress, the other party's ability or refusal to restore, and relief in an action; contractual contingency cancellation is a separate procedure."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+        "locator": "Rescission grounds",
+        "supports": "Permits mutual rescission and identifies qualifying unilateral grounds."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+        "locator": "Notice and restoration",
+        "supports": "States prompt notice, restoration, reciprocal-offer, and procedural qualifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "rescission-and-restitution",
+        "summary": "The restoration ledger tracks rent and possession received before unwinding instead of treating return of the deposit as the whole transaction.",
+        "figureIds": ["exp-performance-restoration-benefits-ledger"]
+      }
+    ],
+    "questionIds": ["contracts-014", "contracts-046"]
+  },
+  {
+    "id": "contracts-rule-fraud-damages-versus-unwinding",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "choose-the-remedy-that-addresses-the-problem",
+    "coverageTopics": ["General"],
+    "rule": "A party seeking to retain acquired property and recover provable fraud-related money loss is pursuing a damages analysis, not rescission merely because that label is used.",
+    "conditions": [
+      "Identify the requested result and prove the applicable loss and causation.",
+      "Distinguish separate theories and avoid duplicate recovery for the same loss."
+    ],
+    "exceptions": [
+      "Available relief and its measure depend on the claim; a damages label does not itself establish entitlement."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3343.",
+        "locator": "Property-fraud damages",
+        "supports": "Addresses recoverable loss and specified additional damages from fraud in a property transaction."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+        "locator": "Restoration in rescission",
+        "supports": "Supplies the contrasting ordinary restoration requirement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "choose-the-remedy-that-addresses-the-problem",
+        "summary": "The remedy comparison separates retaining the property with a monetary claim from undoing the acquisition.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-047"]
+  },
+  {
+    "id": "contracts-rule-mediated-settlement",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "damages-and-specific-performance",
+    "coverageTopics": ["Agreements"],
+    "rule": "A mediator facilitates agreement rather than imposing a decision, but the parties can enter an enforceable settlement through mediation; arbitration is a different adjudicative process.",
+    "conditions": [
+      "Identify whether the binding result comes from the parties' agreement or an adjudicator's award.",
+      "Read the actual dispute-resolution provision and exclusions."
+    ],
+    "exceptions": [
+      "Not every discussion creates an enforceable settlement; the question stipulates an otherwise enforceable signed agreement."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref20.pdf",
+        "locator": "Printed page 486, Dispute Resolution",
+        "supports": "Distinguishes a mediator's inability to impose settlement from a signed binding settlement and arbitration award."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "damages-and-specific-performance",
+        "summary": "The chapter contrasts an agreed mediated resolution with an imposed arbitration or court decision.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-063"]
+  },
+  {
+    "id": "contracts-rule-listing-earning-terms",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "compare-the-principal-listing-types",
+    "coverageTopics": ["Listing Agreements"],
+    "rule": "Exclusive agency can preserve an independent owner-sale exception, whereas an exclusive right to sell ordinarily covers a qualifying owner-produced sale subject to its actual agreed exceptions.",
+    "conditions": [
+      "Read the valid listing's term, earning event, owner-sale exception, and any named-buyer carveout.",
+      "Distinguish brokerage employment from the separate purchase agreement."
+    ],
+    "exceptions": [
+      "The listing label does not erase an express exception or fiduciary obligations; commissions are not fixed by law."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Real Estate Contracts, listing agreements",
+        "supports": "Distinguishes the open, exclusive-agency, and exclusive-right-to-sell employment arrangements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-the-principal-listing-types",
+        "summary": "Cameron independently produces the same buyer under two listing types, changing the compensation result only when the applicable exception changes.",
+        "figureIds": ["listing-owner-sale", "exp-representation-named-buyer-carveout"]
+      }
+    ],
+    "questionIds": ["contracts-015", "contracts-016"]
+  },
+  {
+    "id": "contracts-rule-listing-duration-renewal",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "residential-listings-have-their-own-duration-limits",
+    "coverageTopics": ["Listing Agreements"],
+    "rule": "Covered residential exclusive listings ordinarily have separate 24-month initial and 12-month renewal limits; automatic renewal and recording a listing or its memorandum are independently prohibited.",
+    "conditions": [
+      "Identify covered property and the contracting owner.",
+      "Renewal must be written, dated, and signed by all parties."
+    ],
+    "exceptions": [
+      "Corporations, LLCs, and partnerships are excepted from the stated maximum-term provisions, not from every other prohibition.",
+      "A lawful maximum is not a mandatory or recommended contract duration."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12.",
+        "locator": "Subdivisions (a)-(e)",
+        "supports": "Defines scope, initial and renewal limits, entity qualification, recording prohibition, and unenforceability."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "residential-listings-have-their-own-duration-limits",
+        "summary": "The chapter distinguishes initial and renewal periods and illustrates that an entity duration exception does not authorize recording.",
+        "figureIds": ["exp-representation-listing-duration-exceptions"]
+      }
+    ],
+    "questionIds": ["contracts-038", "contracts-061"]
+  },
+  {
+    "id": "contracts-rule-buyer-term-counting",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "count-days-and-distinguish-the-clients",
+    "coverageTopics": ["Buyer Broker Agreements"],
+    "rule": "The covered buyer-agreement maximum of three months means 90 calendar days, ordinarily starting the day after the last signature; a delayed effective date begins the count on that agreed date.",
+    "conditions": [
+      "Apply the initial-term counting rule to an individual unless a specified entity exception applies.",
+      "A shorter agreed term controls even if the statute permits a longer maximum."
+    ],
+    "exceptions": [
+      "Corporations, LLCs, and partnerships have the defined maximum-term exception; an individual's investment purpose is not that entity status."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+        "locator": "Section 2906.1(a)-(b)",
+        "supports": "Defines 90 calendar days, ordinary and delayed starts, and entity term-limit exceptions."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+        "locator": "Subdivision (d)",
+        "supports": "Supplies statutory initial and renewal duration requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "count-days-and-distinguish-the-clients",
+        "summary": "The September 10 last-signature example reaches December 9 by default; the delayed September 15 start changes the endpoint.",
+        "figureIds": ["exp-representation-ninety-days-delayed-start"]
+      }
+    ],
+    "questionIds": ["contracts-017", "contracts-036", "contracts-037", "contracts-048"]
+  },
+  {
+    "id": "contracts-rule-buyer-showing-timing",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "buyer-agreements-the-current-california-rule",
+    "coverageTopics": ["Buyer Broker Agreements"],
+    "rule": "California requires the agreement as soon as practicable and no later than the buyer's offer execution; 2026 regulations presume it practicable before a buyer-agent showing, including a defined buyer-directed virtual showing.",
+    "conditions": [
+      "The agent must be performing covered licensed buyer services.",
+      "Distinguish the rebuttable before-showing presumption from the outside offer-execution deadline."
+    ],
+    "exceptions": [
+      "A seller's agent showing solely for the seller is not thereby the buyer's agent.",
+      "Association or MLS rules are separate from the state-law requirement."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+        "locator": "Subdivisions (a)-(c)",
+        "supports": "States timing and required buyer-agreement content."
+      },
+      {
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+        "locator": "Sections 2906.2-2906.3",
+        "supports": "Defines the showing presumption, virtual showing, seller-only distinction, and licensed-service scope."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "buyer-agreements-the-current-california-rule",
+        "summary": "The showing sequence contrasts a buyer-directed digital tour with a seller-only showing.",
+        "figureIds": ["exp-representation-showing-sequence-2026"]
+      }
+    ],
+    "questionIds": ["contracts-018"]
+  },
+  {
+    "id": "contracts-rule-buyer-renewal-execution",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "buyer-agreements-the-current-california-rule",
+    "coverageTopics": ["Buyer Broker Agreements"],
+    "rule": "A covered buyer agreement cannot renew automatically; a renewal must be written, dated, and signed before expiration, and takes effect when the last party signs it.",
+    "conditions": [
+      "Check both signatures and the date relative to the expiring agreement.",
+      "Apply the relevant renewal term limit separately from the initial term."
+    ],
+    "exceptions": [
+      "An entity term-limit exception does not authorize automatic renewal; unused days in the old term do not automatically postpone the renewal's effective date."
+    ],
+    "sources": [
+      {
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+        "locator": "Section 2906.1(c)-(d)",
+        "supports": "Prohibits automatic renewal and specifies written, timely execution and the renewal effective date."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+        "locator": "Subdivision (d)",
+        "supports": "States renewal and duration constraints."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "buyer-agreements-the-current-california-rule",
+        "summary": "The renewal signature audit checks an affirmative agreement rather than a rollover; December 1 signatures take effect that day.",
+        "figureIds": ["exp-representation-renewal-signature-audit"]
+      }
+    ],
+    "questionIds": ["contracts-019", "contracts-049"]
+  },
+  {
+    "id": "contracts-rule-advance-fee-definition",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+    "coverageTopics": ["Advanced Fee"],
+    "rule": "The advance-fee definition turns on claiming or collecting a covered fee before full completion; splitting a promised service or its fee to avoid regulation is prohibited.",
+    "conditions": [
+      "Identify the actual promised service and completion status, not merely the invoice label.",
+      "Test any exclusion against its specific statutory conditions."
+    ],
+    "exceptions": [
+      "Section 10026 excludes specified deposits, screening fees, independent-publication advertising, and qualifying completed stand-alone limited-service tasks; those exclusions are not permission to disguise an unfinished integrated service."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10026.",
+        "locator": "Subdivisions (a)-(d)",
+        "supports": "Defines advance fees, prohibits avoidance by division, and identifies specific exclusions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+        "summary": "The added comparison separates an actually completed qualifying stand-alone task from a renamed early installment of an unfinished engagement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-062"]
+  },
+  {
+    "id": "contracts-rule-advance-fee-use-gates",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+    "coverageTopics": ["Advanced Fee"],
+    "rule": "For a permitted regulated advance-fee arrangement, submission at least ten calendar days before use and DRE's no-objection communication are separate gates; neither authorizes a fee barred for the service.",
+    "conditions": [
+      "Submit the agreement, verified accounting format, and promotional materials.",
+      "Receive the no-objection communication before use or collection."
+    ],
+    "exceptions": [
+      "DRE review is not endorsement; covered residential loan-modification advance fees remain prohibited."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf",
+        "locator": "Essential Elements, revised May 2026, pages 1-2",
+        "supports": "States submission timing, no-objection prerequisite, trust/accounting terms, and the residential loan-modification prohibition."
+      },
+      {
+        "url": "https://www.dre.ca.gov/Consumers/AdvanceFees.html",
+        "locator": "Advance fees for loan modification services",
+        "supports": "Explains the service-specific prohibition notwithstanding a general advance-fee arrangement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+        "summary": "The three-gate diagram separates lawful service, review submission, and no-objection communication.",
+        "figureIds": ["exp-representation-advance-fee-three-gates"]
+      }
+    ],
+    "questionIds": ["contracts-020", "contracts-021"]
+  },
+  {
+    "id": "contracts-rule-advance-fee-unexpended-funds",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "account-for-the-unused-service-budget",
+    "coverageTopics": ["Advanced Fee"],
+    "rule": "Regulated advance fees remain the principal's property and refundable to the extent unexpended for specified services, with required trust handling and verified accounting.",
+    "conditions": [
+      "Substantiate actual authorized expenditures for the contracted services.",
+      "Do not replace the required accounting with an unsupported estimate of work."
+    ],
+    "exceptions": [
+      "A nonrefundable label does not erase refund obligations; changes to fee or service allocations require resubmission under the stated DRE guidance."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf",
+        "locator": "Essential Elements, revised May 2026, pages 1-2",
+        "supports": "Requires specific service allocations, trust deposit, verified accounting, refunds of unexpended amounts, and resubmission for allocation changes."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "account-for-the-unused-service-budget",
+        "summary": "Of a $2,000 advance, only $600 is properly expended in the stipulated example, leaving $1,400 refundable.",
+        "figureIds": ["exp-representation-advance-fee-expenditure-ledger"]
+      }
+    ],
+    "questionIds": ["contracts-039"]
+  },
+  {
+    "id": "contracts-rule-purchase-funds-reconcile",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "reconcile-the-purchase-funds",
+    "coverageTopics": ["Offers/Purchase Contracts"],
+    "rule": "Additional buyer cash equals the remaining price contribution plus buyer costs less applicable credits; an already paid deposit is not added to the full price a second time.",
+    "conditions": [
+      "Use the stipulated deposit, loan, costs, and permitted seller credit.",
+      "Keep seller cost credits separate from changes to the contract price."
+    ],
+    "exceptions": [
+      "A price amendment need not change the lender's commitment; other actual closing adjustments may alter cash due."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Contractual funding provisions",
+        "supports": "Supports applying the stipulated payment and credit terms rather than inventing different funding promises."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reconcile-the-purchase-funds",
+        "summary": "The $640,000 price less $16,000 deposit and $496,000 loan, plus $12,000 costs less $5,000 credit, produces $135,000 additional cash.",
+        "figureIds": ["exp-purchase-price-amendment-cash-bridge"]
+      }
+    ],
+    "questionIds": ["contracts-040"]
+  },
+  {
+    "id": "contracts-rule-casualty-transfer-stage",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "financing-title-and-possession",
+    "coverageTopics": ["Offers/Purchase Contracts"],
+    "rule": "Absent express contrary contract terms, section 1662 distinguishes casualty before either title or possession transfers from casualty after either has transferred, with different stated fault conditions.",
+    "conditions": [
+      "Before either transfer, material destruction without buyer fault invokes subsection (a).",
+      "After either transfer, destruction without seller fault is tested under subsection (b)."
+    ],
+    "exceptions": [
+      "An express contractual allocation can displace this default; eminent-domain takings are also addressed by the statute."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1662.",
+        "locator": "Subdivisions (a)-(b)",
+        "supports": "Defines the transfer-stage default, fault qualifications, enforceability, and recovery of price paid."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "financing-title-and-possession",
+        "summary": "The casualty table contrasts neither transfer with early possession even though the deed has not yet transferred.",
+        "figureIds": ["exp-purchase-early-possession-casualty"]
+      }
+    ],
+    "questionIds": ["contracts-059"]
+  },
+  {
+    "id": "contracts-rule-option-choice-and-exercise",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "exercise-means-following-the-option-terms",
+    "coverageTopics": ["Purchase/Lease Options"],
+    "rule": "A valid supported option gives its holder a choice rather than a present obligation to purchase, but exercise must meet the specified terms, method, timing, and required payment conditions.",
+    "conditions": [
+      "Distinguish option consideration from purchase price and any separately required exercise payment.",
+      "Check whether a notice accepts the existing terms or proposes new ones."
+    ],
+    "exceptions": [
+      "A changed price is not compliant exercise without agreement; a waived or modified condition requires facts establishing that change."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Options",
+        "supports": "Explains the optionor's commitment, the optionee's choice, and exercise of the option."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585.",
+        "locator": "Qualified acceptance",
+        "supports": "Distinguishes changed terms from absolute acceptance."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+        "locator": "Subdivision (a)(3)",
+        "supports": "Supplies applicable real-property writing requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "exercise-means-following-the-option-terms",
+        "summary": "The $520,000 option holder proposes $510,000; the exercise-condition diagram also separates timely notice from a required payment.",
+        "figureIds": ["exp-purchase-option-two-exercise-conditions"]
+      }
+    ],
+    "questionIds": ["contracts-022", "contracts-041"]
+  },
+  {
+    "id": "contracts-rule-first-refusal-trigger",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "options-and-first-refusal-rights",
+    "coverageTopics": ["Purchase/Lease Options"],
+    "rule": "A right of first refusal depends on its specified sale trigger and matching conditions; it does not inherently confer an immediate power to force a sale at the holder's chosen price.",
+    "conditions": [
+      "Read whether the owner has received or accepted the qualifying third-party proposal described by the agreement.",
+      "Distinguish first refusal from a current option or first-offer right."
+    ],
+    "exceptions": [
+      "Different drafting can select different triggers; the title of the right does not replace the actual provision."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Interpretation of clear language",
+        "supports": "Supports applying the stipulated triggering and response conditions."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+        "locator": "Printed page 104, Options, including the first-refusal reference",
+        "supports": "Identifies purchase options and a privilege of first refusal; the example's precise sale trigger is supplied by the stipulated agreement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "options-and-first-refusal-rights",
+        "summary": "The trigger file separates a qualifying matching opportunity from an owner's present decision not to sell.",
+        "figureIds": ["exp-purchase-first-refusal-trigger-file"]
+      }
+    ],
+    "questionIds": ["contracts-023"]
+  },
+  {
+    "id": "contracts-rule-lease-fixed-term",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "a-lease-transfers-possession-not-the-fee",
+    "coverageTopics": ["Agreements"],
+    "rule": "A lease grants possession rather than fee title, and an estate for years has a fixed term even when shorter than a year or payable in monthly installments.",
+    "conditions": [
+      "Classify duration separately from the rent payment schedule.",
+      "Identify the lessor's retained reversion."
+    ],
+    "exceptions": [
+      "A periodic or holdover tenancy presents different facts; residential protections can override inconsistent lease terms."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1925.",
+        "locator": "Hiring of property",
+        "supports": "Defines the grant of temporary possession and use for reward."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+        "locator": "Leasehold estates and estates for years",
+        "supports": "Distinguishes fixed terms from periodic tenancies and other leasehold classifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-lease-transfers-possession-not-the-fee",
+        "summary": "The lease discussion distinguishes a fixed six-month estate from monthly rent installments.",
+        "figureIds": ["supplement-lease-transfer"]
+      }
+    ],
+    "questionIds": ["contracts-025"]
+  },
+  {
+    "id": "contracts-rule-sublease-retained-interest",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "assignment-and-sublease-allocate-different-rights",
+    "coverageTopics": ["Agreements"],
+    "rule": "A tenant who grants less than the remaining leasehold while retaining a reversion generally subleases; transferring the entire remaining interest is ordinarily an assignment, not an automatic release from liability.",
+    "conditions": [
+      "Identify the term or interest actually retained, not only the instrument's caption.",
+      "Satisfy the lease's applicable transfer-consent requirements."
+    ],
+    "exceptions": [
+      "Landlord consent to a transfer does not by itself establish a contractual release or novation."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+        "locator": "Assignment and Subleasing",
+        "supports": "Explains the retained reversion and the original tenant's continuing obligations."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "assignment-and-sublease-allocate-different-rights",
+        "summary": "A tenant with three years remaining grants two years and retains the final year, supplying the sublease distinction.",
+        "figureIds": ["exp-purchase-sublease-retained-year"]
+      }
+    ],
+    "questionIds": ["contracts-042"]
+  },
+  {
+    "id": "contracts-rule-note-versus-collateral",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "notes-and-their-security",
+    "coverageTopics": ["Promissory Notes/Securities"],
+    "rule": "A promissory note evidences the repayment promise, whereas a mortgage, deed of trust, or security agreement supplies collateral rights; the instruments serve coordinated but different functions.",
+    "conditions": [
+      "Identify the debt obligation separately from the property securing it.",
+      "Distinguish lien release from transfer of the lender's debt interest."
+    ],
+    "exceptions": [
+      "A note can be unsecured; security does not establish sufficient value or priority to repay it."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+        "locator": "Notes and security instruments",
+        "supports": "Distinguishes the repayment evidence from real-property security."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref13.pdf",
+        "locator": "Security agreements and personal-property collateral",
+        "supports": "Explains collateral instruments distinct from ownership transfer."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "notes-and-their-security",
+        "summary": "The chapter separates the buyer's seller-financing note from the security document and the bill of sale for equipment.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-024"]
+  },
+  {
+    "id": "contracts-rule-variable-interest-negotiability",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "notes-and-their-security",
+    "coverageTopics": ["Promissory Notes/Securities"],
+    "rule": "Variable interest alone does not defeat negotiability when the note otherwise meets the statutory requirements, including a fixed money principal and an unconditional payment promise.",
+    "conditions": [
+      "Check all relevant section 3104 requirements rather than decide from the note's title.",
+      "Distinguish changing interest from a condition on whether any obligation arises."
+    ],
+    "exceptions": [
+      "Additional undertakings or conditional payment can cause separate negotiability problems even when the interest formula is valid."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+        "locator": "Subdivision (a)",
+        "supports": "States negotiable-instrument requirements."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3112.",
+        "locator": "Subdivisions (a)-(b)",
+        "supports": "Permits fixed or variable interest, including reference to outside information."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "notes-and-their-security",
+        "summary": "The note reading compares a fixed $100,000 principal with a valid index-based interest calculation.",
+        "figureIds": ["exp-purchase-note-variable-interest-reading"]
+      }
+    ],
+    "questionIds": ["contracts-050"]
+  },
+  {
+    "id": "contracts-rule-conditional-note-contract-rights",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "promises-negotiability-and-investment-risk",
+    "coverageTopics": ["Promissory Notes/Securities"],
+    "rule": "An express condition that no repayment obligation arises unless a project succeeds differs from a mere payment-source limitation; nonnegotiability does not by itself erase ordinary contractual rights.",
+    "conditions": [
+      "Read whether the obligation exists unconditionally or arises only on an event.",
+      "Separate negotiability from enforceability under other applicable law."
+    ],
+    "exceptions": [
+      "Section 3106(b) does not make a promise conditional merely because payment is limited to a particular fund or source."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+        "locator": "Subdivision (a)",
+        "supports": "Requires an unconditional promise or order for negotiability."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3106.",
+        "locator": "Subdivisions (a)-(b)",
+        "supports": "Distinguishes express conditions from permitted payment-source limitations."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=1103.",
+        "locator": "Subdivision (b)",
+        "supports": "Preserves supplemental principles of law and equity unless displaced by the code."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "promises-negotiability-and-investment-risk",
+        "summary": "The payment comparison contrasts no obligation unless a project succeeds with an unconditional obligation payable from a named source.",
+        "figureIds": ["exp-purchase-payment-condition-or-source"]
+      }
+    ],
+    "questionIds": ["contracts-043"]
+  },
+  {
+    "id": "contracts-rule-note-securities-boundary",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "promises-negotiability-and-investment-risk",
+    "coverageTopics": ["Promissory Notes/Securities"],
+    "rule": "Real-estate collateral and a real-estate license do not eliminate a separate inquiry into securities registration, exemptions, disclosures, and the authority to sell an investment note.",
+    "conditions": [
+      "Examine the actual offering and applicable securities treatment.",
+      "Assess collateral value and priority separately from promised repayment."
+    ],
+    "exceptions": [
+      "Not every note has identical securities treatment, and an exemption must be established rather than assumed from the word secured."
+    ],
+    "sources": [
+      {
+        "url": "https://www.investor.gov/protect-your-investments/fraud/types-fraud/promissory-notes",
+        "locator": "Promissory Notes, registration and seller licensing cautions",
+        "supports": "Explains separate securities and seller-licensing requirements and risks in promissory-note offerings."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "promises-negotiability-and-investment-risk",
+        "summary": "The chapter contrasts a written junior secured promise with limited collateral proceeds and the separate authorization to market the investment.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["contracts-051"]
+  },
+  {
+    "id": "contracts-rule-installment-title",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "land-sale-contracts-and-a-worked-scenario",
+    "coverageTopics": ["Agreements"],
+    "rule": "In the stipulated installment land-sale arrangement, the seller retains legal title pending performance and the purchaser acquires an equitable interest, unlike an immediate conveyance with a seller-held lien.",
+    "conditions": [
+      "Read when the deed is required and the buyer's payment obligations.",
+      "Apply the statutory sales-contract definition and the actual arrangement rather than infer co-ownership from payments."
+    ],
+    "exceptions": [
+      "For section 2985's defined category, a deed conveyance is not required within one year; remedies and forfeiture are not automatically resolved by title retention."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2985.",
+        "locator": "Definition of real property sales contract",
+        "supports": "Defines installment sale arrangements within the statute, including the deed-delivery timing condition."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref13.pdf",
+        "locator": "Real property sales contracts",
+        "supports": "Distinguishes retained legal title and purchaser equitable interest from note-and-deed-of-trust financing."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "land-sale-contracts-and-a-worked-scenario",
+        "summary": "The title-path comparison contrasts a retained-title installment purchase with an immediate deed and seller-held security.",
+        "figureIds": ["exp-purchase-seller-financing-title-paths"]
+      }
+    ],
+    "questionIds": ["contracts-026"]
+  },
+  {
+    "id": "contracts-rule-lease-option-credit",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "land-sale-contracts-and-a-worked-scenario",
+    "coverageTopics": ["Purchase/Lease Options"],
+    "rule": "A lease-option purchase credit is determined by the option fee and qualifying rent portions the agreement actually credits, not by treating every rent dollar as equity.",
+    "conditions": [
+      "Count only payments satisfying the stated conditions.",
+      "Distinguish possession, the option choice, exercise, and purchase closing."
+    ],
+    "exceptions": [
+      "An expired or unexercised option does not automatically transfer fee title; whether consideration is refundable or credited follows the agreement and applicable law."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+        "locator": "Clear contractual terms",
+        "supports": "Supports computing the particular agreed fee and qualifying-rent credits."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "land-sale-contracts-and-a-worked-scenario",
+        "summary": "The chapter's $5,000 option fee plus ten qualifying $300 rent credits produces $8,000 potential credit if the purchase completes.",
+        "figureIds": ["exp-purchase-rent-versus-option-credit"]
+      }
+    ],
+    "questionIds": ["contracts-027"]
+  }
+]

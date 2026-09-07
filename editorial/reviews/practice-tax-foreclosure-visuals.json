@@ -1,0 +1,217 @@
+[
+  {
+    "id": "review-practice-tax-foreclosure-visuals",
+    "reviewed": "2026-09-06",
+    "reviewer": "audit_exam_bank (separate AI agent; not the authors of these figures)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Source-based review of all 20 practice-rules.ts and 12 tax-foreclosure.ts visual specifications and their new teaching context. Arithmetic, exceptions, and current operative foreclosure versions were checked. This pass did not cover every pre-existing chapter paragraph, any practice question, or visual rendering.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=827.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.1.",
+      "https://selfhelp.courts.ca.gov/eviction-landlord/notice-types",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1161.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1162.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1102.3.",
+      "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title42-section3603",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
+      "https://calcivilrights.ca.gov/housing/",
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap45-subchapI-sec3607.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6102.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6103.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=6105.",
+      "https://cdtfa.ca.gov/lawguides/vol1/sutl/sales-and-use-tax-law-chapter6-all.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1024/41/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=729.030.",
+      "https://csm.ca.gov/matters/11-9811-I-01/doc3.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41.",
+      "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm",
+      "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm",
+      "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm",
+      "https://www.boe.ca.gov/proptaxes/supplemental-assessment/"
+    ],
+    "artifacts": [
+      {
+        "kind": "visual",
+        "id": "exp-practice-rent-notice-arithmetic",
+        "digest": "0b7fa23ceb61f992ed0334d18c931b41b0c5d930902481502c82ac0fb13b5f21"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-cure-holiday-clock",
+        "digest": "b0fbe55466470d117c10580ad2f79933ada896f88548304aca3208ac7aa870ed"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-who-ends-tenancy",
+        "digest": "19e5de2995614b35afc3b24628b14ae36735390252e10bb0f08090273259dda7"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-deposit-disposition-ledger",
+        "digest": "028655c39373cf91540e379f4c42d295a60798e6baa500a84837ce571607a59c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-moveout-separate-clocks",
+        "digest": "d9df6f5a52ac21e854772cc373954892d946e9bf1bd5363fc03bc8f47d9e13b1"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-trust-exemption-three-tests",
+        "digest": "a081e47048cc80fc8bde270146bc54fa3b852bbf3d0d8e71aface24469279cc1"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-tds-packet-completeness",
+        "digest": "17ce294dcbd44b30c04d45def4ea651630d329960976008e41a6212c5756c2d7"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-lead-waiver-boundary",
+        "digest": "1795adf3fe71fd706501b361f5aaea61cec90f8174030d1362cd1afddad2af8b"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-nhd-parcel-mismatch",
+        "digest": "831244ce5a4958d4ff3b2261377a03f32f7e09163d3415380c19e819e3325672"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-inspection-observation-log",
+        "digest": "42ea7fefc2a0fb294470dbd06a138370b3241bdcf48bb9057db530ae71cc1d8a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-federal-california-housing-tests",
+        "digest": "51af346974b5a71f7d4b4f83f550cda99526077aff8915e2f5d7f19b7ba4e867"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-broker-involvement-exemption",
+        "digest": "48101e31980a750de11c0591ea9fcc389fc3dd6d55a35476fcfccc3617aaa283"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-voucher-screening-worksheet",
+        "digest": "f92b457cae7050005d355761ea8acd7b3e6b4d350ab7ff86fa1bbc67b0ede76c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-accommodation-verification",
+        "digest": "95253b26627be48cce3db6d04e417357fcd4fb3f986a9a601502df1415fd49ff"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-senior-occupancy-denominator",
+        "digest": "2cb17920bb6132945d6e485785fd8a678dbbf341e35df0139a57cfbebc210b78"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-bulk-sale-activity-test",
+        "digest": "a86116a7a93c541aa92d4914b6b8ed6e0ea3a3600f2282282e5c81974bf8fd00"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-bulk-sale-trigger-timeline",
+        "digest": "42574685983ccd5e2b36b0a23606b1ce13c69a47d0d648832372aec12e6197ae"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-bulk-creditor-notice-register",
+        "digest": "04cd491591accd9d166cd5c366fed5ba2e2a936aae3d89bcadb0cbb75fbd7580"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-business-tax-holdback-ledger",
+        "digest": "f4620002d251726a14d0e705a1bd604e28cba9186939a7b89280b700467a914a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-practice-estoppel-income-conflict",
+        "digest": "9afa8ae5df6beebb93fda8efbc5eb6ba8bae02d5acbe4acffacaafec22e30ef6"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-default-notice-reading",
+        "digest": "db532d47a0863b6281ce83db47b067d2e0ab78bc5328852a4061860a6c6ccd45"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-timeline-foreclosure-calendar-minimum",
+        "digest": "c2fe65984e9d311cc1146b123c7b6848ffc039d59acaca09f9711b50f23c113e"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-comparison-foreclosure-prerequisite-clocks",
+        "digest": "f017c8b13a0d4e6809dced01a7430bdafe082d7078c7b23d986ab4d02300f5d3"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-timeline-reinstatement-business-days",
+        "digest": "0b80cfb9af61cc232964b772b5e08c6a32116ca7b0a38f9550023a42fb971a58"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-decision-judicial-redemption-period",
+        "digest": "692381a774de1b4163346eaeca0310258ef3866115967a496b0c78039d219a7c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-decision-residential-sale-postponements",
+        "digest": "acb4383401695d6b4778d15fb4096f2710a47b653c6c960ae952bbbe4bf10ab6"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-assessment-value-identities",
+        "digest": "e0d6f8a153f8f34ce3e29a5b4f58b180b31ffcabf79c9973bfcf26e19d514b3d"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-calculation-factored-base-inflation",
+        "digest": "ab86c768c8b07122039bd7381bb149c9f9dbf605d08918a49484ef66c8999dd0"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-timeline-proposition-eight-recovery",
+        "digest": "33d470c2d9fe26d27013214fbac38a069f1ce42880465bba76ac21e8688f01d5"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-decision-reassessment-scope",
+        "digest": "df5c05c496347635bb015d5f6793ec7eb64cd3d53b1a065940f751f307ba73dc"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-allocation-property-tax-bill-components",
+        "digest": "e42c6ea27ee94182827c650ff7584af8889dcc333cd2522cd015da89d07d07d9"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-supplemental-tax-factor",
+        "digest": "225c12835f50c000d9989c275d4070957411c2fd244d16ffc653a6251cc4aee8"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "material",
+        "summary": "Surrounding fair-housing chapter originally used AND instead of OR for the nonresident-sale limitation.",
+        "resolution": "Root corrected the chapter to not residing OR not the most recent resident and added a moved-out counterexample. Reviewer confirmed; associated figures do not contain the incorrect conjunction."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Surrounding tenancy table could imply that adding a new roommate shortened an existing resident's notice.",
+        "resolution": "Root limited the table example to a sole resident and warned against the roommate inference. Reviewer confirmed; the existing notice figure already assumed a sole resident."
+      }
+    ],
+    "limitations": "Read-only independent AI primary-source review, not qualified human legal review or a certification of completeness. Direct CIV 9 retrieval failed; the business-day cross-reference and Saturday interpretation were corroborated through official judicial material. Excludes local ordinances, special transaction regimes, question-bank review, and screenshot QA."
+  }
+]

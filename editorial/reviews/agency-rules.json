@@ -1,0 +1,325 @@
+{
+  "id": "agency-rules-and-supplement-independent-2026-09-06",
+  "reviewed": "2026-09-06",
+  "reviewer": "audit_practice_agency independent reviewer; rules and three supplemental items authored by root",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 51 agency rule records, their linked chapter examples, all four full agency chapter bodies, and supplemental questions agency-063 through agency-065 with all 12 option rationales. Checked the 25 rule-source URLs as exact statutes or their official current articles, DRE Professional Responsibility printed pages 13-18, 23-32, 34-35, FTC pricing, CFPB RESPA FAQs, and the cited federal court's agency confidentiality discussion.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=7.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1.",
+    "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2334.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2332.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+    "https://www.govinfo.gov/content/pkg/USCOURTS-caeb-1_25-bk-10499/pdf/USCOURTS-caeb-1_25-bk-10499-0.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.5.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1710.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24.",
+    "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+    "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2355."
+  ],
+  "artifacts": [
+    {
+      "kind": "rule",
+      "id": "agency-rule-confirmation-deadline",
+      "digest": "458432febb43768b95fd721faaad0f4bbfa85dd1745930abe1ee257a42b01850"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-buyer-disclosure-clock",
+      "digest": "8a6d2d934716d3d23d33906ecb8d47d341246cc5a337bbf40c4ae8af0e457a69"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-lease-disclosure-scope",
+      "digest": "9a436f5ec23a0b1fb5d63a4d229f9091de928626d3c25485d49ba5445f5ee37d"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-identify-principal",
+      "digest": "0886d6a47186673ad8a9ef08e137b270d882cbe14389049fc8877cacbef9af6f"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-scope-classification",
+      "digest": "78232a2ae7fff5f99da19c15c67920766d882e9ca07533a9e9f6395689218a7d"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-express-creation",
+      "digest": "58920ed199884ab722725568e4516a09174ea9651d967b1ce682af3ac8434796"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-signing-authority",
+      "digest": "ca90cf7399cb79ed3f3aa74cdee3f62f8fcaacc8048e8a7b05e12d0be8cc7d76"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-power-instrument",
+      "digest": "e4df216e38441be45ca07d9b32bc7867fb5ec88fa99b9703a3b91c8797ae5b9d"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-ostensible-elements",
+      "digest": "fd3e205290d4830c9449e0ef91de8cb1f2c39c06051be72b327e7a72a0e87ff2"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-known-restrictions",
+      "digest": "e9709dd6aadc63b7b2314a9bb379405b82a41472a2a27f55f80b7cd7a7e5f0e3"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-informed-ratification",
+      "digest": "6da476e8ba1287bc582e689562f2d4691694456055f76f30ca2fa794324f1fed"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-imputed-notice",
+      "digest": "d431daf0b618c9711ee4f98ed7f38cfa7ca2b54943c2572ce88cb4cb4674c0b5"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-delivery-not-amendment",
+      "digest": "7e5774d4f25e3674334b00f1459d828a37bab16f0437486639ce88584109c980"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-lawful-obedience",
+      "digest": "7f32353d8405fab449e30c591419ea033cfad949687647989a17cc62816d082d"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-loyal-client-choice",
+      "digest": "4e2ac639dccfaf6d5f15f991735e4d19b9a5cd1946ac43ff6a3e26b10f694774"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-prompt-offers",
+      "digest": "783bc85fe7707528bb801cb0ae98378a5f689f99be16c5bdc4b1581128569b12"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-confidence-versus-defect",
+      "digest": "cdfa171999e5e116c724bea90abbad3970bc442ebaeefda63622623fbb51d5f6"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-surviving-confidence",
+      "digest": "481f2e7007287e6a9d79ea7c3803e136d325caa4c72cbdd984ee5b92c046e3a9"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-care-special-expertise",
+      "digest": "c56c616bc7e745f46ab579d7f6930b4c4a66aea2a856cbdf4d065aa53087fafb"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-visual-inspection",
+      "digest": "330d87f28f6bd63f0c81b4d25b5de13d62402df5d1edc453677d41a68d655cb6"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-inspection-known-information",
+      "digest": "6b6c04bafc2851b07616bbe8fd406a331aa92a6c6e1e716aed4bcf5326d876a1"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-deadline-instructions",
+      "digest": "4296393a6c345b5081e2bd572b9a50851303406eff6b4458f8432cab45956dbe"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-trust-accounting",
+      "digest": "dcdcf1374ca6919db8c54d79a17dbe5041bbe2ac31eb22db32a45591cb0ca211"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-nonclient-honesty",
+      "digest": "2f48922299b7ddf969089dd7c47d3f83a08ad68a54cb31c6cfd153f58e7b39ae"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-groundless-assertion",
+      "digest": "097acbe77b56dbe74f3d688ffaee5d1b819c81fe661c8ea5d490e8b4aa528c67"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-correct-discrepancy",
+      "digest": "047f87e37cb877db7ef351041b9b81bb3d49ab08b16f3f060467a2e57102061c"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-paperwork-functions",
+      "digest": "bf79a3850bf866ffc3b74028c1ae890f20bcf13b702f0e2a597352251d2d0fd0"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-seller-disclosure-clock",
+      "digest": "8e0c561d99bd113d457a658d7b75cdf6f6f59231186535539d99566dc99b1039"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-refused-receipt",
+      "digest": "eb628eb27e777e635e388c19d41a471ceac2ebdeb88afb6f800dbdfb672af493"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-broker-dual-role",
+      "digest": "743775d5c2dee16a0dfba554ae17d49012155d0136ae848f8d55548d4694af34"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-dual-confidence-limits",
+      "digest": "d54e545b51f3bc72de83abfc82cc31e7b29a3ed774208042d3fc0776a8c89cbb"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-dual-preserved-duties",
+      "digest": "65dbe895a7fb65fbde885d07da05bb8ef66ca86af43eba5de93a2831c0ed4c8b"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-shared-report-proposal",
+      "digest": "93629c265ca87efe4b756d2dc424c3d721e14f24a03b464095dd97ebdf0f6236"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-unrepresented-not-dual",
+      "digest": "d4f472e5265cafcae28de1d76cf0631b164b8e1f97f56f9631cc72989f4b6566"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-written-role-change",
+      "digest": "d6772ac41e623a6f1157e207c0dc3d83b2a5969fca8a290d5e6f3376b948bfe7"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-economic-self-interest",
+      "digest": "f6dfe505c6664fd6ce0ba2b44fe1681ffedd29d8b6793ddd9215d0ec11c41e7f"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-conduct-not-profit",
+      "digest": "7aff9fad1dc328ce60fd5603eeb039b44aff006fa7a79690764ef17b7e9efd72"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-affiliation-payment",
+      "digest": "dc41ffaaccabe50260d5a7b54b7ce2a027ef5fa6122196edc260d9f205b9d931"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-independent-pricing",
+      "digest": "0b9e02c1ad72406114f013c5f96e966022a686a1f310717786ac7e98a4528bc0"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-earning-conditions",
+      "digest": "e10a7edf3f7455dd4542dece40703d54541206fb6510c5ab8eb7a4d70310ae27"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-salesperson-payment",
+      "digest": "cf8b9c505e2d2d81190d47c9fcf3f7b0cb352f3222bd194c3aabf1c153b93c9b"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-authority-fee-separation",
+      "digest": "a634a9c2b37b3463c4ae2e3c795925dbf342733c0e21e1b7f985d65aac4725e9"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-third-party-revocation",
+      "digest": "690a3412f427050386ad92f2547eaa6829ae623acaf6363e15cab4bf3d5d34cd"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-coupled-interest",
+      "digest": "461d419834b3db5610110315b2d1c9a24b374920453af5ee115560ccdd9e1535"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-term-expiration",
+      "digest": "03a33fadf8f9f4004a2f6e06ae6ccc2bc983940589341f477403b0d191adb7c0"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-protection-clause",
+      "digest": "06af13d5de9ec881095a84b8fab8f5521c15e44a59ded5fc74a1d436a6fa89f5"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-separate-contracts",
+      "digest": "bf28ca36ae745d98dff657ee3ef4febe22cc57293a467041edb2bf1da911e389"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-withdrawal-handoff",
+      "digest": "6e3fbfc7007c24517f793aad3cb6e0eb135423820eccb37916cde8d24ba54e06"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-commission-two-bases",
+      "digest": "ae4f56be5684aab04c443b2bbe20e01e21eb6eaa87a9abbb7056e99c1d8ca6cc"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-ordered-referral-split",
+      "digest": "bcef8e293304c89fd8ef115ab92544a644b39664c7f8e60b68684b93dc2986a6"
+    },
+    {
+      "kind": "rule",
+      "id": "agency-rule-defined-referral-base",
+      "digest": "1aa4726df05d9d1f5ae99f4440a2db098d4231349f57550ae9c20dc26ffcbcdf"
+    },
+    {
+      "kind": "question",
+      "id": "agency-063",
+      "digest": "2a779058846d1761d836736395ab49d104686f4c38f9cc3b20979f75ce7149a5"
+    },
+    {
+      "kind": "question",
+      "id": "agency-064",
+      "digest": "30cd08f3aa2656e493ff4ee33c489fc9bbc10becab186bb3275e1c5728c44b2a"
+    },
+    {
+      "kind": "question",
+      "id": "agency-065",
+      "digest": "3ae3f989de6124af7ddfef930982b9c73a549ce95b0ca5e52c4c1af12206b380"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "material",
+      "summary": "New question agency-064 initially treated ordinary Saturday as excluded from business days and incorrectly selected Monday after Friday receipt.",
+      "resolution": "Changed the key to Saturday with explicit nonholiday and no-bank-action facts, corrected all rationales, added Civil Code 7 and 9 and Government Code 6700 citations, and corrected the chapter and rule evidence; reviewer verified the final version."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The protection-clause evidence attributed prospect-list requirements to a buyer-representation advisory that did not address those terms.",
+      "resolution": "Removed the irrelevant advisory from that rule and pinned the supporting DRE booklet discussion to printed pages 30-31."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The referral-base evidence attributed an agreement's arithmetic denominator to the CFPB source on lawful referral arrangements.",
+      "resolution": "Limited CFPB attribution to qualifying cooperative brokerage arrangements and identified the DRE booklet page 29 discussion for negotiated allocation."
+    }
+  ],
+  "limitations": "Independent AI source review, not qualified human review, exhaustive case-law research, or exam-readiness certification. The existing 62 questions and agency figure specifications were not re-reviewed in this particular pass; separate review records cover them. Current statutes control over outdated general language in the DRE reference booklet. The federal trial-court source is not described as controlling California appellate authority."
+}

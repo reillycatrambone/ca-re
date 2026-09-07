@@ -24,21 +24,22 @@ The production server uses port 3000, so stop the development server first. The 
 
 ## Content and study tools
 
-- 33 chapters across all seven DRE examination domains, approximately 67,000 chapter-body words.
-- 426 original questions with explanations for every answer choice.
+- 33 chapters across all seven DRE examination domains.
+- 543 original practice questions with explanations for every answer choice and targeted concept filters.
 - Continuous chapter reading, with visible subsections and a concise takeaway for every H2 section.
 - 33 chapter guides with core distinctions, pitfalls, related concepts, and original contrast, decision, sequence, or calculation labs.
 - Chapter quizzes and topic practice.
-- A 150-question, three-hour mock exam with approximate DRE domain weighting, flags, navigation, saved answers, expiry enforcement, and domain-level results.
+- Two distinct held-out 150-question, three-hour mock forms with DRE-weighted allocation, shuffled answer order, flags, navigation, revision-safe saved answers, expiry enforcement, and domain-level results.
 - Flashcards generated from the textbook glossary, with topic filters, shuffle, and answer reveal.
 - Browser-local current practice sessions, with no reading or flashcard tracking.
-- 75 teaching visuals: two in-text figures per chapter plus nine earlier chapter visuals, including custom relationship maps and an interactive capitalization-rate example.
+- 375 original teaching visuals: 75 baseline plus 300 additions across all chapters. Includes annotated fictional documents, calendars, parcels, numeric charts, financial ledgers, decision paths, and changed-fact comparisons.
 - Section-level search across chapters, figures, and guides, with direct links to the matching passage.
 - Responsive and print layouts.
 - All 65 published DRE subtopics mapped in `contents/coverage.json`.
 - Seven domain audits documenting 33 specific gaps and the teaching or source updates used to address them.
+- 396 rule-to-source-to-example-to-question records and 32 separate AI source-review records with exact artifact fingerprints.
 
-This is independent exam preparation, not a DRE-approved licensing course. The text and questions were authored with AI assistance and checked against cited primary sources. They are not actual DRE exam questions. The source review is dated September 6, 2026; later legal changes require editorial updates. Coverage and practice scores do not guarantee readiness or an exam result.
+This is independent exam preparation, not a DRE-approved licensing course. The text and questions were authored with AI assistance and checked against cited primary sources. They are not actual DRE exam questions. Source reviews are dated September 6-7, 2026; later legal changes require editorial updates. Qualified human subject-matter review has not been obtained. Coverage and practice scores do not guarantee readiness or an exam result. See [the acceptance record](editorial/expansion-goal.md) for scope and limitations.
 
 ## Verification
 
@@ -47,13 +48,14 @@ pnpm check:content
 pnpm typecheck
 pnpm test
 pnpm build
+pnpm audit:textbook -- --release
 pnpm exec playwright install chromium
-pnpm test:browser
+CONTENT_RELEASE_CHECK=1 pnpm test:browser
 ```
 
 Browser tests use an existing server at port 3000, or start the production server after a build. Set `PLAYWRIGHT_BASE_URL` to test another local URL. They use isolated browser contexts and do not change a reader's saved study data.
 
-Content validation checks metadata, source-link structure, chapter depth and coverage, question uniqueness and references, and sufficient question pools. It verifies figure anchors and numeric reconciliation, every guide's H2 coverage and related links, audit references, and calculation expressions against their declared results. Structural validation does not prove factual accuracy; primary-source review remains an editorial task.
+Content validation checks metadata, source-link structure, coverage, question uniqueness and references, and sufficient question pools. It verifies figure anchors and numeric reconciliation, every guide's H2 coverage and related links, audit references, and calculation expressions against their declared results. The release audit additionally checks linked review evidence, current fingerprints, conflicting reviews, held-out forms, and the fivefold visual expansion. Structural validation does not prove factual accuracy; primary-source review remains an editorial task.
 
 Unit and browser tests exercise study calculations, exam behavior, search and anchors, reading layouts, figures, persistence, and accessibility-related interactions. Run the commands above against the current edition rather than treating an earlier test result as a guarantee.
 
@@ -61,9 +63,11 @@ Unit and browser tests exercise study calculations, exam behavior, search and an
 
 - `contents/textbook/<domain>/*.mdx`: original lessons and source metadata.
 - `contents/questions/<domain>.json`: original question banks.
+- `contents/exams/exam-{a,b}.json`: separate held-out assessment forms, excluded from ordinary practice and search.
 - `contents/guides/<domain>.json`: one structured reading guide and case lab per chapter.
 - `contents/audits/<domain>.json`: targeted coverage findings, completed actions, sources, and limitations.
 - `contents/coverage.json`: published DRE topic-to-chapter mapping.
+- `editorial/rules/` and `editorial/reviews/`: source-linked teaching evidence and separate review records.
 - `lib/curriculum.ts`: shared lesson, domain, and question contracts.
 - `lib/learning-figures/`: typed, domain-organized teaching figures and validation.
 - `lib/study-guides/`: guide and audit contracts, validation, and search integration.
@@ -77,7 +81,7 @@ Read [AUTHORING.md](AUTHORING.md) before editing educational content. Legal revi
 
 There are no application credentials, analytics integrations, accounts, or personal-data fields. The current practice session uses the `ca-re:study:v1` browser storage key and never goes to an application backend. Earlier records are migrated without completion, bookmark, known-term, or history fields. Hosting services may process ordinary request data.
 
-The project can be hosted as a static Next.js export. Optional Sites project metadata is retained in `.openai/hosting.json`; it contains no credentials. The current working run is local. No production deployment is required to use the textbook.
+The project can be hosted as a static Next.js export. The current working run is local. No production deployment is required to use the textbook. Held-out exam assets are public and inspectable; separation from normal learning workflows is not a secrecy guarantee.
 
 ## Attribution
 

@@ -1,1552 +1,2933 @@
 [
   {
+    "id": "agency-063",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A buyer signs a purchase contract on Tuesday, and the seller plans to sign Thursday. Under Civil Code 2079.17(a), when must the buyer's agent's actual representation be confirmed in the contract or required separate writing?",
+    "options": [
+      {
+        "text": "By escrow closing, with a signature from each represented client.",
+        "explanation": "Closing is too late; confirmation is tied to execution of the purchase contract.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "After Thursday's acceptance, within the next business day.",
+        "explanation": "The next-business-day rule for an offer prepared elsewhere concerns educational disclosure, not this confirmation.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Before or with the buyer's and seller's respective contract executions.",
+        "explanation": "The required confirmation must be executed or acknowledged by seller, buyer, and buyer's agent before or coincident with buyer and seller executing the contract, respectively."
+      },
+      {
+        "text": "Before Tuesday, with acknowledgment only from buyer and buyer's agent.",
+        "explanation": "This omits the seller from the required confirmation and substitutes one uniform deadline for the parties' respective executions.",
+        "misconceptionId": "role-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 1,
+    "pool": "practice",
+    "sectionId": "disclosure-timing-and-coverage",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code section 2079.17, agency disclosure and confirmation",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "agency-064",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "On Friday a buyer's agent first receives from the buyer a purchase offer prepared by someone else. Saturday is not a statutory holiday, and no bank action is involved. Focusing only on that event's disclosure deadline under Civil Code 2079.14(a)(2), when is the latest delivery of the agency-disclosure form to the buyer?",
+    "options": [
+      {
+        "text": "Monday, the next business day after receipt.",
+        "explanation": "This incorrectly excludes an ordinary Saturday. Civil Code sections 7 and 9 generally treat nonholiday days as business days; no relevant exception is supplied.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Saturday, a nonholiday business day after receipt.",
+        "explanation": "Section 2079.14(a)(2) requires delivery no later than the next business day after receipt of an offer prepared elsewhere. Under Civil Code sections 7 and 9, Saturday counts on these facts. This does not excuse a separate earlier duty before a representation agreement."
+      },
+      {
+        "text": "Thursday, before the buyer signed the offer.",
+        "explanation": "The question isolates the special receipt rule for an offer not prepared by this agent.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "The seller's acceptance date, before opening escrow.",
+        "explanation": "Acceptance and escrow opening are not the triggering events for this delivery requirement.",
+        "misconceptionId": "wrong-trigger"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "disclosure-timing-and-coverage",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code section 2079.14, agency disclosure and confirmation",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14."
+      },
+      {
+        "label": "Civil Code section 7, statutory holidays",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=7."
+      },
+      {
+        "label": "Civil Code section 9, nonholiday business days",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9."
+      },
+      {
+        "label": "Government Code section 6700, California holidays",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "agency-065",
+    "domain": "agency",
+    "lessonSlug": "agency-disclosure-and-conflicts",
+    "prompt": "A broker is retained to negotiate a new 30-month lease of a California house. Another adviser says statutory agency disclosure applies only when ownership title is sold. Which response correctly applies Civil Code 2079.13?",
+    "options": [
+      {
+        "text": "Correct; a residential lease must also contain a purchase option.",
+        "explanation": "A purchase option is not required by the statute's leasehold-duration definition.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "Incorrect; creation of a leasehold exceeding one year is included.",
+        "explanation": "Sections 2079.13(l) and (m) include the stated residential leasehold and its creation within the statutory definitions. A 30-month lease is not excluded merely because fee title stays with the lessor."
+      },
+      {
+        "text": "Correct; only commercial leases enter the agency definitions.",
+        "explanation": "The definition expressly reaches residential leaseholds of more than one year.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "Incorrect; lease duration never affects the statutory definition.",
+        "explanation": "The statute specifies a leasehold exceeding one year, so the duration qualification cannot be discarded.",
+        "misconceptionId": "missing-condition"
+      }
+    ],
+    "answer": 1,
+    "revision": 1,
+    "pool": "practice",
+    "sectionId": "disclosure-timing-and-coverage",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code section 2079.13, statutory agency definitions",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
     "id": "agency-001",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A seller agrees to pay part of a buyer's brokerage fee. The buyer has retained a separate broker. What determines whom that broker represents?",
+    "prompt": "A buyer retains a separate brokerage. The seller agrees to contribute toward that brokerage's fee, without changing representation. Which fact identifies the brokerage's principal?",
     "options": [
       {
-        "text": "The title company's choice of payee.",
-        "explanation": "Escrow payment instructions do not create client representation."
+        "text": "The seller's obligation to fund part of the brokerage fee.",
+        "explanation": "Payment creates the stated contribution obligation, not seller representation.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The representation agreement and actual agency relationship.",
-        "explanation": "Payment source does not by itself change the represented principal."
+        "text": "The buyer's retained representation by that brokerage.",
+        "explanation": "The agency undertaking identifies the client. Under section 2079.19, compensation source does not by itself determine the relationship."
       },
       {
-        "text": "Who writes the commission check.",
-        "explanation": "Compensation source alone does not establish agency."
+        "text": "The listing broker's agreement to cooperate with the brokerage.",
+        "explanation": "Cooperation in completing a sale does not itself appoint a seller's subagent.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The property's listing price.",
-        "explanation": "Price is a contract term, not an agency designation."
+        "text": "The party to whom the final commission invoice is addressed.",
+        "explanation": "Billing follows payment arrangements, which can differ from the representation agreement.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "start-with-who-represents-whom",
+    "conceptIds": ["agency-relationships"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-002",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A listing authorizes a broker to market a home and find a buyer. It contains no authority to sign for the owner. May the broker accept an offer for the seller?",
+    "prompt": "A written listing authorizes marketing and finding a purchaser but gives no authority to execute a sale contract. A buyer submits an offer matching every advertised term. May the broker sign the seller's acceptance?",
     "options": [
       {
-        "text": "No, marketing authority does not ordinarily include signing authority.",
-        "explanation": "A listing employs brokerage services without automatically authorizing execution of the seller's contract."
+        "text": "No; the broker lacks the required signing authority.",
+        "explanation": "An employment to procure a buyer is distinct from authority to bind the seller to the conveyance contract."
       },
       {
-        "text": "Yes, whenever the price equals the asking price.",
-        "explanation": "Matching price does not supply missing authority or resolve other terms."
+        "text": "Yes; matching every advertised term supplies implied consent.",
+        "explanation": "A suitable offer must be presented, but matching advertised terms does not confer the missing written authority.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Yes, if the broker holds the keys.",
-        "explanation": "Access to the property is not authority to bind its owner."
+        "text": "Yes; the listing supplies authority to complete the promised sale.",
+        "explanation": "The listing is a brokerage employment agreement, not an authorization to execute every resulting contract.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Only if the earnest money exceeds 3%.",
-        "explanation": "Deposit size has no bearing on the broker's signing authority."
+        "text": "No; a broker may sign only after the buyer removes contingencies.",
+        "explanation": "Removal of contingencies does not grant authority. Proper written authority, not that later event, is the relevant issue.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-003",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "An owner hires a manager to collect rents, arrange authorized repairs, and administer leases continuously. Within that business, the manager most closely resembles which agent?",
+    "prompt": "An owner directly appoints a manager to handle rent collection, authorized repairs, and lease administration continuously. Which classification best describes the breadth of this appointment?",
     "options": [
       {
-        "text": "A universal agent without limits.",
-        "explanation": "Management authority does not grant power over all the owner's affairs."
+        "text": "Universal agent.",
+        "explanation": "The manager does not receive authority over all of the owner's affairs; the appointment concerns a defined management business.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "A grantee.",
-        "explanation": "A grantee receives a property interest; management alone conveys none."
+        "text": "Special agent.",
+        "explanation": "A particular isolated act or transaction illustrates special agency. This engagement covers continuing management activities.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "An escrow holder only.",
-        "explanation": "Property management involves continuing duties beyond conditional custody."
+        "text": "Subagent.",
+        "explanation": "The owner appointed this manager directly; the facts do not describe an agent appointing another to conduct the principal's business.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "A general agent.",
-        "explanation": "The appointment covers an ongoing class of management activities."
+        "text": "General agent.",
+        "explanation": "The continuing class of management activities is general agency, still subject to specific limits on the manager's authority."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "classify-the-scope-of-the-job",
+    "conceptIds": ["agency-relationships"],
+    "sources": [
+      {
+        "label": "Civil Code 2295-2300: agency definitions",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1."
+      },
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-004",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "Which fact most strongly supports ostensible authority?",
+    "prompt": "A vendor claims a manager had ostensible authority to order a routine repair. Which evidence most directly establishes the required source of the appearance of authority?",
     "options": [
       {
-        "text": "The tenant wishes the manager could approve a sale.",
-        "explanation": "A third party's preference is not authority created by the principal."
+        "text": "The manager told the vendor the repair was approved.",
+        "explanation": "The supposed agent's unsupported statement does not itself establish an appearance attributable to the principal.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The manager earns a monthly fee.",
-        "explanation": "Compensation alone does not establish the scope of apparent authority."
+        "text": "Other local managers commonly authorize similar repairs.",
+        "explanation": "Industry practice may inform context, but it does not replace the owner's conduct in creating this appearance.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The principal repeatedly represents to others that the manager may authorize routine repairs.",
-        "explanation": "Ostensible authority rests on appearances attributable to the principal and reasonable reliance."
+        "text": "The owner told the vendor to accept such orders from the manager.",
+        "explanation": "The representation comes from the principal. Good-faith reliance, ordinary care, and a qualifying change of position must also be shown."
       },
       {
-        "text": "The manager privately claims unlimited power without the owner's knowledge.",
-        "explanation": "An agent cannot create authority solely through unsupported assertions."
+        "text": "The vendor recorded its belief that approval was unnecessary.",
+        "explanation": "A vendor's unilateral belief does not show that the principal caused or allowed the appearance.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "actual-and-ostensible-authority",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      },
+      {
+        "label": "Civil Code 2330-2339: third-party reliance",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-005",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A principal learns all material facts about an unauthorized transaction and adopts it in the legally required manner. This is:",
+    "prompt": "A manager made an unauthorized lawful contract. After learning its material facts, the owner adopts the entire contract using the required formalities. What explains the owner's adoption?",
     "options": [
       {
-        "text": "Novation automatically releasing every agent.",
-        "explanation": "Ratification does not itself substitute parties or release liability."
+        "text": "Prior express authorization.",
+        "explanation": "Express authorization before the act would make it originally authorized; the question instead supplies later adoption.",
+        "misconceptionId": "wrong-trigger"
       },
       {
         "text": "Ratification.",
-        "explanation": "The principal has adopted an initially unauthorized act."
+        "explanation": "Ratification adopts a previously unauthorized act. Required form, informed consent, and legal capacity still matter."
       },
       {
-        "text": "Revocation.",
-        "explanation": "Revocation withdraws authority rather than adopts a transaction."
+        "text": "Ostensible authority.",
+        "explanation": "That concerns the principal-created appearance on which a third party relied, not the principal's subsequent adoption.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Subordination.",
-        "explanation": "Subordination changes priority, commonly among liens."
+        "text": "Implied incidental authority.",
+        "explanation": "Incidental authority concerns acts already within what is necessary or usual for the authorized purpose; this act was initially unauthorized.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-006",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A brokerage signs a written agreement to represent a buyer in a defined search. How was this agency most clearly created?",
+    "prompt": "Before services begin, a buyer and brokerage sign a contract expressly authorizing representation in a specified search. Which description best fits its creation?",
     "options": [
       {
-        "text": "Express agreement.",
-        "explanation": "The parties expressly stated and documented the representation."
+        "text": "Actual agency by express agreement.",
+        "explanation": "The principal expressly hires the agent before performance. Agency formation is separate from authority for any particular later act."
       },
       {
-        "text": "Adverse possession.",
-        "explanation": "Possession of land does not create this employment relationship."
+        "text": "Ostensible agency by the seller's conduct.",
+        "explanation": "The buyer's actual agreement, not an appearance created by the seller, establishes this relationship.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Recording a deed.",
-        "explanation": "No conveyance is needed to create buyer representation."
+        "text": "Agency by later ratification of the search.",
+        "explanation": "The agreement precedes the services; no unauthorized completed search is being adopted.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Escheat.",
-        "explanation": "Escheat concerns succession to property by the state."
+        "text": "Implied agency from negotiations already performed.",
+        "explanation": "No prior conduct is needed to infer this appointment because the parties explicitly agree before services begin.",
+        "misconceptionId": "source-of-authority"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "how-agency-is-created",
+    "conceptIds": ["agency-relationships"],
+    "sources": [
+      {
+        "label": "Civil Code 2295-2300: agency definitions",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1."
+      },
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-007",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "An attorney-in-fact signs a deed under a valid power of attorney. Which statement is correct?",
+    "prompt": "An owner gives a nonlawyer a valid, effective written power to execute the owner's sale documents for one identified parcel. Which statement about that attorney-in-fact is correct?",
     "options": [
       {
-        "text": "The attorney-in-fact must hold a law license.",
-        "explanation": "An attorney-in-fact need not be an attorney-at-law."
+        "text": "The appointment also authorizes sales of the owner's other parcels.",
+        "explanation": "The instrument identifies one parcel. Its title does not extend the delegation to unrelated property.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Every listing salesperson is automatically an attorney-in-fact.",
-        "explanation": "A listing does not automatically confer power to sign deeds."
+        "text": "The appointee must become an attorney-at-law before using the power.",
+        "explanation": "An attorney-in-fact is an authorized representative, not necessarily a licensed lawyer.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The instrument grants ownership to the attorney-in-fact.",
-        "explanation": "Authority to act is distinct from ownership of the property."
+        "text": "The appointment gives the appointee a beneficial interest in the parcel.",
+        "explanation": "Authority to execute documents for the owner is not a conveyance of beneficial ownership.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The signing authority depends on the powers granted and applicable law.",
-        "explanation": "A power of attorney must cover the act and be effective when used."
+        "text": "The appointee may exercise the granted power within its stated limits.",
+        "explanation": "Scope and effectiveness of the instrument control. The nonlawyer status alone does not defeat this stipulated authority."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-008",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A salesperson from one brokerage shows another brokerage's listing to a represented buyer. Which conclusion is justified?",
+    "prompt": "A buyer-representing brokerage cooperates with a different listing brokerage to arrange a showing. The agreements remain unchanged. What is the buyer brokerage's role?",
     "options": [
       {
-        "text": "The listing broker automatically becomes the buyer's agent.",
-        "explanation": "A showing by another firm does not establish that relationship."
+        "text": "Seller's agent because it is helping produce a sale of the listing.",
+        "explanation": "Participation in the seller's desired sale does not override the brokerage's buyer-representation undertaking.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "No fiduciary duties can arise until closing.",
-        "explanation": "Representation duties can arise well before the transaction closes."
+        "text": "Dual agent because it coordinates terms with the seller's broker.",
+        "explanation": "Communicating with an opposing agent does not itself establish representation of that agent's principal.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The cooperating brokerage may represent the buyer; cooperation alone does not establish subagency.",
-        "explanation": "Determine the actual agency rather than inferring seller representation from cooperation."
+        "text": "Buyer's agent; cooperation alone does not create seller subagency.",
+        "explanation": "Actual representation, rather than coordination or a compensation arrangement, determines the relationship."
       },
       {
-        "text": "The showing automatically creates seller subagency.",
-        "explanation": "A cooperating broker need not be the seller's subagent."
+        "text": "Listing broker's subagent because it uses the listing broker's access instructions.",
+        "explanation": "Instructions for access are not an appointment to represent the seller through the listing broker.",
+        "misconceptionId": "source-of-authority"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "classify-the-scope-of-the-job",
+    "conceptIds": ["agency-relationships"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-009",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "Which appointment best illustrates a special agency?",
+    "prompt": "Which engagement most clearly illustrates a special agency under the stated scope?",
     "options": [
       {
-        "text": "Naming someone as the future heir to a house.",
-        "explanation": "An inheritance designation is not an appointment to act as an agent."
+        "text": "Continuous rent collection and lease administration for an apartment portfolio.",
+        "explanation": "This is an ongoing class of management business, not one particular act or transaction.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Retaining a brokerage to market one identified parcel.",
-        "explanation": "The appointment has a particular transaction or purpose."
+        "text": "An appointment to market and procure a purchaser for one identified parcel.",
+        "explanation": "The authority concerns a particular sale assignment rather than the owner's continuing business generally."
       },
       {
-        "text": "Granting unlimited power over all business and personal affairs.",
-        "explanation": "That describes a far broader scope than special agency."
+        "text": "Ongoing supervision of repairs, leasing, and vendors for an office building.",
+        "explanation": "Although limited to one building, the engagement covers continuing categories of business.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Appointing a manager for all ongoing operations of an apartment portfolio.",
-        "explanation": "That is ordinarily general agency within the management business."
+        "text": "An appointment to administer the owner's entire recurring rental business.",
+        "explanation": "The continuing business appointment is broader than the particular-transaction characteristic of special agency.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "classify-the-scope-of-the-job",
+    "conceptIds": ["agency-relationships"],
+    "sources": [
+      {
+        "label": "Civil Code 2295-2300: agency definitions",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-010",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A seller instructs the listing agent to conceal a known recurring roof leak. What should the agent do?",
+    "prompt": "A seller directs the listing agent to conceal a known recurring roof leak from a buyer who does not know of it. Which response respects the agent's duties?",
     "options": [
       {
-        "text": "Refuse concealment and address the required disclosure through the responsible broker.",
-        "explanation": "Lawful disclosure duties take precedence over an unlawful client instruction."
+        "text": "Refuse concealment and arrange the required disclosure.",
+        "explanation": "Lawful obedience does not include hiding a material property defect. Involve the responsible broker in addressing the disclosure and continuing representation."
       },
       {
-        "text": "Obey because loyalty requires following every instruction.",
-        "explanation": "Obedience applies to lawful instructions, not concealment of material defects."
+        "text": "Honor the instruction unless the buyer requests a roof report.",
+        "explanation": "A required material disclosure is not postponed until a buyer asks the precise question.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Disclose only if the buyer is also the agent's client.",
-        "explanation": "Required material disclosure extends to nonclients."
+        "text": "Disclose the leak only after the seller accepts the buyer's offer.",
+        "explanation": "Deferring disclosure to secure an uninformed decision does not satisfy the duty of honest material disclosure.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Keep the information secret until after recording.",
-        "explanation": "Delayed disclosure does not satisfy the transaction duty."
+        "text": "Treat the instruction as protected seller bargaining information.",
+        "explanation": "A known physical defect differs from a private reservation price or motivation; confidentiality does not authorize this concealment.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "loyalty-and-lawful-obedience",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-011",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A buyer asks the seller's agent for the seller's undisclosed minimum acceptable price. The seller has not authorized disclosure. What is the best response?",
+    "prompt": "A listing agent knows the seller's private minimum price. The seller has not authorized disclosure, and no legal disclosure duty requires revealing it. An unrepresented buyer asks for the figure. What should the agent do?",
     "options": [
       {
-        "text": "Reveal it because all facts must be shared equally.",
-        "explanation": "Material-property disclosure does not require revealing every private bargaining fact."
+        "text": "Disclose it because good faith requires equal bargaining information.",
+        "explanation": "Honest dealing and material property disclosure do not require surrendering a client's protected negotiating limit.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Invent a higher minimum.",
-        "explanation": "Confidentiality does not authorize a false statement."
+        "text": "Give the listing price as the seller's definite minimum instead.",
+        "explanation": "The agent should not replace a withheld confidence with a factual assertion known to be inaccurate.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Require the buyer to waive inspection before answering.",
-        "explanation": "Trading away inspection does not authorize disclosure of the seller's confidence."
+        "text": "Disclose it if the buyer first signs an agency-disclosure receipt.",
+        "explanation": "A receipt acknowledges delivery of information about agency; it is not the seller's permission to reveal a confidence.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Protect that bargaining information while presenting any offer to the seller.",
-        "explanation": "A private negotiating limit is different from a disclosable property defect."
+        "text": "Decline to reveal it and invite the buyer to submit an offer.",
+        "explanation": "The agent can communicate offers without revealing the unauthorized private limit or making a misleading substitute statement."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "confidentiality-has-a-boundary",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-012",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "An agent chooses a weaker offer for a seller because it pays the agent more, without telling the seller. Which duty is most directly implicated?",
+    "prompt": "A listing agent suppresses the stronger of two offers solely because the weaker offer would generate a larger fee for the agent. Which duty most directly addresses placing the agent's own benefit ahead of the seller's interests?",
     "options": [
       {
-        "text": "Escheat.",
-        "explanation": "Escheat has no relation to selecting offers."
+        "text": "Confidentiality.",
+        "explanation": "The specified conduct favors the agent's financial interest; it is not primarily an unauthorized revelation of the seller's private information.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Reconveyance.",
-        "explanation": "Reconveyance concerns release of deed-of-trust security."
+        "text": "Accounting.",
+        "explanation": "Accounting concerns entrusted money and property. No mishandling of held funds is needed for this loyalty breach.",
+        "misconceptionId": "duty-confusion"
       },
       {
         "text": "Loyalty.",
-        "explanation": "The agent placed a conflicting personal financial interest ahead of the client."
+        "explanation": "The agent's conflicting fee preference displaces the principal's interests. Suppression also raises a disclosure-duty issue."
       },
       {
-        "text": "Constructive notice.",
-        "explanation": "That concerns legally attributed notice, not the agent's preference for a fee."
+        "text": "Lawful obedience.",
+        "explanation": "The question identifies no seller instruction directing the choice. The agent's self-interested preference directly implicates loyalty.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "loyalty-and-lawful-obedience",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-013",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A listing agent receives an offer the agent thinks is too low. The seller has given no instruction to withhold offers. What is the appropriate action?",
+    "prompt": "A listing agent receives a signed offer below asking price with an approaching response deadline. The seller gave no instruction to withhold such offers. What should the agent do?",
     "options": [
       {
-        "text": "Return it unless the buyer raises the deposit.",
-        "explanation": "The agent cannot invent a deposit condition for presentation."
+        "text": "Ask for an improved price before telling the seller an offer exists.",
+        "explanation": "Seeking improvement must not become withholding a significant offer and its deadline from the principal.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Promptly present it and advise the seller about its terms.",
-        "explanation": "The principal should make the informed decision; the agent should not silently discard it."
+        "text": "Promptly present the offer and explain its terms and deadline.",
+        "explanation": "The seller decides whether to accept, reject, or counter. The agent supplies information and advice, not an unauthorized rejection."
       },
       {
-        "text": "Reject it in the seller's name.",
-        "explanation": "The facts grant no authority to substitute the agent's acceptance decision."
+        "text": "Reject the offer using the seller's advertised asking price as authority.",
+        "explanation": "An asking price is not delegated authority to reject every lower offer without communication.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Wait until a higher offer arrives.",
-        "explanation": "Delay deprives the principal of timely transaction information."
+        "text": "Hold the offer until another buyer provides a useful comparison.",
+        "explanation": "The agent's preference for comparison does not justify allowing this offer to expire without the seller's informed choice.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "disclosure-to-the-principal",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-014",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "An agent asserts that a lot can be subdivided despite having no reasonable basis for the statement. Which risk is most directly raised?",
+    "prompt": "An agent sincerely but baselessly states as fact that a parcel has subdivision approval. It does not. Assuming actionable reliance and harm are established, which theory best fits the lack of reasonable grounds despite no deliberate lie?",
     "options": [
       {
         "text": "Negligent misrepresentation.",
-        "explanation": "A factual assertion made without reasonable grounds can create liability."
+        "explanation": "A false factual assertion without reasonable grounds can support negligent misrepresentation. Sincerity alone does not establish reasonable care."
       },
       {
-        "text": "Automatic creation of subdivision approval.",
-        "explanation": "An agent's assertion cannot grant governmental approval."
+        "text": "Intentional concealment of a known approval denial.",
+        "explanation": "The supplied facts describe a baseless affirmative assertion, not knowing suppression of a denial.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "A valid warranty from the planning department.",
-        "explanation": "The statement does not establish any planning-agency promise."
+        "text": "A promise made without intent to obtain future approval.",
+        "explanation": "The agent asserted an existing fact; the question does not describe an insincere promise about a future act.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "No liability unless the agent admits an intent to lie.",
-        "explanation": "Negligent misrepresentation does not require deliberate deceit."
+        "text": "An authorized estimate protected by the agent's honest belief.",
+        "explanation": "The assertion was factual and lacked reasonable grounds. Honest belief does not turn it into a supported opinion.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "duties-to-nonclients",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 1710: false factual assertions",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1710."
+      },
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-015",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "An unrepresented buyer asks a listing agent about a known material foundation defect. The agent owes the buyer:",
+    "prompt": "A buyer remains unrepresented. The seller's agent knows of a concealed material foundation defect unknown to the buyer. Which duty is owed to that buyer?",
     "options": [
       {
-        "text": "Fiduciary loyalty identical to the seller's, automatically.",
-        "explanation": "Single agency does not automatically make the buyer a represented principal."
+        "text": "The same exclusive fiduciary loyalty the seller receives.",
+        "explanation": "Single seller agency does not automatically confer an opposing client's exclusive fiduciary position on the buyer.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "No duties because the buyer hired nobody.",
-        "explanation": "Important duties extend beyond the represented client."
+        "text": "Disclosure of the defect only if the buyer retains that brokerage.",
+        "explanation": "Honest dealing and required material disclosure do not depend on the buyer becoming a client.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Only duties after the buyer pays a fee.",
-        "explanation": "A separate fee is not required for these duties."
+        "text": "Disclosure of both the defect and the seller's private minimum price.",
+        "explanation": "The property defect must be disclosed; the private minimum is a different category of information.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Honest dealing and the required material disclosure.",
-        "explanation": "Nonclient status does not remove duties of honesty and material disclosure."
+        "text": "Honest dealing and disclosure of the known material defect.",
+        "explanation": "The buyer's nonclient status does not excuse concealment, although the buyer is not automatically the brokerage's represented principal."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "duties-to-nonclients",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-016",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A salesperson receives a buyer's deposit and wants to use it for listing photographs. Which principle controls?",
+    "prompt": "A salesperson receives a buyer's deposit under instructions to hold it for the transaction. No instruction authorizes advertising payments. The salesperson wants to apply $400 to listing photographs. Which treatment is correct?",
     "options": [
       {
-        "text": "A future commission gives the salesperson ownership now.",
-        "explanation": "Expected compensation does not transfer ownership of the deposit."
+        "text": "Use $400 and restore it from the salesperson's eventual commission.",
+        "explanation": "An anticipated fee does not authorize temporary use of entrusted money; replacing it later would not create permission.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Only cash deposits require accounting.",
-        "explanation": "Accounting duties are not limited to physical currency."
+        "text": "Ask only the seller to approve the buyer-deposit expenditure.",
+        "explanation": "The seller's approval alone does not establish authority to divert funds held under the stated buyer-deposit instructions.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The money must be handled under trust-fund rules and authorized instructions.",
-        "explanation": "Transaction funds are not unrestricted brokerage operating money."
+        "text": "Safeguard the deposit and follow authorized trust-fund instructions.",
+        "explanation": "The deposit is not available for the salesperson's operating expenses. Route custody and records through the responsible broker's procedures."
       },
       {
-        "text": "Advertising always benefits the transaction, so use is permitted.",
-        "explanation": "A useful expense does not authorize spending someone else's entrusted money."
+        "text": "Record the $400 as an advance against the expected brokerage fee.",
+        "explanation": "An accounting label cannot convert an unauthorized diversion into an earned or authorized payment.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "accounting-and-money",
+    "conceptIds": ["trust-custody"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-017",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A buyer needs a property suitable for a specific industrial process. The agent lacks technical knowledge. The best course is to:",
+    "prompt": "A buyer tells the agent that a building must support a specific industrial process. The agent lacks the necessary technical expertise. Which response best addresses the known objective?",
     "options": [
       {
-        "text": "Assume the seller's casual assurance is conclusive.",
-        "explanation": "Unverified assurances may be inadequate for the known issue."
+        "text": "Rely on the seller's assurance unless the buyer orders contrary testing.",
+        "explanation": "The buyer's stated essential use calls for an appropriate verification plan, not passive reliance on an unverified assurance.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Identify necessary specialized verification and assist the buyer in obtaining it.",
-        "explanation": "Reasonable care includes recognizing limits and addressing the client's stated needs."
+        "text": "Arrange appropriate specialized verification before the buyer decides.",
+        "explanation": "The agent should explain the unresolved issue, recognize professional limits, and help the buyer obtain relevant qualified information."
       },
       {
-        "text": "Guarantee suitability from the building's size.",
-        "explanation": "Size alone does not establish zoning, systems, or operational suitability."
+        "text": "Treat the building's existing industrial zoning as proof of suitability.",
+        "explanation": "Zoning alone does not establish the specific process's physical, regulatory, or operational requirements.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Treat all technical questions as irrelevant to representation.",
-        "explanation": "A stated material objective cannot simply be ignored."
+        "text": "Add a general disclaimer and continue describing the building as suitable.",
+        "explanation": "A disclaimer does not supply missing reasonable grounds for an affirmative suitability representation.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "care-competence-and-verification",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-018",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "After a listing ends, the former agent receives a request for the seller's confidential financial information. Which statement is best?",
+    "prompt": "After a listing expires, a competing buyer asks the former agent for the seller's nonpublic financial urgency and minimum price. Assume no authorization or legal duty to disclose. What should the former agent do?",
     "options": [
       {
-        "text": "Confidentiality can continue after the agency ends.",
-        "explanation": "Termination does not automatically release protected client information."
+        "text": "Continue protecting the former client's bargaining confidences.",
+        "explanation": "Termination does not make protected information available to undermine the former client; required property disclosures remain a separate issue."
       },
       {
-        "text": "All information becomes public on expiration.",
-        "explanation": "Expiration does not convert private information into public records."
+        "text": "Disclose the information once any disputed commission is paid.",
+        "explanation": "Payment of compensation is not the event that ends protection for these confidential facts.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Only an unpaid commission preserves confidentiality.",
-        "explanation": "The duty does not depend on an outstanding fee."
+        "text": "Use the information for a new buyer because current clients come first.",
+        "explanation": "A new engagement does not authorize misuse of the former client's protected information.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "The former agent may disclose it whenever a new client benefits.",
-        "explanation": "A new relationship does not erase the former client's protection."
+        "text": "Disclose the information because authority and confidentiality expired together.",
+        "explanation": "Ending the authority to act does not automatically terminate every duty arising from the relationship.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "confidentiality-has-a-boundary",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      },
+      {
+        "label": "U.S. Bankruptcy Court, E.D. California: continuing agency confidentiality, pp. 19-20",
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caeb-1_25-bk-10499/pdf/USCOURTS-caeb-1_25-bk-10499-0.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-019",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "In a covered residential sale, an agent sees an unexplained ceiling stain during the required visual inspection. What should the agent do?",
+    "prompt": "During a required visual inspection of an accessible room in a covered residential sale, the listing agent observes an unexplained ceiling stain. Which description appropriately handles the available evidence?",
     "options": [
       {
-        "text": "Ignore it because the agent is not an engineer.",
-        "explanation": "Lack of engineering expertise does not eliminate the visual inspection duty."
+        "text": "No roof defect exists because its cause is not yet established.",
+        "explanation": "Lack of a diagnosis does not justify a positive statement that no defect exists.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "State that the structure is sound.",
-        "explanation": "The observation does not support a structural guarantee."
+        "text": "The stain proves an active plumbing leak requiring replacement.",
+        "explanation": "That substitutes an unsupported technical conclusion for the observation actually available.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Remove it from photographs and make no mention of it.",
-        "explanation": "Concealing evidence does not satisfy care or disclosure duties."
+        "text": "The observation belongs only in the buyer's later inspection report.",
+        "explanation": "A separate inspector's possible later work does not excuse the agent's own observation and disclosure duties.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Disclose the observation appropriately and address the need for further investigation.",
-        "explanation": "Visible warning signs should not be ignored because another inspector may later examine them."
+        "text": "Disclose the stain and identify the need to investigate its cause.",
+        "explanation": "Communicate the observed fact without guaranteeing a diagnosis. Further qualified investigation may resolve what the agent cannot determine."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "care-competence-and-verification",
+    "conceptIds": ["property-disclosures"],
+    "sources": [
+      {
+        "label": "Civil Code 2079: visual inspection",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079."
+      },
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-020",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "Two salespersons affiliated with the same broker represent opposite sides of one sale. At the brokerage level, this is generally:",
+    "prompt": "Two salespersons affiliated with the same brokerage represent the buyer and seller in one transaction. They work in different branches. How is the brokerage's role classified?",
     "options": [
       {
-        "text": "Illegal in every California transaction.",
-        "explanation": "California permits properly disclosed and consented dual agency."
+        "text": "Single seller agency because the listing was signed first.",
+        "explanation": "The later actual undertaking to represent the buyer must also be counted; sequence does not erase that principal.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Only subagency because the staff members differ.",
-        "explanation": "The firm represents both principals, not merely another agent's principal."
+        "text": "Seller subagency because both salespersons work under a broker.",
+        "explanation": "Working under one broker does not make a buyer's actual representation into seller subagency.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Dual agency requiring the appropriate knowledge and consent.",
-        "explanation": "Different affiliated salespersons do not turn one broker into separate firms."
+        "text": "Dual agency, requiring both principals' knowledge and consent.",
+        "explanation": "The same brokerage represents opposing principals. Separate staff or branch locations do not remove its dual role."
       },
       {
-        "text": "Two unrelated single agencies with no dual role.",
-        "explanation": "The common brokerage represents both opposing principals."
+        "text": "Separate single agencies because each salesperson has only one client.",
+        "explanation": "That counts individuals while ignoring the common brokerage through which both representations are performed.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "dual-agency-exists-at-the-broker-level",
+    "conceptIds": ["dual-agency"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "Civil Code 2079.17: agency confirmation",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-021",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "What is the primary function of agency confirmation?",
+    "prompt": "A transaction file includes an agency confirmation identifying the brokerage as the buyer's exclusive agent. What does that confirmation primarily document?",
     "options": [
       {
-        "text": "Establishing a government-fixed commission.",
-        "explanation": "Compensation is not fixed by an agency confirmation or by law."
+        "text": "The amount and earning conditions of the buyer's brokerage fee.",
+        "explanation": "Compensation terms belong in the applicable employment and payment agreements, not merely in a role confirmation.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Identifying the actual representation relationships in the particular transaction.",
-        "explanation": "Confirmation records who represents whom in this transaction."
+        "text": "The actual representation used in this transaction.",
+        "explanation": "Confirmation identifies the particular relationship; the educational disclosure explains possible relationships and their duties."
       },
       {
-        "text": "Explaining every possible relationship without identifying the actual one.",
-        "explanation": "That is the educational function of the general disclosure."
+        "text": "The available types of agency without selecting a transaction role.",
+        "explanation": "That describes the educational disclosure's general function rather than transaction-specific confirmation.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Transferring ownership to the buyer.",
-        "explanation": "A confirmation is not a deed."
+        "text": "The buyer's consent to every personal financial conflict of the broker.",
+        "explanation": "Confirming representation does not disclose or approve every separate material economic interest.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "three-questions-behind-the-paperwork",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.17: agency confirmation",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-022",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "Before entering a listing agreement, the seller's agent must provide the seller with:",
+    "prompt": "For a covered California listing, when must the seller's agent provide the statutory agency disclosure to the seller?",
     "options": [
       {
-        "text": "The required statutory agency disclosure.",
-        "explanation": "California requires seller-side disclosure before the listing agreement."
+        "text": "Before the seller enters the listing agreement.",
+        "explanation": "Section 2079.14 ties the seller-side delivery to the hiring stage, not the later purchase or closing stage."
       },
       {
-        "text": "A final closing statement.",
-        "explanation": "The transaction has not reached closing."
+        "text": "Before the seller accepts the first purchase offer.",
+        "explanation": "This is later than the statutory seller-side disclosure trigger when the listing already exists.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "A signed deed of reconveyance.",
-        "explanation": "That instrument releases secured debt and is unrelated to hiring the broker."
+        "text": "Before the agent first shows the listed property to a buyer.",
+        "explanation": "A showing does not replace the deadline that precedes entering the listing agreement.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "A guarantee of the final sales price.",
-        "explanation": "Agency disclosure does not require a price guarantee."
+        "text": "Before the seller signs the escrow closing instructions.",
+        "explanation": "Closing paperwork is not the statutory deadline for explaining agency before employment.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "disclosure-timing-and-coverage",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.14: disclosure delivery",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-023",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A buyer signs an acknowledgment of receiving an agency disclosure. That acknowledgment alone:",
+    "prompt": "A buyer signs only a receipt acknowledging delivery of the statutory agency-disclosure form. No employment or dual-agency agreement is made. What does that receipt establish by itself?",
     "options": [
       {
-        "text": "Automatically hires every brokerage named in it.",
-        "explanation": "An acknowledgment is not an unlimited employment contract."
+        "text": "An exclusive buyer-broker employment with the delivering brokerage.",
+        "explanation": "A receipt for educational information is not itself the stated missing hiring agreement.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Eliminates the need to confirm actual agency.",
-        "explanation": "Disclosure and transaction-specific confirmation have separate functions."
+        "text": "Consent to a dual role if the brokerage later represents the seller.",
+        "explanation": "The receipt does not supply informed agreement to a later actual dual representation.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Authorizes disclosure of every financial fact.",
-        "explanation": "Receipt does not supply blanket confidentiality consent."
+        "text": "Waiver of any inconsistent duty stated in the purchase documents.",
+        "explanation": "Agency disclosures do not operate as a general release of professional duties or liability.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Does not necessarily create a buyer-broker employment agreement.",
-        "explanation": "Receipt of an explanation differs from entering the representation contract."
+        "text": "Acknowledgment of receipt, not the missing representation contract.",
+        "explanation": "Read the document's actual function. Receiving an explanation of possible roles is distinct from engaging the brokerage."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "three-questions-behind-the-paperwork",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "Civil Code 2079.24: preserved duties",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-024",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A dual agent knows the buyer would pay $20,000 above the offer. Without the buyer's express permission, the agent should:",
+    "prompt": "A disclosed dual agent learns the buyer would pay $20,000 above the written offer. The buyer gives no express permission to share that limit. What should the agent do?",
     "options": [
       {
-        "text": "Reveal it only after obtaining the seller's permission.",
-        "explanation": "The information belongs to the buyer; seller permission is insufficient."
+        "text": "Share it after the seller agrees to keep the information private.",
+        "explanation": "The seller cannot authorize release of the buyer's confidence; the respective client's express permission controls.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Add $20,000 to the offer without asking.",
-        "explanation": "The agent lacks authority to rewrite the buyer's offer."
+        "text": "Share it when presenting a counteroffer within that price range.",
+        "explanation": "A negotiating step does not itself supply the buyer's missing permission to reveal the limit.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Keep that confidential negotiating limit from the seller.",
-        "explanation": "A dual agent cannot disclose the buyer's protected bargaining information without permission."
+        "text": "Withhold the limit while transmitting the parties' authorized proposals.",
+        "explanation": "Dual agency permits communication of offers but does not permit unauthorized disclosure of a client's private maximum."
       },
       {
-        "text": "Reveal it to maximize the seller's price.",
-        "explanation": "Dual agency does not authorize favoring one client through the other's confidence."
+        "text": "Share it because both clients already consented to dual agency.",
+        "explanation": "General consent to dual representation is not blanket permission to disclose each client's confidential bargaining information.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "confidentiality-in-a-dual-agency",
+    "conceptIds": ["dual-agency"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.21: dual-agent confidentiality",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-025",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A listing agent's wholly owned LLC offers to purchase the listing. The seller does not know the connection. What is required?",
+    "prompt": "A listing agent's wholly owned LLC submits an offer. The seller does not know the ownership connection. What information must the agent disclose to address this material conflict?",
     "options": [
       {
-        "text": "Only disclosure after the LLC resells.",
-        "explanation": "Post-sale disclosure is too late for the seller's informed decision."
+        "text": "Only the LLC's legal name as shown on the purchase offer.",
+        "explanation": "Naming the entity does not disclose the agent's economic ownership and conflicting role.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Disclosure of the agent's material ownership interest and proper treatment of the conflict.",
-        "explanation": "An indirect purchase still creates a personal-interest conflict."
+        "text": "The agent's ownership interest and resulting personal stake.",
+        "explanation": "The seller needs the material economic connection to evaluate the agent's advice and the proposed purchase on an informed basis."
       },
       {
-        "text": "No disclosure because an LLC is a separate legal entity.",
-        "explanation": "Entity status does not eliminate the agent's economic interest."
+        "text": "Only the agent's license status, because the entity is the buyer.",
+        "explanation": "Professional status alone does not disclose control of the purchasing entity or its financial implications.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "No disclosure if the offer equals the asking price.",
-        "explanation": "An acceptable price does not excuse hiding a fiduciary conflict."
+        "text": "The ownership connection only if the offer is below asking price.",
+        "explanation": "Price does not determine whether the material conflict must be disclosed.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "an-agent-acting-as-principal",
+    "conceptIds": ["agency-conflicts"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-026",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A dual agent receives a seller's instruction to hide a known structural defect. Both parties previously consented to dual agency. Which result follows?",
+    "prompt": "Both principals have knowingly consented to dual agency. The seller then instructs the agent to withhold a known material structural defect unknown to the buyer. Which statement controls?",
     "options": [
       {
-        "text": "The material disclosure duty remains.",
-        "explanation": "Consent to dual agency does not authorize concealment of required property facts."
+        "text": "Dual consent does not remove the required material disclosure.",
+        "explanation": "The defect is not a protected reservation price. Section 2079.24 preserves duties rather than allowing the agency arrangement to waive them."
       },
       {
-        "text": "Dual-agency consent makes the instruction lawful.",
-        "explanation": "Consent does not waive statutory and fiduciary disclosure duties."
+        "text": "The seller's confidentiality interest controls unless consent is withdrawn.",
+        "explanation": "A known material property defect is not made concealable by labeling it confidential.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The agent must hide the defect to remain neutral.",
-        "explanation": "Neutral treatment does not mean withholding material facts."
+        "text": "The agent must remain neutral by leaving disclosure entirely to the seller.",
+        "explanation": "Neutral handling of competing bargaining interests does not justify the agent's concealment of known material facts.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Only the buyer's lender may receive the information.",
-        "explanation": "The lender is not a substitute for required disclosure to the buyer."
+        "text": "The buyer must request the defect report before the dual agent discloses it.",
+        "explanation": "The buyer's request is not a necessary trigger for the affirmative duty supplied by these facts.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "confidentiality-in-a-dual-agency",
+    "conceptIds": ["dual-agency"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "Civil Code 2079.24: preserved duties",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-027",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A seller refuses to sign the acknowledgment of receipt of the required agency disclosure. The agent should:",
+    "prompt": "An agent timely delivers the required agency-disclosure form, but the seller refuses to sign the receipt acknowledgment. What does Civil Code section 2079.15 require the agent to do?",
     "options": [
       {
-        "text": "Sign the seller's name to complete the file.",
-        "explanation": "Forgery is not a lawful compliance method."
+        "text": "Obtain the escrow holder's signature as a substitute seller acknowledgment.",
+        "explanation": "The statute calls for the agent's factual declaration, not a substitute signature from another transaction participant.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Assume all disclosure duties are waived.",
-        "explanation": "Refusal to acknowledge receipt does not erase substantive duties."
+        "text": "Treat refusal as an agreement to waive further agency documentation.",
+        "explanation": "Refusal to acknowledge receipt does not waive disclosure, confirmation, or other applicable duties.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Remove the disclosure from the transaction file.",
-        "explanation": "The refusal should be documented, not concealed."
+        "text": "Keep the unsigned form without making a separate written account.",
+        "explanation": "The required written declaration must state the refusal facts and be signed and dated by the agent.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Follow the statutory procedure documenting the refusal in writing.",
-        "explanation": "A declaration of refusal documents the event without fabricating acknowledgment."
+        "text": "Prepare, sign, and date a written declaration of the refusal facts.",
+        "explanation": "This records what occurred without fabricating the seller's acknowledgment or treating refusal as consent."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "disclosure-timing-and-coverage",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-028",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "An agent recommends a service business in which the agent has a material ownership interest. The best approach is to:",
+    "prompt": "A broker recommends a settlement business the broker partly owns. In a covered federally related mortgage transaction, the business also proposes a separate payment solely for referrals, with no applicable exception. Which statement is correct?",
     "options": [
       {
-        "text": "Assume disclosure legalizes any referral fee.",
-        "explanation": "Disclosure does not override laws prohibiting particular payments."
+        "text": "Disclosing ownership also authorizes the separate referral payment.",
+        "explanation": "Conflict disclosure does not create an exception to RESPA's prohibition on the stipulated referral payment.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Wait until a client complains.",
-        "explanation": "The client needs material conflict information before deciding."
+        "text": "A return on ownership and a per-referral payment have the same legal treatment.",
+        "explanation": "An ownership arrangement must satisfy its applicable conditions; it is not interchangeable with payment solely for referrals.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Disclose the interest and comply with any additional referral-payment restrictions.",
-        "explanation": "Transparency addresses the conflict, while other laws may separately limit payments."
+        "text": "Disclose the ownership interest and decline the prohibited referral payment.",
+        "explanation": "The broker must address the material affiliation and independently satisfy the payment law. Disclosure alone does not legalize the stipulated kickback."
       },
       {
-        "text": "Describe the recommendation as independent without qualification.",
-        "explanation": "An undisclosed ownership benefit can make that description misleading."
+        "text": "The referral payment is permissible if it is deducted from the broker's commission.",
+        "explanation": "Changing the accounting route does not change compensation for a prohibited referral into an allowed payment.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "other-conflicts-and-benefits",
+    "conceptIds": ["agency-conflicts"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      },
+      {
+        "label": "CFPB: RESPA section 8 FAQs",
+        "url": "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-029",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A listing agent shows an open house solely on behalf of the seller. The visitor remains unrepresented. The showing alone means:",
+    "prompt": "At an open house, the listing agent clearly acts only for the seller. A visitor chooses to remain unrepresented and receives property information. What follows from those facts alone?",
     "options": [
       {
-        "text": "The agent may withhold all known defects.",
-        "explanation": "Duties to nonclients still include required material disclosures."
+        "text": "The agent becomes a dual agent upon answering the visitor's questions.",
+        "explanation": "Providing information does not by itself establish an undertaking to represent the visitor.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The agent has not necessarily become the visitor's buyer's agent.",
-        "explanation": "Seller-only showing activity does not itself establish buyer representation."
+        "text": "The visitor's lack of representation does not itself create dual agency.",
+        "explanation": "Section 2079.22 rejects that automatic inference. The actual undertaking and conduct remain important."
       },
       {
-        "text": "A mandatory dual agency has arisen.",
-        "explanation": "Representation of both sides does not automatically arise from opening the door."
+        "text": "The visitor becomes the listing agent's client on receiving an agency disclosure.",
+        "explanation": "Delivery of the educational disclosure does not itself create employment or dual-agency consent.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The visitor owes the agent a buyer commission.",
-        "explanation": "A showing alone does not establish that compensation obligation."
+        "text": "The agent owes only duties to the seller until the visitor retains a broker.",
+        "explanation": "Honesty, care, and required material disclosure can be owed to nonclients as well.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "read-the-timing-as-a-sequence",
+    "conceptIds": ["agency-relationships"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-030",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A $700,000 sale carries a negotiated brokerage fee of 2%. The salesperson receives 65% of that fee. What is the salesperson's gross share?",
+    "prompt": "A $700,000 sale has a negotiated brokerage fee of 2%. The salesperson receives 65% of that fee, with no referral or other deductions. What is the salesperson's gross share?",
     "options": [
       {
         "text": "$9,100.",
-        "explanation": "The fee is $14,000; multiplying by 65% produces $9,100."
+        "explanation": "The brokerage fee is $700,000 x 0.02 = $14,000; $14,000 x 0.65 = $9,100."
       },
       {
         "text": "$14,000.",
-        "explanation": "That is the entire brokerage fee before the internal split."
+        "explanation": "That is the entire brokerage fee before the internal salesperson split.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "$455,000.",
-        "explanation": "That incorrectly applies 65% to the sale price."
+        "text": "$7,000.",
+        "explanation": "That assumes an unmentioned equal split of the $14,000 fee instead of the stated 65% share.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$4,900.",
-        "explanation": "That is the brokerage's retained 35%, not the salesperson's share."
+        "explanation": "That is the brokerage's remaining 35%, not the salesperson's 65%.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "calculating-a-negotiated-commission",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-031",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "Which statement about California real estate commission rates is correct?",
+    "prompt": "Which proposed pricing practice is consistent with independent brokerage pricing and negotiable client compensation?",
     "options": [
       {
-        "text": "DRE sets the minimum permissible rate.",
-        "explanation": "DRE does not impose a standard commission rate."
+        "text": "Local competing brokers agree on a floor but allow each client to negotiate above it.",
+        "explanation": "An agreement among competitors on a minimum price is still coordinated pricing.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Competing brokers may agree on one community rate.",
-        "explanation": "Agreements among competitors to fix prices raise antitrust concerns."
+        "text": "A brokerage tells clients a local association requires its advertised fee.",
+        "explanation": "The facts provide no lawful mandated fee; presenting independently chosen compensation as compulsory misstates negotiability.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The rate depends only on assessed value.",
-        "explanation": "The parties' compensation agreement supplies the basis."
+        "text": "Competing firms agree to accept only percentage fees rather than fixed fees.",
+        "explanation": "Restricting competing fee models by agreement is not independent decision-making merely because the percentage is left open.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Rates are independently set by brokers and negotiable with clients.",
-        "explanation": "No statewide standard rate is fixed by DRE or an MLS."
+        "text": "A brokerage independently sets its fee proposal and negotiates with each client.",
+        "explanation": "The brokerage may choose its own pricing without agreements among competitors; the client may negotiate or select another provider."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compensation-is-a-contract-question",
+    "conceptIds": ["competition"],
+    "sources": [
+      {
+        "label": "DRE: Buyer representation and negotiated compensation",
+        "url": "https://www.dre.ca.gov/Licensees/Advisory_2024_11_14_Changes_to_Buyer_Representation.html"
+      },
+      {
+        "label": "FTC: independent pricing and competitor price fixing",
+        "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-032",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A seller offers a salesperson a direct bonus for licensed work performed under the responsible broker. The salesperson should:",
+    "prompt": "While a salesperson remains licensed under the broker who handled a sale, the seller offers that salesperson a $500 bonus for negotiating the sale. How must the salesperson handle the proposed compensation?",
     "options": [
       {
-        "text": "Accept it if paid after recording.",
-        "explanation": "Timing after closing does not change the responsible-broker rule."
+        "text": "Accept the bonus directly after the deed records.",
+        "explanation": "Recording does not create an exception to the responsible-broker compensation rule.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Deposit it into the buyer's trust account.",
-        "explanation": "Client trust funds are not a substitute route for personal compensation."
+        "text": "Accept the bonus directly if the broker approves in writing.",
+        "explanation": "The broker's permission does not replace the statutory requirement that compensation pass through the responsible broker.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Handle compensation through the responsible broker.",
-        "explanation": "California requires salesperson compensation for that activity to flow through the responsible broker."
+        "text": "Arrange payment through the responsible broker.",
+        "explanation": "Business and Professions Code 10137 requires compensation for licensed activity to come through the broker under whom the salesperson is licensed."
       },
       {
-        "text": "Accept it privately because the amount is small.",
-        "explanation": "A small amount does not remove the compensation restriction."
+        "text": "Accept the bonus directly if the seller calls it a gift.",
+        "explanation": "A label does not change compensation paid for negotiating the sale into an unrelated gift.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "who-may-receive-the-salespersons-fee",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "Business and Professions Code 10137: salesperson compensation",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-033",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A seller revokes a broker's authority after the broker has earned a fee under the agreement. Which statement is best?",
+    "prompt": "An owner privately revokes an ordinary manager's repair-contract authority after the manager has earned an unpaid fee. Unaware of the revocation, the manager and a contractor enter a bona fide transaction within the former authority; the contractor has no actual knowledge of the revocation. Which result follows under Civil Code 2356(b), assuming no other issue with the transaction?",
     "options": [
       {
-        "text": "The buyer now owes the seller's fee by law.",
-        "explanation": "The debt does not automatically shift to the buyer."
+        "text": "The transaction does not bind the owner; the earned fee remains payable.",
+        "explanation": "This preserves the fee distinction but misses section 2356(b): the stated bona fide transaction with an uninformed third party binds the principal despite revocation.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Authority can end while the contractual fee obligation remains.",
-        "explanation": "Revocation and compensation liability are separate questions."
+        "text": "The transaction binds the owner; revocation does not erase the earned fee.",
+        "explanation": "Section 2356(b) protects a bona fide transaction with a person lacking actual knowledge of the revocation. Separately, terminating authority does not automatically extinguish compensation already earned under the agreement."
       },
       {
-        "text": "The broker may continue acting indefinitely until paid.",
-        "explanation": "An unpaid fee does not preserve revoked ordinary authority."
+        "text": "The transaction binds the owner; revocation cancels the unpaid earned fee.",
+        "explanation": "The third-party conclusion is correct, but revocation and an existing contractual fee obligation are separate matters.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Revocation automatically erases the earned fee.",
-        "explanation": "Ending authority does not automatically cancel contractual liability."
+        "text": "The transaction does not bind the owner; revocation cancels the earned fee.",
+        "explanation": "This both overlooks statutory third-party protection and treats termination as automatic discharge of an earned contractual obligation.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "how-an-agency-ends",
+    "conceptIds": ["agency-termination"],
+    "sources": [
+      {
+        "label": "Civil Code 2355-2357: termination and third-party protection",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-034",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A broker expects a commission from a listing. Does that expectation alone create an agency coupled with an interest?",
+    "prompt": "A broker has only a contractual expectation of a commission from selling the owner's land, with no ownership or security interest in the land. The owner revokes the listing agency. Which characterization of the broker's interest is correct?",
     "options": [
       {
-        "text": "No; an expected commission is not the required interest in the subject matter.",
-        "explanation": "The exceptional agency requires more than an interest in compensation."
+        "text": "A compensation expectancy, not an agency coupled with an interest.",
+        "explanation": "An expected commission alone is not the required interest in the subject matter. Fee or breach claims are separate from a right to keep exercising agency authority."
       },
       {
-        "text": "Yes; every paid agency is irrevocable.",
-        "explanation": "Compensation does not make ordinary agency irrevocable."
+        "text": "An interest in the land that makes the listing agency irrevocable.",
+        "explanation": "The facts expressly give the broker no property or security interest; a possible fee is not a substitute.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Yes, after the first advertisement is purchased.",
-        "explanation": "Advertising expense alone does not create the necessary ownership interest."
+        "text": "A security interest that arises when the broker pays marketing costs.",
+        "explanation": "Paying operating expenses does not automatically create a lien or other security interest in the client's property.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Only when the fee is a percentage.",
-        "explanation": "The fee's calculation method does not create the exception."
+        "text": "An ownership interest that arises when a buyer submits a full-price offer.",
+        "explanation": "An offer may matter to contractual earning conditions, but it does not give the broker ownership of the land.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "how-an-agency-ends",
+    "conceptIds": ["agency-termination"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      },
+      {
+        "label": "Civil Code 2355-2357: termination and third-party protection",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-035",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "Which event most clearly ends an ordinary listing agency according to its agreed duration?",
+    "prompt": "An ordinary listing agency expressly runs through September 30, with no extension or earlier terminating event. The listing still appears online, one prospect remains interested, and the broker has not sent a closing letter. When does the agreed period of agency authority end?",
     "options": [
       {
-        "text": "A prospective buyer asks a question.",
-        "explanation": "An inquiry does not end the employment relationship."
+        "text": "When the broker removes the listing from all advertising platforms.",
+        "explanation": "Administrative removal of advertisements is not the agreed duration of this agency.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The seller receives a tax bill.",
-        "explanation": "An ordinary tax bill does not terminate a listing."
+        "text": "When the remaining prospect decides whether to submit an offer.",
+        "explanation": "An interested prospect does not extend the specified agency period.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The broker changes an advertisement's photograph.",
-        "explanation": "Routine marketing changes do not end agency."
+        "text": "When the broker sends written acknowledgment that the term expired.",
+        "explanation": "The contract's fixed duration does not depend on an additional acknowledgment under the stated facts.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Expiration of the listing term.",
-        "explanation": "The agreed endpoint ends authority unless properly renewed or otherwise continued."
+        "text": "At the end of September 30, the agreed expiration date.",
+        "explanation": "Civil Code 2355 recognizes expiration of the agency term as a termination event. An existing advertisement or unresolved lead does not itself renew the authority."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "how-an-agency-ends",
+    "conceptIds": ["agency-termination"],
+    "sources": [
+      {
+        "label": "Civil Code 2355: termination events",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2355."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-036",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A protection clause in an expired listing should be analyzed as:",
+    "prompt": "A listing expires June 30. Its protection clause requires the broker to deliver a written list of protected prospects within five days; a fee may then be due if a listed prospect purchases within 60 days. Assume no other clause or claim applies. The broker sends no list, and a former prospect buys on day 20. What follows from this clause?",
     "options": [
       {
-        "text": "A guarantee that every later sale owes a fee.",
-        "explanation": "The clause must actually apply to the transaction."
+        "text": "The fee is earned because the purchaser first saw the property during the listing.",
+        "explanation": "An introduction during the listing does not eliminate the expressly required written notice.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A transfer of the property to the brokerage.",
-        "explanation": "A fee-protection provision is not a conveyance."
+        "text": "The fee is earned because the sale occurred within the 60-day protection period.",
+        "explanation": "The timing requirement is only one condition; the broker also had to identify protected prospects as agreed.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A possible surviving compensation provision subject to its stated conditions.",
-        "explanation": "Protected prospects, time limits, notice, and exceptions depend on the clause."
+        "text": "The clause does not establish a fee because the required list was not delivered.",
+        "explanation": "A protection clause preserves compensation only on its stated terms. Under the assumptions, the unmet notice condition defeats this claimed contractual protection."
       },
       {
-        "text": "An automatic perpetual renewal of all agency powers.",
-        "explanation": "Protection clauses do not inherently renew authority indefinitely."
+        "text": "The clause renewed the listing for 60 days, but the broker waived the renewed agency.",
+        "explanation": "A compensation protection period is not automatically an extension of representation authority.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "procuring-cause-and-exclusivity",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-037",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A purchase fails to close. To decide whether the listing broker earned compensation, first examine:",
+    "prompt": "A seller refuses to close after signing a purchase agreement, and the listing broker demands a commission. The question does not supply the listing's earning clause or explain the seller's refusal. Which additional evidence is most important before deciding whether compensation was earned?",
     "options": [
       {
-        "text": "The seller's opinion after the dispute.",
-        "explanation": "The agreement and legally relevant facts control."
+        "text": "The number of showings and the broker's total advertising expenses.",
+        "explanation": "Work performed may matter to other issues, but it does not establish the agreement's earning conditions.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "The brokerage agreement's earning conditions and the cause of nonclosing.",
-        "explanation": "Closing failure alone does not resolve every fee claim."
+        "text": "The agreed earning conditions and the reason the sale failed.",
+        "explanation": "Compensation depends on the brokerage agreement and relevant facts, including whether a required event occurred or a party prevented performance."
       },
       {
-        "text": "Only whether the broker bought advertisements.",
-        "explanation": "Effort does not necessarily satisfy the contractual earning event."
+        "text": "The accepted purchase price and the customary fee in the neighborhood.",
+        "explanation": "A sale price supplies a possible calculation base, not a missing contractual earning condition; compensation is negotiated.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "Only the amount of the buyer's deposit.",
-        "explanation": "Deposit size does not alone determine the broker's employment rights."
+        "text": "The opening of escrow and the amount of the buyer's initial deposit.",
+        "explanation": "Those facts do not independently show whether the broker's contractual earning requirements were satisfied.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "earning-is-different-from-receiving",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-038",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "An agent withdraws from a management agency. Which obligation can remain?",
+    "prompt": "A manager properly withdraws from an agency, has no authority for new leases, and still holds the owner's funds and confidential negotiation records. Which remaining obligation is consistent with that withdrawal?",
     "options": [
       {
-        "text": "Accounting for entrusted funds and protecting confidential information.",
-        "explanation": "Termination does not erase duties concerning funds and protected information."
+        "text": "Account for the funds and continue protecting the owner's confidences.",
+        "explanation": "Ending authority for new transactions does not turn entrusted funds into the agent's property or eliminate continuing confidentiality and accounting obligations."
       },
       {
-        "text": "Unlimited authority to sign new leases.",
-        "explanation": "Withdrawal ends ordinary authority to undertake new acts."
+        "text": "Retain the funds as compensation until the owner proves the fee is disputed.",
+        "explanation": "A disputed or anticipated fee does not permit treating all entrusted funds as the manager's own.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Ownership of tenant deposits as unpaid compensation.",
-        "explanation": "Entrusted deposits do not become the former agent's money."
+        "text": "Complete any new lease the manager considers helpful to the former client.",
+        "explanation": "Continuing duties do not supply unlimited authority to undertake new transactions after withdrawal.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "A right to destroy all records immediately.",
-        "explanation": "Record obligations are not eliminated by ending representation."
+        "text": "Return the funds and release all negotiation records to interested tenants.",
+        "explanation": "Returning funds does not eliminate the separate obligation to protect the former client's confidential information.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "withdrawal-must-be-communicated-responsibly",
+    "conceptIds": ["agency-termination"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      },
+      {
+        "label": "Civil Code 2355-2357: termination and third-party protection",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6."
+      },
+      {
+        "label": "U.S. Bankruptcy Court, E.D. California: continuing agency confidentiality, pp. 19-20",
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caeb-1_25-bk-10499/pdf/USCOURTS-caeb-1_25-bk-10499-0.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-039",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A property manager may arrange routine repairs up to $800, and a contractor has received that written limit. The manager alone orders a $7,000 elective remodel. Which fact most directly defeats the contractor's reliance on ostensible authority?",
+    "prompt": "A contractor receives the owner's written instruction that a manager may order routine repairs only up to $800. The manager nevertheless orders a $7,000 elective remodel. There is no emergency or later ratification. Why can the contractor not rely on ostensible authority beyond the stated limit?",
     "options": [
       {
-        "text": "The proposed price exceeds the amount that routine repairs ordinarily cost.",
-        "explanation": "The stated, known authority limit is decisive here; an industry comparison of typical repair prices is not a substitute for that evidence."
+        "text": "A general property manager cannot have authority to order any remodeling.",
+        "explanation": "General agency may include authorized remodeling; the relevant problem is the known limitation, not the job title.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The contractor knew the owner's relevant limit on the manager's authority.",
-        "explanation": "Known limits undermine a claim of reasonable reliance on an appearance of greater authority; the manager's contrary assertion does not erase that knowledge."
+        "text": "The contractor knew the relevant restriction on the manager's authority.",
+        "explanation": "Civil Code 2318 makes authority subject to restrictions known to the person dealing with the agent. Knowing the cap defeats reliance on a contrary appearance of authority."
       },
       {
-        "text": "The work improves the owner's property rather than a tenant's property.",
-        "explanation": "The work's location or benefit does not establish that the principal authorized it or created a reasonable appearance of authority."
+        "text": "Only a special agent, rather than a general agent, can have ostensible authority.",
+        "explanation": "The distinction between actual and ostensible authority is separate from the general-versus-special classification.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The manager is a general agent rather than a special agent.",
-        "explanation": "General agency describes continuing scope but does not itself defeat or establish authority for this particular expenditure."
+        "text": "Only the owner's later profit from the project can establish the manager's authority.",
+        "explanation": "A beneficial result does not replace authorization, reasonable reliance, or valid ratification.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "actual-and-ostensible-authority",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      },
+      {
+        "label": "Civil Code 2330-2339: third-party reliance",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-040",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "An owner lets a manager repeatedly arrange repairs and tells a new vendor to coordinate with the manager. The owner privately imposes a new spending cap without informing that vendor. The manager exceeds the cap. What should be examined first in assessing ostensible authority?",
+    "prompt": "An owner has repeatedly told a vendor that a manager may arrange routine repairs up to $5,000. The owner privately lowers the limit to $1,000 without changing that appearance. In good faith and without want of ordinary care, the vendor accepts a $3,000 routine repair order and incurs a binding obligation. Which authority analysis fits these facts?",
     "options": [
       {
-        "text": "Whether the owner will ultimately make a profit from the completed repairs.",
-        "explanation": "A favorable result is not the test for authority; later ratification would require a separate analysis."
+        "text": "Actual authority for $3,000 continued because the vendor did not receive the new limit.",
+        "explanation": "Actual authority between principal and agent can change even when the third party does not know about the change.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Whether the owner's conduct reasonably caused the vendor to believe this work was authorized.",
-        "explanation": "Ostensible authority turns on the principal's manifestations and qualifying reliance, so the communicated arrangement and undisclosed change matter."
+        "text": "Ostensible authority can bind the owner despite the manager's reduced actual authority.",
+        "explanation": "The owner's representations created the appearance of authority, and the facts supply good faith, ordinary care, and liability incurred in reliance under sections 2317 and 2334."
       },
       {
-        "text": "Whether the manager's compensation agreement classified the manager as an independent contractor.",
-        "explanation": "A tax or compensation classification does not alone determine actual or ostensible authority toward a vendor."
+        "text": "The private $1,000 instruction necessarily prevents any obligation to this vendor.",
+        "explanation": "A private restriction does not automatically defeat a qualifying third party's reliance on an appearance created by the principal.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Whether the manager personally believed the new cap was commercially reasonable.",
-        "explanation": "The agent's opinion of the restriction does not establish the third party's reasonable reliance on the principal."
+        "text": "Ratification is established because the vendor accepted the manager's repair order.",
+        "explanation": "Ratification requires the principal's valid adoption; the vendor's acceptance alone is not the owner's ratification.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compare-two-unauthorized-promises",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      },
+      {
+        "label": "Civil Code 2330-2339: third-party reliance",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-041",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A buyer's agent receives a timely notice concerning the client's purchase and leaves it unread until the response deadline passes. The buyer says personal ignorance should always prevent any consequences. Which analysis is best?",
+    "prompt": "A purchase contract permits notice through the buyer's agent. That agent receives a timely material notice within the agency and should communicate it, but leaves it unread. The buyer argues that personal ignorance automatically prevents notice from having effect. Which principle answers that argument?",
     "options": [
       {
-        "text": "The agent's notice and duty to communicate can matter even though the buyer did not personally read it.",
-        "explanation": "Civil Code section 2332 addresses notice attributed between principal and agent when it ought to be communicated; personal ignorance is not an automatic defense."
+        "text": "Notice to the agent can be imputed to the buyer under the stated conditions.",
+        "explanation": "Civil Code 2332 addresses notice either principal or agent ought, in good faith and ordinary care, to communicate to the other. The contract's permitted delivery and the agent's role matter; the buyer's personal ignorance is not an automatic defense."
       },
       {
-        "text": "Any communication received by any affiliated salesperson is conclusively notice for every client of the firm.",
-        "explanation": "Attribution requires attention to the agency and relevant notice; this answer extends it indiscriminately to unrelated matters and clients."
+        "text": "Notice is ineffective until the buyer separately acknowledges reading the document.",
+        "explanation": "The facts do not make personal acknowledgment a condition, and the agency notice rule cannot be ignored.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The buyer's personal ignorance automatically extends every contractual response deadline.",
-        "explanation": "The deadline depends on the contract and applicable law; an agent's communication failure does not automatically rewrite it."
+        "text": "Notice becomes effective only if the agent also holds a power of attorney to sign deeds.",
+        "explanation": "Authority to execute deeds is not the trigger for the notice rule in this transaction.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Notice to the agent matters only if the agent has authority to sign the deed.",
-        "explanation": "Authority to receive and communicate transaction information is not limited to authority to execute a conveyance."
+        "text": "Notice received by any employee conclusively binds every client of the brokerage.",
+        "explanation": "Section 2332 concerns the relevant principal-agent relationship and information that ought to be communicated, not indiscriminate firm-wide imputation.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "notice-and-responsibility",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2332: notice between principal and agent",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2332."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-042",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A seller authorizes an agent to deliver the seller's signed acceptance of an offer. Before delivery, the buyer requests a different possession date. The agent agrees for the seller without further authorization. Which distinction controls?",
+    "prompt": "A seller gives an agent one instruction: deliver the seller's signed acceptance without changing it. Before delivery, the buyer requests possession five days earlier. With no further authority and no emergency, the agent agrees for the seller. Which distinction controls?",
     "options": [
       {
-        "text": "Authority to communicate the seller's decision does not necessarily include authority to change its terms.",
-        "explanation": "Transmitting an authorized decision and making a new contractual decision are different acts; the agent must verify authority for the change."
+        "text": "Authority to deliver the acceptance is not authority to amend possession.",
+        "explanation": "The express instruction permits communication of the seller's decision, not a different bargain. The agent must obtain authorization for a change outside that scope."
       },
       {
-        "text": "A listing agent's power to deliver documents automatically includes power to sign all amendments.",
-        "explanation": "Document delivery does not confer unlimited contractual signing authority."
+        "text": "Authority to deliver the acceptance includes changes that leave the price unchanged.",
+        "explanation": "Possession is a contract term; an unchanged price does not enlarge the delegated authority.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The requested change is ineffective solely because a buyer, rather than a seller, proposed it.",
-        "explanation": "Either party may propose an amendment; assent and proper authority, not which side proposed it, determine its effect."
+        "text": "Authority to deliver the acceptance includes any change requested before delivery.",
+        "explanation": "The timing of a request does not override the principal's instruction to deliver an unchanged acceptance.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The agent may amend possession because price and property remain unchanged.",
-        "explanation": "Possession is a material contractual term even when the purchase price and property description stay the same."
+        "text": "Authority to deliver the acceptance includes amendments proposed by the buyer's agent.",
+        "explanation": "The source of the proposal does not give the seller's agent additional authority.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "authority-can-be-narrower-than-the-assignment",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-043",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A seller prioritizes closing before a relocation. One offer is $710,000 with a lengthy home-sale contingency; another is $700,000 with a shorter, less conditional close. What should the agent do?",
+    "prompt": "A seller must relocate in three weeks. Offer A is $710,000 with a lengthy home-sale contingency; Offer B is $700,000 with a shorter, less conditional closing. The seller has not authorized the agent to select an offer. What best fulfills the agent's duty?",
     "options": [
       {
-        "text": "Recommend the higher offer as necessarily superior because fiduciary duty requires the maximum stated price.",
-        "explanation": "Fiduciary duty concerns the client's interests, which include timing and risk as well as price."
+        "text": "Recommend A as necessarily superior because loyalty requires the highest stated price.",
+        "explanation": "Loyalty considers the client's interests and instructions, including timing and execution risk, not price alone.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Treat both offers as economically identical because contingencies have no value until they are exercised.",
-        "explanation": "Contingencies affect risk and the probability and timing of performance before any cancellation occurs."
+        "text": "Treat the offers as equivalent because contingencies matter only after acceptance.",
+        "explanation": "Contingencies affect the likelihood and timing of performance when offers are evaluated.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Select the lower offer without consulting the seller because its closing terms fit the relocation.",
-        "explanation": "The agent should advise and communicate, not replace the principal's decision without authority."
+        "text": "Accept B for the seller because its timing better matches the relocation deadline.",
+        "explanation": "The agent may analyze and recommend, but the facts give no authority to choose or accept for the seller.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Explain the price, conditions, timing, and risks so the seller can choose according to the seller's priorities.",
-        "explanation": "Loyal advice compares the whole bargain against the client's objectives; the higher nominal price need not be the client's best choice."
+        "text": "Explain both offers' tradeoffs and obtain the seller's decision.",
+        "explanation": "The fiduciary task is to help the seller assess price, contingencies, timing, and risk against the seller's priorities while respecting the seller's decision-making authority."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "compare-offers-in-the-clients-terms",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-044",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "An agent cannot access an attic during the statutory visual inspection but already possesses a reliable report identifying a material roof defect. Which response best fits the agent's duties?",
+    "prompt": "A listing agent cannot safely enter a normally inaccessible attic during the statutory inspection of a house. The agent already holds a reliable report of a material roof defect not otherwise known to the buyer. What should the agent do?",
     "options": [
       {
-        "text": "Describe the attic as satisfactory because no defect was visible from accessible areas.",
-        "explanation": "Lack of access is not evidence that a condition is satisfactory, particularly when contrary information is known."
+        "text": "Report only the access limitation because the defect was not personally observed.",
+        "explanation": "Limits on the duty to inspect do not remove the duty to disclose additional known material information.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Omit the report because the statutory inspection did not independently confirm it.",
-        "explanation": "The inspection limitation does not erase knowledge obtained through a credible report."
+        "text": "Wait for the buyer's inspector to confirm the report before saying anything further.",
+        "explanation": "An independent inspection is not a prerequisite to communicating the known material report.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Disclose the known material information and recommend appropriate follow-up despite the inspection-access limitation.",
-        "explanation": "A limit on the physical inspection's scope does not authorize withholding material information already known from another source."
+        "text": "Disclose the report and the access limitation, with appropriate follow-up.",
+        "explanation": "Civil Code 2079.3 limits required inspection of inaccessible areas; it does not erase the disclosure duties described in section 2079.16 for material information already known."
       },
       {
-        "text": "Disclose only that the attic was inaccessible, leaving the buyer to discover the report through an inspection contingency.",
-        "explanation": "An access notation does not substitute for disclosure of known material facts, and a contingency does not transfer that duty away."
+        "text": "Describe the roof as acceptable because the accessible areas showed no defect.",
+        "explanation": "A lack of visible evidence in accessible areas does not justify contradicting a known report.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "inspection-limits-do-not-erase-known-information",
+    "conceptIds": ["property-disclosures"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      },
+      {
+        "label": "Civil Code 2079.3: visual-inspection limits",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-045",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A listing advertises 2,100 square feet. Before closing, the agent receives credible records indicating approximately 1,850 square feet. What is the most appropriate next step?",
+    "prompt": "An agent advertised a house as 2,100 square feet using the seller's estimate. Before closing, credible records suggest approximately 1,850 square feet. The correct area is unresolved. What is the best next action?",
     "options": [
       {
-        "text": "Wait until the buyer specifically asks about square footage because the buyer already visited the property.",
-        "explanation": "A visit does not reliably reveal the measurement discrepancy or excuse withholding known material information."
+        "text": "Keep 2,100 square feet in the listing because the seller supplied that number in writing.",
+        "explanation": "Attributing a claim to the seller does not justify repeating it without qualification after receiving credible contradictory evidence.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Retain the advertised number because the seller originally supplied it in writing.",
-        "explanation": "Identifying the original source does not justify repeating a representation after credible contrary information emerges."
+        "text": "Change the listing to exactly 1,850 square feet without discussing the discrepancy.",
+        "explanation": "The new records raise a material conflict; the facts do not establish that their number is conclusive or that silent correction informs the buyer.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Replace the figure with the average of the two measurements without explanation.",
-        "explanation": "A mathematical compromise is not a verified measurement and conceals the material discrepancy."
+        "text": "Advertise 1,975 square feet as a compromise while waiting for an appraisal.",
+        "explanation": "Averaging conflicting numbers creates an unsupported third representation rather than resolving the underlying measurement issue.",
+        "misconceptionId": "wrong-formula"
       },
       {
-        "text": "Promptly communicate the discrepancy, correct unsupported representations, and help arrange reliable verification.",
-        "explanation": "New contradictory evidence requires a reasoned response rather than continued reliance on an earlier unsupported figure."
+        "text": "Communicate the discrepancy, qualify the claim, and arrange reliable verification.",
+        "explanation": "Honesty and reasonable care require addressing the known conflict instead of preserving an unsupported assertion. Verification should distinguish measurements and their basis."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "how-to-correct-an-inaccurate-statement",
+    "conceptIds": ["property-disclosures"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-046",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A broker conceals a material personal interest in the buyer of a listing. The seller nevertheless receives a profitable price. How does that favorable result affect the fiduciary analysis?",
+    "prompt": "A broker secretly holds a material ownership interest in the buyer of the broker's listing. The seller makes a profit on the sale. How does that profit affect the conflict analysis?",
     "options": [
       {
-        "text": "It proves the seller knowingly consented to the interest by accepting the proceeds.",
-        "explanation": "Accepting proceeds without knowing the material conflict is not the same as informed consent to that conflict."
+        "text": "It establishes informed consent because the seller accepted the sale proceeds.",
+        "explanation": "Receiving proceeds without knowing the interest is not informed consent to the undisclosed conflict.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "It converts the brokerage relationship into an arm's-length sale and ends fiduciary duties.",
-        "explanation": "A favorable price does not change the agency relationship or automatically remove its duties."
+        "text": "It changes the broker's role to a principal and eliminates the seller's agency protections.",
+        "explanation": "An undisclosed interest does not automatically terminate existing fiduciary duties to the seller.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "It does not itself cure the undisclosed conflict; conduct and resulting harm require separate analysis.",
-        "explanation": "A profitable transaction does not retroactively make undisclosed self-interest informed or loyal, although damages and remedies depend on their own requirements."
+        "text": "It does not cure the nondisclosure; conduct and damages are separate issues.",
+        "explanation": "A favorable result is not a substitute for disclosing a material personal interest and obtaining appropriate informed consent. Any damages or other remedy requires its own analysis."
       },
       {
-        "text": "It establishes that the broker fulfilled loyalty because the seller earned a profit.",
-        "explanation": "The client's profit alone does not establish proper disclosure or faithful handling of a conflict."
+        "text": "It establishes loyalty because the seller received more than the seller originally paid.",
+        "explanation": "Loyalty is not measured solely by whether a transaction produced an accounting profit.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "separate-misconduct-from-a-disappointing-result",
+    "conceptIds": ["agency-conflicts"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      },
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-047",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "Both clients of a disclosed dual agent have received the same report estimating $12,000 of roof work. The seller's private minimum price remains confidential. Which act is most consistent with these facts?",
+    "prompt": "Both clients of a properly disclosed dual agent have received a roof report estimating $12,000 of repairs. The buyer requests a $12,000 credit. Neither client has authorized disclosure of private bargaining limits. What may the agent do?",
     "options": [
       {
-        "text": "Reveal the seller's minimum because discussing repairs has already made price information public.",
-        "explanation": "A shared repair report does not authorize disclosure of private negotiating limits."
+        "text": "Tell the buyer the seller's private minimum to help size the roof-credit request.",
+        "explanation": "A shared property report does not authorize disclosure of the seller's confidential bargaining position.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Transmit a buyer-proposed roof credit based on the shared report without revealing the seller's private minimum.",
-        "explanation": "Communicating a proposal based on shared material information is distinct from using a client's undisclosed bargaining limit."
+        "text": "Transmit the proposed credit without disclosing either client's private limit.",
+        "explanation": "Communicating an authorized proposal grounded in shared material information is distinct from revealing confidential limits. Dual agency does not categorically prohibit transmitting negotiation terms."
       },
       {
-        "text": "Refuse to transmit any repair proposal because a dual agent cannot communicate matters affecting price.",
-        "explanation": "Dual agency limits conflicting advocacy and confidential disclosures; it does not prohibit transmitting the parties' proposals."
+        "text": "Refuse to communicate the proposal because any repair credit changes the effective price.",
+        "explanation": "Dual agency restricts confidential disclosures; it does not prohibit every communication affecting price.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Set a compromise price midway between both clients' undisclosed limits and state that both will accept it.",
-        "explanation": "The agent cannot use private limits as an authorized shared settlement range or commit either client without authority."
+        "text": "Propose the midpoint of both secret limits and guarantee that both clients will accept.",
+        "explanation": "Private limits cannot be repurposed into an unauthorized assurance or disclosed negotiation shortcut.",
+        "misconceptionId": "source-of-authority"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "what-a-dual-agent-can-still-do",
+    "conceptIds": ["dual-agency"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "Civil Code 2079.21: dual-agent confidentiality",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-048",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "An agent tells a seller that the agent is licensed but omits a promised share of the purchaser's resale profit. What remains missing?",
+    "prompt": "A listing agent tells the seller, 'I am a licensed salesperson,' but does not disclose that the purchaser promised the agent 20% of a later resale profit. What has the agent failed to disclose?",
     "options": [
       {
-        "text": "Only disclosure to the purchaser, because the promised profit comes from that purchaser.",
-        "explanation": "The seller-client needs material conflict information regardless of which party promises the agent a benefit."
+        "text": "The purchaser's future resale date, rather than the agent's financial arrangement.",
+        "explanation": "The central known conflict is the agent's promised economic benefit, not an unknown future closing date.",
+        "misconceptionId": "duty-confusion"
       },
       {
-        "text": "Only disclosure of the exact resale closing date, because license status already reveals all financial conflicts.",
-        "explanation": "The undisclosed economic arrangement is material even if the eventual resale date is unknown."
+        "text": "Nothing material, because disclosing a license identifies every financial conflict.",
+        "explanation": "Professional status does not reveal a specific ownership, profit-sharing, or other economic interest.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Nothing further if an appraisal supports the seller's price.",
-        "explanation": "An appraisal can address value but does not disclose the agent's financial participation or substitute for informed conflict treatment."
+        "text": "Only the agency fee, because a later resale benefit is outside the current transaction.",
+        "explanation": "A promised benefit connected with the purchaser can materially affect the agent's loyalty in the present sale.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Disclosure of the material economic interest and resulting conflict, not merely professional status.",
-        "explanation": "License disclosure identifies status; it does not explain a separate profit participation affecting the agent's incentives."
+        "text": "The promised profit share and its conflict with the agent's duties.",
+        "explanation": "Disclosure must convey the material economic interest, not merely license status, so the seller can evaluate the agent's potentially divided loyalty."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "a-licensees-purchase-requires-a-full-picture",
+    "conceptIds": ["agency-conflicts"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      },
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-049",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A broker begins as the seller's sole agent. Later, the buyer asks that brokerage to advise and negotiate for the buyer, and the broker proposes to agree. Which step is required before treating the new role as established?",
+    "prompt": "A seller's sole-agent broker proposes to take on the buyer as a client in the same sale. The buyer would work with another salesperson employed by that same broker. Which treatment is required before proceeding in both roles?",
     "options": [
       {
-        "text": "Keep the seller-only confirmation unchanged if a different salesperson handles the buyer.",
-        "explanation": "Different affiliated salespersons do not remove dual agency at the brokerage level."
+        "text": "Keep seller-only representation because the two clients have different salespersons.",
+        "explanation": "Different salespersons within the same brokerage do not remove broker-level dual agency.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Treat the seller's original disclosure acknowledgment as advance approval of every later agency arrangement.",
-        "explanation": "Acknowledgment of an explanatory disclosure is not blanket consent to every later relationship or conflict."
+        "text": "Use the seller's earlier disclosure receipt as consent to the new dual relationship.",
+        "explanation": "Acknowledging a description of possible agency roles is not automatically informed agreement to a later change.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Address the changed representation, required agreements, and informed dual-agency consent of both principals.",
-        "explanation": "The proposed buyer engagement changes the actual relationship; an earlier general disclosure does not by itself resolve the new dual role."
+        "text": "Address broker-level dual agency with both clients' informed consent and required writings.",
+        "explanation": "Representing both parties creates dual agency at the broker level. The changed relationship must be properly agreed to and disclosed and confirmed under the applicable requirements."
       },
       {
-        "text": "Classify the broker as the buyer's sole agent because the buyer requested advice most recently.",
-        "explanation": "Taking on a second client does not silently terminate the existing seller agency."
+        "text": "Replace the seller agency with buyer-only representation because the buyer retained the firm later.",
+        "explanation": "Adding a client does not automatically release the broker from an existing client's representation or duties.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "dual-agency-exists-at-the-broker-level",
+    "conceptIds": ["dual-agency"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "Civil Code 2079.17: agency confirmation",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-050",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A seller pays a negotiated contribution toward an independently represented buyer's brokerage fee. Separately, the buyer's broker has an ownership interest in a recommended settlement provider. Which analysis is best?",
+    "prompt": "A seller contributes toward the fee of a broker retained only by the buyer. Separately, that broker owns part of a recommended settlement provider in a RESPA-covered transaction. Which approach correctly separates the issues?",
     "options": [
       {
-        "text": "Determine agency from representation, then separately evaluate and disclose the provider affiliation under applicable law.",
-        "explanation": "Payment source does not by itself define agency, and an affiliation presents a distinct conflict and regulatory question."
+        "text": "Keep the buyer representation analysis separate from the affiliation's disclosure and legal conditions.",
+        "explanation": "Civil Code 2079.19 makes compensation source nondeterminative of agency. The settlement-provider affiliation raises separate requirements and exceptions; it cannot be approved merely from the seller's contribution."
       },
       {
-        "text": "Approve both arrangements solely because the broker discloses the amounts in writing.",
-        "explanation": "Disclosure may be required but does not establish legality or compliance with all governing conditions."
+        "text": "Treat the seller contribution as dual agency and the affiliation as ordinary buyer representation.",
+        "explanation": "The payer does not alone create an agency relationship, and ownership of a recommended provider is a separate conflict and settlement-services issue.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Treat both arrangements as identical referral fees subject to exactly the same conditions.",
-        "explanation": "A negotiated compensation contribution and an ownership-related benefit are different arrangements requiring classification before applying their rules."
+        "text": "Approve the affiliation whenever its ownership and referral payments appear on the closing statement.",
+        "explanation": "Disclosure alone does not make an otherwise prohibited referral payment lawful; applicable exceptions have their own conditions.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Treat the seller contribution as proof the buyer's broker represents the seller, making affiliation disclosure unnecessary.",
-        "explanation": "Neither inference follows: compensation source alone does not establish seller agency or eliminate a separate conflict."
+        "text": "Apply the broker-to-broker referral exception to both payments without examining the provider's role.",
+        "explanation": "A settlement provider's affiliation is not automatically a permitted cooperative real estate brokerage referral arrangement.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "three-similar-payments-three-different-questions",
+    "conceptIds": ["agency-conflicts"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      },
+      {
+        "label": "CFPB: RESPA section 8 FAQs",
+        "url": "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-051",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A brokerage collects an $18,000 fee. A referral broker receives 25% first; the salesperson receives 60% of the remainder. What is the salesperson's gross share?",
+    "prompt": "A brokerage collects $18,000. Its agreement pays a referral broker 25% of that amount first, then gives the salesperson 60% of what remains. With no other deductions, what is the salesperson's gross share?",
     "options": [
       {
         "text": "$13,500.",
-        "explanation": "This is the amount remaining after the referral, before the salesperson and brokerage split it."
+        "explanation": "$18,000 x 75% = $13,500 is the amount remaining at the brokerage before applying the salesperson's 60% share.",
+        "misconceptionId": "missing-condition"
       },
       {
         "text": "$10,800.",
-        "explanation": "This applies 60% before the stated referral deduction and therefore uses the wrong base."
+        "explanation": "$18,000 x 60% uses the total collected fee and ignores the referral deduction specified before the split.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$8,100.",
-        "explanation": "The referral is $4,500, leaving $13,500; 60% of $13,500 is $8,100."
+        "explanation": "The referral is $18,000 x 25% = $4,500. The remaining $13,500 x 60% gives the salesperson $8,100."
       },
       {
         "text": "$6,300.",
-        "explanation": "This subtracts both percentages from the original fee rather than applying the salesperson split to the remainder."
+        "explanation": "Subtracting 25 percentage points from 60% gives 35% of $18,000, but the agreement calls for sequential percentages, not subtraction of rates.",
+        "misconceptionId": "wrong-formula"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "a-multistep-calculation",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-052",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "The seller and broker terminate a listing after the seller has entered an enforceable purchase agreement. No buyer cancellation or release occurs. Which conclusion follows?",
+    "prompt": "After a seller signs an enforceable purchase contract, the seller and broker mutually terminate only their listing agreement. The buyer grants no cancellation or release, and the purchase contract has no clause tying its survival to the listing. What is the effect on the sale contract?",
     "options": [
       {
-        "text": "The listing must remain in force until closing even if seller and broker both agree to terminate it.",
-        "explanation": "The existence of a purchase contract does not necessarily prevent termination of the separate agency, although surviving duties remain."
+        "text": "It ends automatically because the listing produced the buyer's offer.",
+        "explanation": "The source of the buyer introduction does not make the purchase contract expire with the agency agreement.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The buyer must sign a new purchase agreement with any replacement listing brokerage.",
-        "explanation": "The buyer's purchase agreement is with the seller, not ordinarily with the listing brokerage as seller."
+        "text": "It becomes unenforceable until the seller hires a replacement brokerage.",
+        "explanation": "An existing purchase obligation does not ordinarily depend on continued employment of the listing broker under these facts.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The purchase agreement terminates because the listing was the source of the buyer introduction.",
-        "explanation": "The source of the introduction does not make the purchase contract dependent on continuing listing authority."
+        "text": "It remains effective only if the buyer signs the listing termination.",
+        "explanation": "The buyer need not join a separate brokerage termination merely to preserve the existing sale contract.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The listing termination does not itself release the seller from the purchase agreement.",
-        "explanation": "The employment agreement and purchase contract have different parties and obligations; terminating one does not automatically terminate the other."
+        "text": "It remains in effect; ending the listing alone does not release the seller.",
+        "explanation": "The representation contract and purchase contract involve different obligations. A release or cancellation of one is not automatically a discharge of the other."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "three-contracts-can-end-differently",
+    "conceptIds": ["agency-termination"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      },
+      {
+        "label": "Civil Code 2355-2357: termination and third-party protection",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-053",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "An agreement earns a fee upon producing a ready, willing, and able buyer on the seller's specified $600,000 cash terms. A financially capable buyer offers $600,000 only if the seller carries most of the financing. Which fact is most important?",
+    "prompt": "A brokerage agreement earns a fee for producing a ready, willing, and able buyer on specified $600,000 cash terms. A financially capable buyer offers $600,000 only if the seller finances most of the price. The seller has not accepted the change. Which conclusion is supported?",
     "options": [
       {
-        "text": "The offer changes the financing terms, so matching the price alone does not establish the stated earning condition.",
-        "explanation": "Read all authorized terms; a seller-financing condition differs materially from the specified cash purchase."
+        "text": "The stated earning condition is not established merely by matching the price.",
+        "explanation": "The buyer proposes different financing terms. Readiness, willingness, and ability must relate to the specified bargain, not just its price."
       },
       {
-        "text": "The buyer's financial capacity makes every other term irrelevant to earning the fee.",
-        "explanation": "Ability is one part of the condition and does not eliminate the requirement to match the seller's stated terms."
+        "text": "The fee is earned because the buyer could pay cash even though the offer requires financing.",
+        "explanation": "Financial ability does not show willingness to buy on the seller's specified cash terms.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A signed offer always earns compensation before any other contractual condition can matter.",
-        "explanation": "Signing does not automatically satisfy all the employment agreement's earning conditions."
+        "text": "The fee is earned because a signed offer satisfies every ready-willing-and-able clause.",
+        "explanation": "A signed offer may propose a different bargain; the actual contractual earning conditions still control.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The seller must accept because the offer equals the advertised price.",
-        "explanation": "An asking price is not an obligation to accept any offer at that figure, particularly one changing other material terms."
+        "text": "The seller must carry the financing because the offer equals the listed price.",
+        "explanation": "A price match does not impose a new financing obligation or compel acceptance of the offer.",
+        "misconceptionId": "source-of-authority"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "test-the-earning-conditions-one-at-a-time",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-054",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A buyer's contractual brokerage fee is $12,000. A seller pays $8,000 credited toward it, and the buyer pays the $4,000 balance. The buyer's broker owes a referral broker 20% of the total fee collected. What is the referral amount?",
+    "prompt": "A buyer owes a $12,000 negotiated brokerage fee. The seller contributes $8,000 credited toward it, and the buyer pays $4,000. A referral agreement uses 20% of the total fee collected as its base. What is the referral payment?",
     "options": [
       {
         "text": "$1,600.",
-        "explanation": "This incorrectly applies the percentage only to the seller's $8,000 contribution."
+        "explanation": "$8,000 x 20% counts only the seller contribution, although the stated base is the whole $12,000 fee.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$2,400.",
-        "explanation": "The stipulated base is the full $12,000 collected, so the referral is 20% of $12,000."
+        "explanation": "The total collected is $8,000 + $4,000 = $12,000. Applying the agreed 20% gives $2,400."
       },
       {
         "text": "$4,000.",
-        "explanation": "This is the buyer's unpaid balance before payment, not 20% of the total collected fee."
+        "explanation": "This is the buyer-funded balance, not 20% of the brokerage's total collected compensation.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$800.",
-        "explanation": "This incorrectly applies the percentage only to the buyer's remaining $4,000 payment."
+        "explanation": "$4,000 x 20% counts only the buyer payment and omits the seller-funded portion from the specified base.",
+        "misconceptionId": "wrong-base"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "calculating-a-negotiated-commission",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-055",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "An owner creates a reasonable appearance that a manager can approve a renovation. A vendor believes it but only prepares an uncommitted quote; the vendor neither parts with value nor incurs a liability. Which element of liability based on merely ostensible authority remains unestablished?",
+    "prompt": "An owner creates a reasonable appearance that a manager may approve a renovation. A vendor believes that appearance but only sends a free, nonbinding quote: the vendor parts with no value and incurs no liability. Which requirement of Civil Code 2334 remains unmet for binding the owner through merely ostensible authority?",
     "options": [
       {
-        "text": "The requirement that the manager be a special rather than general agent.",
-        "explanation": "That classification is not the missing element; an agent's scope label does not replace qualifying reliance."
+        "text": "The requirement that the manager's role be special rather than general.",
+        "explanation": "Section 2334 does not limit reliance to one of those scope classifications.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The statutory reliance element involving value parted with or liability incurred.",
-        "explanation": "Section 2334 requires more than belief; the stated facts omit the specified change in position."
+        "text": "The requirement of value parted with or liability incurred in reliance.",
+        "explanation": "The statute protects specified reliance by a person acting in good faith and without want of ordinary care. Belief alone, without value parted with or liability incurred, does not establish that element."
       },
       {
-        "text": "Written actual delegation of the particular renovation, separate from the owner's appearance of authorization.",
-        "explanation": "A claim based on merely ostensible authority does not require proving the very actual authority that the theory distinguishes."
+        "text": "The requirement that the owner privately grant the same actual authority.",
+        "explanation": "That would make this an actual-authority inquiry; ostensible authority concerns the principal-created appearance and qualifying reliance.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Completion of the entire renovation before a vendor can ever rely on apparent authority.",
-        "explanation": "Qualifying reliance can involve an incurred liability or value parted with before all proposed work is completed."
+        "text": "The requirement that the vendor finish all physical work before relying.",
+        "explanation": "Incurring a binding liability or parting with value can occur before completion. Finished construction is not the statutory threshold.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "actual-and-ostensible-authority",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2330-2339: third-party reliance",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-056",
     "domain": "agency",
     "lessonSlug": "agency-relationships",
-    "prompt": "A contractor knows a manager exceeded an actual spending limit. The owner later learns the material facts and validly adopts the entire lawful renovation agreement. What most directly explains the owner's resulting obligation?",
+    "prompt": "A contractor knows that a manager's $9,000 order exceeds the owner's $2,000 limit. Later, with full knowledge of the material facts and the required formalities satisfied, the owner validly adopts the entire lawful agreement. What supplies the owner's obligation?",
     "options": [
       {
-        "text": "Ostensible authority created solely by the manager's original promise.",
-        "explanation": "An unsupported manager promise and the contractor's known limit do not establish qualifying reasonable reliance."
+        "text": "Ostensible authority arising from the manager's initial assertion of power.",
+        "explanation": "The manager's assertion alone does not create principal-caused appearance, and the contractor knew the contrary restriction.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Proof that the manager actually possessed the greater authority when placing the original order.",
-        "explanation": "Later adoption can ratify an unauthorized act without proving that it was authorized when originally performed."
+        "text": "Actual authority that existed when the manager first placed the order.",
+        "explanation": "The facts expressly establish that the original order exceeded actual authority.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Novation automatically substituting the owner for the manager and discharging every earlier claim.",
-        "explanation": "The stipulated informed adoption supports ratification; it does not establish an agreement for substitution and discharge of all prior obligations."
+        "text": "A novation that necessarily cancels every claim against the manager.",
+        "explanation": "Valid adoption establishes ratification; the question does not supply a separate agreement substituting obligations and releasing parties.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Ratification, rather than the contractor's original reasonable reliance on broader authority.",
-        "explanation": "The stipulated later informed adoption supplies a separate basis; the contractor's knowledge undermined the earlier ostensible-authority theory."
+        "text": "Ratification of the previously unauthorized transaction.",
+        "explanation": "The owner's informed, legally sufficient adoption supplies authority by subsequent ratification. That is distinct from claiming the manager had sufficient original authority or that the contractor reasonably relied on an apparent grant."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "ratification-and-powers-of-attorney",
+    "conceptIds": ["agency-authority"],
+    "sources": [
+      {
+        "label": "Civil Code 2304-2326: authority and ratification",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2."
+      },
+      {
+        "label": "Civil Code 2330-2339: third-party reliance",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-057",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A buyer sees a wall crack. The buyer's agent also holds an undisclosed engineer's recommendation for foundation evaluation. The agent argues the buyer's own duty of reasonable care removes the need to deliver that report. Which conclusion is best?",
+    "prompt": "A buyer sees a wall crack. The buyer's agent also holds an engineer's report recommending a material foundation evaluation that the buyer has not seen. The agent says the visible crack makes the buyer solely responsible for finding the report. Which response is correct?",
     "options": [
       {
-        "text": "The buyer's care responsibility and the agent's duty to communicate additional known material information must be evaluated separately.",
-        "explanation": "Observation of a symptom is not necessarily knowledge of a report's significance, and section 2079.5 does not eliminate the agent's duties."
+        "text": "The buyer's duty of care does not erase the agent's duty to communicate the additional known information.",
+        "explanation": "Section 2079.5 preserves the buyer's reasonable-care responsibility. It does not authorize withholding additional material information known to the agent under section 2079.16."
       },
       {
-        "text": "The visible crack transfers every disclosure duty exclusively to the buyer.",
-        "explanation": "The buyer's responsibility does not automatically extinguish duties the agent independently owes."
+        "text": "The visible crack transfers every remaining disclosure obligation to the buyer.",
+        "explanation": "Observation of one condition is not necessarily knowledge of an engineer's separate material findings or recommendations.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The report need not be delivered unless the buyer asks for the engineer by name.",
-        "explanation": "Known material information is not withheld merely because the buyer lacks enough knowledge to request its precise source."
+        "text": "The agent need disclose the report only if the buyer identifies the engineer who wrote it.",
+        "explanation": "A buyer's precise request is not the trigger for an existing duty to disclose known material information.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The buyer has no responsibility to investigate because an agent is involved.",
-        "explanation": "Retaining an agent does not eliminate the buyer's own reasonable-care obligation."
+        "text": "The buyer has no duty to investigate the crack once an agency relationship exists.",
+        "explanation": "Representation does not eliminate the buyer's separate reasonable-care obligation.",
+        "misconceptionId": "duty-confusion"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "inspection-limits-do-not-erase-known-information",
+    "conceptIds": ["property-disclosures"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      },
+      {
+        "label": "Civil Code 2079.5: buyer's reasonable care",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.5."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-058",
     "domain": "agency",
     "lessonSlug": "agency-fiduciary-duties",
-    "prompt": "A foundation report remains unresolved one day before the buyer's stated inspection deadline. The agent promptly delivers it. The buyer has not authorized cancellation or an extension request. What best respects both care and agency authority?",
+    "prompt": "An agent delivers a foundation report one day before the buyer's contractual inspection deadline. The material issue is unresolved; the buyer has not instructed the agent to cancel, request an extension, or remove a contingency. What should the agent do next?",
     "options": [
       {
-        "text": "Cancel immediately because protecting the buyer always authorizes unilateral termination.",
-        "explanation": "Protective motives do not automatically supply authority to exercise the client's contractual rights."
+        "text": "Cancel on the buyer's behalf because serious uncertainty automatically grants that authority.",
+        "explanation": "Care includes explaining risks and options; it does not supply a blanket power to make the buyer's contractual election.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Assume the report automatically extends the contingency until an engineer is available.",
-        "explanation": "An unresolved condition does not itself rewrite a contractual deadline."
+        "text": "Tell the buyer that delivery of the report automatically extends the inspection deadline.",
+        "explanation": "A newly delivered report does not itself establish a contractual extension under the stated facts.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Explain the unresolved issue and available contractual choices, recommend appropriate evaluation, and obtain the buyer's instructions.",
-        "explanation": "Competent advice addresses the risk and deadline while preserving the principal's decision and the contract's actual requirements."
+        "text": "Explain the deadline and choices, recommend evaluation, and seek instructions.",
+        "explanation": "Reasonable care requires addressing the unresolved issue and time-sensitive decisions, while the buyer retains choices the agent has not been authorized to make."
       },
       {
-        "text": "Take no further action because delivery alone resolves the timing and decision issues.",
-        "explanation": "Delivery is important but does not by itself address the known deadline or the need for an informed authorized decision."
+        "text": "Close the issue in the file because prompt delivery completes every duty concerning the deadline.",
+        "explanation": "Transmitting the report is important but does not necessarily satisfy the broader duty to advise the client about a known time-sensitive problem.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "worked-scenario-the-stain-and-the-deadline",
+    "conceptIds": ["fiduciary-duties"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.16: duties to clients and nonclients",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-059",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A seller-only brokerage proposes to represent the buyer as well before the agency's object has been performed. The seller previously acknowledged an agency-disclosure form. What is needed to change the contractual agency relationship under section 2079.23?",
+    "prompt": "Before the agency's object is performed, a seller-only broker and the parties propose to change their contractual relationship to dual agency. The seller earlier signed only a receipt for the general agency-disclosure form. What does Civil Code 2079.23 require for the contractual change?",
     "options": [
       {
-        "text": "Only the broker's revised internal file notation identifying a dual role.",
-        "explanation": "An internal classification is not the required consent of the parties to the agency relationship."
+        "text": "An internal dual-agency designation approved by the responsible broker.",
+        "explanation": "Internal approval does not replace the parties' consent to changing their contractual relationship.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Only a second salesperson, provided that person works in another branch.",
-        "explanation": "The responsible brokerage remains the same despite separate personnel or locations."
+        "text": "The buyer's signature alone because the seller already received the general disclosure.",
+        "explanation": "Receipt of a form describing possible roles is not the seller's written agreement to this later contractual change.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The parties' written consent to the changed agency relationship, with the required informed dual-agency treatment.",
-        "explanation": "A prior receipt acknowledgment does not by itself establish consent to the proposed contractual change."
+        "text": "The parties' written consent, with the dual role properly disclosed and confirmed.",
+        "explanation": "Section 2079.23 permits a change before the agency's object is performed with the parties' written consent. General disclosure acknowledgment is not a substitute for that consent."
       },
       {
-        "text": "Only the buyer's payment of an earnest-money deposit.",
-        "explanation": "A deposit under a purchase proposal does not establish the seller's written consent to changed representation."
+        "text": "A second salesperson at another branch, without further consent from the seller.",
+        "explanation": "Separate staff under the same broker do not avoid broker-level dual agency or the consent requirement.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "disclosure-timing-and-coverage",
+    "conceptIds": ["agency-disclosure"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.13-2079.24: agency relationships and disclosure",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-060",
     "domain": "agency",
     "lessonSlug": "agency-disclosure-and-conflicts",
-    "prompt": "A dual-agent client expressly permits disclosure that the client can close in twenty days but does not authorize disclosure of a maximum price or private financial reserves. What may the agent infer from the permission?",
+    "prompt": "A buyer represented by a dual agent expressly permits the agent to tell the seller, 'I can close in 20 days.' The buyer gives no permission to disclose private reserves or a maximum price. Which disclosure stays within the stated permission?",
     "options": [
       {
-        "text": "Permission covers the authorized closing-capacity information, not automatically the client's other bargaining confidences.",
-        "explanation": "Consent should be read according to its actual scope; related financial facts do not become unrestricted merely because timing is disclosed."
+        "text": "The authorized 20-day closing capacity, without the private financial limits.",
+        "explanation": "Civil Code 2079.21 requires express permission from the relevant client for covered confidential information. Permission for a specific timing fact is not permission to reveal all related bargaining information."
       },
       {
-        "text": "All financial information may be disclosed because closing capacity is a financial subject.",
-        "explanation": "Limited permission does not automatically authorize disclosure of every fact in the same broad category."
+        "text": "The closing capacity and maximum price, but not the amount held in reserve.",
+        "explanation": "The buyer did not authorize disclosure of a maximum price; price information is not categorically public in dual agency.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The agent may disclose the maximum price but not reserves because price is always public in dual agency.",
-        "explanation": "Undisclosed bargaining limits are protected unless the relevant client expressly permits disclosure."
+        "text": "All three facts because each helps the seller evaluate the buyer's offer.",
+        "explanation": "Usefulness to the other client does not expand the express permission given.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "The agent must withhold the authorized timing information because dual agents may never discuss transaction terms.",
-        "explanation": "Dual agency does not prohibit communicating terms or information the client has properly authorized."
+        "text": "None of the facts because dual agents may not discuss financial capacity.",
+        "explanation": "The statute permits disclosure with the relevant client's express permission; it does not prohibit sharing every authorized transaction fact.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "confidentiality-in-a-dual-agency",
+    "conceptIds": ["dual-agency"],
+    "sources": [
+      {
+        "label": "Civil Code 2079.21: dual-agent confidentiality",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-061",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A salesperson receives $9,000, equal to 75% of the fee remaining after a 20% referral is deducted from the total collected fee. No other adjustments apply. What was the total fee?",
+    "prompt": "A salesperson's gross share is $9,000. The agreement first deducts a referral payment equal to 20% of the brokerage's total collected fee, then pays the salesperson 75% of the remainder. No other adjustment applies. What total fee did the brokerage collect?",
     "options": [
       {
         "text": "$14,400.",
-        "explanation": "Adding 20% to the post-referral $12,000 does not reverse a deduction of 20% from the original total."
+        "explanation": "Dividing $9,000 by 75% gives $12,000 after referral. Adding 20% of that remainder gives $14,400, but the referral was based on the original total, not the remainder.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$12,000.",
-        "explanation": "This recovers only the post-referral pool, not the fee before the referral deduction."
+        "explanation": "$9,000 / 75% recovers only the post-referral remainder. The original fee must also account for the 20% referral deduction.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "$13,500.",
-        "explanation": "This treats the combined percentage deductions as a simple adjustment instead of reversing the two specified multiplications."
+        "text": "$16,363.64.",
+        "explanation": "Dividing $9,000 by 55% subtracts the 20% referral rate from the 75% split. The agreement instead applies the proportions sequentially: 80% x 75%.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$15,000.",
-        "explanation": "Divide $9,000 by 0.75 to recover $12,000, then divide by 0.80 to recover the $15,000 total."
+        "explanation": "The salesperson receives 75% x 80% = 60% of the original fee. Thus $9,000 / 0.60 = $15,000; its $3,000 referral leaves $12,000, of which 75% is $9,000."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "a-multistep-calculation",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "agency-062",
     "domain": "agency",
     "lessonSlug": "agency-compensation-and-termination",
-    "prompt": "A brokerage receives a total $15,000 fee funded by a $10,000 seller contribution and $5,000 buyer payment. A separate referral agreement expressly uses 25% of the seller-funded portion as its base. What is the referral fee?",
+    "prompt": "A brokerage collects a $15,000 fee: $10,000 from the seller and $5,000 from the buyer. Unlike an agreement based on total compensation, this referral agreement expressly pays 25% of only the seller-funded portion. What amount is due?",
     "options": [
       {
         "text": "$3,750.",
-        "explanation": "This applies the percentage to the full fee instead of the specifically stated seller-funded portion."
+        "explanation": "$15,000 x 25% uses the total fee, contrary to the seller-funded-only base specified in the agreement.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$2,500.",
-        "explanation": "The stated agreement applies 25% to $10,000, regardless of a different base used in another brokerage's arrangement."
+        "explanation": "The defined base is the $10,000 seller contribution. $10,000 x 25% = $2,500; the buyer's $5,000 is excluded by the stated agreement."
       },
       {
         "text": "$1,250.",
-        "explanation": "This uses the buyer's $5,000 payment as the base rather than the seller-funded portion."
+        "explanation": "$5,000 x 25% applies the rate to the buyer-funded portion instead of the specified seller-funded portion.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$5,000.",
-        "explanation": "This is the buyer-funded balance, not the referral calculated under the stated agreement."
+        "explanation": "This is the buyer's payment, not 25% of the seller-funded base.",
+        "misconceptionId": "wrong-formula"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "calculating-a-negotiated-commission",
+    "conceptIds": ["broker-compensation"],
+    "sources": [
+      {
+        "label": "DRE: Professional Responsibility, agency and compensation",
+        "url": "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   }
 ]

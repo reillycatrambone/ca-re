@@ -1,0 +1,723 @@
+{
+  "id": "financing-transfer-rules-independent-2026-09-07",
+  "reviewed": "2026-09-07",
+  "reviewer": "audit_exam_bank independent reviewer; rules and chapter expansions authored by remove_progress_tracking",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 118 rule records (59 financing and 59 transfer), their conditions, exceptions, source locators, linked examples, and all eight corresponding full chapter bodies. Checked relevant governing primary passages behind all 112 distinct rule-source URLs, reusing passages retrieved during the same review run on September 6-7 rather than claiming fresh full-document reads. Recomputed 38 explicit monetary, ratio, tax, basis, and overbid calculations and checked application timing, notice definitions, 2026 foreclosure requirements, disclosure alternatives, and tax-date conditions. Structural validation confirmed all 118 schemas, chapter/source/heading links, example visuals, and practice-question links. Whole MDX file SHA-256 snapshots at completion: contents/textbook/financing/financing-credit-law-originators.mdx=81e55b25269470f45244be4db475fbc041d53ad6d77d74d9666d4d252331917a; contents/textbook/financing/financing-loan-fundamentals.mdx=f5215c1169ad162e4e78a211a444d891d1f52ef350c3a6b30408573854ef6084; contents/textbook/financing/financing-loan-types-programs.mdx=2c28953b732ca8362f692226e70de693ccf6883315a32c91bed90faf9fd7b748; contents/textbook/financing/financing-notes-security.mdx=7b4b6ab0a1828e51bf7e11511401126e7107801bd53799259b21184c5bf7f26a; contents/textbook/transfer/transfer-deeds-and-vesting.mdx=c8b8a157408a7bfd51c9bf28953bb7ea89cdf4f9068ceecf72f755c693c06f37; contents/textbook/transfer/transfer-special-transfers.mdx=443d6b04629cd7e28b7f3e44668f1d8cec9de85d460c1d3f3d828d2758a6b780; contents/textbook/transfer/transfer-taxes-and-prorations.mdx=dc61c2a7fa877699985eaa43bf26ca66bf3814b6df43c271716c6afe57ae8922; contents/textbook/transfer/transfer-title-and-escrow.mdx=fdbfc073b254a8ab95e759dc2b2b064a89ea967c5f509254fbdd4305d9883b01.",
+  "sourceUrls": [
+    "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/",
+    "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+    "https://selling-guide.fanniemae.com/sel/b2-1.2-02/combined-loan-value-cltv-ratios",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-loan-en-106/",
+    "https://www.hud.gov/sites/dfiles/OCHCO/documents/92564-CN.pdf",
+    "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+    "https://www.consumerfinance.gov/ask-cfpb/for-an-adjustable-rate-mortgage-arm-what-are-the-index-and-margin-and-how-do-they-work-en-1949/",
+    "https://www.consumerfinance.gov/ask-cfpb/can-anyone-take-out-a-reverse-mortgage-loan-en-227/",
+    "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-negative-amortization-en-103/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/",
+    "https://www.consumerfinance.gov/owning-a-home/close/review-documents-before-closing/",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1024/41/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.5.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.55.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.15.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924b.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=729.030.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/3/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+    "https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/23/",
+    "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+    "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/credit-discrimination-is-illegal/",
+    "https://www.dre.ca.gov/Licensees/MLOLicense.html",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1007/103/",
+    "https://dfpi.ca.gov/regulated-industries/mortgage-loan-originators/",
+    "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2015MLDS%20and%20Loan%20Estimate%20Advisory.pdf",
+    "https://www.dre.ca.gov/files/pdf/relaw/relaw.pdf#page=66",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10232.5.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/24/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1916.1.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/43/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=35810.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=35811.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+    "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-credit-decisions-what-know-about-adverse-action-risk-based-pricing-notices",
+    "https://www.fdic.gov/consumer-resource-center/mortgages",
+    "https://www.ginniemae.gov/issuers/issuer_training/NewIssuerTrainingPresentations/ginniemae_basics_workbook.pdf",
+    "https://www.rd.usda.gov/media/file/download/usda-rd-rhs-fs-sfhd-09252024.pdf",
+    "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program",
+    "https://www.boe.ca.gov/proptaxes/pdf/78-176.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1091.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1040.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=2.&title=4.&part=4.&chapter=1.&article=3.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=686.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+    "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/",
+    "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+    "https://www.consumerfinance.gov/about-us/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+    "https://www.irs.gov/publications/p544",
+    "https://www.irs.gov/publications/p551",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/sale-of-residence-real-estate-tax-tips",
+    "https://www.irs.gov/publications/p523",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/like-kind-exchanges-real-estate-tax-tips",
+    "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+    "https://www.irs.gov/irm/part3/irm_03-022-261r",
+    "https://www.ftb.ca.gov/forms/misc/1016.html",
+    "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf",
+    "https://auditor.lacounty.gov/bwl-advanced-faq/what-does-my-property-taxes-and-direct-assessments-consist-of-and-where-does-it-go/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.",
+    "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm",
+    "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm",
+    "https://www.boe.ca.gov/proptaxes/decline-in-value/",
+    "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm",
+    "https://www.boe.ca.gov/proptaxes/supplemental-assessment/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41.",
+    "https://www.boe.ca.gov/proptaxes/calendar.htm",
+    "https://www.boe.ca.gov/prop19/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911.",
+    "https://selfhelp.courts.ca.gov/probate",
+    "https://selfhelp.courts.ca.gov/wills-estates-probate",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8400.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16226",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16200.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10309",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=PROB&division=7.&title=&part=6.&chapter=3.&article=2.",
+    "https://servicing-guide.fanniemae.com/svc/d2-3.3-02/fannie-mae-mortgage-release-deed-lieu-foreclosure",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5624.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5626.",
+    "https://www.sucorte.ca.gov/probate/simple-transfer",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.210.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.810.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.820.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=I",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3691.",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title11-section362&num=0&edition=prelim",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=325.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1007.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1009.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/2/"
+  ],
+  "artifacts": [
+    {
+      "kind": "rule",
+      "id": "financing-rule-ltv-and-price-gap",
+      "digest": "f20f1e5d0d7a7f14bc7fa8a0ab222e1d3b6ca16060eb942596b577157ed96ffe"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-dti-income-denominator",
+      "digest": "9b55dc658e93e842741e2d4af25f11041109d7c42a3366cb2eca85f09ce258a3"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-loan-points-base",
+      "digest": "a3338c4fa49fd69cb7037f68e637b88704b322192c646a4da8134967595c9272"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-monthly-principal-interest",
+      "digest": "d8db9040c85bf2913ae04e29053a1a2ede2202ec8cb2db55934d7e9d18d58814"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-secondary-market-and-funding",
+      "digest": "6e60b4b7ffc2044a62226a6e24d99737c0444276317653949a7c9bffc9802854"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-servicing-transfer-effects",
+      "digest": "b89d7095a61fc9c65e884028fbcdcd49817fbbeca4f4d8fa9c7ac312ae69b0ed"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-simple-cash-break-even",
+      "digest": "0a9627074e3536bc86ae3d1221d72c70de327fe2b41c3aa3f49f04a670eee5c4"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-combined-liens-and-equity",
+      "digest": "b1fa9d2cb993bec52ce738b12395bf63f1d2fc2e56c1b23a556691f287db84b4"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-housing-cost-versus-principal",
+      "digest": "4305fe1443f8f7be9ff92154b4d231fed5b935da81e25751f49a715a2a5af357"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-apr-and-amount-financed",
+      "digest": "49ea348e441cc7e3babbfce8d7841f8e05f725aaff1a5aaabb22dd2dbbf9b66b"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-equity-leverage-symmetry",
+      "digest": "07abe755ab469fa2529088c16d19dcfc0dc02d409e0f4bd3ce957663ad1d707f"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-fha-insurance-not-inspection",
+      "digest": "722aa6033fc7aa9284a26cdc7eccd2526a55e93e7402393f8603f318a82636c2"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-va-guaranty-and-conditions",
+      "digest": "58102125406ab1dc0f28f08c59752742064075c1a5bb64235138e0f3a1dd9a54"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-arm-index-margin-and-caps",
+      "digest": "6c654362c3c2c24d871e53201911ace8bebc4df99955447cb9a747b18b9fc628"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-reverse-ongoing-obligations",
+      "digest": "4dde08b54b8626b749e51d6cdd2c2dd1b2a98d21945fcf5047e443a625db6acb"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-deferred-assistance-payoff",
+      "digest": "788c76c7edad4e380f638650020a21c3869c14a3adecb6bb9698ca0010e484e9"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-maturity-and-interest-only-transition",
+      "digest": "06037556303a0dfeb3553ff932890f5345fe42ad2a2709b50a5bc9435b4b6293"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-negative-amortization-capitalization",
+      "digest": "5590cc8231d945b91900fc181d5be4d3e85ea17ef7f72cbcf22ffff5a8484c32"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-independent-loan-classifications",
+      "digest": "3062cec0d6f5d67535d473c5208a8f855994510664bc16ef92138180785aaea1"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-construction-draws-and-commitment",
+      "digest": "72275967b2b0be35253c1132d2a145e5cd0987fe3903a7fbd43d6f18b5819f6b"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-promise-versus-security",
+      "digest": "b1810f1ee211bcfa3f90553a7f5e82a19800840726adfc4663b78277353509be"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-three-security-parties",
+      "digest": "d7f2cd0dd44dd70c0620ba13f552a8ab6eab52bb4a7a8b2029f31eda3ff5ca7d"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-assignment-versus-release",
+      "digest": "25bc5d249118cacc818c1df777b1cbde46a8580a589be07d199bfe757fc04784"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-assumption-subject-to-and-release",
+      "digest": "c8fcec2b12c6bdfd08d86c3ad51273506ea7b30900eeeea59f9b0984740b5930"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-priority-and-subordination",
+      "digest": "f68b05957cd4ed45f00e62ab7db3859bc86dfba686444f0b8f19fc7c4a937d90"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-foreclosure-proceeds-and-junior-risk",
+      "digest": "82175b71b259d61b06c8daa02f18302ab817f789d9fdb5f88e2a4d7a6943eb2c"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-acceleration-versus-foreclosure",
+      "digest": "56915cbf3bfe8c6516264fd90ee23c080f29886383fc0333bfd98bea928fa260"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-purchase-money-protection-classification",
+      "digest": "a54dedd98ecd2e9e3c22b347d09bfd4de4b80d5ef065fdf1adc62869886d97a9"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-power-of-sale-deficiency-and-junior-distinction",
+      "digest": "1e901ca9f146acea216f9bc13d0716f98ad934550c5867cc72e9d37daedb64c7"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-pre-default-parallel-clocks",
+      "digest": "c998e7bd94647b84711cb1c8d2d963654f0c0caac551ab4ba9f62fdcd6d2b560"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-default-and-sale-calendar-minima",
+      "digest": "f9d3cf2c52bf80357ee1e089181e954fa4386c233fc4d832d04d27637e773236"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-notice-mailing-distinct-recipients",
+      "digest": "c301800ec3af9469a7da1e9bf40e6edc04a26d5c015f16165a006926e5f82f68"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-reinstatement-amount-and-cutoff",
+      "digest": "ede9f4fe141e2c7423440c5b24458a94ef9315930bfffa34b853d3eb8408e205"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-listing-and-purchase-postponements",
+      "digest": "38c765c9f979b838d3b55a73fee397d4e9233978b117696fe5387583dc9f7241"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-first-residential-auction-floor",
+      "digest": "5e6e7d6c03f82eddb64148602120261b5aba87a8f58c2f829851fa85570db9cf"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-post-sale-redemption-route",
+      "digest": "b2f3d17b568551084966c677ea509c1da83e10c2efc8bf6ca39e721b6d6a3792"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-consumer-state-coverage",
+      "digest": "250cdf9a7d7d7d1432a4f6d4067a6cb131525d726ddeccd151c6264fc8e476da"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-defined-application-initial-estimate",
+      "digest": "36cf6bdbb744de79cbb383da4ca4265527abb0169b45106a50e0ad8fc3683ddb"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-estimate-and-closing-dual-waits",
+      "digest": "04f0a641a3fa629b2b9116e0fd0dcbd065d8148a73692223aced7099e8eab4d0"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-emergency-waiver-limits",
+      "digest": "c24f18b43db262810dcee2260bc01164e991a14df7eab78bd8446d305ca82d25"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-closing-disclosure-restart-events",
+      "digest": "db913904199756f6c2937a1c744d23c4e7e8201e34e9a2a18e80c00a484ee5d1"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-rescission-coverage-and-last-event",
+      "digest": "59afae82121b4da1460c704395498a65bf553cd85242edd2d87ca582dc0999ab"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-respa-referrals-not-cured-by-disclosure",
+      "digest": "e37715a6cef5156e32168073cc9298cca5eae61dfd025a7bc6f131f87c4883f3"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-ecoa-protected-income",
+      "digest": "4c7dc9394bf1d72c4539f44e6de5703fbcc07277be0a3a1adbe5bb3d9b212c5f"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-originator-license-registration-endorsement",
+      "digest": "07c47f265b7646e2edb54896bed51e17702da031fec7718117bc2e3ef95611df"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-mlds-earlier-trigger-and-agent-role",
+      "digest": "e05774334ae45594479c6d41bf0e295c91918a670fd79811572a603cef05d064"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-conditional-california-estimate-alternative",
+      "digest": "db9b69e212011c79003ae2102bfdead2627fd1fb1ebca5ea9781f4a34a014a77"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-lpds-timing-custody-and-consent",
+      "digest": "603d456f838011a4d2819a6c6859dbecd1f15e77e70b6ce4f4925d78d0fdcf33"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-lpds-appraisal-waiver-boundary",
+      "digest": "49a9e105b28042f9bfd9f40c7062efeffb32f74923aa4f1226b422e910c72efd"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-credit-advertising-trigger-terms",
+      "digest": "9920494eb170fe6ec3ea8bc04234993ae91d48dc5c97143d2537e95d69657af8"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-broker-usury-exemption-not-compliance-exemption",
+      "digest": "3db97781f6851412b170c4a5fdec08667c34fd82fc3837191954b3eef65ccd50"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-ability-to-repay-not-default-guarantee",
+      "digest": "4cdc7f185f296209d2b0702110a6220c182813682cd0b1d732df898b7fb295cd"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-holden-geographic-and-status-protections",
+      "digest": "5640a9d6b9923229d5204aad8936d7111ff8d30d600d9cc7c905d071082f4a99"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-ecoa-action-notice-versus-fcra-report-notice",
+      "digest": "cc9e6dfbede32da93274d67c4816b81fb577a8ffa459179d43ab2b21253b3454"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-mortgage-broker-versus-funding-lender",
+      "digest": "31dece5e90b444a35a5bdf188124782b58ad172de0eca35ade92add18117c13f"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-ginnie-guaranty-versus-loan-purchase",
+      "digest": "088ff5fb1ae174f68fa5d9b4ed159c80650fb5d42b18368592f0fdc6219d377f"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-usda-direct-versus-guaranteed",
+      "digest": "6378db6301a2c94785ecc9a74a3a6e228d3158340f2c7c511fd75081aa49281a"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-calvet-legal-equitable-title",
+      "digest": "31deef132c80d6817017ed1b29784bdb5dda41e01dd311bfc19e0de55eb01016"
+    },
+    {
+      "kind": "rule",
+      "id": "financing-rule-mortgage-insurance-protects-lender",
+      "digest": "808442ab70275caf443ed0b3ef2feb26c9ab5425b74f63e9f07eb5df8ee5e4cc"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-deed-writing-and-roles",
+      "digest": "8e0289a8176da7e3c44be4a569be43928085cd1565ec9954fbf7d3c55115dc99"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-gift-without-consideration",
+      "digest": "298e07b86272e6162485d4c9228c5dddad364a9c35c234264969418c5a44afcc"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-delivery-intent-versus-custody",
+      "digest": "933561e3f3981e53dba1ddb0bcf67a7b28c1ab11f8a050a0ee8d680e322f0fbd"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-race-notice-requires-good-faith",
+      "digest": "125fd49a01726102ebe3b3dfce70f7f6634a91bee64ca19c2a962e4e08cdc85b"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-grant-covenants-versus-quitclaim",
+      "digest": "96449aa7cf9fe9bfd0e40bf3c71d2c07bb6b8638bba0ebe1340c56046fe81cff"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-intended-fee-not-created-title",
+      "digest": "91594451ac5e8ecf5615a68e68818edafb20425ac93c125339f2b12f25899288"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-after-acquired-fee-title",
+      "digest": "111f1b9a040889ff6d27b253eda9128bbfa7825a9bf9e880c4b2084577395003"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-undivided-cotenancy-not-subdivision",
+      "digest": "05fa641915e0cd5619e3b4841cc537c5a70a8b7539e7c36e2e10df20fe05cc6b"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-survivorship-depends-on-unsevered-interest",
+      "digest": "1a79c3f2f6dc9f5874c7ecaed1d7c66adb2273209d65928168da98c590e0febe"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-reserved-life-estate-and-remainder",
+      "digest": "1291fb04343cc2318db09fdab562f9215a10b3a4a6a5b2c417178e01f3e5583d"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-preliminary-report-is-insurance-offer",
+      "digest": "978b86642a7b65965f3ae12d5861d33c2934dd893c81cbedc51e33d2f131ed19"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-title-exception-and-current-review",
+      "digest": "a425a9023dad2e7fb023117acc50f7e309283c2a96b33c806290d753dc83515a"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-owner-lender-insured-interests",
+      "digest": "ba215dbe9539bf4da19aff279ed9dd82f6ac7759405ba1b8afd526f8f2a373f9"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-policy-acceptance-not-use-approval",
+      "digest": "efe042642a76867e547aae29203e0c1b55951e42cd788cb2d344c7619dcea0d3"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-escrow-conditional-authority",
+      "digest": "6f6bf02748a05a5aecef74fb4ab7b0d483569871e9d187911169bbdfc034c2da"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-escrow-dispute-not-unilateral-award",
+      "digest": "ee072093a95268be96c13ae3f61da58cf18c7df142b245443b099160cd5a0ae9"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-independent-escrow-and-personal-exemptions",
+      "digest": "5ac97dc94386710733778796ffc9d0bbd2a156d32a0115b4ec9caf1f12ebdb7f"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-closing-cash-versus-third-party-fee",
+      "digest": "bca0f896fff48bc6ff8d8745aa057bc0d1c1a55123764e84e947e580d4863971"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-wire-change-independent-verification",
+      "digest": "be43d57b0c4a4460582e71c395c501dd7ba4070a2eb49839d8deb3c55a6b9cd6"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-realized-gain-not-mortgage-cash",
+      "digest": "75581826efa2fcd68792cb6374b28a1a82a64e876a00693541e4853f0c527b49"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-gift-and-inherited-basis-distinction",
+      "digest": "5591202d4e58adb1fc1f5fa7b98a05165b147932e58ba5140182768dcc84cdaf"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-home-exclusion-not-replacement-purchase",
+      "digest": "52da924f0ac1eda4d95b763cae87046507ab5ad5c08d7f6a943cbef6c87617e4"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-joint-home-exclusion-separate-tests",
+      "digest": "0cc537836982a31d9e70674664691a1e5c8cd6576a01746cc69dc8a849b2ba09"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-exchange-qualification-and-deadlines",
+      "digest": "e3e8f5bfd99163549af3b5d5bcbbe788e19f73bb7d597ee5e804ccba95d01729"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-cash-boot-recognition-limit",
+      "digest": "44b918c630a846a5c8d1429e091580dd3208fc79cda3dd26f1efd4503592b7a9"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-exchange-deferred-gain-replacement-basis",
+      "digest": "a1c900d198519c43800a3c642e9bfd0ad55e5937e068a88bfa174e8e410e27aa"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-firpta-rate-and-amount-realized",
+      "digest": "4a24e42feea0241512dbbade0f99de0b6d4b467d3dbafdcc1b9090ada5d8e161"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-california-withholding-not-final-tax",
+      "digest": "37cf367ce1653e9f7a1cbcda8c955cc6bb4550b1f9c1f95432f3df7b719e6670"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-proposition-thirteen-levy-and-additions",
+      "digest": "563f86829f98c14f76d5a2c7fa5d3f77b852a54054b1cdf4f9995b2afbcbb29c"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-factored-base-inflation-not-market-growth",
+      "digest": "3be414998c6c100e68c544c20d2c80d3fd3ae6b402aafb549b6e560ad05be06d"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-reassessable-transfer-new-base",
+      "digest": "a1982001f4a71af85c21fdb8250e9ab4a3a200bfa69bbfe1e267185fccdea6b1"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-partial-interest-assessment-scope",
+      "digest": "3beff0896673d019afb8b681a9c65c4bc500d0c212f2bb3391f8a3fc73f6e7f8"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-new-construction-added-value",
+      "digest": "723fb369176116c06d3fea0a51b209c66c03c7c90f819fe90e33639f53ee2f0e"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-proposition-eight-lien-date-lesser-value",
+      "digest": "2a02399971243e20a500235fde95c80558cb85f4cb4731fcda36e20dc2f10fa5"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-proposition-eight-recovery-not-two-percent",
+      "digest": "739ac91f8fc7133c3c9b0d6f9f0a27096bb84b8a353a12729c7af23dafdd53df"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-supplemental-value-difference-factor",
+      "digest": "d1dddfe49f363755db09e17ecb6fff13af3d84ec42a9408ff3aca70d94cf5087"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-property-tax-calendar-separate-events",
+      "digest": "3b95d688e850c08a3eca550dbd574162e786cd1aee184af268c13f047b0eba87"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-proposition-nineteen-separate-exclusions",
+      "digest": "770d6693e3a08b6a292de22f6bf0c042d27f84ee9d3a775da1b4701a18debd1a"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-documentary-transfer-tax-upward-units",
+      "digest": "c40557da2335d4270c995e6631b7a420f0623c5d6740e18736a52e350ca4487f"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-unpaid-tax-proration-direction",
+      "digest": "647c6b51a11ea0eeb155b7c5a00b30f0d410806dcbae62af96a0772887585555"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-collected-rent-versus-prepaid-expense",
+      "digest": "e95a11dff2c95fe04c142a0158c8032c276da19796c1d9570060c648ae7d6159"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-will-not-probate-avoidance",
+      "digest": "93a22eff0eda0f3d11fe3ce60682d586e85b45ac74556dbe3e9343ada5e61c2e"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-estate-signing-appointment-not-expectation",
+      "digest": "4b782a79a6c7099744d81855d02ed58a5ab9acf550dad8df5ed8543062d91ec7"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-trustee-authority-and-funded-property",
+      "digest": "186c00e60fb564414c2de791471522e9c59ce25808647cc3aa7e3e8b3fef2278"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-life-estate-end-not-new-devise",
+      "digest": "29a5a3f3a2a54272596e35be6768c49dfa5a7df02f3b8d3e7828265da6db405f"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-probate-appraisal-separate-price-floor",
+      "digest": "f481086b1c299b8234fc0d0a8814f0140e1a6166303b6dda2d42bed9546d8009"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-first-overbid-segmented-base",
+      "digest": "128724ff4dec7c81453fa7857ad673571d9bb15a486c4e6143dbbca24b1c1bd2"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-overbid-legal-and-credit-conditions",
+      "digest": "71ea6572f3481417416979c44d2dccb1a20707a163fae814e2403898fb902686"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-independent-administration-authority-and-notice",
+      "digest": "40f804ce2f083a5868c10852be9375d4d27e0a1f9a3d2f5bf4d5151aad6a99e1"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-deed-in-lieu-does-not-foreclose-juniors",
+      "digest": "08a7c13c225f1c480c7168ca00ee498d24a291f39b982b622892a4f7af2bb6ff"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-transfer-on-death-execution-recording",
+      "digest": "53b22181c8a38d9b569aa022a10b69a9ff844adf321f596208c941d85e1e24f1"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-summary-succession-procedure-specific-limit",
+      "digest": "3d9886e1d3253d7eefe4a4440b995008e5f5dd16fed3d549190f3c56febfa5a9"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-partition-division-or-sale",
+      "digest": "5a84f374f867b024f13ec027f326d8f81b8ddd506ac39ca4390ef2910ffc37b6"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-eminent-domain-authority-and-compensation",
+      "digest": "608bb4b28030cb2320df78141c29798ebc57ad9786d8ef6418e7464466e0453d"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-tax-default-not-immediate-sale",
+      "digest": "51a63cfc30c25d7cb4dcaf39e43cd8b14de81998785ac3895babfd84a9264751"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-bankruptcy-stay-before-enforcement",
+      "digest": "9077f43e3021be3a559f98900de5882d1243535aa82ba1735206e4f7b95dead1"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-adverse-possession-title-and-assessed-taxes",
+      "digest": "9f218831fd54c7a5c48bc58adbf3545b7e5967ed9b8cfa1b6f30e7b8a9475924"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-gradual-natural-accretion",
+      "digest": "0a5bc71d3daef4bbd943d1ce17a15cc4c7404eaaba0876a01ab815b13dc39199"
+    },
+    {
+      "kind": "rule",
+      "id": "transfer-rule-dedication-not-mere-public-use",
+      "digest": "d741357ba425148213e4f8c9b532e560f22d57ed369b911c09fcdfe48b5f851e"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "material",
+      "summary": "The purchase-money anti-deficiency classification incorrectly limited the qualifying third-party purchase-loan category to institutional lenders, although current CCP 580b(a)(3) applies to a qualifying loan from a lender without that institutional restriction.",
+      "resolution": "With root approval, changed the chapter paragraph and financing-rule-purchase-money-protection-classification rule and example to third-party lender wording with an explicit non-institutional qualifier. Renamed the related figure title; root independently re-reviewed and recorded that separate visual. The final rule digest here covers the corrected version."
+    }
+  ],
+  "limitations": "Independent AI primary-source review, not qualified human legal or tax review, comprehensive case-law research, psychometric validation, or assurance of exam results. USDA direct-loan fact-sheet and guaranteed-program support was verified through indexed passages on the exact official sources because direct requests returned a maintenance portal or 403; no complete USDA PDF read is claimed. DRE reference-book and traditional CalVet material is used for identified structural or historical explanations; current statutes and regulations control. Review covers the rule records and read chapter bodies, not a new independent certification of all embedded visuals or linked practice questions; those have separate records. Body hashes are descriptive snapshots in scope, not machine-validated body artifacts under the current review schema."
+}

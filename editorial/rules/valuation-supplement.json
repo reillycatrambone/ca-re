@@ -1,0 +1,68 @@
+[
+  {
+    "id": "valuation-rule-raw-tract-allowances",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "common-adjustment-categories",
+    "coverageTopics": [
+      "Methods of Estimating Value"
+    ],
+    "rule": "When smaller-parcel sales are used to estimate an undeveloped tract under a subdivision premise, account for subdivision cost, required street and alley area, selling expense, normal profit, and marketing-period interest.",
+    "conditions": [
+      "The purchaser is assumed to divide the tract into comparable smaller parcels.",
+      "Do not count required street area twice if it already reduced the saleable lot count."
+    ],
+    "exceptions": [
+      "The simplified arithmetic uses supported stipulated inputs; actual feasibility and timing require analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+        "locator": "Rule 4(d), last sentence",
+        "supports": "Specifies the allowances required when valuing larger land from assumed smaller-parcel subdivision sales."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "common-adjustment-categories",
+        "summary": "Eight saleable lots produce $1.2 million retail proceeds; stated subdivision, sale, profit and interest allowances leave $640,000 for the raw tract.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "valuation-57"
+    ]
+  },
+  {
+    "id": "valuation-rule-cost-index-base",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "build-a-complete-cost-estimate",
+    "coverageTopics": [
+      "Methods of Estimating Value"
+    ],
+    "rule": "Index historical construction costs to the current price level using an appropriate current-to-original index factor; index points are not automatically percentage changes and the result is before depreciation.",
+    "conditions": [
+      "Use consistent cost scope and index series.",
+      "Account for different investment years and abnormalities where appropriate."
+    ],
+    "exceptions": [
+      "Rule 6(c) supplies qualifications for missing detailed records and unknown original cost; an indexed cost does not itself establish market value."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+        "locator": "Rule 6(b)-(c) and (e)",
+        "supports": "Authorizes adjustment of original costs for price changes and abnormalities and separately addresses depreciation."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "build-a-complete-cost-estimate",
+        "summary": "A $400,000 building cost indexed from160 to200 produces a factor1.25 and current cost$500,000 before depreciation.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "valuation-58"
+    ]
+  }
+]

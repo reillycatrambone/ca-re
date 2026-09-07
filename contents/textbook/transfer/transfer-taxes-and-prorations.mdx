@@ -9,7 +9,14 @@ objectives:
   - Compute basic gain, documentary transfer tax, and stated prorations.
   - Distinguish exclusions, deferrals, withholding, and reassessment.
   - Explain California property-tax timing and major transfer-related tax rules.
+  - Calculate Proposition 13 assessed-value limits and distinguish temporary Proposition 8 reductions from a new base year.
 sources:
+  - label: "IRS, exceptions from FIRPTA withholding"
+    url: https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding
+  - label: IRS Internal Revenue Manual 3.22.261, FIRPTA withholding rates
+    url: https://www.irs.gov/irm/part3/irm_03-022-261r
+  - label: CFPB Closing Disclosure, closing adjustments
+    url: https://www.consumerfinance.gov/owning-a-home/closing-disclosure/
   - label: "IRS Publication 544, partially nontaxable exchanges and replacement basis"
     url: "https://www.irs.gov/publications/p544"
   - label: "IRS, sale of residence tax tips"
@@ -30,6 +37,24 @@ sources:
     url: "https://www.irs.gov/publications/p551"
   - label: "IRS Publication 523, principal-residence exclusion requirements"
     url: "https://www.irs.gov/publications/p523"
+  - label: "BOE, California Property Tax: An Overview"
+    url: "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf"
+  - label: "Revenue and Taxation Code section 51, factored base-year and lesser-value assessment"
+    url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51."
+  - label: "BOE, Proposition 8 decline in value"
+    url: "https://www.boe.ca.gov/proptaxes/decline-in-value/"
+  - label: "BOE, Proposition 8 recovery and assessment review questions"
+    url: "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm"
+  - label: "BOE, new construction and value added"
+    url: "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm"
+  - label: "BOE, changes in ownership and partial reassessment"
+    url: "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm"
+  - label: "BOE, supplemental assessment periods and bills"
+    url: "https://www.boe.ca.gov/proptaxes/supplemental-assessment/"
+  - label: "Revenue and Taxation Code section 75.41, statutory supplemental proration factors"
+    url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41."
+  - label: "Los Angeles County Auditor-Controller, tax rates and direct assessments"
+    url: "https://auditor.lacounty.gov/bwl-advanced-faq/what-does-my-property-taxes-and-direct-assessments-consist-of-and-where-does-it-go/"
 glossary:
   - term: Adjusted basis
     definition: "Tax basis after permitted increases and decreases, such as capital improvements and depreciation."
@@ -47,6 +72,10 @@ glossary:
     definition: "An assessment reflecting a qualifying change in taxable property value between regular assessment cycles."
   - term: Documentary transfer tax
     definition: "A tax imposed under applicable law on specified instruments transferring real property."
+  - term: Base-year value
+    definition: "The property-tax value established under Proposition 13, generally from the 1975 assessment or a later reassessable ownership change or new construction."
+  - term: Factored base-year value
+    definition: "A property's base-year value adjusted by the annual California inflation factor, with each annual increase limited to 2 percent."
 ---
 
 ## Four different questions
@@ -76,6 +105,17 @@ Suppose an investment property sells for $900,000 with $45,000 of qualifying sel
 The loan balance appears in the cash calculation because proceeds are used to repay the lender. It is absent from the gain calculation because borrowing against the property did not ordinarily create new basis. Refinancing for personal spending can therefore reduce closing cash without reducing taxable gain. A heavily leveraged seller may owe tax even when relatively little cash remains after debt repayment.
 
 Basis also requires records. Qualifying acquisition costs and improvements may increase it, while allowed or allowable depreciation can reduce it. The current loan balance, market value, and assessed value are not substitutes. For a gift, the donor's basis and value at the gift can matter; for inherited property, death-date or other applicable valuation rules can matter. The fact that the deed changes names does not tell you the correct basis rule.
+
+### Compare gift and inheritance starting points
+
+Assume the same $200,000 owner's basis and $350,000 value at transfer, followed by a $400,000 sale. Compare two separate transfers with no expenses, depreciation, gift-tax adjustment, or special valuation election:
+
+| Transfer | Recipient's basis in this example | Realized gain at sale |
+| --- | ---: | ---: |
+| Gift, with value above the donor's basis | $200,000 carryover basis | $400,000 - $200,000 = **$200,000** |
+| Inheritance using date-of-death value | $350,000 | $400,000 - $350,000 = **$50,000** |
+
+Changing only the transfer method changes basis. A gift whose value is below the donor's basis needs the separate gain-and-loss basis rules; do not extend this example to that case.
 
 ## The principal-residence exclusion
 
@@ -109,7 +149,7 @@ The deferred amount is preserved through the replacement property's basis rather
 
 Federal FIRPTA rules generally require the buyer to withhold 15% of a foreign seller's amount realized, subject to exceptions and reductions. Qualifying buyer-residence transactions can have no withholding at $300,000 or less and a 10% rate above $300,000 through $1 million. Residence-use requirements and documentation matter. The seller's citizenship label alone does not resolve tax residency.
 
-California has separate real estate withholding rules, commonly using 3 1/3% of the sale price or an authorized alternative calculation, unless an exemption applies. Form 593 and current FTB instructions address the transaction. State withholding is not limited to sellers who are foreign persons under FIRPTA.
+California has separate real estate withholding rules, commonly using a sale-price method labeled **3 1/3%** or an authorized alternative calculation, unless an exemption applies. For the current FTB total-sales-price method, use its specified decimal multiplier **0.0333**, not the exact fraction 1/30: a $200,000 taxable sale-price amount produces **$6,660**. Form 593 and current FTB instructions address ownership allocation, exemptions, and other transaction conditions. State withholding is not limited to sellers who are foreign persons under FIRPTA.
 
 Neither withholding figure is necessarily the seller's final income-tax bill. Treating withholding as an extra commission or a fixed tax on net profit misstates its function. The party responsible for withholding must follow the applicable documentation and remittance rules.
 
@@ -123,9 +163,67 @@ Withholding can reduce the seller's closing cash but normally functions as a tax
 
 ## Property tax after transfer
 
-California's regular property-tax fiscal year runs July 1 through June 30. Secured-tax installments are due November 1 and February 1 and ordinarily become delinquent after December 10 and April 10, subject to calendar adjustments. Due and delinquent are different dates.
+### Proposition 13: three different numbers
 
-A qualifying ownership change can trigger reassessment and supplemental assessment. The seller's existing tax bill therefore may not predict the buyer's future property-tax bill. Closing prorations often use available information, while a supplemental bill arrives separately. Do not assume that an impound account or closing statement has already covered every future assessment.
+| Number | What it controls | What it does not mean |
+| --- | --- | --- |
+| **Base-year value** | Generally the 1975 assessment or fair market value at a later reassessable ownership change or new construction | The owner's income-tax basis or current loan balance |
+| **Up to 2% annual inflation increase** | Growth of the factored base-year value, using the applicable California Consumer Price Index adjustment | A guaranteed 2% increase, a 2% tax rate, or an absolute cap on every tax bill |
+| **1% general levy** | Basic ad valorem property tax applied to taxable assessed value | A promise that the entire bill equals 1% of purchase price |
+
+Permitted voter-approved debt rates can be added to the general levy. A bill may also contain separately authorized direct assessments; those charges are not simply another percentage of market value. Property-tax assessment, the tax rate, and total charges are separate steps. [BOE overview](https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf), [county bill components](https://auditor.lacounty.gov/bwl-advanced-faq/what-does-my-property-taxes-and-direct-assessments-consist-of-and-where-does-it-go/).
+
+**Rate example.** Assume taxable assessed value is $600,000 after any exemptions, the general levy is 1%, permitted bond debt adds 0.12%, and an authorized direct assessment is $500:
+
+| Bill component | Calculation | Amount |
+| --- | --- | ---: |
+| General levy | $600,000 x 0.01 | $6,000 |
+| Stated bond debt | $600,000 x 0.0012 | $720 |
+| Stated direct assessment | Fixed charge | $500 |
+| **Illustrative annual total** | $6,000 + $720 + $500 | **$7,220** |
+
+The extra $1,220 does not, by itself, prove a Proposition 13 violation. The additions must have lawful authority; this example stipulates them rather than asserting a statewide combined rate.
+
+### Compound the assessment, not the market price
+
+Assume a $500,000 base-year value, no reassessable event, no decline-in-value reduction, and the following hypothetical annual California inflation adjustments:
+
+| Adjustment | Calculation | Factored base-year value |
+| --- | --- | ---: |
+| First year: inflation is 1% | $500,000 x 1.01 | $505,000 |
+| Next year: inflation is 4%, but the increase is capped at 2% | $505,000 x 1.02 | $515,100 |
+
+Use each year's factor on the preceding **factored value**, not on the original $500,000 every year. An inflation factor below 2% produces a smaller increase; deflation can produce a decrease. A 15% rise in sale prices does not itself authorize a 15% increase in the factored base-year value. [Revenue and Taxation Code section 51](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.).
+
+### Reassessment changes the baseline
+
+A reassessable ownership change ordinarily establishes current fair market value for the interest transferred. A gift or inheritance can qualify even with no sale price. Exclusions can prevent reassessment, and an ordinary partial transfer need not reset the untransferred interest. For example, transferring a reassessable 50% interest ordinarily revalues that half, not automatically the entire parcel. [BOE ownership-change guidance](https://boe.ca.gov/proptaxes/faqs/changeinownership.htm).
+
+New construction ordinarily adds a new base-year component for its **added market value**, while the unaffected existing portion retains its value history. Assume existing factored value is $400,000 and a completed addition contributes $100,000 of market value: the combined value is **$500,000**, before other adjustments. Do not reset the entire property to a hypothetical $900,000 market value merely because an addition was built. Construction cost is not necessarily value added; routine maintenance generally is not assessable new construction. [BOE construction guidance](https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm).
+
+### Proposition 8: compare two values each January 1
+
+For ordinary decline-in-value assessment, enroll the **lesser of current January 1 market value and the factored base-year value**. A temporary reduction does not replace the Proposition 13 base-year track. The assessor continues annual review while the property is in decline-in-value status. A market decline from $900,000 to $800,000 does not justify a reduction if the applicable factored value is only $600,000. [BOE Proposition 8](https://www.boe.ca.gov/proptaxes/decline-in-value/).
+
+Assume no ownership change, new construction, or exemption adjustment; the hypothetical annual inflation factor is 2% throughout:
+
+| Lien date | Factored base-year ceiling | Market value | Enrolled value |
+| --- | ---: | ---: | ---: |
+| Year 1 | $600,000 | $520,000 | **$520,000** |
+| Year 2 | $612,000 | $580,000 | **$580,000** |
+| Year 3 | $624,240 | $650,000 | **$624,240** |
+
+Year 2 rises $60,000 / $520,000 = **11.54%**, not 2%, because a temporary market-value assessment is recovering. Year 3 stops at the continuing factored ceiling, not $650,000. The 2% limit still governs annual growth of that ceiling; it does **not** cap recovery from the prior reduced assessment. A pending informal review does not suspend the obligation to pay the existing bill. [BOE recovery and review FAQ](https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm).
+
+### Regular bills and supplemental assessments
+
+California's regular property-tax fiscal year runs July 1 through June 30. The annual lien date is January 1. Secured-tax installments are due November 1 and February 1. They ordinarily become delinquent at **5 p.m. or the close of business, whichever is later**, on December 10 and April 10, subject to calendar adjustments. Due, lien, and delinquency dates serve different purposes. [BOE property tax calendar](https://www.boe.ca.gov/proptaxes/calendar.htm).
+
+A reassessable ownership change or completed new construction can create a **supplemental assessment** for the value change, beginning the first day of the following month. It adjusts the annual bill rather than charging the full value twice. An event from January through May can affect two fiscal years and produce two supplemental bills; a June-through-December event ordinarily produces one. Closing prorations and an impound account do not guarantee these later bills are covered. [BOE supplemental assessment guidance](https://www.boe.ca.gov/proptaxes/supplemental-assessment/).
+
+**Partial-year example.** A sale on October 15 increases assessed value by $200,000. Assume a combined ad valorem rate of 1.1%, no exemption changes, and no other adjustments. The period begins November 1; its statutory factor is **0.67**: **$200,000 x 0.011 x 0.67 = $1,474** in supplemental tax. Use the statutory factor rather than substituting exact 8/12. This calculation is separate from contractual closing prorations. [Section 75.41](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41.).
+
+### Proposition 19 is a separate qualification test
 
 Proposition 19 permits qualifying replacement-residence base-year-value transfers for specified homeowners, including those at least age 55 and eligible disabled or disaster-affected owners, subject to requirements. Its intergenerational exclusion is narrower than the former broad parent-child rules: qualifying family homes or farms, continued qualifying use, value limits, and timely claims matter. A child inheriting a rental house does not automatically inherit its low assessed value. Indexed limits should be checked with BOE rather than memorized as permanently fixed.
 
@@ -147,4 +245,9 @@ Do not invent who owns the closing day. A question may assign that day to either
 
 ## Exam review
 
-Cash proceeds are not taxable gain. Exclusion is not deferral, and withholding is not final liability. A property-tax reassessment exclusion is not an income-tax exclusion. On arithmetic questions, write the calculation base and day-count convention before multiplying; correct arithmetic on the wrong base still produces the wrong answer.
+- Cash proceeds are not taxable gain; withholding is a prepayment, not final liability.
+- Income-tax basis, property-tax assessed value, and market value are different quantities.
+- Proposition 13 separates the 1% general levy from the maximum 2% annual inflation increase in factored base-year value.
+- Reassessment events and Proposition 8 recovery can produce assessed-value increases greater than 2%.
+- Exclusion is not deferral, and a property-tax exclusion is not an income-tax exclusion.
+- Write the calculation base, payment status, and stated day-count convention before calculating prorations.

@@ -3,1275 +3,2979 @@
     "id": "contracts-001",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A buyer and seller exchange enforceable promises to buy and sell a parcel, but no earnest money is required. Which statement is correct?",
+    "prompt": "A buyer promises to pay $580,000 and a seller promises to convey the identified home. The agreement requires no deposit. What supplies consideration for this bilateral bargain?",
     "options": [
       {
-        "text": "Only the seller's deed can supply consideration.",
-        "explanation": "A future conveyance promise can support the bargain before delivery."
+        "text": "The property's appraised value matching the price.",
+        "explanation": "Adequacy of market value is different from the exchanged benefit or detriment.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "Consideration exists only if price equals appraised value.",
-        "explanation": "Consideration need not equal market value."
+        "text": "The buyer's later payment of earnest money.",
+        "explanation": "A deposit can be promised, but this agreement does not require one to support the exchange.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The exchanged promises can supply consideration.",
-        "explanation": "Consideration can consist of promises; a cash deposit is not universally necessary."
+        "text": "The parties' exchanged enforceable promises.",
+        "explanation": "A promised legal benefit or detriment can be consideration; cash need not already have changed hands."
       },
       {
-        "text": "No contract can exist without a 3% deposit.",
-        "explanation": "There is no universal 3% deposit requirement for contract formation."
+        "text": "The parties' signatures, without regard to promises.",
+        "explanation": "Signatures evidence assent but are not a substitute for the required exchange.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "promises-performance-and-deposits",
+    "sources": [
+      {
+        "label": "Civil Code section 1605",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1605."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-002",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A seller signs an offer but changes the closing date as a condition of agreement. The response is ordinarily:",
+    "prompt": "A buyer offers a 30-day closing. The seller returns a signed response stating that acceptance is conditional on closing in 45 days. What is the response?",
     "options": [
       {
-        "text": "A rescission of a completed sale.",
-        "explanation": "The facts concern formation, not unwinding an already completed sale."
+        "text": "An acceptance with a nonbinding request.",
+        "explanation": "The seller made the changed deadline a condition, not a separate optional request.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A counteroffer requiring the buyer's acceptance.",
-        "explanation": "A qualified acceptance changing a material term proposes a new bargain."
+        "text": "A counteroffer requiring the buyer's assent.",
+        "explanation": "Conditional assent to a different material term proposes a new bargain."
       },
       {
-        "text": "An unconditional acceptance of the original offer.",
-        "explanation": "The added condition prevents an unconditional matching acceptance."
+        "text": "An amendment to an already formed sale.",
+        "explanation": "The stated facts do not show an earlier acceptance that formed the purchase contract.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "A deed transferring title immediately.",
-        "explanation": "A negotiation response does not itself convey the property."
+        "text": "A revocation by the original offeror.",
+        "explanation": "The seller is responding as offeree, not withdrawing the buyer's offer as its maker.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "offer-and-acceptance",
+    "sources": [
+      {
+        "label": "Civil Code section 1585",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-003",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "An agreement has an unlawful object. It is most appropriately classified as:",
+    "prompt": "A written contract has one indivisible object, and that object is unlawful. Assuming no lawful separable bargain, what is the contract's legal effect?",
     "options": [
       {
-        "text": "Void.",
-        "explanation": "An illegal object prevents the agreement from having ordinary contractual force."
+        "text": "Void from the outset.",
+        "explanation": "Civil Code section 1598 treats a contract with a single unlawful object as void."
       },
       {
-        "text": "Fully enforceable if both parties sign.",
-        "explanation": "Signatures do not legalize an unlawful purpose."
+        "text": "Voidable only at the injured party's election.",
+        "explanation": "That classification can fit defective consent; it does not supply force to this unlawful single-object bargain.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Executed solely because consideration was promised.",
-        "explanation": "Executed performance does not describe this formation defect."
+        "text": "Unenforceable solely for lack of a writing.",
+        "explanation": "There is a writing. The defect is the unlawful object, not its documentary evidence.",
+        "misconceptionId": "recall-confusion"
       },
       {
-        "text": "Automatically valid after notarization.",
-        "explanation": "Acknowledgment does not cure illegality."
+        "text": "Enforceable after both parties confirm it.",
+        "explanation": "Renewed assent cannot make the stipulated unlawful object lawful.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "void-voidable-and-unenforceable",
+    "sources": [
+      {
+        "label": "Civil Code section 1598",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1598."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-004",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A purchase contract obtained through legally significant fraud may be avoided by the protected party. This illustrates:",
+    "prompt": "A buyer understands that a document is a purchase contract but signs because of the seller's material fraud. Assume the fraud legally permits avoidance and no other defect exists. How is the contract classified?",
     "options": [
       {
-        "text": "An agreement that no party can ever affirm.",
-        "explanation": "Voidability can allow the protected party to choose affirmation where permitted."
+        "text": "Void because assent never had any legal effect.",
+        "explanation": "Fraud inducing understood assent differs from fraud in execution that can negate assent itself.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "A contract requiring no consent.",
-        "explanation": "Consent remains essential; the fraud undermines its legal quality."
+        "text": "Unenforceable only until the price is paid.",
+        "explanation": "Payment timing does not cure the fraud-based defect in consent.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "A mandatory transfer to the state.",
-        "explanation": "Fraud in formation does not create escheat."
+        "text": "Valid beyond challenge once both parties sign.",
+        "explanation": "Signatures do not eliminate the stipulated right to avoid fraudulently induced agreement.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "A voidable agreement.",
-        "explanation": "The protected party can avoid an agreement that otherwise may have effect."
+        "text": "Voidable at the protected buyer's election.",
+        "explanation": "Defective consent can support rescission without making the contract absolutely void at inception."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "void-voidable-and-unenforceable",
+    "sources": [
+      {
+        "label": "Civil Code section 1566",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1566."
+      },
+      {
+        "label": "Civil Code section 1689",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-005",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "Which agreement most clearly falls within the real estate lease provision of California's statute of frauds?",
+    "prompt": "All four proposed leases begin immediately. Which term falls within California's statute-of-frauds rule for a lease lasting longer than one year? Assume no special exception.",
     "options": [
       {
-        "text": "An agreement to water plants tomorrow.",
-        "explanation": "The stated service is not a real property lease."
+        "text": "A fixed term of six months.",
+        "explanation": "Six months does not exceed the stated one-year threshold.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "A one-day equipment rental solely because rent is charged.",
-        "explanation": "Rent alone does not make a transaction a qualifying real property lease."
+        "text": "A fixed term of exactly one year.",
+        "explanation": "The lease-duration provision says longer than one year, not one year or longer.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "A lease for two years.",
-        "explanation": "A lease longer than one year ordinarily requires a sufficient signed writing."
+        "text": "A fixed term of two years.",
+        "explanation": "A two-year term requires the sufficient signed writing under section 1624(a)(3)."
       },
       {
-        "text": "A completed two-week vacation rental solely because it involves land.",
-        "explanation": "That duration does not satisfy the longer-than-one-year lease rule."
+        "text": "A month-to-month term without a fixed end.",
+        "explanation": "An indefinite periodic tenancy is not a promised fixed lease term exceeding one year.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "the-writing-requirements",
+    "sources": [
+      {
+        "label": "Civil Code section 1624",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-006",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "An offer expressly requires the buyer to receive signed acceptance by 5 p.m. Friday. The seller signs Friday but delivery occurs Saturday. Which point is decisive?",
+    "prompt": "An offer expressly requires the buyer to receive the seller's signed acceptance by Friday at 5 p.m. The seller signs Friday at 4 p.m.; the buyer first receives it Saturday. What is the result under that acceptance condition?",
     "options": [
       {
-        "text": "The deposit amount extends the deadline automatically.",
-        "explanation": "A deposit does not silently amend the specified acceptance deadline."
+        "text": "The Friday signature completes acceptance.",
+        "explanation": "The offer expressly makes timely receipt, not signature alone, the operative event.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The stated receipt requirement was not met.",
-        "explanation": "The offer's required acceptance method and deadline govern the stated facts."
+        "text": "The required timely acceptance did not occur.",
+        "explanation": "The stipulated receipt condition was unmet before expiration."
       },
       {
-        "text": "The seller's private signature always binds the buyer immediately.",
-        "explanation": "Signing alone does not satisfy an express delivery-and-receipt condition."
+        "text": "Saturday receipt relates back to Friday's signature.",
+        "explanation": "The stated condition supplies no relation-back rule for delayed receipt.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "Any acceptance within three days is automatically timely.",
-        "explanation": "There is no universal three-day grace period for accepting offers."
+        "text": "The deadline extends because signing was timely.",
+        "explanation": "Signing before the deadline does not extend the expressly required receipt period.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "offer-and-acceptance",
+    "sources": [
+      {
+        "label": "Civil Code section 1582",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582."
+      },
+      {
+        "label": "Civil Code section 1587",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-007",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A signed purchase agreement still requires financing approval, payment, and delivery of title. In the performance sense, it is:",
+    "prompt": "The parties have signed a binding purchase contract, but loan funding, payment, and conveyance remain due. In the performance sense, how is the contract classified?",
     "options": [
       {
         "text": "Executory.",
-        "explanation": "Material contractual duties remain to be performed."
+        "explanation": "A contract remains executory while required performance is still outstanding."
       },
       {
-        "text": "Fully executed.",
-        "explanation": "Signing does not mean all performance is complete."
+        "text": "Executed.",
+        "explanation": "Here the question asks about completed performance, not the alternate use of executed to mean signed.",
+        "misconceptionId": "recall-confusion"
       },
       {
-        "text": "Void for lacking immediate title transfer.",
-        "explanation": "Purchase agreements can validly require later performance."
+        "text": "Unilateral.",
+        "explanation": "Outstanding duties do not turn exchanged promises into acceptance solely by performance.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "An oral agreement.",
-        "explanation": "The facts expressly describe a signed agreement."
+        "text": "Unenforceable.",
+        "explanation": "Incomplete future performance does not by itself prevent enforcement of a binding agreement.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sectionId": "promises-performance-and-deposits",
+    "sources": [
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-008",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A buyer assigns a purchase contract to another buyer. The seller has not agreed to release the original buyer. Which statement is best?",
+    "prompt": "A purchase contract permits assignment. The buyer assigns the purchase rights and delegates performance to another buyer, but the seller has not agreed to release the original buyer. What follows?",
     "options": [
       {
-        "text": "The original buyer is always released immediately.",
-        "explanation": "Release ordinarily requires agreement or another legal basis."
+        "text": "Assignment extinguishes the original buyer's liability.",
+        "explanation": "Transferring rights does not alone obtain the seller's consent to release the original obligor.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The seller has automatically agreed to a novation.",
-        "explanation": "Assignment alone does not establish consent to substitution and discharge."
+        "text": "Delegation substitutes the new buyer by novation.",
+        "explanation": "Delegated performance is not the agreed discharge required for a novation.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Assignment automatically cancels the purchase contract.",
-        "explanation": "A permitted assignment can continue the agreement with transferred rights."
+        "text": "The seller must first release the original buyer.",
+        "explanation": "The facts make assignment permissible without giving the original buyer a right to demand discharge.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "The original buyer may remain liable for performance.",
-        "explanation": "Assignment or delegation does not automatically discharge the original obligor."
+        "text": "The original buyer can remain liable for performance.",
+        "explanation": "Assignment and delegation do not alone release the party that made the original promise."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sectionId": "assignment-is-not-release",
+    "sources": [
+      {
+        "label": "Civil Code section 1457",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1457."
+      },
+      {
+        "label": "Civil Code section 1531",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1531."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-009",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "All necessary parties agree to substitute a new buyer and discharge the original buyer's obligation. This is:",
+    "prompt": "Buyer A, Buyer B, and the seller agree that B will replace A and that A is discharged from the purchase obligation. Which term identifies this agreed substitution and release?",
     "options": [
       {
-        "text": "An acknowledgment of a deed signature.",
-        "explanation": "Notarial acknowledgment serves a different purpose."
+        "text": "Delegation.",
+        "explanation": "Delegation concerns performance by another person; it does not by itself discharge the original debtor.",
+        "misconceptionId": "recall-confusion"
       },
       {
-        "text": "A subordination agreement.",
-        "explanation": "Subordination changes priority rather than substitutes and releases an obligor."
+        "text": "Assignment.",
+        "explanation": "Assignment transfers rights; the express agreed discharge is the additional decisive fact here.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A novation.",
-        "explanation": "The agreed substitution includes discharge of the replaced obligation."
+        "text": "Novation.",
+        "explanation": "The agreed replacement of the debtor with intent to release the original debtor is a novation."
       },
       {
-        "text": "Only a unilateral assignment.",
-        "explanation": "The express release and consent distinguish novation."
+        "text": "Accord and satisfaction.",
+        "explanation": "That concerns an agreed substitute satisfaction of an obligation, not merely the stated replacement of debtor.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sectionId": "assignment-is-not-release",
+    "sources": [
+      {
+        "label": "Civil Code section 1531",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1531."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-010",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A buyer properly cancels under an unremoved inspection contingency according to the contract. The cancellation is:",
+    "prompt": "A purchase agreement permits the buyer to cancel by timely written notice after disapproving an inspection. The contingency remains available, and the buyer complies with every stated requirement. How is this cancellation classified?",
     "options": [
       {
-        "text": "Effective only if the property has already transferred.",
-        "explanation": "Contingencies normally operate before completing the transfer."
+        "text": "An anticipatory breach of the payment promise.",
+        "explanation": "This disregards the express condition allowing the buyer to end the transaction.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Not necessarily a breach because the contract provides that right.",
-        "explanation": "A valid exercise of an agreed contingency must be distinguished from default."
+        "text": "Exercise of a contractual cancellation right.",
+        "explanation": "The stipulated compliance makes this exercise of the agreed risk allocation, not necessarily breach."
       },
       {
-        "text": "Automatically a breach because the buyer signed the offer.",
-        "explanation": "A signed contract can include enforceable cancellation rights."
+        "text": "An assignment of the buyer's purchase rights.",
+        "explanation": "No contractual rights are transferred to a substitute buyer.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Always subject to automatic loss of 3% of the price.",
-        "explanation": "The 3% liquidated-damages rules do not erase contingency rights."
+        "text": "A rescission available only after proving fraud.",
+        "explanation": "The stated contractual right does not require the separate fraud ground posited here.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sectionId": "contingencies-allocate-risk",
+    "sources": [
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-011",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A court orders a seller to convey land under an enforceable purchase agreement. The remedy is:",
+    "prompt": "A court orders a seller to carry out an enforceable agreement by conveying the parcel to the buyer. Which remedy has the court awarded?",
     "options": [
       {
         "text": "Specific performance.",
-        "explanation": "The order requires the promised act rather than merely paying money."
+        "explanation": "The order requires the promised conveyance rather than substituting a money payment."
       },
       {
-        "text": "Liquidated damages.",
-        "explanation": "Liquidated damages involve an agreed damages measure, not an order to convey."
+        "text": "Compensatory damages.",
+        "explanation": "Damages compensate recoverable loss; this order commands the agreed performance.",
+        "misconceptionId": "remedy-confusion"
       },
       {
-        "text": "Rescission.",
-        "explanation": "Rescission unwinds the agreement rather than compels its performance."
+        "text": "Rescission and restitution.",
+        "explanation": "Rescission unwinds the bargain and restores benefits instead of enforcing the promised conveyance.",
+        "misconceptionId": "remedy-confusion"
       },
       {
-        "text": "Mediation.",
-        "explanation": "A mediator ordinarily helps negotiate rather than imposes this order."
+        "text": "Reformation of the writing.",
+        "explanation": "Reformation corrects a writing to reflect the agreement; the stated order requires performance.",
+        "misconceptionId": "remedy-confusion"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "damages-and-specific-performance",
+    "sources": [
+      {
+        "label": "Civil Code section 3387",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3387."
+      },
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-012",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A qualifying owner-occupied residential sale is priced at $900,000. What is 3% of that price for the statutory liquidated-damages analysis?",
+    "prompt": "An existing single-family home sells for $900,000 to a buyer who intends to occupy it. In the ordinary residential liquidated-damages analysis, what amount is 3% of the purchase price?",
     "options": [
       {
-        "text": "$9,000.",
-        "explanation": "That is 1%, not 3%, of the purchase price."
+        "text": "$2,700.",
+        "explanation": "This uses 0.3% rather than 3%.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$30,000.",
-        "explanation": "That is 3% of $1 million, a different price."
+        "explanation": "This would be 3% of $1,000,000, not the stated price.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$270,000.",
-        "explanation": "That is 30%, a decimal-place error."
+        "explanation": "This uses 30% rather than 3%.",
+        "misconceptionId": "wrong-formula"
       },
       {
         "text": "$27,000.",
-        "explanation": "Multiplying $900,000 by 0.03 yields $27,000; other statutory requirements still apply."
+        "explanation": "$900,000 multiplied by 0.03 equals $27,000. The figure is a statutory threshold, not automatic forfeiture."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "the-residential-deposit-distinction",
+    "sources": [
+      {
+        "label": "Civil Code section 1675",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675."
+      },
+      {
+        "label": "Civil Code section 1677",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-013",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A qualifying residential contract includes a liquidated-damages provision and a deposit below 3%. The buyer and seller dispute whether the buyer defaulted. Escrow should:",
+    "prompt": "A qualifying buyer-occupied home purchase has a properly initialed liquidated-damages clause and a paid deposit below 3%. Buyer and seller genuinely dispute default and give conflicting demands for the deposit. What is the escrow holder's proper role?",
     "options": [
       {
-        "text": "Automatically pay the broker's commission from the deposit.",
-        "explanation": "The disputed trust funds do not automatically belong to the broker."
+        "text": "Award the seller the deposit after checking 3%.",
+        "explanation": "The percentage does not resolve the disputed default or confer judicial authority on escrow.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "Divide the deposit equally without consent.",
-        "explanation": "Escrow cannot invent a settlement allocation."
+        "text": "Refund the buyer because the dispute prevents forfeiture.",
+        "explanation": "A genuine dispute does not itself adjudicate the buyer's entitlement either.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Follow authorized instructions and applicable dispute procedures rather than decide default itself.",
-        "explanation": "A liquidated-damages clause does not turn escrow into the adjudicator of disputed rights."
+        "text": "Follow lawful disbursement or dispute procedures.",
+        "explanation": "Escrow must have proper authority; agreement, adjudication, or interpleader can address disputed funds."
       },
       {
-        "text": "Automatically give the seller the deposit.",
-        "explanation": "The clause alone does not resolve the disputed default."
+        "text": "Split the deposit equally as a neutral compromise.",
+        "explanation": "Neutrality is not authority to impose a settlement neither party approved.",
+        "misconceptionId": "role-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "escrow-closing"
+    ],
+    "sectionId": "the-residential-deposit-distinction",
+    "sources": [
+      {
+        "label": "Civil Code section 1675",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675."
+      },
+      {
+        "label": "Civil Code section 1057.3",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1057.3."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-014",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "The parties agree to unwind their purchase contract and restore exchanged benefits. This most closely describes:",
+    "prompt": "After entering a purchase agreement, buyer and seller mutually agree to unwind it and restore what each received. Which pair best describes the agreement's termination and return of benefits?",
     "options": [
       {
-        "text": "A novation continuing the same sale with a new buyer.",
-        "explanation": "No substituted buyer or continuing obligation is described."
+        "text": "Novation and delegation.",
+        "explanation": "These concepts substitute obligations or performance responsibility instead of unwinding the exchange.",
+        "misconceptionId": "remedy-confusion"
       },
       {
-        "text": "Rescission with restitution.",
-        "explanation": "Rescission unwinds the contract, and restitution addresses returning benefits."
+        "text": "Rescission and restitution.",
+        "explanation": "Mutual rescission ends the bargain; restitution returns benefits or their value."
       },
       {
-        "text": "Specific performance.",
-        "explanation": "Specific performance requires completion rather than unwinding."
+        "text": "Assignment and assumption.",
+        "explanation": "Those concepts transfer rights and responsibilities to another party.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "An offer that was never accepted.",
-        "explanation": "The parties are ending an existing agreement."
+        "text": "Reformation and specific performance.",
+        "explanation": "Those remedies correct or enforce the bargain rather than restore the earlier positions.",
+        "misconceptionId": "remedy-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "rescission-and-restitution",
+    "sources": [
+      {
+        "label": "Civil Code section 1689",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689."
+      },
+      {
+        "label": "Civil Code section 1691",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-015",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "Under an exclusive right to sell listing with no applicable exception, the owner personally finds the buyer during the term. The agreed listing compensation is generally:",
+    "prompt": "An enforceable exclusive-right-to-sell listing has no owner-sale exception. The owner independently finds a buyer and completes a sale during the term. Under the stated fee provision, what follows?",
     "options": [
       {
-        "text": "Still governed by the exclusive right to sell fee provision.",
-        "explanation": "That listing ordinarily covers sales during the term regardless of who produces the buyer."
+        "text": "The agreed listing compensation is due.",
+        "explanation": "This listing type covers a qualifying sale during the term even when the owner produces the buyer."
       },
       {
-        "text": "Automatically waived whenever the owner finds the buyer.",
-        "explanation": "That resembles an exclusive-agency owner-sale exception, not the stated listing."
+        "text": "Compensation is waived because the owner found the buyer.",
+        "explanation": "That imports the ordinary exclusive-agency owner-sale exception excluded by these facts.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Fixed by DRE at a statutory percentage.",
-        "explanation": "No statutory commission percentage applies."
+        "text": "Compensation is limited to documented marketing costs.",
+        "explanation": "The stated compensation provision is not merely reimbursement of expenses.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Paid only if the buyer separately hired the listing broker.",
-        "explanation": "The seller's listing obligation does not require that separate relationship."
+        "text": "Only a procuring broker can earn compensation.",
+        "explanation": "The exclusive-right-to-sell provision is not an open listing's procuring-cause requirement.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "compare-the-principal-listing-types",
+    "sources": [
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-016",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "Which feature most distinguishes an exclusive agency listing from an exclusive right to sell listing?",
+    "prompt": "Two otherwise comparable listings cover the same owner-produced sale. One is exclusive agency with an independent-owner-sale exception; the other is exclusive right to sell with no such exception. Which distinction matters?",
     "options": [
       {
-        "text": "Only an exclusive agency listing must identify a property.",
-        "explanation": "Both must adequately identify their subject and scope."
+        "text": "Only exclusive agency permits the named broker to earn a fee.",
+        "explanation": "Either listing can earn compensation under its applicable conditions.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "An exclusive right to sell automatically conveys title.",
-        "explanation": "Neither listing is a deed."
+        "text": "Only exclusive right to sell appoints a single listing broker.",
+        "explanation": "Both are exclusive arrangements; that fact does not distinguish the stated owner-sale result.",
+        "misconceptionId": "recall-confusion"
       },
       {
-        "text": "An exclusive agency permits competing brokers to hold identical exclusive listings.",
-        "explanation": "It grants exclusivity to one brokerage, subject to the owner's reserved right."
+        "text": "Both require proof that the listing broker found the buyer.",
+        "explanation": "That ignores the exclusive-right-to-sell compensation term.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "An owner's independent-sale exception ordinarily exists in the exclusive agency listing.",
-        "explanation": "The distinction concerns the owner's ability to produce the buyer without owing listing compensation."
+        "text": "Exclusive agency preserves the stated owner-sale exception.",
+        "explanation": "The owner-produced transaction can have a different compensation result because of this express exception."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "compare-the-principal-listing-types",
+    "sources": [
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-017",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "Under California regulations operative January 1, 2026, what is the ordinary maximum term represented by three months for a covered individual buyer agreement?",
+    "prompt": "Under California's regulations operative in 2026, an ordinary individual buyer-broker agreement is subject to the maximum three-month initial term. How long is that maximum, assuming no entity exception?",
     "options": [
       {
-        "text": "One year unless the buyer objects.",
-        "explanation": "That exceeds the applicable maximum."
+        "text": "Three full calendar months measured date to date.",
+        "explanation": "The implementing regulation defines the statutory expression as 90 calendar days.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "An unlimited term with automatic monthly renewal.",
-        "explanation": "Covered agreements cannot renew automatically."
+        "text": "Ninety business days excluding weekends and holidays.",
+        "explanation": "The regulation uses calendar days, not business days.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "90 calendar days, with counting governed by the regulation and any agreed delayed effective date.",
-        "explanation": "The regulation defines the statutory term as 90 calendar days."
+        "text": "Ninety calendar days under the regulatory counting rule.",
+        "explanation": "The applicable starting-date rule determines the endpoint of that 90-day maximum."
       },
       {
-        "text": "Exactly 90 business days.",
-        "explanation": "The rule uses calendar days, not business days."
+        "text": "One hundred twenty days if the buyer requests it.",
+        "explanation": "The buyer's request does not supply an exception to the individual term limit.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "buyer-agreements-the-current-california-rule",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      },
+      {
+        "label": "Civil Code section 1670.50",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-018",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "For a buyer's agent preparing an in-person property showing in 2026, the DRE timing regulation creates:",
+    "prompt": "In 2026, a buyer's agent plans a private showing while providing covered licensed services to the buyer. The agent is not acting solely for the seller. What timing presumption applies to the buyer-broker agreement?",
     "options": [
       {
-        "text": "A requirement only for buyers using FHA loans.",
-        "explanation": "The rule is not limited to a particular loan program."
+        "text": "It is presumed practicable only after the first showing.",
+        "explanation": "The regulation places the rebuttable presumption before the showing.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "A rebuttable presumption that obtaining the signed buyer agreement before showing is practicable.",
-        "explanation": "The regulation addresses what is practicable before in-person and defined virtual showings."
+        "text": "It is presumed practicable to sign before the showing.",
+        "explanation": "The before-showing presumption is rebuttable; the statute also sets an outside deadline at execution of the buyer's offer."
       },
       {
-        "text": "An exception allowing every agreement to wait until closing.",
-        "explanation": "The statute requires execution much earlier, and the regulation addresses showings."
+        "text": "The showing replaces the need for an agreement.",
+        "explanation": "Providing a showing does not substitute for executing the required agreement.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "A rule that every open-house visitor is automatically represented.",
-        "explanation": "A seller-only agent's showing does not itself establish buyer representation."
+        "text": "The presumption applies only to an exclusive agreement.",
+        "explanation": "The regulatory timing rule does not provide this exclusivity exception.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "buyer-agreements-the-current-california-rule",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      },
+      {
+        "label": "Civil Code section 1670.50",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-019",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "A covered buyer representation agreement is approaching expiration. The parties wish to renew. Which method complies with the stated renewal rules?",
+    "prompt": "An individual buyer and brokerage wish to renew a covered representation agreement in 2026. Which arrangement satisfies the renewal requirements, assuming the new term is within the maximum?",
     "options": [
       {
-        "text": "A written, dated renewal signed by the parties before expiration within the applicable term limit.",
-        "explanation": "The current rules require affirmative written renewal and prohibit automatic renewal."
+        "text": "A dated written renewal signed by both before expiration.",
+        "explanation": "The regulation requires timely written, dated, signed renewal; continuation is not automatic."
       },
       {
-        "text": "An automatic extension printed in the original agreement.",
-        "explanation": "Automatic renewal is prohibited."
+        "text": "A dated written notice signed only by the brokerage.",
+        "explanation": "The renewal requires both parties' signatures, not unilateral broker notice.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The broker silently continues the agreement for a year.",
-        "explanation": "Silence does not satisfy the signing or duration requirements."
+        "text": "An automatic extension unless the buyer objects in writing.",
+        "explanation": "A contractual opt-out mechanism does not overcome the automatic-renewal prohibition.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "An undated oral understanding recorded only in the agent's notes.",
-        "explanation": "The renewal must be written, dated, and signed by the parties."
+        "text": "An oral extension agreed by both before expiration.",
+        "explanation": "Timely mutual assent alone does not meet the written, dated, signed renewal requirements.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "buyer-agreements-the-current-california-rule",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      },
+      {
+        "label": "Civil Code section 1670.50",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-020",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "A broker plans to collect a regulated advance fee for future marketing services. Which statement is correct?",
+    "prompt": "A broker plans to collect a permitted regulated advance fee for future marketing services. The required agreement and materials have been submitted to DRE at least ten calendar days before intended use. What else must occur before use and collection?",
     "options": [
       {
-        "text": "The broker may collect immediately upon mailing materials to DRE.",
-        "explanation": "The required prior review and no-objection process must be completed."
+        "text": "The principal must waive the verified accounting.",
+        "explanation": "The required accounting protections are not replaced by a client's waiver.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Calling the fee nonrefundable eliminates trust obligations.",
-        "explanation": "The label does not override refundable unexpended funds and accounting requirements."
+        "text": "The broker must start one advertised service.",
+        "explanation": "Partial performance does not supply permission to use unreviewed advance-fee materials.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Only the salesperson must approve the agreement.",
-        "explanation": "DRE review and broker responsibilities are not replaced by salesperson approval."
+        "text": "The ten-day interval alone must expire without a response.",
+        "explanation": "DRE's guidance requires its no-objection communication, not merely passage of time.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The required materials must be submitted in advance and DRE's no-objection communication received before use or collection.",
-        "explanation": "Submission alone does not authorize immediate use, and DRE does not endorse the services."
+        "text": "DRE must communicate that it has no objection.",
+        "explanation": "Submission and the minimum lead time do not substitute for that communication; no objection is not endorsement."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+    "sources": [
+      {
+        "label": "DRE, essential elements of an advance fee agreement, May 2026",
+        "url": "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-021",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "A broker offers to collect an advance fee for covered residential mortgage loan modification services. A general advance-fee agreement:",
+    "prompt": "A broker proposes an upfront fee for covered residential mortgage loan modification services before fully performing those services. Can the broker rely on a general advance-fee agreement to collect it?",
     "options": [
       {
-        "text": "Makes the fee lawful if the borrower is late on payments.",
-        "explanation": "Financial distress does not create the claimed exception."
+        "text": "Yes, if the payment remains in the broker's trust account.",
+        "explanation": "Trust handling does not remove the service-specific advance-fee prohibition.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Eliminates the prohibition after notarization.",
-        "explanation": "Notarial acknowledgment does not change the substantive rule."
+        "text": "Yes, if DRE has not objected to the marketing agreement.",
+        "explanation": "General form review does not authorize a fee barred for the covered service.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Does not override the prohibition on those advance fees.",
-        "explanation": "The service-specific prohibition controls even if a general form is available."
+        "text": "No; the service-specific prohibition still applies.",
+        "explanation": "A general advance-fee arrangement cannot override the residential loan-modification restriction."
       },
       {
-        "text": "Automatically makes the fee lawful.",
-        "explanation": "A contract cannot legalize a prohibited charge."
+        "text": "Yes, if the fee is allocated to document preparation.",
+        "explanation": "A label or allocation does not turn the stipulated advance charge for covered services into an authorized fee.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+    "sources": [
+      {
+        "label": "DRE, essential elements of an advance fee agreement, May 2026",
+        "url": "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf"
+      },
+      {
+        "label": "DRE, advance fees and loan modification services",
+        "url": "https://www.dre.ca.gov/Consumers/AdvanceFees.html"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-022",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A buyer pays for a valid option to purchase by a stated deadline. Before exercising, the buyer ordinarily has:",
+    "prompt": "An owner grants a valid, supported purchase option. The optionee has not exercised it, and its period remains open. What does the optionee presently hold?",
     "options": [
       {
-        "text": "A right to change the price unilaterally.",
-        "explanation": "Exercise must comply with the agreed terms."
+        "text": "A bilateral obligation to complete the purchase.",
+        "explanation": "The optionee has not exercised the choice that would create purchase obligations.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "The right, but not the obligation, to buy on the option terms.",
-        "explanation": "The optionee has a choice while the optionor's commitment is binding under the option."
+        "text": "A contractual choice to buy on the option terms.",
+        "explanation": "The valid option binds the owner to honor compliant exercise without compelling the holder to exercise."
       },
       {
-        "text": "An unconditional duty to buy regardless of exercise.",
-        "explanation": "That confuses an option with an already binding purchase obligation."
+        "text": "Legal title subject to paying the remaining price.",
+        "explanation": "An unexercised option does not itself convey title.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Ownership of the fee immediately.",
-        "explanation": "An unexercised option does not itself complete the conveyance."
+        "text": "Only a revocable invitation to negotiate a price.",
+        "explanation": "The stipulated valid option secures the offered opportunity, not merely further negotiation.",
+        "misconceptionId": "recall-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "options-and-leases"
+    ],
+    "sectionId": "options-and-first-refusal-rights",
+    "sources": [
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      },
+      {
+        "label": "Civil Code section 1624",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-023",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A right of first refusal generally differs from a purchase option because it:",
+    "prompt": "A right of first refusal gives its holder a matching opportunity only if the owner chooses to accept a qualifying third-party offer. The owner has received no such offer and does not plan to sell. What does the right presently allow?",
     "options": [
       {
-        "text": "Typically depends on a sale-related trigger specified in the agreement.",
-        "explanation": "The holder's opportunity commonly arises when the owner decides to sell or receives a qualifying offer."
+        "text": "No compelled sale before the stated trigger.",
+        "explanation": "The contractual matching right has not matured into a right to insist on a sale."
       },
       {
-        "text": "Always transfers title when signed.",
-        "explanation": "Neither label alone describes an immediate deed conveyance."
+        "text": "Purchase on demand at the holder's proposed price.",
+        "explanation": "That would resemble a current purchase option, not the stated trigger-dependent matching right.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Always allows an immediate forced sale at any chosen price.",
-        "explanation": "That is not the ordinary first-refusal right."
+        "text": "A forced sale once the holder deposits earnest money.",
+        "explanation": "A unilateral deposit does not satisfy the owner-sale trigger in the agreement.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Can never appear in a lease.",
-        "explanation": "Lease agreements can contain purchase-related rights."
+        "text": "A requirement that the owner first solicit the holder's offer.",
+        "explanation": "That imports a first-offer obligation not included in the stated matching right.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "options-and-leases"
+    ],
+    "sectionId": "options-and-first-refusal-rights",
+    "sources": [
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      },
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-024",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "Which instrument primarily evidences the borrower's promise to repay money?",
+    "prompt": "A seller-financed closing uses separate documents for the repayment promise and for collateral rights. Which instrument primarily evidences the buyer's promise to repay the loan?",
     "options": [
       {
-        "text": "A grant deed from the seller.",
-        "explanation": "The grant deed conveys an ownership interest."
+        "text": "Deed of trust.",
+        "explanation": "A deed of trust supplies real-property security rather than serving as the separate debt promise.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "A preliminary title report.",
-        "explanation": "The report proposes title-insurance terms."
+        "text": "Mortgage.",
+        "explanation": "A mortgage encumbers real property as security; distinguish it from the borrower's note.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "A lease.",
-        "explanation": "The lease principally grants possession under rental terms."
+        "text": "Security agreement.",
+        "explanation": "A security agreement creates collateral rights, commonly in personal property.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "A promissory note.",
-        "explanation": "The note states the debt obligation and its payment terms."
+        "text": "Promissory note.",
+        "explanation": "The note is the repayment promise; collateral documentation serves a different function."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "notes-and-security"
+    ],
+    "sectionId": "notes-and-their-security",
+    "sources": [
+      {
+        "label": "Commercial Code section 3104",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104."
+      },
+      {
+        "label": "DRE Reference Book, notes and real-property security",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf"
+      },
+      {
+        "label": "DRE Reference Book, land contracts and security agreements",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref13.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-025",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A tenant receives a fixed six-month lease. The duration most clearly creates:",
+    "prompt": "A lease fixes possession from January 1 through June 30 with monthly rent installments. Classifying the agreed term rather than the payment schedule, what estate does it create?",
     "options": [
       {
-        "text": "A mandatory periodic tenancy.",
-        "explanation": "A fixed expiration differs from automatically recurring periods."
+        "text": "A periodic month-to-month tenancy.",
+        "explanation": "Monthly installments do not erase the expressly fixed six-month term.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "An easement by prescription.",
-        "explanation": "The tenant's possession comes from a lease, not adverse use."
+        "text": "An estate at will.",
+        "explanation": "The parties have fixed the duration rather than leaving it indefinite at their will.",
+        "misconceptionId": "misclassification"
       },
       {
         "text": "An estate for years.",
-        "explanation": "A fixed term is an estate for years even when shorter than one year."
+        "explanation": "A definite term qualifies even when shorter than a full year."
       },
       {
-        "text": "A fee simple estate.",
-        "explanation": "A leasehold does not convey the owner's fee."
+        "text": "An estate at sufferance.",
+        "explanation": "Sufferance concerns holding over after a right to possession ends, not this agreed current term.",
+        "misconceptionId": "recall-confusion"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "options-and-leases"
+    ],
+    "sectionId": "a-lease-transfers-possession-not-the-fee",
+    "sources": [
+      {
+        "label": "DRE Reference Book, leasehold estates and subleases",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-026",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A seller finances a purchase using a land sale contract and retains legal title until required installments are paid. The buyer generally holds:",
+    "prompt": "Under a valid five-year installment land sale contract, the seller will deliver the deed after the buyer completes the required payments. Before that conveyance, how are the interests ordinarily described?",
     "options": [
       {
-        "text": "Only a right of first refusal.",
-        "explanation": "The buyer has agreed to purchase, not merely to receive a future opportunity."
+        "text": "Buyer holds legal title; seller holds only the security lien.",
+        "explanation": "That describes a conveyed property financed by a seller-held security instrument, not this retained-title arrangement.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "An equitable interest under the contract.",
-        "explanation": "The buyer's contractual interest differs from the seller's retained legal title."
+        "text": "Seller retains legal title; buyer holds an equitable interest.",
+        "explanation": "The seller's retained legal title and the buyer's equitable interest differ from an immediate deed transfer."
       },
       {
-        "text": "No enforceable interest until the final payment in every case.",
-        "explanation": "The contract can create significant equitable rights before final payment."
+        "text": "Seller retains both interests; buyer holds only an option.",
+        "explanation": "The buyer has an installment purchase obligation, not merely an unexercised purchase choice.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The lender's beneficial interest under an already recorded deed of trust automatically.",
-        "explanation": "The stated arrangement is a land sale contract, not necessarily deed-of-trust financing."
+        "text": "Buyer and seller hold title as tenants in common.",
+        "explanation": "Installment payments do not by themselves create shared undivided fee ownership.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "notes-and-security"
+    ],
+    "sectionId": "land-sale-contracts-and-a-worked-scenario",
+    "sources": [
+      {
+        "label": "Civil Code section 2985",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2985."
+      },
+      {
+        "label": "DRE Reference Book, land contracts and security agreements",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref13.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-027",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A lease option credits a $4,000 option payment plus $250 from each of twelve timely rent payments toward the price at a completed purchase. What is the stated credit?",
+    "prompt": "A lease-option agreement credits the $4,000 option fee and $250 from each timely rent payment toward the price if the purchase closes. The holder makes 12 qualifying payments and completes the purchase. What is the total stated credit?",
     "options": [
       {
         "text": "$7,000.",
-        "explanation": "Twelve times $250 is $3,000; adding the $4,000 option credit gives $7,000."
+        "explanation": "Twelve credits of $250 total $3,000; add the $4,000 option credit."
       },
       {
         "text": "$3,000.",
-        "explanation": "That omits the option payment expressly credited."
+        "explanation": "This includes the rent credits but omits the credited option fee.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$4,000.",
+        "explanation": "This includes the option fee but omits the 12 earned rent credits.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$4,250.",
-        "explanation": "That counts only one monthly credit."
-      },
-      {
-        "text": "The entire year's rent regardless of the clause.",
-        "explanation": "Only the specified portion of rent receives the contractual credit."
+        "explanation": "This counts only one of the 12 qualifying rent credits.",
+        "misconceptionId": "wrong-formula"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "options-and-leases"
+    ],
+    "sectionId": "land-sale-contracts-and-a-worked-scenario",
+    "sources": [
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-028",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A buyer offers $620,000. The seller counters at $635,000, and the buyer rejects that counteroffer. The seller then announces acceptance of the original $620,000 offer, which was never renewed. What is the best analysis?",
+    "prompt": "Morgan offers $620,000. Ellis rejects those terms and counteroffers at $635,000. Morgan rejects the counteroffer and never renews the original offer. Ellis then says, 'I accept $620,000.' What is the status?",
     "options": [
       {
-        "text": "A contract arose at $620,000 because the buyer initially demonstrated willingness to pay that amount.",
-        "explanation": "The buyer's original willingness does not make a displaced offer continuously available despite intervening rejection."
+        "text": "A contract formed when Ellis returned to $620,000.",
+        "explanation": "Returning to the old price does not revive a proposal already terminated and not renewed.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The counteroffer displaced the original offer; the seller's later statement does not automatically revive it.",
-        "explanation": "After rejection by counteroffer, the original proposal ordinarily requires renewal or new assent rather than unilateral revival."
+        "text": "The original offer is not available for acceptance.",
+        "explanation": "The rejected counteroffer does not restore the earlier rejected offer."
       },
       {
-        "text": "The original offer automatically revives whenever the counteroffer is rejected.",
-        "explanation": "Rejection of a counteroffer does not ordinarily restore a previously rejected original offer."
+        "text": "The original offer revived when Morgan rejected $635,000.",
+        "explanation": "Rejection of the new proposal is not renewal of the old one.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "A contract arose at $635,000 when the seller signed the counteroffer.",
-        "explanation": "A counteroffer requires acceptance; the stated facts say the buyer rejected it."
+        "text": "The counteroffer remains binding at $635,000.",
+        "explanation": "Morgan rejected that proposal; neither stipulated sequence formed a contract.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "reconstruct-the-negotiation",
+    "sources": [
+      {
+        "label": "Civil Code section 1585",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585."
+      },
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-029",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A seller receives a buyer's offer and asks, 'Would you consider a shorter closing?' The seller does not reject the offer or condition acceptance on the change. What distinction matters most?",
+    "prompt": "Before an offer expires, the seller asks, 'Would you consider a shorter closing?' The seller neither rejects the offer nor makes acceptance conditional on a change. What does this communication establish?",
     "options": [
       {
-        "text": "Every question about a term rejects the offer even without an expressed condition.",
-        "explanation": "An inquiry and a counteroffer must be distinguished rather than treating all negotiation language identically."
+        "text": "A counteroffer replacing the buyer's terms.",
+        "explanation": "The facts withhold the insistence on a changed bargain that would support this answer.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "The requested shorter closing automatically becomes part of the buyer's offer unless the buyer objects.",
-        "explanation": "A proposed possibility does not unilaterally amend the other party's terms."
+        "text": "An acceptance completing the proposed sale.",
+        "explanation": "An exploratory question does not itself communicate assent to all offered terms.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "An inquiry about possible terms is not necessarily a rejecting counteroffer.",
-        "explanation": "The legal effect depends on what was communicated; asking about flexibility differs from insisting on a substitute bargain."
+        "text": "An inquiry that need not terminate the offer.",
+        "explanation": "Discussion of a possible change is distinct from conditioned acceptance or rejection."
       },
       {
-        "text": "The question constitutes unconditional acceptance because no price change was requested.",
-        "explanation": "The seller has not necessarily accepted anything merely by asking about timing."
+        "text": "An extension of the original acceptance deadline.",
+        "explanation": "The inquiry does not change the agreed or offered deadline.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "reconstruct-the-negotiation",
+    "sources": [
+      {
+        "label": "Civil Code section 1585",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585."
+      },
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-030",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "An individual negotiates to purchase for an LLC. The draft names the individual as buyer, but the signature is intended to be on the LLC's behalf. What should the agent resolve before execution?",
+    "prompt": "Jordan intends to buy for an LLC, but the draft names Jordan individually and the signature block omits representative capacity. The agent has not verified authority. What should be resolved before relying on the signature?",
     "options": [
       {
-        "text": "The identity of the contracting buyer, the signature capacity, and authority to bind that buyer.",
-        "explanation": "Party identification and representative authority should agree; they affect whose obligations the contract creates."
+        "text": "The obligated party, signing capacity, and authority.",
+        "explanation": "Identify whose promise is made and verify authority rather than infer LLC liability from a conversation."
       },
       {
-        "text": "Only whether the individual owns a majority of the LLC.",
-        "explanation": "Ownership percentage alone does not establish that the draft identifies the intended buyer or that the signer has the needed authority."
+        "text": "Only the LLC's percentage owned by Jordan.",
+        "explanation": "Ownership percentage alone does not settle the named party or all authority questions.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "Only whether the LLC's name appears somewhere in the agent's transaction notes.",
-        "explanation": "Private notes do not necessarily resolve a mismatch in the actual agreement and signature capacity."
+        "text": "Only whether Jordan's signature is notarized.",
+        "explanation": "Notarization does not supply missing representative authority or reconcile the conflicting party designation.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Nothing, because every contract negotiated by an LLC member automatically binds the LLC instead of the member.",
-        "explanation": "Entity membership does not automatically correct party identification or establish authority for every transaction."
+        "text": "The lender's later choice of vesting language.",
+        "explanation": "A lender's later paperwork is not a substitute for resolving the parties' current contract.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "a-signature-must-identify-whose-promise-it-is",
+    "sources": [
+      {
+        "label": "Civil Code section 1624",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624."
+      },
+      {
+        "label": "Corporations Code section 17703.01",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17703.01."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-031",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "A signed purchase agreement contains an integration clause. The buyer later alleges a legally significant fraudulent statement that induced the purchase. What is the soundest conclusion from the clause alone?",
+    "prompt": "A purchase contract has an integration clause. A buyer alleges that the seller fraudulently induced the purchase through a prior material misrepresentation. What does the clause alone establish?",
     "options": [
       {
-        "text": "The clause makes all outside statements enforceable as additional contractual promises.",
-        "explanation": "Integration generally addresses the scope of the agreement; it does not automatically incorporate all prior statements."
+        "text": "All evidence of the alleged fraud is excluded.",
+        "explanation": "Section 1856 preserves evidence offered to establish fraud despite its integration rules.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The clause conclusively establishes that no statement outside the document could have affected consent.",
-        "explanation": "A statement about the integrated writing does not necessarily resolve every question about how consent was obtained."
+        "text": "Every prior oral promise becomes enforceable.",
+        "explanation": "The fraud exception does not incorporate every earlier conversation into the contract.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "The clause matters to interpretation, but it does not automatically eliminate every fraud claim.",
-        "explanation": "Read the entire agreement and applicable law; an integration clause is not a blanket license for fraudulent inducement."
+        "text": "It does not automatically defeat the fraud claim.",
+        "explanation": "Integration and proof of fraudulent inducement involve distinct questions; the claim still requires proof."
       },
       {
-        "text": "The clause automatically makes the written agreement void rather than voidable.",
-        "explanation": "An integration clause does not itself invalidate the agreement; defects in consent require their own analysis."
+        "text": "It proves the buyer reasonably relied on the statement.",
+        "explanation": "A clause does not establish the facts needed for a fraud claim in either party's favor.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "interpret-the-entire-document",
+    "sources": [
+      {
+        "label": "Code of Civil Procedure section 1856",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1856."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-032",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A $750,000 purchase anticipates a loan equal to 80% of the price. The lender instead offers 80% of a $700,000 appraisal. The contract has separate appraisal and financing contingencies. What should the buyer's agent identify?",
+    "prompt": "A buyer plans an 80% loan on a $750,000 purchase. The lender instead limits the loan to 80% of a $700,000 appraisal. The price stays unchanged. How much additional cash would replace the reduced loan, apart from any cancellation rights?",
     "options": [
       {
-        "text": "A $50,000 cash gap and an automatic right to cancel regardless of contingency status.",
-        "explanation": "The price-appraisal difference is $50,000, but the loan shortfall is $40,000; cancellation is not automatic from the arithmetic alone."
+        "text": "$10,000.",
+        "explanation": "This takes 20% of the appraisal shortfall, not the 80% reduction in the planned loan.",
+        "misconceptionId": "wrong-formula"
       },
       {
-        "text": "A $150,000 cash gap because the original down payment is the amount missing.",
-        "explanation": "The original down payment was already expected; the new issue is the additional $40,000 caused by the reduced loan."
+        "text": "$50,000.",
+        "explanation": "The entire price-appraisal difference is not the change in an 80% loan.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "No cash gap because the lender is still offering the same 80% percentage.",
-        "explanation": "The percentage is applied to a lower base, so the dollar amount available changes."
+        "text": "$140,000.",
+        "explanation": "This is 20% of the appraisal, not the increase over the originally planned cash contribution.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "A $40,000 additional cash gap and the distinct requirements of each contingency.",
-        "explanation": "The expected loan is $600,000 and the offered loan is $560,000; cancellation or other rights depend separately on the contract's contingencies."
+        "text": "$40,000.",
+        "explanation": "The planned $600,000 loan becomes $560,000. The difference is $40,000; cancellation still depends on the retained contingencies."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sectionId": "different-contingencies-can-produce-different-answers",
+    "sources": [
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-033",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "The parties sign an amendment extending closing by seven days. It does not change the earlier deposit deadline or any other term. What is the safest contractual reading?",
+    "prompt": "The parties sign an amendment extending closing by seven days and expressly leaving every other term unchanged. A separate deposit deadline falls tomorrow. Which date governs that deposit?",
     "options": [
       {
-        "text": "Every performance deadline automatically shifts seven days because closing controls the entire schedule.",
-        "explanation": "Deadlines may be separately fixed, so an extension of one does not necessarily alter all others."
+        "text": "Seven days after its original deadline.",
+        "explanation": "The amendment changes only closing, not each performance deadline.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "The buyer may postpone the deposit until closing because a later amendment outranks all earlier provisions.",
-        "explanation": "A later amendment controls inconsistent provisions within its scope; silence does not necessarily create an inconsistency."
+        "text": "The new closing date.",
+        "explanation": "A deposit obligation does not become a closing obligation merely because closing moved.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "The original agreement is automatically rescinded and replaced by a wholly new contract.",
-        "explanation": "A limited amendment does not necessarily unwind the entire transaction or discharge unchanged terms."
+        "text": "Seven days after signing the amendment.",
+        "explanation": "Signing the amendment is not the new trigger stated for the deposit.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "The closing date changes; the deposit deadline remains unchanged unless the documents or applicable law establish otherwise.",
-        "explanation": "An amendment should be read for what it actually modifies, not as a blanket extension of every related obligation."
+        "text": "The original deadline tomorrow.",
+        "explanation": "The expressly unchanged deposit term remains part of the contract."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sectionId": "modification-waiver-and-informal-extensions",
+    "sources": [
+      {
+        "label": "Civil Code section 1698",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1698."
+      },
+      {
+        "label": "Civil Code section 1641",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1641."
+      },
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-034",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "Buyer and seller sign escrow instructions splitting a disputed $15,000 deposit. The instructions contain no broader release. The seller says this necessarily waives every unrelated contractual claim. What is the best response?",
+    "prompt": "Buyer and seller in a buyer-occupied one-unit purchase sign escrow instructions dividing a $15,000 deposit. The instructions contain no cancellation or release of other claims. Which conclusion is supported?",
     "options": [
       {
-        "text": "Escrow decides which remaining claims are waived whenever the instructions omit that issue.",
-        "explanation": "Escrow's limited role does not confer authority to determine the parties' broader disputed contractual rights."
+        "text": "The disbursement alone cancels the purchase contract.",
+        "explanation": "Section 1057.3(e) does not treat the fund release as contract cancellation unless specifically stated.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Neither party can ever release contract claims until a court enters judgment.",
-        "explanation": "Parties can agree to releases without litigation, but the agreement must actually address the rights being relinquished."
+        "text": "Accepting a share releases every separate damage claim.",
+        "explanation": "Allocation of the deposit is not necessarily a comprehensive settlement of all claims.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Any instruction distributing earnest money conclusively releases all known and unknown claims.",
-        "explanation": "Distribution alone does not establish the scope of a release, particularly for unrelated or unknown matters."
+        "text": "Escrow may determine the remaining damage claims.",
+        "explanation": "The fund instructions do not appoint escrow as an adjudicator.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The disposition of the deposit and the scope of any release are separate questions.",
-        "explanation": "Instructions can settle custody or allocation of funds without necessarily releasing every substantive claim; examine the actual language and applicable law."
+        "text": "The fund allocation does not itself release all claims.",
+        "explanation": "Read any cancellation and release language separately from authorization to distribute the money."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "cancellation-instructions-and-releases",
+    "sources": [
+      {
+        "label": "Civil Code section 1057.3",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1057.3."
+      },
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-035",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A qualifying sale of an existing detached home intended for buyer occupancy is priced at $1,000,000. The proposed liquidated damages are the $35,000 actually paid as a deposit. Assuming the statutory requirements otherwise apply, what changes because the amount exceeds 3%?",
+    "prompt": "A buyer intends to occupy an existing detached home priced at $1 million. The buyer pays $35,000 under a residential liquidated-damages clause satisfying the separate-signature rules. Who bears the ordinary reasonableness burden for this above-3% amount?",
     "options": [
       {
-        "text": "Exactly $30,000 must be released to the seller immediately, even if default is disputed.",
-        "explanation": "The threshold is not a direction to escrow to decide default or disburse disputed funds."
+        "text": "The buyer must prove the amount unreasonable.",
+        "explanation": "That is the ordinary burden for amounts not exceeding 3%, not this category.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "The entire $35,000 is automatically enforceable because the buyer paid it voluntarily.",
-        "explanation": "Payment alone does not resolve the statutory reasonableness analysis or other requirements."
+        "text": "The escrow holder must prove actual losses.",
+        "explanation": "Escrow is not the party assigned the statutory enforcement burden.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "The party seeking enforcement must establish that the amount is reasonable under the statutory framework.",
-        "explanation": "The amount exceeds the $30,000 threshold; above that level the relevant statutory burden differs rather than the entire sum automatically becoming valid."
+        "text": "The party seeking enforcement must prove reasonableness.",
+        "explanation": "$35,000 exceeds $30,000, so section 1675(d) places the burden on the party seeking to uphold the provision."
       },
       {
-        "text": "The provision is automatically enforceable for $5,000 because only the amount above the threshold counts.",
-        "explanation": "The excess is not the only amount subject to the provision; this subtraction misunderstands the threshold's function."
+        "text": "Neither party; the entire amount is automatically valid.",
+        "explanation": "Separate initials alone do not eliminate the above-threshold reasonableness test.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "the-residential-deposit-distinction",
+    "sources": [
+      {
+        "label": "Civil Code section 1675",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675."
+      },
+      {
+        "label": "Civil Code section 1677",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-036",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "An individual buyer and broker complete the last signature on September 10, 2026, with no delayed effective date. What is the 90th calendar day under the ordinary maximum-term counting rule?",
+    "prompt": "An individual buyer and broker finish signing a maximum-term initial agreement on September 10, 2026. It specifies no delayed effective date. Under the 90-calendar-day rule, which date is day 90?",
     "options": [
       {
         "text": "December 8, 2026.",
-        "explanation": "This incorrectly counts the last-signature date as day one instead of beginning on the following day."
+        "explanation": "This counts the signature date as day one instead of starting the following day.",
+        "misconceptionId": "wrong-clock"
       },
       {
         "text": "December 31, 2026.",
-        "explanation": "The agreement does not run automatically through the end of the third later calendar month."
+        "explanation": "This incorrectly extends the term to the end of the third later calendar month.",
+        "misconceptionId": "wrong-clock"
       },
       {
         "text": "December 9, 2026.",
-        "explanation": "Counting begins September 11: 20 September days plus 31 October days plus 30 November days equals 81, followed by nine December days."
+        "explanation": "September 11 is day one: 20 September days plus 31 October days plus 30 November days plus 9 December days equals 90."
       },
       {
         "text": "December 10, 2026.",
-        "explanation": "Three named calendar months is not the regulation's 90-calendar-day calculation in these circumstances."
+        "explanation": "This uses a same-date three-month endpoint instead of the specified 90-day count.",
+        "misconceptionId": "wrong-clock"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "count-days-and-distinguish-the-clients",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-037",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "An individual purchases rentals in the individual's own name and requests a six-month buyer representation agreement, claiming to be an investment business. Which statement is best?",
+    "prompt": "A buyer purchasing rentals in the buyer's individual name requests a six-month representation agreement. The buyer calls the activity an investment business but is not contracting through a corporation, LLC, or partnership. Does the entity term-limit exception apply?",
     "options": [
       {
-        "text": "Investment use alone does not qualify the individual for the corporation, LLC, or partnership maximum-term exception.",
-        "explanation": "The exception depends on the actual contracting entity, not simply the economic purpose of an individual's purchase."
+        "text": "No; investment use does not change the contracting party.",
+        "explanation": "The exception identifies particular legal entities, not every individual making an investment."
       },
       {
-        "text": "Any income-producing purchase qualifies for the entity exception regardless of the buyer's legal identity.",
-        "explanation": "Investment purpose and entity status are separate facts; one does not substitute for the other."
+        "text": "Yes; rental purchases qualify as business transactions.",
+        "explanation": "An income-producing use does not substitute for the specified entity status.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The 24-month residential listing limit controls because the purchase concerns a residential rental.",
-        "explanation": "Seller listing duration rules and buyer representation duration rules govern different agreements."
+        "text": "Yes; a buyer-requested longer term is a permitted waiver.",
+        "explanation": "The source of the request does not override the applicable maximum.",
+        "misconceptionId": "source-of-authority"
       },
       {
-        "text": "A six-month term is valid whenever the buyer, rather than the broker, proposes it.",
-        "explanation": "The source of the request does not override the applicable statutory duration limit."
+        "text": "No; the applicable limit is the seller's 24-month rule.",
+        "explanation": "This concerns buyer representation, not an exclusive residential seller listing.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "count-days-and-distinguish-the-clients",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      },
+      {
+        "label": "Civil Code section 1670.50",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-038",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "An individual owner signs a new exclusive listing for a covered California single-family residence with a 36-month initial term. No entity exception applies. Which rule addresses the defect?",
+    "prompt": "An individual owner signs a new exclusive listing for a covered single-family residence with a 36-month initial term. No entity exception applies. What initial-term limit does the Residential Exclusive Listing Agreements Act impose?",
     "options": [
       {
-        "text": "The listing is valid because only renewals, not initial terms, have a maximum duration.",
-        "explanation": "The Act regulates both ordinary initial terms and renewals, with different maximums."
+        "text": "12 months.",
+        "explanation": "That is the ordinary maximum for a covered renewal, not the initial term.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "The Residential Exclusive Listing Agreements Act generally caps that initial term at 24 months.",
-        "explanation": "The covered residential listing exceeds the ordinary initial limit; these listing restrictions are distinct from buyer-agreement rules."
+        "text": "24 months.",
+        "explanation": "The 36-month initial term exceeds section 1670.12(b)(1)'s ordinary limit."
       },
       {
-        "text": "The listing becomes enforceable if the broker records a memorandum giving public notice.",
-        "explanation": "The Act prohibits recording the listing or a memorandum or notice; recording is not a cure for an impermissible term."
+        "text": "36 months.",
+        "explanation": "The fact that the owner signed does not authorize this excessive initial term.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "The buyer representation rule caps the seller's listing at 90 days.",
-        "explanation": "The 90-day maximum concerns covered buyer agreements, not this seller's exclusive listing."
+        "text": "90 calendar days.",
+        "explanation": "That comes from the separate covered buyer-representation rules.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "residential-listings-have-their-own-duration-limits",
+    "sources": [
+      {
+        "label": "Civil Code section 1670.12",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-039",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "A broker receives a regulated $2,000 advance fee. Before cancellation, only $600 is properly expended for the specified services, and no other earned or permitted charges apply. What is the unexpended refundable amount?",
+    "prompt": "A broker receives a regulated $2,000 advance fee. When the principal cancels, $600 was properly expended for the specified services; no other earned or permitted charges apply. What unexpended amount remains refundable, with the required accounting?",
     "options": [
       {
-        "text": "$2,000, because advance fees can never be applied to services that were actually performed.",
-        "explanation": "Proper expenditures for the specified services matter; the entire advance is not necessarily unexpended."
+        "text": "$2,000.",
+        "explanation": "This ignores the stipulated proper expenditure for specified services.",
+        "misconceptionId": "wrong-base"
       },
       {
-        "text": "$1,400, supported by the required accounting of the $600 expenditure.",
-        "explanation": "Subtract properly expended funds from the advance; the unused balance remains subject to refund and accounting requirements."
+        "text": "$1,400.",
+        "explanation": "Subtract the properly expended $600 from the $2,000 advance."
       },
       {
-        "text": "$600, because that is the amount of performance completed before cancellation.",
-        "explanation": "This reverses the analysis by refunding the expended portion instead of the remaining balance."
+        "text": "$600.",
+        "explanation": "This refunds the spent portion rather than the unexpended balance.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
-        "text": "$0, if the agreement labels the payment a nonrefundable marketing package.",
-        "explanation": "A label cannot remove the governing trust, refund, and verified-accounting protections."
+        "text": "$0.",
+        "explanation": "Calling an advance fee nonrefundable cannot eliminate the unexpended amount's refund protections.",
+        "misconceptionId": "wrong-exception"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "account-for-the-unused-service-budget",
+    "sources": [
+      {
+        "label": "DRE, essential elements of an advance fee agreement, May 2026",
+        "url": "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-040",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A $640,000 purchase uses a $16,000 deposit already paid and a $496,000 loan. Buyer closing costs are $12,000, offset by a permitted $5,000 seller credit. How much additional buyer cash is needed?",
+    "prompt": "A $640,000 purchase uses a $16,000 deposit already paid and a $496,000 loan. Buyer closing costs are $12,000, offset by a permitted $5,000 seller credit. With no other adjustments, how much additional buyer cash is needed?",
     "options": [
       {
         "text": "$145,000.",
-        "explanation": "This adds the seller credit as an expense instead of subtracting it from the buyer's cash requirement."
+        "explanation": "This adds the $5,000 credit as an expense instead of subtracting it.",
+        "misconceptionId": "reversed-adjustment"
       },
       {
         "text": "$135,000.",
-        "explanation": "Compute $640,000 minus $16,000 minus $496,000 plus $12,000 minus $5,000."
+        "explanation": "$640,000 - $16,000 - $496,000 + $12,000 - $5,000 = $135,000."
       },
       {
         "text": "$151,000.",
-        "explanation": "This fails to credit the $16,000 deposit already supplied by the buyer."
+        "explanation": "This omits the credit for the $16,000 deposit the buyer already paid.",
+        "misconceptionId": "wrong-base"
       },
       {
         "text": "$128,000.",
-        "explanation": "This covers the price balance but omits the net $7,000 in buyer closing costs."
+        "explanation": "This is the remaining price contribution before adding the net $7,000 closing costs.",
+        "misconceptionId": "missing-condition"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "escrow-closing"
+    ],
+    "sectionId": "reconcile-the-purchase-funds",
+    "sources": [
+      {
+        "label": "Civil Code section 1638",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-041",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "An option permits purchase for $520,000 through a stated deadline. Before that deadline, the optionee sends a notice saying, 'I exercise only if you reduce the price to $510,000.' The owner does not agree. What is the best characterization?",
+    "prompt": "An option fixes a $520,000 price. Before its deadline, the holder writes, 'I exercise only if you reduce the price to $510,000.' The owner does not agree. How should the notice be characterized?",
     "options": [
       {
-        "text": "A conditional proposal that does not match the option's exercise terms.",
-        "explanation": "An option must be exercised according to its terms; conditioning acceptance on a new price is not an unqualified exercise."
+        "text": "A conditional proposal, not compliant option exercise.",
+        "explanation": "The expressly changed price prevents this from being an unconditional exercise on the existing terms."
       },
       {
-        "text": "A valid exercise at $520,000 because the word exercise appears in the notice.",
-        "explanation": "The express condition prevents treating the statement as unconditional assent to the existing bargain."
+        "text": "Exercise at $520,000 with an optional price request.",
+        "explanation": "The holder made the reduction a condition rather than a separate request.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A valid exercise at $510,000 because the notice was timely.",
-        "explanation": "Timeliness does not authorize the optionee to alter the fixed price unilaterally."
+        "text": "Exercise at $510,000 because the notice was timely.",
+        "explanation": "Timely delivery does not let the holder impose a different option price.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "An automatic extension of the option while the owner considers the requested reduction.",
-        "explanation": "A conditional proposal does not automatically extend the option deadline."
+        "text": "An extension of time pending the owner's response.",
+        "explanation": "Nothing in the stated option automatically extends its deadline for this proposal.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "options-and-leases"
+    ],
+    "sectionId": "exercise-means-following-the-option-terms",
+    "sources": [
+      {
+        "label": "Civil Code section 1585",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585."
+      },
+      {
+        "label": "DRE Reference Book, contract classifications and instruments",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-042",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A tenant has three years remaining on a lease and transfers possession for two years while retaining the final year, subject to applicable lease restrictions. This retained portion of the term most directly supports which classification?",
+    "prompt": "A tenant has three years remaining and transfers possession to another for two years, retaining the final year. Assume the transfer satisfies the lease's consent requirements. What classification follows from the retained term?",
     "options": [
       {
-        "text": "An assignment solely because the new occupant receives exclusive possession during the two years.",
-        "explanation": "Exclusive possession during a shorter period does not eliminate the original tenant's retained reversion in the leasehold."
+        "text": "Assignment of the entire remaining leasehold.",
+        "explanation": "The original tenant retained one year, so the transfer does not exhaust the remaining term.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "A sale of the landlord's fee interest because the new occupant pays the original tenant.",
-        "explanation": "Payment to a tenant for possession does not convey ownership the tenant does not hold."
+        "text": "Surrender of the existing lease to the landlord.",
+        "explanation": "A transfer to another occupant is not a return of the leasehold to the landlord.",
+        "misconceptionId": "role-confusion"
       },
       {
-        "text": "A novation that automatically releases the original tenant from the landlord's contract.",
-        "explanation": "A substitute occupant does not automatically create the landlord's agreement to discharge the original tenant."
+        "text": "Novation releasing the original tenant's obligations.",
+        "explanation": "The facts do not establish an agreed discharge by the landlord.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "A sublease rather than a transfer of the entire remaining leasehold.",
-        "explanation": "The tenant retains part of the existing term, distinguishing the arrangement from an assignment of the entire remainder."
+        "text": "Sublease with a retained reversionary interest.",
+        "explanation": "The original tenant's right to possession after the two-year grant distinguishes the sublease."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "options-and-leases"
+    ],
+    "sectionId": "assignment-and-sublease-allocate-different-rights",
+    "sources": [
+      {
+        "label": "DRE Reference Book, leasehold estates and subleases",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-043",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A written repayment promise expressly makes payment dependent on a development project's profits. Which distinction should the agent recognize?",
+    "prompt": "A repayment writing says, 'No payment obligation arises unless the development earns a profit.' This is an express condition, not merely a limit on the fund used for payment. What distinction should the agent recognize?",
     "options": [
       {
-        "text": "The condition can affect negotiability without necessarily making every contractual promise unenforceable.",
-        "explanation": "Negotiable-instrument requirements and general contract enforceability are different analyses; a conditional promise needs examination under both as relevant."
+        "text": "Nonnegotiability does not itself eliminate contract rights.",
+        "explanation": "An express payment condition defeats the unconditional-promise requirement, but ordinary contract enforceability is a separate inquiry."
       },
       {
-        "text": "A note that is not negotiable can never support any contractual obligation.",
-        "explanation": "Failure to qualify as a negotiable instrument does not itself eliminate ordinary contract rights."
+        "text": "The condition leaves the writing negotiable if signed.",
+        "explanation": "A signature does not overcome an express condition to whether payment is owed.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Every signed repayment promise is negotiable regardless of express conditions.",
-        "explanation": "Negotiability has substantive requirements; a signature alone does not satisfy them."
+        "text": "Recording collateral removes the payment condition.",
+        "explanation": "Recording security does not rewrite the repayment obligation.",
+        "misconceptionId": "document-effect"
       },
       {
-        "text": "Recording a deed of trust automatically removes the condition from the repayment promise.",
-        "explanation": "Security for an obligation does not rewrite the underlying note's payment terms."
+        "text": "A nonnegotiable promise cannot be enforced or assigned.",
+        "explanation": "Failure to qualify under negotiable-instrument law is not a blanket invalidation of contract rights.",
+        "misconceptionId": "unsupported-inference"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "negotiable-instruments"
+    ],
+    "sectionId": "promises-negotiability-and-investment-risk",
+    "sources": [
+      {
+        "label": "Commercial Code section 3104",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104."
+      },
+      {
+        "label": "Commercial Code section 3106",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3106."
+      },
+      {
+        "label": "Commercial Code section 1103",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=1103."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-044",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "An ordinary revocable offer expressly requires the buyer's receipt of signed acceptance. The seller signs Thursday. Before delivery, the seller receives the buyer's effective withdrawal at noon Friday. The signed acceptance reaches the buyer at 2 p.m., before the original 5 p.m. deadline. What controls?",
+    "prompt": "A revocable offer requires receipt of signed acceptance. The seller signs Thursday. The seller receives the buyer's effective withdrawal Friday at noon; acceptance reaches the buyer at 2 p.m. The original deadline was 5 p.m. No option or other revocation restriction applies. What controls?",
     "options": [
       {
-        "text": "Thursday's signature necessarily controls even though the offer expressly requires receipt.",
-        "explanation": "This disregards the specified method for effective acceptance."
+        "text": "The Thursday signature formed the contract.",
+        "explanation": "The required receipt had not occurred; signing alone did not satisfy this offer.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Receipt before 5 p.m. necessarily creates a contract regardless of the noon withdrawal.",
-        "explanation": "Timely receipt does not revive an offer already effectively withdrawn under the stipulated facts."
+        "text": "The 2 p.m. receipt formed the contract.",
+        "explanation": "Receipt followed the effective withdrawal, so the original deadline did not preserve the offer.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "The prescribed acceptance event occurred after effective withdrawal, so meeting the original deadline alone did not form the contract.",
-        "explanation": "The offer had to remain open when the required receipt occurred; the earlier signature does not satisfy the express receipt condition."
+        "text": "Withdrawal preceded the required acceptance event.",
+        "explanation": "The offer ended before acceptance became effective under its express receipt condition."
       },
       {
-        "text": "The stated Friday deadline necessarily made the offer irrevocable until 5 p.m.",
-        "explanation": "An ordinary offer's expiration does not itself create a binding option or another restriction on revocation."
+        "text": "The 5 p.m. deadline barred earlier withdrawal.",
+        "explanation": "An expiration date alone does not make this stipulated revocable offer irrevocable.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 2
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "revocation-and-an-option",
+    "sources": [
+      {
+        "label": "Civil Code section 1582",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582."
+      },
+      {
+        "label": "Civil Code section 1587",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-045",
     "domain": "contracts",
     "lessonSlug": "contracts-formation",
-    "prompt": "An offer requires receipt of the seller's signed unchanged acceptance. The buyer receives it at 11 a.m. At noon the seller receives the buyer's attempted withdrawal. Assuming all formation requirements are satisfied, what is the buyer's next legal question?",
+    "prompt": "A buyer receives the seller's signed, unchanged acceptance at 11 a.m., satisfying the offer's receipt requirement and all other formation conditions. The seller receives the buyer's attempted withdrawal at noon. Which issue now controls ending the deal?",
     "options": [
       {
-        "text": "Whether a contractual cancellation right, mutual agreement, or other applicable remedy permits ending the formed contract.",
-        "explanation": "The attempt follows effective acceptance; the problem has moved from revocation of an offer to rights under an existing contract."
+        "text": "Rights to cancel or otherwise end the formed contract.",
+        "explanation": "Acceptance already formed the contract; the buyer must identify a contractual or legal basis to end it."
       },
       {
-        "text": "Whether the noon withdrawal automatically revokes the already accepted offer.",
-        "explanation": "An effective acceptance ordinarily ends the ability to withdraw using the preformation revocation rule."
+        "text": "Revocation of the still-unaccepted offer.",
+        "explanation": "The offer was effectively accepted an hour before the withdrawal arrived.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "Whether the original offer deadline preserves revocation rights even after effective acceptance.",
-        "explanation": "The outside acceptance deadline does not ordinarily preserve a power to revoke once the offer has been effectively accepted."
+        "text": "The unused time before the acceptance deadline.",
+        "explanation": "An outside acceptance deadline does not preserve revocation after formation.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "Whether the absence of a completed escrow means the agreement is still only a revocable offer.",
-        "explanation": "An executory contract can be binding before escrow closes; incomplete performance is not the same as incomplete formation."
+        "text": "Whether escrow has completed its performance.",
+        "explanation": "A contract can bind the parties while performance through escrow remains unfinished.",
+        "misconceptionId": "misclassification"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sectionId": "revocation-and-an-option",
+    "sources": [
+      {
+        "label": "Civil Code section 1582",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582."
+      },
+      {
+        "label": "Civil Code section 1587",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587."
+      },
+      {
+        "label": "Civil Code section 1689",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-046",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A party has valid grounds to rescind a completed purchase and has received benefits under it. Subject to section 1691's applicable qualifications, which proposal best fits the ordinary restoration requirement?",
+    "prompt": "A buyer has valid grounds to rescind a completed purchase and received benefits under it. The seller can restore its benefits and has not refused. Subject to section 1691's timing and other qualifications, which proposal fits ordinary restoration?",
     "options": [
       {
-        "text": "Keep all received benefits permanently while demanding unconditional return of every payment.",
-        "explanation": "That proposal is inconsistent with ordinary unwinding and restoration absent a relevant exception."
+        "text": "Keep the property and demand back the full price.",
+        "explanation": "That attempts to unwind the buyer's payment without restoring the received property.",
+        "misconceptionId": "remedy-confusion"
       },
       {
-        "text": "Return benefits only after collecting punitive damages, regardless of the governing claim.",
-        "explanation": "A demand for a separate remedy does not replace the stated restoration requirement."
+        "text": "Return only the benefits remaining after a damages deduction.",
+        "explanation": "An unagreed deduction for alleged damages is not the stated reciprocal restoration offer.",
+        "misconceptionId": "unsupported-inference"
       },
       {
-        "text": "Treat delivery of any preclosing inspection form as automatic restoration of completed-sale benefits.",
-        "explanation": "A form label does not perform the restoration or supply the proper postclosing rescission process."
+        "text": "Require the seller to restore before offering any return.",
+        "explanation": "The ordinary rule calls for restoration or an appropriate offer by the rescinding party.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "Offer to restore the received benefits on condition that the other party likewise restores what it received.",
-        "explanation": "The statute permits an appropriate reciprocal restoration offer; actual facts and statutory qualifications still govern."
+        "text": "Offer reciprocal return of the benefits received.",
+        "explanation": "Section 1691 permits an offer to restore conditioned on the other party doing likewise."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "rescission-and-restitution",
+    "sources": [
+      {
+        "label": "Civil Code section 1691",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-047",
     "domain": "contracts",
     "lessonSlug": "contracts-performance-and-remedies",
-    "prompt": "A buyer with an alleged postclosing fraud claim wants to keep the property while obtaining compensation for provable loss. The buyer calls this rescission. Which distinction is most important?",
+    "prompt": "A buyer alleges postclosing fraud, wants to keep the property, and seeks money for provable loss. The buyer calls this 'rescission.' Which remedy analysis best matches the requested result?",
     "options": [
       {
-        "text": "Every claim based on fraud necessarily requires surrender of the property before any remedy can be evaluated.",
-        "explanation": "The asserted misconduct does not automatically make rescission the only possible remedy."
+        "text": "Rescission with no restoration of the property.",
+        "explanation": "The desired retention of the bargain does not match ordinary rescission and restoration.",
+        "misconceptionId": "remedy-confusion"
       },
       {
-        "text": "Keeping the property while seeking compensation calls for a separate damages analysis rather than assuming the sale has been unwound.",
-        "explanation": "Remedies have different objectives and requirements; rescission ordinarily seeks restoration rather than retention of the entire bargain."
+        "text": "Damages while retaining the acquired property.",
+        "explanation": "Compensation for proven fraud-related loss calls for a damages analysis; the label does not unwind the sale."
       },
       {
-        "text": "Calling the demand rescission automatically transfers title back even while the buyer insists on ownership.",
-        "explanation": "A chosen label does not itself reverse a conveyance or resolve restoration requirements."
+        "text": "Specific performance of the completed conveyance.",
+        "explanation": "The seller has already conveyed; the requested remedy concerns loss, not obtaining that conveyance.",
+        "misconceptionId": "remedy-confusion"
       },
       {
-        "text": "A buyer who retains property can never assert any claim related to its purchase.",
-        "explanation": "Retention does not categorically eliminate every possible damages claim; the facts and governing law control."
+        "text": "Reformation to eliminate the fraud-related loss.",
+        "explanation": "Correction of contractual wording is not the stated request for compensation.",
+        "misconceptionId": "remedy-confusion"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sectionId": "choose-the-remedy-that-addresses-the-problem",
+    "sources": [
+      {
+        "label": "Civil Code section 1691",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691."
+      },
+      {
+        "label": "Civil Code section 3343",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3343."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-048",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "An individual buyer agreement is last signed September 10, 2026, but expressly sets September 15 as the delayed effective date for its maximum ninety-day initial term. Which date is day ninety?",
+    "prompt": "An individual buyer agreement is last signed September 10, 2026. It expressly selects September 15 as the delayed effective date for the maximum 90-day initial term. Which date is day 90?",
     "options": [
       {
         "text": "December 13, 2026.",
-        "explanation": "Count September 15 as day one: 16 September days plus 31 October days plus 30 November days plus 13 December days equals 90."
+        "explanation": "September 15 is day one: 16 September days plus 31 October days plus 30 November days plus 13 December days equals 90."
       },
       {
         "text": "December 9, 2026.",
-        "explanation": "That uses the ordinary day-after-signature start and ignores the expressly agreed delayed starting date."
+        "explanation": "This ignores the agreed delayed start and instead counts from the day after signing.",
+        "misconceptionId": "wrong-trigger"
       },
       {
         "text": "December 14, 2026.",
-        "explanation": "That delays counting until the day after the agreed delayed effective date rather than using that date as the start."
+        "explanation": "This incorrectly begins the delayed-start count on September 16.",
+        "misconceptionId": "wrong-clock"
       },
       {
         "text": "December 15, 2026.",
-        "explanation": "That treats the limit as three calendar months rather than the regulatory ninety calendar days."
+        "explanation": "This uses three date-to-date calendar months instead of 90 calendar days.",
+        "misconceptionId": "wrong-clock"
       }
     ],
-    "answer": 0
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "count-days-and-distinguish-the-clients",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-049",
     "domain": "contracts",
     "lessonSlug": "contracts-representation-agreements",
-    "prompt": "A covered individual buyer agreement expires December 13. Both parties sign an otherwise compliant written renewal on December 1. Under the DRE renewal rule, when does the renewal become effective?",
+    "prompt": "A covered individual buyer agreement expires December 13, 2026. Both parties last sign an otherwise compliant written renewal on December 1. Under DRE's renewal rule, what is the renewal's effective date?",
     "options": [
       {
-        "text": "December 14, automatically following expiration of the original term.",
-        "explanation": "That is not the regulation's stated effective-date rule for the signed renewal."
+        "text": "December 14, 2026.",
+        "explanation": "The renewal does not automatically begin after the original term expires.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "December 2, because every renewal uses the initial agreement's day-after-signature rule.",
-        "explanation": "The renewal provision expressly specifies the day of the last signature."
+        "text": "December 2, 2026.",
+        "explanation": "The renewal rule uses the last-signature day, not the initial term's ordinary following-day start.",
+        "misconceptionId": "wrong-clock"
       },
       {
-        "text": "Only when the buyer makes another offer, because signing renewals does not establish an effective date.",
-        "explanation": "A new purchase offer is not the specified trigger for renewal effectiveness."
+        "text": "December 13, 2026.",
+        "explanation": "The existing expiration date is not the stated renewal trigger.",
+        "misconceptionId": "wrong-trigger"
       },
       {
-        "text": "December 1, the day the last party signs the renewal.",
-        "explanation": "The regulation identifies the renewal's last-signature date; it does not automatically stack the new period after prior expiration."
+        "text": "December 1, 2026.",
+        "explanation": "Section 2906.1(d) makes the renewal effective on the last-signature date."
       }
     ],
-    "answer": 3
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sectionId": "buyer-agreements-the-current-california-rule",
+    "sources": [
+      {
+        "label": "DRE, 2026 buyer representation regulations, sections 2906.1-2906.3",
+        "url": "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-050",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "An otherwise qualifying note unconditionally promises a fixed $100,000 principal amount and describes interest using a variable index-based rate. Does the variable rate alone defeat negotiability?",
+    "prompt": "An otherwise qualifying note unconditionally promises a fixed $100,000 principal and describes interest using a variable index-based rate. Does the variable interest rate alone defeat negotiability?",
     "options": [
       {
-        "text": "Yes; both principal and every future interest amount must be fixed numerically when signed.",
-        "explanation": "The statute permits variable interest descriptions and references to outside information."
+        "text": "Yes; principal and interest must both be fixed at signing.",
+        "explanation": "The statute permits a variable interest amount or rate.",
+        "misconceptionId": "recall-confusion"
       },
       {
-        "text": "No; Commercial Code section 3112 permits variable interest, distinct from a condition on whether repayment is owed.",
-        "explanation": "The fixed-principal and unconditional-payment requirements should not be confused with a requirement that every interest rate remain constant."
+        "text": "No; variable interest is permitted by the statute.",
+        "explanation": "Do not confuse a changing interest calculation with a condition on whether the debt is payable."
       },
       {
-        "text": "Yes, unless a deed of trust is recorded, because recording makes the interest rate fixed.",
-        "explanation": "Recording security does not convert a variable rate into a fixed rate or provide the stated exception."
+        "text": "Yes; reference to an outside index defeats negotiability.",
+        "explanation": "Section 3112 permits an interest description referring to outside information.",
+        "misconceptionId": "missing-condition"
       },
       {
-        "text": "No, because any document secured by real estate is automatically negotiable.",
-        "explanation": "The answer cannot rest on collateral; all relevant negotiable-instrument requirements still must be met."
+        "text": "No; real-estate security makes any note negotiable.",
+        "explanation": "Collateral does not supply negotiability; the other requirements must still be satisfied.",
+        "misconceptionId": "document-effect"
       }
     ],
-    "answer": 1
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "negotiable-instruments"
+    ],
+    "sectionId": "notes-and-their-security",
+    "sources": [
+      {
+        "label": "Commercial Code section 3104",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104."
+      },
+      {
+        "label": "Commercial Code section 3112",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3112."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
   },
   {
     "id": "contracts-051",
     "domain": "contracts",
     "lessonSlug": "contracts-purchase-options-and-leases",
-    "prompt": "A real estate licensee markets investment notes secured by deeds of trust and says collateral eliminates the need to examine securities registration or licensing. What is the soundest evaluation?",
+    "prompt": "A real estate licensee markets investment notes secured by deeds of trust and claims the collateral eliminates any securities-law inquiry. Which evaluation is sound?",
     "options": [
       {
-        "text": "Recording each deed of trust automatically constitutes SEC approval of the investment.",
-        "explanation": "County recording does not supply federal securities approval."
+        "text": "Real estate collateral supplies a securities exemption.",
+        "explanation": "Collateral alone does not establish an applicable registration or licensing exemption.",
+        "misconceptionId": "wrong-exception"
       },
       {
-        "text": "Securities rules apply only if the property securing the notes is outside California.",
-        "explanation": "Collateral location does not supply that blanket exemption."
+        "text": "Only negotiable notes require a securities inquiry.",
+        "explanation": "Negotiability and securities treatment are different legal classifications.",
+        "misconceptionId": "misclassification"
       },
       {
-        "text": "Secured promissory notes can raise securities requirements independently of the real estate collateral and license.",
-        "explanation": "The offering's substance and applicable registration, exemption, and licensing rules require separate review."
+        "text": "Securities requirements need a separate review.",
+        "explanation": "Examine the offering, registration or exemption, and licensing instead of treating the real estate license and collateral as dispositive."
       },
       {
-        "text": "A note's negotiability conclusively determines whether securities regulation applies.",
-        "explanation": "Negotiable-instrument classification and securities treatment are separate legal analyses."
+        "text": "County recording verifies securities-law compliance.",
+        "explanation": "Recording a security instrument does not decide the investment's securities status.",
+        "misconceptionId": "source-of-authority"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "conceptIds": [
+      "negotiable-instruments"
+    ],
+    "sectionId": "promises-negotiability-and-investment-risk",
+    "sources": [
+      {
+        "label": "SEC Investor.gov, promissory notes and securities requirements",
+        "url": "https://www.investor.gov/protect-your-investments/fraud/types-fraud/promissory-notes"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "contracts-052",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-four-essentials",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sources": [
+      {
+        "label": "FAM section 6701",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6701."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "An unemancipated 17-year-old owns an inherited parcel and personally signs a contract to sell it, without an authorized court procedure. Which issue is distinct from the minor's ability to own that parcel?",
+    "options": [
+      {
+        "text": "The minor lacks capacity for that real-property contract.",
+        "explanation": "Section 6701 bars the minor's own real-property contract; inherited ownership does not supply that contracting power."
+      },
+      {
+        "text": "The minor could not have received the inherited title.",
+        "explanation": "Receiving property by inheritance differs from independently contracting to dispose of it.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "The contract needs only a larger earnest-money deposit.",
+        "explanation": "Additional money does not cure this capacity restriction.",
+        "misconceptionId": "remedy-confusion"
+      },
+      {
+        "text": "The restriction applies only to the buyer, not the seller.",
+        "explanation": "Section 6701 concerns the minor's real-property contract, not only purchases.",
+        "misconceptionId": "wrong-exception"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-053",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-four-essentials",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sources": [
+      {
+        "label": "FAM section 7050",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7050."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "An emancipated minor proposes to mortgage an owned parcel. Emancipation is legally established and all requirements apart from age-based capacity are satisfied. What does Family Code 7050 provide for this act?",
+    "options": [
+      {
+        "text": "Emancipation allows sale but never encumbrance.",
+        "explanation": "The listed adult-capacity powers include encumbering property.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "A mortgage is void until the owner reaches eighteen.",
+        "explanation": "That disregards the established emancipation and its specified property powers.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "The minor has adult capacity for the specified transaction.",
+        "explanation": "Section 7050 includes binding contracts and buying, selling, leasing, and encumbering property."
+      },
+      {
+        "text": "Owning the parcel supplies capacity regardless of emancipation.",
+        "explanation": "Ownership alone is not the rule; established emancipation supplies the relevant adult capacity.",
+        "misconceptionId": "wrong-trigger"
       }
     ],
     "answer": 2
+  },
+  {
+    "id": "contracts-054",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-writing-requirements",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 1633.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5."
+      },
+      {
+        "label": "CIV section 1633.7",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A seller has not agreed, expressly or by conduct, to conduct a proposed transaction electronically. The buyer argues that California's recognition of electronic signatures forces the seller to use an electronic platform. Which response is correct?",
+    "options": [
+      {
+        "text": "Electronic signatures never satisfy a real-property writing requirement.",
+        "explanation": "Qualifying electronic records and signatures can satisfy applicable requirements.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "The buyer's platform choice binds both parties.",
+        "explanation": "One party's preference does not establish the other's agreement to electronic dealings.",
+        "misconceptionId": "source-of-authority"
+      },
+      {
+        "text": "The seller must sign electronically and may object after closing.",
+        "explanation": "The Act does not impose this forced-signature procedure.",
+        "misconceptionId": "wrong-clock"
+      },
+      {
+        "text": "Electronic validity does not compel electronic participation.",
+        "explanation": "Section 1633.5 makes agreement to electronic dealing a separate issue from the legal recognition in section 1633.7."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-055",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "offer-and-acceptance",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 1582",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582."
+      },
+      {
+        "label": "CIV section 1583",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1583."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "An ordinary offer authorizes acceptance by properly addressed postal mail and imposes no receipt condition. The offeree timely places an unchanged signed acceptance into that authorized course of transmission before any revocation. The letter is later lost. When is consent ordinarily communicated under section 1583?",
+    "options": [
+      {
+        "text": "Only when the proposer actually reads the letter.",
+        "explanation": "That imports a receipt requirement absent from the stipulated offer.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "When acceptance enters the authorized course of transmission.",
+        "explanation": "Section 1583 links communication to conforming transmission under section 1582."
+      },
+      {
+        "text": "Only after the proposer acknowledges a duplicate.",
+        "explanation": "The stated dispatch rule does not require acknowledgment of another copy.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "Never, because every real-estate acceptance requires receipt.",
+        "explanation": "Express receipt clauses must be honored, but they are not the default for every offer.",
+        "misconceptionId": "wrong-exception"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-056",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-formation",
+    "sectionId": "the-four-essentials",
+    "conceptIds": [
+      "contract-enforceability"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 38",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=38."
+      },
+      {
+        "label": "CIV section 39",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=39."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "The legally established facts show an adult was of unsound mind but not entirely without understanding when contracting, and incapacity had not been judicially determined. Which consequence does Civil Code 39 specify, subject to the applicable rescission rules?",
+    "options": [
+      {
+        "text": "No contract can have any effect under section 38.",
+        "explanation": "Section 38 addresses a person entirely without understanding, which the prompt expressly distinguishes.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "The transaction is subject to rescission.",
+        "explanation": "Section 39 gives this consequence for the stated level of understanding before judicial determination."
+      },
+      {
+        "text": "The agreement is enforceable solely because the party is an adult.",
+        "explanation": "Majority does not eliminate the separate mental-capacity analysis.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "A single imprudent purchase conclusively establishes incapacity.",
+        "explanation": "Section 39's presumption is rebuttable and cannot rest solely on isolated negligence or improvidence.",
+        "misconceptionId": "wrong-trigger"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-057",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "tender-breach-and-time",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sources": [
+      {
+        "label": "Judicial Council, CACI 324, Anticipatory Breach, 2026",
+        "url": "https://courts.ca.gov/system/files/file/judicial_council_of_california_civil_jury_instructions_2026.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Before closing is due, a seller unequivocally states, 'I will not convey under our contract.' The buyer could fulfill the bargain, and no valid excuse or retraction is asserted. Which classification fits this definite advance refusal?",
+    "options": [
+      {
+        "text": "A request for an extension with continued promised performance.",
+        "explanation": "The statement refuses performance rather than proposing a change while keeping the original promise.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "An automatic mutual rescission without the buyer's assent.",
+        "explanation": "One party's refusal does not itself establish mutual agreement to unwind.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "A contingency cancellation requiring no contractual ground.",
+        "explanation": "The stipulated refusal identifies no available cancellation right.",
+        "misconceptionId": "source-of-authority"
+      },
+      {
+        "text": "Anticipatory breach before the performance date.",
+        "explanation": "CACI 324 addresses a clear advance indication that required performance will not occur and the claimant's ability to perform."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-058",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "the-residential-deposit-distinction",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 1678",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1678."
+      },
+      {
+        "label": "CIV section 1677",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A qualifying section 1675 purchase calls for an initial deposit and two later payments, all intended as liquidated damages. The first provision is properly initialed. Besides satisfying section 1675 in total, what does section 1678 require for the two later payments?",
+    "options": [
+      {
+        "text": "A separately signed or initialed qualifying provision for each.",
+        "explanation": "Each subsequent payment needs its own provision satisfying section 1677, separately signed or initialed by each party."
+      },
+      {
+        "text": "Only a new receipt signed by the escrow holder.",
+        "explanation": "An escrow receipt is not the required agreement by each contracting party.",
+        "misconceptionId": "document-effect"
+      },
+      {
+        "text": "One later provision signed by the buyer alone.",
+        "explanation": "The statute requires each party's signature or initials and addresses each subsequent payment.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "No further provision if the original contract listed the amounts.",
+        "explanation": "Listing later amounts does not replace the separate liquidated-damages requirements.",
+        "misconceptionId": "wrong-exception"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": "contracts-059",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-purchase-options-and-leases",
+    "sectionId": "financing-title-and-possession",
+    "conceptIds": [
+      "contract-performance"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 1662",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1662."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "Neither title nor possession has transferred when a fire destroys a material part of the property without the buyer's fault. The purchase contract does not alter Civil Code 1662's default. Which result follows under that default?",
+    "options": [
+      {
+        "text": "The seller can force closing because the contract was signed.",
+        "explanation": "Formation alone does not override the stipulated default casualty allocation.",
+        "misconceptionId": "wrong-trigger"
+      },
+      {
+        "text": "The buyer must pay because possession was not delivered.",
+        "explanation": "That reverses the significance of neither title nor possession having transferred.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "The seller cannot enforce; the buyer may recover price paid.",
+        "explanation": "Section 1662(a) applies to the specified material destruction before either transfer, without buyer fault."
+      },
+      {
+        "text": "The broker chooses how to divide the buyer's deposit.",
+        "explanation": "The statute does not grant the broker unilateral adjudicative authority over funds.",
+        "misconceptionId": "role-confusion"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-060",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "the-residential-deposit-distinction",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 1675",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "At contract formation, an investor intends to rent both units of a duplex and occupy neither. Does the building's residential use alone establish the special section 1675 residential liquidated-damages category?",
+    "options": [
+      {
+        "text": "Yes, because every building with four or fewer units qualifies.",
+        "explanation": "Unit count is only one of the statutory conditions.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "Yes, because tenants' occupancy is treated as the buyer's intent.",
+        "explanation": "The statute tests the buyer's intended residence, not merely someone living there.",
+        "misconceptionId": "role-confusion"
+      },
+      {
+        "text": "No, because a duplex exceeds the statute's unit limit.",
+        "explanation": "A duplex is within the unit limit; the missing condition is buyer occupancy intent.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "No, because the stipulated buyer-residence intent is absent.",
+        "explanation": "Both the dwelling-size and buyer-residence conditions must be met; this alone does not decide another applicable liquidated-damages rule."
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": "contracts-061",
+    "revision": 2,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "residential-listings-have-their-own-duration-limits",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sources": [
+      {
+        "label": "CIV section 1670.12",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "An individual's covered residential exclusive listing ends after a lawful 24-month initial term. All parties then sign and date a new 12-month renewal, with no automatic renewal or recording provision and no other violation. Does the combined 36-month history alone violate the statute's duration limits?",
+    "options": [
+      {
+        "text": "Yes; initial and renewal terms must total no more than 24 months.",
+        "explanation": "The statute states separate initial and renewal limits rather than this combined cap.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "No; the initial and renewal limits are separate.",
+        "explanation": "The stipulated 24-month initial term and 12-month signed renewal meet their respective duration limits."
+      },
+      {
+        "text": "Yes; a listing renewal may last no more than three months.",
+        "explanation": "That imports the separate buyer-broker agreement limit into a residential listing renewal.",
+        "misconceptionId": "misclassification"
+      },
+      {
+        "text": "No; any renewal length is allowed after a lawful initial term.",
+        "explanation": "Covered renewals remain subject to the 12-month limit.",
+        "misconceptionId": "wrong-exception"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": "contracts-062",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-representation-agreements",
+    "sectionId": "advance-fees-are-not-ordinary-earned-commissions",
+    "conceptIds": [
+      "representation-agreements"
+    ],
+    "sources": [
+      {
+        "label": "BPC section 10026",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10026."
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "A broker promises one integrated future listing service, then labels its first unfinished stage a separate completed task solely to collect early and avoid advance-fee rules. No statutory exclusion applies. What does section 10026 say about this device?",
+    "options": [
+      {
+        "text": "A separate invoice conclusively establishes an earned-service exclusion.",
+        "explanation": "A label or invoice does not establish the statutory facts for a genuine exclusion.",
+        "misconceptionId": "document-effect"
+      },
+      {
+        "text": "Any task allocation automatically defeats advance-fee treatment.",
+        "explanation": "The statute prohibits division for the purpose of avoiding its application.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "Dividing the fee or services to evade the rules is prohibited.",
+        "explanation": "A genuine qualifying completed limited-service task differs from this stipulated artificial division."
+      },
+      {
+        "text": "Client consent alone removes the service from licensing regulation.",
+        "explanation": "Consent does not create an exclusion that the governing statute withholds.",
+        "misconceptionId": "source-of-authority"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": "contracts-063",
+    "revision": 1,
+    "pool": "practice",
+    "domain": "contracts",
+    "lessonSlug": "contracts-performance-and-remedies",
+    "sectionId": "damages-and-specific-performance",
+    "conceptIds": [
+      "contract-remedies"
+    ],
+    "sources": [
+      {
+        "label": "DRE reference, dispute resolution, printed page 486",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref20.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    },
+    "prompt": "After mediation of a purchase dispute, both parties sign an otherwise enforceable written settlement allocating their obligations. One party claims mediation can never produce a binding result because the mediator cannot impose a decision. Which distinction is correct?",
+    "options": [
+      {
+        "text": "An agreed settlement can bind even though the mediator cannot impose it.",
+        "explanation": "The parties' settlement agreement, rather than a unilateral mediator ruling, supplies the stated binding result."
+      },
+      {
+        "text": "The settlement becomes binding only if the mediator changes roles.",
+        "explanation": "The stated agreement does not require converting the mediator into an arbitrator.",
+        "misconceptionId": "role-confusion"
+      },
+      {
+        "text": "Only an arbitration award can resolve a contractual dispute.",
+        "explanation": "Parties can resolve a dispute by a valid agreed settlement.",
+        "misconceptionId": "wrong-exception"
+      },
+      {
+        "text": "The mediator's signature replaces both parties' agreement.",
+        "explanation": "A neutral's signature is not the source of the parties' stipulated contractual assent.",
+        "misconceptionId": "source-of-authority"
+      }
+    ],
+    "answer": 0
   }
 ]

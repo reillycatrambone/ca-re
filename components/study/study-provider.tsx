@@ -1,23 +1,11 @@
 'use client'
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
-import type { StudySession } from '@/lib/exam'
+import { studySessionSchema, type StudySession } from '@/lib/exam'
 import { z } from 'zod'
 
-const sessionSchema = z.object({
-  id: z.string(),
-  mode: z.enum(['practice', 'exam']),
-  questionIds: z.array(z.string()).min(1),
-  answers: z.record(z.string(), z.number().int().min(0).max(3)),
-  checked: z.array(z.string()),
-  flags: z.array(z.string()),
-  current: z.number().int().min(0),
-  startedAt: z.number(),
-  expiresAt: z.number().nullable(),
-  finishedAt: z.number().nullable(),
-})
 const schema = z.object({
-  session: sessionSchema.nullable(),
+  session: studySessionSchema.nullable(),
 })
 export interface StudyState {
   session: StudySession | null
@@ -40,9 +28,16 @@ export function StudyProvider({ children }: { children: ReactNode }) {
   const [storageError, setStorageError] = useState<string | null>(null)
   useEffect(() => {
     const restore = (stored: string | null) => {
-      const restored = stored ? schema.parse(JSON.parse(stored)) : emptyStudy
+      let restored = emptyStudy
+      try {
+        restored = stored ? schema.parse(JSON.parse(stored)) : emptyStudy
+      } catch {
+        setStorageError(
+          'The saved session uses an older or invalid question set. Start a new session.'
+        )
+      }
       setState(restored)
-      // Rewrite older records without retaining their retired tracking fields.
+      // Retire unverifiable sessions and strip old tracking without retaining a second copy.
       if (stored && JSON.stringify(restored) !== stored) {
         try {
           localStorage.setItem(storageKey, JSON.stringify(restored))
@@ -56,9 +51,7 @@ export function StudyProvider({ children }: { children: ReactNode }) {
     try {
       restore(localStorage.getItem(storageKey))
     } catch {
-      setStorageError(
-        'The saved practice session could not be loaded. You can start a new session.'
-      )
+      setStorageError('Browser storage is unavailable. This session will last for this visit only.')
     }
     setReady(true)
     const sync = (event: StorageEvent) => {

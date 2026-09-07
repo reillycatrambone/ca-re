@@ -8,15 +8,26 @@ test('all chapters render their anchored teaching figure without mobile overflow
   await page.setViewportSize({ width: 320, height: 844 })
   const errors: string[] = []
   page.on('pageerror', (error) => errors.push(error.message))
-  for (const figure of learningFigures) {
-    await page.goto(`/docs/${figure.lessonSlug}/#${figure.id}`)
+  let chapter = ''
+  for (const figure of learningFigures.toSorted((a, b) => a.lessonSlug.localeCompare(b.lessonSlug))) {
+    if (chapter !== figure.lessonSlug) {
+      await page.goto(`/docs/${figure.lessonSlug}/`)
+      chapter = figure.lessonSlug
+    }
     const visual = page.locator(`figure#${figure.id}`)
     await expect(visual).toBeVisible()
     await expect(visual).toHaveAccessibleName(figure.title)
     await expect(visual.locator('figcaption')).toContainText(figure.caption)
-    const precedingSection = await visual.evaluate((element) => {
-      return element.closest<HTMLElement>('[data-reading-section]')?.dataset.readingSection
-    })
+    const precedingSection = await visual.evaluate((element, anchor) => {
+      const heading = document.getElementById(anchor)!
+      const selector = heading.tagName === 'H2' ? 'h2[id]' : 'h2[id], h3[id]'
+      return [...document.querySelectorAll(selector)]
+        .filter(
+          (candidate) =>
+            candidate.compareDocumentPosition(element) & Node.DOCUMENT_POSITION_FOLLOWING
+        )
+        .at(-1)?.id
+    }, figure.afterSection)
     expect(precedingSection).toBe(figure.afterSection)
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
     expect(await visual.evaluate((element) => element.scrollWidth <= element.clientWidth + 1)).toBe(
@@ -105,10 +116,11 @@ test('figure-specific search opens its in-text anchor', async ({ page }) => {
   await expect(page.locator('#fixture-evidence')).toBeVisible()
 })
 
-test('legacy study records retain the active session and remove all retired tracking', async ({
+test('legacy study records invalidate unverifiable answers and remove retired tracking', async ({
   page,
 }) => {
-  await page.goto('/')
+  await page.goto('/practice/')
+  await expect(page.getByRole('button', { name: 'Start practice', exact: true })).toBeVisible()
   await page.evaluate(() =>
     localStorage.setItem(
       'ca-re:study:v1',
@@ -132,19 +144,21 @@ test('legacy study records retain the active session and remove all retired trac
       })
     )
   )
-  await page.goto('/practice/')
-  await expect(page.locator('.session-question-meta')).toContainText('Question 1 of 2')
-  await expect(page.locator('.question-option input').first()).toBeChecked()
-  await expect(page.locator('.question-option').first()).toContainText('80%.')
+  await page.reload()
+  await expect(page.locator('.session-question-meta')).toHaveCount(0)
+  await expect(
+    page.getByText('The saved session uses an older or invalid question set. Start a new session.')
+  ).toBeVisible()
+  await expect(page.getByRole('button', { name: 'Start practice', exact: true })).toBeVisible()
   const migrated = await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))
-  expect(Object.keys(migrated)).toEqual(['session'])
-  expect(migrated.session.questionIds).toEqual(['financing-001', 'financing-002'])
-  expect(migrated.session.flags).toEqual(['financing-001'])
+  expect(migrated).toEqual({ session: null })
+  await page.getByRole('button', { name: 'Start practice', exact: true }).click()
   await page.getByRole('button', { name: 'Next', exact: true }).click()
   await page.reload()
-  await expect(page.locator('.session-question-meta')).toContainText('Question 2 of 2')
+  await expect(page.locator('.session-question-meta')).toContainText('Question 2 of 10')
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('ca-re:study:v1')!))
-  expect(saved.session.answers).toEqual({ 'financing-001': 0 })
-  expect(saved.session.startedAt).toBe(migrated.session.startedAt)
+  expect(saved.session.version).toBe(2)
+  expect(saved.session.answers).toEqual({})
+  expect(saved.session.questionIds).not.toEqual(['financing-001', 'financing-002'])
   expect(Object.keys(saved)).toEqual(['session'])
 })

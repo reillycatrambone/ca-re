@@ -1,0 +1,635 @@
+[
+  {
+    "id": "review-financing-transfer-questions",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/audit_practice_agency (not the question author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read every stem, key, all four options and explanations, concept and source metadata for financing-001 through financing-057 and transfer-001 through transfer-052. Recalculated stated arithmetic and date problems against relevant current primary sources. Final question artifacts were confirmed after two source-precision corrections.",
+    "sourceUrls": [
+      "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+      "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/",
+      "https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/",
+      "https://www.consumerfinance.gov/ask-cfpb/can-anyone-take-out-a-reverse-mortgage-loan-en-227/",
+      "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d.",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/",
+      "https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/",
+      "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+      "https://www.dre.ca.gov/Licensees/MLOLicense.html",
+      "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/credit-discrimination-is-illegal/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+      "https://www.dre.ca.gov/files/pdf/relaw/relaw.pdf#page=66",
+      "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+      "https://www.hud.gov/sites/dfiles/OCHCO/documents/92564-CN.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=14.&part=4.&chapter=2.&article=1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924c.",
+      "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2015MLDS%20and%20Loan%20Estimate%20Advisory.pdf",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-negative-amortization-en-103/",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1024/41/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2923.55.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2924b.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=9.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=726.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=729.030.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1040.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=2.&title=4.&part=4.&chapter=1.&article=3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=686.",
+      "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+      "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/",
+      "https://www.irs.gov/publications/p544",
+      "https://www.irs.gov/publications/p551",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911.",
+      "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+      "https://www.irs.gov/publications/p523",
+      "https://www.ftb.ca.gov/forms/misc/1016.html",
+      "https://selfhelp.courts.ca.gov/probate",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16226",
+      "https://servicing-guide.fanniemae.com/svc/d2-3.3-02/fannie-mae-mortgage-release-deed-lieu-foreclosure",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+      "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+      "https://www.irs.gov/irm/part3/irm_03-022-261r",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=PROB&division=7.&title=&part=6.&chapter=3.&article=2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+      "https://www.consumerfinance.gov/about-us/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+      "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.",
+      "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm",
+      "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm",
+      "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm",
+      "https://www.boe.ca.gov/proptaxes/supplemental-assessment/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41."
+    ],
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "financing-001",
+        "digest": "07a146b5736e0dc43c5c5155cf6f8c33cf587b39a585b1180a69407be9e00b69"
+      },
+      {
+        "kind": "question",
+        "id": "financing-002",
+        "digest": "f0e445bf58d530a058c4cbb90a63b8c28a5b9c3c1aff3b10f1d2e695893e1b1f"
+      },
+      {
+        "kind": "question",
+        "id": "financing-003",
+        "digest": "2f19d85a0ca1c44499931c662a833bb536256e453a72c3272288447b8bd8287c"
+      },
+      {
+        "kind": "question",
+        "id": "financing-004",
+        "digest": "cca6a2812671bbfc98bf0da3cb481c80e96bd54236482daffa5af77297337e8e"
+      },
+      {
+        "kind": "question",
+        "id": "financing-005",
+        "digest": "332af7da355973af9e42e175e3a0e706a04d0e9659ecef884e3ab8aeaa826ca2"
+      },
+      {
+        "kind": "question",
+        "id": "financing-006",
+        "digest": "c6acb8e3e02a1224b539ca4b1065c65d363f1f7a518bb5810b6e6fe7cfce0813"
+      },
+      {
+        "kind": "question",
+        "id": "financing-007",
+        "digest": "9baa89cd8d4194bd9d6810413af6a3c5fad01a07a3b91dd0b6397d057e7d9914"
+      },
+      {
+        "kind": "question",
+        "id": "financing-008",
+        "digest": "b70c5cb4365c217d57d319281b66028a33807ed718aab1a5cdb2b1e5ce99fbac"
+      },
+      {
+        "kind": "question",
+        "id": "financing-009",
+        "digest": "e69e09559f5e59a008d12bab6fab81d2f94ad10233aa0fb71711feedf5bcff7a"
+      },
+      {
+        "kind": "question",
+        "id": "financing-010",
+        "digest": "8a7ea9b9c723ebdecc8848ad253cfd576e509ce61c51b22d40229d3d68d93345"
+      },
+      {
+        "kind": "question",
+        "id": "financing-011",
+        "digest": "3bdd20b66b8dc743502e211f9cdc4d1718b68e103b7af3bcce33202804c76e3a"
+      },
+      {
+        "kind": "question",
+        "id": "financing-012",
+        "digest": "27a41814e0d98d96acd75c7bc441f4a609302c6d8e1287e1d9c4185e9c598a25"
+      },
+      {
+        "kind": "question",
+        "id": "financing-013",
+        "digest": "977b0468b3e2a53990f20d187aa15ab54d6033bace9c96b8f45c38ea4fc3f4ca"
+      },
+      {
+        "kind": "question",
+        "id": "financing-014",
+        "digest": "38ea3e9fd4c25e436d26f440f58127476e9e3389085b8dc6edf969b942af916c"
+      },
+      {
+        "kind": "question",
+        "id": "financing-015",
+        "digest": "850768c66808504ea9d8f19fb287571aaecdc959a4a82da5f7afa809de13d2da"
+      },
+      {
+        "kind": "question",
+        "id": "financing-016",
+        "digest": "ca8255cdebbf27b70ed96cd5072411332c0deb8e297cb4839213c897208db022"
+      },
+      {
+        "kind": "question",
+        "id": "financing-017",
+        "digest": "88d175e081cadde5ca76d6b25a55394af9fa79f2bf29a7f037edc9f6f214c9eb"
+      },
+      {
+        "kind": "question",
+        "id": "financing-018",
+        "digest": "66626c739f3f31bae10910e770523442ede77afbdebc714dc0065b691044277d"
+      },
+      {
+        "kind": "question",
+        "id": "financing-019",
+        "digest": "a4d191957bcfb30fa0500997884896b13e73f867c6557eb1b6d422d58d3dcb40"
+      },
+      {
+        "kind": "question",
+        "id": "financing-020",
+        "digest": "f68433dd3ba4c55036062f7f93f84560d2ec1959123a3410469fa3938d34a177"
+      },
+      {
+        "kind": "question",
+        "id": "financing-021",
+        "digest": "19a766318731abe98871f5eac947e7925803a99e370bc47564ddbd270d7f77b9"
+      },
+      {
+        "kind": "question",
+        "id": "financing-022",
+        "digest": "60f1aef8f856de5d42515c4c433bee07b124c2cdbc86c99439b13008ed216d9e"
+      },
+      {
+        "kind": "question",
+        "id": "financing-023",
+        "digest": "9dee1d574f8c703c7a335ccfc4e21f11642963501d85707f80013d23e10add11"
+      },
+      {
+        "kind": "question",
+        "id": "financing-024",
+        "digest": "3f322b155c5f5f3802c454d801ec48cf60a59e2f64633f1edcb5c2f2f923eb56"
+      },
+      {
+        "kind": "question",
+        "id": "financing-025",
+        "digest": "19345baf34105092a27fc646add24a68adb166b2dc3196b46bc6ffd051b9721c"
+      },
+      {
+        "kind": "question",
+        "id": "financing-026",
+        "digest": "f1efc83a77d7c0e8142fedada82edc419dc255e3000e87cc6b84cade28e75960"
+      },
+      {
+        "kind": "question",
+        "id": "financing-027",
+        "digest": "fddac6a559bd90cc9578f5e508d7766fbbd4388e65d240bc760b91010c887d49"
+      },
+      {
+        "kind": "question",
+        "id": "financing-028",
+        "digest": "a66106946a48a13737a34c3546a2c377894c7ba0e1783593f4e8ee0d282a0793"
+      },
+      {
+        "kind": "question",
+        "id": "financing-029",
+        "digest": "8ff2597b9f8f94854c062544fcc8cd3f27ecaae6e2de83b64632e0ab74a58025"
+      },
+      {
+        "kind": "question",
+        "id": "financing-030",
+        "digest": "b13f7c06a57064a60a975b0ae91f73151c1f100790d53d95804928d658f59ee4"
+      },
+      {
+        "kind": "question",
+        "id": "financing-031",
+        "digest": "117f2862a27e9cbae6909c787607c1e32a26403231f41030853d80ee7d3be3f0"
+      },
+      {
+        "kind": "question",
+        "id": "financing-032",
+        "digest": "57d95d92e9e40a224c0ad60682bf7f0de761e0906aba475853026890932d1fc3"
+      },
+      {
+        "kind": "question",
+        "id": "financing-033",
+        "digest": "123e2e7f83faf88a8fe8f79c75238b25919bc2d52098f7ad40776b6993235578"
+      },
+      {
+        "kind": "question",
+        "id": "financing-034",
+        "digest": "cad7c9aab06c5a676d0961abde59d1e1e1d384ff6417c328692efe16f6ef6a39"
+      },
+      {
+        "kind": "question",
+        "id": "financing-035",
+        "digest": "c7c4180a270e48a8be11f8abe19fb5d4e85e7317b5162b57ff8df5156e6854bf"
+      },
+      {
+        "kind": "question",
+        "id": "financing-036",
+        "digest": "de3f903a82ca10ac8fd7940775339344b2ff47393c221f224a276e77f9a44159"
+      },
+      {
+        "kind": "question",
+        "id": "financing-037",
+        "digest": "1c2596cbe61077279ac196735c6422d249c54fa3c693cd9eafbd81a7d22132f8"
+      },
+      {
+        "kind": "question",
+        "id": "financing-038",
+        "digest": "621c378b1c3d7fd7bad29adb7b9dda2819c7fe82bdc05af5e35a065c57b93d4d"
+      },
+      {
+        "kind": "question",
+        "id": "financing-039",
+        "digest": "e34c0afb915d88d5f8b3c9cef9488f274d8e4fc5fe779ac77cc631401596c2d6"
+      },
+      {
+        "kind": "question",
+        "id": "financing-040",
+        "digest": "7a7f558020761ba81ac1c3bc17104c33fe0d5001c41089596fbb449dcd5d0cb6"
+      },
+      {
+        "kind": "question",
+        "id": "financing-041",
+        "digest": "2b7e23bd4d3506442d68dab033531ada3ba22247801bd0371f099aa9483416fe"
+      },
+      {
+        "kind": "question",
+        "id": "financing-042",
+        "digest": "d30d7367f68449ee292fa5cddeab11222bbc686e743f403308f8051ba92c47de"
+      },
+      {
+        "kind": "question",
+        "id": "financing-043",
+        "digest": "df8959b60b19a03b1191eeaaac83466d68defad47cc976a10ad452395cee4c05"
+      },
+      {
+        "kind": "question",
+        "id": "financing-044",
+        "digest": "45d6d793a33eda49724a5cac47bf3413e77f58e657421e21242b4133c6b0e3ec"
+      },
+      {
+        "kind": "question",
+        "id": "financing-045",
+        "digest": "3cbbaf747ce8f253e24e12f545c07e3eee26053e4e492ed6a196f8cba1039dd4"
+      },
+      {
+        "kind": "question",
+        "id": "financing-046",
+        "digest": "8150b69ddef2c5ad82731d9c4278441c7d2cdac95748267c2b3f2fa5d19b87d7"
+      },
+      {
+        "kind": "question",
+        "id": "financing-047",
+        "digest": "97240ce1918ed0514fc39d86dce1370d899f3385a9376e9ffca1209b50224930"
+      },
+      {
+        "kind": "question",
+        "id": "financing-048",
+        "digest": "860f314c9096b7227a7a5d4c6e9000f27a45598e110312c39a620468ec623303"
+      },
+      {
+        "kind": "question",
+        "id": "financing-049",
+        "digest": "2c0c3f84ee3c37ea9b1266037414ec3349e77299dd24120ece066b007a4714f7"
+      },
+      {
+        "kind": "question",
+        "id": "financing-050",
+        "digest": "25fec144014da970bbb598cbb663969ab27f50f589f5dd08e25adc46ac711ebf"
+      },
+      {
+        "kind": "question",
+        "id": "financing-051",
+        "digest": "82a279502fa04bda19ab2862fe8006763abfd161f947cfdcb87aefd0f76cf9ce"
+      },
+      {
+        "kind": "question",
+        "id": "financing-052",
+        "digest": "9d98f0aee6a485d8a6c4fcf5a689c989d0c6d77c180a631bdc3f4b93414e26fa"
+      },
+      {
+        "kind": "question",
+        "id": "financing-053",
+        "digest": "c06e73aba32d527aaf810a416c8cbfae9d6169462d613d770cb9a38da068f4ea"
+      },
+      {
+        "kind": "question",
+        "id": "financing-054",
+        "digest": "b63e856d4ce22fb5a78ab8eab3466f98709f04613d00940074146519f774e1c5"
+      },
+      {
+        "kind": "question",
+        "id": "financing-055",
+        "digest": "473d3a1216fec9e548224a714f47a2b43f3c8d2edff4e28565a0b09dce7d18a9"
+      },
+      {
+        "kind": "question",
+        "id": "financing-056",
+        "digest": "79520ebb9cca2a88123a2b7b27cf35784c8ea0882d422a6de27ececeb743bb5d"
+      },
+      {
+        "kind": "question",
+        "id": "financing-057",
+        "digest": "fec021543f764a5ab5624cdec6b7d035763ce312b1847ab9a05b578e2972282d"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-001",
+        "digest": "796feabcf15e14d6ba3905f0c229648f5bce2f7333d3c216bd65430c8c0ac1e6"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-002",
+        "digest": "66f00d31b3f626d420d1fa69eb8de5acf00d975ee5a7c2ca1c079b4bb06b69a6"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-003",
+        "digest": "eaac176f1bda41607d877cadd7e4770bdcbadd90f3de5fc1969cb74cb8b6f9a0"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-004",
+        "digest": "ae2661394128c4a968e58152e0729ff58866c9eeb732a4d4ecb3b095abe624f2"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-005",
+        "digest": "b5b74120287df741f49ac56bf954a5b05624a5a76a81cb7b2e79db7f58b39738"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-006",
+        "digest": "0563c92af6b5bde869feb4d6523ce4bfd64792da0e998bbbcfa6bd136dd09ca0"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-007",
+        "digest": "297aec41cb39a6df20c495e14b762845d03204dedaf50dc813f507f2e5b03f68"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-008",
+        "digest": "2886ea866a16b044688e0cb3cbb5ebf6db2280cc0480f15d7bc7ee6c1f8f3354"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-009",
+        "digest": "aab643787d0927954903967d69c2c34493a2a731c374ce5942ba4ae265a3772f"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-010",
+        "digest": "b8cd72d07ea33f579169929b6255010b0dd07b3d5629d2a34df7f4c6a546d9d7"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-011",
+        "digest": "d410c412497817a036be8352845d9261f744097bca540aa132197adf96e585f7"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-012",
+        "digest": "13786aafafd6d47bfc718894654c01d3ddaa4e31582d7438d1347b3135a921bd"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-013",
+        "digest": "128410115e35a2b9b15fed03811263fddb4e08cd35078260080f0fc2f5a48a52"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-014",
+        "digest": "751d24f8c3e9bdfac86597757ea7dece8e17e0e084793bce23bc850da1cf77ca"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-015",
+        "digest": "3d079c60220a319dbce26a58feca5c33a256a02d917f632305fb8b398fcd4a35"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-016",
+        "digest": "9c232b2fa0cdaadb2f7ab5014011a6f2094fc0f3d96d7e47506873500a3e1926"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-017",
+        "digest": "edd33227b8dc4b66d0a875ebaa35cab6b87d6a9760f81fd563d3a1abbda6e7ec"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-018",
+        "digest": "ffbc18b41d7eb15e21342bcef735e462c200cd2823193e93dc6ba3c3703e55db"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-019",
+        "digest": "1d0cbfd72e5533917dde05c3a3100446a1c9bf9aa181889004b6df497088b90c"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-020",
+        "digest": "f60a8084bb9b97963680a5a6ae89d1330602695c122b8fb950f5327be15bc167"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-021",
+        "digest": "1111f2e3b1ab3e2f3647b428507326752fc557af6be4e9943f6121702c41ba70"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-022",
+        "digest": "784a83f96e674209b02b42f6e9010f0d4fc53a93a349b9f20f82ea90387d1c9c"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-023",
+        "digest": "42cb125d819710f3bd5c618562fa4471897f523a7af3b4045d87a775a9179263"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-024",
+        "digest": "0565e61536ec31d30f2e96211649aff8efb40b7c9a4cf6e38520389182211bd8"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-025",
+        "digest": "b2a890792d3b4f1c36f3396c154e9afc977442df21e68160bcadb2181dcc63b2"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-026",
+        "digest": "49dafc73676b566cece6c5f6a80e6bca59ba1c0266475386ea5ac5e78f27ada2"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-027",
+        "digest": "80a9411037a461824e667c752972df85937d36eeb56b97a39beb01743b090693"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-028",
+        "digest": "9358f35d3a82e3aad43576f93ba483756e40598817603cfb09d49166815ba99d"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-029",
+        "digest": "1763eeffee1295101dc7f56e2f3df1e6048d08c3ecc36ed351946b93302a17c3"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-030",
+        "digest": "ffae4dd84cb366d816b9dfa093162faf37619e4a0b70c74cbc4ca0a73d4438ea"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-031",
+        "digest": "6ef6915e26d7316dcb83b2a1502c7a4c99428d44a97f575c32bcde683e54206d"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-032",
+        "digest": "2dd2a9b53adcde32d7479e4161ce10900e34fddf4518d0b5da088d99dd910235"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-033",
+        "digest": "726bed9ec0da2328edc4c2271c197b728ee6f970a43bac057953b2f9e2121f10"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-034",
+        "digest": "6c17ef654e5ab1cbef8313daff70609222b4264d3f95f8c263bf4515931bd067"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-035",
+        "digest": "6f458cddb99c1d3f47774e6f4cce7b402c0150cae2874efa144065d6311cae65"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-036",
+        "digest": "79c8102fb71035f73ee224f50f95ecd3b8de6432ed785a5af8e9e9d9d6623504"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-037",
+        "digest": "b3ab4a0bb1befb0c848ae8a5b7b2a068d8b17a660737213db6038fb3fec073d0"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-038",
+        "digest": "154bca4ff23c701d3280a976c12e69fd02e9d96a93e3197660b2525c73d78789"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-039",
+        "digest": "06a09df796b4c4eccf4110d0de929dae710a44c52197b24906e3527f6efc6676"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-040",
+        "digest": "bce4be5063c18892f8d0c4e510dffea742e78e243bfe978741fac25e125975ca"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-041",
+        "digest": "af4bef2841c813e8359711aaab83b57d24095172fa9b08a2167ad59aaa58c286"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-042",
+        "digest": "660f03a4d8942589bec432cc4c0443181fb19be6c51bfd0a7b7c7e6d4755b882"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-043",
+        "digest": "6f4e98d66e1299a17e35a764765a0c9589b3da6efb51d590135b3f135c04388e"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-044",
+        "digest": "c92e7f17c0713c01f32d3d2063addfae2e21b4f097da1faa501544b5699c5408"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-045",
+        "digest": "1aa42e72421c215c7241c898f3dfa606b920ad028c513dbe76745e30193aff8a"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-046",
+        "digest": "001830cf499b2744fbb78016dce568168a7d2ef0a0e71e6bb25189c96275b6fb"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-047",
+        "digest": "5d5b0aa3f2b874bd427c254210d4d510689a0f02013ead8acc220f399351159b"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-048",
+        "digest": "ca1a0b9366b14a7e9a08c54bf41fd72d1cc8f769033a126c9419017d71b6d876"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-049",
+        "digest": "e365eb528550479f4063f2367e6b9abed38febddd658f30f1445c2428ac01d99"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-050",
+        "digest": "3f7ae9b3e57723bd6ac69973b61d488bb8ac019aac0fd598da0d5a5651aecbd2"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-051",
+        "digest": "a846ff52c03afc9fe4e7962cbf5fabf7c58bb2737c790539c987bffae63e7744"
+      },
+      {
+        "kind": "question",
+        "id": "transfer-052",
+        "digest": "d5e1a60cb089ca1e1d08fdee0c330ca3ff4f6eaff05afae7d0ec1b7f72e285e9"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Transfer-003 needed a direct supporting reference for ordinary quitclaim deed scope.",
+        "resolution": "Added DRE Transfer of Interests ref07 to the question sources and registered it in the deed chapter; reviewer reread the corrected question."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Transfer-030 needed a direct current source for the qualifying residence FIRPTA ten-percent category.",
+        "resolution": "Added IRS Internal Revenue Manual 3.22.261.1.1.1(8) to the question sources and chapter source registry; reviewer confirmed the corrected artifact."
+      }
+    ],
+    "limitations": "Independent AI source review, not qualified human legal or appraisal review. Does not certify chapter-wide completeness, rendering, empirical difficulty, live DRE questions, or exceptions outside the stated scenarios."
+  }
+]

@@ -1,9 +1,19 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowLeft, ArrowRight, Clock3, Flag, Grid2X2, Play, X } from 'lucide-react'
-import { domains, examSpec, type Question } from '@/lib/curriculum'
-import { buildExam, shuffle, type StudySession } from '@/lib/exam'
+import { ArrowLeft, ArrowRight, ChevronDown, Clock3, Flag, Grid2X2, Play, X } from 'lucide-react'
+import { domains, type DomainId, type Question } from '@/lib/curriculum'
+import {
+  amendStudySession,
+  buildExam,
+  buildPractice,
+  createStudySession,
+  getExamForms,
+  getPracticeConcepts,
+  sessionMatchesQuestions,
+  type ExamForm,
+  type StudySession,
+} from '@/lib/exam'
 import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import {
@@ -15,21 +25,31 @@ import {
 } from '@/components/ui/dialog'
 import { cn } from '@/lib/utils'
 import { toggleItem, useStudy } from './study-provider'
-import { QuestionCard } from './question-card'
+import { focusQuestionPrompt, QuestionCard } from './question-card'
 import { ExamResults } from './exam-results'
 
 export function Practice({ bank }: { bank: Question[] }) {
   const { state, update, ready } = useStudy()
-  const [domain, setDomain] = useState('all')
+  const [domain, setDomain] = useState<DomainId | 'all'>('all')
   const [count, setCount] = useState('10')
+  const [concept, setConcept] = useState('all')
+  const [examForm, setExamForm] = useState<ExamForm>('exam-a')
   const [confirmFinish, setConfirmFinish] = useState(false)
   const [mapOpen, setMapOpen] = useState(false)
   const navigatorTrigger = useRef<HTMLButtonElement>(null)
   const finishTrigger = useRef<HTMLButtonElement>(null)
+  const prompt = useRef<HTMLHeadingElement>(null)
+  const navigatorSelected = useRef(false)
   const [now, setNow] = useState(0)
   const [startError, setStartError] = useState('')
   const session = state.session
   const bankMap = useMemo(() => new Map(bank.map((q) => [q.id, q])), [bank])
+  const forms = useMemo(() => getExamForms(bank), [bank])
+  const concepts = useMemo(() => getPracticeConcepts(bank, domain), [bank, domain])
+  const selectedConcept = concepts.some((entry) => entry.id === concept) ? concept : 'all'
+  const selectedForm =
+    forms.find((form) => form.id === examForm && form.available) ??
+    forms.find((form) => form.available)
   const questions = useMemo(
     () =>
       session
@@ -40,10 +60,18 @@ export function Practice({ bank }: { bank: Question[] }) {
         : [],
     [session?.questionIds, bankMap]
   )
+  const sessionValid = session ? sessionMatchesQuestions(session, questions) : false
+  useEffect(() => {
+    if (sessionValid && !session?.finishedAt && !navigatorSelected.current)
+      focusQuestionPrompt(prompt.current)
+  }, [session?.id, session?.current, sessionValid])
   const finish = () => {
     update((s) => {
       if (!s.session || s.session.finishedAt) return s
-      const finished = { ...s.session, finishedAt: Date.now() }
+      const finished = amendStudySession(s.session, (current) => ({
+        ...current,
+        finishedAt: Date.now(),
+      }))
       return {
         session: finished,
       }
@@ -52,39 +80,35 @@ export function Practice({ bank }: { bank: Question[] }) {
     window.scrollTo({ top: 0 })
   }
   useEffect(() => {
-    if (!session || session.finishedAt || !session.expiresAt) return
+    if (!session || !sessionValid || session.finishedAt || !session.expiresAt) return
     setNow(Date.now())
     const timer = setInterval(() => setNow(Date.now()), 1000)
     return () => clearInterval(timer)
-  }, [session?.id, session?.finishedAt, session?.expiresAt])
+  }, [session?.id, session?.finishedAt, session?.expiresAt, sessionValid])
   useEffect(() => {
-    if (session?.expiresAt && !session.finishedAt && now >= session.expiresAt) finish()
-  }, [now, session?.expiresAt, session?.finishedAt])
+    if (sessionValid && session?.expiresAt && !session.finishedAt && now >= session.expiresAt)
+      finish()
+  }, [now, session?.expiresAt, session?.finishedAt, sessionValid])
   const start = (mode: StudySession['mode']) => {
     try {
+      if (mode === 'exam' && !selectedForm) throw new Error('No exam form is ready')
       const selected =
         mode === 'exam'
-          ? buildExam(bank)
-          : shuffle(bank.filter((q) => domain === 'all' || q.domain === domain)).slice(
-              0,
-              Number(count)
-            )
+          ? buildExam(bank, selectedForm!.id)
+          : buildPractice(bank, domain, Number(count), {
+              conceptId: selectedConcept === 'all' ? undefined : selectedConcept,
+            })
       if (!selected.length) throw new Error('No questions are available for this selection.')
       const startedAt = Date.now()
+      const nextSession = createStudySession({
+        questions: selected,
+        mode,
+        examForm: mode === 'exam' ? selectedForm!.id : null,
+        now: startedAt,
+      })
       update((s) => ({
         ...s,
-        session: {
-          id: crypto.randomUUID(),
-          mode,
-          questionIds: selected.map((q) => q.id),
-          answers: {},
-          checked: [],
-          flags: [],
-          current: 0,
-          startedAt,
-          expiresAt: mode === 'exam' ? startedAt + examSpec.durationMinutes * 60_000 : null,
-          finishedAt: null,
-        },
+        session: nextSession,
       }))
       setNow(startedAt)
       setStartError('')
@@ -95,13 +119,7 @@ export function Practice({ bank }: { bank: Question[] }) {
   const amend = (fn: (current: StudySession) => StudySession) =>
     update((s) => {
       if (!s.session || s.session.finishedAt) return s
-      if (s.session.expiresAt && Date.now() >= s.session.expiresAt) {
-        const finished = { ...s.session, finishedAt: s.session.expiresAt }
-        return {
-          session: finished,
-        }
-      }
-      return { ...s, session: fn(s.session) }
+      return { ...s, session: amendStudySession(s.session, fn) }
     })
   if (!ready)
     return (
@@ -109,7 +127,7 @@ export function Practice({ bank }: { bank: Question[] }) {
         Loading study session...
       </p>
     )
-  if (session && (questions.length !== session.questionIds.length || !questions.length))
+  if (session && !sessionValid)
     return (
       <div>
         <h1>Question set updated</h1>
@@ -138,7 +156,11 @@ export function Practice({ bank }: { bank: Question[] }) {
           Study / {session.mode === 'exam' ? 'Timed examination' : 'Topic practice'}
         </div>
         <div className="session-header">
-          <h2>{session.mode === 'exam' ? 'Practice examination' : 'Topic practice'}</h2>
+          <h2>
+            {session.mode === 'exam'
+              ? `Practice examination: ${forms.find((form) => form.id === session.examForm)?.label}`
+              : 'Topic practice'}
+          </h2>
           {session.mode === 'exam' && (
             <span className="session-timer" aria-label="Time remaining">
               <Clock3 size={16} />
@@ -164,6 +186,8 @@ export function Practice({ bank }: { bank: Question[] }) {
         </div>
         <QuestionCard
           question={question}
+          promptRef={prompt}
+          optionOrder={session.optionOrders[question.id]}
           selected={session.answers[question.id]}
           revealed={revealed}
           onSelect={(answer) =>
@@ -240,6 +264,12 @@ export function Practice({ bank }: { bank: Question[] }) {
         <Dialog open={mapOpen} onOpenChange={setMapOpen}>
           <DialogContent
             onCloseAutoFocus={(event) => {
+              if (navigatorSelected.current) {
+                event.preventDefault()
+                navigatorSelected.current = false
+                focusQuestionPrompt(prompt.current)
+                return
+              }
               if (navigatorTrigger.current) {
                 event.preventDefault()
                 navigatorTrigger.current.focus({ preventScroll: true })
@@ -271,6 +301,7 @@ export function Practice({ bank }: { bank: Question[] }) {
                   )}
                   aria-label={`Question ${i + 1}${session.answers[q.id] !== undefined ? ', answered' : ', unanswered'}${session.flags.includes(q.id) ? ', flagged' : ''}`}
                   onClick={() => {
+                    navigatorSelected.current = true
                     amend((s) => ({ ...s, current: i }))
                     setMapOpen(false)
                   }}
@@ -301,7 +332,10 @@ export function Practice({ bank }: { bank: Question[] }) {
               <select
                 id="practice-domain"
                 value={domain}
-                onChange={(e) => setDomain(e.target.value)}
+                onChange={(e) => {
+                  setDomain(e.target.value as DomainId | 'all')
+                  setConcept('all')
+                }}
               >
                 <option value="all">All topics</option>
                 {domains.map((d) => (
@@ -311,6 +345,30 @@ export function Practice({ bank }: { bank: Question[] }) {
                 ))}
               </select>
             </div>
+            {concepts.length > 0 && (
+              <div className="field">
+                <label htmlFor="practice-concept">Concept</label>
+                <div className="wrapping-select">
+                  <span className="wrapping-select-value" aria-hidden="true">
+                    {concepts.find((entry) => entry.id === selectedConcept)?.label ??
+                      'All concepts'}
+                  </span>
+                  <ChevronDown size={14} aria-hidden="true" />
+                  <select
+                    id="practice-concept"
+                    value={selectedConcept}
+                    onChange={(event) => setConcept(event.target.value)}
+                  >
+                    <option value="all">All concepts</option>
+                    {concepts.map((entry) => (
+                      <option key={entry.id} value={entry.id}>
+                        {entry.label}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            )}
             <div className="field">
               <label htmlFor="practice-count">Questions</label>
               <select id="practice-count" value={count} onChange={(e) => setCount(e.target.value)}>
@@ -350,14 +408,33 @@ export function Practice({ bank }: { bank: Question[] }) {
           <div className="practice-intro">
             <h2>California salesperson practice exam</h2>
             <p>
-              Questions are sampled in the approximate proportions of the DRE outline. Answers are
-              reviewed after submission. The timer continues if you leave or reload this page. These
-              are original practice questions, not actual DRE exam questions.
+              Original assessment questions, separate from chapter practice. Not actual DRE
+              examination items.
             </p>
-            <Button onClick={() => start('exam')}>
-              <Clock3 />
-              Start timed exam
-            </Button>
+            {!selectedForm && <p role="status">Form A and Form B are not yet available.</p>}
+            <div className="study-toolbar">
+              {selectedForm && (
+                <div className="field">
+                  <label htmlFor="exam-form">Examination form</label>
+                  <select
+                    id="exam-form"
+                    value={selectedForm.id}
+                    onChange={(event) => setExamForm(event.target.value as ExamForm)}
+                  >
+                    {forms.map((form) => (
+                      <option key={form.id} value={form.id} disabled={!form.available}>
+                        {form.label}
+                        {!form.available ? ' - unavailable' : ''}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
+              <Button disabled={!selectedForm} onClick={() => start('exam')}>
+                <Clock3 />
+                Start timed exam
+              </Button>
+            </div>
           </div>
         </TabsContent>
       </Tabs>

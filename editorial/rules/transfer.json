@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "transfer-rule-deed-writing-and-roles",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "title-is-the-interest-a-deed-is-an-instrument",
+    "coverageTopics": [
+      "Deeds"
+    ],
+    "rule": "A deed is the conveyancing instrument, not the ownership interest itself; the grantor conveys and the grantee receives, while a deed of trust in the same closing serves a separate security function.",
+    "conditions": [
+      "Identify the estate being transferred, the signer's capacity and authority, and the legal transfer mechanism."
+    ],
+    "exceptions": [
+      "Section 1091 recognizes operation-of-law transfers and its stated short-term or at-will exceptions; a grantee's receipt of title is not itself a requirement to sign the deed."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1091.",
+        "locator": "Civil Code section 1091",
+        "supports": "States the writing and disposing-party signature rule and its exceptions."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+        "locator": "Printed pp. 111-115, Deeds and Trust Deed",
+        "supports": "Explains conveyance instruments and distinguishes deed-of-trust security."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "title-is-the-interest-a-deed-is-an-instrument",
+        "summary": "The chapter follows a buyer who is grantee on the seller's deed and trustor on a different instrument securing the buyer's loan.",
+        "figureIds": [
+          "exp-document-grant-deed"
+        ]
+      }
+    ],
+    "questionIds": ["transfer-053"]
+  },
+  {
+    "id": "transfer-rule-gift-without-consideration",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "essential-elements-and-intent",
+    "coverageTopics": [
+      "Deeds"
+    ],
+    "rule": "Lack of a purchase price does not invalidate an otherwise effective gift deed; voluntary transfer can occur without consideration.",
+    "conditions": [
+      "The grantor must have capacity and authority, and the sufficient deed must be effectively delivered and accepted."
+    ],
+    "exceptions": [
+      "Dispensing with consideration does not dispense with required transfer formalities or third-party rights."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1040.",
+        "locator": "Civil Code section 1040",
+        "supports": "Permits a voluntary transfer without consideration."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+        "locator": "Deeds: requisites for a valid deed and delivery",
+        "supports": "Explains the separate formal and delivery elements of a valid deed."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "essential-elements-and-intent",
+        "summary": "The gift-transfer scenario isolates a zero price while retaining sufficient description, signature, present transfer intent, and acceptance.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-001"
+    ]
+  },
+  {
+    "id": "transfer-rule-delivery-intent-versus-custody",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "essential-elements-and-intent",
+    "coverageTopics": [
+      "Deeds"
+    ],
+    "rule": "A grant takes effect upon delivery with present transfer intent; handing a signed deed to someone for safekeeping while retaining control is not necessarily an effective conveyance.",
+    "conditions": [
+      "Determine the grantor's intent and whether the grantee accepts, rather than relying only on physical possession of paper."
+    ],
+    "exceptions": [
+      "A grant may be deposited with a third-party escrow for conditional delivery; effective delivery to the grantee itself is not the same as that conditional escrow custody."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=2.&title=4.&part=4.&chapter=1.&article=3.",
+        "locator": "Civil Code sections 1054, 1056, and 1057",
+        "supports": "Separates effectiveness on delivery, direct delivery to the grantee, and conditional delivery through a third-party depositary."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+        "locator": "Delivery of Deeds",
+        "supports": "Explains delivery intention and acceptance in addition to physical transfer."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "essential-elements-and-intent",
+        "summary": "The delivery diagram distinguishes present conveyance, notarization, and recording; the safekeeping example lacks the present-transfer intent.",
+        "figureIds": [
+          "deed-delivery-recording"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-002"
+    ]
+  },
+  {
+    "id": "transfer-rule-race-notice-requires-good-faith",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "actual-notice-changes-the-recording-problem",
+    "coverageTopics": [
+      "Deeds"
+    ],
+    "rule": "California's recording-priority rule does not protect a later purchaser solely for recording first: the protected purchaser or mortgagee must also give value and qualify as acting in good faith without disqualifying notice.",
+    "conditions": [
+      "Order the conveyances, acquisition of notice, payment of value, and recording events separately."
+    ],
+    "exceptions": [
+      "The statute's stated exceptions and other notice or title defects matter; first recording does not cure a forged instrument."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214.",
+        "locator": "Civil Code section 1214",
+        "supports": "States the later good-faith purchaser or mortgagee, valuable-consideration, and first-recording requirements."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Recording and Notice",
+        "supports": "Explains the distinction between actual and constructive notice in title acquisition."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "actual-notice-changes-the-recording-problem",
+        "summary": "Buyer Two knows about Buyer One's delivered deed before paying and recording; the first recording therefore does not itself establish statutory priority.",
+        "figureIds": [
+          "exp-timeline-recording-notice"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-004"
+    ]
+  },
+  {
+    "id": "transfer-rule-grant-covenants-versus-quitclaim",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "compare-the-deeds",
+    "coverageTopics": [
+      "Deeds"
+    ],
+    "rule": "An ordinary quitclaim transfers the grantor's present interest without the grant deed's limited implied covenants; a grant deed's covenants concern the grantor's prior conveyances and encumbrances created or suffered by the grantor or those claiming under the grantor.",
+    "conditions": [
+      "Read the instrument's operative words and any express limitations; do not infer an unlimited warranty from its name."
+    ],
+    "exceptions": [
+      "An ordinary quitclaim does not promise later-acquired title; special language or another legal doctrine requires separate analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113.",
+        "locator": "Civil Code section 1113, paragraphs 1-2",
+        "supports": "Limits the covenants implied by use of grant and recognizes express restraints."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+        "locator": "Printed p. 115, Quitclaim Deed",
+        "supports": "States the ordinary present-interest effect and lack of implied warranties or after-acquired title."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-the-deeds",
+        "summary": "The deed-function comparison contrasts a grant deed's limited covenants with a quitclaim's release of whatever present interest exists.",
+        "figureIds": [
+          "supplement-deed-functions"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-003"
+    ]
+  },
+  {
+    "id": "transfer-rule-intended-fee-not-created-title",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "compare-the-deeds",
+    "coverageTopics": [
+      "Deeds"
+    ],
+    "rule": "The fee-simple presumption describes the estate intended by a grant unless a lesser estate appears; it does not create a missing ownership interest or remove a valid existing encumbrance.",
+    "conditions": [
+      "Distinguish the estate intended, the grantor's actual interest, and the separate effect of existing rights."
+    ],
+    "exceptions": [
+      "Later acquisition under section 1106 can change the result only when its conditions arise; no later-acquired remainder exists in a case that expressly excludes one."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+        "locator": "Civil Code section 1105",
+        "supports": "Presumes fee-simple intent unless a lesser estate appears."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106.",
+        "locator": "Civil Code section 1106",
+        "supports": "Separately addresses later acquisition rather than creating an immediate missing interest."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1113.",
+        "locator": "Civil Code section 1113",
+        "supports": "Limits grant covenants rather than providing a universal title-cleansing warranty."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-the-deeds",
+        "summary": "The chapter contrasts an unqualified fee grant subject to an existing easement with a grantor who only owns a life estate and never acquires the remainder.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-035",
+      "transfer-036"
+    ]
+  },
+  {
+    "id": "transfer-rule-after-acquired-fee-title",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "after-acquired-title-is-a-separate-doctrine",
+    "coverageTopics": [
+      "Deeds",
+      "Special Processes"
+    ],
+    "rule": "When a person purports by a proper instrument to grant real property in fee simple and later acquires title or a claim of title to it, section 1106 passes that later interest by operation of law to the earlier grantee or successors.",
+    "conditions": [
+      "Verify the qualifying fee-simple grant and the subsequent acquisition of the relevant interest."
+    ],
+    "exceptions": [
+      "Do not apply the doctrine automatically to an ordinary present-interest quitclaim or to an interest the grantor never acquires."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1106.",
+        "locator": "Civil Code section 1106",
+        "supports": "States the qualifying instrument, subsequent acquisition, and automatic passage."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+        "locator": "Printed p. 115, Quitclaim Deed",
+        "supports": "Distinguishes the ordinary quitclaim's present-interest effect."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "after-acquired-title-is-a-separate-doctrine",
+        "summary": "The chapter follows a deficient fee-simple grant and a later acquisition of the missing interest, keeping that event separate from the original grant's validity and representations.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-020"
+    ]
+  },
+  {
+    "id": "transfer-rule-undivided-cotenancy-not-subdivision",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "a-description-can-transfer-less-than-the-buyer-expects",
+    "coverageTopics": [
+      "Types of Vesting",
+      "Deeds"
+    ],
+    "rule": "An undivided fractional ownership interest is a share of the whole parcel, not exclusive title to a physically designated half; tenancy in common permits unequal shares without automatic survivorship.",
+    "conditions": [
+      "Read the deed's interest and description and distinguish cotenancy from a legally created parcel division."
+    ],
+    "exceptions": [
+      "Separate possession agreements or a lawful partition can alter use or title, but an ownership fraction alone does neither."
+    ],
+    "sources": [
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pp. 55-56, Tenancy in Common",
+        "supports": "Describes fractional undivided interests, shared possession, transferability, and no survivorship."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=686.",
+        "locator": "Civil Code section 686",
+        "supports": "States the statutory interests-in-common framework and exceptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-description-can-transfer-less-than-the-buyer-expects",
+        "summary": "A deed to an undivided one-half interest does not give the buyer the northern half; the 50/30/20 example illustrates separately inheritable fractional interests.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-005",
+      "transfer-019"
+    ]
+  },
+  {
+    "id": "transfer-rule-survivorship-depends-on-unsevered-interest",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "choose-vesting-with-its-consequences-in-view",
+    "coverageTopics": [
+      "Types of Vesting"
+    ],
+    "rule": "A properly created joint tenancy carries survivorship while it remains effective and unsevered; the original vesting deed alone does not prove the same interest survived until death.",
+    "conditions": [
+      "Check intervening conveyances and any legally effective severance before relying on survivorship."
+    ],
+    "exceptions": [
+      "An ordinary will does not override an existing unsevered joint tenancy, but a valid prior severance can change the succession result."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.2.",
+        "locator": "Civil Code section 683.2(a)-(d)",
+        "supports": "Provides specified severance methods and their conditions."
+      },
+      {
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+        "locator": "Printed pp. 56-57, Joint Tenancy",
+        "supports": "Explains survivorship and severance in contrast to inheritance."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "choose-vesting-with-its-consequences-in-view",
+        "summary": "The chapter compares the same original joint-tenancy deed with and without an effective intervening severance before death.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-021"
+    ]
+  },
+  {
+    "id": "transfer-rule-reserved-life-estate-and-remainder",
+    "lessonSlug": "transfer-deeds-and-vesting",
+    "sectionId": "vesting-answers-how-title-is-held",
+    "coverageTopics": [
+      "Types of Vesting",
+      "Deeds"
+    ],
+    "rule": "A deed that reserves a life estate while conveying the succeeding interest can give the grantee a remainder immediately, with ordinary possession deferred until the reserved life estate ends.",
+    "conditions": [
+      "Read the actual reservation and determine the measuring life and future-interest holder."
+    ],
+    "exceptions": [
+      "Receiving a present remainder is different from receiving immediate possessory ownership; termination follows the estate's terms."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+        "locator": "Civil Code section 769",
+        "supports": "Defines a remainder as a future estate dependent on a precedent estate created by the same instrument."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+        "locator": "Civil Code section 1105",
+        "supports": "Recognizes an expressed lesser estate instead of the general fee-simple presumption."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "vesting-answers-how-title-is-held",
+        "summary": "The annotated reserved-estate deed separates the grantor's retained lifetime possession from the grantee's already conveyed future interest.",
+        "figureIds": [
+          "exp-document-reserved-estate"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-022"
+    ]
+  },
+  {
+    "id": "transfer-rule-preliminary-report-is-insurance-offer",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "title-review-identifies-the-interest-being-purchased",
+    "coverageTopics": [
+      "Title Insurance"
+    ],
+    "rule": "A preliminary title report is an offer to issue title insurance subject to stated exceptions and incorporated matters; it is not an abstract of title or a representation guaranteeing the actual state of title.",
+    "conditions": [
+      "Read proposed coverage, requirements, exceptions, incorporated terms, and the underlying interest separately."
+    ],
+    "exceptions": [
+      "An omitted item is not conclusive proof that no corresponding property right exists."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+        "locator": "Insurance Code section 12340.11",
+        "supports": "Expressly distinguishes preliminary reports from abstracts and defines the offer-to-insure function."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "title-review-identifies-the-interest-being-purchased",
+        "summary": "The chapter separates a recorded-history abstract from the insurer's conditional offer and warns against treating absence from a report as proof of absence from title.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-037"
+    ]
+  },
+  {
+    "id": "transfer-rule-title-exception-and-current-review",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "read-a-title-problem-in-layers",
+    "coverageTopics": [
+      "Title Insurance"
+    ],
+    "rule": "An exception can leave a matter outside the offered policy's coverage, while a requirement states something the insurer needs to issue coverage on the proposed terms; a stale preliminary report does not establish that no later title event occurred.",
+    "conditions": [
+      "Match the affected lot, insured interest, report date, expected surviving rights, and required payoff or release evidence."
+    ],
+    "exceptions": [
+      "Not every listed item must disappear: an accepted easement may remain while a seller's debt lien must be cleared under the transaction."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+        "locator": "Insurance Code section 12340.11",
+        "supports": "Defines coverage subject to exceptions and the issuer's stated conditions."
+      },
+      {
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+        "locator": "What is Title Insurance?; What Does Title Insurance Cover?",
+        "supports": "Explains the insured title and covered versus excluded risks."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "read-a-title-problem-in-layers",
+        "summary": "A two-lot description, retained utility easement, and loan payoff raise different issues; a later judgment requires renewed title review rather than reliance on the earlier report.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-007",
+      "transfer-026"
+    ]
+  },
+  {
+    "id": "transfer-rule-owner-lender-insured-interests",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "owner-and-lender-policies-protect-different-interests",
+    "coverageTopics": [
+      "Title Insurance"
+    ],
+    "rule": "An owner's title policy and lender's title policy insure different interests; paying for the lender's policy does not by itself insure the buyer's ownership equity.",
+    "conditions": [
+      "Identify the named insured, estate or lien, amount, policy date, covered risks, exclusions, exceptions, and conditions."
+    ],
+    "exceptions": [
+      "Standard and extended coverage are not unlimited; a prior owner's policy does not automatically become the buyer's policy."
+    ],
+    "sources": [
+      {
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+        "locator": "Who does Title Insurance protect?; Who Should Purchase Title Insurance?; What Does Title Insurance Cover?",
+        "supports": "Distinguishes owner and lender policies and explains coverage limits."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "owner-and-lender-policies-protect-different-interests",
+        "summary": "The lender-only policy example leaves the buyer without an owner's policy even though the buyer paid the lender's premium.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-006"
+    ]
+  },
+  {
+    "id": "transfer-rule-policy-acceptance-not-use-approval",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "insurance-does-not-replace-the-purchase-bargain",
+    "coverageTopics": [
+      "Title Insurance"
+    ],
+    "rule": "A lender's acceptance of title coverage does not establish that the buyer has the access or use rights required by the purchase; an endorsement can insure a stated risk without physically changing or legally expanding the underlying easement.",
+    "conditions": [
+      "Compare the actual grant of access and the buyer's intended use with the offered policy and exceptions."
+    ],
+    "exceptions": [
+      "Do not promise an endorsement is available or that insurance legalizes an otherwise unauthorized use."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+        "locator": "Insurance Code section 12340.11",
+        "supports": "Limits the preliminary report to proposed policy terms rather than a guarantee of property rights."
+      },
+      {
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+        "locator": "What Does Title Insurance Cover?; Endorsement Options",
+        "supports": "Describes covered title risks and distinctions in offered protection."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "insurance-does-not-replace-the-purchase-bargain",
+        "summary": "The chapter's commercial-delivery buyer must investigate a residential-use access easement despite lender approval of a policy excepting that easement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-023"
+    ]
+  },
+  {
+    "id": "transfer-rule-escrow-conditional-authority",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "conditions-control-disbursement",
+    "coverageTopics": [
+      "Escrow"
+    ],
+    "rule": "Escrow holds conditional deliveries and disburses under applicable authorized instructions and law; possession of the buyer's money and seller's deed does not authorize closing while a required lien release remains unsatisfied.",
+    "conditions": [
+      "Identify the conditions benefiting each principal and obtain properly authorized changes before departing from them."
+    ],
+    "exceptions": [
+      "One principal's request or an agent's assurance does not substitute for required authority from affected parties, lender, or title insurer."
+    ],
+    "sources": [
+      {
+        "url": "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/",
+        "locator": "Who is Required to Obtain a License: statutory definition of escrow",
+        "supports": "Defines custody until the specified event or condition followed by delivery to the proper recipient."
+      },
+      {
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+        "locator": "What is Escrow?",
+        "supports": "Describes disbursement as authorized by instructions and closing after buyer and seller instructions are fulfilled."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "conditions-control-disbursement",
+        "summary": "The missing-release scenario requires escrow to continue holding conditional funds and documents unless the condition is satisfied or lawfully amended.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-024"
+    ]
+  },
+  {
+    "id": "transfer-rule-escrow-dispute-not-unilateral-award",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "escrow-is-conditional-custody",
+    "coverageTopics": [
+      "Escrow"
+    ],
+    "rule": "A neutral escrow holder does not decide disputed contractual entitlement to a deposit merely by accepting one party's demand; it follows applicable instructions and lawful release or dispute procedures.",
+    "conditions": [
+      "Identify conflicting demands, the governing agreement, joint release authority, and any controlling legal process."
+    ],
+    "exceptions": [
+      "A valid court order or another lawfully controlling direction can change how the funds must be handled."
+    ],
+    "sources": [
+      {
+        "url": "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/",
+        "locator": "Statutory definition of escrow",
+        "supports": "Defines escrow as conditional third-party custody rather than unrestricted delivery to the requesting principal."
+      },
+      {
+        "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/Title-Insurance.cfm",
+        "locator": "What Is Escrow?",
+        "supports": "Describes neutral holding, instruction-based disbursement, and closing only after the principals' instructions have been carried out."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "escrow-is-conditional-custody",
+        "summary": "The conflicting-deposit-demand example keeps the escrow holder from selecting a winner on one principal's unsupported instruction.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-008"
+    ]
+  },
+  {
+    "id": "transfer-rule-independent-escrow-and-personal-exemptions",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "who-regulates-the-escrow-holder",
+    "coverageTopics": [
+      "Escrow"
+    ],
+    "rule": "DFPI licenses independent escrow businesses under the Escrow Law; a real estate broker's exemption concerns qualifying licensed transactions in which that broker is an agent or party, not a general right to run unrelated public escrows.",
+    "conditions": [
+      "Identify the actual provider and prove the applicable statutory exemption rather than relying on the generic word escrow."
+    ],
+    "exceptions": [
+      "Attorney and broker exemptions are personal and retain supervision limits; exemption from this license is not exemption from trust duties or other regulation."
+    ],
+    "sources": [
+      {
+        "url": "https://dfpi.ca.gov/regulated-industries/escrow-law/about-the-escrow-law/",
+        "locator": "Who is Required to Obtain a License; Who is Exempt from Licensing Requirements of the Escrow Law",
+        "supports": "Identifies DFPI jurisdiction, provider-specific exemptions, personal limits, and the claimant's burden."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "who-regulates-the-escrow-holder",
+        "summary": "The chapter compares an independent DFPI-regulated company with a brokerage's escrow activity incidental to its own qualifying real estate transaction.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-009"
+    ]
+  },
+  {
+    "id": "transfer-rule-closing-cash-versus-third-party-fee",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "reconcile-a-simple-closing-statement",
+    "coverageTopics": [
+      "Escrow"
+    ],
+    "rule": "Buyer cash to close starts with the price and charges, then subtracts available loan funds, deposits already paid, and applicable credits; a third-party charge need not create a credit to the opposing principal.",
+    "conditions": [
+      "Use actual deposits and available proceeds, the stated allocation of expenses, and authorized prorations; do not double-count an existing deposit."
+    ],
+    "exceptions": [
+      "A loan credit funds the acquisition but does not forgive the loan; a balanced statement can still contain an unauthorized allocation."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+        "locator": "Calculating Cash to Close; Summaries of Transactions",
+        "supports": "Shows the roles of deposits, financing, closing costs, seller credits, and adjustments."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reconcile-a-simple-closing-statement",
+        "summary": "An $800,000 price less $600,000 loan, $24,000 deposit, and $900 seller proration leaves $175,100; a separate $200 recording fee would increase buyer funds without paying the seller.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-025"
+    ]
+  },
+  {
+    "id": "transfer-rule-wire-change-independent-verification",
+    "lessonSlug": "transfer-title-and-escrow",
+    "sectionId": "follow-the-closing-sequence",
+    "coverageTopics": [
+      "Escrow"
+    ],
+    "rule": "An apparent email match does not authenticate changed wiring instructions; independently verify with a previously trusted escrow contact channel before transferring closing funds.",
+    "conditions": [
+      "Use a known phone number obtained independently of the suspicious message and confirm the transaction-specific instructions."
+    ],
+    "exceptions": [
+      "Calling the new verification number supplied in the same message merely reuses the unverified channel."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/about-us/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+        "locator": "Protect yourself from mortgage closing scams: trusted contact and wiring verification guidance",
+        "supports": "Recommends a trusted person's verified contact information rather than reliance on potentially compromised instructions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-the-closing-sequence",
+        "summary": "A changed-bank-instructions message that supplies its own callback number is verified through escrow's previously trusted number instead.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-038"
+    ]
+  },
+  {
+    "id": "transfer-rule-realized-gain-not-mortgage-cash",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "follow-the-dollars-through-two-different-calculations",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Realized gain is amount realized less adjusted basis; in a simple sale, qualifying selling expenses reduce amount realized, while repayment of the seller's mortgage reduces cash proceeds rather than supplying another gain deduction.",
+    "conditions": [
+      "Use the stated adjusted basis and qualifying expenses and keep any exclusion, deferral, recapture, or withholding analysis separate."
+    ],
+    "exceptions": [
+      "Debt and other adjustments in complex dispositions require their own rules; a refinance balance is not automatically the property's tax basis."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p544",
+        "locator": "Gain or Loss From Sales and Exchanges: Amount realized and Adjusted basis",
+        "supports": "Defines the gain relationship and the relevant quantities."
+      },
+      {
+        "url": "https://www.irs.gov/publications/p551",
+        "locator": "Cost Basis; Adjusted Basis",
+        "supports": "Explains cost and adjustments rather than current loan balance as tax basis."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "follow-the-dollars-through-two-different-calculations",
+        "summary": "The $900,000 sale less $45,000 expenses yields $855,000 amount realized and $335,000 gain over $520,000 basis; a $350,000 payoff reduces cash to $505,000 but not that gain.",
+        "figureIds": [
+          "seller-proceeds-bridge"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-010",
+      "transfer-027"
+    ]
+  },
+  {
+    "id": "transfer-rule-gift-and-inherited-basis-distinction",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "basis-and-gain",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "A transfer does not universally reset income-tax basis to market value: inherited property generally uses the applicable death-related valuation rule, while a gift commonly carries the donor's basis with a separate fair-market-value limitation for loss.",
+    "conditions": [
+      "Identify how the asset was acquired and obtain the donor-basis, gift-date value, or applicable estate valuation records."
+    ],
+    "exceptions": [
+      "Special estate valuation, gift-tax adjustments, dual-basis rules, and other statutory exceptions can change the calculation."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p551",
+        "locator": "Property Received as a Gift; Inherited Property",
+        "supports": "Explains gift gain-versus-loss basis and the general inherited-property valuation framework."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "basis-and-gain",
+        "summary": "The changed-transfer comparison holds $200,000 owner basis, $350,000 transfer value, and $400,000 sale price constant: the gift produces $200,000 gain, while the stated inheritance produces $50,000 gain.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-054"]
+  },
+  {
+    "id": "transfer-rule-home-exclusion-not-replacement-purchase",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "the-principal-residence-exclusion",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "The federal main-home exclusion concerns qualifying gain, generally up to $250,000 for an eligible individual or $500,000 on a qualifying joint return; it does not require buying a replacement home.",
+    "conditions": [
+      "Establish ownership, residence, look-back, and other eligibility requirements and determine the gain before applying the exclusion."
+    ],
+    "exceptions": [
+      "Nonqualified use, depreciation, partial exclusions, and other special rules can affect the excluded amount; the exclusion does not eliminate unrelated transfer taxes or withholding duties."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/sale-of-residence-real-estate-tax-tips",
+        "locator": "Sale of residence - real estate tax tips",
+        "supports": "Explains the main-home gain exclusion and lack of replacement-home requirement."
+      },
+      {
+        "url": "https://www.irs.gov/publications/p523",
+        "locator": "Eligibility Test; Figuring Gain or Loss; Does Your Home Qualify for a Partial Exclusion of Gain?",
+        "supports": "Provides eligibility and limiting rules."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "the-principal-residence-exclusion",
+        "summary": "A qualifying single owner with $310,000 gain and the full $250,000 exclusion has $60,000 not excluded by that provision, regardless of purchasing another home.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-013"
+    ]
+  },
+  {
+    "id": "transfer-rule-joint-home-exclusion-separate-tests",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "test-ownership-and-use-separately",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "For the usual full $500,000 main-home exclusion on a qualifying joint return, either spouse satisfies ownership, both satisfy residence, and both satisfy the look-back requirement; ownership and occupancy are separate histories.",
+    "conditions": [
+      "Generally examine at least two years of ownership and residence within the five-year period, and the applicable prior-exclusion restriction."
+    ],
+    "exceptions": [
+      "Special eligibility adjustments and other exclusions or limitations still apply; marriage alone does not supply the full joint exclusion."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p523",
+        "locator": "Eligibility Steps 2-4; Eligibility Step 6, joint-return qualification table",
+        "supports": "Separates one-spouse ownership from both-spouse residence and look-back requirements."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "test-ownership-and-use-separately",
+        "summary": "The chapter's joint-return comparison permits different ownership histories but requires both spouses' qualifying use and neither spouse's look-back disqualification.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-029"
+    ]
+  },
+  {
+    "id": "transfer-rule-exchange-qualification-and-deadlines",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "like-kind-exchange-deferral",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "A qualifying section 1031 exchange concerns business or investment real property, not a personal residence or dealer property; a deferred exchange ordinarily requires identification within 45 days and receipt by the earlier of 180 days or the applicable return deadline including extensions.",
+    "conditions": [
+      "Structure a qualifying exchange and measure both periods from transfer of the relinquished property; avoid unrestricted actual or constructive receipt of proceeds."
+    ],
+    "exceptions": [
+      "Special relief and exchange structures can change details, and satisfying a date alone does not cure ineligible property or an improperly structured sale."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p544",
+        "locator": "Like-Kind Exchanges; Deferred Exchange: Identification requirement and Receipt requirement",
+        "supports": "States qualifying property and the separate identification and exchange-period deadlines."
+      },
+      {
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/like-kind-exchanges-real-estate-tax-tips",
+        "locator": "Like-kind exchanges - real estate tax tips",
+        "supports": "Describes business or investment real-property exchange qualification."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "like-kind-exchange-deferral",
+        "summary": "The chapter contrasts a structured investment exchange with a seller receiving unrestricted cash and merely buying another property later.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-055"]
+  },
+  {
+    "id": "transfer-rule-cash-boot-recognition-limit",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "like-kind-exchange-deferral",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "In a qualifying simplified exchange with only cash boot and no debt or other adjustments, recognized gain is limited to the lesser of realized gain and cash received; receiving boot does not necessarily recognize all deferred gain.",
+    "conditions": [
+      "Compute realized gain first and state the cash-only, no-debt, no-expense, and no-recapture assumptions."
+    ],
+    "exceptions": [
+      "Debt relief, other non-like-kind property, expenses, and recapture can change the calculation."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p544",
+        "locator": "Partially Nontaxable Exchanges: non-like-kind property received and recognition examples",
+        "supports": "Explains recognition limited to gain realized and the non-like-kind value received under the applicable assumptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "like-kind-exchange-deferral",
+        "summary": "The chapter's $180,000 realized gain with $30,000 cash boot recognizes $30,000; the question's $20,000 realized gain with $50,000 cash cannot recognize $50,000 of nonexistent gain.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-040"
+    ]
+  },
+  {
+    "id": "transfer-rule-exchange-deferred-gain-replacement-basis",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "like-kind-exchange-deferral",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Exchange deferral carries unrecognized gain into the replacement investment's basis; in the stated simple cash-boot case, replacement value less deferred gain yields its basis.",
+    "conditions": [
+      "Determine realized gain, recognized gain, and deferred gain separately before computing replacement basis."
+    ],
+    "exceptions": [
+      "Additional debt, expenses, multiple properties, or other adjustments require the full basis rules."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/publications/p544",
+        "locator": "Partially Nontaxable Exchanges: Basis of property received",
+        "supports": "Adds recognized gain and subtracts received money and other relevant adjustments in computing replacement basis."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "like-kind-exchange-deferral",
+        "summary": "The chapter shows $670,000 replacement value less $150,000 deferred gain producing $520,000 basis; the question's $650,000 replacement with $250,000 deferred gain produces $400,000 basis.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-039"
+    ]
+  },
+  {
+    "id": "transfer-rule-firpta-rate-and-amount-realized",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "apply-the-appropriate-withholding-system",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "FIRPTA generally requires a buyer to withhold 15% of a foreign transferor's amount realized, with the qualifying buyer-residence category reducing the rate to 10% above $300,000 through $1 million and permitting the stated $300,000-or-less exception.",
+    "conditions": [
+      "Determine foreign-person tax status, amount realized, the buyer's qualifying residence plans, and applicable certificates or exemptions; residence plans ordinarily require at least 50% of actual-use days in each of the first two 12-month periods."
+    ],
+    "exceptions": [
+      "Citizenship wording alone does not determine tax residency; nonresident investment use does not qualify for the buyer-residence reduction."
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+        "locator": "FIRPTA withholding overview; Question 6, residence definition",
+        "supports": "Explains the general buyer withholding obligation and residence-use conditions."
+      },
+      {
+        "url": "https://www.irs.gov/irm/part3/irm_03-022-261r",
+        "locator": "IRM 3.22.261, withholding-rate overview; 3.22.261.21.6, Amount Subject to Withholding at 10 percent",
+        "supports": "Supports the current reduced 10% category as distinct from the general 15% rate."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "apply-the-appropriate-withholding-system",
+        "summary": "The qualifying $800,000 buyer-residence sale produces $80,000 withholding; an otherwise nonexempt investment purchase at 15% produces $120,000.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-030"
+    ]
+  },
+  {
+    "id": "transfer-rule-california-withholding-not-final-tax",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "withholding-is-a-prepayment",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "California real estate withholding is a tax prepayment, separately evaluated from FIRPTA; the current FTB total-sales-price method uses the decimal 0.0333 despite the method's 3 1/3% label, subject to exemptions, ownership allocation, and permitted alternatives.",
+    "conditions": [
+      "Determine the applicable method and each seller's share, and follow Form 593 certification and remittance rules."
+    ],
+    "exceptions": [
+      "Federal foreign-person status or a federal exemption does not alone establish California treatment; withholding need not equal final tax liability."
+    ],
+    "sources": [
+      {
+        "url": "https://www.ftb.ca.gov/forms/misc/1016.html",
+        "locator": "Total Sales Price Method; Example 1; Real Estate Withholding overview",
+        "supports": "Specifies the .0333 multiplier, ownership percentage allocation, alternatives and exemptions, and tax-prepayment function."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "withholding-is-a-prepayment",
+        "summary": "The clarified chapter example multiplies a $200,000 taxable sale-price amount by .0333 to obtain $6,660 rather than using the exact fraction 1/30.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-014"
+    ]
+  },
+  {
+    "id": "transfer-rule-proposition-thirteen-levy-and-additions",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-13-three-different-numbers",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Proposition 13's 1% general ad valorem levy applies to taxable assessed value; lawfully authorized debt levies and separately authorized direct assessments can make the total bill exceed that general levy.",
+    "conditions": [
+      "Use taxable assessed value after applicable exemptions and distinguish percentage levies from fixed direct charges."
+    ],
+    "exceptions": [
+      "The example stipulates lawful authority for the additions; an unexplained extra charge is not automatically permissible."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf",
+        "locator": "Property Tax: An Overview, Proposition 13 and property tax rates",
+        "supports": "Distinguishes the general 1% levy from permitted voter-approved indebtedness."
+      },
+      {
+        "url": "https://auditor.lacounty.gov/bwl-advanced-faq/what-does-my-property-taxes-and-direct-assessments-consist-of-and-where-does-it-go/",
+        "locator": "Property taxes and direct assessments: components of the tax bill",
+        "supports": "Explains local voter-approved indebtedness and separate direct assessments."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "proposition-13-three-different-numbers",
+        "summary": "On $600,000 taxable value, 1% is $6,000; a stated .12% debt levy adds $720 and a lawful $500 direct assessment yields $7,220.",
+        "figureIds": [
+          "exp-allocation-property-tax-bill-components"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-043"
+    ]
+  },
+  {
+    "id": "transfer-rule-factored-base-inflation-not-market-growth",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "compound-the-assessment-not-the-market-price",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Absent a reassessment event or special valuation treatment, the annual inflation adjustment applies to the preceding factored base-year value, with an increase capped at 2%, not to the property's newly appreciated market price.",
+    "conditions": [
+      "Apply the actual annual California inflation factor to the continuing base-year track, compounding each year's result."
+    ],
+    "exceptions": [
+      "An inflation factor below 2% produces less growth and deflation can decrease the value; reassessment and Proposition 8 recovery are separate mechanisms."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.",
+        "locator": "Revenue and Taxation Code section 51(a)(1)",
+        "supports": "States the inflation adjustment to base-year value, two-percent increase limit, and relevant value framework."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compound-the-assessment-not-the-market-price",
+        "summary": "A $500,000 base grows to $505,000 with 1%, then $515,100 when a 4% inflation figure is capped at 2%; an 18% market-price rise does not replace that track.",
+        "figureIds": [
+          "exp-calculation-factored-base-inflation"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-044",
+      "transfer-050"
+    ]
+  },
+  {
+    "id": "transfer-rule-reassessable-transfer-new-base",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "reassessment-changes-the-baseline",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "A nonexcluded change in ownership ordinarily establishes a new fair-market-value base for the interest transferred, even when the transfer is a gift rather than a purchase.",
+    "conditions": [
+      "Identify the transferred interest, the event date, and any applicable reassessment exclusion before applying the general levy."
+    ],
+    "exceptions": [
+      "An income-tax exclusion does not preserve a property-tax base, and an excluded transfer need not receive a new base."
+    ],
+    "sources": [
+      {
+        "url": "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm",
+        "locator": "Change in Ownership FAQs: reassessment and partial-interest transfer questions",
+        "supports": "Explains a new taxable value for the reassessable interest and the effect of exclusions."
+      },
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/pub29.pdf",
+        "locator": "Proposition 13; Change in Ownership",
+        "supports": "Describes fair-market-value reassessment and the new base-year value."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reassessment-changes-the-baseline",
+        "summary": "A nonexcluded transfer with an $800,000 new base produces an $8,000 general levy before separate charges, not the former owner's $2,500 levy.",
+        "figureIds": [
+          "exp-decision-reassessment-scope"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-052"
+    ]
+  },
+  {
+    "id": "transfer-rule-partial-interest-assessment-scope",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "reassessment-changes-the-baseline",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "An ordinary partial change in ownership reassesses the transferred interest rather than automatically resetting the whole parcel, while the unaffected interest retains its applicable value history.",
+    "conditions": [
+      "Assume the specified proportional values and exclude entity-control or other special rules that can alter the analysis."
+    ],
+    "exceptions": [
+      "A legal-entity ownership change or other separately defined event cannot always be analyzed as an ordinary direct fractional transfer."
+    ],
+    "sources": [
+      {
+        "url": "https://boe.ca.gov/proptaxes/faqs/changeinownership.htm",
+        "locator": "Change in Ownership FAQs: sale of a partial interest",
+        "supports": "Explains reassessment limited to the transferred portion in the ordinary partial-interest situation."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reassessment-changes-the-baseline",
+        "summary": "For a 50% transfer, half of the $400,000 existing factored value remains ($200,000), and half of $900,000 market value is reassessed ($450,000), totaling $650,000.",
+        "figureIds": [
+          "exp-decision-reassessment-scope"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-048"
+    ]
+  },
+  {
+    "id": "transfer-rule-new-construction-added-value",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "reassessment-changes-the-baseline",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Assessable new construction generally contributes a new value component for the construction's added market value while the unaffected existing property retains its prior value history.",
+    "conditions": [
+      "Identify the completed qualifying construction, its added value, and the portion not being reassessed."
+    ],
+    "exceptions": [
+      "Routine maintenance is not automatically assessable new construction; cost incurred need not equal added market value, and exclusions may apply."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/newconstructionproperty.htm",
+        "locator": "New Construction and Property Tax: new construction versus maintenance and added value",
+        "supports": "Explains reassessment of assessable new construction without resetting unaffected existing property."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "reassessment-changes-the-baseline",
+        "summary": "A $100,000 qualifying addition to existing factored value of $400,000 yields $500,000 under the stated assumptions, not full-parcel current market value.",
+        "figureIds": [
+          "exp-decision-reassessment-scope"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-047"
+    ]
+  },
+  {
+    "id": "transfer-rule-proposition-eight-lien-date-lesser-value",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-8-compare-two-values-each-january-1",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "An ordinary Proposition 8 assessment enrolls the lesser of January 1 market value and the continuing factored base-year value; a decline from last year's market peak does not establish a reduction if market value remains above the factored base.",
+    "conditions": [
+      "Compare the two values for the same annual lien date and account separately for exemptions or special valuation rules."
+    ],
+    "exceptions": [
+      "Proposition 8 is temporary and does not reset the underlying Proposition 13 base-year track."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=51.",
+        "locator": "Revenue and Taxation Code section 51(a)(1)-(2)",
+        "supports": "Requires comparison of the factored base-year amount and value as of the lien date."
+      },
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/decline-in-value/",
+        "locator": "Decline in Value: Description and How It Works",
+        "supports": "Explains the January 1 market comparison and temporary assessment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "proposition-8-compare-two-values-each-january-1",
+        "summary": "At January 1, $575,000 market value is enrolled instead of the $640,000 factored ceiling; the annotated assessment contrasts market and enrolled values.",
+        "figureIds": [
+          "exp-document-assessment-value-identities"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-045",
+      "transfer-051"
+    ]
+  },
+  {
+    "id": "transfer-rule-proposition-eight-recovery-not-two-percent",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-8-compare-two-values-each-january-1",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Recovery of a temporarily reduced Proposition 8 assessment can exceed 2% from the prior enrolled value, but it stops at the continuing factored base-year ceiling when market value reaches or exceeds that ceiling.",
+    "conditions": [
+      "Continue the factored base-year track during the reduction and compare each year's January 1 market value anew."
+    ],
+    "exceptions": [
+      "An informal review does not suspend the duty to pay the existing bill; the 2% inflation limit on the ceiling is not a cap on recovery from a lower market assessment."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/decline-in-value/faq.htm",
+        "locator": "FAQ: assessed value increased by more than two percent; FAQ: postponing payment pending review",
+        "supports": "Explains uncapped market-value recovery up to the factored ceiling and continued bill payment."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "proposition-8-compare-two-values-each-january-1",
+        "summary": "The recovery timeline moves from $520,000 to $580,000 (11.54%) under a $612,000 ceiling, then caps the next enrollment at $624,240 when market value reaches $650,000.",
+        "figureIds": [
+          "exp-timeline-proposition-eight-recovery"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-046"
+    ]
+  },
+  {
+    "id": "transfer-rule-supplemental-value-difference-factor",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "regular-bills-and-supplemental-assessments",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "A supplemental assessment applies the reassessment difference from the first day of the month following a qualifying event; use the statutory monthly factor on the value difference and applicable rate, not the full new value or a substituted exact month fraction.",
+    "conditions": [
+      "Identify the event date, old and new assessed amounts, applicable fiscal period, tax rate, and statutory factor."
+    ],
+    "exceptions": [
+      "January-through-May events can generate two fiscal-year supplemental bills; a negative difference can produce a refund without excusing payment of the existing annual bill."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/supplemental-assessment/",
+        "locator": "Supplemental Assessment: net supplemental value; Supplemental Billing Cycle; monthly factor table",
+        "supports": "Explains the value difference, following-month effective date, one-versus-two bills, and payment distinction."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=75.41.",
+        "locator": "Revenue and Taxation Code section 75.41(a)-(b)",
+        "supports": "Sets statutory proration factors, including the November-start .67 factor."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "regular-bills-and-supplemental-assessments",
+        "summary": "An October 15 event with $200,000 added taxable value and a 1.10% rate uses November's .67 factor: $200,000 x .011 x .67 = $1,474.",
+        "figureIds": [
+          "exp-document-supplemental-tax-factor"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-049"
+    ]
+  },
+  {
+    "id": "transfer-rule-property-tax-calendar-separate-events",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "regular-bills-and-supplemental-assessments",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "The annual January 1 lien date, July-to-June fiscal year, installment due dates, and installment delinquency dates are different property-tax events and are not interchangeable deadlines.",
+    "conditions": [
+      "For ordinary secured taxes, distinguish November 1 and February 1 due dates from delinquency at 5 p.m. or close of business, whichever is later, on December 10 and April 10, subject to calendar adjustments."
+    ],
+    "exceptions": [
+      "Supplemental bills have their own notice and payment schedule and are not automatically paid by a regular loan impound account."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/calendar.htm",
+        "locator": "Property Tax Calendar: January 1, November 1, December 10, February 1, and April 10 entries",
+        "supports": "Identifies the lien and ordinary secured-installment dates."
+      },
+      {
+        "url": "https://www.boe.ca.gov/proptaxes/supplemental-assessment/",
+        "locator": "Supplemental Assessment and Supplemental Billing Cycle",
+        "supports": "Distinguishes supplemental bills from the annual fiscal-year roll."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "regular-bills-and-supplemental-assessments",
+        "summary": "The chapter places a January valuation event and later regular bill dates alongside a separate October supplemental event rather than assigning every tax clock to closing.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-056"
+    ]
+  },
+  {
+    "id": "transfer-rule-proposition-nineteen-separate-exclusions",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "proposition-19-is-a-separate-qualification-test",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Proposition 19 replacement-residence base-year transfers and intergenerational exclusions are separate qualification systems; inheriting a parent's rental home does not automatically preserve its assessed value.",
+    "conditions": [
+      "Determine the owner category, qualifying replacement or family property, use, value limit, timing, and claim requirements for the particular provision."
+    ],
+    "exceptions": [
+      "Eligible family farms and qualifying principal residences have different requirements from an ordinary rental transfer; indexed limits are not permanent fixed numbers."
+    ],
+    "sources": [
+      {
+        "url": "https://www.boe.ca.gov/prop19/",
+        "locator": "Base Year Value Transfer; Intergenerational Transfer Exclusion, rental-home FAQ",
+        "supports": "Separates qualifying replacement-residence transfers and family-home or farm exclusions and excludes an ordinary rental-home transfer."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "proposition-19-is-a-separate-qualification-test",
+        "summary": "The chapter contrasts an eligible older homeowner's replacement-residence claim with a child inheriting a rental, which does not automatically retain the parent's assessment.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-057"]
+  },
+  {
+    "id": "transfer-rule-documentary-transfer-tax-upward-units",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "transfer-tax-and-prorations",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "Under the stated county documentary-transfer-tax rule, calculate $0.55 for each $500 or fraction of taxable value; round the number of $500 units upward when a fraction remains.",
+    "conditions": [
+      "Use the taxable base under section 11911, including the specified treatment of qualifying liens remaining on the property, and the rate actually supplied."
+    ],
+    "exceptions": [
+      "City taxes and local rules can add charges; a new purchase loan is not automatically a qualifying preexisting remaining lien."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911.",
+        "locator": "Revenue and Taxation Code section 11911(a)",
+        "supports": "Authorizes the county rate on each $500 or fraction and excludes the value of qualifying liens or encumbrances remaining at sale."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "transfer-tax-and-prorations",
+        "summary": "A $500,100 taxable base requires 1,001 units and $550.55 tax; the chapter's exact $620,000 base uses 1,240 units for $682.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-011"
+    ]
+  },
+  {
+    "id": "transfer-rule-unpaid-tax-proration-direction",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "transfer-tax-and-prorations",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "If the buyer will pay an expense attributable to the seller's ownership period, debit the seller and credit the buyer for that share; a seller's prepaid buyer-period expense reverses the direction.",
+    "conditions": [
+      "Identify payment status, covered period, ownership allocation, closing-day responsibility, and the stated day-count convention before calculating."
+    ],
+    "exceptions": [
+      "A 360-day year or 30-day month is a problem assumption, not a universal legal rule."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+        "locator": "Summaries of Transactions: adjustments for items paid and unpaid by seller",
+        "supports": "Shows the opposite directions for prepaid and unpaid closing adjustments."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "transfer-tax-and-prorations",
+        "summary": "Using $9,000 annual taxes and a stated 360-day year gives $25 daily; 20 unpaid seller days require a $500 seller debit and buyer credit.",
+        "figureIds": [
+          "supplement-proration-direction"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-012"
+    ]
+  },
+  {
+    "id": "transfer-rule-collected-rent-versus-prepaid-expense",
+    "lessonSlug": "transfer-taxes-and-prorations",
+    "sectionId": "rent-and-taxes-run-in-opposite-directions",
+    "coverageTopics": [
+      "Tax Aspects"
+    ],
+    "rule": "A seller who already collected rent for the buyer's period owes that share to the buyer, while a seller who prepaid an expense for the buyer's period is reimbursed by the buyer; compute each before netting.",
+    "conditions": [
+      "Use the contract's allocation and stated thirty-day period and distinguish income already received from expenses already paid."
+    ],
+    "exceptions": [
+      "Do not assign the closing day or invent a day-count convention that the problem does not provide."
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+        "locator": "Summaries of Transactions: Adjustments for Items Unpaid by Seller and Adjustments for Items Paid by Seller",
+        "supports": "Supplies the debit-credit treatment of rent and expense adjustments between principals."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "rent-and-taxes-run-in-opposite-directions",
+        "summary": "Twenty buyer days out of thirty produce a $2,000 buyer rent credit and a $400 seller expense credit, for a net $1,600 buyer credit.",
+        "figureIds": [
+          "supplement-proration-direction"
+        ]
+      }
+    ],
+    "questionIds": [
+      "transfer-028"
+    ]
+  },
+  {
+    "id": "transfer-rule-will-not-probate-avoidance",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "death-does-not-produce-one-universal-process",
+    "coverageTopics": [
+      "Special Processes",
+      "Transfer through Court Supervision"
+    ],
+    "rule": "A valid will directs disposition of property it governs but does not by itself establish probate avoidance; the applicable process depends on the property, title, transfer mechanism, and governing succession rules.",
+    "conditions": [
+      "Distinguish probate assets from property passing through a valid separate nonprobate mechanism."
+    ],
+    "exceptions": [
+      "A person may be partly testate and partly intestate, and qualifying simplified procedures have their own conditions."
+    ],
+    "sources": [
+      {
+        "url": "https://selfhelp.courts.ca.gov/probate",
+        "locator": "California Courts probate overview: deciding how to transfer or inherit property",
+        "supports": "Explains the estate process and factors determining whether court administration is needed."
+      },
+      {
+        "url": "https://selfhelp.courts.ca.gov/wills-estates-probate",
+        "locator": "Wills, estates, and advance care planning",
+        "supports": "Distinguishes wills and planning documents from the process of transferring property after death."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "death-does-not-produce-one-universal-process",
+        "summary": "The chapter's will devising a house and naming an executor does not itself establish that the house can transfer outside probate.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-015"
+    ]
+  },
+  {
+    "id": "transfer-rule-estate-signing-appointment-not-expectation",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "a-will-an-appointment-and-a-deed-do-different-work",
+    "coverageTopics": [
+      "Transfer through Court Supervision"
+    ],
+    "rule": "A beneficiary's expected inheritance and an executor's nomination are not proof of present authority to bind the estate; when probate administration is required, establish the representative's effective appointment and scope of powers.",
+    "conditions": [
+      "Inspect court letters and orders and the property's actual title and administration status."
+    ],
+    "exceptions": [
+      "Probate Code section 8400 recognizes limited preappointment acts, not a general power to sell the estate merely because a will nominates the person."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8400.",
+        "locator": "Probate Code section 8400(a)-(b)",
+        "supports": "Makes appointment effective upon issuance of letters and limits preappointment acts."
+      },
+      {
+        "url": "https://selfhelp.courts.ca.gov/probate",
+        "locator": "Probate overview: personal representative and estate administration",
+        "supports": "Distinguishes an estate representative's role from a beneficiary's interest."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-will-an-appointment-and-a-deed-do-different-work",
+        "summary": "The niece named to receive the house and the nephew nominated as executor have not established sale authority solely through those two facts.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-032"
+    ]
+  },
+  {
+    "id": "transfer-rule-trustee-authority-and-funded-property",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "nonprobate-transfers",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "A successor trustee's sale authority depends on valid succession, the trust's terms and applicable powers, and the trust's ownership of the interest; a trust sale is not automatically a probate confirmation sale.",
+    "conditions": [
+      "Verify the trust-held property, acting trustee, trust limitations, and relevant statutory power before accepting a signature."
+    ],
+    "exceptions": [
+      "A beneficiary does not become the authorized seller merely by being named to receive trust benefits, and statutory powers remain subject to trust limitations."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16226",
+        "locator": "Probate Code section 16226",
+        "supports": "Confers the trustee's power to acquire or dispose of property."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16200.",
+        "locator": "Probate Code section 16200(a)-(c)",
+        "supports": "Identifies trust-conferred powers and statutory powers except as limited by the trust instrument."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "nonprobate-transfers",
+        "summary": "The chapter compares a properly funded trust with a signed trust document that never received the house, requiring different authority analysis.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-017"
+    ]
+  },
+  {
+    "id": "transfer-rule-life-estate-end-not-new-devise",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "compare-death-sale-and-termination-of-a-life-estate",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "When the measuring life ends, a retained life estate terminates and the previously created succeeding interest controls ordinary possession; the life tenant's will does not extend that life estate beyond its duration.",
+    "conditions": [
+      "Identify the measuring life, the original instrument, and whether the succeeding interest is a remainder or reversion."
+    ],
+    "exceptions": [
+      "Different estate language can produce a different successor; do not presume every future interest is held by the deceased life tenant's heirs."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=769.",
+        "locator": "Civil Code section 769",
+        "supports": "Defines the remainder as a future estate dependent on a precedent estate created by the same instrument."
+      },
+      {
+        "url": "https://selfhelp.courts.ca.gov/wills-estates-probate",
+        "locator": "Wills, estates, and advance care planning",
+        "supports": "Provides the general succession context rather than giving a will power over an already conveyed interest."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "compare-death-sale-and-termination-of-a-life-estate",
+        "summary": "The reserved life estate ends at the grantor's death, leaving Casey's previously conveyed remainder controlling possession despite a later will naming Morgan.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-033"
+    ]
+  },
+  {
+    "id": "transfer-rule-probate-appraisal-separate-price-floor",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "appraisal-threshold-and-overbid-are-separate-calculations",
+    "coverageTopics": [
+      "Transfer through Court Supervision"
+    ],
+    "rule": "For an ordinary private real-property probate sale requiring confirmation, the appraisal and valuation date must each be within one year before the hearing and the offered sum must be at least 90% of appraised value; this is separate from the first-overbid calculation.",
+    "conditions": [
+      "Establish that the sale uses the ordinary section 10309 confirmation procedure and a qualifying appraisal."
+    ],
+    "exceptions": [
+      "Section 10207 and other applicable statutory exceptions require separate treatment; an overbid calculation alone does not prove every confirmation requirement has been met."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10309",
+        "locator": "Probate Code section 10309(a)(1)-(3)",
+        "supports": "States both one-year appraisal requirements and the 90% price floor."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "appraisal-threshold-and-overbid-are-separate-calculations",
+        "summary": "A $600,000 qualifying appraisal yields a $540,000 threshold, while a $550,000 accepted bid is the different base used for the first overbid.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-031"
+    ]
+  },
+  {
+    "id": "transfer-rule-first-overbid-segmented-base",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "worked-overbid",
+    "coverageTopics": [
+      "Transfer through Court Supervision"
+    ],
+    "rule": "The ordinary section 10311 first-overbid minimum is the original bid plus 10% of its first $10,000 and 5% of the remainder; a broker commission is not deducted from the bid before computing the threshold.",
+    "conditions": [
+      "Use the original bid, not the appraisal or estimated net estate proceeds, when the stated confirmation procedure calls for this formula."
+    ],
+    "exceptions": [
+      "The calculation does not set every later bidding increment or apply automatically to every trust or independent-administration sale."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311.",
+        "locator": "Probate Code section 10311(a)(1) and (e)",
+        "supports": "States the segmented increment and requires bid amounts to be determined without regard to broker commissions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "worked-overbid",
+        "summary": "The worked $500,000 bid produces $525,500; the reviewed cases produce $420,500 on $400,000, $578,000 on $550,000, and $819,500 on $780,000 despite a $20,000 commission.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-016",
+      "transfer-031",
+      "transfer-041"
+    ]
+  },
+  {
+    "id": "transfer-rule-overbid-legal-and-credit-conditions",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "selling-through-probate",
+    "coverageTopics": [
+      "Transfer through Court Supervision"
+    ],
+    "rule": "A numerically sufficient probate overbid still requires a responsible offeror and legal compliance; when the original sale is cash and the higher offer is on credit, the court cannot consider it without the representative's required acceptance.",
+    "conditions": [
+      "Check the original and proposed payment terms and the representative's communication to the court."
+    ],
+    "exceptions": [
+      "Section 10311 also permits the court to decline a qualifying offer and order a new sale; meeting the formula is not an unconditional entitlement to confirmation."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10311.",
+        "locator": "Probate Code section 10311(a)(2)-(3), (b)-(d)",
+        "supports": "States bidder and legal conditions, court discretion, and the cash-versus-credit acceptance rule."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "selling-through-probate",
+        "summary": "The chapter separates price from bidder and terms; the cash-sale example rejects a sufficient credit overbid when the representative expressly finds those terms unacceptable.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-042"
+    ]
+  },
+  {
+    "id": "transfer-rule-independent-administration-authority-and-notice",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "independent-administration-is-still-administration",
+    "coverageTopics": [
+      "Transfer through Court Supervision"
+    ],
+    "rule": "Full Independent Administration of Estates Act authority can permit a qualifying real-property sale without separate court confirmation, but does not eliminate applicable proposed-action notice, objections, fiduciary duties, or appointment restrictions.",
+    "conditions": [
+      "Verify full versus limited authority and follow the applicable notice and objection process for the contemplated sale."
+    ],
+    "exceptions": [
+      "Limited authority does not supply the same unsupervised real-property-sale powers; a label such as probate sale does not decide whether confirmation is needed."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=PROB&division=7.&title=&part=6.&chapter=3.&article=2.",
+        "locator": "Probate Code sections 10510 and 10511",
+        "supports": "Separates full and limited independent authority and requires the applicable proposed-action process for real-property sales."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "independent-administration-is-still-administration",
+        "summary": "The chapter compares two estate sales with different representative powers rather than automatically assigning both an overbid hearing or neither one.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-034"
+    ]
+  },
+  {
+    "id": "transfer-rule-deed-in-lieu-does-not-foreclose-juniors",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "a-special-deed-does-not-answer-every-title-question",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "A deed in lieu is a voluntary transfer to the lender, not the exercise of the foreclosure process that can extinguish subordinate liens; junior claims require separate resolution or release.",
+    "conditions": [
+      "Review the property's title, lien priority, settlement terms, and required creditor releases."
+    ],
+    "exceptions": [
+      "A lender's particular program may require title conditions beyond the general distinction; do not assume a voluntary deed clears all encumbrances."
+    ],
+    "sources": [
+      {
+        "url": "https://servicing-guide.fanniemae.com/svc/d2-3.3-02/fannie-mae-mortgage-release-deed-lieu-foreclosure",
+        "locator": "Fannie Mae Mortgage Release: subordinate liens and clear/marketable title requirements",
+        "supports": "Requires resolution of relevant subordinate liens in its deed-in-lieu program rather than assuming the deed eliminates them."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "a-special-deed-does-not-answer-every-title-question",
+        "summary": "The chapter contrasts a voluntary lender conveyance with a foreclosure of a particular lien, where priority and procedure determine the interests extinguished.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-018"
+    ]
+  },
+  {
+    "id": "transfer-rule-transfer-on-death-execution-recording",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "nonprobate-transfers",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "A statutory revocable transfer-on-death deed requires proper signing, simultaneous witness presence, acknowledgment, and recording no later than 60 days after notarial acknowledgment; lifetime delivery to or acceptance by the beneficiary is not required.",
+    "conditions": [
+      "Apply the current statutory form and eligibility rules, with two witnesses present together for signing or acknowledgment of the transferor's signature."
+    ],
+    "exceptions": [
+      "An ordinary deed naming a beneficiary left in a drawer does not satisfy this mechanism; revocation and other statutory limits remain separate."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5624.",
+        "locator": "Probate Code section 5624(a)-(c)",
+        "supports": "Requires the transferor's signature and date, two witnesses present at the same time, and notarial acknowledgment."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5626.",
+        "locator": "Probate Code section 5626(a)-(c)",
+        "supports": "States the 60-day recording deadline and lack of a lifetime beneficiary delivery or acceptance requirement."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "nonprobate-transfers",
+        "summary": "The chapter's unrecorded drawer document is contrasted with the actual execution and recording requirements for the statutory death-transfer mechanism.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-058"]
+  },
+  {
+    "id": "transfer-rule-summary-succession-procedure-specific-limit",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "nonprobate-transfers",
+    "coverageTopics": [
+      "Special Processes",
+      "Transfer through Court Supervision"
+    ],
+    "rule": "The simplified primary-residence succession petition for deaths on or after April 1, 2025 uses a $750,000 residence limit subject to its other statutory conditions; this is not a blanket small-estate exemption for every asset.",
+    "conditions": [
+      "Identify date of death, property category, value, and the particular simplified procedure before selecting its threshold."
+    ],
+    "exceptions": [
+      "Other summary procedures have different limits and requirements, and future scheduled adjustments must be checked rather than treating a historical number as permanent."
+    ],
+    "sources": [
+      {
+        "url": "https://www.sucorte.ca.gov/probate/simple-transfer",
+        "locator": "When formal probate may not be needed: primary residence worth $750,000 or less",
+        "supports": "Explains the post-April-1-2025 primary-residence procedure and distinguishes other property-transfer methods."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "nonprobate-transfers",
+        "summary": "The chapter contrasts the residence-specific simplified court process with an assumption that a single estate-value limit controls all property.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-059"]
+  },
+  {
+    "id": "transfer-rule-partition-division-or-sale",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "coverageTopics": [
+      "Special Processes",
+      "Transfer through Court Supervision"
+    ],
+    "rule": "Partition resolves qualifying concurrent or successive ownership interests through division or, under the statutory conditions, sale and allocation of proceeds; it is not debt foreclosure.",
+    "conditions": [
+      "Establish standing and ownership shares and determine whether division or sale is appropriate under the governing partition law."
+    ],
+    "exceptions": [
+      "The cited standing statute excludes its use for specified community or quasi-community disputes between spouses; special property categories can have additional procedures."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.210.",
+        "locator": "Code of Civil Procedure section 872.210(a)-(b)",
+        "supports": "Defines qualifying claimants and the marital-property exception."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.810.",
+        "locator": "Code of Civil Procedure section 872.810",
+        "supports": "States division according to the determined interests."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.820.",
+        "locator": "Code of Civil Procedure section 872.820(a)-(b)",
+        "supports": "Provides sale where the parties agree or sale and division of proceeds is more equitable."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "match-the-event-to-the-authority",
+        "summary": "The event-authority table assigns cotenants' disagreement to partition rather than probate or enforcement of a secured loan.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-060"]
+  },
+  {
+    "id": "transfer-rule-eminent-domain-authority-and-compensation",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "coverageTopics": [
+      "Special Processes",
+      "Transfer through Court Supervision"
+    ],
+    "rule": "Condemnation is the proceeding implementing eminent domain; California's constitutional rule requires public use and just compensation for a taking or damage within its scope.",
+    "conditions": [
+      "Identify the acquiring authority, public use, affected property interest, and applicable compensation procedure."
+    ],
+    "exceptions": [
+      "Owner-occupied-residence restrictions and their stated exceptions require separate analysis; public purpose does not make the transaction a gratuitous transfer."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=I",
+        "locator": "California Constitution article I section 19(a)-(e)",
+        "supports": "States public-use and compensation requirements and the specified owner-occupied-residence restrictions and exceptions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "match-the-event-to-the-authority",
+        "summary": "The event-authority table classifies land acquisition for a public road as a condemnation analysis rather than a gift or probate distribution.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-061"]
+  },
+  {
+    "id": "transfer-rule-tax-default-not-immediate-sale",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "The ordinary residential tax-collector power of sale arises five years or more after tax default, subject to statutory exceptions and other conditions; the first unpaid installment does not itself authorize an immediate auction.",
+    "conditions": [
+      "Determine property category, elapsed tax-default period, redemption status, local elections, and required sale notices under the applicable statute."
+    ],
+    "exceptions": [
+      "Specified nonresidential commercial property ordinarily has a three-year period, with a county election available for five years; other statutory circumstances and tolling require separate analysis."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3691.",
+        "locator": "Revenue and Taxation Code section 3691(a)-(b)",
+        "supports": "Defines the tax collector's power of sale and its category, period, and special-case conditions."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "match-the-event-to-the-authority",
+        "summary": "The changed-facts example distinguishes an ordinary residential parcel only two years into tax default from the five-year power-of-sale period, then compares the commercial-property rule and county election.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-062"]
+  },
+  {
+    "id": "transfer-rule-bankruptcy-stay-before-enforcement",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "match-the-event-to-the-authority",
+    "coverageTopics": [
+      "Special Processes",
+      "Transfer through Court Supervision"
+    ],
+    "rule": "A bankruptcy petition can automatically stay covered collection, judgment enforcement, and acts against estate property; an existing scheduled enforcement date is not permission to disregard an applicable stay.",
+    "conditions": [
+      "Determine the debtor, estate property, covered act, applicable exception, and any court order granting relief."
+    ],
+    "exceptions": [
+      "Section 362 contains statutory exceptions and rules affecting duration and relief; neither every act nor every repeat filing receives identical treatment."
+    ],
+    "sources": [
+      {
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title11-section362&num=0&edition=prelim",
+        "locator": "11 USC section 362(a)(1)-(6), (b), (c), and (d)",
+        "supports": "States stayed proceedings and acts, exceptions, duration rules, and relief from stay."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "match-the-event-to-the-authority",
+        "summary": "The table's filing before a scheduled enforcement step requires checking the stay and authority to proceed before using the old sale date.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-063"]
+  },
+  {
+    "id": "transfer-rule-adverse-possession-title-and-assessed-taxes",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "transfers-through-operation-of-law",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "California adverse possession requires qualifying continuous possession and claim for five years plus timely payment of the taxes levied and assessed on the land during that period; paying taxes alone is not a conveyance.",
+    "conditions": [
+      "Prove the applicable possession elements and the statute's assessed-tax payments rather than inferring ownership from maintenance, use, or isolated receipts."
+    ],
+    "exceptions": [
+      "Civil Code section 1007 protects the public property and dedicated public uses it identifies from ordinary adverse possession; a prescriptive use right is not title."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=325.",
+        "locator": "Code of Civil Procedure section 325(a)-(b)",
+        "supports": "States the possession framework and five-year continuous-claim and timely assessed-tax requirements."
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1007.",
+        "locator": "Civil Code section 1007",
+        "supports": "Prevents possession from ripening against the specified public property and public uses."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "transfers-through-operation-of-law",
+        "summary": "The chapter contrasts tax payment without established qualifying possession with ownership acquisition, and distinguishes ownership from a use easement.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-064"]
+  },
+  {
+    "id": "transfer-rule-gradual-natural-accretion",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "transfers-through-operation-of-law",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "Under Civil Code section 1014, land formed imperceptibly along a river or stream by natural accumulation or recession belongs to the bank owner subject to an existing right of way.",
+    "conditions": [
+      "Establish natural causes, gradual imperceptible change, the riverbank interest, and applicable existing rights."
+    ],
+    "exceptions": [
+      "A sudden channel change or artificial fill is not interchangeable with the statute's stated accretion facts."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+        "locator": "Civil Code section 1014",
+        "supports": "Defines ownership of gradual naturally formed bank land and the existing-right-of-way qualification."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "transfers-through-operation-of-law",
+        "summary": "The chapter contrasts gradual natural riverbank formation with sudden change and artificial fill before assigning the applicable boundary doctrine.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": ["transfer-065"]
+  },
+  {
+    "id": "transfer-rule-dedication-not-mere-public-use",
+    "lessonSlug": "transfer-special-transfers",
+    "sectionId": "transfers-through-operation-of-law",
+    "coverageTopics": [
+      "Special Processes"
+    ],
+    "rule": "Public dedication and the required acceptance can create public rights, but mere recreational public use is not a universal path to permanent rights under Civil Code section 1009.",
+    "conditions": [
+      "Investigate the owner's dedication acts, acceptance, timing, location, and actual public use, improvements, cleaning, and maintenance."
+    ],
+    "exceptions": [
+      "Section 1009(d) specifies qualifications involving publicly funded visible improvements or cleaning and maintenance; subdivision (f) separately addresses coastal property. Apply each qualification's timing and other conditions."
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1009.",
+        "locator": "Civil Code section 1009(b)-(f)",
+        "supports": "Limits maturation of public use into permanent rights and states dedication, publicly funded work, and coastal qualifications."
+      }
+    ],
+    "examples": [
+      {
+        "sectionId": "transfers-through-operation-of-law",
+        "summary": "A path used by visitors requires investigation of dedication and use history instead of an automatic conclusion that it is public.",
+        "figureIds": []
+      }
+    ],
+    "questionIds": [
+      "transfer-066"
+    ]
+  }
+]

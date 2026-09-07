@@ -1,0 +1,83 @@
+[
+  {
+    "id": "review-document-specimens",
+    "reviewed": "2026-09-06",
+    "reviewer": "audit_practice_agency (separate AI agent; not the author of documents.ts)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independent source-based review of all ten original document, ledger, and recording-timeline specifications in documents.ts after the valid-delivery qualification was added. Checked legal distinctions and recomputed all loan, closing, owner-reserve, and shortage amounts.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1092.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1091.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1105.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=12340.11.",
+      "https://www.consumerfinance.gov/owning-a-home/loan-estimate/",
+      "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+      "https://www.dre.ca.gov/files/pdf/re13.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1214.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1054.",
+      "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145."
+    ],
+    "artifacts": [
+      {
+        "kind": "visual",
+        "id": "exp-document-grant-deed",
+        "digest": "212ad66a8dfe1c041588fea5e19ca6dccaaf1c25872c6752fe0d546926cda9b2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-reserved-estate",
+        "digest": "9e6f397c8502441597ad19956a784de9e60b73694961dc9d0aecc50baa1940df"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-title-report",
+        "digest": "3df2fa0aac0be1cd96b3fc2b26675679feba8ea5795282f71de78bf459198f22"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-loan-estimate",
+        "digest": "9d7e7abae891b2cb650c002ce41ae0ddf2b28abce959005b41464018f64ee46a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-closing-cash",
+        "digest": "d92e3795149c600b75e0b4a841dc84711755fac8609d05540f7ca32dbfcae1ae"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ledger-seller-closing",
+        "digest": "6f4d2cb3f663f24cd30e864b71b2a67b63aee0fa0f13d98d803c4e5e6b6aea08"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ledger-owner-reserve",
+        "digest": "c57d6155f3d0aa4f8889d76300fcf5a26dce80c415b0ad3b8c969c2168d7e8f9"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ledger-beneficiary-shortage",
+        "digest": "3875440e14737e06863a0bd8bb34a1727306e7fb4c9117708050500830724bf1"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-timeline-recording-notice",
+        "digest": "e49d8786138d3d7b83c8ec829d4d710c8552c32481b489b1a4df819bf64dafb2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-document-unbanked-receipt",
+        "digest": "d485d51fea46af7b3a75f138216183d58f95f07ac2c00e0f010caedecc0d19a3"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "The grant-deed conclusion stated that Casey receives the interest while its context omitted delivery requirements.",
+        "resolution": "The final conclusion now expressly requires valid delivery and acceptance. The separate reviewer confirmed the corrected specification."
+      }
+    ],
+    "limitations": "AI primary-source review, not qualified human legal review. Excludes rendering, complete transaction forms, surrounding chapter text beyond the stated specimen context, and other questions or figures. Current trust requirements were checked against the 2026 regulations rather than relying only on the older trust guide."
+  }
+]

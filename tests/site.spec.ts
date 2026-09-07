@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test'
-import { getQuestions } from '../lib/content'
+import { getAllQuestions } from '../lib/content'
+import { getExamForms } from '../lib/exam'
+
+const availableForm = getExamForms(getAllQuestions()).find((form) => form.available)
 
 test('desktop and mobile textbook remain readable with rendered assets', async ({ page }) => {
   const errors: string[] = []
@@ -10,7 +13,7 @@ test('desktop and mobile textbook remain readable with rendered assets', async (
   ).toBeVisible()
   await expect(page.locator('.unit-section')).toHaveCount(7)
   await page.setViewportSize({ width: 1200, height: 750 })
-  await page.screenshot({ path: 'public/screenshot.jpeg', type: 'jpeg', quality: 85 })
+  await page.screenshot({ path: 'test-results/overview-preview.jpeg', type: 'jpeg', quality: 85 })
   await page.setViewportSize({ width: 1440, height: 1000 })
   await page.screenshot({ path: 'test-results/desktop-overview.png' })
   await page.goto('/docs/ownership-property-rights/')
@@ -78,6 +81,7 @@ test('search supports keyboard selection and punctuation', async ({ page }) => {
 })
 
 test('timed exam resumes, supports flagging and grades after expiry', async ({ page }) => {
+  test.skip(!availableForm, 'Requires a complete, source-checked authored examination form')
   await page.goto('/practice/')
   await page.getByRole('tab', { name: 'Mock exam' }).click()
   await page.getByRole('button', { name: 'Start timed exam' }).click()
@@ -86,8 +90,11 @@ test('timed exam resumes, supports flagging and grades after expiry', async ({ p
     () => JSON.parse(localStorage.getItem('ca-re:study:v1')!).session
   )
   expect(new Set(saved.questionIds).size).toBe(150)
-  const first = getQuestions().find((q) => q.id === saved.questionIds[0])!
-  await page.locator('.question-option').nth(first.answer).click()
+  const first = getAllQuestions().find((q) => q.id === saved.questionIds[0])!
+  await page
+    .locator('.question-option')
+    .nth(saved.optionOrders[first.id].indexOf(first.answer))
+    .click()
   await page.getByRole('button', { name: 'Flag for review' }).click()
   await page.getByRole('button', { name: 'Next', exact: true }).click()
   await page.reload()
@@ -146,6 +153,7 @@ test('flashcards, glossary filtering, and calculator work without tracking', asy
 })
 
 test('expired exams reject an answer even before the timer callback runs', async ({ page }) => {
+  test.skip(!availableForm, 'Requires a complete, source-checked authored examination form')
   await page.clock.install()
   await page.goto('/practice/')
   await page.getByRole('tab', { name: 'Mock exam' }).click()

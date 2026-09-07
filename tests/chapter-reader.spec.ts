@@ -308,6 +308,17 @@ test('labs remain interactive on screen and complete in print and no-JavaScript 
   await context.close()
 })
 
+test('printed guide headings stay with their following content', async ({ page }) => {
+  await page.goto('/docs/practice-trust-funds/')
+  await page.emulateMedia({ media: 'print' })
+  for (const selector of ['.case-lab > h2', '.guide-review > h2', '.guide-connections > h2']) {
+    await expect(page.locator(selector)).toHaveCSS('break-after', 'avoid')
+  }
+  for (const selector of ['.case-lab', '.guide-review', '.guide-connections']) {
+    await expect(page.locator(selector)).toHaveCSS('break-inside', 'auto')
+  }
+})
+
 test('chapter and case layouts remain legible across desktop and mobile', async ({ page }) => {
   for (const width of [1440, 390, 320]) {
     await page.setViewportSize({ width, height: 1000 })

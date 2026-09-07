@@ -5,20 +5,21 @@ import { learningFigures } from '../lib/learning-figures'
 
 const supplemental = learningFigures.filter((figure) => figure.id.startsWith('supplement-'))
 
-test('every chapter has two original teaching figures at distinct section anchors', () => {
+test('every chapter retains its original figures and every expansion has a valid anchor', () => {
   const lessons = getLessons()
-  expect(learningFigures).toHaveLength(66)
+  const baseline = learningFigures.filter((figure) => !figure.id.startsWith('exp-'))
+  expect(baseline).toHaveLength(66)
   expect(supplemental).toHaveLength(33)
-  expect(new Set(learningFigures.map((figure) => figure.id)).size).toBe(66)
+  expect(new Set(learningFigures.map((figure) => figure.id)).size).toBe(learningFigures.length)
   for (const lesson of lessons) {
     const figures = learningFigures.filter((figure) => figure.lessonSlug === lesson.slug)
-    expect(figures, lesson.slug).toHaveLength(2)
+    expect(baseline.filter((figure) => figure.lessonSlug === lesson.slug), lesson.slug).toHaveLength(2)
     expect(
       figures.filter((figure) => figure.id.startsWith('supplement-')),
       lesson.slug
     ).toHaveLength(1)
-    expect(new Set(figures.map((figure) => figure.afterSection)).size, lesson.slug).toBe(2)
-    const sections = getHeadings(lesson.body).filter((heading) => heading.depth === 2)
+    expect(new Set(figures.map((figure) => figure.afterSection)).size, lesson.slug).toBeGreaterThanOrEqual(2)
+    const sections = getHeadings(lesson.body).filter((heading) => [2, 3].includes(heading.depth))
     for (const figure of figures)
       expect(
         sections.some((section) => section.id === figure.afterSection),

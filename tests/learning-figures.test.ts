@@ -11,10 +11,11 @@ import { validateLearningFigures } from '../lib/learning-figures/validation'
 import { rehypeLearningFigures } from '../lib/rehype-learning-figures'
 import { RelationshipFigure } from '../components/book/relationship-figure'
 
-test('every chapter has two labeled figures with distinct, valid section anchors', () => {
-  assert.equal(learningFigures.length, 66)
+test('every chapter retains its two baseline figures and all expanded figures have valid anchors', () => {
+  const baseline = learningFigures.filter((figure) => !figure.id.startsWith('exp-'))
+  assert.equal(baseline.length, 66)
   for (const lesson of getLessons()) {
-    const figures = learningFigures.filter((figure) => figure.lessonSlug === lesson.slug)
+    const figures = baseline.filter((figure) => figure.lessonSlug === lesson.slug)
     assert.equal(figures.length, 2, lesson.slug)
     assert.equal(new Set(figures.map((figure) => figure.afterSection)).size, 2, lesson.slug)
   }

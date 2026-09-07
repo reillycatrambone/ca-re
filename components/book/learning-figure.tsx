@@ -2,6 +2,9 @@ import type { CSSProperties } from 'react'
 import { learningFigures } from '@/lib/learning-figures'
 import { CapitalizationFigure } from './capitalization-figure'
 import { RelationshipFigure } from './relationship-figure'
+import { EvidenceFigure } from './evidence-figure'
+import { ParcelFigure } from './parcel-figure'
+import { ChartFigure } from './chart-figure'
 
 const currency = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -21,6 +24,9 @@ export function LearningFigure({ id }: { id: string }) {
       <div className="learning-figure-heading" id={`${id}-title`}>
         {figure.title}
       </div>
+      {(figure.kind === 'document' || figure.kind === 'timeline' || figure.kind === 'ledger') && (
+        <EvidenceFigure figure={figure} />
+      )}
       {figure.kind === 'process' && (
         <ol className="figure-process" style={{ '--steps': figure.steps.length } as CSSProperties}>
           {figure.steps.map((step, index) => (
@@ -111,6 +117,8 @@ export function LearningFigure({ id }: { id: string }) {
       )}
       {figure.kind === 'capitalization' && <CapitalizationFigure />}
       {figure.kind === 'relationship' && <RelationshipFigure figure={figure} />}
+      {figure.kind === 'parcel' && <ParcelFigure figure={figure} />}
+      {figure.kind === 'chart' && <ChartFigure figure={figure} />}
       <figcaption>
         {figure.caption} <a href="#sources">Chapter sources</a>
       </figcaption>

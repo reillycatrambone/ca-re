@@ -1,0 +1,27 @@
+{
+  "id": "financing-classification-visual-independent-2026-09-06",
+  "reviewed": "2026-09-06",
+  "reviewer": "Root independent reviewer; figure authored and corrected by audit_exam_bank",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Re-read the entire corrected purchase-money comparison, all three branches, objective and qualifications. Independently read current CCP sections 580b and 580d after the chapter/rule reviewer identified an over-narrow institutional-lender category label. This replaces the single superseded artifact from the prior financing application review.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580b.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=580d."
+  ],
+  "artifacts": [
+    {
+      "kind": "visual",
+      "id": "exp-security-vendor-lender-purchase-tests",
+      "digest": "16c0bc05660cd9d92c7650ea98ca7457e7c20072ece899c0bff4ff464caf8e65"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "material",
+      "summary": "The former institutional-lender label could exclude a qualifying private third-party purchase lender from section 580b(a)(3).",
+      "resolution": "Changed the category to third-party lender and retained the correctly stipulated warehouse and purchaser-occupied fourplex comparisons, with ordinary-borrower qualifications and the separate enforcement-route caveat."
+    }
+  ],
+  "limitations": "Independent AI primary-source review, not qualified human legal or examination review. The examples illustrate ordinary borrower classifications and expressly do not decide guarantor, other-collateral, or every special-exception issue."
+}

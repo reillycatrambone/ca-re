@@ -64,7 +64,7 @@
     "lab": {
       "kind": "sequence",
       "title": "A counteroffer arrives during a license lapse",
-      "setup": "A remote team receives a counteroffer while its lead salesperson's license is expired. An unlicensed coordinator knows the file, the branch manager is available, and the client wants an immediate response. The manager asks the coordinator to choose a shorter inspection period and promises to review the signed paperwork later.",
+      "setup": "A remote team receives a counteroffer after its lead salesperson's license expired without an on-time renewal. An unlicensed coordinator knows the file, the branch manager is available, and the client wants an immediate response. The manager asks the coordinator to choose a shorter inspection period and promises to review the signed paperwork later.",
       "steps": [
         {
           "label": "Classify the proposed work",
@@ -76,7 +76,7 @@
           "label": "Verify present authority",
           "action": "Confirm the status and required affiliation of the person who will advise the client. Reassign licensed work to an appropriately authorized licensee rather than waiting for the expired salesperson's renewal.",
           "evidence": "Keep the current status check and assignment record with the transaction's communications.",
-          "warning": "A pending application or later renewal does not establish authority during the lapse."
+          "warning": "A pending late application or later renewal does not establish authority during this lapse."
         },
         {
           "label": "Implement supervision now",
@@ -144,7 +144,7 @@
       },
       {
         "id": "two-different-clocks",
-        "takeaway": "A salesperson must immediately deliver received trust funds as required; the broker's ordinary placement rule does not grant the salesperson personal holding time."
+        "takeaway": "A salesperson must deliver funds immediately. Distinguish the broker's ordinary three-business-day placement rule from the next-business-day rule for the specified broker-escrow role."
       },
       {
         "id": "holding-an-offer-check-uncashed",
@@ -156,7 +156,7 @@
       },
       {
         "id": "limited-broker-money-is-an-exception-not-a-target",
-        "takeaway": "The limited bank-charge allowance does not create operating capital; earned fees and disputed compensation require their own identification and disbursement treatment."
+        "takeaway": "The bank-charge allowance is limited. For qualifying mixed receipts, the undisputed broker portion must leave within 25 days after deposit; a disputed broker portion stays until finally settled."
       },
       {
         "id": "three-records-should-tell-one-story",
@@ -282,7 +282,7 @@
       },
       {
         "label": "Exemptions are narrow",
-        "detail": "Test the particular law, protected ground, property, and conduct separately."
+        "detail": "Federal owner-occupied building and single-family tests differ from California's one-roomer household rule."
       }
     ],
     "sections": [
@@ -304,7 +304,7 @@
       },
       {
         "id": "families-and-limited-exemptions",
-        "takeaway": "Familial-status protections and older-persons qualifications have specific conditions; an age-related exemption does not remove unrelated protections or every advertising restriction."
+        "takeaway": "Separate older-persons housing, federal owner exemptions, and California household rules; compare the actual ownership, occupancy, broker involvement, and advertising conditions."
       },
       {
         "id": "servicing-diverse-populations",
@@ -328,7 +328,7 @@
       },
       {
         "id": "apply-exemptions-one-law-at-a-time",
-        "takeaway": "Identify which law and protected ground an exemption reaches before relying on it; limited permission under one rule is not unrestricted discrimination authority."
+        "takeaway": "Four separate households do not equal one boarder within an owner's household; broker participation defeats the federal single-family exemption's no-broker condition."
       },
       {
         "id": "exam-review",
@@ -533,8 +533,8 @@
         "detail": "The agreement defines management powers, while law limits what can be authorized."
       },
       {
-        "label": "Cash is not NOI",
-        "detail": "Debt service and retained reserves differ from property operating expenses."
+        "label": "Notice is not permission",
+        "detail": "An adequate notice period does not override rent caps, just-cause rules, or protected tenant rights."
       },
       {
         "label": "Deposit rules have layers",
@@ -564,7 +564,7 @@
       },
       {
         "id": "habitability-entry-and-possession",
-        "takeaway": "Entry, habitability, rent limits, and possession have separate rules; an exemption from one requirement does not eliminate other state or local protections."
+        "takeaway": "Classify the action before selecting notice: cumulative rent increases, residency duration, and curable default produce different periods and counting rules."
       },
       {
         "id": "worked-scenario",
@@ -638,9 +638,9 @@
         "why": "Age and ordinary wear remain relevant."
       },
       {
-        "trap": "Every entry uses twenty-four hours.",
-        "correction": "Identify the purpose and specific procedure.",
-        "why": "Initial inspection and emergencies have different treatment."
+        "trap": "Only the newest rent increase counts.",
+        "correction": "Measure the combined increases over twelve months.",
+        "why": "A small latest increase can cross the ten-percent threshold for the longer notice."
       }
     ],
     "connections": [
@@ -667,7 +667,7 @@
       },
       {
         "label": "Identify the asset",
-        "detail": "A business, leasehold, fee interest, permit, and equipment are distinct rights."
+        "detail": "Lease consent, lien release, creditor notice, and tax clearance each resolve a different transfer problem."
       }
     ],
     "sections": [
@@ -713,7 +713,7 @@
       },
       {
         "id": "separate-the-business-from-the-premises",
-        "takeaway": "Business assets and occupancy rights can transfer differently; the purchaser may need landlord consent and additional review even after paying for equipment."
+        "takeaway": "Test bulk-sale coverage before the twelve-business-day notice rule; separately resolve occupancy, secured debt, and withholding or clearance for covered seller tax liability."
       },
       {
         "id": "exam-review",
@@ -786,9 +786,9 @@
         "why": "The actual allocation controls over the label."
       },
       {
-        "trap": "The cafe purchase includes occupancy.",
-        "correction": "Resolve the lease transfer and required consent.",
-        "why": "Business assets alone do not establish possession rights."
+        "trap": "Completed creditor notices clear all liabilities.",
+        "correction": "Resolve liens and covered seller tax liability separately.",
+        "why": "A bulk-sale notice is neither a lien release nor CDTFA tax clearance."
       }
     ],
     "connections": [
@@ -807,7 +807,7 @@
     "overview": [
       {
         "label": "A form is not the whole duty",
-        "detail": "Known material facts can remain relevant despite a particular form exemption."
+        "detail": "Test fiduciary-transfer eligibility first; even an exempt seller must address known material facts."
       },
       {
         "label": "Observation is not diagnosis",
@@ -849,7 +849,7 @@
       },
       {
         "id": "build-a-disclosure-decision-from-the-facts",
-        "takeaway": "Nonoccupancy and a possible form exemption do not authorize hiding a known contractor report; classify remaining duties using the actual transfer and information."
+        "takeaway": "A natural-person revocable-trust trustee's former ownership or occupancy within one year defeats this fiduciary exemption; an heir's individual resale is not automatically estate administration."
       },
       {
         "id": "distinguish-observation-diagnosis-and-assurance",
@@ -861,7 +861,7 @@
       },
       {
         "id": "keep-separate-delivery-clocks-visible",
-        "takeaway": "Identify each document, completed delivery event, governing law, and method before counting days; a lead inspection waiver does not erase known-information disclosures."
+        "takeaway": "An incomplete required listing-agent TDS section prevents the delivery trigger; lead disclosure, lead inspection opportunities, and contractual contingencies remain separate duties and clocks."
       },
       {
         "id": "exam-review",

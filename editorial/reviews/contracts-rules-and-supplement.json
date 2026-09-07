@@ -1,0 +1,358 @@
+[
+  {
+    "id": "contracts-rules-and-supplement-independent",
+    "reviewed": "2026-09-07",
+    "reviewer": "audit_practice_agency, separate from root author",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "All 44 contracts rule records, all 12 new ordinary-practice items contracts-052 through contracts-063 (48 options and rationales), and all four current contracts chapter bodies were read and checked against the cited primary passages, with separate arithmetic and condition/exception checks. The existing contracts-001 through contracts-051 were not newly independently certified by this pass. Chapter-file SHA256 snapshots: formation 0bcb32d3be4e0365bec8e1b357c99651e21260d1f20dd244fdf9cc3594032996; performance 7ff04eb671c8fdc479e58277787b86b35681e1c12b7d6fa2e206c3fb2b606bd6; purchase/options/leases 02948edd55d511824df580210409f27a47c1c884b82ac1ea4aa4dd7c50ac33ae; representation 0b3ff9b2de6c613d394285d0a6e1be3558e3b1abb605516a1d5852c11751b3c2.",
+    "sourceUrls": [
+      "https://courts.ca.gov/system/files/file/judicial_council_of_california_civil_jury_instructions_2026.pdf",
+      "https://dre.ca.gov/files/pdf/relaw/2025/AB2992_Title_10_CalCodeofRegs29061_29063.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10026.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1856.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1057.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1457.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1531.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1542.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1566.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1582.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1583.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1585.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1587.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1598.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1605.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1638.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1641.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1662.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.12.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1670.50.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1675.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1677.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1678.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1689.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1691.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1698.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1925.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2985.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3343.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3387.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=38.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=39.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=40.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=1103.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3104.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3106.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=COM&sectionNum=3112.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17703.01.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6701.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7050.",
+      "https://www.dre.ca.gov/Consumers/AdvanceFees.html",
+      "https://www.dre.ca.gov/files/pdf/adv_fees_essential_elements.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref06.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref12.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref13.pdf",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref20.pdf",
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/promissory-notes"
+    ],
+    "artifacts": [
+      {
+        "kind": "rule",
+        "id": "contracts-rule-minor-capacity",
+        "digest": "b0635b5f714f875ccb4eefddbb279e8ce063ee7fb62e63136af422c7dc60bc80"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-mental-capacity",
+        "digest": "9cb2b7830ffcba65b562a7ced5b0fc19d23704b7d908dfb152a0a1a1f0ca8f70"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-consideration-and-deposit",
+        "digest": "e8cf247fa8896b36aae3ff066fb8b4f27f95b33f502a6be25a90accf3505cd0a"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-unlawful-single-object",
+        "digest": "b446a9bc21c46a54d6560b4dd2fb50827bec6d2ecbd1563cc48c53f6b67c08e8"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-fraud-and-avoidance",
+        "digest": "badd8a59f88a410ed663c0921801f99165739f13292fe1661145c9ad9c29d332"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-counteroffer-or-inquiry",
+        "digest": "d05a1b1cf9d5ba21659fafdd3aa52f53791fd8f24e31c42dd6a0ef058274fd42"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-acceptance-transmission",
+        "digest": "10732108c755818f42321a0b674a4a951120a53a5edb19343861a2e65d093f56"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-revocation-sequence",
+        "digest": "be9167ca27700b32965f7c2348763b4dc6fba1b2c423a32114b8601f0572b140"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-writing-and-duration",
+        "digest": "8614be2932c59a2556b41e419b234681f937fc3f336db6f999abd2e32d1c5e93"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-electronic-consent",
+        "digest": "80e955d68488e3f7868b7c968004e625267ecd7309416081bca4c8090166a3f9"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-representative-signature",
+        "digest": "91fd74d294160e9a78bf9f00cf61cfd4ad1f3379e0f509ead374bb026a7d62e7"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-integration-and-fraud",
+        "digest": "164a19e2523a84c029da1a15db1770b66ada274290ef93dc522882690ea42dde"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-assignment-and-novation",
+        "digest": "5e2c760541d529e9997859f725bcc1f2c806bd6b7fa8cf0c88c2ac872d9ab39a"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-contractual-contingency",
+        "digest": "e8a8d4bb3351c5171bcf32c642a8304704f29b3c7824b6be56a3fdd197f23303"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-appraisal-funding-gap",
+        "digest": "e6d59254f895f77e027eceb19f6f50da2678730413da576ddb3b7b63f76b9d4a"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-amendment-scope",
+        "digest": "90e9906b55773064bbea09a425a263de91246159ca789062e33cf9dc3a04f421"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-anticipatory-breach",
+        "digest": "8db15f7404664429ebd90ddbb52d11190749aaeaf2195290db351fa69474f78e"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-specific-performance",
+        "digest": "1387aa9f85fba2059e1d5e304bd1e42a2e14d2089bba1403a67bfefc7154930e"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-deposit-category-and-burden",
+        "digest": "d6bc8d4459dd3eeef42114c347e5b6a9d3e9b32906ba4eab819ee216e547ce12"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-later-deposit-provisions",
+        "digest": "6befb2d77b51e5255fd09dfb08b2544cb882972ee4234d05e44990444c2ca789"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-disputed-funds-and-release",
+        "digest": "1ba42aa007ca3e42aa874117549fc35d4743454c3263fdc21dfcabb07f24a1f6"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-rescission-restoration",
+        "digest": "44c3dffb9210ecc2c69c6f9b6aaf9910a3e31f24744f5b810d17a0d3eecd281b"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-fraud-damages-versus-unwinding",
+        "digest": "d85d25a56735ceff096121c7c54148385bbfdbdfa16209af1d694e39892371b7"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-mediated-settlement",
+        "digest": "2dc5cc665c7666deb6e64b9f2d9c637534e911846c1f7bd1d773c4d01dd4dba1"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-listing-earning-terms",
+        "digest": "c6ca3bc6c63c5e7b96d0d084bed951fb709bdc5144c457d9a7218e48204428f1"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-listing-duration-renewal",
+        "digest": "80cbfb8dae890be9fc4e970f0e5157885cfd85b119c7be415c2c088b620bef13"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-buyer-term-counting",
+        "digest": "28410bf1dfa4d58168d71d2bc76ff862cba5767e96da73d668b6d0670e907f22"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-buyer-showing-timing",
+        "digest": "6039533e430074fa8cb9317f2729f53213ec1ce7abb1696ef29f1e8b0bcad4be"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-buyer-renewal-execution",
+        "digest": "76958283ea3009a178fbe7b81c2aa504ab04f6d7b279ccd23e5b92cd7c6baeab"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-advance-fee-definition",
+        "digest": "a6e1aa2fb32eefb13d79fe6534074eebba7b4e54101293c0d882c7db9ac07fea"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-advance-fee-use-gates",
+        "digest": "18b0535b4a281b00942db92d653a88e412dc0dae876fd2327fb8e1049eeb0e56"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-advance-fee-unexpended-funds",
+        "digest": "c3893ac9faa2b3611ce168fec44ebc1132623acba0e579e815ae725bb1d8b43a"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-purchase-funds-reconcile",
+        "digest": "7090937c211bdb24cee1b8728e81f47428b971bddf5963835f4d7540e87a15c2"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-casualty-transfer-stage",
+        "digest": "63580581f4ee1a0f60fc757814bf95f8a40e4e50968f6744c3255297fd71f75f"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-option-choice-and-exercise",
+        "digest": "8ce8014c8b85933a66b4679531409955a8f593113176c408c2b32067c5d532c3"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-first-refusal-trigger",
+        "digest": "82df02a9692d9db8c7024aa078b0adafef811ec40716344ae2daf422051247bc"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-lease-fixed-term",
+        "digest": "d70c03830ffd5269473f28a05f87eb4299ba7be4db71d42e7e183c83bff23040"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-sublease-retained-interest",
+        "digest": "7379119a44f5e6ddae8b1844818d0a39b86aaeb548ea5739919aad437ed5585b"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-note-versus-collateral",
+        "digest": "6f25c67c72eea3f3067b2de96d6f159ea050ab958ac0ee23f8580cb556633c92"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-variable-interest-negotiability",
+        "digest": "6041c69940396bc1de93644a78936edc7198d03c0f3a4e559aee3d6b5b836201"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-conditional-note-contract-rights",
+        "digest": "55f9b9dea78501eb4c65e5e4aea2416f558db2ab91601a72fd116e44169c72c9"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-note-securities-boundary",
+        "digest": "88a4d6550ec2ed929f95318915e068b0ef6076baca2d25a0edd52c9b4bf54ba3"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-installment-title",
+        "digest": "b44946a20fe0736fd8f2b7ee2f364e8806873b31d652c7189ccce9749f155193"
+      },
+      {
+        "kind": "rule",
+        "id": "contracts-rule-lease-option-credit",
+        "digest": "21eaa884fcd75edcf4cbcb1910c28409edf31c0f72b9cd4eaaae03e90b51ab4e"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-052",
+        "digest": "3a68553f62310348afcdb5371922ebd30dc34d352fae982406e7c11759b2a5ae"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-053",
+        "digest": "33c4416aa2d2728011eb7399d84e818eef902ada7c9269e926ec5f435c6e411d"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-054",
+        "digest": "302960d7c203c5a937eda988d486c39be22cc0e3f8a14b2dda8a8cce75bd0a3f"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-055",
+        "digest": "de19aa7ea7ce7ceb47a17c922f23f1bf7dcb989c2b5591e98599001e41da9c77"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-056",
+        "digest": "1104145037ae510efb49c54c918b8f680f6fc03dede3e6348d7e10d5ed99b7bf"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-057",
+        "digest": "79b24746b58a2f55f44ca746d5b4b7174b2286f7c533b9a95539ecc8539a0d7b"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-058",
+        "digest": "371d05425619d9de39cc273d0fd32ab8b6ca38fa2ee0f60434667174fda656ce"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-059",
+        "digest": "a1901d084c7a130e32b6ccdc7cd318285e6da3e55201d9f7c52894dfdce808da"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-060",
+        "digest": "3d300371c039c1c5d3ff817989ec8aa5df908f3826202a1da73a20ccb1c5c8c2"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-061",
+        "digest": "6090db8c3e57af3bbb010b7529ac2efb4170a1833885527683c8e61a1916971b"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-062",
+        "digest": "38ef133844c4b9a61d18272a2826eaca4e59fddd0af64360472b58529556f71f"
+      },
+      {
+        "kind": "question",
+        "id": "contracts-063",
+        "digest": "68ee438d1a1aed5962f7618f21da596493b9f4d3f1b71a541959e14c7da77082"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "The final residential liquidated-damages example did not expressly supply the unit and buyer-occupancy category facts and called its percentage calculation the category test.",
+        "resolution": "The author stipulated an existing single-family home and buyer residence intent at formation, and distinguished category qualification from the below-3% branch."
+      },
+      {
+        "severity": "clarification",
+        "summary": "contracts-061 used an implausible invented 18-month subtraction rule as a distractor.",
+        "resolution": "Revision 2 substitutes the plausible but inapplicable buyer-agreement three-month limit; the key and other options remain unchanged."
+      }
+    ],
+    "limitations": "Separate AI source review, not qualified human legal review or empirical item validation. Existing same-session primary reads were reused where applicable; current capacity, acceptance, electronic consent, residential deposit, casualty, listing limits, advance fees, and CACI324 passages were specifically checked. Broad source metadata is not a claim to have read every page of every referenced publication. No finding of complete exam coverage or guaranteed score."
+  }
+]

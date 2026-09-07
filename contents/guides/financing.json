@@ -293,7 +293,7 @@
       },
       {
         "label": "Classify remedies",
-        "detail": "Lien loss does not alone decide personal liability or anti-deficiency protection."
+        "detail": "Notice periods, cure rights, redemption, and deficiency protection answer different questions."
       }
     ],
     "sections": [
@@ -319,7 +319,7 @@
       },
       {
         "id": "default-and-foreclosure-routes",
-        "takeaway": "Foreclosure requires its applicable procedure; reinstatement, payoff, judicial redemption, and a completed nonjudicial sale involve different rights and timing."
+        "takeaway": "Distinguish three calendar months, twenty-day sale notice, and the five-business-day cure cutoff; additional protections can extend timing, and judicial redemption is conditional."
       },
       {
         "id": "deficiency-protections-require-classification",
@@ -339,7 +339,7 @@
       },
       {
         "id": "separate-acceleration-from-collection",
-        "takeaway": "Acceleration changes when debt is due without eliminating required enforcement procedures; curing delinquency and paying the entire obligation are different demands."
+        "takeaway": "A timely statutory cure includes overdue amounts, permitted advances, and costs rather than the entire accelerated principal; reinstatement restores debt without forgiving it."
       },
       {
         "id": "classify-a-possible-deficiency",
@@ -395,9 +395,9 @@
         "why": "A buyer-seller agreement need not bind the lender."
       },
       {
-        "trap": "Acceleration authorizes immediate sale.",
-        "correction": "Apply the required enforcement procedure.",
-        "why": "Contract rights do not erase statutory protections."
+        "trap": "Every foreclosure finishes in exactly 110 days.",
+        "correction": "Count three calendar months plus twenty days, then check all additional requirements.",
+        "why": "Months are not always thirty days, and pre-notice protections and postponements can extend the sequence."
       }
     ],
     "connections": [
@@ -434,7 +434,7 @@
       },
       {
         "id": "tila-rate-disclosure-is-not-rate-setting",
-        "takeaway": "TILA addresses covered credit disclosures and protections rather than a universal rate ceiling; APR, note rate, advertising terms, and repayment requirements differ."
+        "takeaway": "Separate credit-advertising disclosures, broker usury exemptions, and repayment review; satisfying one rule does not establish compliance with the others."
       },
       {
         "id": "loan-estimate-and-closing-disclosure",
@@ -450,7 +450,7 @@
       },
       {
         "id": "fair-credit-and-consumer-reports",
-        "takeaway": "Assess legitimate credit risk individually, provide applicable adverse-action information, and handle reports for permitted purposes without substituting stereotypes or false documentation."
+        "takeaway": "Assess credit risk without protected-status stereotypes; distinguish the ordinary 30-day action notice from separate FCRA report-based denial information."
       },
       {
         "id": "who-originates-and-under-what-authority",

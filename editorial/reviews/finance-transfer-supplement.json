@@ -1,0 +1,228 @@
+{
+  "id": "finance-transfer-supplement-independent-2026-09-06",
+  "reviewed": "2026-09-06",
+  "reviewer": "Root independent reviewer; supplemental questions authored by remove_progress_tracking",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 31 supplemental questions (financing-058 through financing-074 and transfer-053 through transfer-066), their correct answers, and all 124 option rationales. Checked targeted passages from the 38 cited primary URLs; independently recomputed the loan, housing-cost, equity, basis, exchange-date, and TOD-date examples. This record reviews questions, not the separately pending financing and transfer rule/body audit.",
+  "artifacts": [
+    {
+      "kind": "question",
+      "id": "financing-058",
+      "digest": "e7199ee7d475683cd24eeed8f9d325bd640d46d70607bc1206778d1c5bfcd2d0"
+    },
+    {
+      "kind": "question",
+      "id": "financing-059",
+      "digest": "cc19b07eecd31ebc0561bace96067b39ada3fbcd37ef325fe5fb2a48a04f04c1"
+    },
+    {
+      "kind": "question",
+      "id": "financing-060",
+      "digest": "fda8b345923ffb1fcb72479eafeb0f5ad34efe0fefdedc625e421109d24d9f62"
+    },
+    {
+      "kind": "question",
+      "id": "financing-061",
+      "digest": "b81d750287845b06abc74fc93d76f3f304dc5fb618c0ac34c47f457c24b4e805"
+    },
+    {
+      "kind": "question",
+      "id": "financing-062",
+      "digest": "3a0b50eb3b6d3b20f38402cdfe20c747ff7372aa9003314e7c7c3c27cc8c4a16"
+    },
+    {
+      "kind": "question",
+      "id": "financing-063",
+      "digest": "11ddde885d53530e45dcf4743136487ac2aba3ea452407b2cd879b513e15b4d0"
+    },
+    {
+      "kind": "question",
+      "id": "financing-064",
+      "digest": "3e8da10defdcf5781f3f62d7249abe507404d8e54eb1737e8eb111af3343af2e"
+    },
+    {
+      "kind": "question",
+      "id": "financing-065",
+      "digest": "c51f7888f8ad06b521b8bf6aaffdc7b12cb70f18f4d067b077f746ca28d6e30b"
+    },
+    {
+      "kind": "question",
+      "id": "financing-066",
+      "digest": "53cb3519ef6fdb49dfb8e298d6cb1a2cf8ce4fff0b33f3646a9319a73063fdd6"
+    },
+    {
+      "kind": "question",
+      "id": "financing-067",
+      "digest": "865d5ecc6195b2ac06ce6096ce211a565f57976397928dfaf763b8d2d2e55882"
+    },
+    {
+      "kind": "question",
+      "id": "financing-068",
+      "digest": "38d474faa033016b8601e03d8e3cd9b82de24cdcfb5adfa7b479dd22484986c3"
+    },
+    {
+      "kind": "question",
+      "id": "financing-069",
+      "digest": "680fdb31005a77ce585c0661691682ac67c0d3e7a7b4b8374305fef6ccbaa24a"
+    },
+    {
+      "kind": "question",
+      "id": "financing-070",
+      "digest": "85bb345d90a14d3e1453a48c4ff85699e5f526999fa672022e4136c84475ac47"
+    },
+    {
+      "kind": "question",
+      "id": "financing-071",
+      "digest": "db71435c27215c1a96460c34afa0ab701f13705a51d148aba3295dd7dfb8eaf2"
+    },
+    {
+      "kind": "question",
+      "id": "financing-072",
+      "digest": "642d5260338723e9052860de30a902f2f2301cd939f1fbe7244a8810eb339bcc"
+    },
+    {
+      "kind": "question",
+      "id": "financing-073",
+      "digest": "910c111672d5e086490441e3ffe104cea613b0f7c048de300c81b89a06e37170"
+    },
+    {
+      "kind": "question",
+      "id": "financing-074",
+      "digest": "88f940991abb9cae648cf0e99277d10f14202bfd7112405080ca27dc43ba36d9"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-053",
+      "digest": "871c1b1606a386cf823ba6cf37db873e88f14e0cf271702c4feef5976c29af89"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-054",
+      "digest": "cf728806d3dd5cf2bfd8f37ffdac44338c6c1b5202a729f075ecf5c9c826deb5"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-055",
+      "digest": "459060d338d366077a78a3c6627eedde21677801f3843ec8bc00d43989644f41"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-056",
+      "digest": "745d673d342df6a772fd3eb2ce0e07c2a593c45ff5bfd82fda06befe158f5bde"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-057",
+      "digest": "f8831dff0a02785d5b083a48023cc8c6f48247807f240ef02890b3b647a64534"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-058",
+      "digest": "77946bd7204da8a40a92e40dadef61fe0109e976dc21a8d04cc784cb1fb1e3c4"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-059",
+      "digest": "3fbc918194d74e82f528f3f0ae55bcc6688c2ede9dcec5cb924f99a9a4d065b4"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-060",
+      "digest": "40ef4dcf7a79b45845e49e378b251583a16cecc2f931e07d4f14cba04897cb9e"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-061",
+      "digest": "7b69ca2e744133920642817e6aec90ebbe0350d86ef7c6b71d3582f421370cd8"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-062",
+      "digest": "bda66f3da4e1e5207c086231ebae8dc0a6605cdd5c98b9b5a8dcff2d20feeb55"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-063",
+      "digest": "2ee8e3d860f5c3af45e1f26147ff77240731d2175892ec84c6e6966b143c5b76"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-064",
+      "digest": "82ca36a05063847bcb6891ff4352785186393d994624fa226285d02094290783"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-065",
+      "digest": "586856a3d2894e8b69d8f832ec4cbba35d51cf53b92c21eb566341e7bb39a5ca"
+    },
+    {
+      "kind": "question",
+      "id": "transfer-066",
+      "digest": "f5866a194b36a6c6ffb65e28abc3f34a6366c961cb85f700428b3a8b28481da5"
+    }
+  ],
+  "sourceUrls": [
+    "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+    "https://selling-guide.fanniemae.com/sel/b2-1.2-02/combined-loan-value-cltv-ratios",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-loan-en-106/",
+    "https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10232.5.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/24/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1916.1.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10240.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1026/43/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=35810.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=35811.",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+    "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-credit-decisions-what-know-about-adverse-action-risk-based-pricing-notices",
+    "https://www.fdic.gov/consumer-resource-center/mortgages",
+    "https://www.ginniemae.gov/issuers/issuer_training/NewIssuerTrainingPresentations/ginniemae_basics_workbook.pdf",
+    "https://www.rd.usda.gov/media/file/download/usda-rd-rhs-fs-sfhd-09252024.pdf",
+    "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program",
+    "https://www.boe.ca.gov/proptaxes/pdf/78-176.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1091.",
+    "https://www.dre.ca.gov/files/pdf/refbook/ref07.pdf",
+    "https://www.irs.gov/publications/p551",
+    "https://www.irs.gov/publications/p544",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/like-kind-exchanges-real-estate-tax-tips",
+    "https://www.boe.ca.gov/proptaxes/calendar.htm",
+    "https://www.boe.ca.gov/prop19/",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5624.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=5626.",
+    "https://www.sucorte.ca.gov/probate/simple-transfer",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.210.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.810.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=872.820.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=I",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=3691.",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title11-section362&num=0&edition=prelim",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=325.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1007.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1009."
+  ],
+  "findings": [
+    {
+      "severity": "clarification",
+      "summary": "The combined-loan-to-value item cited a general LTV glossary without a direct combined-balance definition.",
+      "resolution": "Added Fannie Mae Selling Guide B2-1.2-02 to the question, linked rule, and chapter sources; the funded-balances example and 90% answer remain correct."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The USDA hub did not expose the application-channel evidence reliably during source retrieval.",
+      "resolution": "Replaced the item and rule sources with the direct-loan fact sheet and guaranteed-loan program page; verified the local Rural Development and approved-lender channels in primary indexed text."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The tax-calendar answer used 'after December 10' rather than the statutory same-day cutoff.",
+      "resolution": "Revised all date choices, the rationale, linked rule, and chapter to identify delinquency on the date at 5 p.m. or close of business, whichever is later, subject to calendar adjustments."
+    },
+    {
+      "severity": "clarification",
+      "summary": "The inland public-use scenario excluded qualifying improvements but did not expressly exclude qualifying publicly funded cleaning or maintenance.",
+      "resolution": "Added cleaning and maintenance to the stated facts and linked rule qualifications without changing the no-automatic-public-right answer."
+    }
+  ],
+  "limitations": "Independent AI source review is not qualified human legal, tax, lending, or exam-author review and does not guarantee an exam score. Source review used relevant passages rather than claiming full review of every linked publication. USDA direct retrieval intermittently redirected to its portal; specific primary search-index passages supported the narrow application-channel claims. The historical CalVet memorandum supports the expressly traditional title arrangement, not present-day product availability. Numeric and date tests validate the stipulated examples, not all real-world exceptions."
+}

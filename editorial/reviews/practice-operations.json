@@ -1,0 +1,213 @@
+{
+  "id": "practice-operations-independent-review-2026-09-07",
+  "reviewed": "2026-09-07",
+  "reviewer": "Independent AI source reviewer / audit_exam_bank; separate from the practice-operations rule author and practice-119 through practice-121 author",
+  "method": "independent-ai-primary-source",
+  "outcome": "pass",
+  "scope": "Read all 31 finalized practice-operations rules, including every condition, exception, source locator, example summary, and teaching-question link; read the full licensing-supervision, trust-funds, and ethics-advertising-technology chapter bodies and the two newly authored property-management sections return-method-and-adult-payees and separate-the-accounting-clock-from-the-document-clock. Independently read practice-119 through practice-121, all 12 option rationales and nine misconception tags. Personally retrieved and checked the relevant passages from all 22 unique rule primary sources on 2026-09-07. The source pass covered BPC 10137; current 10156.2 and 10201; 10148(a),(e); 10145(a),(c)-(g); 10176(a); 10140.6(b)-(c); and 10140.8(a)-(b), including the January 1, 2026 effective text. Read DRE 2026 Regulations 2725, 2729, 2729.5, 2773, 2831, 2831.1, 2831.2, 2832(a)-(e), 2832.1, 2834, and 2835, and relevant DRE trust-guide passages on ownership, authorization, positive-beneficiary liabilities, uncleared checks, mixed receipts, and interest. Read current DRE initial-license, renewal, CE category/extension/exemption, complaint, and Consumer Recovery Account guidance; the 2018 unlicensed-assistant task guidance; and the March 17, 2026 AI advisory's supervision, advertising, and privacy sections. Read FTC independent-pricing guidance, additional market-allocation and boycott guidance for the chapter body, CFPB closing-scam instructions and current Regulation X 1024.14(b)-(g), and CIV 1633.5, 1633.7, and 1633.9. Read CIV 1950.5(h)(1)-(7), including electronic-return triggers, successor limitation, notice exceptions, separate email-statement agreement, multiple-adult joint-check and all-adult agreement requirements, protected-termination exception, 21-day initial accounting, 14-day repair/document follow-up, limited document waiver, and timely tenant-document requests. Recomputed 15 independent arithmetic/date assertions: five recovery-cap chart points, bank/control/beneficiary reconciliation and shortage examples, 60/40 refund allocation, and all three September/October deadline calculations. Rule schemas, chapter anchors, exact registered sources, figure ownership links, and linked practice-question ownership were checked without errors. Canonical full rule-array digest: 61418f404ffbfb3437fb077420dcf6c8c569cc90de316605d727c8f3ec572a83. Descriptive SHA-256 snapshots of parsed chapter body text (not separate machine-enforced artifact kinds): practice-licensing-supervision=6e55c9ff5421dd660d00efc425c4a872f5a44d5470a564fddcabdf1434bf9ee5; practice-trust-funds=cd4d4adb8cd2d552206aab1c1144297021050a21bf492ca56a9f3d467fab5361; practice-ethics-advertising-technology=74f34bf0811ad3cb33b3fb4ff7ebafb658793815e820735361599caacb08bb28. The two new management sections, from their first heading to immediately before the pre-existing photograph paragraph, have descriptive text digest 8f2f3dc1886bd592de0ee66355dc6ddf9ba2efb9b33ff6632d08c8a0e8c0cd9a.",
+  "sourceUrls": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+    "https://www.dre.ca.gov/licensees/renewlicense.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10156.2.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10201.",
+    "https://www.dre.ca.gov/files/pdf/adv/2015_2019/Advisory2018Guidelines%20for%20Unlicensed%20Assistants%20-%20Updated%202018.pdf",
+    "https://www.dre.ca.gov/files/pdf/relaw/regs.pdf",
+    "https://www.dre.ca.gov/licensees/cerequirements.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10148.",
+    "https://www.dre.ca.gov/consumers/consumerrecoveryaccount.html",
+    "https://www.dre.ca.gov/Consumers/FileComplaint.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10145.",
+    "https://www.dre.ca.gov/files/pdf/re13.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10176.",
+    "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.6.",
+    "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10140.8.",
+    "https://files.consumerfinance.gov/f/documents/cfpb_mortgages-scams_one-pager.pdf",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.5.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.7.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1633.9.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+    "https://www.dre.ca.gov/Examinees/RequirementsSales.html",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10130.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10131.",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10133.",
+    "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/market-division-or-customer-allocation",
+    "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/group-boycotts",
+    "https://www.consumerfinance.gov/rules-policy/regulations/1024/14/"
+  ],
+  "artifacts": [
+    {
+      "kind": "rule",
+      "id": "practice-rule-salesperson-payments-through-broker",
+      "digest": "4172df2426a178931aa90439a569b27d003f0f373f24f7b6f8a425ffca187982"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-late-renewal-not-present-authority",
+      "digest": "287f8177217e8cc6937d601a55a1e9d769bb5427c9273206034d7e8b14c65c9f"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-assistant-administration-not-advice",
+      "digest": "afb37d4860fc8e717af1583ba8230a8529926a526ead7c5668dd8238e350e4d5"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-supervision-survives-delegation",
+      "digest": "ac2482df0bfd1f26eda188dd1a88679bfc05dd06a7e718e1c73fb08670f13b17"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-renewal-ce-category-and-total",
+      "digest": "39a2070b865add618f5cee52756a8e13f69b1e317ca12f58d81822c3a0fbe5e3"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-retention-starts-at-correct-event",
+      "digest": "a06c1c16a501c1b5b445aaa13e9457dbbb057616a262943ec2d0ef2e62c86bff"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-recovery-eligibility-before-limits",
+      "digest": "c1ab8da11308d1695861acf25c930475947c9c4626ed85fedc5e25064190c386"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-recovery-two-concurrent-ceilings",
+      "digest": "f6b8bf4a48cdb2c7f4b24f1ff648a72ca4d67f372a0ff2c71dce12c61698b949"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-salesperson-immediate-trust-delivery",
+      "digest": "c463dabca7b422b06830bcfb02cee9243963130b603de9e8498da1dd24e479b5"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-broker-placement-and-escrow-clocks",
+      "digest": "15287610052eef762b8b3fe48dfaf5c66d2a931d0b74f5b4bd75e893ccca5731"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-offer-check-authority-after-acceptance",
+      "digest": "709c0516c2832d726ff5f82f574b1aeac718f5b63deb9cb5fe785fcf4c4a6f25"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-bank-charge-reserve-limited-purpose",
+      "digest": "30b5187e963e2421f283a443c056238083c6cfc392baad6792452c8168b48a39"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-each-short-disbursement-needs-all-owner-consent",
+      "digest": "985f589abfb8e923de3fa7fc78b0844c2bc7f0460281834e1751472028587333"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-three-way-reconciliation-not-netting-deficits",
+      "digest": "e705419c0f01b6d8997317c58f4491f6bccddfbd1341a1c797817daac7352aff"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-disputed-deposit-is-not-brokers-award",
+      "digest": "8eebd761b8ac667fc695a3c245f44d7c8e3b15d67c871e652463c38df06874ff"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-provisional-credit-is-not-collection",
+      "digest": "2a2ae7bc9a3d069e8fbd9b95a2a463ebdc45be9eae642d113132a3ad15a34be1"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-mixed-receipt-fee-clock-and-dispute",
+      "digest": "557d4ed8947539c9ce283da293e882e4b0b63ee7c1778b1005463bce03a3293c"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-interest-cannot-benefit-broker",
+      "digest": "35843b02cafd06924b7783473b8a0523e80ae3f0e67b4d679ba508101954733c"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-material-claims-need-supported-facts",
+      "digest": "178a743b5575773ee5d76d6cd34d0aabe036a92da4f4c9b47320a0616ff40e57"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-advertising-correction-reaches-known-recipients",
+      "digest": "0b7a90a5c712866febadadd9bb9324ebe7f706cf70c04ddcbd61d5d0b0097b6d"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-first-contact-advertising-identity",
+      "digest": "224c15d7c9d312c4be211e229957f056883f9b50e191126199ee5720a9ba3b2c"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-competitor-minimum-is-not-independent-pricing",
+      "digest": "5b2c0081ac0b97c41c82e43715d4754718b18a72bfa5b7b647acdbbe1730cda0"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-ai-tool-does-not-assume-licensee-duty",
+      "digest": "337844d61f02d250a7144953bbc0a42584353b3c90aee5d8acbd84eed116d51b"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-public-ai-input-is-a-confidentiality-decision",
+      "digest": "5aa06b6c0a26f6769ca5fdc851b9ca193f68e0d40b356634827a4e737e819a31"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-altered-image-disclosure-and-original-access",
+      "digest": "8baa856b3db29b2478b49af2cf1be1219acfb70faaef1500a879d734f74381fc"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-image-label-does-not-prove-feasibility",
+      "digest": "7df918b8958954d5d670e390d4be0c16e458973bd85ef43de343a4d678b376ab"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-verify-wire-change-outside-message",
+      "digest": "4a353dd3121f5ef37a765dd5211af0a288bbbe3a7b1e7e124db21bab1bfdfc98"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-electronic-recognition-is-not-signing-authority",
+      "digest": "43593004fabe6ad8dcd03678647d94ced575c973e8acd88037d0a0731515672e"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-security-refund-route-and-statement-consent",
+      "digest": "77fb9d81efe0964887c3dbd34846cb1dfc8010f1888a9e162e206b8192fe1f53"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-security-multiple-adult-refund-allocation",
+      "digest": "0757315ebd424144af613e311c3656a43842767d096369cb5c75564c8626cd35"
+    },
+    {
+      "kind": "rule",
+      "id": "practice-rule-security-estimate-followup-fourteen-days",
+      "digest": "3a7b46506d2f5a554803b8c887ab83115dffa1ea8b88e19ba578d1721d28b4f9"
+    },
+    {
+      "kind": "question",
+      "id": "practice-119",
+      "digest": "4b08e453f0bf9eb56f57a937bb11eb6323ad978570be762dd6c0c77b18edc2b9"
+    },
+    {
+      "kind": "question",
+      "id": "practice-120",
+      "digest": "82d5ce83fda088a6cf56c43e5ae7a1989f3deb3468e11e205e018f6a58421f8e"
+    },
+    {
+      "kind": "question",
+      "id": "practice-121",
+      "digest": "1005345a8cc4434737cf99f2b3a38afe4303314909b0b7e3d35bd6f128e54273"
+    }
+  ],
+  "findings": [],
+  "limitations": "This is an independent AI primary-source check, not review or endorsement by a California attorney, qualified instructor, DRE, or other regulator. No guarantee of legal completeness or an exam score is made. Primary materials were read for the cited rules and chapter claims, not every page of the 127-page regulations or every provision in all linked statutes. The actual current statute or regulation controlled over a simplified booklet description, particularly the mixed-receipt deposit-based 25-day clock. Operational correction and supervision workflows are applied examples, not invented statutory deadlines. The three full chapter bodies were read, but only the two stated new management sections are covered here; other management law remains within its separate review scope. Cited visual purposes and selected arithmetic were cross-checked, but this record does not replace the existing independent visual reviews or certify rendered layout. Earlier linked practice questions retain their separate review records; this record certifies only the three newly added questions identified in its artifacts. Rule and question artifact digests are machine-enforced; the body-text hashes in scope are descriptive snapshot evidence, not machine-enforced body certification."
+}

@@ -1,0 +1,477 @@
+[
+  {
+    "id": "review-ownership-agency-application-visuals",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the visual author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently reviewed the complete data specifications of all 48 ownershipApplicationFigures and all 32 agencyApplicationFigures: instructional text, conditions and exceptions, stated numerical results, parcel geometry and directions, source support and anchored chapter passages. Current statutes controlled where older DRE explanatory references differed. Final source-only corrections were reread before this pass.",
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=2.&chapter=&part=1.&lawCode=CIV&title=1.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref05.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1019.",
+      "https://www.dre.ca.gov/files/pdf/refbook/ref09.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1108.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=683.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=760.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=770.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=1102.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4125.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=801.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=806.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=845.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=405.20.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2941.",
+      "https://www.govinfo.gov/content/pkg/GOVPUB-I53-PURL-gpo62570/pdf/GOVPUB-I53-PURL-gpo62570.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=8726.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5975.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65302.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=65906.",
+      "https://codelibrary.amlegal.com/codes/lapuente/latest/lapuente_ca/0-0-0-39966",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66424.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=11000.",
+      "https://www.dre.ca.gov/Developers/",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=21080.",
+      "https://www.waterboards.ca.gov/waterrights/board_info/faqs.html",
+      "https://water.ca.gov/Programs/Groundwater-Management/SGMA-Groundwater-Management",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1014.",
+      "https://www.slc.ca.gov/public-trust/",
+      "https://www.epa.gov/enforcement/superfund-liability",
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section9607&num=0&edition=prelim",
+      "https://www.epa.gov/enforcement/bona-fide-prospective-purchasers",
+      "https://www.conservation.ca.gov/cgs/alquist-priolo",
+      "https://www.coastal.ca.gov/whoweare.html",
+      "https://www.conservation.ca.gov/dlrp/wa",
+      "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1624.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2332.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21.",
+      "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+      "https://www.dre.ca.gov/Licensees/Advisory_2024_11_14_Changes_to_Buyer_Representation.html",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6."
+    ],
+    "artifacts": [
+      {
+        "kind": "visual",
+        "id": "exp-ownership-showing-inclusion-register",
+        "digest": "58177117de3118b218ec14ba5c4eefa77c36a00a6083e8000064d5322dae0896"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-screen-mount-account",
+        "digest": "83382a50ebfb98110ea187310f35be09b7eff4b3509da0b331d9ad2c2496b019"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-note-versus-building",
+        "digest": "bb9e2fa37a03283535929d0570cad85a8113a9d033fd9d8fc1b67c91bebf8708"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-trade-removal-conditions",
+        "digest": "a8fd7ecbc6325ad56a1fe8589b4c842611c26dd5a49900033713dafed8297031"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-severance-permission-sequence",
+        "digest": "7de9edb33e7807b180641da2ee9a92149f34572bcc01951e9ac970b3ed7df30c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-fixture-price-distraction",
+        "digest": "a7663e8eeb05317079743c9064af258ec72ac33102f74997cf93d0b1d8780516"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-solar-obligation-comparison",
+        "digest": "d1ad64bd510a7042e84ef76cfdc53b6d5f6e8f7806329e5e60a72cc1080c2bdb"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-reserved-vertical-rights",
+        "digest": "0852fb5a394e301836fd64e5987a64b46dcae65ed3a0f6928d8aab8b4466b13d"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-estate-vesting-possession",
+        "digest": "3ac455b4884dfee0614f94bc2960dcac4659265d87f770b53b4fc57cec5c5376"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-measuring-life-transfer",
+        "digest": "998b2b2ea3e64dbbee56f7f4e572263f4d4a15bf122bad468e788701869615e0"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-lease-duration-diagnosis",
+        "digest": "bb2881c5920b71c972f345504e080530eaac4beaf73d67904eb1836514617547"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-partial-joint-severance",
+        "digest": "aa05a9d832d06c5200323543d09dda181c135062877a9fddbd14d271b33c4a34"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-community-source-of-acquisition",
+        "digest": "8b14508d5a22537578f3cb1f3267ca848b78280b5c1eb5ac2c0d7f8df0f0b8a1"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-community-two-year-lease",
+        "digest": "71c6118086d39b2c25802209099e8ba0dee345b65438b4b350e88467a4d35e56"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-condominium-patio-boundaries",
+        "digest": "df6780f78350105d8a7f40510a3339f8f33a4419d67327cf544c9cd0372566eb"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-coowner-net-before-fraction",
+        "digest": "247f19a30dd7d19a161d4434693200b76ce027912606135c29dc3355273cf72c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-access-not-parking",
+        "digest": "32b865f21f8f430a95feaf9e89d9428bed0bd1e2f3270d1cf0dc6a3dafc5f37a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-garage-boundary-intrusion",
+        "digest": "9f1383315998eac537385439daa965c722c011070bfe1a587666b20949f30770"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-road-maintenance-allocation",
+        "digest": "a9c1b5c04859eef7d157deecdab9546c094a4b48ed63169084498b9b153dd186"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-permission-defeats-shortcut",
+        "digest": "3b98d46e297d407f0193ea4ec63eb27e933fcd4f20adad0de500fefecd7ccbb3"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-easement-nonuse-release",
+        "digest": "a18f4bf9b5dd124e88490df4fad99a21f24aa33ee1bce907ab10cee631dd3f41"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-pending-action-not-award",
+        "digest": "458701e12da9e9c5f4b4803fc51ff6a5a3e2cd6382a6c0f3effc0f4361bb47b9"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-subordination-distribution",
+        "digest": "a2bf43a3b23f8358c9e27eccaf906aa30485374c057acc4f7a1d8fb2d72346c2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-payoff-versus-reconveyance",
+        "digest": "a64c922f6cace499d743ba2807e76662bd054fdc39093feedc28aae0c6c31fd5"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-parcel-identity-mismatch",
+        "digest": "d6213c289778aaed158ad19eda523324d51abc7630dc1d25de8b9ba9965f7b41"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-traverse-does-not-close",
+        "digest": "9d4992eecfe49ce4ce49823a2f8d2168b747c381a18cbed0287cf76c460570a3"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-nested-quarter-location",
+        "digest": "053fb85736da00a2e5b640aae6f6a8a6ae35b0c6614e6d310552abb3140173d2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-overlap-double-count",
+        "digest": "092df42266bdf2d977b32d0a88efdbda52c87bed07962fd83f889a9e18d696cf"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-half-area-not-half-frontage",
+        "digest": "c6c6e103716863dd883b455dd34a6177c4600a75d3ba5d4eca26054ca1244993"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-setback-coverage-envelope",
+        "digest": "f69594527475e5a843d1689504989c2888bb52c011609876dee99587dd710bcb"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-deed-exception-area",
+        "digest": "1452a51f8a40b39430b3b4f3ef1b04dbc5c8fac57b143096ceddc21548e0d587"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-irregular-site-price",
+        "digest": "e74e930cb876b00815eb9443d01fba21553bf21c35d6c455d612f337ee9aaa70"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-independent-height-permissions",
+        "digest": "766992f7abe9238fea622044a1163061ed176146594358f86766f6348066b33c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-plan-zoning-construction-records",
+        "digest": "6ecb0d05d58502d4906cd448f9f9ddee257500ea0a744d1abb077da5ffc3d116"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-density-capacity-bottleneck",
+        "digest": "24ec2c426f6ac297c9ee6e66ca7510683c92c4d5b7492e965ee8fa207141b1f8"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-far-versus-footprint",
+        "digest": "c61a2ad52df68136c8be630cfcc4276a71470f686144ff33a99472d1b36ec22a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-variance-property-not-profit",
+        "digest": "6d9a9b21ba442982c83ffc51b623047ad364eb3ff9252d9251fbe89a9795df4b"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-nonconforming-lawful-history",
+        "digest": "d3ae2cc8c690cf1b127f2c9c9d397fd7dd23c5e2aa3017676c767c04c9bc7b48"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-four-versus-six-parcels",
+        "digest": "b1d2683cbae0c062689a533200d906571827fbf8f045692d4b34c2bd03e6760d"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-ceqa-evidence-paths",
+        "digest": "c723cd6530e4e54dc452d7569ea87e6c8d52c29dd5c509599ab329d8cfa42ddb"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-riparian-place-of-use",
+        "digest": "752ec32f8d01e297a59222affdbddd3aad57c821247d949be004401dd4cb86cf"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-water-entitlement-supply-budget",
+        "digest": "98b05a3a0a0815b4cc085c97aa21b5cb2607c9d9aed25427e89364bcebb22cd3"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-well-records-three-questions",
+        "digest": "f8edd5c4d7c425aebfc0ff231de46729f8378b4ce7f190c6cc8cf012ecc1f5f2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-accretion-existing-right-of-way",
+        "digest": "d3ff92870d3141862c28250c49c1d28fb5413372432c09eca860a8242be48d9a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-environmental-indemnity-parties",
+        "digest": "5b555e5c2f812f09b4e2d5ac6eff0111e02a291dd687b0d77e4b81950370b434"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-bfpp-before-and-after-closing",
+        "digest": "89cfae6212dbba418fb600eddde6040558aa020dd75eaaffad55a0adcbc15fc7"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-fault-map-wrong-assurance",
+        "digest": "a2b9740cf1930cd44a90375f8a57e2080a8a9f880f88486c80d3b810cf5a41d8"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-ownership-special-land-project-file",
+        "digest": "97ba1ee8cff1c18bff5123d8c20764631fa08483c718ccd344b5cb2bd381143a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-three-legal-questions",
+        "digest": "919d69ba6100f8cdfd3522c01aaae3c28d8d10fafede2e86dc56a3d467096c86"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-manager-instruction-limits",
+        "digest": "6b27c48d330a87cbb2a7e5f83a74e540cf0480927dba6c3309ccf1de75636346"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-contractor-restriction-file",
+        "digest": "e1dda2cab61436da2e536be1e2c86ba3decce9bacdc9f6aeabc80fe88753d1b4"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-reliance-before-commitment",
+        "digest": "f897ede53cf9a0bca1baae6ba0bfd4e48a661d745a82a5e86c38742452914de2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-notice-chain",
+        "digest": "7fe41b703894b4ce6d13bcd04f4ee55397866937df35086537267ce1d4efd5f5"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-indivisible-ratification",
+        "digest": "cb099887e366e2d0c6e1a328cdd1b984daaa6f3327dae2b13ba33cb3fd2f26f4"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-poa-specific-powers",
+        "digest": "743fbfa509ee2b7da064dd0f06cf69fc8b0f1b72dbc373712709c8930cdae3c1"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-cooperation-not-subagency",
+        "digest": "9b8f4506b9f7da1d945a4393ea10f2c2491033c7c325583dab92dbaaa635cd25"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-offer-net-and-risk",
+        "digest": "6a9a2e72631181f0128b7f5c879279c1fbed65060ddb3a91f97f8599a395111b"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-obedience-is-not-concealment",
+        "digest": "962c71415394685628b7807adea4a3549352dd054aeb3b83c47facbe38875407"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-prompt-offer-decision",
+        "digest": "9e23ca0ac5745f792ebc73dcaeee00b8398602b5e7f42f5100297f19d5c2b2d0"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-inaccessible-report-evidence",
+        "digest": "bae06bc1d6808d54f29aae54fac0290613bd4f5e62c996407d21335012d86343"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-client-purpose-verification",
+        "digest": "4f7e71dcf74eff7ca7a9161cec878182473fd65348790879b11b9994f2cd623c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-conduct-versus-outcome",
+        "digest": "5dd2fe255d99afbc1bd09990191b8d947edcfeac4e588cc449dd338d621eb4a7"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-entrusted-money-not-fee",
+        "digest": "e777c0318cfa4abb3178fa2ddbc323c35276547d716fc48cf24658d0dfe7a3a7"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-correct-measurement-claim",
+        "digest": "c17b3949bf5b6df541ef4e8381a629a90f5c6cbf66611dfb89ecc3ed8ed2a3dd"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-paperwork-evidence-functions",
+        "digest": "d198809eb2af832da907b18d885e4ab4a1276d442e0109daf2544c766e6506bf"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-disclosure-role-clocks",
+        "digest": "ccf25ca050a64e6956c46808eae9ec615c4c1001a9ed5b51b5dd2664a96efe5c"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-refused-acknowledgment",
+        "digest": "61d8f9dcec9b63c1d9290d1909179d3175d7dd9470e7f0b72d7b1bdfeacf24b2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-changing-representation-sequence",
+        "digest": "3fa623e4daee9a9a33df2b80a109679a5674c814180bec0c4039a2aad42eb4b5"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-limited-confidential-permission",
+        "digest": "c4c4657df02516b39d57193915c993c5f2a1c6a1606e4d210b6f7349e873abd5"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-shared-report-private-limits",
+        "digest": "6e82cc98ffe157f45848ca1ed2e2c8fdfb5162d433816e496db61fa52d2b76de"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-profit-participation-disclosure",
+        "digest": "1ba5179c36c478944bfe32efaa3544444722b0a425bf33adb741b4fe00bad0ba"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-disclosed-payment-legality",
+        "digest": "4a634a50f359148aa3fd2db989939b5450da7053d7ca0a00e1d8ea3bcd1a2bb2"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-fee-contract-elements",
+        "digest": "863279408b93ddfef32670f2d3968bddbf5cdb6e6f186f4ae2612e3ad5231f2d"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-ready-willing-able-evidence",
+        "digest": "21e319e17be2b88b8f47bd3eb205331909e493b8a253ea6fac9afe97b32b38dd"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-owner-produced-purchaser",
+        "digest": "50f64e5d97489a482f523cb0c952fd83834766ae523f29a8b00a8b04afcd044b"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-protection-clause-sequence",
+        "digest": "d7805d23a24fc44eae2c46aaedca069db0e4b311a0e05d11b1ecf3d5a259cf4a"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-buyer-contribution-credit",
+        "digest": "4551e9d0ba695a8ff64ce23cf67b8b28ca1cd64de3f070b3c11a860c2e4f7e14"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-referral-then-internal-split",
+        "digest": "2e15161329f33ef96d00857412d12142ccd02ed2e07025f3273163d767a8ed94"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-salesperson-payment-routing",
+        "digest": "0870809913dd005752be450f6606407587b24abba4743efed0bcc5202316bbbe"
+      },
+      {
+        "kind": "visual",
+        "id": "exp-agency-management-withdrawal-handoff",
+        "digest": "f17cf045861a12ac103428a7801f64d323aa99a7963dc46c247a32f8a8d2cdc5"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "Two ownership estate figures needed direct leasehold classification and possession support.",
+        "resolution": "Added DRE ref09, Types of Leasehold Estates at printed page 129, to exp-ownership-estate-vesting-possession and exp-ownership-lease-duration-diagnosis and their chapter."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Environmental indemnity figure needed direct authority distinguishing private reimbursement from imposed statutory liability.",
+        "resolution": "Added current 42 USC 9607(e)(1) to exp-ownership-environmental-indemnity-parties and its chapter. The existing instructional conclusion remained unchanged."
+      }
+    ],
+    "limitations": "Independent AI primary-source review, not qualified human legal review. This record covers the named visual data only, not browser rendering, entire chapter completeness, empirical teaching effectiveness or exam difficulty."
+  }
+]

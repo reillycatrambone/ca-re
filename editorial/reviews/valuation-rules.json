@@ -1,0 +1,185 @@
+[
+  {
+    "id": "review-valuation-rules",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root/remove_progress_tracking (not the rule author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Independently read all 29 valuation rule records, their conditions, exceptions, source locators, chapter examples and calculations, and their links to all 56 previously reviewed valuation questions. Verified all schema, topic, question, anchor and figure references. Final six source or locator corrections were reread without intervening substantive rule changes.",
+    "sourceUrls": [
+      "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf",
+      "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+      "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf",
+      "https://www.irs.gov/publications/p527",
+      "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule8.pdf",
+      "https://www.boe.ca.gov/info/iav/lesson10.htm"
+    ],
+    "artifacts": [
+      {
+        "kind": "rule",
+        "id": "valuation-rule-value-purpose",
+        "digest": "9fdb8bb12e2b3376592b740d69ebdbd6685c333fd5dc805d3418ffeff536dc54"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-ingredients",
+        "digest": "4e9e9e8f5b4dc53b239abeb51125044a53899f0d4186862e0d52a5707408e56e"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-contribution",
+        "digest": "0b171fda805cb2d1f80c33f5e58536901af4f9bff2ab21311ce153632fa69b31"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-substitution",
+        "digest": "9c621f4f0dd6dd4e216a4eb5579e948f3c576ee3d3ef67167fa724ab2b3600f5"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-anticipation",
+        "digest": "8fa19f930754ea338f8510e65d69a4d3fe4d560b72a992024fa8da2c2e4e82ac"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-regression",
+        "digest": "93648604e48e04d7a67c0efd81298e3e07f4dca1895d98bf82b651a6cd3503eb"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-highest-use",
+        "digest": "df675b173f06de9a8f060fcc33296eef60c25be47f9c0460e40f204a09f68889"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-assemblage",
+        "digest": "a4960609e7632123899ae30cccab32c98e1b110487fc0aa820072cc3191441ba"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-adjustment-direction",
+        "digest": "2555621b8231e6988dc67ff9410a7dcc004f26aeb0493295f9164f6c2a816c8b"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-net-gross-adjustments",
+        "digest": "60bc77fa8aa750cfbee63d425eed06a01a6892aa8da0c6fd5d923c88587028b6"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-time-period",
+        "digest": "5277527113dd6f9e3726b057a08d12cebf1a576e3a8a3fe6189122dc3d7657bc"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-concession-price-effect",
+        "digest": "5f4f06b845b386137fa9b6a6605ec05e2857fd312b2a91b8d5f97b26dd4a3afe"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-evidence-reconciliation",
+        "digest": "a626024daee020a4abcc696e4c8e28a96b188a1d01f3f7bf073ddf94fad8eddd"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-paired-feature-contribution",
+        "digest": "6b58b4696722beb549a7d688f32ea8e82a8d2a29f7735e12b3976970388a0254"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-cost-definition-and-inputs",
+        "digest": "0f597ac89b36aa3e3e33fcb778991bb6b39949079e36d1b9c78f96d58f429b53"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-age-life",
+        "digest": "d91e8219c2d87ee768c2720b4530742501002514da0122ca67b05ce7e3732465"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-economic-curability",
+        "digest": "6cc83711c1c3dc91bf5758f429cbe56f0aba98c7cdd89e058dc70452692f7f1b"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-loss-categories",
+        "digest": "ca4dd826d63a68c2914db30cc7e928a2c878b7787713e5934923c40977313873"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-tax-versus-market-depreciation",
+        "digest": "2c9a0a8ea59846e466dd339d2e461071df8b9b20fce1b8ba5c9422f06f45af53"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-separate-components-percent-good",
+        "digest": "d272c9e9ad144dd7f90191599845afc56193ab01804eea51ff7cd5c04de64e29"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-depreciation-double-count",
+        "digest": "5b266303c73ec9d7cf7a004bf97bf1f0e7d4c1e5145485adafa261912cb3acd9"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-operating-income",
+        "digest": "6d2f468e1dc12a33fe9892bccc042503cbddbc311f7200a3da4146a8ae5484c4"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-stabilized-recurrence",
+        "digest": "81a6cb2093915b655d68ac0adacf5df54e681753763ba2372009505eefa07a60"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-direct-capitalization",
+        "digest": "ac120b96376553afc4e3ca3521ccaf9e217510087e5fb284daee62f4027508a9"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-multiplier-period",
+        "digest": "660589353aaaa6d080a100aaa3ad1d9b405ba2a5552c0bd777606fefa0c4046a"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-cash-return",
+        "digest": "d21e05a5e4cb19bd36ec37df63b9cb6cc4d9bbd34d26232b9d3c9e66ae1a8d83"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-debt-coverage",
+        "digest": "13f322bd78c2fa1312f615d948c693843bfeffe6a4f8748f916aa408ad7a443c"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-leverage-and-present-value",
+        "digest": "87fbdf3c808859bfcc929bbfd084a0441e9f3e6081f7535d6b9d366f39bd181b"
+      },
+      {
+        "kind": "rule",
+        "id": "valuation-rule-single-payment-present-value",
+        "digest": "ed8118e499720bcf51f733a55770126d4142c773ce9e95463bdf162201eb3e41"
+      }
+    ],
+    "findings": [
+      {
+        "severity": "clarification",
+        "summary": "The operating-income rule asserted the California property-tax convention exception without citing its direct authority.",
+        "resolution": "Added BOE Rule 8(c) and 8(f) for exclusion of property tax from gross outgo and inclusion of a tax-rate capitalization component."
+      },
+      {
+        "severity": "clarification",
+        "summary": "Four Fannie Mae locators used outdated or nonexistent heading names rather than the current guide headings.",
+        "resolution": "Updated the four locators to Analysis of Adjustments, Market Conditions Analysis and Time Adjustments, and the current Appraiser Comments heading as applicable."
+      },
+      {
+        "severity": "clarification",
+        "summary": "The value-ingredient source locator needed the exact DRE subsection title.",
+        "resolution": "Updated it to printed page 388, Four elements of value."
+      }
+    ],
+    "limitations": "Independent AI primary-source review of the specified records and linked examples. It is not a qualified human appraisal review, a full independent audit of every chapter assertion, or proof of exhaustive DRE coverage or empirical examination readiness."
+  }
+]

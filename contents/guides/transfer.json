@@ -226,8 +226,8 @@
         "detail": "Debt payoff and withholding affect cash without necessarily reducing realized gain."
       },
       {
-        "label": "Carryover",
-        "detail": "Deferral usually preserves gain through replacement basis rather than forgiving it."
+        "label": "Two assessment tracks",
+        "detail": "Proposition 8 temporarily reduces assessed value without replacing the Proposition 13 factored ceiling."
       }
     ],
     "sections": [
@@ -253,7 +253,7 @@
       },
       {
         "id": "property-tax-after-transfer",
-        "takeaway": "Distinguish due dates from delinquency dates and reassessment from existing bills; closing prorations do not necessarily settle later supplemental assessments."
+        "takeaway": "Separate the 1% levy from the 2% inflation limit; reassessment and Proposition 8 recovery can exceed that growth rate, while supplemental bills adjust changed value."
       },
       {
         "id": "transfer-tax-and-prorations",
@@ -337,9 +337,9 @@
         "why": "A lower basis preserves gain for later tax treatment."
       },
       {
-        "trap": "The replacement property's price is always its tax basis.",
-        "correction": "Apply the relevant exchange-basis rules.",
-        "why": "A qualifying exchange differs from an ordinary fully taxable purchase."
+        "trap": "Every annual assessed-value increase is limited to 2%.",
+        "correction": "Check reassessment events and whether a temporary Proposition 8 reduction is recovering.",
+        "why": "The factored base-year ceiling continues separately; recovery toward it can exceed 2% of the prior reduced assessment."
       }
     ],
     "connections": [
@@ -380,7 +380,7 @@
       },
       {
         "id": "nonprobate-transfers",
-        "takeaway": "Trust ownership, survivorship, life estates, and qualifying summary procedures can avoid ordinary probate steps, but their actual requirements still matter."
+        "takeaway": "Verify each nonprobate mechanism; a statutory transfer-on-death deed has execution and 60-day recording requirements, while summary succession uses procedure-specific limits."
       },
       {
         "id": "selling-through-probate",
@@ -396,7 +396,7 @@
       },
       {
         "id": "transfers-through-operation-of-law",
-        "takeaway": "Ownership can change through legally recognized events without an ordinary negotiated deed, but each asserted process still requires its own elements."
+        "takeaway": "Adverse possession requires qualifying possession and timely assessed-tax payments; gradual natural accretion and public dedication follow different rules and exceptions."
       },
       {
         "id": "exam-review",

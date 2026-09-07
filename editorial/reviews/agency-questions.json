@@ -1,0 +1,348 @@
+[
+  {
+    "id": "review-agency-questions",
+    "reviewed": "2026-09-06",
+    "reviewer": "Independent AI reviewer: /root (not the question author)",
+    "method": "independent-ai-primary-source",
+    "outcome": "pass",
+    "scope": "Read all 62 agency questions, their keys, 248 options and rationales, and 186 wrong-answer misconception tags. Checked current California agency creation, authority, ratification, notice, termination, disclosure, dual agency and fiduciary duties against the linked primary sources; independently recomputed all five commission problems. In particular, checked Civil Code 2356(b) bona fide third-party protection rather than relying on the older DRE booklet summary, Civil Code 2334 reliance conditions, and the limited scope of the bankruptcy decision discussing continuing confidentiality. Validated registered concepts, source bindings and section anchors.",
+    "artifacts": [
+      {
+        "kind": "question",
+        "id": "agency-001",
+        "digest": "f562d0c2633635af54d242897c5343a95ae8be1dfdab284689a0ae4ad5ff3c03"
+      },
+      {
+        "kind": "question",
+        "id": "agency-002",
+        "digest": "3b45120a575fa23fcc184c4aac4186c330476ea67c6b095ef2e7599800cec131"
+      },
+      {
+        "kind": "question",
+        "id": "agency-003",
+        "digest": "f175a1d714f0b87f0551de6e702fe33c587ff005cb99e0792fd4f9a898705715"
+      },
+      {
+        "kind": "question",
+        "id": "agency-004",
+        "digest": "35f98e7f5116b9d6f9b5cce1fc54ebcffd8c649d657baaea91f5bbd248afbf67"
+      },
+      {
+        "kind": "question",
+        "id": "agency-005",
+        "digest": "5b024237efc49d964b5b4f4af8199b6ed45b632c000fac53e46bf09624776992"
+      },
+      {
+        "kind": "question",
+        "id": "agency-006",
+        "digest": "c1c1105f213784bedaefa60abefed07f6e74f50f82d751e121e42b94d05e3ab4"
+      },
+      {
+        "kind": "question",
+        "id": "agency-007",
+        "digest": "938acf379db3802a1f3876390f413e2e274e65409a7ea2754d104a4d84701d76"
+      },
+      {
+        "kind": "question",
+        "id": "agency-008",
+        "digest": "87a7b97166f2edfcb54355070cb5264da5bdf04993049a3549f850427552e1fa"
+      },
+      {
+        "kind": "question",
+        "id": "agency-009",
+        "digest": "ff402ebf38b20c3f7d2ea879fbbfcd86272b1ed65ad6a3cd665edffeb9098d25"
+      },
+      {
+        "kind": "question",
+        "id": "agency-010",
+        "digest": "a4cbb2ff0657ace572dc3b68d244094e769ea54e92cd311f8a00f1e2b913b5be"
+      },
+      {
+        "kind": "question",
+        "id": "agency-011",
+        "digest": "fa28ed9e01bb1596a3ce2918ee2e10ddf4e0aa4cd1e4fafd2cb22ab7d0d410a8"
+      },
+      {
+        "kind": "question",
+        "id": "agency-012",
+        "digest": "362fca653b4a0027a56851df5dd87b7e5753a25c74b83f066f2c99852c72dc8a"
+      },
+      {
+        "kind": "question",
+        "id": "agency-013",
+        "digest": "b4be0245bea961cc10afd91a0a4d12fe56df5776ab7b989f5010d96cabcf2fa6"
+      },
+      {
+        "kind": "question",
+        "id": "agency-014",
+        "digest": "0a86fd227aa9573903e8449be1417ca2053a668b2d112ef5379afb830cb45028"
+      },
+      {
+        "kind": "question",
+        "id": "agency-015",
+        "digest": "ed30c61ff48ab459805a90beda50b7a8841913822899207f1fb272534317af21"
+      },
+      {
+        "kind": "question",
+        "id": "agency-016",
+        "digest": "bf121adf3caab082a0a5214db2f04da81868835bb20c94875f7313238deabdb3"
+      },
+      {
+        "kind": "question",
+        "id": "agency-017",
+        "digest": "82f15a0b58ee95b3d952d07de841cd41a3f8f00f05d346ef9613a0cde7c0414f"
+      },
+      {
+        "kind": "question",
+        "id": "agency-018",
+        "digest": "20e0520c86ed9ff77c3f3c25a5433979a9dc54fbee357e512eb09a0581469522"
+      },
+      {
+        "kind": "question",
+        "id": "agency-019",
+        "digest": "502df9b4a456a3503eaced1211bc200dfb12c5b3fb338fa384373ebcbed46e7c"
+      },
+      {
+        "kind": "question",
+        "id": "agency-020",
+        "digest": "3d5a54446cccfd52ccc29e4810c304e5e743412481794c086bd6cf33346606ea"
+      },
+      {
+        "kind": "question",
+        "id": "agency-021",
+        "digest": "3236e96fb7aae2d297ddcb0925828a2b6b7441754e99984d6b676126258a62ed"
+      },
+      {
+        "kind": "question",
+        "id": "agency-022",
+        "digest": "3a29878672d655a55eb0ee67abc5cd599f9991aff79cc6179b80cefae9cb4f00"
+      },
+      {
+        "kind": "question",
+        "id": "agency-023",
+        "digest": "d5ed324d41d9fee41d6a020fa5a32ebbdad1f339f660660b3e17b95f1f226efd"
+      },
+      {
+        "kind": "question",
+        "id": "agency-024",
+        "digest": "1298f7fdcf6daca82c239b3954df21fbd61adf7f16e1e06830cee986f371acb6"
+      },
+      {
+        "kind": "question",
+        "id": "agency-025",
+        "digest": "016cfe3271479b6f15d28810f80c076eeb39792bda79a2718754b6b929e2d389"
+      },
+      {
+        "kind": "question",
+        "id": "agency-026",
+        "digest": "ceb8bfb8a2dc7856b9a38312d8465c200454f95903960477dc00f65d1d6292fe"
+      },
+      {
+        "kind": "question",
+        "id": "agency-027",
+        "digest": "a5d404a8ba2cfdeee80b200c972062a65494d70a3ec28549a27e04e10f082abb"
+      },
+      {
+        "kind": "question",
+        "id": "agency-028",
+        "digest": "2ae01a5c76a48e7474ac5a85ece7f7ee9f265f14cae10fc03b94ab47299e5f59"
+      },
+      {
+        "kind": "question",
+        "id": "agency-029",
+        "digest": "18a96187b1f3ea23fc7c5ddce81b87fce583338e7de182cd00927d93502f64ec"
+      },
+      {
+        "kind": "question",
+        "id": "agency-030",
+        "digest": "57d51f7ecc2b6b3a9aff12f0f6edc61d0e96f28a35d931a961fd7f3eec47fed4"
+      },
+      {
+        "kind": "question",
+        "id": "agency-031",
+        "digest": "5949f3a250f1d7816d830a69aaf65fe7302578c87d9bb972479b706e96accc4c"
+      },
+      {
+        "kind": "question",
+        "id": "agency-032",
+        "digest": "bcfc8b2ebf2061e7d036813929d0de30e5650bf1dfb8d03b4036c224c6224b14"
+      },
+      {
+        "kind": "question",
+        "id": "agency-033",
+        "digest": "f83c0a0eaf653ff945ab605cdffee084a518e6c6816756c735f7cf952a69f7fd"
+      },
+      {
+        "kind": "question",
+        "id": "agency-034",
+        "digest": "2e477088a08ab532b9919370baca83bb6324e520ac8f67b3fe7ffb5900ae81c5"
+      },
+      {
+        "kind": "question",
+        "id": "agency-035",
+        "digest": "f3f5b7b99befe341f3a5758dd9f7034f24475a10a01b35f013aedf55f333e2f2"
+      },
+      {
+        "kind": "question",
+        "id": "agency-036",
+        "digest": "cf3007c659c43ae2de4eb9b8db6d6e0901d3f7d7438ccf30244b9ed28f3cb82f"
+      },
+      {
+        "kind": "question",
+        "id": "agency-037",
+        "digest": "52f51a0bae549a5abcca60ba6bba4602dbd44a35e2c6c683976c08a2438aeebf"
+      },
+      {
+        "kind": "question",
+        "id": "agency-038",
+        "digest": "d73ac8ebbcdca334c51aeee9d8e1d9ece9f140646a7434765866ef06f19a541b"
+      },
+      {
+        "kind": "question",
+        "id": "agency-039",
+        "digest": "40451cc1ba74eef3ff60bcb1d627ef7f118f38741fadaf642dc08cc943efb115"
+      },
+      {
+        "kind": "question",
+        "id": "agency-040",
+        "digest": "dd3d7c121b45c44d8e999635d495787b4938b05368145b70983e4a529a5d8c2f"
+      },
+      {
+        "kind": "question",
+        "id": "agency-041",
+        "digest": "9cbabebf5e1be8047932a454bd5011193e7d799732f4ae6245335c45ddb654cf"
+      },
+      {
+        "kind": "question",
+        "id": "agency-042",
+        "digest": "dd6e76b961f8ff6bd3390944191a9e433a8a3d922775e794b06318ca46635529"
+      },
+      {
+        "kind": "question",
+        "id": "agency-043",
+        "digest": "0a2a20b545f7608227b9e99b075e29cf100deaae2d3a551fda6a843f8c6f0216"
+      },
+      {
+        "kind": "question",
+        "id": "agency-044",
+        "digest": "ccb67e2edb80173d16dbbf6be8d8873b828460040e5dc504f34fb16ae352dc39"
+      },
+      {
+        "kind": "question",
+        "id": "agency-045",
+        "digest": "13a9f9fd4effcc2b3e5e120fee821dee6db1147cfc645b2df87d97c1ddcd707f"
+      },
+      {
+        "kind": "question",
+        "id": "agency-046",
+        "digest": "9d6d570563fbfa92c9bb825af30f0ad9d512991e32fa50e9ed11384a018b96e4"
+      },
+      {
+        "kind": "question",
+        "id": "agency-047",
+        "digest": "004981cafeb13b3bb2c31df17e0b1f0def46801d97b3f368db2b1adc01dec195"
+      },
+      {
+        "kind": "question",
+        "id": "agency-048",
+        "digest": "184216600f770b2c36ff4e22c0dc23ec18548a4d97e240e28b745972430969bc"
+      },
+      {
+        "kind": "question",
+        "id": "agency-049",
+        "digest": "d8badfff70f683e9097fa606dc88465968e806033d29e07351d5abe4c71581f6"
+      },
+      {
+        "kind": "question",
+        "id": "agency-050",
+        "digest": "35df7985ef8dcd68da39a2b61afbef39b05c79e9833ffe8fea2d7f6cb9e5c127"
+      },
+      {
+        "kind": "question",
+        "id": "agency-051",
+        "digest": "99a998fdcf0331d4bc68ab46e69c18c82d9b1cf8270f6b79b976a88baf397dbe"
+      },
+      {
+        "kind": "question",
+        "id": "agency-052",
+        "digest": "213ca216236bde4cfb9c51af603f560f4c8a75128247766e1bb77b3a412feaac"
+      },
+      {
+        "kind": "question",
+        "id": "agency-053",
+        "digest": "21ddf318bc657c9ea7fb221f45293b94f81089fe87d454fb5dfbf0b4b0d67178"
+      },
+      {
+        "kind": "question",
+        "id": "agency-054",
+        "digest": "e70343a40174f456728394922c3c4e5090c6137497e1e06550a75a96a24a4e2a"
+      },
+      {
+        "kind": "question",
+        "id": "agency-055",
+        "digest": "97ea1d00d37b53a15e1d39f75646780af843849f2d778ce7fc3f09c008839b29"
+      },
+      {
+        "kind": "question",
+        "id": "agency-056",
+        "digest": "ef0f36f7b55269e1135619e42f35917d918057a682ff4e245700cb33e6fee51e"
+      },
+      {
+        "kind": "question",
+        "id": "agency-057",
+        "digest": "1b68b85f733591c9edcd11cde12ee6901144a4bfa83cad3f6f9e147d2212e79f"
+      },
+      {
+        "kind": "question",
+        "id": "agency-058",
+        "digest": "0d3304565d516067625fffedf52cb1ffc97fae28fce4764330b4494dd3da619e"
+      },
+      {
+        "kind": "question",
+        "id": "agency-059",
+        "digest": "16f86ded7247eb3d744a49b39c1440daefad6412f6ee3c720902dffcdb6a99a1"
+      },
+      {
+        "kind": "question",
+        "id": "agency-060",
+        "digest": "139e72b437efd90068d88736f829956efafe1df0228d00fa58623e52080c88f7"
+      },
+      {
+        "kind": "question",
+        "id": "agency-061",
+        "digest": "a3bd7135d1d7b36a42f70928ba6b6aaaa2b90a709452e104af98848435aa4c88"
+      },
+      {
+        "kind": "question",
+        "id": "agency-062",
+        "digest": "8a162d2b141aafa88dc8e31bb90fb93446990ee52321a6d04a395107dfbd6241"
+      }
+    ],
+    "sourceUrls": [
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=6.&part=4.&chapter=3.&article=2.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=2.",
+      "https://dre.ca.gov/files/pdf/ProfessionalResponsibilityCourseBooklet.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=1.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.16.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1710.",
+      "https://www.govinfo.gov/content/pkg/USCOURTS-caeb-1_25-bk-10499/pdf/USCOURTS-caeb-1_25-bk-10499-0.pdf",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.17.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.14.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.24.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.21.",
+      "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/real-estate-settlement-procedures-act/real-estate-settlement-procedures-act-faqs/",
+      "https://www.dre.ca.gov/Licensees/Advisory_2024_11_14_Changes_to_Buyer_Representation.html",
+      "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-competitors/price-fixing",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=10137.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=9.&part=4.&chapter=1.&article=6.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2355.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2332.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.3.",
+      "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=2079.5."
+    ],
+    "findings": [],
+    "limitations": "Independent AI source and arithmetic review, not a qualified human legal review, controlling judicial determination, DRE approval or empirical difficulty calibration. The bankruptcy decision is cited for its discussion of general agency principles, not as a controlling California appellate decision."
+  }
+]

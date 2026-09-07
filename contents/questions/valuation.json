@@ -1,58 +1,2504 @@
 [
-  {"id":"valuation-01","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A seller spent $60,000 on a custom media room. Market evidence indicates buyers pay only $22,000 more for an otherwise similar home with that room. Which principle explains the difference?","options":[{"text":"Contribution.","explanation":"The feature's value is measured by its effect on the whole property's value, not automatically by its cost."},{"text":"Every improvement returns its full construction cost.","explanation":"Cost and contributory value are different; the evidence specifically shows a lower contribution."},{"text":"Escheat.","explanation":"Escheat concerns property without a legally entitled owner or successor, not improvement value."},{"text":"Tax assessment always equals construction spending.","explanation":"The question concerns market contribution, and assessment rules do not make all spending equal value."}],"answer":0},
-  {"id":"valuation-02","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"An informed buyer will not pay $700,000 for a home when an equally desirable available alternative costs $660,000, assuming no relevant differences. Which principle applies most directly?","options":[{"text":"Avulsion.","explanation":"Avulsion is a sudden water-caused land change and does not explain the buyer's economic choice."},{"text":"Substitution.","explanation":"Available equivalent alternatives constrain the price an informed buyer will pay."},{"text":"Reproduction.","explanation":"Reproduction describes duplicating an improvement; no construction alternative is being estimated here."},{"text":"Severalty.","explanation":"Severalty is a form of sole ownership, not a valuation principle governing alternatives."}],"answer":1},
-  {"id":"valuation-03","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A proposed use is legally allowed and physically possible, but the completed property's value would not support the total development cost and required return. Which highest-and-best-use test does it fail?","options":[{"text":"Physical possibility.","explanation":"The prompt expressly states that the use is physically possible."},{"text":"Legal permissibility.","explanation":"The prompt expressly states that the use is legally allowed."},{"text":"Financial feasibility.","explanation":"The proposed economic benefits do not support the development costs and required return."},{"text":"Title recording.","explanation":"Recording is not one of the four highest-and-best-use tests."}],"answer":2},
-  {"id":"valuation-04","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"An investor pays more today because a property's expected future rental income has increased. Which principle best explains the relationship?","options":[{"text":"Physical deterioration.","explanation":"Deterioration concerns loss from wear or damage, not increased expectations of future benefits."},{"text":"Severance.","explanation":"Severance detaches property from the realty and does not explain income valuation."},{"text":"Historical cost.","explanation":"Past expenditure is not the reason the investor's present willingness to pay has increased."},{"text":"Anticipation.","explanation":"Present value reflects expected future benefits, including rental income."}],"answer":3},
-  {"id":"valuation-05","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"Two adjacent parcels worth $180,000 each are combined into a site worth $420,000. Ignoring assembly costs, the $60,000 increase is called:","options":[{"text":"Plottage.","explanation":"The combined $420,000 value exceeds the separate $360,000 total by $60,000, the plottage increment."},{"text":"Accrued depreciation.","explanation":"Depreciation is a loss, whereas the scenario describes added value from combining parcels."},{"text":"Debt service.","explanation":"Debt service is payment on financing, not an increase from parcel combination."},{"text":"An operating expense.","explanation":"The increase is a value effect rather than a cost of operating the property."}],"answer":0},
-  {"id":"valuation-06","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A property's seller asks $900,000, previously spent $720,000 acquiring and improving it, and accepts $840,000. Which number is the actual transaction price?","options":[{"text":"$900,000.","explanation":"That is the asking price, not the amount accepted in the completed bargain."},{"text":"$840,000.","explanation":"The accepted amount is the transaction price; whether it also indicates market value requires analysis."},{"text":"$720,000.","explanation":"That represents the stated historical expenditure, not the agreed sale price."},{"text":"The average of all three figures.","explanation":"A transaction price is an observed amount, not an average of cost, asking price, and accepted price."}],"answer":1},
-  {"id":"valuation-07","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A buyer values a parcel especially highly because it completes the buyer's existing project. The value to that particular buyer most closely represents:","options":[{"text":"An automatic assessed value for every neighboring lot.","explanation":"A particular buyer's use does not set the tax assessment of other properties."},{"text":"A guaranteed insurable replacement amount.","explanation":"Insurance value addresses covered interests and costs, not this buyer's special investment use."},{"text":"Investment value.","explanation":"Investment value reflects the property's worth to a particular investor under that investor's circumstances."},{"text":"Proof that all market participants would pay the same premium.","explanation":"The premium may be specific to this buyer and cannot automatically be generalized to the market."}],"answer":2},
-  {"id":"valuation-08","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A newer, exceptionally expensive house suffers in value because typical buyers in its market do not support its scale and finish relative to surrounding properties. Which principle is most directly illustrated?","options":[{"text":"Progression of the superior property.","explanation":"Progression describes a lesser property's benefit from association with better properties, the reverse situation."},{"text":"Guaranteed appreciation from added cost.","explanation":"High expenditure does not guarantee the market will support the improvement."},{"text":"Automatic functional adequacy because the house is new.","explanation":"New construction can still be mismatched to its market and does not resolve value."},{"text":"Regression.","explanation":"A superior property can be adversely affected by its relationship to less valuable surrounding alternatives."}],"answer":3},
-  {"id":"valuation-09","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A comparable sold for $650,000 and has a superior view worth $30,000 more than the subject's view. No other adjustment is needed. What is its adjusted indication?","options":[{"text":"$620,000.","explanation":"Subtract the comparable's $30,000 superior feature from its $650,000 price to make it like the subject."},{"text":"$680,000.","explanation":"Adding would make a superior comparable even more valuable instead of adjusting it to the subject."},{"text":"$650,000.","explanation":"Ignoring the stated supported difference fails to account for the comparable's superior view."},{"text":"$30,000.","explanation":"That is the adjustment amount, not the adjusted property value indication."}],"answer":0},
-  {"id":"valuation-10","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A comparable sold for $540,000. It lacks a garage that the subject has, and the supported garage contribution is $24,000. What is the adjusted comparable price?","options":[{"text":"$516,000.","explanation":"Subtracting would penalize an already inferior comparable instead of adding the missing contribution."},{"text":"$564,000.","explanation":"Add $24,000 because the comparable is inferior to the subject in this feature."},{"text":"$540,000.","explanation":"The prompt supplies a relevant supported adjustment that should not be ignored."},{"text":"The subject's asking price plus $24,000.","explanation":"The adjustment is applied to the comparable's price, not to the subject's asking price."}],"answer":1},
-  {"id":"valuation-11","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A comparable has a +$35,000 condition adjustment and a -$20,000 location adjustment. What are its net and gross adjustments?","options":[{"text":"Net $55,000; gross $15,000.","explanation":"This reverses the signed sum and the sum of absolute amounts."},{"text":"Net -$15,000; gross $55,000.","explanation":"The signed sum is positive because the $35,000 addition exceeds the $20,000 subtraction."},{"text":"Net +$15,000; gross $55,000.","explanation":"The signed sum is $35,000 minus $20,000; the absolute amounts total $55,000."},{"text":"Net +$15,000; gross $15,000.","explanation":"Gross adjustment adds absolute amounts and does not offset positive and negative changes."}],"answer":2},
-  {"id":"valuation-12","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A sale negotiated six months before the valuation date needs a supported total market-condition adjustment of +4%. Its price was $500,000. Before other adjustments, what is the adjusted price?","options":[{"text":"$504,000.","explanation":"Four percent of $500,000 is $20,000, not $4,000."},{"text":"$480,000.","explanation":"The stated adjustment is upward, not downward."},{"text":"$620,000.","explanation":"The prompt gives a total 4% adjustment for the period; it should not be multiplied by six again."},{"text":"$520,000.","explanation":"$500,000 multiplied by 1.04 equals $520,000."}],"answer":3},
-  {"id":"valuation-13","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"Three adjusted sales indicate $602,000, $608,000, and $635,000. The first two are well verified and highly comparable; the third requires several uncertain adjustments. What is the best next step?","options":[{"text":"Reconcile the indications, giving appropriate weight to relevance and reliability.","explanation":"Reconciliation evaluates evidence quality and does not require equal weight for weak and strong comparisons."},{"text":"Use the highest figure because it best serves the seller.","explanation":"A desired outcome does not justify selecting an unsupported value."},{"text":"Average all three because every sale must receive equal weight.","explanation":"There is no universal requirement to weight all comparable indications equally."},{"text":"Discard the first two because their values are lower.","explanation":"A lower indication is not evidence of poor quality; these sales are described as the most reliable."}],"answer":0},
-  {"id":"valuation-14","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"Two otherwise closely similar, well-verified sales differ primarily in whether they have a particular feature. An analyst uses the price difference to estimate that feature's contribution. This is:","options":[{"text":"Age-life depreciation.","explanation":"Age-life estimates depreciation from effective age and economic life, not matched sale differences."},{"text":"Paired sales analysis.","explanation":"Comparing closely similar transactions can isolate the market effect of a differing feature."},{"text":"Debt service coverage.","explanation":"Debt coverage compares NOI with debt payments, not property features."},{"text":"A tax depreciation election.","explanation":"The calculation estimates market contribution and is unrelated to electing a tax method."}],"answer":1},
-  {"id":"valuation-15","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A comparable transaction includes a seller concession. Which approach best supports an adjustment?","options":[{"text":"Always deduct the concession dollar for dollar without analysis.","explanation":"The price effect may differ from the seller's cost; a blanket deduction can misstate market reaction."},{"text":"Always ignore concessions if they are common locally.","explanation":"Even common concessions may affect price and require analysis."},{"text":"Estimate the concession's supported effect on the transaction price.","explanation":"A market-based adjustment addresses how the concession affected the comparable's price."},{"text":"Add the concession to every comparable's price.","explanation":"An automatic addition does not reflect the concession's actual influence and can overstate value."}],"answer":2},
-  {"id":"valuation-16","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"What does an active listing primarily establish for a sales comparison analysis?","options":[{"text":"A completed transaction at its asking price.","explanation":"An active listing has not established a completed exchange at the advertised price."},{"text":"A guarantee that the lender will accept the price as value.","explanation":"A listing does not bind the lender's appraisal or underwriting decision."},{"text":"The exact contribution of every feature in the listing.","explanation":"An asking price alone does not isolate individual feature contributions."},{"text":"Current competition and the seller's asking position.","explanation":"Listings help describe available alternatives and seller expectations, while closed sales provide completed transaction evidence."}],"answer":3},
-  {"id":"valuation-17","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"Land is valued at $210,000. Current replacement cost of the building is $480,000, and total accrued building depreciation is $96,000. With no other items, what is the cost indication?","options":[{"text":"$594,000.","explanation":"$480,000 minus $96,000 equals $384,000; adding $210,000 land gives $594,000."},{"text":"$690,000.","explanation":"That total adds land and new building cost without deducting accrued depreciation."},{"text":"$786,000.","explanation":"That result adds depreciation instead of deducting the loss in improvement value."},{"text":"$384,000.","explanation":"That is the depreciated building contribution alone and omits the land."}],"answer":0},
-  {"id":"valuation-18","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"An improvement has an effective age of 15 years and total economic life of 60 years. Under the simplified age-life method, what percentage of cost is depreciation?","options":[{"text":"75%.","explanation":"Seventy-five percent is the remaining fraction under this simplified model, not the depreciated fraction."},{"text":"25%.","explanation":"Effective age divided by total economic life is 15 divided by 60, or 25%."},{"text":"33.33%.","explanation":"That uses the 45-year remaining life as the denominator; the formula requires total economic life."},{"text":"15%.","explanation":"The effective age is a number of years, not automatically the depreciation percentage."}],"answer":1},
-  {"id":"valuation-19","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A repair costs $7,000 and is expected to restore $11,000 of value. Under the stated appraisal assumptions, the defect is:","options":[{"text":"Incurable solely because it already exists.","explanation":"Existing defects can be curable when correction is economically justified."},{"text":"External obsolescence in every case.","explanation":"Repair cost and contribution alone do not make the cause external to the property."},{"text":"Economically curable.","explanation":"The anticipated $11,000 benefit exceeds the $7,000 correction cost."},{"text":"Automatically a $7,000 tax credit.","explanation":"An appraisal curability calculation does not establish a tax credit."}],"answer":2},
-  {"id":"valuation-20","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A house is in excellent physical condition, but its only bathroom can be reached only through a bedroom. Buyers pay less because of this layout. The loss is most directly:","options":[{"text":"Physical deterioration.","explanation":"The stated issue is layout and utility, not wear or damage."},{"text":"External obsolescence.","explanation":"The cause is inside the property's design rather than an outside influence."},{"text":"Accretion.","explanation":"Accretion is a gradual addition of soil and has no relation to the floor plan."},{"text":"Functional obsolescence.","explanation":"The deficient arrangement reduces utility despite good physical condition."}],"answer":3},
-  {"id":"valuation-21","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A well-maintained rental property's value declines because a nearby industrial operation creates persistent noise. The cause most directly illustrates:","options":[{"text":"External obsolescence.","explanation":"The adverse influence originates outside the subject property."},{"text":"Deferred maintenance of the subject roof.","explanation":"The prompt identifies neighborhood noise rather than an unrepaired physical component."},{"text":"A tax depreciation deduction equal to the value decline.","explanation":"Tax depreciation is determined under tax rules, not by matching this external market decline."},{"text":"Reproduction cost.","explanation":"Reproduction cost estimates duplication expense, not the loss from the neighboring operation."}],"answer":0},
-  {"id":"valuation-22","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"An estimate measures the current cost to build a duplicate of a historic structure using the same design and features. It is an estimate of:","options":[{"text":"Replacement cost only.","explanation":"Replacement focuses on equivalent utility and may use a different modern design."},{"text":"Reproduction cost.","explanation":"Reproduction estimates a duplicate of the existing improvement."},{"text":"Historical cost.","explanation":"Historical cost is the past expenditure; the estimate here uses current costs."},{"text":"Land residual value.","explanation":"The question concerns construction cost, not a residual allocation to land."}],"answer":1},
-  {"id":"valuation-23","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"Which statement correctly distinguishes appraisal depreciation from federal income-tax depreciation?","options":[{"text":"A tax deduction proves the property's market value declined by the same amount.","explanation":"Tax cost allocation does not measure the actual annual market movement."},{"text":"Land must receive the same depreciation deduction as a rental building.","explanation":"Land is not depreciable for federal income-tax purposes."},{"text":"A rental building may appreciate in market value while qualifying tax depreciation is deducted.","explanation":"Market change and tax recovery of building basis measure different things."},{"text":"The tax recovery period automatically equals every building's remaining economic life.","explanation":"Statutory tax periods are not property-specific appraisal estimates of economic life."}],"answer":2},
-  {"id":"valuation-24","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A cost approach estimates land at $300,000 and building cost at $500,000. The stated 20% depreciation applies only to the building. What mistake would produce an incorrect indication?","options":[{"text":"Calculating building depreciation as $100,000.","explanation":"Twenty percent of the $500,000 building cost is correctly $100,000."},{"text":"Adding the land after deducting building depreciation.","explanation":"That follows the cost approach's separation of land and improvements."},{"text":"Recognizing a depreciated building contribution of $400,000.","explanation":"$500,000 less $100,000 correctly yields $400,000."},{"text":"Applying the 20% depreciation to the combined $800,000 land-and-building amount.","explanation":"The stated depreciation applies to the improvement, not to the separately estimated land."}],"answer":3},
-  {"id":"valuation-25","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"Annual potential rent is $120,000, vacancy and collection loss is $6,000, other income is $2,000, and operating expenses are $46,000. Annual debt service is $40,000. What is NOI under the stated market-investment convention?","options":[{"text":"$70,000.","explanation":"$120,000 minus $6,000 plus $2,000 minus $46,000 equals $70,000; debt service is excluded from NOI."},{"text":"$30,000.","explanation":"That deducts debt service and is before-tax cash flow under these assumptions, not NOI."},{"text":"$76,000.","explanation":"That omits the $6,000 vacancy and collection loss."},{"text":"$116,000.","explanation":"That is effective gross income before operating expenses."}],"answer":0},
-  {"id":"valuation-26","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A property's stabilized annual NOI is $84,000. At a 7% capitalization rate, what value is indicated?","options":[{"text":"$588,000.","explanation":"Multiplying income by 7 does not apply the capitalization formula."},{"text":"$1,200,000.","explanation":"Value equals $84,000 divided by 0.07, or $1,200,000."},{"text":"$5,880.","explanation":"That multiplies NOI by the rate; value requires dividing income by the rate."},{"text":"$12,000.","explanation":"That treats 7% as 7 rather than 0.07, producing a value one-hundredth of the correct result."}],"answer":1},
-  {"id":"valuation-27","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A comparable income property sold for $900,000 and had annual NOI of $63,000 calculated consistently with the subject. What overall capitalization rate does it indicate?","options":[{"text":"14.29%.","explanation":"Dividing price by income produces a multiplier, not the cap rate."},{"text":"0.7%.","explanation":"$63,000 is seven percent of $900,000, not seven-tenths of one percent."},{"text":"7%.","explanation":"Rate equals $63,000 divided by $900,000, or 0.07."},{"text":"The loan interest rate must be supplied to calculate this ratio.","explanation":"The overall cap rate is derived from property NOI and price, not necessarily the financing rate."}],"answer":2},
-  {"id":"valuation-28","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A comparable sells for $630,000 with gross monthly rent of $3,500. Using its monthly GRM, what is indicated for a similar property renting for $4,200 per month?","options":[{"text":"$63,000.","explanation":"This is a monthly-versus-annual scale error; the multiplier derived here is monthly."},{"text":"$735,000.","explanation":"The comparable's monthly GRM is 180, which yields $756,000 when applied to $4,200."},{"text":"$9,072,000.","explanation":"That multiplies annual subject rent by a monthly multiplier, overstating value twelvefold."},{"text":"$756,000.","explanation":"$630,000 divided by $3,500 equals 180; $4,200 multiplied by 180 equals $756,000."}],"answer":3},
-  {"id":"valuation-29","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"An investor contributes $240,000 of initial cash. Annual NOI is $48,000 and annual debt service is $30,000. With no other cash adjustments, what is the before-tax cash-on-cash return?","options":[{"text":"7.5%.","explanation":"Cash flow is $48,000 minus $30,000, or $18,000; $18,000 divided by $240,000 equals 7.5%."},{"text":"20%.","explanation":"That divides NOI by cash invested without deducting debt service, overstating cash-on-cash return."},{"text":"12.5%.","explanation":"That is debt service divided by cash invested, not the investor's cash-flow return."},{"text":"The property's appreciation must be known first.","explanation":"Cash-on-cash return uses the stated cash flow and investment; it is not a total return calculation."}],"answer":0},
-  {"id":"valuation-30","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"Annual NOI is $96,000 and annual debt service is $80,000. What is the debt service coverage ratio?","options":[{"text":"0.833.","explanation":"That reverses the ratio by dividing debt service by NOI."},{"text":"1.20.","explanation":"DSCR equals $96,000 divided by $80,000, or 1.20."},{"text":"20.00.","explanation":"The ratio is 1.20; converting the coverage margin into 20 does not express DSCR."},{"text":"$16,000.","explanation":"That is the dollar difference between NOI and debt service, not the ratio."}],"answer":1},
-  {"id":"valuation-31","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A $1,000,000 property is purchased with $750,000 of debt and $250,000 of equity. Its value falls to $900,000 while debt remains unchanged. Ignoring costs, what percentage of the original equity has been lost?","options":[{"text":"10%.","explanation":"Ten percent is the property value decline; leverage makes the percentage decline in equity larger."},{"text":"25%.","explanation":"Twenty-five percent is the original equity share of purchase price, not the equity loss percentage."},{"text":"40%.","explanation":"Equity falls from $250,000 to $150,000; the $100,000 loss is 40% of the original equity."},{"text":"75%.","explanation":"Seventy-five percent was the original debt-to-price ratio, not the percentage equity loss."}],"answer":2},
-  {"id":"valuation-32","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"Assuming annual NOI remains $72,000, a market cap rate rises from 6% to 8%. What happens to the direct-capitalization value indication?","options":[{"text":"It rises from $900,000 to $1,200,000.","explanation":"This reverses the relationship: a higher rate with unchanged income lowers indicated value."},{"text":"It remains $72,000 because income is unchanged.","explanation":"Value depends on both income and rate, not on income alone."},{"text":"It rises by exactly 2%.","explanation":"A two-percentage-point cap-rate increase does not translate into a two-percent property appreciation."},{"text":"It falls from $1,200,000 to $900,000.","explanation":"$72,000 divided by 0.06 is $1,200,000; divided by 0.08 it is $900,000."}],"answer":3},
-  {"id":"valuation-33","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A renovation's first stage costs $12,000 and adds $18,000 in value. A proposed second stage costs $30,000 and adds only $10,000. Which conclusion follows from the stated market contributions?","options":[{"text":"The second stage must add $30,000 because that is its cost.","explanation":"Cost and contribution differ, and the prompt supplies a $10,000 contribution."},{"text":"The first stage's favorable result does not make the second stage economically justified on these figures.","explanation":"Each additional expenditure must be compared with its marginal contribution; the second stage adds less value than cost."},{"text":"Once an improvement adds value, every further improvement returns its full cost.","explanation":"Increasing and diminishing returns explain why later expenditures can produce weaker results."},{"text":"The second stage is justified because both stages together add some market value.","explanation":"A positive total contribution does not show that each additional expenditure produces a benefit exceeding its cost."}],"answer":1},
-  {"id":"valuation-34","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"Two legally and physically possible projects are analyzed consistently. Offices have a $1,400,000 completed value and $1,100,000 nonland costs including required return. Apartments have $1,800,000 value and $1,560,000 corresponding costs. Which supports the larger residual land value?","options":[{"text":"Offices, with a $300,000 residual versus $240,000 for apartments.","explanation":"Subtracting stated nonland costs and required return leaves $300,000 for offices and $240,000 for apartments."},{"text":"Apartments, because their completed value is larger.","explanation":"Completed value alone ignores the higher associated costs."},{"text":"Both, because legal permission makes their economics equal.","explanation":"Legal permission is a screening test and does not equalize net economic results."},{"text":"Apartments, with a $400,000 residual because their completed value exceeds the office value by that amount.","explanation":"The difference in gross completed values is not the apartment land residual; the project's own stated nonland costs must be deducted."}],"answer":0},
-  {"id":"valuation-35","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"An insurance estimate focuses on rebuilding covered improvements, while a market appraisal includes the specified land-and-improvement interest. The two values differ. What is the best initial explanation?","options":[{"text":"Every professional must report the same value for the same street address.","explanation":"Different purposes and property interests can require different value concepts."},{"text":"The insurance rebuilding figure sets a minimum floor for the market appraisal.","explanation":"Covered rebuilding cost is not a universal minimum market value for the specified real-estate interest."},{"text":"The market appraisal must exclude land whenever insurance exists.","explanation":"An insurance arrangement does not dictate exclusion of land from a market appraisal of the stated interest."},{"text":"The assignments may measure different interests or value concepts.","explanation":"Purpose and scope must be compared before assuming that differing conclusions indicate an error."}],"answer":3},
-  {"id":"valuation-36","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"A highly unusual structure is the only one of its kind, but buyers have little use for it and few can afford the required conversion. Which statement best evaluates the owner's claim that rarity guarantees high value?","options":[{"text":"Conversion costs are irrelevant whenever a property is scarce.","explanation":"Costs affecting usable alternatives and feasibility can materially influence value."},{"text":"Rarity should be weighted as sufficient evidence of high value even without comparable demand.","explanation":"Scarcity alone does not establish useful function or purchasing demand in the relevant market."},{"text":"Scarcity must operate with utility, effective demand, and transferable rights.","explanation":"The ingredients of value work together; rarity by itself does not assure a high exchange value."},{"text":"A rare property must always be worth its historical cost.","explanation":"Rarity does not guarantee recovery of past expenditure."}],"answer":2},
-  {"id":"valuation-37","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A comparable sold for $620,000. Its view is superior to the subject by $35,000, but its condition is inferior by $18,000. Using those supported amounts only, what is its adjusted indication?","options":[{"text":"$567,000.","explanation":"That subtracts both differences, even though the inferior comparable condition requires an addition."},{"text":"$673,000.","explanation":"That adds both differences, even though the superior comparable view requires a deduction."},{"text":"$603,000.","explanation":"Subtract the superior-view contribution and add for inferior condition: $620,000 minus $35,000 plus $18,000."},{"text":"$637,000.","explanation":"That reverses the required adjustment signs."}],"answer":2},
-  {"id":"valuation-38","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"The stated method requires a 5% upward time adjustment to a $500,000 sale first, followed by a $20,000 deduction for a superior feature. What is the adjusted result?","options":[{"text":"$504,000.","explanation":"That applies 5% after deducting the feature, contrary to the sequence explicitly supplied."},{"text":"$475,000.","explanation":"That treats the upward percentage adjustment as downward and also misapplies the specified feature deduction."},{"text":"$545,000.","explanation":"That adds the superior-feature amount rather than subtracting it."},{"text":"$505,000.","explanation":"$500,000 multiplied by 1.05 is $525,000; subtracting $20,000 leaves $505,000."}],"answer":3},
-  {"id":"valuation-39","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A house sold for $600,000 and contains 2,000 square feet of living area. An analyst concludes that adding 100 square feet to the subject must add $30,000 in value. What is the problem with that conclusion?","options":[{"text":"Additional area always contributes zero value.","explanation":"Added area may contribute value; the amount requires market evidence."},{"text":"The $300 average price per square foot includes the whole asset and does not prove marginal contribution.","explanation":"Average transaction price per unit of area is not automatically the market value added by each extra square foot."},{"text":"Sale price cannot be divided by living area for any purpose.","explanation":"Price per square foot is a useful comparison statistic when its limitations are recognized."},{"text":"The implied $300 figure is mathematically incorrect.","explanation":"$600,000 divided by 2,000 correctly equals $300; the error is interpreting that average as a universal adjustment."}],"answer":1},
-  {"id":"valuation-40","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"Three well-matched adjusted sales cluster near $585,000. A fourth indicates $670,000, and its reported price may include a separate parcel. What should the analyst do first?","options":[{"text":"Use $670,000 because it is the highest observed figure.","explanation":"A high indication does not establish comparability or correct treatment of the asset transferred."},{"text":"Remove the fourth solely because it differs.","explanation":"An outlier deserves investigation; difference alone does not establish that it is unusable."},{"text":"Investigate the additional parcel and reconcile using properly comparable, supported indications.","explanation":"The analyst must understand what sold and correct or weigh the evidence before selecting a conclusion."},{"text":"Average all four immediately to eliminate judgment.","explanation":"Averaging cannot correct an unrecognized difference in the property included in a sale."}],"answer":2},
-  {"id":"valuation-41","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A 1,800-square-foot building has direct costs of $200 per square foot. The estimate separately requires $32,000 indirect costs and $28,000 entrepreneurial incentive, neither included in the unit rate. What is current improvement cost before depreciation?","options":[{"text":"$300,000.","explanation":"That subtracts the additional cost components rather than including them."},{"text":"$420,000.","explanation":"Direct cost is $360,000; adding the separately required $32,000 and $28,000 produces $420,000."},{"text":"$360,000.","explanation":"That includes only direct cost and omits the two stated additional components."},{"text":"$392,000.","explanation":"That adds indirect costs but omits the specified entrepreneurial incentive."}],"answer":1},
-  {"id":"valuation-42","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A technically possible $3,000 alteration is expected to restore only $500 in market value. Under these stated economic assumptions, how is its curability best evaluated?","options":[{"text":"It is not economically justified by the stated $500 contribution.","explanation":"The cost exceeds the restored value under the supplied assumptions."},{"text":"It necessarily creates a $3,000 increase in value once paid for.","explanation":"Expenditure does not guarantee equal market contribution."},{"text":"It is curable automatically because the dollar cost is small.","explanation":"Economic curability depends on benefit relative to cost, not on whether the amount seems small."},{"text":"It must be external obsolescence because it is uneconomic to correct.","explanation":"Curability does not by itself identify whether the cause is physical, functional, or external."}],"answer":0},
-  {"id":"valuation-43","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"An exercise directs deduction of a $10,000 curable defect from $400,000 current cost, then 20% age-life depreciation of the remaining cost. What is the depreciated improvement contribution?","options":[{"text":"$312,000.","explanation":"After the $10,000 deduction, $390,000 remains; 80% of that amount is $312,000."},{"text":"$310,000.","explanation":"That applies 20% to all $400,000 and then deducts the defect, rather than following the stated sequence."},{"text":"$390,000.","explanation":"That deducts the defect but omits the required age-life depreciation."},{"text":"$320,000.","explanation":"That applies only the 20% deduction to total cost and omits the separately identified defect treatment."}],"answer":0},
-  {"id":"valuation-44","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A brand-new specialized building has high construction cost but limited demand for its unusual layout. Which statement is most appropriate?","options":[{"text":"Newness does not eliminate potential functional or external obsolescence.","explanation":"Limited physical aging does not establish that design, location, or market conditions support the full construction cost."},{"text":"New buildings cannot have functional obsolescence.","explanation":"A new design can still provide utility that the relevant market does not support."},{"text":"Its market value must equal all money spent to construct it.","explanation":"Construction expenditure does not guarantee an equal market contribution."},{"text":"Only physical deterioration can reduce a cost indication.","explanation":"Functional and external causes can also create depreciation in the appraisal sense."}],"answer":0},
-  {"id":"valuation-45","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A rental owner received a one-time $4,800 insurance refund and proposes capitalizing it at 6% as a permanent $80,000 value increase. What is the analytical problem?","options":[{"text":"The refund belongs in debt service because it came from an insurer.","explanation":"A refund is not a principal-and-interest payment; the issue is whether it represents recurring operating income."},{"text":"$4,800 divided by 6% is not $80,000.","explanation":"The arithmetic is correct; the unsupported recurring-income assumption is the error."},{"text":"The refund is not established as recurring stabilized NOI.","explanation":"Directly capitalizing a one-time receipt as continuing annual income misstates the expected income stream."},{"text":"Only the cap rate needs adjustment; the full refund should remain in recurring NOI.","explanation":"Changing the rate does not justify treating a one-time receipt as a continuing annual income item."}],"answer":2},
-  {"id":"valuation-46","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"Annual NOI rises from $60,000 to $66,000 while the market cap rate rises from 5% to 6%. What happens to the direct-capitalization indication?","options":[{"text":"It rises from $1,200,000 to $1,320,000.","explanation":"That applies the income increase while keeping the old 5% rate, ignoring the stated new 6% rate."},{"text":"It rises by 10% because income rose 10%.","explanation":"That ignores the simultaneous increase in the capitalization rate."},{"text":"It remains unchanged because both inputs rose.","explanation":"The two changes do not offset exactly; each ratio must be calculated."},{"text":"It falls from $1,200,000 to $1,100,000.","explanation":"$60,000 divided by 0.05 is $1,200,000; $66,000 divided by 0.06 is $1,100,000."}],"answer":3},
-  {"id":"valuation-47","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"An investor contributes $400,000 cash to a property producing $75,000 annual NOI and requiring $50,000 annual debt service. With no other cash adjustments, what are DSCR and cash-on-cash return?","options":[{"text":"DSCR 1.25 and cash-on-cash 6.25%.","explanation":"The cash return is correct, but the stated income and debt service yield a 1.50 coverage ratio."},{"text":"DSCR 1.50 and cash-on-cash 6.25%.","explanation":"$75,000 divided by $50,000 is 1.50; $25,000 remaining cash flow divided by $400,000 is 6.25%."},{"text":"DSCR 1.50 and cash-on-cash 12.50%.","explanation":"Coverage is correct, but 12.50% is debt service divided by cash, not cash flow divided by cash."},{"text":"DSCR 0.67 and cash-on-cash 18.75%.","explanation":"That reverses the coverage ratio and divides NOI by cash without deducting debt service."}],"answer":1},
-  {"id":"valuation-48","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A single $110,000 payment is expected one year from now. Using a 10% annual discount rate and the stated one-period assumptions, what is its present value?","options":[{"text":"$99,000.","explanation":"Subtracting 10% of the future payment is not the correct one-period discount formula."},{"text":"$1,100,000.","explanation":"Dividing by 0.10 incorrectly treats the single future payment like a continuing income stream for capitalization."},{"text":"$121,000.","explanation":"That compounds $110,000 forward instead of discounting the future payment back to the present."},{"text":"$100,000.","explanation":"Present value equals $110,000 divided by 1.10, or $100,000."}],"answer":3},
-  {"id":"valuation-49","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"Two legally permissible and physically possible uses are compared on the same risk and timing basis. A completed office project would be worth $3,000,000 and require $2,420,000 of all nonland costs including developer compensation. Apartments would be worth $2,700,000 with $2,030,000 of equivalent nonland costs. Which has the higher supported land residual?","options":[{"text":"The office project, by $300,000.","explanation":"This compares completed values alone and ignores the higher nonland costs needed to produce the office project."},{"text":"The apartment project, by $90,000.","explanation":"Office residual is $580,000; apartment residual is $670,000. The difference is $90,000 in favor of apartments."},{"text":"The apartment project, by $390,000.","explanation":"This is the difference in nonland costs, not the difference in residuals after recognizing the different completed values."},{"text":"The office project, because its residual is $580,000 greater than the apartment project's.","explanation":"The office residual itself is $580,000. It is not the difference between the two alternatives."}],"answer":1},
-  {"id":"valuation-50","domain":"valuation","lessonSlug":"valuation-value-principles","prompt":"Two parcels are worth $360,000 and $440,000 separately. Their supported value assembled into one site is $950,000. The buyer can acquire them at their separate values but must spend another $175,000 to complete the assemblage and make the combined site usable. Ignore other costs. Which statement distinguishes plottage from the buyer's economics?","options":[{"text":"The plottage increment is $950,000, and the project yields $775,000 after costs.","explanation":"Plottage is the increment above separate values, not the entire assembled value. This also fails to deduct acquisition costs."},{"text":"The plottage increment is $175,000, equal to the cost of making the assemblage usable.","explanation":"The cost of producing added utility is not the same as the market-supported increment in value."},{"text":"The plottage increment is $150,000, so the buyer necessarily earns that amount.","explanation":"The $150,000 gross value increment is less than the additional $175,000 required expenditure."},{"text":"The plottage increment is $150,000, but the stated total outlay exceeds assembled value by $25,000.","explanation":"The separate values total $800,000; $950,000 - $800,000 = $150,000. Total outlay is $975,000, or $25,000 above value."}],"answer":3},
-  {"id":"valuation-51","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"In a Fannie Mae appraisal exercise, a comparable sold for $800,000 with concessions costing the seller $24,000. Supported analysis attributes $15,000 of its sale price to the concessions. After that adjustment, apply the stipulated 2% market increase, then deduct $10,000 for the comparable's superior garage. What is the adjusted indication?","options":[{"text":"$790,700","explanation":"($800,000 - $15,000) x 1.02 - $10,000 = $790,700; use supported price effect, the stated sequence, and a negative superiority adjustment."},{"text":"$781,520","explanation":"This deducts the seller's entire $24,000 expenditure rather than the supported $15,000 influence on the sale price."},{"text":"$810,700","explanation":"This correctly handles the concession and time but adds, rather than deducts, the comparable's $10,000 garage superiority."},{"text":"$791,000","explanation":"This applies the 2% adjustment to the original $800,000, contrary to the problem's specified post-concession base."}],"answer":0},
-  {"id":"valuation-52","domain":"valuation","lessonSlug":"valuation-sales-comparison","prompt":"A comparable went under contract three months before the appraisal's effective date. A twelve-month local index rose 6%, but reliable evidence for the comparable's competitive segment shows no price change between its contract date and the effective date. Which time adjustment is best supported by these facts?","options":[{"text":"Add 6% because the published index establishes annual market direction.","explanation":"The full-year movement does not establish movement over the relevant three-month period for the competitive segment."},{"text":"Add 1.5% by prorating the twelve-month index evenly over three months.","explanation":"This assumes a uniform trend contradicted by the supplied period-specific evidence."},{"text":"No time adjustment, with the period-specific supporting evidence explained.","explanation":"The relevant question is market movement between the comparable's contract date and the effective date, not a different period's overall trend."},{"text":"Subtract 6% because the comparable is older than the valuation date.","explanation":"Age of transaction does not establish a decline; the supplied evidence supports no change during the relevant interval."}],"answer":2},
-  {"id":"valuation-53","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A site is worth $250,000 excluding site improvements. Building replacement cost is $500,000, and the building is 65% good after all identified building depreciation. Separate site improvements cost $30,000 new and are 60% good. What is the cost-approach indication?","options":[{"text":"$443,000","explanation":"This treats 65% good as 65% depreciation, leaving only $175,000 for the building instead of $325,000."},{"text":"$768,000","explanation":"This adds the full $500,000 building replacement cost without its depreciation, then adds $250,000 land and $18,000 depreciated site improvements."},{"text":"$505,500","explanation":"This applies the building's 65% factor to the $250,000 land as well as the building and then adds $18,000; the exact result of that mistaken method is $505,500."},{"text":"$593,000","explanation":"$250,000 + ($500,000 x 0.65) + ($30,000 x 0.60) = $250,000 + $325,000 + $18,000."}],"answer":3},
-  {"id":"valuation-54","domain":"valuation","lessonSlug":"valuation-cost-approach","prompt":"A $640,000 replacement-cost estimate has a supported 75% good factor that already includes every identified building defect. The appraiser separately notes a $20,000 roof-related loss already included in that factor. What is the building contribution before adding land?","options":[{"text":"$460,000, because the roof loss must be subtracted from the factor's result.","explanation":"This counts the $20,000 loss again even though the question says it is already included in the all-inclusive factor."},{"text":"$480,000, with no second deduction for the included roof loss.","explanation":"$640,000 x 0.75 = $480,000. The factor already reflects the roof's contribution to total depreciation."},{"text":"$465,000, by deducting the roof loss from cost and applying the same factor.","explanation":"($640,000 - $20,000) x 0.75 = $465,000, but that changes the supplied all-inclusive model and repeats part of the identified loss."},{"text":"$160,000, because 75% good describes the amount to remove.","explanation":"Seventy-five percent good describes retained contribution; the $160,000 complement is the depreciation, not the remaining value."}],"answer":1},
-  {"id":"valuation-55","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A property has annual potential rent of $240,000, a 5% vacancy and collection allowance, $2,000 other income, and $80,000 operating expenses including property taxes. Annual debt service is $100,000 and initial cash invested is $400,000. With no other adjustments, what are DSCR and before-tax cash-on-cash return?","options":[{"text":"1.50 and 12.5%.","explanation":"EGI is $230,000 and NOI is $150,000. DSCR is $150,000 / $100,000 = 1.50; cash flow is $50,000, or 12.5% of $400,000."},{"text":"1.50 and 37.5%.","explanation":"Coverage is correct, but the return divides NOI by cash invested without first subtracting debt service."},{"text":"0.50 and 12.5%.","explanation":"Cash return is correct, but coverage uses cash flow after debt service instead of NOI before debt service."},{"text":"2.30 and 32.5%.","explanation":"These calculations use EGI before operating expenses for coverage and subtract only debt service for cash flow. The $80,000 operating expense still must be deducted."}],"answer":0},
-  {"id":"valuation-56","domain":"valuation","lessonSlug":"valuation-income-analysis","prompt":"A property initially produces $108,000 NOI. A buyer proposes $72,000 annual debt service and a $360,000 cash investment. Before purchase, a recurring expense increase reduces expected NOI by $18,000; the financing and initial cash are unchanged. With no other adjustments, what are the revised DSCR and cash-on-cash return?","options":[{"text":"1.50 and 10%.","explanation":"These are the original ratios. They fail to incorporate the recurring reduction in NOI."},{"text":"1.25 and 25%.","explanation":"Coverage is correct, but 25% is the revised NOI divided by cash invested, ignoring the debt service."},{"text":"1.25 and 5%.","explanation":"Revised NOI is $90,000. Coverage is $90,000 / $72,000 = 1.25, and cash flow is $18,000, or 5% of $360,000."},{"text":"0.25 and 5%.","explanation":"Cash return is correct, but the coverage numerator should be $90,000 NOI, not $18,000 cash flow after debt service."}],"answer":2}
+  {
+    "id": "valuation-01",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A seller spent $60,000 on a custom media room. Market evidence indicates buyers pay only $22,000 more for an otherwise similar home with that room. Which principle explains the difference?",
+    "options": [
+      {
+        "text": "Contribution.",
+        "explanation": "The room's contribution is the $22,000 buyers add to the whole property's value, not its $60,000 cost."
+      },
+      {
+        "text": "Substitution.",
+        "explanation": "Substitution compares available alternatives; this question isolates one component's effect on total value.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Anticipation.",
+        "explanation": "Anticipation concerns expected future benefits. The stated difference specifically measures the room's contribution.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Competition.",
+        "explanation": "Competition concerns market responses to profit opportunities, not recovery of one improvement's cost.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "conceptIds": ["economic-principles"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-02",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "An informed buyer will not pay $700,000 for a home when an equally desirable available alternative costs $660,000, assuming no relevant differences. Which principle applies most directly?",
+    "options": [
+      {
+        "text": "Anticipation.",
+        "explanation": "Future benefits can affect both homes, but the decisive fact is the equally desirable available alternative.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Substitution.",
+        "explanation": "An informed buyer's available $660,000 alternative constrains the price of the equivalent $700,000 offering."
+      },
+      {
+        "text": "Contribution.",
+        "explanation": "Contribution measures a component's effect on the whole. No separate improvement is being priced here.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Conformity.",
+        "explanation": "Conformity concerns compatibility with market expectations; the explicit alternative-price comparison is substitution.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "conceptIds": ["economic-principles"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-03",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A proposed use is legally allowed and physically possible, but the completed property's value would not support total development cost and the required return. Which highest-and-best-use test first eliminates it?",
+    "options": [
+      {
+        "text": "Physical possibility.",
+        "explanation": "The stem expressly establishes physical possibility; the failure is in the project's economics.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Legal permissibility.",
+        "explanation": "Legal permission is already established, so zoning is not the failed test.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Financial feasibility.",
+        "explanation": "A project that cannot support its costs and required return fails financial feasibility."
+      },
+      {
+        "text": "Maximum productivity.",
+        "explanation": "Maximum productivity compares surviving feasible alternatives; this proposal fails before that comparison.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "highest-and-best-use",
+    "conceptIds": ["highest-best-use"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-04",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "An investor pays more today because a property's expected future rental income has increased. Which principle best explains the relationship?",
+    "options": [
+      {
+        "text": "Contribution.",
+        "explanation": "No particular improvement's incremental contribution is isolated in the facts.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Substitution.",
+        "explanation": "No equally desirable alternative constraining price is described.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Progression.",
+        "explanation": "No association with higher-valued neighboring properties is stated.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Anticipation.",
+        "explanation": "The investor is valuing increased expected future income in today's purchase decision."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "conceptIds": ["economic-principles"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-05",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "Two adjacent parcels worth $180,000 each are combined into a site worth $420,000. Ignoring assembly costs, the $60,000 increase is called:",
+    "options": [
+      {
+        "text": "Plottage.",
+        "explanation": "The combination produces $420,000 - ($180,000 + $180,000) = $60,000 of plottage."
+      },
+      {
+        "text": "Regression.",
+        "explanation": "Regression concerns a superior property's loss from association with lesser alternatives, not the gain from combining parcels.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Accrued depreciation.",
+        "explanation": "Accrued depreciation measures loss from current improvement cost, not the added value created by combining these parcels.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Replacement cost.",
+        "explanation": "Replacement cost estimates equivalent improvements, not the land-combination increment.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "assemblage-and-plottage",
+    "conceptIds": ["assemblage"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-06",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A property's seller asks $900,000, previously spent $720,000 acquiring and improving it, and accepts $840,000. Which number is the actual transaction price?",
+    "options": [
+      {
+        "text": "$900,000.",
+        "explanation": "This is the asking price, not the amount accepted in the transaction.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "$840,000.",
+        "explanation": "The accepted $840,000 is the actual transaction price. It does not by itself prove market value."
+      },
+      {
+        "text": "$720,000.",
+        "explanation": "The $720,000 is the seller's stated expenditure, which need not equal the sale price.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "$820,000.",
+        "explanation": "Averaging the three amounts gives $820,000 but does not identify an actual transaction.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "value-is-an-opinion-with-a-defined-purpose",
+    "conceptIds": ["value-concepts"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-07",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A buyer values a parcel especially highly because it completes the buyer's existing project. The value to that particular buyer most closely represents:",
+    "options": [
+      {
+        "text": "Market value.",
+        "explanation": "A premium unique to this buyer does not establish the price typical market participants would pay.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Insurable value.",
+        "explanation": "The facts concern a special project benefit, not the amount covered for an insured loss.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Investment value.",
+        "explanation": "Investment value reflects the property's worth to this particular buyer and the buyer's project."
+      },
+      {
+        "text": "Assessed value.",
+        "explanation": "A particular buyer's project benefit does not determine the value enrolled under assessment law.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "other-values-and-professional-roles",
+    "conceptIds": ["value-concepts"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-08",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A newer, exceptionally expensive house suffers in value because typical buyers in its market do not support its scale and finish relative to surrounding properties. Which principle is most directly illustrated?",
+    "options": [
+      {
+        "text": "Progression.",
+        "explanation": "Progression describes an inferior property's benefit from association with superior properties, the opposite direction.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Substitution.",
+        "explanation": "No specific equally desirable available substitute sets the price comparison in this stem.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Anticipation.",
+        "explanation": "Expected future benefits are not the specific relationship described between superior and surrounding properties.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Regression.",
+        "explanation": "Regression describes the superior property's reduced value in association with lower-valued competing surroundings."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "principles-that-explain-buyer-behavior",
+    "conceptIds": ["economic-principles"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-09",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A comparable sold for $650,000 and has a superior view worth $30,000 more than the subject's view. No other adjustment is needed. What is its adjusted indication?",
+    "options": [
+      {
+        "text": "$620,000.",
+        "explanation": "Subtract the comparable's $30,000 superiority: $650,000 - $30,000 = $620,000."
+      },
+      {
+        "text": "$680,000.",
+        "explanation": "Adding $30,000 makes the superior comparable still more valuable instead of adjusting it to the inferior subject.",
+        "misconceptionId": "reversed-adjustment"
+      },
+      {
+        "text": "$650,000.",
+        "explanation": "Leaving $650,000 unchanged ignores the stipulated market-supported difference.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "$30,000.",
+        "explanation": "The $30,000 is the adjustment amount, not the comparable's adjusted indication.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "adjust-the-comparable-to-the-subject",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 4, comparative sales approach",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-10",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A comparable sold for $540,000. It lacks a garage that the subject has, and the supported garage contribution is $24,000. What is the adjusted comparable price?",
+    "options": [
+      {
+        "text": "$516,000.",
+        "explanation": "Subtracting reverses the direction. The comparable lacks a feature that the subject has.",
+        "misconceptionId": "reversed-adjustment"
+      },
+      {
+        "text": "$564,000.",
+        "explanation": "Add $24,000 for the comparable's inferiority: $540,000 + $24,000 = $564,000."
+      },
+      {
+        "text": "$540,000.",
+        "explanation": "The unadjusted price ignores the garage difference supplied in the problem.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "$588,000.",
+        "explanation": "Adding the $24,000 contribution twice produces $588,000 and double-counts one feature.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "adjust-the-comparable-to-the-subject",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 4, comparative sales approach",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-11",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A comparable has a +$35,000 condition adjustment and a -$20,000 location adjustment. What are its net and gross adjustments?",
+    "options": [
+      {
+        "text": "Net $55,000; gross $15,000.",
+        "explanation": "This swaps the measures: gross sums absolute magnitudes, while net retains the signs.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "Net -$15,000; gross $55,000.",
+        "explanation": "The net change is positive because $35,000 exceeds the $20,000 deduction.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "Net +$15,000; gross $55,000.",
+        "explanation": "Net is $35,000 - $20,000 = $15,000; gross is $35,000 + $20,000 = $55,000."
+      },
+      {
+        "text": "Net +$15,000; gross $15,000.",
+        "explanation": "Netting is correct for the first measure, but gross cannot cancel opposite-signed adjustments.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "deriving-and-evaluating-adjustments",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-12",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A sale negotiated six months before the valuation date needs a supported total market-condition adjustment of +4%. Its price was $500,000. Before other adjustments, what is the adjusted price?",
+    "options": [
+      {
+        "text": "$504,000.",
+        "explanation": "Four percent of $500,000 is $20,000, not $4,000.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$480,000.",
+        "explanation": "A deduction reverses the expressly stipulated upward market adjustment.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$620,000.",
+        "explanation": "The supplied 4% is the total adjustment, not an amount to apply six times.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$520,000.",
+        "explanation": "$500,000 x 1.04 = $520,000. Use the stated total period adjustment."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "common-adjustment-categories",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 4, comparative sales approach",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-13",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "Three adjusted sales indicate $602,000, $608,000, and $635,000. The first two are well verified and highly comparable; the third requires several uncertain adjustments. What is the best next step?",
+    "options": [
+      {
+        "text": "Weight the verified, closely matched indications more.",
+        "explanation": "Reconciliation considers relevance and reliability. The facts support greater weight for the first two, not a mechanical rule."
+      },
+      {
+        "text": "Give each of the three indications equal weight.",
+        "explanation": "An arithmetic average would treat uncertain adjustments as equally reliable despite the stated evidence.",
+        "misconceptionId": "unsupported-inference"
+      },
+      {
+        "text": "Adopt the most recently reported indication alone.",
+        "explanation": "The stem does not establish that recency alone makes a sale the best indicator.",
+        "misconceptionId": "unsupported-inference"
+      },
+      {
+        "text": "Use the highest indication as the subject's value.",
+        "explanation": "Choosing the highest result favors a desired outcome instead of evaluating the evidence.",
+        "misconceptionId": "unsupported-inference"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "reconcile-then-communicate-limitations",
+    "conceptIds": ["sales-evidence"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-14",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "Two otherwise closely similar, well-verified sales differ primarily in whether they have a particular feature. An analyst uses the price difference to estimate that feature's contribution. This is:",
+    "options": [
+      {
+        "text": "Cost extraction.",
+        "explanation": "Cost extraction separates components from a price or cost model; the stated method compares two matched sales.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Paired sales analysis.",
+        "explanation": "A matched pair isolates the price response to the differing feature, subject to verification of other differences."
+      },
+      {
+        "text": "Gross rent analysis.",
+        "explanation": "No rental-income comparison or rent multiplier is supplied.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Age-life analysis.",
+        "explanation": "Age-life estimates depreciation from effective age and total life, not a paired transaction difference.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "deriving-and-evaluating-adjustments",
+    "conceptIds": ["sales-evidence"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      },
+      {
+        "label": "California BOE, Advanced Appraisal, paired-sales analysis at printed page 46",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-15",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "In a Fannie Mae appraisal, a comparable sale includes a seller concession. Which method supports the concession adjustment?",
+    "options": [
+      {
+        "text": "Deduct the seller's expenditure without price analysis.",
+        "explanation": "Cost to the seller and effect on price can differ; a dollar-for-dollar result requires market support.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Omit the adjustment when similar concessions are common.",
+        "explanation": "A common concession can still influence price. Typicality alone does not determine the adjustment.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Deduct the supported increase in the comparable's price.",
+        "explanation": "The adjustment removes the supported price effect, which may or may not equal the seller's cost."
+      },
+      {
+        "text": "Use the lender's maximum allowed credit as the adjustment.",
+        "explanation": "A credit limit is an underwriting constraint, not evidence of how this concession affected the sale price.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "common-adjustment-categories",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-16",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "What does an active listing primarily establish for a sales comparison analysis?",
+    "options": [
+      {
+        "text": "The price at which a buyer completed a purchase.",
+        "explanation": "An asking price is not a completed transaction price.",
+        "misconceptionId": "document-effect"
+      },
+      {
+        "text": "The amount a lender has approved as collateral value.",
+        "explanation": "An active listing does not establish a lender's appraisal or collateral approval.",
+        "misconceptionId": "document-effect"
+      },
+      {
+        "text": "The seller's net proceeds after transaction costs.",
+        "explanation": "Listing price alone does not reveal loan payoff, allocated costs, or actual net proceeds.",
+        "misconceptionId": "document-effect"
+      },
+      {
+        "text": "Current competition and the seller's asking position.",
+        "explanation": "An active offering identifies current competition and asking terms, not a completed sale."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "define-the-assignment-and-gather-evidence",
+    "conceptIds": ["sales-evidence"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-17",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "Land is valued at $210,000. Current replacement cost of the building is $480,000, and total accrued building depreciation is $96,000. With no other items, what is the cost indication?",
+    "options": [
+      {
+        "text": "$594,000.",
+        "explanation": "$210,000 land + $480,000 cost - $96,000 building depreciation = $594,000."
+      },
+      {
+        "text": "$690,000.",
+        "explanation": "This adds land and cost but omits the depreciation deduction.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$786,000.",
+        "explanation": "This adds the $96,000 loss instead of subtracting it.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$384,000.",
+        "explanation": "This is the depreciated building alone; the separate $210,000 land value is missing.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "worked-cost-indication",
+    "conceptIds": ["cost-approach"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-18",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "An improvement has an effective age of 15 years and total economic life of 60 years. Under the simplified age-life method, what percentage of cost is depreciation?",
+    "options": [
+      {
+        "text": "75%.",
+        "explanation": "This is percent good, the remaining 45/60, rather than the 15/60 depreciation fraction.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "25%.",
+        "explanation": "15 years / 60 years = 25% depreciation under the stated simplified age-life method."
+      },
+      {
+        "text": "33.33%.",
+        "explanation": "Using 45 remaining years as the denominator confuses remaining life with total economic life.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "15%.",
+        "explanation": "The number 15 describes years. Divide by total life before expressing the result as a percentage.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "age-and-life",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-19",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A repair costs $7,000 and is expected to restore $11,000 of value. Under the stated appraisal assumptions, the defect is:",
+    "options": [
+      {
+        "text": "Economically incurable.",
+        "explanation": "The stated value gain exceeds the cost, so the proposed cure is economically supported.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Dependent on the tax recovery period.",
+        "explanation": "Tax depreciation periods do not decide whether this repair's market benefit exceeds its cost.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Economically curable.",
+        "explanation": "The $11,000 restoration exceeds the $7,000 expenditure, making this proposed repair economically curable."
+      },
+      {
+        "text": "Indeterminate until chronological age is given.",
+        "explanation": "The supplied cost and benefit already permit the economic comparison; chronological age is not the missing denominator.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "curable-and-incurable-loss",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-20",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A house is in excellent physical condition, but its only bathroom can be reached only through a bedroom. Buyers pay less because of this layout. The loss is most directly:",
+    "options": [
+      {
+        "text": "Physical deterioration.",
+        "explanation": "The stem establishes excellent physical condition and identifies a deficient arrangement, not wear.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "External obsolescence.",
+        "explanation": "The stated cause is the property's own layout, not an influence originating outside its boundaries.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Deferred maintenance.",
+        "explanation": "The problem is not an overdue routine repair. Sound construction can still have inadequate utility.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Functional obsolescence.",
+        "explanation": "A poorly arranged bathroom can reduce utility and value even when the components are physically sound."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "three-categories-of-depreciation",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-21",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A well-maintained rental property's value declines because a nearby industrial operation creates persistent noise. The cause most directly illustrates:",
+    "options": [
+      {
+        "text": "External obsolescence.",
+        "explanation": "The neighboring operation is outside the property and causes the stated market loss."
+      },
+      {
+        "text": "Physical deterioration.",
+        "explanation": "Noise or another outside market influence does not itself establish wear in the subject's components.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Functional obsolescence.",
+        "explanation": "The stem identifies an external cause, not a deficient internal design.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Deferred maintenance.",
+        "explanation": "Postponed repairs are not the described source of this loss.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "three-categories-of-depreciation",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-22",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "An estimate measures the current cost to build a duplicate of a historic structure using the same design and features. It is an estimate of:",
+    "options": [
+      {
+        "text": "Replacement cost.",
+        "explanation": "Replacement seeks equivalent utility and may substitute modern design or materials rather than duplicate the historic structure.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Reproduction cost.",
+        "explanation": "Reproduction measures current duplication cost for the specified design and features."
+      },
+      {
+        "text": "Historical cost.",
+        "explanation": "Historical cost is the expenditure when built or acquired, not a current-price duplication estimate.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Depreciated cost.",
+        "explanation": "The prompt asks for cost to reproduce new, not an amount after accrued depreciation.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "replacement-reproduction-and-cost-components",
+    "conceptIds": ["cost-approach"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-23",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "Which statement correctly distinguishes appraisal depreciation from federal income-tax depreciation?",
+    "options": [
+      {
+        "text": "A tax deduction measures the year's market-value loss.",
+        "explanation": "Tax recovery of eligible basis is not a measurement of the year's actual market change.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Both land and building use the building's tax recovery period.",
+        "explanation": "Land is not depreciable for federal income-tax purposes merely because the building is.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Market appreciation can coexist with tax depreciation.",
+        "explanation": "Tax allocation of eligible building basis can occur while market prices rise. The two measures answer different questions."
+      },
+      {
+        "text": "Tax recovery life fixes the appraiser's economic-life estimate.",
+        "explanation": "The statutory recovery period does not determine an individual improvement's remaining economic contribution.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "appraisal-depreciation-versus-tax-depreciation",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "IRS Publication 527, rental-property depreciation",
+        "url": "https://www.irs.gov/publications/p527"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-24",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A cost approach estimates land at $300,000 and building cost at $500,000. The stated 20% depreciation applies only to the building. What mistake would produce an incorrect indication?",
+    "options": [
+      {
+        "text": "Deduct $500,000 x 20% from the building cost.",
+        "explanation": "This correctly computes the stated depreciation on the building alone.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Add $300,000 land to $400,000 building value.",
+        "explanation": "This correctly combines the separately valued land and depreciated building.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Compute a $100,000 building depreciation loss.",
+        "explanation": "$500,000 x 20% = $100,000 is the correct building loss.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Apply 20% depreciation to the combined $800,000.",
+        "explanation": "This wrongly depreciates the separately valued land along with the improvement."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "land-and-improvements-are-separate",
+    "conceptIds": ["cost-approach"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-25",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "Annual potential rent is $120,000, vacancy and collection loss is $6,000, other income is $2,000, and operating expenses are $46,000. Annual debt service is $40,000. What is NOI under the stated market-investment convention?",
+    "options": [
+      {
+        "text": "$70,000.",
+        "explanation": "$120,000 - $6,000 + $2,000 - $46,000 = $70,000 NOI. Debt service is separate."
+      },
+      {
+        "text": "$30,000.",
+        "explanation": "This subtracts $40,000 debt service from NOI and instead computes before-tax cash flow.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$76,000.",
+        "explanation": "This omits the $6,000 vacancy and collection allowance.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$116,000.",
+        "explanation": "This is effective gross income before the $46,000 operating expenses.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "build-the-operating-statement",
+    "conceptIds": ["noi-versus-cash-flow"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-26",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A property's stabilized annual NOI is $84,000. At a 7% capitalization rate, what value is indicated?",
+    "options": [
+      {
+        "text": "$588,000.",
+        "explanation": "Multiplying NOI by 7 treats the rate as a whole-number multiplier rather than the required decimal divisor.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$1,200,000.",
+        "explanation": "$84,000 / 0.07 = $1,200,000 under direct capitalization."
+      },
+      {
+        "text": "$5,880.",
+        "explanation": "$84,000 x 0.07 produces an income-times-rate figure, not capitalized value.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$12,000.",
+        "explanation": "Dividing by 7 rather than 0.07 makes the result one-hundredth of the indicated value.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "direct-capitalization",
+    "conceptIds": ["income-capitalization"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-27",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A comparable income property sold for $900,000 and had annual NOI of $63,000 calculated consistently with the subject. What overall capitalization rate does it indicate?",
+    "options": [
+      {
+        "text": "14.29%.",
+        "explanation": "The inverse ratio is about 14.29 times income, not the capitalization-rate percentage.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "0.7%.",
+        "explanation": "$63,000 / $900,000 = 0.07; converting to percent gives 7%, not 0.7%.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "7%.",
+        "explanation": "NOI divided by price is 0.07, or 7%. A separate mortgage interest rate is not needed."
+      },
+      {
+        "text": "70%.",
+        "explanation": "This moves the decimal one place too far; 0.07 equals 7%.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "direct-capitalization",
+    "conceptIds": ["income-capitalization"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-28",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A comparable sells for $630,000 with gross monthly rent of $3,500. Using its monthly GRM, what is indicated for a similar property renting for $4,200 per month?",
+    "options": [
+      {
+        "text": "$63,000.",
+        "explanation": "This effectively pairs an annual multiplier of 15 with monthly rent, mixing time units.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$525,000.",
+        "explanation": "Dividing by the subject-to-comparable rent ratio reverses the multiplier application.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$9,072,000.",
+        "explanation": "This pairs the monthly multiplier of 180 with annual rent, introducing an extra factor of twelve.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$756,000.",
+        "explanation": "$630,000 / $3,500 = 180 monthly GRM; 180 x $4,200 = $756,000."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "gross-rent-and-gross-income-multipliers",
+    "conceptIds": ["income-multipliers"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-29",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "An investor contributes $240,000 of initial cash. Annual NOI is $48,000 and annual debt service is $30,000. With no other cash adjustments, what is the before-tax cash-on-cash return?",
+    "options": [
+      {
+        "text": "7.5%.",
+        "explanation": "Cash flow before income tax is $48,000 - $30,000 = $18,000; dividing by $240,000 cash invested gives 7.5%."
+      },
+      {
+        "text": "20%.",
+        "explanation": "Twenty percent uses NOI before debt service. Cash-on-cash return uses the cash remaining for equity after debt payments.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "12.5%.",
+        "explanation": "Twelve and one-half percent divides debt service by cash invested; debt payments are not the owner's cash return.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "32.5%.",
+        "explanation": "Thirty-two and one-half percent adds debt service to NOI instead of subtracting it before dividing by cash invested.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "analyze-the-owners-investment",
+    "conceptIds": ["investment-ratios"],
+    "sources": [
+      {
+        "label": "California BOE, Advanced Appraisal, equity returns and debt coverage",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-30",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "Annual NOI is $96,000 and annual debt service is $80,000. What is the debt service coverage ratio?",
+    "options": [
+      {
+        "text": "0.83.",
+        "explanation": "This reverses the ratio: $80,000 debt service divided by $96,000 NOI is approximately 0.83.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "1.20.",
+        "explanation": "DSCR is $96,000 NOI divided by $80,000 annual debt service, or 1.20 times coverage."
+      },
+      {
+        "text": "0.20.",
+        "explanation": "This divides the $16,000 surplus after debt service by debt service. Coverage uses NOI before debt service.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "2.20.",
+        "explanation": "This adds debt service to NOI before dividing. Debt service is the denominator, not additional operating income.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+    "conceptIds": ["investment-ratios"],
+    "sources": [
+      {
+        "label": "California BOE, Advanced Appraisal, equity returns and debt coverage",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-31",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A $1,000,000 property is purchased with $750,000 of debt and $250,000 of equity. Its value falls to $900,000 while debt remains unchanged. Ignoring costs, what percentage of the original equity has been lost?",
+    "options": [
+      {
+        "text": "10%.",
+        "explanation": "Ten percent measures the loss against the $1 million property price, not against the investor's $250,000 equity.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "25%.",
+        "explanation": "Twenty-five percent is the original equity share of purchase price. It is not the percentage of equity lost.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "40%.",
+        "explanation": "The $100,000 value loss reduces equity from $250,000 to $150,000; $100,000 / $250,000 = 40%."
+      },
+      {
+        "text": "75%.",
+        "explanation": "Seventy-five percent is the original loan-to-value ratio, not the loss divided by the original cash investment.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "analyze-the-owners-investment",
+    "conceptIds": ["investment-ratios"],
+    "sources": [
+      {
+        "label": "California BOE, Advanced Appraisal, equity returns and debt coverage",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-32",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "Assuming annual NOI remains $72,000, a market cap rate rises from 6% to 8%. What happens to the direct-capitalization value indication?",
+    "options": [
+      {
+        "text": "From $900,000 to $1,200,000.",
+        "explanation": "This reverses the indications. Higher capitalization rates produce lower value when the same NOI is divided by the rate.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "From $1,200,000 to $1,224,000.",
+        "explanation": "The rate rises by two percentage points, but that does not mean property value rises by two percent.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "From $4,320 to $5,760.",
+        "explanation": "These results multiply NOI by the capitalization rate. Direct capitalization divides NOI by the rate expressed as a decimal.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "From $1,200,000 to $900,000.",
+        "explanation": "$72,000 / 0.06 = $1,200,000; $72,000 / 0.08 = $900,000. The higher required rate reduces value with NOI unchanged."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "direct-capitalization",
+    "conceptIds": ["income-capitalization"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-33",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A renovation's first stage costs $12,000 and adds $18,000 in value. A proposed second stage costs $30,000 and adds only $10,000. Which conclusion follows from the stated market contributions?",
+    "options": [
+      {
+        "text": "Approve both stages because the first stage adds more value than cost.",
+        "explanation": "The first stage's $6,000 favorable increment does not erase the second stage's $20,000 shortfall.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Evaluate each stage separately; only the first has a favorable value increment.",
+        "explanation": "The first stage adds $18,000 for $12,000 cost; the second adds only $10,000 for $30,000. Marginal contribution matters."
+      },
+      {
+        "text": "Reject both stages because the total project adds less value than cost.",
+        "explanation": "The combined project has a shortfall, but that does not eliminate the first stage's independently favorable $6,000 increment.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Approve the second stage because its higher cost establishes greater utility.",
+        "explanation": "The second stage costs more but contributes less. Expenditure alone does not establish the market's valuation of its utility.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "distinguish-benefits-expenditures-and-remaining-value",
+    "conceptIds": ["economic-principles"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-34",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "Two legally and physically possible projects are analyzed consistently. Offices have a $1,400,000 completed value and $1,100,000 nonland costs including required return. Apartments have $1,800,000 value and $1,560,000 corresponding costs. Which supports the larger residual land value?",
+    "options": [
+      {
+        "text": "Office: $300,000 residual versus $240,000 for apartments.",
+        "explanation": "Office leaves $1,400,000 - $1,100,000 = $300,000; apartments leave $1,800,000 - $1,560,000 = $240,000 under the stated assumptions."
+      },
+      {
+        "text": "Apartments: $1,800,000 completed value versus $1,400,000 for office.",
+        "explanation": "Completed value alone omits development costs. The higher apartment value does not produce the higher residual.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Apartments: $460,000 residual versus $300,000 for office.",
+        "explanation": "The apartment residual is $240,000. The $460,000 figure is the difference between the two development-cost estimates.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Office: $1,100,000 development cost versus $1,560,000 for apartments.",
+        "explanation": "Lower cost by itself is not the maximum-productivity test. Compare each feasible alternative's value remaining after its costs.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "work-through-the-four-tests-with-numbers",
+    "conceptIds": ["highest-best-use"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-35",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "An insurance estimate focuses on rebuilding covered improvements, while a market appraisal includes the specified land-and-improvement interest. The two values differ. What should the analyst do first?",
+    "options": [
+      {
+        "text": "Add land value to the insurance estimate to establish the required settlement.",
+        "explanation": "An insurance settlement depends on covered interests and policy terms. A land addition cannot establish that obligation.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Replace the market opinion with the insurance estimate because it is newer.",
+        "explanation": "Recency alone cannot make an estimate of covered rebuilding cost an estimate of market value including land.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Average the two opinions because each estimates the same property interest.",
+        "explanation": "The opinions can measure different interests for different purposes; averaging them would obscure those differences.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Compare their purposes and included interests before treating them as conflicting.",
+        "explanation": "Covered rebuilding cost and market value of land plus improvements need not be equal. Identify the assignment before comparing amounts."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "identify-the-value-question-before-choosing-evidence",
+    "conceptIds": ["value-concepts"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-36",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "A highly unusual structure is the only one of its kind, but buyers have little use for it and few can afford the required conversion. Which statement best evaluates the owner's claim that rarity guarantees high value?",
+    "options": [
+      {
+        "text": "Scarcity establishes value without evidence of purchasers' intended use.",
+        "explanation": "A rare structure can still have little utility to buyers. Scarcity alone does not establish a supported market value.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Reproduction cost sets the minimum value of a unique improvement.",
+        "explanation": "The cost of duplicating an unusual structure may exceed what buyers will pay for its utility.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Limited supply must be considered with utility and effective demand.",
+        "explanation": "Scarcity contributes to value only in context with utility, effective demand, and transferability; uniqueness is not enough."
+      },
+      {
+        "text": "Physical durability establishes demand for the remaining economic life.",
+        "explanation": "A structure may physically last longer than it remains economically useful. Durability does not establish willing, able buyers.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "conditions-supporting-value",
+    "conceptIds": ["economic-principles"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-37",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A comparable sold for $620,000. Its view is superior to the subject by $35,000, but its condition is inferior by $18,000. Using those supported amounts only, what is its adjusted indication?",
+    "options": [
+      {
+        "text": "$567,000.",
+        "explanation": "Subtracting both differences gives $567,000, but the comparable's inferior condition requires an addition.",
+        "misconceptionId": "reversed-adjustment"
+      },
+      {
+        "text": "$673,000.",
+        "explanation": "Adding both differences gives $673,000, but the comparable's superior view requires a deduction.",
+        "misconceptionId": "reversed-adjustment"
+      },
+      {
+        "text": "$603,000.",
+        "explanation": "$620,000 - $35,000 for the superior view + $18,000 for inferior condition = $603,000."
+      },
+      {
+        "text": "$637,000.",
+        "explanation": "Adding for the superior view and subtracting for inferior condition reverses both signs, producing $637,000.",
+        "misconceptionId": "reversed-adjustment"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "combine-adjustments-without-reversing-the-reference-point",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 4, comparative sales approach",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-38",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "The stated method requires a 5% upward time adjustment to a $500,000 sale first, followed by a $20,000 deduction for a superior feature. What is the adjusted result?",
+    "options": [
+      {
+        "text": "$504,000.",
+        "explanation": "This applies the 5% change after subtracting the feature: ($500,000 - $20,000) x 1.05. The specified sequence is different.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$455,000.",
+        "explanation": "This applies a 5% decrease before deducting the superior feature; the problem stipulates a market increase.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$545,000.",
+        "explanation": "This adds $20,000 for the comparable's superior feature after the time adjustment. Superiority requires a deduction.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$505,000.",
+        "explanation": "Apply the stated sequence: $500,000 x 1.05 = $525,000; subtract $20,000 to reach $505,000."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "combine-adjustments-without-reversing-the-reference-point",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 4, comparative sales approach",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-39",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A house sold for $600,000 and contains 2,000 square feet of living area. An analyst concludes that adding 100 square feet to the subject must add $30,000 in value. What is the problem with that conclusion?",
+    "options": [
+      {
+        "text": "Use $300 per square foot because a closed sale establishes the marginal rate.",
+        "explanation": "The $300 average includes the land and the existing improvements; it does not isolate the effect of another 100 square feet.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "The whole-property average is not the added area's marginal contribution.",
+        "explanation": "$600,000 / 2,000 = $300 per square foot is a whole-property average, not automatic support for a $30,000 marginal adjustment."
+      },
+      {
+        "text": "Use the added area's construction cost instead of sales-based evidence.",
+        "explanation": "Construction cost and market contribution can differ. Changing the source to cost does not establish the required price effect.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Remove the area difference because price per square foot already adjusts it.",
+        "explanation": "Computing an average unit price does not adjust a comparable for its specific difference from the subject.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "deriving-and-evaluating-adjustments",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-40",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "Three well-matched adjusted sales cluster near $585,000. A fourth indicates $670,000, and its reported price may include a separate parcel. What should the analyst do first?",
+    "options": [
+      {
+        "text": "Select the $670,000 indication because it establishes the upper market limit.",
+        "explanation": "The highest indication may include an additional interest. Its amount alone does not make it relevant to the subject.",
+        "misconceptionId": "unsupported-inference"
+      },
+      {
+        "text": "Exclude the $670,000 indication solely because it lies outside the cluster.",
+        "explanation": "An outlier prompts investigation; distance from the cluster alone does not establish an error or a sound exclusion.",
+        "misconceptionId": "unsupported-inference"
+      },
+      {
+        "text": "Verify the conveyed parcel interests before reconciling the indications.",
+        "explanation": "If the $670,000 sale includes an extra parcel, its unadjusted interest is not equivalent. Verify the facts and reconcile supported evidence."
+      },
+      {
+        "text": "Give the four indications equal weight to offset the apparent outlier.",
+        "explanation": "Equal weighting before checking the possible extra parcel can import a known comparability problem into the result.",
+        "misconceptionId": "unsupported-inference"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "use-ranges-to-reveal-questions-worth-resolving",
+    "conceptIds": ["sales-evidence"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-41",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A 1,800-square-foot building has direct costs of $200 per square foot. The estimate separately requires $32,000 indirect costs and $28,000 entrepreneurial incentive, neither included in the unit rate. What is current improvement cost before depreciation?",
+    "options": [
+      {
+        "text": "$300,000.",
+        "explanation": "This subtracts the $32,000 indirect cost and $28,000 incentive from direct cost. The problem requires adding both.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$420,000.",
+        "explanation": "Direct cost is 1,800 x $200 = $360,000; adding $32,000 indirect cost and $28,000 entrepreneurial incentive gives $420,000."
+      },
+      {
+        "text": "$360,000.",
+        "explanation": "$360,000 includes only direct construction cost and omits the stated indirect cost and entrepreneurial incentive.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$392,000.",
+        "explanation": "$392,000 includes direct and indirect cost but omits the $28,000 entrepreneurial incentive required by the estimate.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "build-a-complete-cost-estimate",
+    "conceptIds": ["cost-approach"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-42",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A technically possible $3,000 alteration is expected to restore only $500 in market value. Under these stated economic assumptions, how is its curability best evaluated?",
+    "options": [
+      {
+        "text": "Economically incurable under the stated market evidence.",
+        "explanation": "Spending $3,000 to restore only $500 of value fails the economic cure test, even if the work is physically possible."
+      },
+      {
+        "text": "Economically curable because the total cost is relatively small.",
+        "explanation": "A small absolute bill does not establish curability. Compare the $3,000 cost with the $500 benefit.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Economically curable because the work physically removes the defect.",
+        "explanation": "Physical repairability and economic curability are distinct; the market benefit does not justify this stated expenditure.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "External obsolescence because the cost exceeds the restored value.",
+        "explanation": "The economic cure test does not identify the cause as external. Classify the source of the loss separately.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "curable-does-not-mean-cheap-and-incurable-does-not-mean-impossible",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-43",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "An exercise directs deduction of a $10,000 curable defect from $400,000 current cost, then 20% age-life depreciation of the remaining cost. What is the depreciated improvement contribution?",
+    "options": [
+      {
+        "text": "$312,000.",
+        "explanation": "Deduct the separately treated $10,000 repair first: ($400,000 - $10,000) x 0.80 = $312,000 under the stated model."
+      },
+      {
+        "text": "$310,000.",
+        "explanation": "This deducts $80,000 age-life loss from the original $400,000 and another $10,000. The supplied factor applies to the reduced base.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$390,000.",
+        "explanation": "$390,000 removes the repair but omits the additional 20% loss stipulated for the remaining base.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$320,000.",
+        "explanation": "$320,000 applies 20% depreciation to the original cost and never separately removes the repair as instructed.",
+        "misconceptionId": "wrong-formula"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "avoid-counting-a-repair-twice-in-depreciation",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-44",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A brand-new specialized building has high construction cost but limited demand for its unusual layout. Which statement is most appropriate?",
+    "options": [
+      {
+        "text": "Test market-supported functional and external loss even though it is new.",
+        "explanation": "A new structure may have little wear but still suffer from a specialized layout or weak external demand. Those losses require evidence."
+      },
+      {
+        "text": "Retain full replacement cost because physical deterioration is minimal.",
+        "explanation": "Minimal physical wear does not rule out functional or external depreciation, which can affect a new building.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Use construction expenditure as the supported lower limit of value.",
+        "explanation": "Construction expenditure is not a market-value floor. Buyers may not pay for an improvement's full cost.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Classify the entire cost-value difference as age-related deterioration.",
+        "explanation": "Age-related deterioration does not explain limited utility and demand merely because the cost indication exceeds observed value.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "reconcile-cost-with-market-behavior",
+    "conceptIds": ["cost-approach"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-45",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A rental owner received a one-time $4,800 insurance refund and proposes capitalizing it at 6% as a permanent $80,000 value increase. What is the analytical problem?",
+    "options": [
+      {
+        "text": "Classify the refund as annual debt service before capitalizing income.",
+        "explanation": "An insurance refund is not a scheduled payment on financing. Relabeling it does not fix the nonrecurring-income problem.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Add $80,000 because the $4,800 receipt was actually collected.",
+        "explanation": "$4,800 / 0.06 = $80,000 is mathematically correct, but capitalizing an isolated receipt as recurring overstates stabilized income.",
+        "misconceptionId": "recall-confusion"
+      },
+      {
+        "text": "Exclude the isolated refund from stabilized recurring operating income.",
+        "explanation": "Direct capitalization needs a supported recurring income measure. The one-time refund does not support an ongoing $4,800 annual increment."
+      },
+      {
+        "text": "Increase the capitalization rate by 6% to offset the refund.",
+        "explanation": "An arbitrary rate change cannot substitute for correctly classifying the income. The supplied rate does not turn a refund into recurring income.",
+        "misconceptionId": "recall-confusion"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "stabilize-income-without-inventing-it",
+    "conceptIds": ["income-stabilization"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-46",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "Annual NOI rises from $60,000 to $66,000 while the market cap rate rises from 5% to 6%. What happens to the direct-capitalization indication?",
+    "options": [
+      {
+        "text": "From $1,200,000 to $1,320,000.",
+        "explanation": "This uses the old 5% rate for the new $66,000 NOI. The new rate is 6%, which changes the denominator.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "From $1,000,000 to $1,100,000.",
+        "explanation": "This uses the new 6% rate for the original $60,000 NOI. The original rate is 5%.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "From $1,200,000 to $1,200,000.",
+        "explanation": "Income rises 10%, but the rate rises 20% relative to its original level. They do not cancel in the division.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "From $1,200,000 to $1,100,000.",
+        "explanation": "Original value is $60,000 / 0.05 = $1,200,000; new value is $66,000 / 0.06 = $1,100,000."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "measure-the-value-effect-of-a-recurring-change",
+    "conceptIds": ["income-capitalization"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-47",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "An investor contributes $400,000 cash to a property producing $75,000 annual NOI and requiring $50,000 annual debt service. With no other cash adjustments, what are DSCR and cash-on-cash return?",
+    "options": [
+      {
+        "text": "DSCR 1.25 and cash-on-cash 6.25%.",
+        "explanation": "The cash return is correct, but $75,000 / $50,000 produces 1.50 coverage, not 1.25.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "DSCR 1.50 and cash-on-cash 6.25%.",
+        "explanation": "DSCR is $75,000 / $50,000 = 1.50; cash return is ($75,000 - $50,000) / $400,000 = 6.25%."
+      },
+      {
+        "text": "DSCR 1.50 and cash-on-cash 12.50%.",
+        "explanation": "Coverage is correct, but 12.5% divides debt service by equity instead of dividing the remaining $25,000 cash flow by equity.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "DSCR 0.67 and cash-on-cash 18.75%.",
+        "explanation": "Coverage is inverted, and 18.75% divides NOI by equity before deducting debt service. Both ratios use the wrong quantities.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+    "conceptIds": ["investment-ratios"],
+    "sources": [
+      {
+        "label": "California BOE, Advanced Appraisal, equity returns and debt coverage",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-48",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A single $110,000 payment is expected one year from now. Using a 10% annual discount rate and the stated one-period assumptions, what is its present value?",
+    "options": [
+      {
+        "text": "$99,000.",
+        "explanation": "Subtracting 10% of the future $110,000 gives $99,000, but the required return is earned on the present investment.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$1,100,000.",
+        "explanation": "Dividing by 0.10 treats the single future receipt as perpetual annual income rather than a payment one year from now.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$121,000.",
+        "explanation": "Multiplying $110,000 by 1.10 compounds it forward another year. This question asks for present value.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "$100,000.",
+        "explanation": "$110,000 / 1.10 = $100,000; investing $100,000 at 10% for one year produces the stated future receipt."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "recognize-the-time-value-of-money",
+    "conceptIds": ["income-capitalization"],
+    "sources": [
+      {
+        "label": "California BOE, income approach rates and factors",
+        "url": "https://www.boe.ca.gov/info/iav/lesson10.htm"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-49",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "Two legally permissible and physically possible uses are compared on the same risk and timing basis. A completed office project would be worth $3,000,000 and require $2,420,000 of all nonland costs including developer compensation. Apartments would be worth $2,700,000 with $2,030,000 of equivalent nonland costs. Which has the higher supported land residual?",
+    "options": [
+      {
+        "text": "Office, with a $300,000 advantage in residual value.",
+        "explanation": "$300,000 is the completed-value difference, before the different development costs. It does not compare the residuals.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Apartments, with a $90,000 advantage in residual value.",
+        "explanation": "Office leaves $3,000,000 - $2,420,000 = $580,000; apartments leave $2,700,000 - $2,030,000 = $670,000, a $90,000 advantage."
+      },
+      {
+        "text": "Apartments, with a $390,000 advantage in residual value.",
+        "explanation": "$390,000 is the difference in development costs. It omits the office project's higher completed value.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Office, with a $580,000 advantage in residual value.",
+        "explanation": "$580,000 is the office residual, not its advantage over apartments. The apartment residual is higher.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "work-through-the-four-tests-with-numbers",
+    "conceptIds": ["highest-best-use"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-50",
+    "domain": "valuation",
+    "lessonSlug": "valuation-value-principles",
+    "prompt": "Two parcels are worth $360,000 and $440,000 separately. Their supported value assembled into one site is $950,000. The buyer can acquire them at their separate values but must spend another $175,000 to complete the assemblage and make the combined site usable. Ignore other costs. Which statement distinguishes plottage from the buyer's economics?",
+    "options": [
+      {
+        "text": "$950,000 plottage; $775,000 surplus after stated outlay.",
+        "explanation": "$950,000 is the entire assembled value, not the increment; subtracting only $175,000 also omits the $800,000 acquisition outlay.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$175,000 plottage; $150,000 surplus after stated outlay.",
+        "explanation": "$175,000 is the added assembly cost, not plottage. Cost and market-supported increment are different measures.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$150,000 plottage; $150,000 surplus after stated outlay.",
+        "explanation": "The gross value increment is $150,000, but the added $175,000 expenditure makes the project's stated net result negative.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$150,000 plottage; $25,000 shortfall after stated outlay.",
+        "explanation": "Separate values total $800,000; plottage is $950,000 - $800,000 = $150,000. Total outlay of $975,000 exceeds value by $25,000."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "assemblage-and-plottage",
+    "conceptIds": ["assemblage"],
+    "sources": [
+      {
+        "label": "DRE, Appraisal and Valuation",
+        "url": "https://www.dre.ca.gov/files/pdf/refbook/ref15.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-51",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "In a Fannie Mae appraisal exercise, a comparable sold for $800,000 with concessions costing the seller $24,000. Supported analysis attributes $15,000 of its sale price to the concessions. After that adjustment, apply the stipulated 2% market increase, then deduct $10,000 for the comparable's superior garage. What is the adjusted indication?",
+    "options": [
+      {
+        "text": "$790,700",
+        "explanation": "Use the supported price effect and stipulated sequence: ($800,000 - $15,000) x 1.02 - $10,000 = $790,700."
+      },
+      {
+        "text": "$781,520",
+        "explanation": "This deducts the seller's $24,000 expenditure. The market-supported effect on the comparable's price is only $15,000.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$810,700",
+        "explanation": "This handles concessions and time correctly but adds $10,000 for the comparable's superior garage instead of subtracting it.",
+        "misconceptionId": "reversed-adjustment"
+      },
+      {
+        "text": "$791,000",
+        "explanation": "This computes the 2% increase on the original $800,000 rather than the stipulated post-concession $785,000 base.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "common-adjustment-categories",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-52",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "prompt": "A comparable went under contract three months before the appraisal's effective date. A twelve-month local index rose 6%, but reliable evidence for the comparable's competitive segment shows no price change between its contract date and the effective date. Which time adjustment is best supported by these facts?",
+    "options": [
+      {
+        "text": "Add 6%, using the annual index for the earlier contract.",
+        "explanation": "The full-year index does not establish movement in the relevant competitive segment during these three months.",
+        "misconceptionId": "unsupported-inference"
+      },
+      {
+        "text": "Add 1.5%, prorating the annual index over three months.",
+        "explanation": "Uniform monthly growth is an assumption contradicted by the supplied evidence for the actual interval.",
+        "misconceptionId": "unsupported-inference"
+      },
+      {
+        "text": "Apply 0%, explaining the segment's period-specific evidence.",
+        "explanation": "The relevant segment shows no change from contract date to effective date. Explain that evidence rather than importing another period's trend."
+      },
+      {
+        "text": "Subtract 6%, treating the earlier contract as a downward factor.",
+        "explanation": "An older contract date does not itself establish a decline. The supplied evidence supports no change during the relevant interval.",
+        "misconceptionId": "unsupported-inference"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "common-adjustment-categories",
+    "conceptIds": ["sales-adjustments"],
+    "sources": [
+      {
+        "label": "Fannie Mae, adjustments to comparable sales",
+        "url": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-53",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A site is worth $250,000 excluding site improvements. Building replacement cost is $500,000, and the building is 65% good after all identified building depreciation. Separate site improvements cost $30,000 new and are 60% good. What is the cost-approach indication?",
+    "options": [
+      {
+        "text": "$443,000",
+        "explanation": "This retains only 35% of the building cost. Sixty-five percent good means retain 65%, not deduct 65%.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$768,000",
+        "explanation": "This includes the building's full $500,000 cost without depreciation, plus land and the correctly depreciated site improvements.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$505,500",
+        "explanation": "This applies the building's 65% factor to the land as well as the building. The land is valued separately.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$593,000",
+        "explanation": "$250,000 land + ($500,000 x 0.65) building + ($30,000 x 0.60) site improvements = $593,000."
+      }
+    ],
+    "answer": 3,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "percent-good-measures-the-remaining-contribution",
+    "conceptIds": ["cost-approach"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-54",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "prompt": "A $640,000 replacement-cost estimate has a supported 75% good factor that already includes every identified building defect. The appraiser separately notes a $20,000 roof-related loss already included in that factor. What is the building contribution before adding land?",
+    "options": [
+      {
+        "text": "$460,000.",
+        "explanation": "This subtracts the $20,000 roof loss after the factor has already accounted for it, counting the same loss twice.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$480,000.",
+        "explanation": "$640,000 x 0.75 = $480,000. The supplied all-inclusive percent-good factor already includes the roof-related loss."
+      },
+      {
+        "text": "$465,000.",
+        "explanation": "This removes $20,000 from cost and then applies an all-inclusive factor that already reflects that defect.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$160,000.",
+        "explanation": "This is the 25% depreciation complement, not the remaining 75% contribution requested.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 1,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "avoid-counting-a-repair-twice-in-depreciation",
+    "conceptIds": ["appraisal-depreciation"],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6, reproduction and replacement cost",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-55",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A property has annual potential rent of $240,000, a 5% vacancy and collection allowance, $2,000 other income, and $80,000 operating expenses including property taxes. Annual debt service is $100,000 and initial cash invested is $400,000. With no other adjustments, what are DSCR and before-tax cash-on-cash return?",
+    "options": [
+      {
+        "text": "1.50 and 12.5%.",
+        "explanation": "EGI is $240,000 - $12,000 + $2,000 = $230,000; NOI is $150,000. DSCR is 1.50 and $50,000 cash flow / $400,000 = 12.5%."
+      },
+      {
+        "text": "1.50 and 37.5%.",
+        "explanation": "Coverage is correct, but 37.5% uses $150,000 NOI before debt payments instead of the $50,000 remaining cash flow.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "0.50 and 12.5%.",
+        "explanation": "Cash return is correct, but coverage uses NOI before debt service. Dividing the $50,000 surplus by debt service gives the wrong numerator.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "2.30 and 32.5%.",
+        "explanation": "Both figures omit $80,000 operating expenses: EGI is not NOI, and EGI less debt service is not the owner's operating cash flow.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 0,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+    "conceptIds": ["investment-ratios"],
+    "sources": [
+      {
+        "label": "California BOE, Advanced Appraisal, equity returns and debt coverage",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-56",
+    "domain": "valuation",
+    "lessonSlug": "valuation-income-analysis",
+    "prompt": "A property initially produces $108,000 NOI. A buyer proposes $72,000 annual debt service and a $360,000 cash investment. Before purchase, a recurring expense increase reduces expected NOI by $18,000; the financing and initial cash are unchanged. With no other adjustments, what are the revised DSCR and cash-on-cash return?",
+    "options": [
+      {
+        "text": "1.50 and 10%.",
+        "explanation": "These are the ratios before the $18,000 recurring expense increase. They do not measure the revised income scenario.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "1.25 and 25%.",
+        "explanation": "Coverage is correct, but 25% uses revised NOI before subtracting debt service for the equity cash return.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "1.25 and 5%.",
+        "explanation": "Revised NOI is $90,000; $90,000 / $72,000 = 1.25. Cash flow is $18,000, and $18,000 / $360,000 = 5%."
+      },
+      {
+        "text": "0.25 and 5%.",
+        "explanation": "Cash return is correct, but coverage divides NOI before debt service by debt service, not the $18,000 surplus by debt service.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 2,
+    "revision": 2,
+    "pool": "practice",
+    "sectionId": "debt-coverage-and-cash-return-answer-different-questions",
+    "conceptIds": ["investment-ratios"],
+    "sources": [
+      {
+        "label": "California BOE, Advanced Appraisal, equity returns and debt coverage",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/ah502.pdf"
+      }
+    ],
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-06",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-57",
+    "domain": "valuation",
+    "lessonSlug": "valuation-sales-comparison",
+    "sectionId": "common-adjustment-categories",
+    "conceptIds": [
+      "sales-evidence"
+    ],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 4",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule4.pdf"
+      }
+    ],
+    "prompt": "A tract analysis already reduces the saleable lot count for required streets. Its $900,000 retail proceeds are then reduced by $210,000 subdivision cost, $45,000 selling expense, $135,000 normal profit, and $30,000 marketing-period interest. With no other adjustments, what amount is indicated for the raw tract?",
+    "options": [
+      {
+        "text": "$480,000.",
+        "explanation": "The four allowances total $420,000; subtract them from $900,000. Street area was already accounted for in the saleable lot count."
+      },
+      {
+        "text": "$615,000.",
+        "explanation": "This omits the $135,000 normal profit allowance.",
+        "misconceptionId": "missing-condition"
+      },
+      {
+        "text": "$900,000.",
+        "explanation": "Gross finished-lot proceeds do not account for the stated development and marketing allowances.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "$1,320,000.",
+        "explanation": "This adds costs and allowances that reduce the supported raw-tract amount.",
+        "misconceptionId": "reversed-adjustment"
+      }
+    ],
+    "answer": 0,
+    "revision": 1,
+    "pool": "practice",
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-07",
+      "method": "ai-primary-source"
+    }
+  },
+  {
+    "id": "valuation-58",
+    "domain": "valuation",
+    "lessonSlug": "valuation-cost-approach",
+    "sectionId": "build-a-complete-cost-estimate",
+    "conceptIds": [
+      "cost-approach"
+    ],
+    "sources": [
+      {
+        "label": "California BOE, Property Tax Rule 6",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/rules/Rule6.pdf"
+      }
+    ],
+    "prompt": "A suitable construction index rises from 125 when a new building cost $240,000 to 150 now. An analyst calls the 25-point change a 25% increase and reports $300,000. No abnormal costs or depreciation are involved. Which correction uses the proper index base?",
+    "options": [
+      {
+        "text": "Use $192,000 because the original index is smaller.",
+        "explanation": "That reverses the ratio and reduces cost despite the stated rise.",
+        "misconceptionId": "wrong-formula"
+      },
+      {
+        "text": "Keep $300,000 because every index point equals one percent.",
+        "explanation": "A point change must be compared with its actual starting index, not automatically with 100.",
+        "misconceptionId": "wrong-base"
+      },
+      {
+        "text": "Use $288,000 because 150 / 125 equals 1.20.",
+        "explanation": "The increase is 20% of the original index. Multiplying $240,000 by 1.20 gives $288,000 before depreciation."
+      },
+      {
+        "text": "Use $360,000 because the current index is 150.",
+        "explanation": "This ignores the original index and treats the current level as a factor of 1.50.",
+        "misconceptionId": "wrong-base"
+      }
+    ],
+    "answer": 2,
+    "revision": 1,
+    "pool": "practice",
+    "review": {
+      "status": "source-checked",
+      "reviewed": "2026-09-07",
+      "method": "ai-primary-source"
+    }
+  }
 ]
