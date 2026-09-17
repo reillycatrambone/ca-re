@@ -2,10 +2,10 @@
 
 ## State on 17 September 2026
 
-The static application is deployed at https://ca-re.reillycatrambone.workers.dev.
-The intended canonical address is https://ca-re.reillycatrambone.com. Its domain
-switch is pending Namecheap sign-in for the parent domain. Vercel still serves
-`ca-re.vercel.app`; do not retire it until the custom domain passes its live checks.
+The static application is live at https://ca-re.reillycatrambone.com on Cloudflare.
+The preview remains at https://ca-re.reillycatrambone.workers.dev. The parent domain
+now uses Cloudflare nameservers. Valid TLS and all 346 canonical-domain files have
+been verified. `ca-re.vercel.app` now serves the temporary session-transfer bridge.
 
 - Source commit: `39926ef8803d1ff6d17acd1f7f82b8b37e70f062`.
 - Vercel project: `ca-re`, `prj_XvtidKH3YPOOLAq17AMVrjXQnGhI`.
@@ -52,8 +52,12 @@ fragment. The fragment is not sent to the server and is removed from browser
 history when the page reads it. Visitors without a session continue to the same
 path and query at the new address. The old saved copy is not deleted.
 
-Deploy that bridge to the existing Vercel project only after the new custom
-domain and the transfer page are verified. Keep it available while the owner
+The bridge is active in deployment `dpl_674dEVyrboZhsxJZ5kWSA3nCvV2D` on the
+existing Vercel project. A live test with isolated, synthetic browser data proved
+that answers, flags, position, and reload persistence survive the transfer.
+An empty browser retains its path, query, and fragment at the new address.
+The owner's current Chrome session followed the empty-session path to the
+textbook. Keep the bridge available while the owner
 moves any wanted sessions. Deleting Vercel ends its `vercel.app` URLs and their
 transfer bridge; a previously downloaded backup still works on Cloudflare.
 
@@ -63,21 +67,29 @@ transfer bridge; a previously downloaded backup still works on Cloudflare.
 - All 84 existing browser checks pass against the remote Cloudflare Worker.
 - Four additional browser checks cover transfer across origins, file backup,
   retained answers/flags/position, invalid backups, and persistence after reload.
+- The complete 89-test browser suite passes in GitHub CI.
 - All 346 final exported files were fetched and matched by SHA-256. The missing
   route returns the exported 404 page with HTTP 404.
+- The same 346 files match through the real custom domain after cutover.
+- The deployed Vercel bridge passes the live cross-origin session test.
 
 Private settings snapshots, the original Git bundle, and verification results
 are in `~/.codex/migration-ca-re-portfolio/` and `.migration/`. Neither directory
 is committed. The original Vercel production deployment is retained for rollback.
 
-## Remaining cutover
+## Vercel retirement
 
-The parent domain's registrar is Namecheap. Replace its four current nameservers
-with `harleigh.ns.cloudflare.com` and `joel.ns.cloudflare.com` after sign-in.
-The pending Cloudflare zone already binds `ca-re` to this Worker and preserves
-the portfolio and photo-blog records. Confirm an active zone, valid TLS, all
-routes/assets, and browser study behavior through the final custom domain.
+The parent domain's registrar remains Namecheap. Its nameservers are now
+`harleigh.ns.cloudflare.com` and `joel.ns.cloudflare.com`. Cloudflare activated
+the zone at 15:58 UTC on 17 September 2026. The zone binds `ca-re` to this Worker
+and preserves the portfolio and photo-blog records. Both managed TLS and direct
+custom-domain requests pass. The old Vercel DNS also points `ca-re` to the verified
+Cloudflare addresses for resolvers with cached nameservers.
 
-Then activate the Vercel transfer bridge, verify the live transfer, and mark the
-project safe to retire. `vercel.json` disables future Git-triggered Vercel builds.
+The Cloudflare application no longer needs the Vercel project. Before deleting
+the project, visit `https://ca-re.vercel.app` in each browser with wanted saved
+progress and restore that session, or download a backup. Deletion ends the old
+links and the temporary bridge. The source deployment is retained for rollback;
+promote `dpl_HJZ2PU9i18qCvur9Yr39P2LaWxqD` to restore the old application while the
+project still exists. `vercel.json` disables future Git-triggered Vercel builds.
 Do not delete any unrelated projects, domain registrations, or shared services.
