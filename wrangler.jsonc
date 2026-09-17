@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ca-re",
+  "account_id": "5f664f4b283ca81a3229fdf867feca19",
+  "compatibility_date": "2026-09-17",
+  "workers_dev": true,
+  "routes": [{ "pattern": "ca-re.reillycatrambone.com", "custom_domain": true }],
+  "assets": {
+    "directory": "./out",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

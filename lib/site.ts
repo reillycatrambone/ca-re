@@ -1,1 +1,1 @@
-export const siteUrl = 'https://ca-re.reillycatrambone.chatgpt.site'
+export const siteUrl = 'https://ca-re.reillycatrambone.com'

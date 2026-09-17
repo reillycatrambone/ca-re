@@ -81,7 +81,7 @@ Read [AUTHORING.md](AUTHORING.md) before editing educational content. Legal revi
 
 There are no application credentials, analytics integrations, accounts, or personal-data fields. The current practice session uses the `ca-re:study:v1` browser storage key and never goes to an application backend. Earlier records are migrated without completion, bookmark, known-term, or history fields. Hosting services may process ordinary request data.
 
-The project can be hosted as a static Next.js export. The current working run is local. No production deployment is required to use the textbook. Held-out exam assets are public and inspectable; separation from normal learning workflows is not a secrecy guarantee.
+The project runs as a static Next.js export on Cloudflare Workers. See [deployment instructions and migration status](CLOUDFLARE-MIGRATION.md). Held-out exam assets are public and inspectable; separation from normal learning workflows is not a secrecy guarantee.
 
 ## Attribution
 
