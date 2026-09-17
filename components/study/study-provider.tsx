@@ -4,7 +4,7 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 import { studySessionSchema, type StudySession } from '@/lib/exam'
 import { z } from 'zod'
 
-const schema = z.object({
+export const studyStateSchema = z.object({
   session: studySessionSchema.nullable(),
 })
 export interface StudyState {
@@ -30,7 +30,7 @@ export function StudyProvider({ children }: { children: ReactNode }) {
     const restore = (stored: string | null) => {
       let restored = emptyStudy
       try {
-        restored = stored ? schema.parse(JSON.parse(stored)) : emptyStudy
+        restored = stored ? studyStateSchema.parse(JSON.parse(stored)) : emptyStudy
       } catch {
         setStorageError(
           'The saved session uses an older or invalid question set. Start a new session.'

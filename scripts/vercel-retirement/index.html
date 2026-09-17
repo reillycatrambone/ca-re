@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<meta name="robots" content="noindex"><meta name="referrer" content="no-referrer">
+<title>California Real Estate has moved</title>
+<h1>California Real Estate has moved</h1>
+<p><a id="continue" href="https://ca-re.reillycatrambone.com/">Continue to the textbook</a></p>
+<script>
+  const destination = new URL('https://ca-re.reillycatrambone.com');
+  destination.pathname = location.pathname;
+  destination.search = location.search;
+  destination.hash = location.hash;
+  try {
+    const stored = localStorage.getItem('ca-re:study:v1');
+    if (stored && JSON.parse(stored).session) {
+      destination.pathname = '/transfer/';
+      destination.search = '';
+      destination.hash = new URLSearchParams({ study: stored }).toString();
+    }
+  } catch { /* Visitors without browser storage can still read the textbook. */ }
+  document.getElementById('continue').href = destination.href;
+  location.replace(destination.href);
+</script>
+</html>
